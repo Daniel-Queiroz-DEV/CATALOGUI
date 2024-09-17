@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <GROUP DIRECTORY="Balcoes" NAME="Balcões" PREFIXID="COZ_COZ_BAL_" INVISIBLE="N">
   <AGGREGATECOLLECTION>
     <AGGREGATE ID="com_tam_mad_reta" ISDRAWABLE="Y">
@@ -30,6 +30,8 @@
   </AGGREGATECOLLECTION>
   <EXPLORERITEMCOLLECTION>
     <EXPLORERITEM TYPE="entity" ID="BAN_INF_BAL_NICHO" DEF="NICHO.entity" GUID="2b371c63-7da4-43f0-9f04-bb71eacdef70" />
+    <EXPLORERITEM TYPE="entity" ID="BAN_INF_BAL_NICHO_3" DEF="NICHO_3.entity" GUID="165e3ed3-e40d-46d8-889c-2d1adeceddf2" />
+    <EXPLORERITEM TYPE="entity" ID="BAN_INF_BAL_NICHO_2" DEF="NICHO_2.entity" GUID="d3931e6d-e6c0-4643-a339-657d3da8dc83" />
     <EXPLORERITEM TYPE="entity" ID="BAN_INF_BAL_1P" DEF="1_Porta.entity" GUID="d659f844-d5c3-4e1b-9477-55cb285f9741" />
     <EXPLORERITEM TYPE="entity" ID="BAN_INF_BAL_2P" DEF="2_Porta.entity" GUID="6350948d-2158-4405-b527-23b0b03ded5c" />
     <EXPLORERITEM TYPE="entity" ID="BAN_INF_BAL_3P" DEF="3P.entity" GUID="06cfe43a-7a84-44e4-9c67-ae1c45a43fae" />

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Doppio Cisne ($TEXT$)" ICON="doppio_cisne.jpg">
+  <INSERTDIMENSION TEXT="200.092 AS" />
+  <DRAWING>
+    <FILE3D NAME="doppio_cisne_200092" FORMAT=".dxf" />
+    <DIMENSION WIDTH="42" HEIGHT="270" DEPTH="67" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_man" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Doppio Cisne 240mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

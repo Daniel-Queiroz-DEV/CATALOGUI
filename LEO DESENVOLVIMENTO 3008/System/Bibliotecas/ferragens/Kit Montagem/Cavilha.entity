@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="CAVILHA PLASTICA 8X30" ICON="Cavilha.jpg" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="cavilha" />
+    <LIMITS>
+      <MIN X="-12.5" Y="-5" Z="-5" />
+      <MAX X="27.5" Y="5" Z="5" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="10">
+      <PONTO2DA X="-0.05" Y="-5" />
+      <PONTO2DA X="0.05" Y="-5" />
+      <PONTO2DA X="0.05" Y="5" />
+      <PONTO2DA X="-0.05" Y="5" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="40" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="8" HEIGHT="30" DEPTH="8" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="25" HEIGHT="10" DEPTH="10" TEXT="CAV" />
+  <REFERENCE IDREFERENCE="DOBRADICAS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="CAVILHA PLASTICA 8X30" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

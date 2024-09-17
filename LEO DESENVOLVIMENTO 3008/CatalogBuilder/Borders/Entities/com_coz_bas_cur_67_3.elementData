@@ -1,0 +1,333 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "0"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "700"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "RightNeighbour": 5,
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "0, 700",
+        "Mid": "0, 350"
+      },
+      "BorderID": "100de6fb-98c1-4ae5-b15c-9ef0b14df677",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cur_67_3"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.Borders.ArcComposedBorder, Procad.Builder.Core",
+          "CutOffset": {
+            "Value": "0"
+          },
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "Borders": [
+            {
+              "ProfileIndex": 1,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 5,
+              "LeftVertexIndex": 1,
+              "RightVertexIndex": 2,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "300,1",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 0,
+              "RightNeighbour": 4,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Mid": "150, 50003051758",
+                "End": "300, 100006103516"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur_67"
+            },
+            {
+              "ProfileIndex": 2,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 2,
+              "RightVertexIndex": 3,
+              "LeftPoint": {
+                "X": "300,1",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "600",
+                "Y": "349,8833"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 5,
+              "RightNeighbour": 3,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "300, 100006103516",
+                "Mid": "522, 513207267487",
+                "End": "600, 349"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur_67"
+            },
+            {
+              "ProfileIndex": 3,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 3,
+              "LeftVertexIndex": 3,
+              "RightVertexIndex": 4,
+              "LeftPoint": {
+                "X": "600",
+                "Y": "349,8833"
+              },
+              "RightPoint": {
+                "X": "600",
+                "Y": "350,1167"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 4,
+              "RightNeighbour": 2,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "600, 349",
+                "Mid": "600, 350",
+                "End": "600, 350"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur_67"
+            },
+            {
+              "ProfileIndex": 4,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 2,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 5,
+              "LeftPoint": {
+                "X": "600",
+                "Y": "350,1167"
+              },
+              "RightPoint": {
+                "X": "300,1",
+                "Y": "700"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 3,
+              "RightNeighbour": 1,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "600, 350",
+                "Mid": "522, 513207267487",
+                "End": "300, 100006103516"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur_67"
+            },
+            {
+              "ProfileIndex": 5,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 1,
+              "LeftVertexIndex": 5,
+              "RightVertexIndex": 0,
+              "LeftPoint": {
+                "X": "300,1",
+                "Y": "700"
+              },
+              "RightPoint": {
+                "X": "0",
+                "Y": "700"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 2,
+              "RightNeighbour": 0,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "300, 100006103516",
+                "Mid": "150, 50003051758",
+                "End": "0, 700"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur_67"
+            }
+          ],
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "LayerName": "BORDA",
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "OperationPrice": "BORDA",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "Text": "Borda01",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Angle": {
+            "Value": "0"
+          }
+        }
+      ],
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "0"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "Text": "Borda01",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "Index": 1,
+      "Angle": {
+        "Value": "0"
+      },
+      "BorderID": "2c3078f0-759e-41a5-b39c-400795d9fb2a",
+      "ElementId": "com_coz_bas_cur_67_3"
+    }
+  ],
+  "ElementId": "com_coz_bas_cur_67_3"
+}

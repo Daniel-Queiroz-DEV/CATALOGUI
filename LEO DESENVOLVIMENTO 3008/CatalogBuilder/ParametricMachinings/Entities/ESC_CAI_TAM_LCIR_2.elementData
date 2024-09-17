@@ -1,0 +1,100 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#ESC_LAR_VAO_CAI_TOM#"
+      },
+      "Height": {
+        "Value": "#ESC_PRO_VAO_CAI_TOM# "
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "CAIXA_TOMADA",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-#ESC_AFA_CXT_EST_CAN#-#ESC_LAR_VAO_CAI_TOM#",
+        "Y": "$D$-#ESC_AFA_CXT_EST_FRO#-#ESC_PRO_VAO_CAI_TOM#"
+      },
+      "ElementId": "ESC_CAI_TAM_LCIR_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#ESC_PRO_VAO_CAI_TOM#"
+      },
+      "Height": {
+        "Value": "#ESC_LAR_VAO_CAI_TOM#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "CAIXA_TOMADA",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-#ESC_AFA_CXT_EST_FRO#-#ESC_PRO_VAO_CAI_TOM#",
+        "Y": "$D$-#ESC_LAR_VAO_CAI_TOM#-#ESC_AFA_CXT_EST_CAN#"
+      },
+      "ElementId": "ESC_CAI_TAM_LCIR_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#ESC_LAR_VAO_CAI_TOM#"
+      },
+      "Height": {
+        "Value": "#ESC_PRO_VAO_CAI_TOM# "
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "CAIXA_TOMADA",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 2,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "300",
+        "Y": "$D$-#ESC_PRO_VAO_CAI_TOM#-#ESC_AFA_CXT_EST_FRO#"
+      },
+      "ElementId": "ESC_CAI_TAM_LCIR_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#ESC_PRO_VAO_CAI_TOM#"
+      },
+      "Height": {
+        "Value": "#ESC_LAR_VAO_CAI_TOM#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "#ESC_AFA_CXT_EST_FRO#",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-#ESC_AFA_CXT_EST_FRO#-#ESC_PRO_VAO_CAI_TOM#",
+        "Y": "#ESC_AFA_CXT_EST_LAT#"
+      },
+      "ElementId": "ESC_CAI_TAM_LCIR_2"
+    }
+  ],
+  "ElementId": "ESC_CAI_TAM_LCIR_2"
+}

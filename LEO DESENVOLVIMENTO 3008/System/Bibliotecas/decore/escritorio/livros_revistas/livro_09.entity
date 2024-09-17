@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Livro" ICON="LIVRO_09.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Livro" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="LIVRO_09" />
+    <DIMENSION WIDTH="150" HEIGHT="30" DEPTH="250" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_CAPA" ID="DEC_CAPA" EDIT="Y" IDMATERIAL="ima_livros_livro 002" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

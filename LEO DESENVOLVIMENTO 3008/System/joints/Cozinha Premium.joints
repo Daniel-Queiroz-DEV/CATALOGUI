@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JOINTS>
+  <JOINT FIRST="ace_pux_J" SECOND="ace_pux_J" SUBSTITUTE="ace_pux_J" NAME="Perfil J+Perfil J" TYPE="Left-Right" TREATASAGGREGATE="N" />
+  <JOINT FIRST="ace_pux_J_2" SECOND="ace_pux_J_2" SUBSTITUTE="ace_pux_J_2" NAME="Perfis U" TYPE="Left-Right" TREATASAGGREGATE="Y" />
+  <JOINT FIRST="ace_pux_cava_lateral" SECOND="ace_pux_cava_lateral" SUBSTITUTE="ace_pux_cava_lateral" NAME="Perfil L+ Perfil L" TYPE="Bottom-Top" TREATASAGGREGATE="Y" GAPHEIGHT="0" GAPDEPTH="0" />
+  <JOINT FIRST="ace_fer_cant_mon_cava_3_2" SECOND="ace_fer_cant_mon_cava_3_2" SUBSTITUTE="ace_fer_cant_mon_cava_3_2" NAME="Guarnicao + Guarnicao" TYPE="Bottom-Top" TREATASAGGREGATE="Y" GAPHEIGHT="0" GAPDEPTH="0" />
+</JOINTS>

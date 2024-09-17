@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Plana c/ Personalizado" DIRECTORY="Plana_Personalizado" PREFIXID="zen_pla_per_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="PLANA">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\plana" />
+      <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-25" Y="-17" Z="-25" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PLANA_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\plana_couro" />
+      <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-25" Y="-17" Z="-25" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PLANA_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\plana_diamond" />
+      <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-25" Y="-17" Z="-25" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <BUDGET>
+    <INFORMATION RULE="ZEN_UN_PERSONALIZADOS" />
+  </BUDGET>
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+    <PROPOSEDATTRIBUTE ID="ACAB" />
+    <PROPOSEDATTRIBUTE ID="TEXT_PER_HOR_CEN" />
+  </PROPOSEDATTRIBUTES>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_mod_for_per_cen">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="personalizado" CONCURRENT="N" DESCRIPTION="" ORDER="0" CONSTANT="Y">
+          <POSITION X="-$W$/2" Y="-$PD$" Z="-$H$/2" ROTATION="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION PARENTID="zen_mod_for_per_cen" ID="zen_mod_for_per_ver_cen" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE CODIGO="@('$REFERENCE(ZEN_PERSONALIZACAO)$' == 'VERTICAL_CENTRALIZADO' ? $D.TEXT_PER_VER_CEN$ : '$REFERENCE(ZEN_PERSONALIZACAO)$' == 'HORIZONTAL_CENTRALIZADO' ? $D.TEXT_PER_HOR_CEN$ : 'FALTA_REFERENCIA')" ZEN_PERSONALIZACAO="!find(entityid,zen_mod_for_per_*).$REFERENCE(COMPLETE)$!" ZEN_TOTAL_LETRAS="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_TOTAL_LETRAS)$!" ZEN_LETRA_1="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_LETRA_1)$!" ZEN_LETRA_2="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_LETRA_2)$!" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CANMIRRORONLYPOSITION" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pla_16_per" DEF="16mm.group" GUID="be63bbd0-3382-480a-b123-d87f77abb49d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

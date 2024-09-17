@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Garrafas 2" ICON="P_GAR2.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Garrafas 2" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_GAR2" />
+    <DIMENSION WIDTH="515" HEIGHT="70" DEPTH="100" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Marco ($TEXT$)" ICON="marco.jpg">
+  <DRAWING>
+    <FILE3D NAME="marco" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="458" HEIGHT="10" DEPTH="28" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.396" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_pux_mar" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Marco 448mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Par_obi_pux_mar@" />
+</ENTITY>

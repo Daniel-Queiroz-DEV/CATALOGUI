@@ -1,0 +1,40 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "152,6357",
+        "Y": "-52,34897"
+      },
+      "DistanceFromShape": -52.34897,
+      "DistanceFromElement": -52.34897,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, -52",
+      "DirectionFromSecondElement": "0, -52",
+      "ElementId": "com_coz_bas_curva_2_18"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "577,5",
+        "Y": "182,8294"
+      },
+      "DistanceFromShape": 27.5,
+      "DistanceFromElement": 27.5,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "27, 5",
+      "DirectionFromSecondElement": "27, 5",
+      "ElementId": "com_coz_bas_curva_2_18"
+    }
+  ],
+  "ElementId": "com_coz_bas_curva_2_18"
+}

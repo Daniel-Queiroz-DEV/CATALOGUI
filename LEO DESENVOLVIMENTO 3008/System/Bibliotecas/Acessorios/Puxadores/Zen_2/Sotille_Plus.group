@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Sotille_Plus" NAME="Sotille Plus" PREFIXID="zen_sot_plu_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <BUDGET>
+    <INFORMATION RULE="ZEN_M_SOTILLE_PLUS" />
+  </BUDGET>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_fur_sot_plus_furo">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="furo_esq" CONCURRENT="Y" DESCRIPTION="Esq" CONSTANT="Y" GROUP="Furo">
+          <POSITION X="-$PW$/2+16" Y="20.75" Z="21.6" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="furo_dir" CONCURRENT="Y" DESCRIPTION="Dir" CONSTANT="Y" GROUP="Furo">
+          <POSITION X="$PW$/2-$W$-16" Y="20.75" Z="21.6" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <VISIBLE CONDITION="$PW$&gt;=500">
+          <AGGREGATEINFORMATION ID="furo_rep" CONCURRENT="Y" DESCRIPTION="Repetição" DEFAULT="Y" GROUP="Furo">
+            <REPETITIONS DEFAULT="@($PW$ &lt;= 500 ? 1 : $PW$ &gt;= 501 &amp;&amp; $PW$ &lt;= 1000 ? 2 : $PW$ &gt;= 1001 &amp;&amp; $PW$ &lt;= 1500 ? 3 :$PW$ &gt;= 1501 &amp;&amp; $PW$ &lt;= 2000 ? 4 :$PW$ &gt;= 2001 &amp;&amp; $PW$ &lt;= 2500 ? 5 : 6)" RECALCULATEONCHANGEFORM="Y" />
+            <POSITION X="-$PW$/2+($W$+((($PW$-$W$)/($N$+1))-$W$)+(($W$+((($PW$-$W$)/($N$+1))-$W$))*($NI$-1)))" Y="20.75" Z="21.6" ROTATION="0" />
+            <NORMAL A="0" B="0" C="1" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <DRAWING>
+    <DIMENSION WIDTH="296" HEIGHT="30" DEPTH="39.9" />
+    <LIMITS>
+      <MIN X="-148" Y="-19.438" Z="15.6" />
+      <MAX X="148" Y="20.5" Z="45.6" />
+    </LIMITS>
+    <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SOTILLE_PLUS" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="148" FORMULA="$W$/2">
+            <VECTOR U="-1" V="-4.653901E-08" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-12.75671" V="-28.07476" />
+              <CORNER2 U="-171.6357" V="42.66702" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="148" FORMULA="$W$/2">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="5.025373" V="45.37299" />
+              <CORNER2 U="158.106" V="-30.39416" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_25_2" DEF="ZP4587_25.entity" GUID="2d7a2ba1-30c9-4073-a573-4adf05eea055" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_895_2" DEF="ZP4587_895.entity" GUID="be426daa-4f72-447e-b7fa-c175464fb83a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_896_2" DEF="ZP4587_896.entity" GUID="86f3da2e-d907-4823-a21f-c9e571ea3e1a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_897_2" DEF="ZP4587_897.entity" GUID="70029356-caf1-4581-99ca-8b4aa39e6ede" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_898_2" DEF="ZP4587_898.entity" GUID="aacbe184-2e39-4961-ae06-a11171afb692" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_899_2" DEF="ZP4587_899.entity" GUID="4b24ba5a-eb68-470a-8a4f-52b5c30cb303" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_900_2" DEF="ZP4587_900.entity" GUID="02c1afa3-e096-434d-acd3-a9292384aabb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_901_2" DEF="ZP4587_901.entity" GUID="2f45d592-ee97-44f6-a333-2bc927603ab9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_902_2" DEF="ZP4587_902.entity" GUID="fa2c575f-c6cf-4db2-a3a0-ea4ff171d52d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_903_2" DEF="ZP4587_903.entity" GUID="60668f42-c3bc-4fee-89b8-9450a3f3d72d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_904_2" DEF="ZP4587_904.entity" GUID="9dec01db-65ed-42c1-86be-d247a2861037" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_24_2" DEF="ZP4587_24.entity" GUID="ce878c17-da0e-4a80-b94a-dcd1423641d4" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_599_2" DEF="ZP4587_599.entity" GUID="5b60ef0b-97fd-4afa-bc7e-40cc6a2e3e2b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_907_2" DEF="ZP4587_907.entity" GUID="a27349d5-8c11-41db-972d-1a60d376c6a0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_95_2" DEF="ZP4587_95.entity" GUID="065bfac7-ddf8-4df2-95ac-0d14c53b7572" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sot_plu_ZP4587_30_2" DEF="ZP4587_30.entity" GUID="fe674512-7c98-4b5c-98b0-ee36645b9639" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</GROUP>

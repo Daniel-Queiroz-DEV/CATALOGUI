@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Pint Branco ($TEXT$.$D.ACAB$)" ICON="Sotile.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sotile 480mm Alum Pint Branco" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="512" TEXT="ZP1940" ACAB="25" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_pint_branca" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

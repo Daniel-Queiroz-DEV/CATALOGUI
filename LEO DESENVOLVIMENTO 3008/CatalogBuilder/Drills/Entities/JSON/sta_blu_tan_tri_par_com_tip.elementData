@@ -1,0 +1,215 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furo1_top_todos",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_270mm",
+        "Condition": {
+          "Expression": "$D$ == 270"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-131",
+          "Y": "33,5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_300-450mm",
+        "Condition": {
+          "Expression": "$D$ >= 300 && $D$ <=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-163",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_500-550mm",
+        "Condition": {
+          "Expression": "$D$ >= 500 && $D$ <=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-259",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_500-550mm",
+        "Condition": {
+          "Expression": "$D$ >= 500 && $D$ <=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-273",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_500-550mm",
+        "Condition": {
+          "Expression": "$D$ >= 500 && $D$ <=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "273",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_500-550mm",
+        "Condition": {
+          "Expression": "$D$ >= 500 && $D$ <=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 6,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "259",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_300-450mm",
+        "Condition": {
+          "Expression": "$D$ >= 300 && $D$ <=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 7,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "163",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo2_top_270mm",
+        "Condition": {
+          "Expression": "$D$ == 270"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 8,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "131",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      },
+      {
+        "Name": "Furo1_top_todos",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 9,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "35",
+          "Y": "33.5"
+        },
+        "ElementId": "sta_blu_tan_tri_par_com_tip"
+      }
+    ]
+  },
+  "ElementId": "sta_blu_tan_tri_par_com_tip"
+}

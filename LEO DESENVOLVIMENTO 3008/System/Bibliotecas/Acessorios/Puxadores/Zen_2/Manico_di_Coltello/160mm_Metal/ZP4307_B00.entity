@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Manico di Coltelo.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_gol_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_met_gol_esc_rec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Manico di Coltello Metal 160mm Recartilhado/Gold Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP4307" ACAB="B00" />
+</ENTITY>

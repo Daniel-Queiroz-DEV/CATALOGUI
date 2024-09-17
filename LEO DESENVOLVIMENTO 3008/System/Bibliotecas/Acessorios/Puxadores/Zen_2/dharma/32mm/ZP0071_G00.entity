@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado ($TEXT$.$D.ACAB$)" ICON="dharma_p.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Dharma 32mm Red Gold Escovado" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="40" HEIGHT="40" DEPTH="22" TEXT="ZP0071" ACAB="G00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

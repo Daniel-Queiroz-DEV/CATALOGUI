@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fune_Gales" NAME="Fune Gales" PREFIXID="zen_fun_gal_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="FUNE_GALES_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUNE_GALES_PONTO" />
+      <DIMENSION WIDTH="22" HEIGHT="82" DEPTH="11" />
+      <LIMITS>
+        <MIN X="-11" Y="-11" Z="-71" />
+        <MAX X="11" Y="0" Z="11" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_fun_gal_pon" DEF="Ponto.group" GUID="d182cb42-b917-4420-8655-535b99657128" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

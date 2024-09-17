@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reling 1.5m">
+  <DRAWING>
+    <FILE3D NAME="zrg1500" />
+    <DIMENSION WIDTH="1500" HEIGHT="10.6" DEPTH="10.6" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="1500" HEIGHT="10" DEPTH="10" TEXT="">
+    <MIN WIDTH="10" HEIGHT="10" DEPTH="10" />
+    <MAX WIDTH="1500" HEIGHT="10" DEPTH="10" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Reling 1,5m Branco" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

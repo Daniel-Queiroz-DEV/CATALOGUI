@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Travessas_2" NAME="Travessas Maranello 18" PREFIXID="com_coz_tra_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tra_tra_18" DEF="com_coz_tra_tra_3_3.entity" GUID="006ce187-1917-44c1-8106-b53f1094b53f" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tra_tra_18_4" DEF="com_coz_tra_tra_3_3_4.entity" GUID="c455cd48-ad10-4473-8284-c2f936abfa86" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tra_tra_18_3" DEF="com_coz_tra_tra_3_3_3.entity" GUID="1657a837-eedb-4ed3-98ea-becef6e8a051" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tra_tra_18_2" DEF="com_coz_tra_tra_3_3_2.entity" GUID="70be3c31-f6d1-4f02-bad8-5e9d341f0716" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_FILETE_2_2" DEF="PAI_PAI_2_3_2_2.entity" GUID="d1bfef14-977b-40aa-b348-a79377b10706" />
+  </EXPLORERITEMCOLLECTION>
+  <REFERENCE TIPO_ARMARIO="$P.REFERENCE(TIPO_ARMARIO)$" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_020_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_033_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_051" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_053" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_055" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_057" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_06_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_062" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_063" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_072" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_074" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_080" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_087" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_090" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_093" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_634" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_635" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_638" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_639" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_648" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_649" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_651" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_653" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_655" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_fita" MODELTYPE="acabamento_027" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_709" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_710" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_711" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_743" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_742" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_735" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_739" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_740" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_130" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_131" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_027" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra" MODEL="com_caixas" MODELTYPE="acabamento_088" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_744" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_727" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_tra_2" MODEL="com_caixas" MODELTYPE="acabamento_726" CONDITION="$H$ == 25" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

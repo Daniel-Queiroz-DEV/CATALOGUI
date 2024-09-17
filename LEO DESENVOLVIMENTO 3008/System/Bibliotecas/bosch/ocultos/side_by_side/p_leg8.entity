@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Legumes 8" ICON="P_LEG8.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Legumes 8 SIDe" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_LEG8" />
+    <DIMENSION WIDTH="415" HEIGHT="220" DEPTH="600" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

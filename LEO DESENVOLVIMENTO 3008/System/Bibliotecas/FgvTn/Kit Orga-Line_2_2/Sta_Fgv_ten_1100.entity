@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Organizador Volumix 500 mm" TYPE="ENTITY" ICON="VOLUMIX.jpg">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWING>
+    <FILE3D NAME="volumix450c" />
+    <DIMENSION WIDTH="199.2" HEIGHT="64" DEPTH="419" />
+    <LIMITS>
+      <MIN X="0" Y="-414" Z="0" />
+      <MAX X="199.2" Y="5" Z="64" />
+    </LIMITS>
+  </DRAWING>
+  <BUDGET>
+    <MARGIN ACR_2="Org_Tan" ACRESCIMO="Org_Tan" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Organizador Volumix 500 mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="181" HEIGHT="65" DEPTH="480" TEXT="59V001S61805000" DESC="" ITEM_BASE="59V001S61805000" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="fgv_champagne" EDIT="N" />
+    <COMPONENTDEFINITION ID="CINZA" NAME="CINZA" IDMATERIAL="cin_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-100) Duplo Stone ($TEXT$)" ICON="Home_Duplo_Stone.jpg" CHECKED="N">
+  <DRAWING ID="Home_Duplo_Stone" />
+  <INSERTDIMENSION HEIGHT="400" TEXT="" ACAB="804" MODE="OnlyProposedH" WIDTH="40" DEPTH="140">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="400" TEXT="ZP2025" />
+      <PROPOSEDVALUE HEIGHT="700" TEXT="ZP2026" />
+      <PROPOSEDVALUE HEIGHT="1100" TEXT="ZP2027" />
+      <PROPOSEDVALUE HEIGHT="1600" TEXT="ZP2028" />
+    </PROPOSEDVALUES>
+    <MIN DEPTH="50" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_hom_dup_sto" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_hom_dup_sto" MODEL="Zen_man_hom_dup_sto" MODELTYPE="Zen_man_hom_sto_A37" CONDITION="$H$ &gt;= 1100" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_hom_dup_sto" MODEL="Zen_man_hom_dup_sto" MODELTYPE="Zen_man_hom_sto_B37" CONDITION="$H$ &gt;= 1100" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_hom_dup_sto" MODEL="Zen_man_hom_dup_sto" MODELTYPE="Zen_man_hom_sto_F32" CONDITION="$H$ &gt;= 1100" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_hom_dup_sto" MODEL="Zen_man_hom_dup_sto" MODELTYPE="Zen_man_hom_sto_G32" CONDITION="$H$ &gt;= 1100" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_hom_dup_sto" MODEL="Zen_man_hom_dup_sto" MODELTYPE="Zen_man_hom_sto_L37" CONDITION="$H$ &gt;= 1100" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_hom_dup_sto" MODEL="Zen_man_hom_dup_sto" MODELTYPE="Zen_man_hom_sto_M32" CONDITION="$H$ &gt;= 1100" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Home @($H$-100)mm Alça para porta Duplo @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="90" FORMULA="$D$-50">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.87543" V="19.55122" />
+              <CORNER2 U="75.06522" V="-60.29105" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="200" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-167.2509" V="309.4342" />
+              <CORNER2 U="162.6887" V="54.40352" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="200" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-179.4787" V="-12.56466" />
+              <CORNER2 U="183.7011" V="-266.2008" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

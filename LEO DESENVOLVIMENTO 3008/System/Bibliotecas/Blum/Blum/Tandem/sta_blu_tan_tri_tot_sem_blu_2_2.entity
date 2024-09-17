@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Eixo de sincronização para Tip On integrado" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="tri_lat_tot_fur_2_2" />
+    <DIMENSION WIDTH="325.8" HEIGHT="47.5" DEPTH="386" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="325" HEIGHT="47.5" DEPTH="350" TEXT="" DESC="">
+    <MIN WIDTH="100" HEIGHT="10" DEPTH="100" />
+    <MAX WIDTH="1100" HEIGHT="500" DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Eixo de sincronização para Tip On integrado" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

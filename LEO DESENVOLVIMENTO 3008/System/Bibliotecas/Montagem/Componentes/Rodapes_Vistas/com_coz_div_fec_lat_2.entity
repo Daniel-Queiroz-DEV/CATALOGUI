@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fechamento Dormitorio ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_div_fec_lat_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_div_fec_lat_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Fechamento" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#DOR_ESP_FEC#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="FEC01" TEXT="1407">
+    <MIN WIDTH="60" DEPTH="60" />
+    <MAX WIDTH="2720" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

@@ -1,0 +1,177 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "$PW$"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "800",
+        "Y": "400"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "400"
+      },
+      "Angle": {},
+      "LeftNeighbour": 9,
+      "RightNeighbour": 8,
+      "Condition": {},
+      "Arc": {
+        "Start": "800, 400",
+        "Mid": "400, 400",
+        "End": "0, 400"
+      },
+      "BorderStructureID": "",
+      "BorderID": "fcf37054-9127-4591-be5c-56777c8e65d9",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_PORTA_JOIAS_80_2_2"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "$PH$"
+      },
+      "Index": 8,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "400"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 4,
+      "RightNeighbour": 10,
+      "Condition": {},
+      "Arc": {
+        "Start": "0, 400",
+        "Mid": "0, 200"
+      },
+      "BorderStructureID": "",
+      "BorderID": "1902ab2b-d50b-4f99-8c82-fc7ca2ae08fe",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_PORTA_JOIAS_80_2_2"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "$PH$"
+      },
+      "Index": 9,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "800",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "800",
+        "Y": "400"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 10,
+      "RightNeighbour": 4,
+      "Condition": {},
+      "Arc": {
+        "Start": "800, 0",
+        "Mid": "800, 200",
+        "End": "800, 400"
+      },
+      "BorderStructureID": "",
+      "BorderID": "81f4c6c7-e6ad-4b49-86e7-dba56df430f0",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_PORTA_JOIAS_80_2_2"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "$PW$"
+      },
+      "Index": 10,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "800",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 8,
+      "RightNeighbour": 9,
+      "Condition": {},
+      "Arc": {
+        "Mid": "400, 0",
+        "End": "800, 0"
+      },
+      "BorderStructureID": "",
+      "BorderID": "2363cd3c-6577-4700-b619-a0dbdcf5da29",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_PORTA_JOIAS_80_2_2"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_JOIAS_80_2_2"
+}

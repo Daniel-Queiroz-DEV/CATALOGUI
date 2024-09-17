@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="gaveta_inf_ext_1_1" Description="Interna\Nova categoria\Sapateira\Nova categoria\Sapateira\Nova categoria\Externa" EntityId="ESC_CAI_GAV_EXT" GroupName="Gavetas" Name="Gaveta Externa" Type="Drawer">
+  <Dimension Depth="Floor(($P.D$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_INF_AFA_FUN_MOV#-#VAO_GAV#)/50)*50" Height="$P.H$" Width="$P.W$" />
+  <Position Y="-$P.D$" />
+  <Actions>
+    <ResizeItem Side="Bottom" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_INF_POR#+(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+          <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="#ESC_FOL_MOD_SUP#+(#ESC_ESP_PRAT_FIX#+#ESC_FOL_PAI#)/2-#ESC_FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)">
+      <Conditions>
+        <And>
+          <IsBottomGap />
+          <IsUpperGap Not="Y" />
+          <Or Not="Y">
+            <HasNeighbourItem ItemType="Front" Side="Top" />
+            <HasNeighbourItem ItemType="Drawer" Side="Top" />
+          </Or>
+        </And>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Front Id="gav_frente" EntityId="POR_FRE_FEC" FollowsOpening="Y" ModelName="Const Arm - Frentes" Tag="Frente" Type="Front">
+    <Dimension Depth="(#ESC_ESP_POR#+#FOL_PAI#)" Height="$PH$" Width="$P.W$+2*(#ESC_ESP_LAT#+#FOL_PAI#)-2*#ESC_FOL_ENT_PT_LAR#" />
+    <Position X="-(#ESC_ESP_LAT#+#FOL_PAI#)+#ESC_FOL_ENT_PT_LAR#" />
+    <Actions>
+      <ResizeItem Value="-(#ESC_ESP_LAT#+#FOL_PAI#)/2">
+        <Conditions>
+          <Or>
+            <HasNeighbourItem ItemType="Front" Side="Left" />
+            <HasNeighbourItem ItemType="Drawer" Side="Left" />
+          </Or>
+        </Conditions>
+      </ResizeItem>
+      <ResizeItem Side="Right" Value="-(#ESC_ESP_LAT#+#FOL_PAI#)/2">
+        <Conditions>
+          <Or>
+            <HasNeighbourItem ItemType="Front" Side="Right" />
+            <HasNeighbourItem ItemType="Drawer" Side="Right" />
+          </Or>
+        </Conditions>
+      </ResizeItem>
+    </Actions>
+  </Front>
+  <Variables>
+    <Variable Id="DrawingType" Value="DrawerFront" />
+    <Variable Id="DefaultDrawersQuantity" Value="4" />
+    <Variable Id="SpaceBetweenDrawers" Value="#ESC_FOL_ENT_GAV#" />
+    <Variable Id="UpperDrawersOffset" Value="#ESC_FOL_SUP_POR#" />
+    <Variable Id="LowerDrawersOffset" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_INF_POR#" />
+  </Variables>
+</Item>

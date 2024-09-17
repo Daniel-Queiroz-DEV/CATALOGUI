@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gota Simples ($TEXT$)" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_GOT.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_esc_tam_3070" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="500" Y="-550" A="230" />
+      <PONTO2DA X="50" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="500" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="550" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="#B#">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-46.35241" V="67.14749" />
+              <CORNER2 U="94.42159" V="-79.34903" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="#A#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="434.3841" V="-494.8433" />
+              <CORNER2 U="574.0135" V="-597.8486" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Gota Simples" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="#P.A#" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="#P.B#" VISIBLE="N" />
+    <ATTRIBUTE ID="LOCKEDGEOMETRY" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="@(#ESC_ESP_TAM_MES#+#FOL_PAI#)" ITEM_BASE="TAMP01" TEXT="2106" />
+</ENTITY>

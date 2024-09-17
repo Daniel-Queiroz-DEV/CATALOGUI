@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Laterais" NAME="Laterais" PREFIXID="com_con_lat_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_lat" DEF="com_con_lat_lat.entity" GUID="52890eca-bd1f-4374-ab48-6a2ac390ec52" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_lat_sfix" DEF="com_con_lat_lat_sfix.entity" GUID="61324a39-02a4-4e3b-b721-713804dca312" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_cons_arm_gir" DEF="com_con_lat_cons_arm_gir.entity" GUID="94a9a444-28a9-4ea7-b2b1-580d7d63c5a8" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_cons_arm_gir_srod" DEF="com_con_lat_cons_arm_gir_srod.entity" GUID="5b74c783-a03a-4ce6-b222-25819d1a698b" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_cons_arm_desl" DEF="com_con_lat_cons_arm_desl.entity" GUID="e96aab68-e3e7-42dd-ae82-99cc83b6c1bf" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_cons_arm_desl_srod" DEF="com_con_lat_cons_arm_desl_srod.entity" GUID="1fee99bf-7995-4431-b527-dfbfe192d06d" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_des_ext_crod" DEF="com_con_lat_des_ext_crod.entity" GUID="7506650f-7e60-4040-af6d-2e286235f2e1" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_esc" DEF="com_con_lat_esc.entity" GUID="1ad2b9a1-25af-434e-b435-b1ad0cc9dd4a" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_fec" DEF="com_con_lat_fec.entity" GUID="829e0381-359f-4b10-8fe7-ec5e54b04e4e" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_fec_com_rod" DEF="com_con_lat_fec_com_rod.entity" GUID="0a5418b0-7882-4ac1-8c6e-d07cd992d8d7" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_fec_int" DEF="com_con_lat_fec_int.entity" GUID="398ed39e-ae83-484d-8863-41fbac7f594a" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_fec_int_crod" DEF="com_con_lat_fec_int_crod.entity" GUID="92e83da8-07ff-4b69-830c-efa0c7acac6e" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_con_esc" DEF="com_con_lat_con_esc.entity" GUID="8775a2fa-253b-4980-a329-5486c0bdb8e6" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_lat_con_esc_rod" DEF="com_con_lat_con_esc_rod.entity" GUID="37379fdd-b009-4c45-9437-f9c7be56fe1b" />
+  </EXPLORERITEMCOLLECTION>
+  <REFERENCE ITENS_INVERTIDOS="@($INVERTED$? 'Direita' : 'Esquerda')" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_con_lat" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_lat" MODEL="com_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_lat" MODEL="com_caixas" MODELTYPE="acabamento_727" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_lat" MODEL="com_caixas" MODELTYPE="acabamento_726" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_lat" MODEL="com_caixas" MODELTYPE="acabamento_027_2" CONDITION="$H$ == 25" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

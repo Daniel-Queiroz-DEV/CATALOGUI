@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="sapateira_3_3_1_1" Description="Sapateira\Nova categoria\Sapateira" GroupName="Montante" Name="Sapateira Vão Esquerdo" Type="Drawer">
+  <Dimension Depth="Floor(($PD$-#RECUO_PRAT_SPORTA#-(#DOR_ESP_FRE_GAV_INT#+#FOL_PAI#)-(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#VAO_GAV#-(#DOR_ARM_DES_SPOR_ESP_FUN#+#FOL_PAI#)-10)/50)*50" Height="$P.H$" Width="$P.W$" />
+  <Position Y="-$PD$+$D$+(#DOR_ESP_FRE_SAP#+#FOL_PAI#)+20" />
+  <Alternatives>
+    <Alternative EntityId="DOR_CAI_INT_SAP_2" Id="item">
+      <Conditions>
+        <IsLeftExternalGap />
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Components>
+    <LeftLateral EntityId="DOR_CAI_INT_AFA_5" Id="sapateira_afast_esq_ss200_ve" Name="sapateira_afast_esq_ss200_ve" Type="Default">
+      <Dimension Depth="$P.D$" Height="$P.H$" Width="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_AFA_INT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_AFA_INT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Y="-$PD$+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)-(#DOR_ESP_FRE_SAP#+#FOL_PAI#)" Rotation="180" />
+    </LeftLateral>
+    <RightLateral EntityId="DOR_CAI_INT_AFA_DIR_4" Id="sapateira_afast_dir_ss200_ve" Name="sapateira_afast_dir_ss200_ve" Type="Default">
+      <Dimension Depth="$P.D$" Height="$P.H$" Width="#DIM_AFA#+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_AFA_INT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_AFA_INT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-#DIM_AFA#-(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Y="-$PD$+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)-(#DOR_ESP_FRE_SAP#+#FOL_PAI#)" Rotation="0" />
+    </RightLateral>
+    <GenericComponent EntityId="com_coz_tra_sap" Id="sap_componente_ss200_ve" Name="Travessa Superior Front" Type="Default">
+      <Dimension Depth="#DOR_BAN_DIM_TRA_FRO_VER_HOR#" Height="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Width="$PW$-(#DIM_AFA#+2*(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#))" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="SENTIDO_TRAVESSA_TRAS" Value="Horizontal" />
+        </Sets>
+      </Output>
+      <Position X="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Y="-$PD$+$D$-(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Z="$PH$-$H$" />
+    </GenericComponent>
+    <GenericComponent EntityId="com_coz_tra_sap" Id="sap_componente_ss200_1_ve" Name="Travessa Inferior Front" Type="Default">
+      <Dimension Depth="#DOR_BAN_DIM_TRA_FRO_VER_HOR#" Height="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Width="$PW$-(#DIM_AFA#+2*(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#))" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="SENTIDO_TRAVESSA_TRAS" Value="Horizontal" />
+        </Sets>
+      </Output>
+      <Position X="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Y="-$PD$+$D$-(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Z="0" />
+    </GenericComponent>
+    <GenericComponent EntityId="com_coz_tra_sap" Id="sap_componente_ss200_2_ve" Name="Travessa Superior Tra" Type="Default">
+      <Dimension Depth="#DOR_BAN_DIM_TRA_FRO_VER_HOR#" Height="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Width="$PW$-(#DIM_AFA#+2*(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#))" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="SENTIDO_TRAVESSA_TRAS" Value="Horizontal" />
+        </Sets>
+      </Output>
+      <Position X="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Y="5+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Z="$PH$-$H$" />
+    </GenericComponent>
+    <GenericComponent EntityId="com_coz_tra_sap" Id="sap_componente_ss200_3_ve" Name="Travessa Inferior Tra" Type="Default">
+      <Dimension Depth="#DOR_BAN_DIM_TRA_FRO_VER_HOR#" Height="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Width="$PW$-(#DIM_AFA#+2*(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#))" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="SENTIDO_TRAVESSA_TRAS" Value="Horizontal" />
+        </Sets>
+      </Output>
+      <Position X="(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Y="5+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)" Z="0" />
+    </GenericComponent>
+  </Components>
+  <Front Id="gaveta_4_front" DimensionsFromEntity="Y" />
+  <Variables>
+    <Variable Id="DefaultDrawersQuantity" Value="4" />
+    <Variable Id="UpperDrawersOffset" Value="#AFA_SAP#" />
+    <Variable Id="LowerDrawersOffset" Value="20+#DOR_SAP_EST_AFA_INF#" />
+    <Variable Id="SpaceBetweenDrawers" Value="#AFA_SAP#" />
+    <Variable Id="LeftDrawersOffset" Value="0" />
+    <Variable Id="RightDrawersOffset" Value="0" />
+    <Variable Id="DefaultFallback" Value="0" />
+    <Variable Id="LeftSeparators" Value="gaveta_afast_esq" />
+    <Variable Id="RightSeparators" Value="gaveta_afast_dir" />
+    <Variable Id="EditableSeparators" Value="gaveta_afast_esq;gaveta_afast_dir" />
+  </Variables>
+</Item>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="fundo" EntityId="com_con_fun_fun" Type="Bottom" Description="Fundo" Visible="n">
+		<Dimension Width="$PH$+2*(#ESC_ESP_BAS#+#FOL_PAI#)-#ESC_ARM_FOL_FUN_SUP_BAL#-#ESC_ARM_FOL_FUN_INF_BAL#" Depth="$P.W$+2*(#ESC_ESP_LAT#+#FOL_PAI#)-2*#ESC_ARM_FOL_FUN_LAT_BAL#" Height="(#ESC_ESP_FUN#+#FOL_PAI#)" />
+		<Position X="$D$-(#ESC_ESP_LAT#+#FOL_PAI#)+#ESC_ARM_FOL_FUN_LAT_BAL#" Y="-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#" Z="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_ARM_FOL_FUN_INF_BAL#" Rotation="180">
+			<NORMAL A="0" B="1" C="0" />
+		</Position>
+		<AutoFunction Enabled="Y">
+			<JointDivisions>
+				<JointDivision Id="com_prat_movel_crecuo" />
+				<JointDivision Id="com_prat_movel_srecuo" />
+				<JointDivision Id="com_prat_inv" />
+				<JointDivision Id="com_prat_fixa_srasgo_crecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo" />				
+				<JointDivision Id="div_srasgo_crecuo" />
+				<JointDivision Id="div_srasgo_srecuo" />
+				<JointDivision Id="div_srasgo_crecuo_esq" />
+				<JointDivision Id="div_srasgo_crecuo_dir" />
+				
+			</JointDivisions>
+		</AutoFunction>
+		
+		<Actions>
+		
+		
+		<ResizeItem Side="Right" Value="#ESC_ARM_FOL_FUN_LAT_BAL#-(#ESC_ESP_LAT#+#FOL_PAI#)+(#ESC_ESP_MON#+#FOL_PAI#)-(#ESC_ESP_MON#+#FOL_PAI#)/2-#ESC_ARM_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Right" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		
+		<ResizeItem Side="Left" Value="#ESC_ARM_FOL_FUN_LAT_BAL#-(#ESC_ESP_LAT#+#FOL_PAI#)+(#ESC_ESP_MON#+#FOL_PAI#)-(#ESC_ESP_MON#+#FOL_PAI#)/2-#ESC_ARM_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Left" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+						
+		
+		<ResizeItem Side="Bottom" Value="#ESC_ARM_FOL_FUN_INF_BAL#-(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_ARM_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Bottom" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		
+		<ResizeItem Side="Top" Value="#ESC_ARM_FOL_FUN_SUP_BAL#-(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_ARM_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Top" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		</Actions>
+		
+		<Output>
+			<Sets>
+				<SetAttribute Id="Movivel" Value="False" />
+				<SetAttribute Id="Caneditdimension" Value="False" />
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_FUN_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_FUN_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_FUN_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_FUN_FT_ESQ#" />
+				<SetAttribute Id="FOL_RASGO_PROF_GEN" Value="#ESC_ARM_FOL_RASGO_PROF#" />
+				<SetAttribute Id="FOL_RASGO_LARG_GEN" Value="#ESC_ARM_FOL_RASGO_LARG#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</Item>

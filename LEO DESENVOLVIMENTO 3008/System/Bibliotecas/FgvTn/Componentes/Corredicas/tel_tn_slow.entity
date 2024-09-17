@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="TN Slow Motion 01 Pec">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Corrediça Telescópica TN Slow Motion" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="tn_slow_mot_pec_01" />
+    <DIMENSION WIDTH="30" HEIGHT="20" DEPTH="310" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="30" HEIGHT="20" DEPTH="310" TEXT=" ">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="600" />
+  </INSERTDIMENSION>
+</ENTITY>

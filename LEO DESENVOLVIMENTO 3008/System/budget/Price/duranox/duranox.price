@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="duranox" DESCRIPTION="Duranox">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" ID="duranox" DESCRIPTION="Duranox" DATABASE="%PastaPrice%\duranox\duranox.mdb" />
+  </SOURCES>
+</PRICEPROVIDER>

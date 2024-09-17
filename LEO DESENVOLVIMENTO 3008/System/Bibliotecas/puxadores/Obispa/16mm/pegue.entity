@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pegue ($TEXT$)" ICON="pegue.jpg">
+  <DRAWING>
+    <FILE3D NAME="pegue_100112" FORMAT=".dxf" />
+    <DIMENSION WIDTH="28" HEIGHT="8" DEPTH="45" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.112" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+    <MODEL IDMODEL="Par_obi_cou" ENTRYID="puxadorea" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="Metal_Couro" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_16_peg" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_16_peg" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_16_peg" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_16_peg" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Pegue 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Guia Deslizadora RO21" INVISIBLE="N" ICON="guia_rometal.jpg">
+  <DRAWING>
+    <FILE3D NAME="guia_correto" />
+    <LIMITS>
+      <MIN X="-45" Y="-3" Z="-35" />
+      <MAX X="45" Y="0" Z="0" />
+    </LIMITS>
+    <DIMENSION WIDTH="90" HEIGHT="42" DEPTH="5" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Guia Deslizadora RO21 p/ Portas Deslizantes" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="aluminio_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

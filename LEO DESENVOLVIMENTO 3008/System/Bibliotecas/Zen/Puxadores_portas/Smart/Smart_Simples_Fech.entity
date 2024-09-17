@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$H$mm Simples c/ Fur p/ Fechadura ($TEXT$)" ICON="Smart_Simples_Fech.jpg" CHECKED="N">
+  <DRAWING ID="Smart_Simples_Furacao" />
+  <INSERTDIMENSION WIDTH="44" HEIGHT="64" DEPTH="5" MODE="OnlyProposedH" TEXT=" ">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="64" TEXT="ZP0505" />
+      <PROPOSEDVALUE HEIGHT="160" TEXT="ZP0506" />
+      <PROPOSEDVALUE HEIGHT="288" TEXT="ZP0507" />
+      <PROPOSEDVALUE HEIGHT="448" TEXT="ZP0508" />
+      <PROPOSEDVALUE HEIGHT="640" TEXT="ZP0509" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_sma" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Smart c/ furação p/ Fechadura $H$mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_sma_sim_fec" MODEL="Zen_man_sma" MODELTYPE="Zen_man_sma_121" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="86" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-41.69365" V="112.2225" />
+              <CORNER2 U="38.01883" V="10.03701" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="86" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-41.918" V="-12.56466" />
+              <CORNER2 U="39.58989" V="-103.8937" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

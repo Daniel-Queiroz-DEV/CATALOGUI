@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="ZbZ Toalh Inf. Duplo" ICON="BA0038.jpg">
+  <DRAWING>
+    <FILE3D NAME="zbz_toalh_inf_dup_700" />
+    <DIMENSION WIDTH="700" HEIGHT="35" DEPTH="100" />
+  </DRAWING>
+  <REFERENCE COMPLETE="$TEXT$-@zen_zen_by_zen@" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_zen_BA0186" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_cro_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_zen_BA0186" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_zen_BA0186" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_cro_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_zen_by_zen" ENTRYID="pux_zen" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VISIBLE="N" VALUE="" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="700" HEIGHT="35" DEPTH="100" />
+</ENTITY>

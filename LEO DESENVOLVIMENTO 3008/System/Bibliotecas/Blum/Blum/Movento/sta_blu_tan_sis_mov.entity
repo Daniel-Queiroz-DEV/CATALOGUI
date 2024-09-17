@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Corrediça Interna" INVISIBLE="N" CHECKED="N">
+  <REMOVEAGGREGATECOLLECTION>
+    <REMOVEAGGREGATE ID="Sta_Blu_Met_Mot" />
+  </REMOVEAGGREGATECOLLECTION>
+  <DRAWING>
+    <FILE3D NAME="trilho_interno_01" />
+    <DIMENSION WIDTH="287.5" HEIGHT="19.3" DEPTH="384" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="400" DEPTH="400" HEIGHT="19.3" MODE="OnlyProposed" TEXT="">
+    <MIN WIDTH="1" DEPTH="1" />
+    <MAX WIDTH="1500" DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Corrediça Interna" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

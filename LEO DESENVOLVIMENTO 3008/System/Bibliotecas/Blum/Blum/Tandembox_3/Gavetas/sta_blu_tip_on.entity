@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Kit TIP-ON Legrabox 15 a 40kg Esq e Dir" INVISIBLE="N" ICON="tip on legrabox.png">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioLarguraAltura" />
+  <DRAWING>
+    <FILE3D NAME="tip-on" />
+    <DIMENSION WIDTH="219.7" HEIGHT="17.1" DEPTH="58.8" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="fgv_alu" EDIT="N" />
+    <COMPONENTDEFINITION ID="ES" NAME="ES" IDMATERIAL="fgv_alu" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Kit TIP-ON Legrabox 15 a 40kg Esq e Dir" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$$DESC$" DESC="$D.DESC$" />
+  <INSERTDIMENSION WIDTH="220" HEIGHT="17" DEPTH="58" TEXT="02080359" DESC="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="900" />
+  </INSERTDIMENSION>
+</ENTITY>

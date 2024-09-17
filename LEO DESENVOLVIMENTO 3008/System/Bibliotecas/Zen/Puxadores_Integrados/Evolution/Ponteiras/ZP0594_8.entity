@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Inox ($TEXT$.$D.ACAB$)" ICON="Ponteira_Evolution.jpg">
+  <DRAWING>
+    <FILE3D NAME="ponteira" />
+    <DIMENSION WIDTH="395" HEIGHT="36" DEPTH="19" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PONTEIRA" NAME="PONTEIRA" IDMATERIAL="zen_aco_polido" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <BUDGET>
+    <INFORMATION WIDTH="100" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ponteiras Evolution de 15mm Inox (Par)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="395" HEIGHT="36" DEPTH="19" TEXT="ZP0594" ACAB="8">
+    <MIN WIDTH="3" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+</ENTITY>

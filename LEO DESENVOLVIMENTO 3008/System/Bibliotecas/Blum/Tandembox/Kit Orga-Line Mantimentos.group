@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Orga-Line Mantimentos" NAME="Kit Orga-Line Divisor Mantimentos" PREFIXID="Sta_Blu_Tand_kit_div_man_" INVISIBLE="N" MODELINVISIBLE="N">
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_Div_Man" DEF="Sta_Blu_Met_Div_Man.entity" GUID="23531b85-b715-460a-990e-810e1142a840" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_Div_Man_2" DEF="Sta_Blu_Met_Div_Man_2.entity" GUID="4bdcef97-62a0-4dee-aca3-e1e52b4c6bc0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

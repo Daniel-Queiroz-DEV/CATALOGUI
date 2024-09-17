@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="500 Duplo Pux/Toalheiro ($TEXT$)" ICON="Ritz_Duplo_Pux_Toalheiro.jpg" CHECKED="N">
+  <DRAWING ID="Ritz_Duplo_Pux_Toalheiro" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioAltura" />
+  <INSERTDIMENSION WIDTH="363" HEIGHT="363" DEPTH="172" TEXT="ZP0006" ACAB="10" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_rit" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Ritz Alça Puxador e toalheiro para Box 300 x 500 mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_rit_dup_pux_toa" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_20" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_rit_dup_pux_toa" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_21" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_rit_dup_pux_toa" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_34" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_rit_dup_pux_toa" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_38" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_rit_dup_pux_toa" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_648" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_rit_dup_pux_toa" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_261" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

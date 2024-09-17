@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Radio_P" NAME="Radio P c/ Base" PREFIXID="zen_rad_p_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="RADIO_PONTO_BASE">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\RADIO_PONTO_BASE" />
+      <DIMENSION WIDTH="70" HEIGHT="16.8" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-8" Y="-20.018" Z="-7.126" />
+        <MAX X="62.006" Y="-0.018" Z="9.674" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_rad_p_pon" DEF="Ponto.group" GUID="55f8d5de-abbd-4387-80a6-41222246b829" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

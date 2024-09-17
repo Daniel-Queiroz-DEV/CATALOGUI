@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="SIDe menor" ICON="P_SIDEM.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta SIDe Menor" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_SIDEM" />
+    <DIMENSION WIDTH="345" HEIGHT="1680" DEPTH="50" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_cinza" NAME="bosch_cinza" IDMATERIAL="bosch_cinza" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

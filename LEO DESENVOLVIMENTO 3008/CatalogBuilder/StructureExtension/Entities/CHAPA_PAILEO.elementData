@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureExtensionData
+  ElementId="CHAPA_PAILEO" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Structures.Extension;assembly=Procad.Builder.Core" xmlns:pbcfos="clr-namespace:Procad.Builder.Core.FactoryOperations.Structures;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib">
+  <StructureExtensionData.StructureExtension>
+    <StructureExtension
+      ElementId="CHAPA_PAILEO">
+      <StructureExtension.DynamicStructure>
+        <pbcfos:DynamicStructure
+          StructureID="CHAPA_PAILEO">
+          <pbcfos:DynamicStructure.DynamicStructures>
+            <assembly:Array
+              Type="s:String" />
+          </pbcfos:DynamicStructure.DynamicStructures>
+        </pbcfos:DynamicStructure>
+      </StructureExtension.DynamicStructure>
+    </StructureExtension>
+  </StructureExtensionData.StructureExtension>
+</StructureExtensionData>

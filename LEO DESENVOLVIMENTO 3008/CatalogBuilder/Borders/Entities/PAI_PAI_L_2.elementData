@@ -1,0 +1,93 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 2,
+      "Text": "Frontal Esquerda",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "550",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "550",
+        "Y": "450"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "RightNeighbour": 5,
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL_ESQ#' == 'NAO'"
+      },
+      "Arc": {
+        "Start": "550, 0",
+        "Mid": "550, 225",
+        "End": "550, 450"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "f693c7dc-ea87-4ead-85c6-410b0e3be314",
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_L_2"
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Frontal Direita",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 5,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 4,
+      "LeftPoint": {
+        "X": "550",
+        "Y": "450"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "450"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 4,
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL_DIR#' == 'NAO'"
+      },
+      "Arc": {
+        "Start": "550, 450",
+        "Mid": "775, 450",
+        "End": "1000, 450"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "62e2382c-0366-4a88-abe1-4ebb63d4fdaa",
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_L_2"
+    }
+  ],
+  "ElementId": "PAI_PAI_L_2"
+}

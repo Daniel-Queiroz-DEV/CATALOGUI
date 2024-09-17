@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reta Cozinha Premium 2U ($TEXT$) (Cópia) - 2" TYPE="GEOMETRY" INVISIBLE="N" ICON="com_coz_lat_lat_3_2_4.jpg">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#DOR_BAN_ESP_LAT_CPORTA#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="LAT01" TEXT="101">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="935.5476" V="7.961466" />
+              <CORNER2 U="1046.298" V="-1016.481" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$D$">
+            <VECTOR U="-1.451219E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="1099.544" V="-1020.74" />
+              <CORNER2 U="-50.55775" V="-933.4178" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="447" FORMULA="(($W$-46-60-$H$)/2)+$H$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="422.0345" V="-953.6518" />
+              <CORNER2 U="464.9521" V="-1064.522" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="493" FORMULA="((($W$-46-60-$H$)/2)+$H$)+46">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="488.1992" V="-955.4401" />
+              <CORNER2 U="527.5404" V="-1064.522" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <DRAWING>
+    <FILE3D NAME="com_coz_lat_lat_2_2_4" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="445.5" Y="-1000" />
+      <PONTO2DA X="445.5" Y="-966.5" />
+      <PONTO2DA X="508.5" Y="-966.5" />
+      <PONTO2DA X="508.5" Y="-1000" />
+      <PONTO2DA X="699.25" Y="-1000" />
+      <PONTO2DA X="699.25" Y="-966.5154" />
+      <PONTO2DA X="762.25" Y="-966.5154" />
+      <PONTO2DA X="762.25" Y="-1000" />
+      <PONTO2DA X="953" Y="-1000" />
+      <PONTO2DA X="953" Y="-966.5" />
+      <PONTO2DA X="1000" Y="-966.5" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Lateral @($INVERTED$? 'Direita' : 'Esquerda')" VISIBLE="N" />
+    <ATTRIBUTE ID="CANCHANGEPARENT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Dharma" DIRECTORY="dharma" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="DHARMA_10MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DHARMA_10MM" />
+      <DIMENSION WIDTH="20" HEIGHT="40.2" DEPTH="22.1" />
+      <LIMITS>
+        <MIN X="-10" Y="-22.14" Z="-36.224" />
+        <MAX X="10" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DHARMA_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DHARMA_32MM" />
+      <DIMENSION WIDTH="40" HEIGHT="40.2" DEPTH="22.1" />
+      <LIMITS>
+        <MIN X="-20" Y="-22.14" Z="-36.224" />
+        <MAX X="20" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DHARMA_48MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DHARMA_48MM" />
+      <DIMENSION WIDTH="56" HEIGHT="56" DEPTH="22.1" />
+      <LIMITS>
+        <MIN X="-28" Y="-22.14" Z="-52" />
+        <MAX X="28" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DHARMA_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DHARMA_64MM" />
+      <DIMENSION WIDTH="90" HEIGHT="90" DEPTH="22.1" />
+      <LIMITS>
+        <MIN X="-45" Y="-22.14" Z="-86" />
+        <MAX X="45" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_dharma_10" DEF="10mm.group" GUID="8bc46d92-63b6-4485-9675-2eb9bd67092a" />
+    <EXPLORERITEM TYPE="group" ID="zen_dharma_32" DEF="32mm.group" GUID="33db576a-a2bd-4651-83aa-eaa0f827e8c2" />
+    <EXPLORERITEM TYPE="group" ID="zen_dharma_48" DEF="48mm.group" GUID="f778664b-6e7e-42b0-93a5-8c8a1c189acb" />
+    <EXPLORERITEM TYPE="group" ID="zen_dharma_64" DEF="64mm_Big.group" GUID="e54b078a-aeb4-4ca6-ae5f-50aeab3f1be3" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

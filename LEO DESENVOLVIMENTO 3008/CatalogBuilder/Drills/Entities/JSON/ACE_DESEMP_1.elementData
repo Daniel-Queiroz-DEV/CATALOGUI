@@ -1,0 +1,68 @@
+{
+  "ReceiverData": {
+    "AllowedDrillsNames": [],
+    "Enable": false,
+    "ReceiveAllDrills": true,
+    "InheritAllDrillsFromParent": true,
+    "InheritDrillsFromParent": true
+  },
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação04",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo05",
+        "ReceiverDepth": {
+          "Value": "10"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 3,
+        "Position": {
+          "X": "17,5",
+          "Y": "1025"
+        },
+        "ElementId": "ACE_DESEMP_1"
+      },
+      {
+        "Name": "Furação05",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo05",
+        "ReceiverDepth": {
+          "Value": "10"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 3,
+        "Position": {
+          "X": "17,5",
+          "Y": "2032,5"
+        },
+        "ElementId": "ACE_DESEMP_1"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo05",
+        "ReceiverDepth": {
+          "Value": "10"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 3,
+        "Position": {
+          "X": "17,5",
+          "Y": "17,5"
+        },
+        "ElementId": "ACE_DESEMP_1"
+      }
+    ]
+  },
+  "ElementId": "ACE_DESEMP_1"
+}

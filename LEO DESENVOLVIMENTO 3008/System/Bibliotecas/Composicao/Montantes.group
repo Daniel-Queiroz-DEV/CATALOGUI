@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Montantes" NAME="Divisórias" PREFIXID="com_coz_mon_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_mon_crasgo" DEF="com_mon_crasgo.entity" GUID="a1002844-01ab-4c51-a14a-dd68c90bd876" />
+    <EXPLORERITEM TYPE="entity" ID="com_mon_srasgo" DEF="com_mon_srasgo.entity" GUID="17ed18d5-efb3-4423-86d7-adbfcde2fab6" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_mon_2522" DEF="com_coz_mon_2522.entity" GUID="1dc7a9a7-660c-4256-b378-2b803d6388cb" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_mon_2523" DEF="com_coz_mon_2523.entity" GUID="39aae4bc-9b88-4368-aa11-29194beb3e6d" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_SUP" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_INF" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_mon_" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_mon_" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

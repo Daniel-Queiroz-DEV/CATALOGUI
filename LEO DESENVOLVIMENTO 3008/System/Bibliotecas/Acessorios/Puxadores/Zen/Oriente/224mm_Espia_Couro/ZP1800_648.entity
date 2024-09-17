@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Cobre ($TEXT$.$D.ACAB$)" ICON="Oriente.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_vec_cob" EDIT="N" />
+    <COMPONENTDEFINITION ID="DET" NAME="DET" IDMATERIAL="zen_cord" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Oriente 224mm Vecchio Cobre c/ Couro Marrom" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1800" ACAB="679" DESC="" />
+</ENTITY>

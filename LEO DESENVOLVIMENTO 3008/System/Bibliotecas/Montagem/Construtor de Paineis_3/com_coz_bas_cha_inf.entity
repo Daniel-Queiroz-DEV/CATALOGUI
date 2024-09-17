@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Chanfrado" TYPE="GEOMETRY" ICON="..\..\Paineis\PAI_6_3\15mm\Chanfrado.JPG" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="com_coz_bas_cha_inf" FORMAT=".DXF" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="150" Y="-550" />
+      <PONTO2DA X="300" Y="-400" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="300" FORMULA="$W$">
+            <VECTOR U="1" V="2.398441E-07" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="255.5953" V="-505.4767" />
+              <CORNER2 U="327.0454" V="8.946913" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-49.59002" V="-515.5101" />
+              <CORNER2 U="186.0184" V="-574.5945" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="400" FORMULA="#I#">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="270.6332" V="-377.6463" />
+              <CORNER2 U="334.0943" V="-433.813" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="150" FORMULA="#J#">
+            <VECTOR U="1" V="2.203524E-09" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="132.4535" V="-521.9301" />
+              <CORNER2 U="180.3342" V="-592.9257" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+  <REFERENCE COMPLETE="$P.REFERENCE(COMPLETE)$" TIPO_FITA="#TIPO_BORDA_PAI#" ALTURA_FITA="@($REFERENCE(MODEL)$ == 'Branco TX' &amp;&amp; ($H$-#FOL_PAI#) == 15 ? 19 :($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="#P.DESCRIPTION#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="SIM" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="@(15+#FOL_PAI#)" DEPTH="550" TEXT="PAI" DESC="" ITEM_BASE="USI01">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2720" DEPTH="2720" />
+    <INCREMENT WIDTH="1" DEPTH="1" />
+  </INSERTDIMENSION>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="ace_ocu_pe_painel_usi_especial" ISDRAWABLE="N">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag45852361" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial x" CONSTANT="Y" ORDER="0">
+          <DIMENSION HEIGHT="$PH$" WIDTH="$PW$" DEPTH="$PD$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial x" CONSTANT="Y" ORDER="1">
+          <DIMENSION HEIGHT="$PH$" WIDTH="$PW$" DEPTH="$PD$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="ace_ocu_pe_painel_usi_especial_d" ISDRAWABLE="N">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial y" CONSTANT="Y" ORDER="2">
+          <DIMENSION HEIGHT="$PH$" WIDTH="$PW$" DEPTH="$PD$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial y" CONSTANT="Y" ORDER="3">
+          <DIMENSION HEIGHT="$PH$" DEPTH="$PD$" WIDTH="$PW$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <REMOVEMODELOPTIONS />
+</ENTITY>

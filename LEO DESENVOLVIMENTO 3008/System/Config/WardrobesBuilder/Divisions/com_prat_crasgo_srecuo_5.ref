@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HorizontalDivision Id="com_prat_crasgo_srecuo" EntityId="com_coz_pra_fix" THICKNESS="@(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)" Offset="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? #ESC_ESP_FUN#+#FOL_PAI#+#ESC_ARM_AFA_FUN_MOV#+#ESC_ARM_FOL_RASGO_LARG#/2: #ESC_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? #ESC_ESP_FUN#+#FOL_PAI#+#ESC_ARM_AFA_FUN_MOV#+#ESC_ARM_FOL_RASGO_LARG#/2 :0)" Fallback="0" Category="Prateleiras Fixas" Name="Divide Fundo s/ Recuo Front" Preview="%PastaConstrutorArmarios%\Escritorios\Divisoes\imagens\prat_fixa_cra_sre.jpg">
+		<NORMAL A="0" B="0" C="-1" />
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_PRA_FIX_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_PRA_FIX_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_PRA_FIX_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_PRA_FIX_FT_ESQ#" />
+				<SetAttribute Id="ESP_MON" Value="#ESC_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</HorizontalDivision>

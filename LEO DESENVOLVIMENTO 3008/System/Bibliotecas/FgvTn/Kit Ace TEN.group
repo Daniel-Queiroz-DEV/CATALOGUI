@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Ace TEN" NAME="ACESSÓRIOS" PREFIXID="Sta_Fgv_TEN_kit_">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="start_met_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="@('#INT_MCM#' == 'TRUE'? 'TRUE' : 'FALSE')" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="PEDIDOFABRICA" VALUE="True" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_tap" DEF="Tapete Emborrachado.group" GUID="841f249a-9ffb-4f98-b5f1-51116e307a03" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_ele" DEF="Elevacao Lateral.group" GUID="1be1bca9-ff85-4eb2-8058-ac7879937e8c" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_conec" DEF="Conectores.group" GUID="6d9d4c63-72b2-448b-959f-6e291a856d44" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_lix" DEF="Lixeira.group" GUID="180fdcbf-69fa-4f82-8da9-e5166e4caa09" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_divint" DEF="Divisor Interno.group" GUID="20457982-cec5-479f-8bd9-196d51e291fd" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_tubtrans" DEF="Tubo Transversal.group" GUID="2454a22a-5d25-473a-891a-8427e58c9960" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_tubtrans_2" DEF="Tubo Transversal_3.group" GUID="e672658e-0235-4d8f-9d04-77be446e1153" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_tublat" DEF="Tubo Transversal_2.group" GUID="5e91ce0b-30ed-49de-b51b-9fbc2fc86c15" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sorrento Deslizante 1100" ICON="com_coz_div_vis_3_2.jpg" INVISIBLE="N" MODELINVISIBLE="N">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="18" DEPTH="1500">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_portas_3" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita_2_2" ENTRYID="COM" />
+  </MODELS>
+  <DRAWING>
+    <FILE3D NAME="cava1100 des12" />
+    <DIMENSION WIDTH="1500" HEIGHT="18" DEPTH="300" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK DEFAULTSCALEX="Y" DEFAULTSCALEY="Y" DEFAULTSCALEZ="Y">
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Nothing" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="258.7834" V="17.87489" />
+              <CORNER2 U="-41.62769" V="-327.2126" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="359.4498" V="18.47717" />
+              <CORNER2 U="1548.028" V="-327.1379" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-190.0397" V="-57.88298" />
+              <CORNER2 U="111.4898" V="-394.8866" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="210.8172" V="-72.0726" />
+              <CORNER2 U="1608.495" V="-348.7703" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Sorrento 1100" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des" MODEL="com_portas_3" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des" MODEL="com_paineis_fita_2_2" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des" MODEL="com_portas_3" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des" MODEL="com_portas_3" MODELTYPE="acabamento_031" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

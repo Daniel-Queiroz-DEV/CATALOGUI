@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityPropertiesData
+  Offset="{assembly:Null}"
+  GroupHoles="False"
+  FurnitureAssemblyPreviewData="{assembly:Null}"
+  AluminumComponentData="{assembly:Null}"
+  SteelComponentData="{assembly:Null}"
+  PlateCuttingOffset="{assembly:Null}"
+  MachinedContour="False"
+  PurchasedItem="{assembly:Null}"
+  DisregardWoodGrain="False"
+  ElementId="com_com_des_dxf_sorrento_desl_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.EntityProperties;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EntityPropertiesData.CNCPluginDataCollection>
+    <CNCPluginDataCollection>
+      <CNCPluginData
+        ID="2357"
+        ModelName="BHX 050"
+        Manufacturer="Weeke"
+        GenerateDocumentation="True" />
+      <CNCPluginData
+        ID="2360"
+        ModelName="Tech Z2"
+        Manufacturer="SCM"
+        GenerateDocumentation="True" />
+      <CNCPluginData
+        ID="2341"
+        ModelName="Cyflex 900"
+        Manufacturer="SCM"
+        GenerateDocumentation="True" />
+      <CNCPluginData
+        ID="2382"
+        ModelName="Author 436S"
+        Manufacturer="Morbidelli"
+        GenerateDocumentation="True" />
+    </CNCPluginDataCollection>
+  </EntityPropertiesData.CNCPluginDataCollection>
+  <EntityPropertiesData.FrontalFace>
+    <FrontalFace
+      PlaneType="Superior"
+      PlaneIndex="0" />
+  </EntityPropertiesData.FrontalFace>
+  <EntityPropertiesData.AlignmentFace>
+    <AlignmentFace
+      PlaneType="Profile"
+      PlaneIndex="1" />
+  </EntityPropertiesData.AlignmentFace>
+</EntityPropertiesData>

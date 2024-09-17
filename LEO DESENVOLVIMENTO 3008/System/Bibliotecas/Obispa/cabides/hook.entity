@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Hook ($TEXT$)" ICON="hook.jpg">
+  <DRAWING>
+    <FILE3D NAME="hook" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="70" HEIGHT="92" DEPTH="45" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Hook" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab_mar" ENTRYID="pux_obi" />
+  </MODELS>
+  <INSERTDIMENSION TEXT="300.020" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_cab_hoo" MODEL="Obi_cab_mar" MODELTYPE="Obi_cab_cro_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Obi_cab_mar@" />
+</ENTITY>

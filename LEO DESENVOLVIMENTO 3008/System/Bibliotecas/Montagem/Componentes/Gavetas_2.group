@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Gavetas_2" NAME="Gavetas Leo" PREFIXID="com_coz_gav_" INVISIBLE="N" MODELINVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="FRE_FAL_GEN" VALUE="#P.FRE_FAL_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#P.FRE_FAL_TIPO#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE TIPO_ARMARIO="$P.P.P.P.REFERENCE(TIPO_ARMARIO)$" />
+  <MODELS>
+    <MODEL IDMODEL="com_gav_seriado" ENTRYID="COM" />
+    <MODEL IDMODEL="com_gav_fita_seriado" ENTRYID="COM" />
+  </MODELS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_ser" DEF="com_coz_gav_fun_4.entity" GUID="ef68d308-9c68-4991-8868-3714a26461e9" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_esq_ser" DEF="com_coz_gav_lat_esq_3.entity" GUID="b08e3fec-7aef-4cdf-b011-bdc34786759c" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_dir_ser" DEF="com_coz_gav_lat_dir_3.entity" GUID="56e19cfb-0878-425a-83d3-e79505c8a1bc" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra_ser" DEF="com_coz_gav_tra_4.entity" GUID="71e8c04e-c30c-4796-8d2a-ba3ac13c6883" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fre_fal_ser" DEF="com_coz_gav_fre_fal_4.entity" GUID="0cc1979f-1f14-4332-b93f-177b23a908f0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

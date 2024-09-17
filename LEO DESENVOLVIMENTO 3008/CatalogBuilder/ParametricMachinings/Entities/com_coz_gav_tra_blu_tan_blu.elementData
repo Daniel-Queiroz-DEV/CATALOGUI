@@ -1,0 +1,84 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-5",
+            "Y": "13"
+          },
+          "End": {
+            "X": "35",
+            "Y": "13"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "35",
+            "Y": "13"
+          },
+          "End": {
+            "X": "35",
+            "Y": "-5"
+          }
+        }
+      ],
+      "Name": "Rasgo s/ Tip On",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "-5",
+        "Y": "13"
+      },
+      "ElementId": "com_coz_gav_tra_blu_tan_blu"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-35",
+            "Y": "-5"
+          },
+          "End": {
+            "X": "$W$-35",
+            "Y": "13"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-35",
+            "Y": "13"
+          },
+          "End": {
+            "X": "$W$+5",
+            "Y": "13"
+          }
+        }
+      ],
+      "Name": "Rasgo s/ Tip On",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-35",
+        "Y": "-5"
+      },
+      "ElementId": "com_coz_gav_tra_blu_tan_blu"
+    }
+  ],
+  "ElementId": "com_coz_gav_tra_blu_tan_blu"
+}

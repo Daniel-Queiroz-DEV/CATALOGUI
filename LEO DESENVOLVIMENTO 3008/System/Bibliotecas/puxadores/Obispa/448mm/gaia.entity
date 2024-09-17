@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gaia ($TEXT$)" ICON="gaia.jpg">
+  <DRAWING>
+    <FILE3D NAME="gaia_100677" FORMAT=".dxf" />
+    <DIMENSION WIDTH="556" HEIGHT="30" DEPTH="32" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.677" />
+  <REFERENCE IDREFERENCE="Simples Metal Ouro sob consulta" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Gaia 448mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Pux_our_sob_con" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_448_gai" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_gai" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_gai" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

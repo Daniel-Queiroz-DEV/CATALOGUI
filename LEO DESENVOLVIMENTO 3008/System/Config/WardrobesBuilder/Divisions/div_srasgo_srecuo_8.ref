@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VerticalDivision Id="div_srasgo_srecuo" EntityId="com_coz_mon_div" THICKNESS="@(#ESC_ESP_MON#+#FOL_PAI#)" Offset="#ESC_AFA_TRAS_PRA_INF#" Fallback="0" Category="Divisórias" Name="Não Divide Fundo s/ Recuo Front" Rotation="180" Movable="Y" Preview="%PastaConstrutorArmarios%\Escritorios\Divisoes\imagens\div_sra_sre.jpg">
+		<NORMAL A="-1" B="0" C="0" />	
+		<Output>
+			<Sets>
+				
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="'#ESC_DIV_FT_FRONTAL#'" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_DIV_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_DIV_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_DIV_FT_ESQ#" />
+				<SetAttribute Id="ESP_MON" Value="#ESC_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</VerticalDivision>

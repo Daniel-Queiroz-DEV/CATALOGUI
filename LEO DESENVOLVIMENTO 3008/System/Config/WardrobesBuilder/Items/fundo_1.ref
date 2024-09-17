@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="fundo" Type="Bottom" Description="Fundo" Visible="N">
+		<Dimension Width="$P.W$+2*(#COZ_ESP_LAT#+#FOL_PAI#)-2*#COZ_CON_FOL_FUN_LAT_BAL#" Depth="$PH$+(#COZ_ESP_BAS#+#FOL_PAI#)-#COZ_CON_FOL_FUN_SUP_BAL#-#COZ_CON_FOL_FUN_INF_BAL#" Height="(#COZ_ESP_FUN#+#FOL_PAI#)" />
+		<Position X="-(#COZ_ESP_LAT#+#FOL_PAI#)+#COZ_CON_FOL_FUN_LAT_BAL#" Y="-(#COZ_ESP_FUN#+#FOL_PAI#)-#COZ_CON_AFA_FUN_MOV#" Z="-(#COZ_ESP_BAS#+#FOL_PAI#)+#COZ_CON_FOL_FUN_INF_BAL#" Rotation="270">
+			<NORMAL A="0" B="1" C="0" />
+		</Position>
+		<Alternatives> 
+			<Alternative Id="fundo" EntityId="com_con_fun_fun">
+				<Conditions>
+					<TestExpression Expression="#COZ_CON_FUN_MOD# == 'SIM' &amp;&amp; '#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Travessas Laterais'" />
+				</Conditions>
+			</Alternative>
+		</Alternatives> 
+		<AutoFunction Enabled="Y">
+			<JointDivisions>
+				<JointDivision Id="com_prat_inv" />
+				<JointDivision Id="com_prat_movel_srecuo" />
+				<JointDivision Id="com_prat_movel_crecuo" />
+				<JointDivision Id="com_prat_fixa_srasgo_crecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo_basc" />
+				<JointDivision Id="div_srasgo_crecuo" />
+				<JointDivision Id="div_srasgo_srecuo" />
+				<JointDivision Id="mon_srasgo_crecuo" />
+				<JointDivision Id="mon_srasgo_srecuo" />
+			</JointDivisions>
+		</AutoFunction>
+		<Actions>
+		
+		
+		<ResizeItem Side="Right" Value="#COZ_CON_FOL_FUN_LAT_BAL#-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)-(#COZ_ESP_MON#+#FOL_PAI#)/2-#COZ_CON_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Right" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		
+		<ResizeItem Side="Left" Value="#COZ_CON_FOL_FUN_LAT_BAL#-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)-(#COZ_ESP_MON#+#FOL_PAI#)/2-#COZ_CON_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Left" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+						
+		
+		<ResizeItem Side="Bottom" Value="#COZ_CON_FOL_FUN_INF_BAL#-(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)/2-#COZ_CON_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Bottom" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		
+		<ResizeItem Side="Top" Value="#COZ_CON_FOL_FUN_SUP_BAL#+(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)/2-#COZ_CON_FOL_FUN_MON_BAL#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemId="fundo" Side="Top" />
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		</Actions>		
+		<Output>
+			<Sets>
+				<SetAttribute Id="Removivel" Value="False" />
+				<SetAttribute Id="Movivel" Value="False" />
+				<SetAttribute Id="Caneditdimension" Value="False" />
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#COZ_FUN_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#COZ_FUN_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#COZ_FUN_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_FUN_FT_ESQ#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</Item>

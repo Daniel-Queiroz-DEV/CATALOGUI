@@ -1,0 +1,34 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-20",
+            "Y": "$D$/2"
+          },
+          "End": {
+            "X": "$W$+20",
+            "Y": "$D$/2"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "7"
+      },
+      "MachiningProcessIDText": "ebadd033-ff95-434e-a278-6ff30bc209a9",
+      "ID": "aaeb1a6c-90ad-4b33-afd0-412557bebab5",
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "-20",
+        "Y": "$D$/2"
+      },
+      "ElementId": "Fresa_Brise"
+    }
+  ],
+  "ElementId": "Fresa_Brise"
+}

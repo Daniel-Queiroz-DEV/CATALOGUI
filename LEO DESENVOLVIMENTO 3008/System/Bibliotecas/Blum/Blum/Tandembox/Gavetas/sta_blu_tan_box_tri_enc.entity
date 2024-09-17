@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Encosto Traseiro Baixa">
+  <DRAWING>
+    <FILE3D NAME="encosto" />
+    <DIMENSION WIDTH="200" HEIGHT="85.1" DEPTH="26" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="200" HEIGHT="85.1" DEPTH="#BLU_TAN_BOX_ENC#" TEXT="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="1200" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Encosto Traseiro" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Tandembox" ENTRYID="Sta_Blu" />
+  </MODELS>
+</ENTITY>

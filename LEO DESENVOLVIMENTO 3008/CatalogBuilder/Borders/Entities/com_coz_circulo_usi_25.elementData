@@ -1,0 +1,433 @@
+{
+  "Edges": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.Borders.ArcComposedBorder, Procad.Builder.Core",
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "Borders": [
+            {
+              "ProfileIndex": 7,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 1,
+              "LeftVertexIndex": 7,
+              "RightVertexIndex": 0,
+              "LeftPoint": {
+                "X": "250,5",
+                "Y": "500"
+              },
+              "RightPoint": {
+                "X": "250",
+                "Y": "500"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 0,
+              "RightNeighbour": 2,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "250, 5",
+                "Mid": "250, 25",
+                "End": "250, 500"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "f8600e47-6a15-4e3e-84b4-47cf5355d185",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 0,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 2,
+              "LeftVertexIndex": 0,
+              "RightVertexIndex": 1,
+              "LeftPoint": {
+                "X": "250",
+                "Y": "500"
+              },
+              "RightPoint": {
+                "X": "0",
+                "Y": "250"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 1,
+              "RightNeighbour": 3,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "250, 500",
+                "Mid": "73, 2233047033631",
+                "End": "0, 250"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "e9b00128-1236-4304-9a25-f034e6d1ca1a",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 1,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 3,
+              "LeftVertexIndex": 1,
+              "RightVertexIndex": 2,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "250"
+              },
+              "RightPoint": {
+                "X": "0",
+                "Y": "249,5"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 2,
+              "RightNeighbour": 4,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "0, 250",
+                "Mid": "0, 249",
+                "End": "0, 249"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "67849fa6-e7ee-4558-a01f-a95e0222a5f6",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 2,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 2,
+              "RightVertexIndex": 3,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "249,5"
+              },
+              "RightPoint": {
+                "X": "249,5",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 3,
+              "RightNeighbour": 5,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "0, 249",
+                "Mid": "73, 768580939564",
+                "End": "249, 5"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "068e4164-ccc3-421e-abdc-2da0edc8635a",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 3,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 5,
+              "LeftVertexIndex": 3,
+              "RightVertexIndex": 4,
+              "LeftPoint": {
+                "X": "249,5",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "250,5",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 4,
+              "RightNeighbour": 6,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "249, 5",
+                "Mid": "250, 0",
+                "End": "250, 5"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "fbf1317e-e739-4046-b5f3-b06240744034",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 4,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 6,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 5,
+              "LeftPoint": {
+                "X": "250,5",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "500",
+                "Y": "249,5"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 5,
+              "RightNeighbour": 7,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "250, 5",
+                "Mid": "426, 923141906044",
+                "End": "500, 249"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "27626b94-2039-4ebd-bcc2-248e43f8d10e",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 5,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 7,
+              "LeftVertexIndex": 5,
+              "RightVertexIndex": 6,
+              "LeftPoint": {
+                "X": "500",
+                "Y": "249,5"
+              },
+              "RightPoint": {
+                "X": "500",
+                "Y": "250,5"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 6,
+              "RightNeighbour": 0,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "500, 249",
+                "Mid": "500, 250",
+                "End": "500, 250"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "6ecf191c-80d9-461f-b812-8c381d8d3b15",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            },
+            {
+              "ProfileIndex": 6,
+              "Text": "Borda01",
+              "LayerName": "BORDA",
+              "ReferenceMounter": "",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_PAINEL#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 0,
+              "LeftVertexIndex": 6,
+              "RightVertexIndex": 7,
+              "LeftPoint": {
+                "X": "500",
+                "Y": "250,5"
+              },
+              "RightPoint": {
+                "X": "250,5",
+                "Y": "500"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 7,
+              "RightNeighbour": 1,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "500, 250",
+                "Mid": "426, 923141906044",
+                "End": "250, 5"
+              },
+              "Height": {
+                "Value": "0"
+              },
+              "Type": "",
+              "ID": "b8f8664c-82b5-435e-b3bc-b46f77490290",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_circulo"
+            }
+          ],
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "LayerName": "BORDA",
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "OperationPrice": "BORDA",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Angle": {
+            "Value": "0"
+          },
+          "ID": "df42cbaa-15dd-4f2f-b4ad-a2a514e82c5b"
+        }
+      ],
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "Text": "Borda01",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "Index": 0,
+      "Angle": {
+        "Value": "0"
+      },
+      "BorderID": "6f2c5d93-f8f8-4c99-9bac-5734c98d3da1",
+      "ID": "81b14fed-66a3-4374-8f3c-d6c02a385196",
+      "ElementId": "com_coz_circulo_usi_25"
+    }
+  ],
+  "ElementId": "com_coz_circulo_usi_25"
+}

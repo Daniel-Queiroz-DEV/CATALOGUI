@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Gold ($TEXT$.$D.ACAB$)" ICON="Metropolitan.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Metropolitan 544mm Alumínio Gold c/ Ponteiras Gold" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1780" ACAB="A00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="Zen_gol" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_gol" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

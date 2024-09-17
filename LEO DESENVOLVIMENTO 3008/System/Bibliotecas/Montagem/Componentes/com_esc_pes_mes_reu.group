@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="com_esc_pes_mes_reu" NAME="Pés Mesas Reuniao" PREFIXID="com_esc_pes_mes_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="mon_con_pes_aco_reu_pp_ret" DEF="mon_con_pes_aco_reu_pp_ret.entity" GUID="fccd43ea-3855-4c6d-befb-17c5e684f7c7" />
+    <EXPLORERITEM TYPE="entity" ID="mon_con_pes_aco_reu_pp_cur" DEF="mon_con_pes_aco_reu_pp_cur.entity" GUID="77636e0f-9b01-48c1-bd64-7c786dcbddc8" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+</GROUP>

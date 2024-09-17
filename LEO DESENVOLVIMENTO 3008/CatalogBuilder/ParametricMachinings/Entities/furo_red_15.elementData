@@ -1,0 +1,26 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.CircularParametricMachining, Procad.Builder.Core",
+      "Diameter": {
+        "Value": "$W$"
+      },
+      "MachiningOperationType": "Interior",
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "18"
+      },
+      "MachiningProcessIDText": "6e6ca5a0-e9c5-4a45-80ed-f7c1eca8e4d9",
+      "ID": "f20c7ef1-ee35-4aab-abcd-58c907392f6e",
+      "UniqueID": 2,
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$/2",
+        "Y": "$D$/2"
+      },
+      "ElementId": "furo_red_15"
+    }
+  ],
+  "ElementId": "furo_red_15"
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="Alumiglass" DESCRIPTION="Alumiglass">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" ID="principal" DESCRIPTION="BancoDados" DATABASE="%PastaPrice%\Alumiglass\alumiglass.mdb" CANMODIFY="N" SEARCHFIRSTPERSONALBASE="N" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

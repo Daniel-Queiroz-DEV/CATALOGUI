@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="cadeira_24.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_24" />
+    <DIMENSION WIDTH="477" HEIGHT="932" DEPTH="608" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_ASSENTO" NAME="DEC_ASSENTO" IDMATERIAL="tec_brancos_lisos_tecido 005" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_MADEIRA" NAME="DEC_INOX" IDMATERIAL="ipe" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

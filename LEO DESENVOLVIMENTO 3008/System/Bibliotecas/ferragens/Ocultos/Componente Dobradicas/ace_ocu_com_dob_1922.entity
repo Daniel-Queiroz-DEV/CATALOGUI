@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Comp Dob Canto L" ICON="Comp Dob Reta_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="dob_calco_obliquo" />
+    <BOUNDINGBOX HEIGHT="29.8">
+      <PONTO2DA X="-16" Y="7.5" />
+      <PONTO2DA X="-16" Y="-7.5" />
+      <PONTO2DA X="16" Y="-7.5" />
+      <PONTO2DA X="16" Y="7.5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-23" Y="-35.451" Z="-29.764" />
+      <MAX X="23" Y="14.5" Z="0" />
+    </LIMITS>
+    <DIMENSION WIDTH="46" HEIGHT="29.8" DEPTH="50" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="46" HEIGHT="29.8" DEPTH="50" TEXT=" " />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Componente Dobradiça Reta" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="start_met_001" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

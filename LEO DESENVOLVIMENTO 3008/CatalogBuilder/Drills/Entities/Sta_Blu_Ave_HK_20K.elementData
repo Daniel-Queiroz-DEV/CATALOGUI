@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="Sta_Blu_Ave_HK_20K" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo35"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HK#"
+          Condition="'#BLU_AVE_FUR_EXT_HK#' == 'SIM'"
+          UniqueID="0"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-38;$H$-10.5"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo35"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HK#"
+          Condition="'#BLU_AVE_FUR_EXT_HK#' == 'SIM'"
+          UniqueID="1"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-52;$H$-10.5"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo35"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HK#"
+          Condition="'#BLU_AVE_FUR_EXT_HK#' == 'SIM'"
+          UniqueID="2"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-141;$H$-10.5"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação04"
+          ReceiverDrillName="Furo35"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HK#"
+          Condition="'#BLU_AVE_FUR_EXT_HK#' == 'SIM'"
+          UniqueID="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-20;$H$-14"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação05"
+          ReceiverDrillName="Furo34"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_GUIA_HK#"
+          UniqueID="4"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-10;$H$-55"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação06"
+          ReceiverDrillName="Furo34"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_GUIA_HK#"
+          UniqueID="5"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-138;$H$-55"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação07"
+          ReceiverDrillName="Furo35"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HK#"
+          Condition="'#BLU_AVE_FUR_EXT_HK#' == 'SIM'"
+          UniqueID="6"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-11.7;$H$-110.6"
+          ElementId="Sta_Blu_Ave_HK_20K" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

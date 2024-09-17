@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cosmético" ICON="COSMETICO_06.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Cosmético" />
+    
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="COSMETICO_06" />
+    <DIMENSION WIDTH="65.4" HEIGHT="160" DEPTH="65,0" />
+    <LIMITS>
+      <MIN X="0" Y="-65" Z="0" />
+      <MAX X="65.36" Y="0" Z="160.03" />
+    </LIMITS>
+  </DRAWING>
+</ENTITY>

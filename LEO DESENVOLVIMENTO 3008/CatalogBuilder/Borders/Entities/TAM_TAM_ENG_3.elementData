@@ -1,0 +1,1223 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 3,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 1,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 2,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 0,
+            "RightNeighbour": 1,
+            "Arc": {
+              "Start": "0, 500",
+              "Mid": "0, 250"
+            },
+            "NeedLeftExposureClosed": true,
+            "NeedRightExposureClosed": true,
+            "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "RightNeighbour": 3,
+          "Arc": {
+            "Mid": "500, 0",
+            "End": "1000, 0"
+          },
+          "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "RightNeighbour": 0,
+        "Arc": {
+          "Start": "1000, 0",
+          "Mid": "1000, 250",
+          "End": "1000, 500"
+        },
+        "NeedLeftExposureClosed": true,
+        "NeedRightExposureClosed": true,
+        "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "RightNeighbour": 2,
+      "RightNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 0,
+        "RightNeighbour": 1,
+        "RightNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 2,
+          "RightNeighbour": 3,
+          "RightNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 1,
+            "RightNeighbour": 0,
+            "Arc": {
+              "Start": "1000, 0",
+              "Mid": "1000, 250",
+              "End": "1000, 500"
+            },
+            "NeedLeftExposureClosed": true,
+            "NeedRightExposureClosed": true,
+            "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "Arc": {
+            "Mid": "500, 0",
+            "End": "1000, 0"
+          },
+          "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "Arc": {
+          "Start": "0, 500",
+          "Mid": "0, 250"
+        },
+        "NeedLeftExposureClosed": true,
+        "NeedRightExposureClosed": true,
+        "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_3"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 2,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 0,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 3,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 1,
+            "RightNeighbour": 0,
+            "Arc": {
+              "Start": "1000, 0",
+              "Mid": "1000, 250",
+              "End": "1000, 500"
+            },
+            "NeedLeftExposureClosed": true,
+            "NeedRightExposureClosed": true,
+            "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "RightNeighbour": 2,
+          "Arc": {
+            "Start": "1000, 500",
+            "Mid": "500, 500",
+            "End": "0, 500"
+          },
+          "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "RightNeighbour": 1,
+        "Arc": {
+          "Start": "0, 500",
+          "Mid": "0, 250"
+        },
+        "NeedLeftExposureClosed": true,
+        "NeedRightExposureClosed": true,
+        "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "RightNeighbour": 3,
+      "RightNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 1,
+        "RightNeighbour": 0,
+        "RightNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 3,
+          "RightNeighbour": 2,
+          "RightNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 0,
+            "RightNeighbour": 1,
+            "Arc": {
+              "Start": "0, 500",
+              "Mid": "0, 250"
+            },
+            "NeedLeftExposureClosed": true,
+            "NeedRightExposureClosed": true,
+            "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "Arc": {
+            "Start": "1000, 500",
+            "Mid": "500, 500",
+            "End": "0, 500"
+          },
+          "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "Arc": {
+          "Start": "1000, 0",
+          "Mid": "1000, 250",
+          "End": "1000, 500"
+        },
+        "NeedLeftExposureClosed": true,
+        "NeedRightExposureClosed": true,
+        "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_3"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 0,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 3,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 1,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 2,
+            "RightNeighbour": 3,
+            "Arc": {
+              "Mid": "500, 0",
+              "End": "1000, 0"
+            },
+            "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "RightNeighbour": 0,
+          "Arc": {
+            "Start": "1000, 0",
+            "Mid": "1000, 250",
+            "End": "1000, 500"
+          },
+          "NeedLeftExposureClosed": true,
+          "NeedRightExposureClosed": true,
+          "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "RightNeighbour": 2,
+        "Arc": {
+          "Start": "1000, 500",
+          "Mid": "500, 500",
+          "End": "0, 500"
+        },
+        "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "RightNeighbour": 1,
+      "RightNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 2,
+        "RightNeighbour": 3,
+        "RightNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 1,
+          "RightNeighbour": 0,
+          "RightNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 3,
+            "RightNeighbour": 2,
+            "Arc": {
+              "Start": "1000, 500",
+              "Mid": "500, 500",
+              "End": "0, 500"
+            },
+            "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "Arc": {
+            "Start": "1000, 0",
+            "Mid": "1000, 250",
+            "End": "1000, 500"
+          },
+          "NeedLeftExposureClosed": true,
+          "NeedRightExposureClosed": true,
+          "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "Arc": {
+          "Mid": "500, 0",
+          "End": "1000, 0"
+        },
+        "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "Arc": {
+        "Start": "0, 500",
+        "Mid": "0, 250"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_3"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 2,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 0,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 3,
+            "RightNeighbour": 2,
+            "Arc": {
+              "Start": "1000, 500",
+              "Mid": "500, 500",
+              "End": "0, 500"
+            },
+            "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "RightNeighbour": 1,
+          "Arc": {
+            "Start": "0, 500",
+            "Mid": "0, 250"
+          },
+          "NeedLeftExposureClosed": true,
+          "NeedRightExposureClosed": true,
+          "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "RightNeighbour": 3,
+        "Arc": {
+          "Mid": "500, 0",
+          "End": "1000, 0"
+        },
+        "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "RightNeighbour": 0,
+      "RightNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "SideCutOffset": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 3,
+        "RightNeighbour": 2,
+        "RightNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 0,
+          "RightNeighbour": 1,
+          "RightNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "SideCutOffset": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 2,
+            "RightNeighbour": 3,
+            "Arc": {
+              "Mid": "500, 0",
+              "End": "1000, 0"
+            },
+            "BorderID": "3bba2225-7f0c-42ce-8866-279bd5859c51",
+            "Height": {
+              "Value": "0"
+            },
+            "Type": "",
+            "OperationPrice": "BORDA",
+            "ElementId": "TAM_TAM_ENG_3_2"
+          },
+          "Arc": {
+            "Start": "0, 500",
+            "Mid": "0, 250"
+          },
+          "NeedLeftExposureClosed": true,
+          "NeedRightExposureClosed": true,
+          "BorderID": "4c8ed193-e9d4-45c4-9109-352bd7084810",
+          "Height": {
+            "Value": "0"
+          },
+          "Type": "",
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_ENG_3_2"
+        },
+        "Arc": {
+          "Start": "1000, 500",
+          "Mid": "500, 500",
+          "End": "0, 500"
+        },
+        "BorderID": "d3e3b9d4-0a8f-4056-a974-f5a4e9971dce",
+        "Height": {
+          "Value": "0"
+        },
+        "Type": "",
+        "OperationPrice": "BORDA",
+        "ElementId": "TAM_TAM_ENG_3_2"
+      },
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 250",
+        "End": "1000, 500"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderID": "b6bdc024-5ccf-4a91-aab2-d633711e68c3",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_3"
+    }
+  ],
+  "ElementId": "TAM_TAM_ENG_3"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lua ($TEXT$)" ICON="lua.jpg">
+  <INSERTDIMENSION TEXT="100.097" />
+  <DRAWING>
+    <FILE3D NAME="lua" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="24" HEIGHT="24" DEPTH="26" />
+    <LIMITS>
+      <MIN X="-12" Y="-26.307" Z="-12" />
+      <MAX X="12.094" Y="0" Z="12.096" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Pux_lua" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Lua Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_lua" MODEL="Pux_lua" MODELTYPE="Pux_lua_niq_esc_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Pux_lua@" />
+</ENTITY>

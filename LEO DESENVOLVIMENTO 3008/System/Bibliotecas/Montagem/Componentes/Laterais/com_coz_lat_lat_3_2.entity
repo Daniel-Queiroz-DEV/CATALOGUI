@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reta Cozinha Premium 2U Sup ($TEXT$)" TYPE="GEOMETRY" INVISIBLE="N" ICON="com_coz_lat_lat_4_2.jpg">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#DOR_BAN_ESP_LAT_CPORTA#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="LAT01" TEXT="101">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Lateral @($INVERTED$? 'Direita' : 'Esquerda')" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="1084.293" V="25.04559" />
+              <CORNER2 U="915.1627" V="-1052.481" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$D$">
+            <VECTOR U="1.179412E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-42.33564" V="-894.262" />
+              <CORNER2 U="1119.756" V="-1077.032" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="553" FORMULA="(($W$-46-60-2*$H$)/2)+46+60+$H$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="564.9598" V="-1035.65" />
+              <CORNER2 U="537.2722" V="-950.457" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="493" FORMULA="(($W$-46-60-2*$H$)/2)+46+$H$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="477.5667" V="-947.259" />
+              <CORNER2 U="510.1413" V="-1035.402" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <DRAWING>
+    <FILE3D NAME="com_coz_lat_lat_3_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+</ENTITY>

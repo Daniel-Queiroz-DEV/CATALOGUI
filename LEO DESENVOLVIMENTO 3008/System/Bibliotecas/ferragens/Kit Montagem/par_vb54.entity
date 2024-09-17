@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="PARAF FIX CHATA PH BICRO 4,0X16" ICON="parafuso_1_2.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="8">
+      <PONTO2DA X="-0.05" Y="-4" />
+      <PONTO2DA X="0.05" Y="-4" />
+      <PONTO2DA X="0.05" Y="4" />
+      <PONTO2DA X="-0.05" Y="4" />
+    </BOUNDINGBOX>
+    <FILE3D NAME="parafuso_2" />
+    <LIMITS>
+      <MIN X="-0.05" Y="-4" Z="-4" />
+      <MAX X="14.95" Y="4" Z="4" />
+    </LIMITS>
+    <DIMENSION WIDTH="15" HEIGHT="8" DEPTH="8" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="5" HEIGHT="14.5" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="PARAF FIX CHATA PH BICRO 4,0X16" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="15" HEIGHT="8" DEPTH="8" TEXT="PAR416" DESC="" />
+</ENTITY>

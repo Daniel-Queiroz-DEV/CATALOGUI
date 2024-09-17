@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JOINTS>
+  <JOINT NAME="Base Sup" FIRST="com_ocu_bas_crasgo_sup" SECOND="com_ocu_bas_crasgo_sup" SUBSTITUTE="com_ocu_bas_crasgo_sup" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" />
+  <JOINT NAME="Base Inf" FIRST="com_ocu_bas_crasgo" SECOND="com_ocu_bas_crasgo" SUBSTITUTE="com_ocu_bas_crasgo" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" />
+  <JOINT NAME="Rodapé" FIRST="com_coz_div_rod" SECOND="com_coz_div_rod" SUBSTITUTE="com_coz_div_rod" />
+  <JOINT NAME="Fixador 1" FIRST="fer_Fix_1" SECOND="fer_Fix_1" SUBSTITUTE="fer_Fix_pas_1" TYPE="Left-Right" TREATASAGGREGATE="N" MOVEPARENT="N" DELTAX="-$W$" />
+</JOINTS>

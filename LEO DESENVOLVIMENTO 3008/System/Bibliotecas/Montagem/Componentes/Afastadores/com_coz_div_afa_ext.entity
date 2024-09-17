@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Canto Reto Externo ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_div_afa.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_div_afa" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_LAT#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="AFA01" TEXT="1502">
+    <MIN WIDTH="50" DEPTH="1" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="500" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Afastador" VISIBLE="N" />
+    <ATTRIBUTE ID="CANCHANGEPARENT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_675" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_674" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_654" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_677" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_676" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_672" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_671" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_679" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_701" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_678" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_675_2" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_668" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_036" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_afa_ext" MODEL="com_caixas" MODELTYPE="acabamento_05" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

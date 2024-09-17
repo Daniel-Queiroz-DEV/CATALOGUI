@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_dir_despenseiro" Description="Direita" Type="Front" Visible="Y">
+  <Dimension Depth="@(#COZ_ESP_POR#+#FOL_PAI#)" Height="$P.H$+(#COZ_ESP_BAS#+#FOL_PAI#)-#FOL_INF_POR#-#FOL_SUP_POR_DESP#" Width="$P.W$/2+(#COZ_ESP_LAT#+#FOL_PAI#)-#COZ_FOL_INT#/2-#FOL_ENT_PT_LAR#" />
+  <Position X="$P.W$/2+#COZ_FOL_INT#/2" Y="-$P.D$" Z="-(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_INF_POR#" />
+  <Actions>
+    <ResizeItem Side="Right" Value="-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)/2+#FOL_ENT_PT_LAR#-#COZ_FOL_INT#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Right" />
+          <HasNeighbourItem ItemType="Drawer" Side="Right" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_INF_POR#+(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)/2-#FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+          <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_SUP_POR_DESP#-(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)/2-#FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)+#FOL_SUP_POR#-#FOL_ENT_GAV#">
+      <Conditions>
+        <And>
+          <IsUpperGap Not="Y" />
+          <Or Not="Y">
+            <HasNeighbourItem ItemType="Front" Side="Top" />
+            <HasNeighbourItem ItemType="Drawer" Side="Top" />
+          </Or>
+        </And>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="POR_POR_DES" Id="frente_dir_despenseiro_lat">
+      <Conditions>
+        <Or Not="Y">
+          <HasNeighbourItem ItemType="Front" Side="Right" />
+          <HasNeighbourItem ItemType="Drawer" Side="Right" />
+        </Or>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="POR_POR_DES_MON" Id="frente_dir_despenseiro_div">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Right" />
+          <HasNeighbourItem ItemType="Drawer" Side="Right" />
+        </Or>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="CANMIRROR" Value="FALSE" />
+    </Sets>
+  </Output>
+  <Variables>
+    <Variable Id="DrawingType" Value="RightFront" />
+  </Variables>
+</Item>

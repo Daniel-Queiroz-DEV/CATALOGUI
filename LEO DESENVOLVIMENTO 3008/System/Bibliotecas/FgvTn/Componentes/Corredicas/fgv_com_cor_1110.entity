@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Pano Pec 01">
+  <DRAWING>
+    <FILE3D NAME="tt_45_pec_mov_01" />
+    <DIMENSION WIDTH="10" HEIGHT="30" DEPTH="235" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta Pano Pec 01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="10" HEIGHT="40" DEPTH="235" TEXT=" ">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+</ENTITY>

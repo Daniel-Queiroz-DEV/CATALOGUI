@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pampa" NAME="Pampa" PREFIXID="zen_pam_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pam_200" DEF="200mm.group" GUID="8fac429b-307c-4fed-ad80-6b90a44f1446" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PAMPA_200MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PAMPA_200MM" />
+      <DIMENSION WIDTH="200" HEIGHT="35" DEPTH="6" />
+      <LIMITS>
+        <MIN X="-100" Y="-5.5" Z="-17.5" />
+        <MAX X="100" Y="0.5" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

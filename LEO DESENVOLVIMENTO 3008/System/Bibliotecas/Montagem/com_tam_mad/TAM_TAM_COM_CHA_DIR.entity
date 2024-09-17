@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Chanfrad Dir ($TEXT$)" TYPE="GEOMETRY" ICON="TAM_TAM_COM_CHA_DIR_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_COM_CHA_DIR" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="150" Y="-550" />
+      <PONTO2DA X="300" Y="-400" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="300" FORMULA="$W$">
+            <VECTOR U="-1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="54.14302" V="-568.0825" />
+              <CORNER2 U="-12.63801" V="11.0364" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="400" FORMULA="#I#">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="327.9621" V="-432.2689" />
+              <CORNER2 U="275.5392" V="-366.9701" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="182.6494" V="-588.618" />
+              <CORNER2 U="-34.40005" V="-515.9617" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="150" FORMULA="$W$-#J#">
+            <VECTOR U="-1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="123.7885" V="-528.8375" />
+              <CORNER2 U="186.3282" V="-581.2604" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Chanfrado Direito" VISIBLE="N" />
+    <ATTRIBUTE ID="I" VALUE="400" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="J" VALUE="150" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="@(#ESP_TAM#+#FOL_PAI#)" DEPTH="550" TEXT="1710" ITEM_BASE="TAMP01">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

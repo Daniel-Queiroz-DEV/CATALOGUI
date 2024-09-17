@@ -1,0 +1,176 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+64",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação03",
+        "Condition": {
+          "Expression": "$D$==250"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+148",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação04",
+        "Condition": {
+          "Expression": "$D$>=300"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+224",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação05",
+        "Condition": {
+          "Expression": "$D$==400"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+288",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação06",
+        "Condition": {
+          "Expression": "$D$>=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+352",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação07",
+        "Condition": {
+          "Expression": "$D$>=500&&$D$<=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 6,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+416",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      },
+      {
+        "Name": "Furação08",
+        "Condition": {
+          "Expression": "$D$==600"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 7,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+480",
+          "Y": "$H$/2"
+        },
+        "ElementId": "ace_cor_simples_4"
+      }
+    ]
+  },
+  "ElementId": "ace_cor_simples_4"
+}

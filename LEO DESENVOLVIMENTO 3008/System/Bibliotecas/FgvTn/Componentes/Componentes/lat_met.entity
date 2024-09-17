@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lateral Metalica" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="lat_metal" />
+    <DIMENSION WIDTH="22.2" HEIGHT="125" DEPTH="465" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="22" HEIGHT="125" DEPTH="450" MODE="OnlyProposedD" TEXT=" ">
+    <MIN DEPTH="450" />
+    <MAX DEPTH="500" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE DEPTH="450" TEXT="0075.450003" />
+      <PROPOSEDVALUE DEPTH="500" TEXT="0075.500003" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Fgv_1049" ENTRYID="fgv" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Elevação Lateral Metálica $D$ mm" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

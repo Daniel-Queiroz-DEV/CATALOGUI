@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Magnum" NAME="Magnum" PREFIXID="zen_mag_">
+  <DRAWINGS>
+    <DRAWING ID="MAGNUM_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNUM_PONTO" />
+      <DIMENSION WIDTH="30" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-15" Y="-30" Z="-4" />
+        <MAX X="15" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNUM_PONTO_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNUM_PONTO_DIAMOND" />
+      <DIMENSION WIDTH="30" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-15" Y="-30" Z="-4" />
+        <MAX X="15" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNUM_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNUM_160MM" />
+      <DIMENSION WIDTH="174" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-87" Y="-30" Z="-4" />
+        <MAX X="87" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNUM_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNUM_224MM" />
+      <DIMENSION WIDTH="238" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-119" Y="-30" Z="-4" />
+        <MAX X="119" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNUM_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNUM_352MM" />
+      <DIMENSION WIDTH="365" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-182.5" Y="-30" Z="-4" />
+        <MAX X="182.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNUM_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNUM_544MM" />
+      <DIMENSION WIDTH="557" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-278.5" Y="-30" Z="-4" />
+        <MAX X="278.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_mag_pon_2" DEF="Ponto.group" GUID="d6bb240b-db65-4dfc-b09b-898835e43823" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag_pon_dia_2" DEF="Ponto_Diamond.group" GUID="77894230-c6fa-4151-92dd-c627432dcac4" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag_160_2" DEF="160mm.group" GUID="9e0b0c34-5efb-4f4f-9c63-da2b94bcb9f0" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag_224_2" DEF="224mm.group" GUID="82de488f-6cce-405d-accb-a1e6821e50ae" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag_352_2" DEF="352mm.group" GUID="c81f4f3b-c622-4936-b40b-c7b39a0ec388" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag_544_2" DEF="544mm.group" GUID="bfff7af4-99a7-4593-9ceb-63d9e8f1e031" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

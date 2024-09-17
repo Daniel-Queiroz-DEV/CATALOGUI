@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$ Toalheiro Duplo ($TEXT$)" ICON="toa_duplo.jpg">
+  <DRAWING>
+    <FILE3D NAME="toalheiroduplo-be" />
+    <DIMENSION WIDTH="400" HEIGHT="25" DEPTH="70" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_be_toa_duplo" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_toa_duplo" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_toa_duplo" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_pret" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_toa_duplo" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="450" HEIGHT="19" DEPTH="70" MODE="OnlyProposed" TEXT="">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE WIDTH="450" TEXT="BA0276" />
+      <PROPOSEDVALUE WIDTH="600" TEXT="BA0277" />
+      <PROPOSEDVALUE WIDTH="750" TEXT="BA0278" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Be Toalheiro Duplo @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

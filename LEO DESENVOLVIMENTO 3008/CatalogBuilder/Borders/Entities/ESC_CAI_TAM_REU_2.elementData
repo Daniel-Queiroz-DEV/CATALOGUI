@@ -1,0 +1,307 @@
+{
+  "Edges": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "ProfileIndex": 5,
+          "Text": "BORDA_TAMPOS_ESCRITORIOS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_3#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 5,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "900"
+          },
+          "RightPoint": {
+            "X": "0,0002568401",
+            "Y": "775"
+          },
+          "Angle": {
+            "Value": "10"
+          },
+          "LeftNeighbour": 1,
+          "RightNeighbour": 2,
+          "Condition": {
+            "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "ESC_CAI_TAM_REU"
+        },
+        {
+          "ProfileIndex": 4,
+          "Text": "BORDA_TAMPOS_ESCRITORIOS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_3#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 4,
+          "RightVertexIndex": 5,
+          "LeftPoint": {
+            "X": "2000",
+            "Y": "775"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "900"
+          },
+          "Angle": {
+            "Value": "10"
+          },
+          "LeftNeighbour": 5,
+          "RightNeighbour": 0,
+          "Condition": {
+            "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "ESC_CAI_TAM_REU"
+        }
+      ],
+      "Condition": {
+        "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ProfileIndex": 0,
+      "Text": "BORDA_TAMPOS_ESCRITORIOS",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_3#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "ElementId": "ESC_CAI_TAM_REU_2"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "BORDA_TAMPOS_ESCRITORIOS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_3#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0,0002568401",
+        "Y": "775"
+      },
+      "RightPoint": {
+        "X": "0,0002568401",
+        "Y": "125"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 3,
+      "Condition": {
+        "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_REU_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "ProfileIndex": 1,
+          "Text": "BORDA_TAMPOS_ESCRITORIOS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_3#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0,0002568401",
+            "Y": "125"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "10"
+          },
+          "LeftNeighbour": 2,
+          "RightNeighbour": 4,
+          "Condition": {
+            "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "ESC_CAI_TAM_REU"
+        },
+        {
+          "ProfileIndex": 2,
+          "Text": "BORDA_TAMPOS_ESCRITORIOS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_3#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 4,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "2000",
+            "Y": "125"
+          },
+          "Angle": {
+            "Value": "10"
+          },
+          "LeftNeighbour": 3,
+          "RightNeighbour": 5,
+          "Condition": {
+            "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "ESC_CAI_TAM_REU"
+        }
+      ],
+      "Condition": {
+        "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ProfileIndex": 0,
+      "Text": "BORDA_TAMPOS_ESCRITORIOS",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_3#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "ElementId": "ESC_CAI_TAM_REU_2"
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "BORDA_TAMPOS_ESCRITORIOS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_3#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 5,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 4,
+      "LeftPoint": {
+        "X": "2000",
+        "Y": "125"
+      },
+      "RightPoint": {
+        "X": "2000",
+        "Y": "775"
+      },
+      "Angle": {},
+      "LeftNeighbour": 4,
+      "RightNeighbour": 1,
+      "Condition": {
+        "Expression": "'#FT_BORDA_TAM_ESC#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_REU_2"
+    }
+  ],
+  "ElementId": "ESC_CAI_TAM_REU_2"
+}

@@ -1,0 +1,60 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "#DOB_DIS_1#-4,5-5,5",
+          "Y": "5,5+3"
+        },
+        "ElementId": "ace_fer_uni_dob_caneco"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo19",
+        "ReceiverDepth": {
+          "Value": "#DOB_PRO_FUR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "#DOB_DIS_1#-4,5",
+          "Y": "31,5"
+        },
+        "ElementId": "ace_fer_uni_dob_caneco"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "#DOB_DIS_1#-4,5-5,5",
+          "Y": "57,5-3"
+        },
+        "ElementId": "ace_fer_uni_dob_caneco"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_uni_dob_caneco"
+}

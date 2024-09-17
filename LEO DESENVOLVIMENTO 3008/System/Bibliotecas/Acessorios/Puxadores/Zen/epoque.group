@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Belle Époque" DIRECTORY="epoque" PREFIXID="zen_epo_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="BELLE_EPOQUE_QUADRADO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BELLE_EPOQUE_QUADRADO" />
+      <DIMENSION WIDTH="90" HEIGHT="90" DEPTH="19.4" />
+      <LIMITS>
+        <MIN X="-60" Y="-19.449" Z="-30.022" />
+        <MAX X="30" Y="0" Z="59.978" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BELLE_EPOQUE_CHAVE">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BELLE_EPOQUE_CHAVE" />
+      <DIMENSION WIDTH="132" HEIGHT="269" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-66" Y="-17" Z="-204" />
+        <MAX X="66" Y="0" Z="65" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BELLE_EPOQUE_LONGO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BELLE_EPOQUE_LONGO" />
+      <DIMENSION WIDTH="232.6" HEIGHT="64" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-117.354" Y="-17" Z="-49.999" />
+        <MAX X="115.196" Y="0" Z="14.001" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BELLE_EPOQUE_CABIDE">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BELLE_EPOQUE_CABIDE" />
+      <DIMENSION WIDTH="130" HEIGHT="65" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-97.5" Y="-19" Z="-32.491" />
+        <MAX X="32.5" Y="0" Z="32.509" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_epo_qua" DEF="Quadrado.group" GUID="c9843f98-f982-4c28-a0e9-aa730b70a0e9" />
+    <EXPLORERITEM TYPE="group" ID="zen_epo_lon" DEF="Longo.group" GUID="c0f1e435-8960-4815-a4a2-fc13b6be9c34" />
+    <EXPLORERITEM TYPE="group" ID="zen_epo_cab" DEF="Cabide.group" GUID="9e4b9c09-d231-4db9-a402-c06dd9305f52" />
+    <EXPLORERITEM TYPE="group" ID="zen_epo_cha" DEF="Com_Chave.group" GUID="428aec2e-c9fa-4218-8d2f-b56fc54d48c5" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

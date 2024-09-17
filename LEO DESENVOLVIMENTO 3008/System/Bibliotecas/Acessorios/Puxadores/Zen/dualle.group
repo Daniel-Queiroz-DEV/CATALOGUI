@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Dualle" DIRECTORY="dualle" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_64" DEF="64mm.group" GUID="d9f4be04-5348-4aeb-80f2-e7824a89c5ce" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_96" DEF="96mm.group" GUID="09ea32cc-1a11-45df-b63d-bd36b64fb07e" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_128" DEF="128mm.group" GUID="2c63a718-d597-4984-bce1-6dd347a35c0d" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_192" DEF="192mm.group" GUID="6ee4e0a0-563a-4d9f-8281-403cccd63d19" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_224" DEF="224mm.group" GUID="cdaf2eef-c15e-4162-90f0-3dbfdb4724ab" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_352" DEF="352mm.group" GUID="3f3d0324-14b4-48e7-826f-2d6c933c4dc3" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_448" DEF="448mm.group" GUID="910e1a2d-8200-4574-b778-8be531e8ca54" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle_544" DEF="544mm.group" GUID="40f8de64-2328-4428-aa53-e48a9bd31978" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="DUALLE_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_64MM" />
+      <DIMENSION WIDTH="82" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-41" Y="-32" Z="-8" />
+        <MAX X="41" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_96MM" />
+      <DIMENSION WIDTH="114" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-57" Y="-32" Z="-8" />
+        <MAX X="57" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_128MM" />
+      <DIMENSION WIDTH="146" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-73" Y="-32" Z="-8" />
+        <MAX X="73" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_192MM" />
+      <DIMENSION WIDTH="210" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-105" Y="-32" Z="-8" />
+        <MAX X="105" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_224MM" />
+      <DIMENSION WIDTH="242" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-121" Y="-32" Z="-8" />
+        <MAX X="121" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_352MM" />
+      <DIMENSION WIDTH="370" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-185" Y="-32" Z="-8" />
+        <MAX X="185" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_448MM" />
+      <DIMENSION WIDTH="466" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-233" Y="-32" Z="-8" />
+        <MAX X="233" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DUALLE_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DUALLE_544MM" />
+      <DIMENSION WIDTH="562" HEIGHT="16" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-281" Y="-32" Z="-8" />
+        <MAX X="281" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

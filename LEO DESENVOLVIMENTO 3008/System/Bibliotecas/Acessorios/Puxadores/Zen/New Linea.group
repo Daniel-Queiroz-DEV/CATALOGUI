@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="New Linea" NAME="New Linea" PREFIXID="zen_new_lin_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="NEW_LINEA_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NEW_LINEA_32MM" />
+      <DIMENSION WIDTH="44" HEIGHT="35" DEPTH="10" />
+      <LIMITS>
+        <MIN X="-22" Y="-10" Z="-17.5" />
+        <MAX X="22" Y="0" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="NEW_LINEA_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NEW_LINEA_160MM" />
+      <DIMENSION WIDTH="172" HEIGHT="35" DEPTH="10" />
+      <LIMITS>
+        <MIN X="-86" Y="-10" Z="-17.5" />
+        <MAX X="86" Y="0" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="NEW_LINEA_288MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NEW_LINEA_288MM" />
+      <DIMENSION WIDTH="300" HEIGHT="35" DEPTH="10" />
+      <LIMITS>
+        <MIN X="-150" Y="-10" Z="-17.5" />
+        <MAX X="150" Y="0" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="NEW_LINEA_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NEW_LINEA_448MM" />
+      <DIMENSION WIDTH="460" HEIGHT="35" DEPTH="10" />
+      <LIMITS>
+        <MIN X="-230" Y="-10" Z="-17.5" />
+        <MAX X="230" Y="0" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="NEW_LINEA_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NEW_LINEA_640MM" />
+      <DIMENSION WIDTH="652" HEIGHT="35" DEPTH="10" />
+      <LIMITS>
+        <MIN X="-326" Y="-10" Z="-17.5" />
+        <MAX X="326" Y="0" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_new_lin_32" DEF="32mm.group" GUID="f91bd317-4eec-4a4e-b132-92c6926c7881" />
+    <EXPLORERITEM TYPE="group" ID="zen_new_lin_160" DEF="160mm.group" GUID="f6534186-4055-4fda-befd-d99d814a4e33" />
+    <EXPLORERITEM TYPE="group" ID="zen_new_lin_288" DEF="288mm.group" GUID="5445688e-044b-4d40-aa0f-73a81d8c663f" />
+    <EXPLORERITEM TYPE="group" ID="zen_new_lin_448" DEF="448mm.group" GUID="32e28c27-1ce1-4da0-acec-97881adb8b79" />
+    <EXPLORERITEM TYPE="group" ID="zen_new_lin_640" DEF="640mm.group" GUID="cf79f61d-590d-446f-9629-ff5d5032b81c" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

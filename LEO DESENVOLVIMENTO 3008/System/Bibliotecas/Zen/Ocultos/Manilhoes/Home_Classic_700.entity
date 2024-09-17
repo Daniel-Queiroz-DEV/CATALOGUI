@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Home Classic 700" INVISIBLE="N" MODELINVISIBLE="N" ICON="Home_Classic_700.jpg">
+  <DRAWING>
+    <FILE3D NAME="Home_Classic_700" />
+    <DIMENSION WIDTH="44" HEIGHT="700.4" DEPTH="128" />
+    <LIMITS>
+      <MIN X="-22" Y="-44" Z="-350" />
+      <MAX X="22" Y="84" Z="350.375" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_hom_dup_cla" ENTRYID="pux_zen" />
+  </MODELS>
+  <INSERTDIMENSION HEIGHT="700" WIDTH="44" DEPTH="128">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Home Classic 700" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="84" FORMULA="$D$-44">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.28764" V="19.60412" />
+              <CORNER2 U="75.65301" V="-81.14841" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

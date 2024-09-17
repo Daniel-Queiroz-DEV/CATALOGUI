@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_fer_mfx_avulso_15" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo11"
+          ReceiverDepth="#PRO_TAMB_MFX#"
+          UniqueID="1"
+          PlaneType="Superior"
+          OperationPrice="{assembly:Null}"
+          Position="$w$/2;$d$/2"
+          ElementId="ace_fer_mfx_avulso_15" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

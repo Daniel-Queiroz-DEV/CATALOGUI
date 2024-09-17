@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Inox Polido ($TEXT$.$D.ACAB$)" ICON="Forli.jpg">
+  <DRAWING>
+    <FILE3D NAME="Forli_400mm" />
+    <DIMENSION WIDTH="400" HEIGHT="55" DEPTH="19" />
+    <LIMITS>
+      <MIN X="-47.5" Y="-1" Z="-27.5" />
+      <MAX X="352.5" Y="18" Z="27.5" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Forli 400mm Inox Polido" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="COURO" NAME="COURO" IDMATERIAL="zen_aco_polido" EDIT="N" />
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_aco_polido" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="55" DEPTH="19" TEXT="ZP0562" ACAB="18" />
+</ENTITY>

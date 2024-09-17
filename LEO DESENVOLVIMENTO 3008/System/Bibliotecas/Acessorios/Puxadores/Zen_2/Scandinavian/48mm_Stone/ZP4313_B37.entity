@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Scandinavian.jpg">
+  <DRAWING ID="Scandinavian_48mm_WS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Scandinavian 48mm Stone/ Gold Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP4313" ACAB="B37" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_gol_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_stone" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

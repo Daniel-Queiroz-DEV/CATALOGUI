@@ -1,0 +1,64 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-20",
+            "Y": "$H$-15.5"
+          },
+          "End": {
+            "X": "$W$+20",
+            "Y": "$H$-15.5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "6"
+      },
+      "MachiningProcessIDText": "505e84e8-8486-4c2c-9d0d-c8a52a921e57",
+      "ID": "ae527596-92d6-4b13-802c-be6196a0785b",
+      "PlaneIndex": 1,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "-20",
+        "Y": "$H$-15.5"
+      },
+      "ElementId": "ace_ocu_pe_ras_brise_rip"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-20",
+            "Y": "$H$-10"
+          },
+          "End": {
+            "X": "$W$+20",
+            "Y": "$H$-10"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "6"
+      },
+      "MachiningProcessIDText": "505e84e8-8486-4c2c-9d0d-c8a52a921e57",
+      "ID": "2d191267-4560-4eea-ac4d-7d2fc88ad3f2",
+      "UniqueID": 1,
+      "PlaneIndex": 1,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "-20",
+        "Y": "$H$-10"
+      },
+      "ElementId": "ace_ocu_pe_ras_brise_rip"
+    }
+  ],
+  "ElementId": "ace_ocu_pe_ras_brise_rip"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lixeira 1,5 litros ($TEXT$)" ICON="lix_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="lixeira_1l" />
+    <DIMENSION WIDTH="131" HEIGHT="135" DEPTH="133" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="131" HEIGHT="136" DEPTH="131" TEXT="BA0281" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="One/Soul/Spirit/Be Lixeira 1,5 litros" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

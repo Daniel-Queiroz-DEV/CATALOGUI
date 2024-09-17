@@ -1,0 +1,113 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "60",
+            "Y": "93,5"
+          },
+          "End": {
+            "X": "50",
+            "Y": "93,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "50",
+            "Y": "93,5"
+          },
+          "End": {
+            "X": "50",
+            "Y": "80"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "50",
+            "Y": "80"
+          },
+          "End": {
+            "X": "1090",
+            "Y": "80"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "1090",
+            "Y": "80"
+          },
+          "End": {
+            "X": "1090",
+            "Y": "107"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "1090",
+            "Y": "107"
+          },
+          "End": {
+            "X": "50",
+            "Y": "107"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "50",
+            "Y": "107"
+          },
+          "End": {
+            "X": "50",
+            "Y": "93,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "50",
+            "Y": "93,5"
+          },
+          "End": {
+            "X": "1090",
+            "Y": "93,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "1090",
+            "Y": "93,5"
+          },
+          "End": {
+            "X": "1090",
+            "Y": "98,5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "12"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "3a1555bb-ffcb-4cb6-877e-de7ad2acc65c",
+      "ID": "452bab62-933b-45b1-972a-8c033df37408",
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "OperationPrice": "Milano",
+      "Position": {
+        "X": "60",
+        "Y": "93,5"
+      },
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_CAVA"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_CAVA"
+}

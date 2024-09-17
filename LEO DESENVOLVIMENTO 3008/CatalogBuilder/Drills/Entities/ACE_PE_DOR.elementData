@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ACE_PE_DOR" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo09"
+          ReceiverDepth="1"
+          UniqueID="0"
+          ElementId="ACE_PE_DOR"
+          Position="5.5;$h$-12"
+          PlaneIndex="0" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo09"
+          ReceiverDepth="1"
+          UniqueID="1"
+          ElementId="ACE_PE_DOR"
+          Position="$w$-5.5;$h$-12"
+          PlaneIndex="0" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo09"
+          ReceiverDepth="1"
+          UniqueID="2"
+          ElementId="ACE_PE_DOR"
+          Position="5.5;12"
+          PlaneIndex="0" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação04"
+          ReceiverDrillName="Furo09"
+          ReceiverDepth="1"
+          UniqueID="3"
+          ElementId="ACE_PE_DOR"
+          Position="$w$-5,5;12"
+          PlaneIndex="0" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cabide ($TEXT$)" ICON="BA0045_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0131_cabide" />
+    <DIMENSION WIDTH="22" HEIGHT="75" DEPTH="22" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Cabide @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0131" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0131" MODEL="Zen_spirit" MODELTYPE="Zen_spi_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0131" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="22" HEIGHT="75" DEPTH="25" TEXT="BA0131" />
+</ENTITY>

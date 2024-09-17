@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Balli_Osso" NAME="Balli c/ Osso" PREFIXID="zen_bal_osso_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bal_osso_16_2" DEF="16mm.group" GUID="e0579d6b-5fd0-4466-b7f7-7d1869f9c889" />
+    <EXPLORERITEM TYPE="group" ID="zen_bal_osso_24_2" DEF="24mm.group" GUID="09124511-0f71-4fe4-a5bd-19341e6b419b" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BALLI_OSSO_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BALLI_OSSO_16MM" />
+      <DIMENSION WIDTH="28" HEIGHT="19" DEPTH="17.2" />
+      <LIMITS>
+        <MIN X="-14" Y="-17.23" Z="-9.525" />
+        <MAX X="14" Y="0" Z="9.525" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BALLI_OSSO_24MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BALLI_OSSO_24MM" />
+      <DIMENSION WIDTH="56" HEIGHT="19" DEPTH="25.4" />
+      <LIMITS>
+        <MIN X="-28" Y="-25.417" Z="-9.525" />
+        <MAX X="28" Y="0" Z="9.525" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

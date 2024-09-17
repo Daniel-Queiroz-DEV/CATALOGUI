@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="ace_fer_mfx_15" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo11"
+          ReceiverDepth="#PRO_TAMB_MFX#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          ID="a74564f7-926b-47aa-bc8e-8c5bbd266748"
+          LinkedOperationID="00000000-0000-0000-0000-000000000000"
+          UniqueID="0"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          OperationPrice="{assembly:Null}"
+          Position="7,5;9"
+          ElementId="ace_fer_mfx_15" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

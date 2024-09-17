@@ -1,0 +1,63 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furacao_frontal",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "37"
+        },
+        "ElementId": "Sta_Blu_Tan_pin_fro_box_ocu"
+      },
+      {
+        "Name": "Furacao_frontal",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "Sta_Blu_Tan_pin_fro_box_ocu"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo26",
+        "ReceiverDepth": {
+          "Value": "12"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "37+128"
+        },
+        "ElementId": "Sta_Blu_Tan_pin_fro_box_ocu"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Tan_pin_fro_box_ocu"
+}

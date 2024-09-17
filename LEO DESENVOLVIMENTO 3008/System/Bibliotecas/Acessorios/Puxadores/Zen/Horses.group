@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Horses" NAME="Horses" PREFIXID="zen_horses_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="HORSES_13MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\HORSES_13MM" />
+      <DIMENSION WIDTH="32" HEIGHT="55.5" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-16" Y="-30" Z="-44" />
+        <MAX X="16" Y="0" Z="11.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="HORSES_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\HORSES_192MM" />
+      <DIMENSION WIDTH="231" HEIGHT="40" DEPTH="32" />
+      <LIMITS>
+        <MIN X="-115.5" Y="-32" Z="-20" />
+        <MAX X="115.5" Y="0" Z="20" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_horses_13" DEF="13mm.group" GUID="9f3da9f1-81b7-4ebf-8f4a-00385c0157d7" />
+    <EXPLORERITEM TYPE="group" ID="zen_horses_192" DEF="192mm.group" GUID="fe7f627e-c7c6-4270-a151-53a406bc32d5" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

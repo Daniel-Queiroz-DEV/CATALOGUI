@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="786mm Alumínio Vecchio Cobre ($TEXT$.$D.ACAB$)" ICON="Metropolitan.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Metropolitan 786mm Alumínio Vecchio Cobre c/ Ponteiras Vecchio Cobre " VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_vec_cob" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_vec_cob" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION TEXT="ZP1781" ACAB="648" />
+</ENTITY>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Garage.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Garage Ponto 16mm Lona com Oleoses em Red Gold Escovado" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="46" HEIGHT="100" DEPTH="8" TEXT="ZP1253" ACAB="G16" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_lona" EDIT="N" />
+    <COMPONENTDEFINITION ID="BOTAO" NAME="BOTAO" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

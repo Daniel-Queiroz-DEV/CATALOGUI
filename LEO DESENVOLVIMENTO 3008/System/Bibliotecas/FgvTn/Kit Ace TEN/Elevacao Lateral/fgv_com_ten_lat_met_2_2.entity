@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Elev Lat Met Champanhe 500mm H180" ICON="1.jpg">
+  <DRAWING>
+    <FILE3D NAME="sistemas de gavetas metalicas 500_2" />
+    <LIMITS>
+      <MIN X="-11.059" Y="0" Z="0" />
+      <MAX X="1" Y="475.5" Z="97.952" />
+    </LIMITS>
+    <DIMENSION WIDTH="12.1" HEIGHT="98" DEPTH="475.5" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Elevação Lateral Metálica Champanhe 500mm H180" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="0" NAME="0" IDMATERIAL="fgv_champagne" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="12" HEIGHT="96" DEPTH="475,5" TEXT="58SXM0S65000000" DESC="" ITEM_BASE="58SXM0S65000000" />
+</ENTITY>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="Sta_Blu_Hks_Acu_Dir" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo06"
+          ReceiverDepth="1"
+          UniqueID="0"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-110;$H$-10"
+          ElementId="Sta_Blu_Hks_Acu_Dir" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo06"
+          ReceiverDepth="1"
+          UniqueID="1"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-38;$H$-10"
+          ElementId="Sta_Blu_Hks_Acu_Dir" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo06"
+          ReceiverDepth="1"
+          UniqueID="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-22;$H$-47"
+          ElementId="Sta_Blu_Hks_Acu_Dir" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação04"
+          ReceiverDrillName="Furo06"
+          ReceiverDepth="1"
+          UniqueID="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-86;$H$-47"
+          ElementId="Sta_Blu_Hks_Acu_Dir" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação05"
+          ReceiverDrillName="Furo06"
+          ReceiverDepth="1"
+          UniqueID="4"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-20.5;$H$-79"
+          ElementId="Sta_Blu_Hks_Acu_Dir" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Duplo ($TEXT$)" ICON="Acqua_Duplo.jpg" CHECKED="N">
+  <DRAWING ID="Acqua_Duplo" />
+  <INSERTDIMENSION WIDTH="105" HEIGHT="105" DEPTH="129" TEXT="ZP0550">
+    <MAX DEPTH="1000" />
+    <MIN DEPTH="100" />
+  </INSERTDIMENSION>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Acqua Di Zen Puxador para Portas Duplo @zen*(NAME)@" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_acqua" ENTRYID="pux_zen" />
+  </MODELS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="87" FORMULA="$D$-41">
+            <VECTOR U="7.831567E-09" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-70.38068" V="8.649775" />
+              <CORNER2 U="68.65958" V="-52.96574" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

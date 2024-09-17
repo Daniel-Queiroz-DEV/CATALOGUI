@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Cobre/Branco ($TEXT$.$D.ACAB$)" ICON="Laminatto.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Laminatto c/ Lâmina 32mm Vecchio Cobre/Branco" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUX_DET" NAME="PUX_DET" IDMATERIAL="zen_branco" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_vec_cob" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="40" HEIGHT="23" DEPTH="28" TEXT="ZP0345" ACAB="746" />
+</ENTITY>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Chanfrado Dir" TYPE="GEOMETRY" ICON="TAM_TAM_GRA_CHA_DIR_3.jpg">
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_GRA_CHA_DIR" FORMAT=".DXF" />
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="150" Y="-550" />
+      <PONTO2DA X="300" Y="-400" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="300" FORMULA="$W$">
+            <VECTOR U="-1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-23.70455" V="28.8411" />
+              <CORNER2 U="50.19627" V="-576.9376" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="174.0582" V="-609.2041" />
+              <CORNER2 U="-49.72597" V="-485.3421" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="400" FORMULA="#I#">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="256.2859" V="-346.9082" />
+              <CORNER2 U="352.0447" V="-445.7896" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="150" FORMULA="$W$-#J#">
+            <VECTOR U="-1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="123.0562" V="-509.2818" />
+              <CORNER2 U="186.5485" V="-582.1418" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Granito Chanfrado Direito" VISIBLE="N" />
+    <ATTRIBUTE ID="I" VALUE="400" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="J" VALUE="150" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="25" DEPTH="550" ITEM_BASE="TAMP01" TEXT="6509">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

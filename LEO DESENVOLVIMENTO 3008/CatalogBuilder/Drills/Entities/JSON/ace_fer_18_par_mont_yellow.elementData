@@ -1,0 +1,42 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo25",
+        "ReceiverDepth": {
+          "Value": "#PRO_FIX_LAT#"
+        },
+        "PlaneIndex": 3,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_18_par_mont_yellow"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "@( '#P.LINHA_PARAFUSO#' == 'COZ' && '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#COZ_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'COZ' && '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#COZ_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'BAN' && '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#BAN_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'BAN' && '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#BAN_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_BAN' && '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#DOR_BAN_ESP_LAT_CPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_BAN' && '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#DOR_BAN_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_CRI' && '#P.MODULO_PARAFUSO#' == 'NORMAL' ? (#DOR_BAN_ESP_LAT_CRI#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_CRI' && '#P.MODULO_PARAFUSO#' == 'EMBUTIR' ? (#DOR_BAN_ESP_LAT_CRI_EMB#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' && '#P.MODULO_PARAFUSO#' == 'POR_GIRO' ? (#DOR_ARM_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' && '#P.MODULO_PARAFUSO#' == 'POR_DESL' ? (#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' && '#P.MODULO_PARAFUSO#' == 'POR_DESL_SPOR' ? (#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#) : (18+#FOL_PAI#) )"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 1,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_18_par_mont_yellow"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_18_par_mont_yellow"
+}

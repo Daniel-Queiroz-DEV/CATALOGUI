@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Square" NAME="Square" PREFIXID="zen_pux_int_squ_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <DRAWING>
+    <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Square\3D\squareembutir" />
+    <LIMITS>
+      <MIN X="-30" Y="-19.5" Z="0" />
+      <MAX X="30" Y="0" Z="60" />
+    </LIMITS>
+    <DIMENSION WIDTH="60" HEIGHT="60" DEPTH="19.5" />
+  </DRAWING>
+  <DRAWINGS />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_128" DEF="ZP0809_42.entity" GUID="37ecc664-4f16-4c7a-9007-c967db410bc9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_129" DEF="ZP0809_38.entity" GUID="db38db30-97d5-4b4c-8592-57cfc3ebbeba" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_130" DEF="ZP0809_20.entity" GUID="9b9c1d51-0708-4b7a-aa44-9f70722225ce" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_131" DEF="ZP0809_22.entity" GUID="bf60d8f6-2306-4a6f-bc0a-0606e7a4d2b7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_132" DEF="ZP0809_122.entity" GUID="27aa21e0-63e5-42ae-87ae-a66f4d6360ca" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_19" DEF="ZP0809_13.entity" GUID="ee70ef47-c598-4e19-9213-be353c2fb221" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_648" DEF="ZP0809_648.entity" GUID="bf2111d2-0d8a-4477-826a-8a678b8d5911" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_599" DEF="ZP0809_599.entity" GUID="af010e8d-096d-41be-96a0-a2ac9af6b96c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_955" DEF="ZP0809_955.entity" GUID="0f161da7-b4db-404a-8835-d69bb42732d7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_A00" DEF="ZP0809_A00.entity" GUID="a9eea853-7ea4-403d-9e4d-56ba34f3b996" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_B00" DEF="ZP0809_B00.entity" GUID="979eb67f-91ac-454d-ba56-ebe7c2dc31ef" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_F00" DEF="ZP0809_F00.entity" GUID="d70d405b-020b-4b43-8a34-24ca18812212" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_G00" DEF="ZP0809_G00.entity" GUID="d5e52788-32a0-4b2d-9334-a8a3f75fc529" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_L00" DEF="ZP0809_L00.entity" GUID="e339722d-3863-4675-b09d-e691be8dda0f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_emb_square_M00" DEF="ZP0809_M00.entity" GUID="bf52c7b2-554b-4097-8dc7-fc4bb14cabcf" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Lounge" NAME="Lounge" PREFIXID="zen_emp_lou_">
+  <DRAWINGS>
+    <DRAWING ID="LOUNGE_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOUNGE_96MM" />
+      <DIMENSION WIDTH="103.8" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-51.923" Y="-33.973" Z="-3.75" />
+        <MAX X="51.923" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LOUNGE_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOUNGE_128MM" />
+      <DIMENSION WIDTH="135.8" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-67.923" Y="-33.973" Z="-3.75" />
+        <MAX X="67.923" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LOUNGE_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOUNGE_160MM" />
+      <DIMENSION WIDTH="167.8" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-83.923" Y="-33.973" Z="-3.75" />
+        <MAX X="83.923" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LOUNGE_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOUNGE_192MM" />
+      <DIMENSION WIDTH="199.8" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-99.923" Y="-33.973" Z="-3.75" />
+        <MAX X="99.923" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LOUNGE_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOUNGE_224MM" />
+      <DIMENSION WIDTH="231.8" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-115.923" Y="-33.973" Z="-3.75" />
+        <MAX X="115.923" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LOUNGE_288MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOUNGE_288MM" />
+      <DIMENSION WIDTH="295.8" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-147.923" Y="-33.973" Z="-3.75" />
+        <MAX X="147.923" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_emp_lou_96mm_2" DEF="96mm.group" GUID="d67b5ec3-8e70-4c5b-9cc5-c780ee901de9" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_lou_128mm_2" DEF="128mm.group" GUID="b3562285-0254-4c40-9cea-d7e559f07344" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_lou_160mm_2" DEF="160mm.group" GUID="22311e64-2204-4597-b6c7-3f859feafdd2" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_lou_192mm_2" DEF="192mm.group" GUID="d168cb95-a98f-4145-b3a2-fe7f42fa0d5f" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_lou_224mm_2" DEF="224mm.group" GUID="f1c73156-710d-43ae-a8e4-1ccb1e6633b4" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_lou_288mm_2" DEF="288mm.group" GUID="54f2cf09-0434-4b98-8f2d-b4e84bbed526" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

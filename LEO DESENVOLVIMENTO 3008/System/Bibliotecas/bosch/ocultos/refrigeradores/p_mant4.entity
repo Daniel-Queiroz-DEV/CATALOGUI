@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mantimentos 4" ICON="P_MANT4.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Mantimentos 4" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_MANT4" />
+    <DIMENSION WIDTH="515" HEIGHT="70" DEPTH="100" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

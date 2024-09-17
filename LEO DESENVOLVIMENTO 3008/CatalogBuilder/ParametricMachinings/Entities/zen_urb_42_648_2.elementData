@@ -1,0 +1,484 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "11",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "11",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "11",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "14,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "14,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "14,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "14,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "18,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "18,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "18,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "18,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "22,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "22,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "22,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "22,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "26,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "26,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "26,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "26,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "30,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "30,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "30,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "30,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "34,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "34,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "34,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "34,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "38,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "38,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "38,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "38,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "42,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "42,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "42,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "42,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "46,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "46,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "46,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "46,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "50,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "50,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "50,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "50,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "55,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "55,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "55,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "55,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "59,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "59,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "59,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "59,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "63,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "63,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "63,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "63,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "67,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "67,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "67,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "67,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "71,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "71,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "71,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "71,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "75,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "75,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "75,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "75,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "79,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "79,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "79,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "79,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "83,5",
+            "Y": "85,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "83,5",
+            "Y": "85,5"
+          },
+          "End": {
+            "X": "83,5",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "83,5",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "87",
+            "Y": "12,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "87",
+            "Y": "12,5"
+          },
+          "End": {
+            "X": "87",
+            "Y": "87"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "87",
+            "Y": "87"
+          },
+          "End": {
+            "X": "11",
+            "Y": "87"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "11",
+            "Y": "87"
+          },
+          "End": {
+            "X": "11",
+            "Y": "11"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "11",
+            "Y": "11"
+          },
+          "End": {
+            "X": "87",
+            "Y": "11"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "15,5"
+      },
+      "MachiningProcessIDText": "d7630f20-d437-43a6-b8cd-a69cc4a5e398",
+      "PlaneIndex": 3,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "11",
+        "Y": "85,5"
+      },
+      "ElementId": "zen_urb_42_648_2"
+    }
+  ],
+  "ElementId": "zen_urb_42_648_2"
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="300mm ($TEXT$)" ICON="150.jpg">
+  <DRAWING>
+    <FILE3D NAME="ghost300" FORMAT=".PMOB" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="300" HEIGHT="45" DEPTH="14" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.614" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Ghost 300mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

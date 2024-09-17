@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="garage" NAME="Garage" PREFIXID="zen_gar_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="GARAGE_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Garage_Ponto" />
+      <DIMENSION WIDTH="46" HEIGHT="100" DEPTH="8" />
+      <LIMITS>
+        <MIN X="-23" Y="-7.381" Z="-77" />
+        <MAX X="23" Y="0.619" Z="23" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GARAGE_PONTO_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Garage_Ponto_Diamond" />
+      <DIMENSION WIDTH="46" HEIGHT="100" DEPTH="8.9" />
+      <LIMITS>
+        <MIN X="-23" Y="-8.961" Z="-77" />
+        <MAX X="23" Y="-0.105" Z="23" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GARAGE_224mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Garage_224mm" />
+      <DIMENSION WIDTH="270" HEIGHT="46" DEPTH="11" />
+      <LIMITS>
+        <MIN X="-135" Y="-11.012" Z="-23" />
+        <MAX X="135" Y="0" Z="23" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GARAGE_352mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Garage_352mm" />
+      <DIMENSION WIDTH="398" HEIGHT="46" DEPTH="11" />
+      <LIMITS>
+        <MIN X="-199" Y="-11.012" Z="-23" />
+        <MAX X="199" Y="0" Z="23" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GARAGE_544mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Garage_544mm" />
+      <DIMENSION WIDTH="590" HEIGHT="46" DEPTH="11" />
+      <LIMITS>
+        <MIN X="-295" Y="-11.012" Z="-23" />
+        <MAX X="295" Y="0" Z="23" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon_dia" DEF="PontoDiamond.group" GUID="3bfdf25c-bfe3-4bd0-8f87-a3ae6b19b17b" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon" DEF="Ponto.group" GUID="9f0538b3-63b6-4d07-a2ab-e3045a18c9f3" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_224" DEF="224mm.group" GUID="41d60840-031b-4af4-9e63-8dcee3641641" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_352" DEF="352mm.group" GUID="b030dac1-04bf-421d-870e-9fca83914435" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544" DEF="544mm.group" GUID="14bf7682-6616-46e1-b693-d604142507f4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

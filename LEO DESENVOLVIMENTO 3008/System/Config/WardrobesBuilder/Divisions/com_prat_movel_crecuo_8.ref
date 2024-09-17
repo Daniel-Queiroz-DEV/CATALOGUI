@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HorizontalDivision Id="com_prat_movel_crecuo" EntityId="com_coz_pra_mov" THICKNESS="@(#ESC_ESP_PRAT_MOV#+#FOL_PAI#)" Offset="#ESC_AFA_TRAS_PRA_ARM#" Fallback="#RECUO_PRAT#" Category="Prateleiras Móveis" Name="c/ Recuo Front" Movable="Y" Preview="%PastaConstrutorArmarios%\Escritorios\Divisoes\imagens\prat_mov_sra_cre.jpg">
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_PRA_MOV_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_PRA_MOV_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_PRA_MOV_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_PRA_MOV_FT_ESQ#" />
+				<SetAttribute Id="FIX_PRA_GEN" Value="#ESC_FIX_PRAT#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</HorizontalDivision>

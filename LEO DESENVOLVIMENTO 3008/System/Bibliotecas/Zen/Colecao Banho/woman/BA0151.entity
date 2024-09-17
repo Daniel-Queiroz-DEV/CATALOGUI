@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Obj Balcão ($TEXT$)" ICON="BA0015_7.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0151_pt_obj_balc" />
+    <DIMENSION WIDTH="110" HEIGHT="90" DEPTH="110.3" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0151" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0151" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="90" DEPTH="110" TEXT="BA0151" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Woman Porta Objetos de Balcão $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Esc c/ Verniz Brilho ($TEXT$.$D.ACAB$)" ICON="Shell.jpg">
+  <INSERTDIMENSION TEXT="ZP4318" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_niquel_esc_ver_rec_" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Shell 64mm Níquel Esc c/ Verniz Brilho" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

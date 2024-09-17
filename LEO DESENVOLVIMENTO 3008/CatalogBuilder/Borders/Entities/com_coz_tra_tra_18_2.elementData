@@ -1,0 +1,98 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "ReferenceMounter": "Borda01 (referecia01)= $BORDER",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 6,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderID": "e18e6d10-1f06-4eb4-8e67-d0b4261bffb9",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_tra_tra_18_2"
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "ReferenceMounter": "Borda01 (referecia01)= $BORDER",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 7,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "45"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "45"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 45",
+        "Mid": "500, 45",
+        "End": "0, 45"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderID": "653096f3-6547-4f71-b7b6-3e0b5fcb7712",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_tra_tra_18_2"
+    }
+  ],
+  "ElementId": "com_coz_tra_tra_18_2"
+}

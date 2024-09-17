@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Redondo" ICON="redondo.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Colchão" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="colchao" />
+    <DIMENSION WIDTH="1596" HEIGHT="159" DEPTH="1596" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="COLCHAO" NAME="COLCHAO" IDMATERIAL="tec_brancos_lisos_tecido 010" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

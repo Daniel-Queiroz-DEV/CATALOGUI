@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Laminatto" DIRECTORY="Laminatto" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_lam_32" DEF="32mm.group" GUID="5798ffbf-ce20-435f-bea3-8fdece4527bf" />
+    <EXPLORERITEM TYPE="group" ID="zen_lam_128" DEF="128mm.group" GUID="76d9c9fe-80a8-4ddf-a38a-a4673881986b" />
+    <EXPLORERITEM TYPE="group" ID="zen_lam_224" DEF="224mm.group" GUID="04d70080-b914-4c8a-8c4f-78f30238ec45" />
+    <EXPLORERITEM TYPE="group" ID="zen_lam_320" DEF="320mm.group" GUID="80b15f34-f592-4bda-8658-095436c47e50" />
+    <EXPLORERITEM TYPE="group" ID="zen_lam_448" DEF="448mm.group" GUID="cc7c3901-8c8e-4ac0-9d31-bbc2edf7a635" />
+    <EXPLORERITEM TYPE="group" ID="zen_lam_544" DEF="544mm.group" GUID="10f3625c-dc7e-4c71-a8fd-408d7dbd1a7d" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="LAMINATO_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LAMINATO_32MM" />
+      <DIMENSION WIDTH="40" HEIGHT="23.5" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-20" Y="-28" Z="-11.75" />
+        <MAX X="20" Y="0" Z="11.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LAMINATO_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LAMINATO_128MM" />
+      <DIMENSION WIDTH="136" HEIGHT="23.5" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-68" Y="-28" Z="-11.75" />
+        <MAX X="68" Y="0" Z="11.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LAMINATO_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LAMINATO_224MM" />
+      <DIMENSION WIDTH="232" HEIGHT="23.5" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-116" Y="-28" Z="-11.75" />
+        <MAX X="116" Y="0" Z="11.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LAMINATO_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LAMINATO_320MM" />
+      <DIMENSION WIDTH="328" HEIGHT="23.5" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-164" Y="-28" Z="-11.75" />
+        <MAX X="164" Y="0" Z="11.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LAMINATO_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LAMINATO_448MM" />
+      <DIMENSION WIDTH="456" HEIGHT="23.5" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-228" Y="-28" Z="-11.75" />
+        <MAX X="228" Y="0" Z="11.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LAMINATO_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LAMINATO_544MM" />
+      <DIMENSION WIDTH="552" HEIGHT="23.5" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-276" Y="-28" Z="-11.75" />
+        <MAX X="276" Y="0" Z="11.75" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

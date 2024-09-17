@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Puxadores" NAME="Puxadores" PREFIXID="coz_ace_pux_" INVISIBLE="N" MODELNAME="Puxadores" DESCRIPTION="">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <POSITIONSERVICEDEFINITIONS>
+    <POSITIONSERVICEDEFINITION ID="PUX_RETA" DESCRIPTION="Pux Porta Reta">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$" Z="$PH$-$W$/2-30" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+30" Y="-$PD$" Z="$PH$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+30" Y="-$PD$" Z="$W$/2+30" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="COZ_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="-1" />
+        <OPTION ID="COZ_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="-1" />
+        <OPTION ID="COZ_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="-1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="PUX_PER" DESCRIPTION="Pux Perfil">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="2" Z="$PH$-$H$/2+2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="2" Z="$PH$-$H$/2+2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="2" Z="$PH$-$H$/2+2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2-2" Y="2" Z="$PH$-$W$/2-30" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$H$/2-2" Y="2" Z="$PH$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="COZ_VER_07" DESCRIPTION="Vertical 07" X="$H$/2-2" Y="2" Z="$W$/2+30" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="COZ_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="2" Z="$H$/2-2" A="0" B="0" C="-1" />
+        <OPTION ID="COZ_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="2" Z="$H$/2-2" A="0" B="0" C="-1" />
+        <OPTION ID="COZ_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="2" Z="$H$/2-2" A="0" B="0" C="-1" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2+2" Y="2" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2+2" Y="2" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2+2" Y="2" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="PUX_PORTAS_ALU" DESCRIPTION="Pux Portas Alumínio">
+      <OPTIONS>
+        <OPTION ID="HSC" DESCRIPTION="Hor Sup Central" X="$PW$/2" Y="2" Z="$PH$-$H$/2+2" A="0" B="0" C="1" />
+        <OPTION ID="VI" DESCRIPTION="Vert Inf" X="$H$/2-2" Y="2" Z="$W$/2+30" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="VC" DESCRIPTION="Vert Central" X="$H$/2-2" Y="2" Z="$PH$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="VS" DESCRIPTION="Vert Sup" X="$H$/2-2" Y="2" Z="$PH$-$W$/2-30" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="HIC" DESCRIPTION="Hor Inf Central" X="$PW$/2" Y="2" Z="$H$/2-2" A="0" B="0" C="-1" />
+        <OPTION ID="HI" DESCRIPTION="Hor Inf" X="$W$/2+30" Y="2" Z="$H$/2-2" A="0" B="0" C="-1" />
+        <OPTION ID="HS" DESCRIPTION="Hor Sup Esq" X="$W$/2+30" Y="2" Z="$PH$-$H$/2+2" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="PUX_PORTAS_ALU_BAS_FRE" DESCRIPTION="Pux Portas Alumínio">
+      <OPTIONS>
+        <OPTION ID="HSC" DESCRIPTION="Hor Sup Central" X="$PW$/2" Y="2" Z="$PH$-$H$/2+2" A="0" B="0" C="1" />
+        <OPTION ID="HIC" DESCRIPTION="Hor Inf Central" X="$PW$/2" Y="2" Z="$H$/2-2" A="0" B="0" C="-1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+  </POSITIONSERVICEDEFINITIONS>
+  <DRAWINGS />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="coz_ace_pux_SPUX" DEF="spux.entity" GUID="7e32e672-0edf-4561-b1ff-7433936f52e1" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_607_6" DEF="607.group" GUID="609fe31f-09d5-419c-9f6b-fa9763b72a1c" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL03_6" DEF="IL03.group" GUID="7eedd818-6738-4dc1-8ab3-0e1c7c786807" />
+    <EXPLORERITEM TYPE="group" ID="ace_pux_IL06_6" DEF="IL06.group" GUID="57d72380-8117-480c-9a93-9b5380908f85" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL950_6" DEF="IL950.group" GUID="8e22317b-8f21-43cb-b96b-a908d11631fe" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_PONTOS_2" DEF="PONTOS.group" GUID="9eea4f4c-d266-434a-ad98-26b1178955bf" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_EMBUTIR_2" DEF="EMBUTIR.group" GUID="6d3a4758-eb46-432d-a18d-d8e58a540e84" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL950_6_3" DEF="STILE.group" GUID="a83f3d50-1046-47e6-bf3b-706db43f1488" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL950_6_3_2" DEF="IL950_3_2.group" GUID="4c4186bb-592f-4390-b5ca-6c1dba3458bb" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL950_6_3_2_2_2" DEF="IL950_3_2_2_2.group" GUID="fdd9b641-acd4-4233-b621-34c7cd37d5c3" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL950_6_3_2_2_2_2" DEF="IL950_3_2_2_2_3.group" GUID="b4a112c8-561f-44f3-b84e-5ecc3ad9683e" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_PERFIL" DEF="Perfis.group" GUID="0fe313d4-b397-44c1-b51d-4e8e70a3ac34" />
+    <EXPLORERITEM TYPE="group" ID="zen" DEF="Zen.group" GUID="cf9c16b5-bee2-428d-bab7-47ea0bf51325" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_INFANTIL" DEF="LINHA INFANTIL.group" GUID="025066a6-b9d1-4121-ab5a-c4894e76f910" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_COURO_" DEF="LINHA COURO.group" GUID="9f700259-0d60-4d2e-8a71-29506c9cc8dd" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_JALAPA_REDONDO" DEF="JL REDONDO.group" GUID="17e0b55d-c73d-4795-a541-3af72c83d72e" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_JALAPA_QUADRADO" DEF="JL QUADRADO.group" GUID="98540142-38a6-4e68-bc0a-ffd253e5ad05" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_ARTIC" DEF="ARTIC.group" GUID="1aaf4a9c-68e9-4467-963e-ab06c1d3469e" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_IL950_6_3_2_2" DEF="IL950_3_2_2.group" GUID="db0ceec1-fabf-494d-bd2d-800b1f466821" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX_OPERA" DEF="ARTIC_2.group" GUID="2b253eb0-7403-4a5c-b854-cbab26862d50" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

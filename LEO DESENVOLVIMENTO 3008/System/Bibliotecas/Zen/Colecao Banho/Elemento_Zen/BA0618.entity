@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Saboneteira Fixa ($TEXT$)" CHECKED="N" ICON="BA0618.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira fixa" />
+    <DIMENSION WIDTH="168.5" HEIGHT="20.7" DEPTH="125.1" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Elemento Zen Saboneteira Fixa @Zen_Elemento_Zen(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="169" HEIGHT="21" DEPTH="125" TEXT="BA0618" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cro_ino" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ino_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ino_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_vec_met" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_dou_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_dou_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cob_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cob_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_vec_cob" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0618" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_sou_ele_zen_cob_vec_met" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

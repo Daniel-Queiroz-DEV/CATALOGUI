@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Gavetas" NAME="Gavetas" PREFIXID="com_coz_gav_" INVISIBLE="N" MODELINVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="FRE_FAL_GEN" VALUE="#P.FRE_FAL_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#P.FRE_FAL_TIPO#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE TIPO_ARMARIO="$P.REFERENCE(TIPO_ARMARIO)$" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_2" DEF="com_coz_gav_fun_4.entity" GUID="7f8cb439-1264-4fab-a189-54cccdb177c5" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun" DEF="com_coz_gav_fun.entity" GUID="26b35ca3-887b-4be8-bec4-06cf9fa425fc" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_3" DEF="com_coz_gav_fun_5.entity" GUID="c3e9dbfc-ca9e-486e-b700-f97d04a380ee" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_oculta" DEF="com_coz_gav_fun_2.entity" GUID="fda2c4c4-c9a0-4b19-b979-46a58b851346" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_4" DEF="com_coz_gav_fun_6.entity" GUID="7bcd15cf-3b06-4e82-aa37-6afeb87b84a9" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_esq" DEF="com_coz_gav_lat_esq.entity" GUID="fe7e7cd6-d890-4709-9cc7-39a4b5393c61" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_esq_mdf" DEF="com_coz_gav_lat_esq_3.entity" GUID="c39c1d8b-398a-470c-944b-b6af227e1d3d" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_tan_blum_esq" DEF="com_coz_gav_lat_tan_blum_esq.entity" GUID="b86c0c18-319c-4f60-b49d-fe548dcb6373" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_esq_2" DEF="com_coz_gav_lat_esq_4.entity" GUID="df89d0c3-4ec4-441f-a67d-988a8ded0691" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_tan_blum_esq_2" DEF="com_coz_gav_lat_tan_blum_esq_3.entity" GUID="31306afc-d23e-47f5-9578-5f17cbb770eb" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_dir_2" DEF="com_coz_gav_lat_dir_3.entity" GUID="8393a5d3-5827-440c-9f73-1991a127d419" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_tan_blum_dir_2" DEF="com_coz_gav_lat_tan_blum_dir_3.entity" GUID="5707beb9-d8d9-4cfb-9c2e-4fc577820ffe" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_tan_blum_dir" DEF="com_coz_gav_lat_tan_blum_dir.entity" GUID="89807927-6353-42db-8db2-d0c5d5456958" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_dir" DEF="com_coz_gav_lat_dir.entity" GUID="25a637d9-efc1-46eb-a4eb-67b86ed93af7" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_Y" DEF="com_coz_gav_fun_3.entity" GUID="38ca50a5-fcb5-44f8-8aa4-d293b8b2df26" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_oculta_Y" DEF="com_coz_gav_fun_2_2.entity" GUID="c6ef6a89-f7b4-4183-b836-36e6ca56790c" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_tan_blum_esq_Y" DEF="com_coz_gav_lat_tan_blum_esq_2.entity" GUID="f0adc645-b63a-4af0-929b-24fee86d3660" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_tan_blum_dir_Y" DEF="com_coz_gav_lat_tan_blum_dir_2.entity" GUID="070ee6ac-aab5-4579-9a0c-ca258071f9c8" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_esq_Y" DEF="com_coz_gav_lat_esq_2.entity" GUID="6464352d-a0e1-4b0c-be9e-805ca06113da" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_lat_dir_Y" DEF="com_coz_gav_lat_dir_2.entity" GUID="65e93f6c-2d9e-410e-a871-93f37ff3903f" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra_Y" DEF="com_coz_gav_tra_3.entity" GUID="9980210d-602d-4a3b-bf18-c44fcf3f9818" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fre_fal_Y" DEF="com_coz_gav_fre_fal_3.entity" GUID="30dcd1c6-4e7d-47c1-8450-156ec52c4423" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra" DEF="com_coz_gav_tra.entity" GUID="27f93d38-2917-40ee-bcf4-c8a2d2ba405f" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra_2" DEF="com_coz_gav_tra_2.entity" GUID="1ac16f06-9555-4778-ad03-c97cd8d48b33" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fre_fal" DEF="com_coz_gav_fre_fal.entity" GUID="e1999d97-452c-4647-b8cc-aa559a7b9936" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fre_fal_2" DEF="com_coz_gav_fre_fal_2.entity" GUID="0e783742-1dc9-4986-9304-666f5f671aff" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fre_fal_mdf" DEF="com_coz_gav_fre_fal_2_2.entity" GUID="a3b98201-012d-48e2-a4d7-bb8808146eac" />
+    <EXPLORERITEM TYPE="entity" ID="com_gav_fre_esc" DEF="com_gav_fre_esc.entity" GUID="d3652dd1-3f09-4063-b7c3-bcdf2553a7d1" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_aer" DEF="com_coz_gav_aer.entity" GUID="430bdf47-e566-4a8b-8b8c-391878dab9a1" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra_aer" DEF="com_coz_gav_tra_aer.entity" GUID="55755231-82a9-4835-9c85-dbb8239ecb3e" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tan" DEF="com_coz_gav_tan.entity" GUID="a2ec9f93-8aaa-49f0-9d5b-948ec9861733" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra_blu_tan_tip" DEF="com_coz_gav_tra_blu_tan_tip.entity" GUID="52319e29-6a65-49e4-9a59-816ed24d6960" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_tra_blu_tan_blu" DEF="com_coz_gav_1002.entity" GUID="fdfaeed6-0026-4791-b29d-152effd09449" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Met_Com_Tra" DEF="Sta_Blu_Met_Com_Tra.entity" GUID="ca20759d-bdd5-4181-90d2-7ddac30ebf82" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Met_Com_Tra_2" DEF="Sta_Blu_Met_Com_Tra_2.entity" GUID="87f84ea8-5895-43de-b044-da8795aa63ed" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Met_Com_Tra" DEF="Sta_Fgv_Met_Com_Tra.entity" GUID="e9c88894-af98-453a-bd12-3b6432512825" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_gav_fun_cub" DEF="com_coz_gav_fun_cub.entity" GUID="106fb496-0a55-4226-b6c3-aa2b5c9fdce1" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_078" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_050" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_632" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_743" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="start_mad_663_1" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_052" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_059" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_082" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_083" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_085" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_086" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_672" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_742" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_735" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_061" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_05" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_714" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_715" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_064" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_065" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_01" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_067" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_665" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_669" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_671" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_670" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_076" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_021" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_664" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_092" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_739" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_070" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_740" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_036" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_702" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_744" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_707" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_703" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_706" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_679" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_701" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_678" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_014" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_027" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_027_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_677" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_676" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_656" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_675" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_016" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_07" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_658" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_015" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_674" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_019" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_017" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_657" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_018" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_643" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_675_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_016_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_07_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_015_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_017_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_018_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_032_2" CONDITION="$H$ == 25 || $H$ == 6 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_659" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_032" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_644" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_727" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_gav" MODEL="com_caixas" MODELTYPE="acabamento_726" CONDITION="$H$ == 25" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

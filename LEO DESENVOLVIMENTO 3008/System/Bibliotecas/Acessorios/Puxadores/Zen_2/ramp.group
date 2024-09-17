@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Ramp" DIRECTORY="ramp">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ram_64_2" DEF="64mm.group" GUID="bb348f15-e8d7-4bbd-9467-31d418f51ad5" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_96_2" DEF="96mm.group" GUID="bd4cf026-4536-4b66-87fd-5131af4da611" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_128_2" DEF="128mm.group" GUID="831f87f1-b512-490c-b10b-91e381ef84e3" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_192_2" DEF="192mm.group" GUID="e05ff564-fffb-45f1-a6ac-7dafc8c1032c" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_224_2" DEF="224mm.group" GUID="0d18994c-5067-48f7-83db-b5f1b7d2c96d" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_352_2" DEF="352mm.group" GUID="d911236c-be72-4c0d-8938-d633314be12b" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_448_2" DEF="448mm.group" GUID="ea187737-68b6-4bc5-89c0-4d357c4a1eeb" />
+    <EXPLORERITEM TYPE="group" ID="zen_ram_544_2" DEF="544mm.group" GUID="1c87b4fb-b162-4bc7-bbdc-2af66b48ed87" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="RAMP_64MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_64mm" />
+      <DIMENSION WIDTH="72" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-36" Y="-36" Z="-4.5" />
+        <MAX X="36" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_96MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_96mm" />
+      <DIMENSION WIDTH="104" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-52" Y="-36" Z="-4.5" />
+        <MAX X="52" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_128mm" />
+      <DIMENSION WIDTH="136" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-68" Y="-36" Z="-4.5" />
+        <MAX X="68" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_192MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_192mm" />
+      <DIMENSION WIDTH="200" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-100" Y="-36" Z="-4.5" />
+        <MAX X="100" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_224MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_224mm" />
+      <DIMENSION WIDTH="232" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-116" Y="-36" Z="-4.5" />
+        <MAX X="116" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_352MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_352mm" />
+      <DIMENSION WIDTH="352" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-176" Y="-36" Z="-4.5" />
+        <MAX X="176" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_448MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_448mm" />
+      <DIMENSION WIDTH="456" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-228" Y="-36" Z="-4.5" />
+        <MAX X="228" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RAMP_544MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ramp_544mm" />
+      <DIMENSION WIDTH="552" HEIGHT="12.5" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-276" Y="-36" Z="-4.5" />
+        <MAX X="276" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

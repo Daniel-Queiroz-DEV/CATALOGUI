@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Escritorios" NAME="Escritórios" PREFIXID="ACE_ESC_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" ACAB="@ace_*(ACABAMENTO)@" COR="@ace_*(COR)@" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_esc_pas_cab" DEF="Passa Cabo.entity" GUID="cb7afb63-8fe9-4913-8829-00e9fabe75f7" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_esc_cax_tom" DEF="ace_ocu_esc_cax_tom.entity" GUID="bf12245e-59e2-45f6-b27a-6bc0e05e71ba" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_SUP_VID_DIV" DEF="vidro_divisorias.entity" GUID="33498fd0-3d20-4ce4-851e-b9e397624d9b" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_ESC_23" DEF="ACE_ESC_23.entity" GUID="3ff469ee-a002-4c7e-b985-a9e5c5dc6140" />
+  </EXPLORERITEMCOLLECTION>
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+</GROUP>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="TV 42''" ICON="tv_video_11.jpg" CHECKED="N" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="tv_video_11" />
+    <DIMENSION WIDTH="1330" HEIGHT="770" DEPTH="110" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Televisão LCD" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION MODE="Nothing" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="metal" NAME="metal" IDMATERIAL="aluminio_01" EDIT="Y" />
+    <COMPONENTDEFINITION ID="vidro" NAME="vidro" IDMATERIAL="vid_jateado" EDIT="Y" />
+    <COMPONENTDEFINITION ID="tela" NAME="tela" IDMATERIAL="ima_TV_tela 013" EDIT="Y" />
+    <COMPONENTDEFINITION ID="corpo" NAME="corpo" IDMATERIAL="cin_cor_003" EDIT="Y" />
+    <COMPONENTDEFINITION ID="detalhe" NAME="detalhe" IDMATERIAL="cin_cor_005" EDIT="Y" />
+    <COMPONENTDEFINITION ID="texto" NAME="texto" IDMATERIAL="cromado_01" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

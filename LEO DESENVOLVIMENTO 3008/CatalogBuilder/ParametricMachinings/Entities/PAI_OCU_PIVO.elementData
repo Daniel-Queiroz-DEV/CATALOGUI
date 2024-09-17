@@ -1,0 +1,68 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$",
+            "Y": "100",
+            "Z": "15"
+          },
+          "End": {
+            "X": "-10",
+            "Y": "100",
+            "Z": "15"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "15"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "afc26236-52d2-4697-98fe-fae8b5b77add",
+      "PlaneType": "Superior",
+      "OperationPrice": "PIVOTANTE",
+      "Position": {
+        "X": "$W$",
+        "Y": "100"
+      },
+      "ElementId": "PAI_OCU_PIVO"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-10",
+            "Y": "$D$-100",
+            "Z": "15"
+          },
+          "End": {
+            "X": "$W$",
+            "Y": "$D$-100",
+            "Z": "15"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "15"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "afc26236-52d2-4697-98fe-fae8b5b77add",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "PIVOTANTE",
+      "Position": {
+        "X": "-10",
+        "Y": "$D$-100"
+      },
+      "ElementId": "PAI_OCU_PIVO"
+    }
+  ],
+  "ElementId": "PAI_OCU_PIVO"
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gel RG 75" ICON="rg_75.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="RG75 Incolor sem Freio" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="rg_75" />
+    <DIMENSION WIDTH="50" HEIGHT="98" DEPTH="87.4" />
+  </DRAWING>
+  <INSERTDIMENSION HEIGHT="97" DEPTH="85" WIDTH="50" TEXT="0084.075000" />
+  <REFERENCE COMPLETE="$TEXT$" />
+</ENTITY>

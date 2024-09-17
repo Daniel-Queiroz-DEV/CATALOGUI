@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="SIDe maior" ICON="P_SIDE.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta SIDe Maior" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_SIDE" />
+    <DIMENSION WIDTH="480" HEIGHT="1680" DEPTH="50" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

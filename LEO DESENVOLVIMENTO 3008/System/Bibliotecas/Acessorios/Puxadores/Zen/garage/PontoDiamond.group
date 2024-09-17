@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="PontoDiamond" NAME="Ponto Diamond" PREFIXID="zen_gar_pon_dia_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS />
+  <DRAWING ID="GARAGE_PONTO_DIAMOND" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon_dia_cou_azu" DEF="Couro_Azul.group" GUID="102bdd1e-e56e-4ad4-90be-8020bdf5aef6" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon_dia_cou_bra" DEF="Couro_Branco.group" GUID="4250e800-de51-470f-828d-ece4d2164f99" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon_dia_cou_mar" DEF="Couro_Marrom.group" GUID="c725ce1f-6c59-4699-889a-fa3443a22063" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon_dia_cou_pre" DEF="Couro_Preto.group" GUID="f96b7a6f-83a4-4b5b-a62f-af887968967a" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_pon_dia_cou_ver" DEF="Couro_Vermelho.group" GUID="844d7200-755e-421d-855d-ed9f4e45580f" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

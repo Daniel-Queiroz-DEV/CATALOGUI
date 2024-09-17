@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_cor_pon_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_1_2" DEF="ZP5464_1.entity" GUID="fab89026-74dd-4952-a881-e57b0ea325d8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_2_2" DEF="ZP5464_2.entity" GUID="1fe7b76d-3f66-4a1c-af13-aabd53813b6f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_24_2" DEF="ZP5464_24.entity" GUID="0a7c4689-79f8-4ac4-8f3a-f1b0de509401" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_25_2" DEF="ZP5464_25.entity" GUID="6a7a4277-845f-4bd6-aadd-4ce2dc787052" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_597_2" DEF="ZP5464_597.entity" GUID="e8720787-e654-4036-b509-2840900545c5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_599_2" DEF="ZP5464_599.entity" GUID="59b455ca-c6d2-45f7-b677-51091cec2bc6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_648_2" DEF="ZP5464_648.entity" GUID="82dd3325-d72f-47bb-9cab-0b5a38ee98e6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_889_2" DEF="ZP5464_889.entity" GUID="532498ef-d7bf-4e53-b88d-e84c8b8353f9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_916_2" DEF="ZP5464_916.entity" GUID="03ec5220-dd57-4bbb-84c0-86082d859390" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_955_2" DEF="ZP5464_955.entity" GUID="c200ce10-d885-412e-8411-1f4947a63b46" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_A00_2" DEF="ZP5464_A00.entity" GUID="55cc7fa3-f356-4554-a576-4c50a9842fa2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_B00_2" DEF="ZP5464_B00.entity" GUID="9f5d7dd1-06f6-469a-a1ae-c27abbf49587" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_F00_2" DEF="ZP5464_F00.entity" GUID="e28ca710-9222-43c0-9086-e0bcccfc1418" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_G00_2" DEF="ZP5464_G00.entity" GUID="a5955720-5189-4f18-8b19-a5987148ba18" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_L00_2" DEF="ZP5464_L00.entity" GUID="c24fbbaa-73f7-479b-af45-9a6b5f120fc0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_cor_pon_M00_2" DEF="ZP5464_M00.entity" GUID="90c445df-22b3-411b-a085-7eb7a7d5956d" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="CORDOALHA_PONTO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_60mm_Cordoalha.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

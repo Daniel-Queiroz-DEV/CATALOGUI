@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="16mm_Couro_Marrom" NAME="16mm Couro Marrom" PREFIXID="zen_big_far_16_cou_mar_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_723_2" DEF="ZP1933_723.entity" GUID="b2f58aaa-2fdb-42ba-84f4-1b34648d43c0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_726_2" DEF="ZP1933_726.entity" GUID="b8109eae-3807-4f63-8df1-d2a223952234" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_731_2" DEF="ZP1933_731.entity" GUID="58923825-8164-4db1-b4cc-fc559e898b96" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_A05_2" DEF="ZP1933_A05.entity" GUID="94b7ac20-ad15-44f2-b8e8-6ed334b914e1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_B05_2" DEF="ZP1933_B05.entity" GUID="63404348-3644-4d56-b964-929f4717d9f7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_F05_2" DEF="ZP1933_F05.entity" GUID="1b40e8fe-e8bb-475c-b988-86b330319789" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_G05_2" DEF="ZP1933_G05.entity" GUID="43a195e5-e7a3-425a-bb0c-4ff1e427cfeb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_L05_2" DEF="ZP1933_L05.entity" GUID="3f30de02-9a2a-43b9-b801-ae6da66ad359" />
+    <EXPLORERITEM TYPE="entity" ID="zen_big_far_M05_2" DEF="ZP1933_M05.entity" GUID="0e419f92-eced-42e5-bc87-677f42c783b0" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="BIGFARM_16mm" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

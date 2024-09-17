@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Sorento" NAME="Sorento" PREFIXID="zen_sor_">
+  <DRAWINGS>
+    <DRAWING ID="SORENTO_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SORENTO_PONTO" />
+      <DIMENSION WIDTH="15.9" HEIGHT="15.9" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-7.938" Y="-23.11" Z="-8.098" />
+        <MAX X="7.938" Y="-0.109" Z="7.777" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SORENTO_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SORENTO_96MM" />
+      <DIMENSION WIDTH="124" HEIGHT="15.9" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-62" Y="-33.87" Z="-7.934" />
+        <MAX X="62" Y="0" Z="7.934" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SORENTO_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SORENTO_224MM" />
+      <DIMENSION WIDTH="348" HEIGHT="15.9" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-174.001" Y="-33.87" Z="-7.934" />
+        <MAX X="174.001" Y="0" Z="7.934" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SORENTO_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SORENTO_320MM" />
+      <DIMENSION WIDTH="444" HEIGHT="15.9" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-222.001" Y="-33.87" Z="-7.934" />
+        <MAX X="222.001" Y="0" Z="7.934" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SORENTO_416MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SORENTO_416MM" />
+      <DIMENSION WIDTH="540" HEIGHT="15.9" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-270" Y="-33.87" Z="-7.934" />
+        <MAX X="270" Y="0" Z="7.934" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SORENTO_672MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SORENTO_672MM" />
+      <DIMENSION WIDTH="796" HEIGHT="15.9" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-398" Y="-33.87" Z="-7.934" />
+        <MAX X="398" Y="0" Z="7.934" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sor_pon_2" DEF="Ponto.group" GUID="49ccb278-5d91-4169-b66e-de3d075f87d2" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor_96_2" DEF="96mm.group" GUID="05ae5766-8f14-44e7-8c75-e35a6a7450ac" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor_224_2" DEF="224mm.group" GUID="fdd295e1-12f8-4a60-bad8-b5bef43bb014" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor_320_2" DEF="320mm.group" GUID="a1c57c91-4f22-481c-9ed1-05ddd94976a4" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor_416_2" DEF="416mm.group" GUID="1b91935b-8154-4435-9469-71e265529a77" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor_672_2" DEF="672mm.group" GUID="da87b930-9fd2-40b7-83db-4da068529be3" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Trilho Inferior Int">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trilho Inferior Interno" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" TEXT="CORPERC">
+    <MIN WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <MAX WIDTH="10000" HEIGHT="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="CORPERC" ITEM_BASE="CORPERC" />
+</ENTITY>

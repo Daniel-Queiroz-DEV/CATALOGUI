@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Com_Chave" NAME="c/ Chave" PREFIXID="zen_epo_cha_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_es" DEF="zp0152_15.entity" GUID="b6e4b09f-0360-4464-b09b-b477011daca3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_648" DEF="zp0152_648.entity" GUID="40853703-064f-4956-809f-344a10234cf7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_A00" DEF="zp0152_A00.entity" GUID="c2f6e612-d008-4769-8b35-6935de7849c8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_B00" DEF="zp0152_B00.entity" GUID="8cc676f4-6785-4cc3-a032-5410cd5f0a52" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_F00" DEF="zp0152_F00.entity" GUID="2b8c2f60-f3c1-4650-8bb2-f8286851d93f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_G00" DEF="zp0152_G00.entity" GUID="eac103e1-743f-4fd8-beff-42a12c6a46a3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_L00" DEF="zp0152_L00.entity" GUID="e2f4004a-238a-4e9b-a4eb-4e6a1a87a371" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0152_M00" DEF="zp0152_M00.entity" GUID="ce743f87-d59f-4aea-aff3-864df6f1d1b3" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="BELLE_EPOQUE_CHAVE" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_96mm.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

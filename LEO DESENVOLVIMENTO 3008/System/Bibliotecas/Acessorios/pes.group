@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="pes" NAME="Pés" PREFIXID="ACE_PES_" INVISIBLE="N">
+  <MODELS DEF="composicoes\composicoes.model" />
+  <BUDGET>
+    <STEPS />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="OnlinePriceProvider" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ACE_PES1_2" DEF="Pes_2.entity" GUID="02874d57-7f3d-409c-b742-20d3cd3847da" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PES1" DEF="Pes.entity" GUID="360cd7ff-41cb-48b5-9343-5b7ef14a96b7" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PE_COZ" DEF="COZ.entity" GUID="a3bd222c-513d-484f-9b41-c25d419eeb24" />
+    <EXPLORERITEM TYPE="entity" ID="Pe_Mesa" DEF="Pe_Mesa.entity" GUID="fc7a4f8f-0527-4838-abc9-3008370f6337" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_esc_sap_reg" DEF="ace_ocu_esc_sap_reg.entity" GUID="1a936a1a-54ac-4648-b599-2a6af326df90" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

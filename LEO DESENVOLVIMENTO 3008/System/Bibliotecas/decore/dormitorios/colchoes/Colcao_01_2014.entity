@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Inflável" ICON="Colcao_01_2014.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Colchão inflável" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="colchao_inflavel_2014" />
+    <DIMENSION WIDTH="1849.1" HEIGHT="160.1" DEPTH="988" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="988" HEIGHT="160" DEPTH="1849" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="AZUL" NAME="AZUL" IDMATERIAL="mat_ocu_diversos_colchao_inflavel" EDIT="Y">
+      <MATERIAL ID="" ORIGINALID="mat_ocu_diversos" NAME="colchao_inflavel">
+        <EMISSION>0.15</EMISSION>
+        <FINISHSCHEME>Mirror</FINISHSCHEME>
+        <SPECULARCOLOR R="255" G="255" B="255" />
+        <METADATAS>
+          <METADATA ID="LightWorksMaterialData">
+            <METADATA.VALUE>
+              <LIGHTWORKSMATERIALDATA>
+                <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+              </LIGHTWORKSMATERIALDATA>
+            </METADATA.VALUE>
+          </METADATA>
+        </METADATAS>
+        <APPLYTEXTUREINFRAMES>False</APPLYTEXTUREINFRAMES>
+        <COLORBASE R="132" G="103" B="81" />
+        <DIRECTION>Nenhum</DIRECTION>
+        <SLIDEMODE>Default</SLIDEMODE>
+        <BORDERCOLOR R="0" G="0" B="0" />
+        <BORDERWIDTH>0</BORDERWIDTH>
+        <MAPPING>Planar</MAPPING>
+        <ROTATION>0</ROTATION>
+        <ESCALETEXTUREX>10</ESCALETEXTUREX>
+        <ESCALETEXTUREY>10</ESCALETEXTUREY>
+        <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+        <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+        <MIRROR>N</MIRROR>
+        <AMBIENT>0.42</AMBIENT>
+        <DIFFUSE>0.4</DIFFUSE>
+        <REFLECTIONMIN>0</REFLECTIONMIN>
+        <REFLECTIONMAX>0</REFLECTIONMAX>
+        <CRAND>0</CRAND>
+        <SPECULAR>0</SPECULAR>
+        <ROUGHNESS>0</ROUGHNESS>
+        <METALLIC>0</METALLIC>
+        <TRANSPARENCY>0.01</TRANSPARENCY>
+        <CONSERVEENERGY>N</CONSERVEENERGY>
+        <TEXTUREFILES>
+          <TEXTUREFILE>%PastaTextures%\padroes\ocultos\diversos\colchao_inflavel.jpg</TEXTUREFILE>
+          <TEXTUREFILE>%PastaTextures%\padroes\ocultos\diversos\colchao_inflavel.jpg</TEXTUREFILE>
+        </TEXTUREFILES>
+      </MATERIAL>
+    </COMPONENTDEFINITION>
+    <COMPONENTDEFINITION ID="GOMOS" NAME="GOMOS" IDMATERIAL="mat_ocu_diversos_colchao_inflavel" EDIT="Y">
+      <MATERIAL ID="" ORIGINALID="mat_ocu_diversos" NAME="colchao_inflavel">
+        <EMISSION>0.15</EMISSION>
+        <FINISHSCHEME>Mirror</FINISHSCHEME>
+        <SPECULARCOLOR R="255" G="255" B="255" />
+        <METADATAS>
+          <METADATA ID="LightWorksMaterialData">
+            <METADATA.VALUE>
+              <LIGHTWORKSMATERIALDATA>
+                <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+              </LIGHTWORKSMATERIALDATA>
+            </METADATA.VALUE>
+          </METADATA>
+        </METADATAS>
+        <APPLYTEXTUREINFRAMES>False</APPLYTEXTUREINFRAMES>
+        <COLORBASE R="132" G="103" B="81" />
+        <BORDERCOLOR R="0" G="0" B="0" />
+        <BORDERWIDTH>0</BORDERWIDTH>
+        <MAPPING>Planar</MAPPING>
+        <ROTATION>0</ROTATION>
+        <ESCALETEXTUREX>10</ESCALETEXTUREX>
+        <ESCALETEXTUREY>10</ESCALETEXTUREY>
+        <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+        <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+        <MIRROR>N</MIRROR>
+        <AMBIENT>0.42</AMBIENT>
+        <DIFFUSE>0.4</DIFFUSE>
+        <REFLECTIONMIN>0</REFLECTIONMIN>
+        <REFLECTIONMAX>0</REFLECTIONMAX>
+        <CRAND>0</CRAND>
+        <SPECULAR>0</SPECULAR>
+        <ROUGHNESS>0</ROUGHNESS>
+        <METALLIC>0</METALLIC>
+        <TRANSPARENCY>0.01</TRANSPARENCY>
+        <CONSERVEENERGY>N</CONSERVEENERGY>
+        <DIRECTION>Nenhum</DIRECTION>
+        <SLIDEMODE>Default</SLIDEMODE>
+        <TEXTUREFILE>%PastaTextures%\padroes\ocultos\diversos\colchao_inflavel.jpg</TEXTUREFILE>
+      </MATERIAL>
+    </COMPONENTDEFINITION>
+    <COMPONENTDEFINITION ID="CENTRO" NAME="CENTRO" IDMATERIAL="azu_cor_003" EDIT="Y">
+      <MATERIAL ID="" NAME="Cor 003">
+        <EMISSION>0.15</EMISSION>
+        <FINISHSCHEME>Mirror</FINISHSCHEME>
+        <SPECULARCOLOR R="255" G="255" B="255" />
+        <METADATAS>
+          <METADATA ID="LightWorksMaterialData">
+            <METADATA.VALUE>
+              <LIGHTWORKSMATERIALDATA>
+                <FINISHDATA NAME="Eggshell" GROUP="" TYPE="Standard" />
+              </LIGHTWORKSMATERIALDATA>
+            </METADATA.VALUE>
+          </METADATA>
+        </METADATAS>
+        <APPLYTEXTUREINFRAMES>False</APPLYTEXTUREINFRAMES>
+        <BORDERCOLOR R="67" G="111" B="158" />
+        <BORDERWIDTH>0</BORDERWIDTH>
+        <MAPPING>Cubo</MAPPING>
+        <ROTATION>0</ROTATION>
+        <ESCALETEXTUREX />
+        <ESCALETEXTUREY />
+        <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+        <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+        <MIRROR>N</MIRROR>
+        <AMBIENT>0.4</AMBIENT>
+        <DIFFUSE>0.5</DIFFUSE>
+        <REFLECTIONMIN>0</REFLECTIONMIN>
+        <REFLECTIONMAX>0</REFLECTIONMAX>
+        <CRAND>0</CRAND>
+        <SPECULAR>0.05</SPECULAR>
+        <ROUGHNESS>0</ROUGHNESS>
+        <METALLIC>0</METALLIC>
+        <TRANSPARENCY>0</TRANSPARENCY>
+        <CONSERVEENERGY>N</CONSERVEENERGY>
+        <DIRECTION>Nenhum</DIRECTION>
+        <SLIDEMODE>Default</SLIDEMODE>
+        <TEXTUREFILES />
+        <COLORBASE R="67" G="111" B="158" />
+      </MATERIAL>
+    </COMPONENTDEFINITION>
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

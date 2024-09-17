@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PROFILES ID="Perfil 09" DESCRIPTION="Perfil 09">
+  <PROFILE Y="0" X="0" ARC="180" CANCHANGEX="y" CANCHANGEY="n" CANDELETE="n" />
+  <PROFILE Y="0,4974894" X="0" ARC="180" CANCHANGEX="y" CANCHANGEY="y" CANDELETE="y" />
+  <PROFILE Y="1" X="0" ARC="0" CANCHANGEX="y" CANCHANGEY="n" CANDELETE="n" />
+</PROFILES>

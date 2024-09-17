@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Cabide" NAME="Cabide" PREFIXID="zen_epo_cab_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_es" DEF="zp0154_15.entity" GUID="1cc3cef3-5f45-40ff-9330-10651bd6e7da" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_648" DEF="zp0154_648.entity" GUID="080ea7a8-4710-4795-9327-c97c87fd4746" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_A00" DEF="zp0154_A00.entity" GUID="1188b918-2276-4a32-bc15-38b72605832d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_B00" DEF="zp0154_B00.entity" GUID="eeef94b8-8532-475d-9a13-e0fb8a38f09b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_F00" DEF="zp0154_F00.entity" GUID="b6451f17-e565-4219-ad85-a13dc857ad88" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_G00" DEF="zp0154_G00.entity" GUID="7e472c56-408e-4c4f-9c86-8ead3d9bffe1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_L00" DEF="zp0154_L00.entity" GUID="7cd96ea5-1707-4cc6-a1fc-a663524d2b2c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0154_M00" DEF="zp0154_M00.entity" GUID="77c00089-ce8a-4f37-89ea-8971c8383893" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="BELLE_EPOQUE_CABIDE" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

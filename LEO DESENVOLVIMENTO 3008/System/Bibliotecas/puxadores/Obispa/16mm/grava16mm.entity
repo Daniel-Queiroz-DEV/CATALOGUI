@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Grava ($TEXT$)" ICON="grava16mm.jpg">
+  <DRAWING>
+    <FILE3D NAME="grava-100382" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="22" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.382" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_gra_16" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_gra_16" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_gra_16" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_gra_16" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Grava 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

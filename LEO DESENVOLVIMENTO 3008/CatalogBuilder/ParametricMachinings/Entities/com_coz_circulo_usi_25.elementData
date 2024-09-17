@@ -1,0 +1,26 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.CircularParametricMachining, Procad.Builder.Core",
+      "Diameter": {
+        "Value": "$W$"
+      },
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "2d281c39-931a-48ab-b71d-688a0ca22e7b",
+      "ID": "d12d72cb-3700-4f20-88cf-0f4e152ae078",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$/2",
+        "Y": "$D$/2"
+      },
+      "ElementId": "com_coz_circulo_usi_25"
+    }
+  ],
+  "ElementId": "com_coz_circulo_usi_25"
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Home" NAME="Home" PREFIXID="zen_man_hom_">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_man_hom_dup" DEF="Home_Duplo.entity" GUID="196c7306-4fc2-4c81-8b2e-25503d56ad1c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_hom_dup_woo" DEF="Home_Duplo_Wood.entity" GUID="f82c3124-6c85-4282-b6bf-c28fa3f64f1d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_hom_dup_sto" DEF="Home_Duplo_Stone.entity" GUID="a0be8369-be9f-4114-ac38-3a42a8f0e5d8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_hom_dup_cla" DEF="Home_Duplo_Classic.entity" GUID="e162da59-fccf-46f7-8979-e13c4984fc56" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_hom_dup_caf" DEF="Home_Duplo_Cafe.entity" GUID="9a35fff8-8978-4a0d-bd07-61f2cd641410" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_hom_dup_ani" DEF="Home_Duplo_Animale.entity" GUID="b3c4a501-2a97-4318-b6e5-e15c9fd238a5" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="com_coz_bas_ret_sup_arm_desl_spor_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação05"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="1"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="4"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="1197,756;182,6921"
+          ElementId="com_coz_bas_ret_sup_arm_desl_spor_2" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

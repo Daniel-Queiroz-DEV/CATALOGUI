@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Valigia" NAME="Valigia" PREFIXID="zen_val_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="VALIGIA_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\VALIGIA_160MM" />
+      <DIMENSION WIDTH="235" HEIGHT="44" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-117.5" Y="-19.955" Z="-22" />
+        <MAX X="117.5" Y="0.046" Z="22" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_val_160_cou_azu" DEF="160mm_Couro_Azul.group" GUID="6b455078-ebc8-4ce5-a69e-a959e540eda7" />
+    <EXPLORERITEM TYPE="group" ID="zen_val_160_cou_bra" DEF="160mm_Couro_Branco.group" GUID="4d0e81a4-2dea-46f5-af34-a43c065f908a" />
+    <EXPLORERITEM TYPE="group" ID="zen_val_160_cou_mar" DEF="160mm_Couro_Marrom.group" GUID="c703d53e-19cd-4e88-9754-2378f8cbdf5d" />
+    <EXPLORERITEM TYPE="group" ID="zen_val_160_cou_pre" DEF="160mm_Couro_Preto.group" GUID="d6b158ad-4a57-44b4-b753-924e98c1b4e1" />
+    <EXPLORERITEM TYPE="group" ID="zen_val_160_cou_ver" DEF="160mm_Couro_Vermelho.group" GUID="8a0092b4-f216-4e4a-8fda-fd48a83d5110" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

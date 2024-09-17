@@ -1,0 +1,44 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo27",
+        "ReceiverDepth": {
+          "Value": "35"
+        },
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "500",
+          "Y": "500"
+        },
+        "ElementId": "ace_ocu_esc_fur_buc"
+      },
+      {
+        "Name": "Furo Bucha Americana",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo28",
+        "ReceiverDepth": {
+          "Value": "#ESC_PRO_BUC_LAT#"
+        },
+        "UniqueID": 1,
+        "PlaneType": "Inferior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "0,05",
+          "Y": "0,05"
+        },
+        "ElementId": "ace_ocu_esc_fur_buc"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_esc_fur_buc"
+}

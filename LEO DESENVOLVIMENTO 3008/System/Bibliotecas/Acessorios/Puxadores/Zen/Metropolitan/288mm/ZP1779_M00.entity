@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Rose Escovado ($TEXT$.$D.ACAB$)" ICON="Metropolitan.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Metropolitan 288mm Alumínio Rose Escovado c/ Ponteiras Rose Escovado" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1779" ACAB="M00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_ros_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="Zen_ros_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

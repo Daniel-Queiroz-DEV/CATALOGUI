@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Divisorias Escritorios" NAME="Divisórias Escritórios" PREFIXID="com_coz_div_esc_">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_esc_ret" DEF="reta.entity" GUID="68330d84-5f33-44be-bdf6-55e62a5b9e95" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_esc_bol" DEF="boleada.entity" GUID="f06adf1c-678d-4691-89e1-2857eb2401fb" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_esc_cur" DEF="curva.entity" GUID="5452e4bc-478d-43cc-b0dd-c98f8d13ca78" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+</GROUP>

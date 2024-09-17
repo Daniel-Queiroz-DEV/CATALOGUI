@@ -1,0 +1,98 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Traseira",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 1000",
+        "Mid": "500, 1000",
+        "End": "0, 1000"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderID": "f9da2690-c9bf-4271-98b2-53d86c44303a",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "39062dff-1847-4ae5-bf52-c853a7cc9b00",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_tra_gav"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Frontal",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderID": "573601ad-9769-4856-bb15-47939ec2c450",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "615ea94b-8e0b-467b-a64e-2dc061d658d1",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_tra_gav"
+    }
+  ],
+  "ElementId": "com_coz_tra_gav"
+}

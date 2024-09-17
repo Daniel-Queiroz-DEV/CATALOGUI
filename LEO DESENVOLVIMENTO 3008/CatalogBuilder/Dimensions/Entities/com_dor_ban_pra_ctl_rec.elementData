@@ -1,0 +1,68 @@
+{
+  "ElementId": "com_dor_ban_pra_ctl_rec",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 6,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "1124,377",
+        "Y": "725"
+      },
+      "Edge": 5,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_dor_ban_pra_ctl_rec"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "275",
+        "Y": "-87,5349"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_dor_ban_pra_ctl_rec"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "48,19945",
+        "Y": "1099,169"
+      },
+      "Edge": 7,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 2,
+      "ElementId": "com_dor_ban_pra_ctl_rec"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 7,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "-108,8643",
+        "Y": "913,019"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 3,
+      "ElementId": "com_dor_ban_pra_ctl_rec"
+    }
+  ]
+}

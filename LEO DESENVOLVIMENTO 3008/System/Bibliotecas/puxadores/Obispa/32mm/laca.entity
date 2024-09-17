@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Laca ($TEXT$)" ICON="laca.jpg">
+  <INSERTDIMENSION TEXT="100.725" />
+  <DRAWING>
+    <FILE3D NAME="laca" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="40" HEIGHT="40" DEPTH="24" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Laca 32mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Pux_niq_con" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_32_lac" MODEL="Pux_jad_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_lac" MODEL="Pux_jad_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_lac" MODEL="Pux_jad_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_lac" MODEL="Pux_jad_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Simples Metal Niquel sob consulta" />
+</ENTITY>

@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Metais" GENERATEITEMSNUMBERS="N">
+  <FOLDERCOLLECTION>
+    <FOLDER NAME="Lisos" PREFIXID="dec_met_lis_">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="dec_met_lis_cro" NAME="Cromado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Metals" NAME="Silver Plate" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.6</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.5</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Chrome.Polished.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_ino" NAME="Inox" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.35</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.5</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.StainlessSteel.Polished.None</MCODE>
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_ino_esc" NAME="Inox Escovado">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Steel Brushed 8" GROUP="Metals" TYPE="Advanced" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.45</ROUGHNESS>
+          <METALLIC>1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\Outros\inoxescovado.png</TEXTUREFILE>
+          <MCODE>Metal.StainlessSteel.Brushed.None</MCODE>
+          <COLORBASE R="200" G="200" B="200" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_alu" NAME="Alumínio">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Aluminium Brushed 8" GROUP="Metals" TYPE="Advanced" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.9</ROUGHNESS>
+          <METALLIC>0.02</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Aluminum.Polished.None</MCODE>
+          <COLORBASE R="200" G="200" B="200" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_pre" NAME="Preto">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.8</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.15</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.08</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Unspecified.Polished.None</MCODE>
+          <COLORBASE R="20" G="20" B="20" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_bra" NAME="Branco">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.8</AMBIENT>
+          <DIFFUSE>0.85</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.18</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.8</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Unspecified.Stained.None</MCODE>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_dou" NAME="Dourado">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.09</REFLECTIONMIN>
+          <REFLECTIONMAX>0.17</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.07</ROUGHNESS>
+          <METALLIC>1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Gold.Polished.None</MCODE>
+          <COLORBASE R="255" G="202" B="102" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_cob" NAME="Cobre">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0.05</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Copper.Brushed.None</MCODE>
+          <COLORBASE R="219" G="147" B="112" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_bro" NAME="Bronze">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.46</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.18</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.5</ROUGHNESS>
+          <METALLIC>1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Bronze.Brushed.None</MCODE>
+          <COLORBASE R="215" G="153" B="91" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_gra" NAME="Grafite">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.06</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.03</SPECULAR>
+          <ROUGHNESS>0.02</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Lead.Polished.None</MCODE>
+          <COLORBASE R="98" G="98" B="98" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_ver" NAME="Vermelho">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Unspecified.Polished.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="165" G="0" B="0" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_lis_cha" NAME="Champagne">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Unspecified.Stained.None</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.35</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="185" G="180" B="160" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Lisos ANTIGOS" GENERATEITEMSNUMBERS="N" HIDDEN="Y">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="inox_01" NAME="Inox" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.3</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.StainlessSteel.Polished.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="inox_escovado" NAME="Inox Escovado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Advanced" GROUP="Metals" NAME="Aluminium Brushed 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.29</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0.08</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.5</ROUGHNESS>
+          <METALLIC>0.01</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILE>.\textures\padroes\metais\metal 026.jpg</TEXTUREFILE>
+          <MCODE>Metal.StainlessSteel.Brushed.None</MCODE>
+          <COLORBASE R="188" G="184" B="171" />
+        </MATERIAL>
+        <MATERIAL ID="aluminio_01" NAME="Alumínio" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <BORDERCOLOR G="0" R="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.28</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.4</REFLECTIONMAX>
+          <CRAND>0.02</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.06</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Metals" NAME="Polished Aluminium" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Polished.None</MCODE>
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="cromado_01" NAME="Cromado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Metals" NAME="Silver Plate" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR G="0" R="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.6</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <MCODE>Metal.Chrome.Polished.None</MCODE>
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="bronze_01" NAME="Bronze" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Brass Brushed 8" GROUP="Metals" TYPE="Advanced" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Bronze.Brushed.None</MCODE>
+          <COLORBASE R="113" G="62" B="28" />
+        </MATERIAL>
+        <MATERIAL ID="dourado_01" NAME="Dourado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Gold Plate" GROUP="Metals" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.5</REFLECTIONMIN>
+          <REFLECTIONMAX>0.5</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <MCODE>Metal.Gold.Polished.None</MCODE>
+          <COLORBASE R="167" G="138" B="1" />
+        </MATERIAL>
+        <MATERIAL ID="Metal_Branco_01" NAME="Branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Plastic Reflect 8" GROUP="Plastics" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <MCODE>Metal.Unspecified.Stained.None</MCODE>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="Metal_preto_01" NAME="Preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Plastic Reflect 4" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Metal.Unspecified.Polished.None</MCODE>
+          <COLORBASE R="10" G="10" B="10" />
+        </MATERIAL>
+        <MATERIAL ID="Metal_vermelho_01" NAME="Vermelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.15</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.25</REFLECTIONMIN>
+          <REFLECTIONMAX>0.09</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Unspecified.Polished.None</MCODE>
+          <COLORBASE R="204" G="0" B="0" />
+        </MATERIAL>
+        <MATERIAL ID="Material6345884169161042981" NAME="Aluminio Escovado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Advanced" GROUP="Metals" NAME="Aluminium Brushed 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.29</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0.08</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.5</ROUGHNESS>
+          <METALLIC>0.01</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Aluminum.Brushed.None</MCODE>
+          <COLORBASE R="129" G="129" B="129" />
+        </MATERIAL>
+        <MATERIAL ID="dec_met_champagne" NAME="Champagne">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Unspecified.Stained.None</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="185" G="180" B="160" />
+        </MATERIAL>
+        <MATERIAL ID="aluminio_01_2" NAME="Alumínio pux" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Anodised" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <TEXTUREPIVOTPOINTALIGNMENT>BottomRight</TEXTUREPIVOTPOINTALIGNMENT>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.28</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.4</REFLECTIONMAX>
+          <CRAND>0.02</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.06</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Aluminum.Polished.None</MCODE>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="150" G="150" B="150" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+  <MATERIALCOLLECTION>
+    <MATERIAL ID="met_texturas" NAME="Texturas" ISFOLDER="Y" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+      <METADATAS>
+        <METADATA ID="LightWorksMaterialData">
+          <METADATA.VALUE>
+            <LIGHTWORKSMATERIALDATA>
+              <FINISHDATA NAME="Polished Aluminium" GROUP="Metals" TYPE="Standard" />
+            </LIGHTWORKSMATERIALDATA>
+          </METADATA.VALUE>
+        </METADATA>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <FILE NAME="metal 032.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="metal 034.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="metal 036.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="metal 038.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="metal 039.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="metal 040.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <BORDERCOLOR R="0" G="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <ROTATION>0</ROTATION>
+      <ESCALETEXTUREX>1</ESCALETEXTUREX>
+      <ESCALETEXTUREY>1</ESCALETEXTUREY>
+      <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+      <MIRROR>N</MIRROR>
+      <FRESNELTERM>0</FRESNELTERM>
+      <AMBIENT>0.2</AMBIENT>
+      <DIFFUSE>0.7</DIFFUSE>
+      <REFLECTIONMIN>0.05</REFLECTIONMIN>
+      <REFLECTIONMAX>0.05</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0.1</SPECULAR>
+      <ROUGHNESS>0.05</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <TRANSPARENCY>0.01</TRANSPARENCY>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <DIRECTION>Nenhum</DIRECTION>
+      <SLIDEMODE>CropCenter</SLIDEMODE>
+      <TEXTUREFILE>.\textures\padroes\metais\metal 001.jpg</TEXTUREFILE>
+      <MCODE>Metal.Aluminum.Galvanized.None</MCODE>
+      <MAPPING>Planar</MAPPING>
+      <COLORBASE R="175" G="175" B="175" />
+    </MATERIAL>
+  </MATERIALCOLLECTION>
+</FOLDER>

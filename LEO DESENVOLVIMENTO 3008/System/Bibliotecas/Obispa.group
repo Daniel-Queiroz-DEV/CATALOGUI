@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Obispa" NAME="Obispa" PREFIXID="pux_obi_" DESCRIPTION="$ROOTGROUP$" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+  </PROPOSEDATTRIBUTES>
+  <MODELS DEF="Obispa\Obispa.model" />
+  <BUDGET>
+    <PRICE PROVIDER="Obispa" FONT="Obispa" REFERENCE="COMPLETE" />
+    <STEPS />
+    <INFORMATION CATEGORY="$ROOTGROUP$" />
+    <MARGIN IDCATEGORY="Obispa" />
+  </BUDGET>
+  <REFERENCES>
+    <REFERENCE ID="Simples Metal" COMPLETE="$TEXT$" ACAB_MET="@Obi_emb.2@" />
+    <REFERENCE ID="Simples" COMPLETE="$TEXT$" />
+    <REFERENCE ID="Simples_metal_ghost" COMPLETE="$TEXT$" ACAB_MET="@obi_emb_gho@" />
+    <REFERENCE ID="Simples Metal_Couro" COMPLETE="$TEXT$" ACAB_MET="@Obi_emb.2@" ACAB_COURO="@obi_cou@" />
+    <REFERENCE ID="Simples_cabide" COMPLETE="$TEXT$" ACAB_MET="@Obi_cab@" />
+    <REFERENCE ID="Manilhoes_met" COMPLETE="$TEXT$" ACAB_MET="@Pux_man@" />
+    <REFERENCE ID="Manilhoes_elle" COMPLETE="$TEXT$" ACAB_MET="@Pux_Big_Ell@" />
+    <REFERENCE ID="Manilhoes_elle_al" COMPLETE="$TEXT$" ACAB_MET="@Pux_big_ell_alu@" />
+  </REFERENCES>
+  <LAYER DESCRIPTION="$ROOTGROUP$" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="obi_apl" DEF="apliques.group" GUID="008e178b-d563-402d-8bcb-e65ead87d097" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_cab" DEF="cabides.group" GUID="8a379cfc-956f-4720-b2d4-6f9f9e4e32d7" />
+    <LINK ID="obi" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_man" DEF="manilhoes.group" GUID="4e4aa743-98a1-4fd3-98b8-944cfdab0650" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb" DEF="Puxadores Embutidos.group" GUID="f9e7fc60-28e6-4515-a710-5356ae90b52e" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

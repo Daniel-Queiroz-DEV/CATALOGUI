@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo Escovado ($TEXT$.$D.ACAB$)" ICON="Manico di Coltelo.jpg">
+  <INSERTDIMENSION TEXT="ZP3951" ACAB="2" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_escovado" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_woo_2017" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Manico di Coltello Madeira 160mm Cromo Escovado/Wood" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

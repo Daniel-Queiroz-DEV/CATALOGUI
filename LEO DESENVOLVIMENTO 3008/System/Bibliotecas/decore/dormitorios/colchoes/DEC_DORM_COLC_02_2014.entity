@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Colchão" ICON="DEC_DORM_COLC_02_2014.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+  <REDIMSERVICE CODON="/documentos/sugestao/RedimServices/RedimParametrico_meio" />
+  <DRAWING>
+    <FILE3D NAME="CAMA_18" />
+    <DIMENSION WIDTH="1580" HEIGHT="210" DEPTH="1980" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TECIDO" NAME="DEC_TECIDO" IDMATERIAL="tec_brancos_lisos_tecido 010" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="600" HEIGHT="140" DEPTH="1300" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Colchão para berço" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

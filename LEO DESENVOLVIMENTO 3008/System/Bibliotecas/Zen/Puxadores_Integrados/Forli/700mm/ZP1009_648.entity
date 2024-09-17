@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Cobre ($TEXT$.$D.ACAB$)" ICON="Forli.jpg">
+  <DRAWING>
+    <FILE3D NAME="Forli_700mm" />
+    <DIMENSION WIDTH="700" HEIGHT="55" DEPTH="19" />
+    <LIMITS>
+      <MIN X="-47.5" Y="-1" Z="-27.5" />
+      <MAX X="652.5" Y="18" Z="27.5" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Forli 700mm Vecchio Cobre" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="700" HEIGHT="55" DEPTH="19" TEXT="ZP1009" ACAB="648" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="COURO" NAME="COURO" IDMATERIAL="zen_vec_cob" EDIT="N" />
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_vec_cob" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Obliquo" INVISIBLE="N" TYPE="GEOMETRY" ICON="TAM_TAM_OBLQ_2.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="A" VALUE="550" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="B" VALUE="550" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="description" VALUE="Tampo p/ Canto Obliquo  Granito" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_OBLQ" FORMAT=".DXF" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="550" Y="-1000" />
+      <PONTO2DA X="1000" Y="-550" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_AB" />
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="25" DEPTH="1000" ITEM_BASE="TAMP01" TEXT="6503">
+    <MIN WIDTH="50" HEIGHT="10" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="100" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

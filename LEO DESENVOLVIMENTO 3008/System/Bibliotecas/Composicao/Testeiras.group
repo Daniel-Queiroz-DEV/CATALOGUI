@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Testeiras" NAME="Travessas Frontais" PREFIXID="com_coz_tes_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_tra_front_srasgo" DEF="com_tra_front_srasgo.entity" GUID="2026a24e-0f06-45b3-9cf6-4938b2827aca" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tes_2519" DEF="com_coz_tes_2519.entity" GUID="d2e20ae4-62a2-424c-a082-ce59acbc985d" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_tra_frontal" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_tra_frontal" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

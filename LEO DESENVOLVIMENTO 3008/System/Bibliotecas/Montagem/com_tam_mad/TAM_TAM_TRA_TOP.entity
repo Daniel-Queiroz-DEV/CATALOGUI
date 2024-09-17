@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Travessa Topo p/ Tampo" TYPE="GEOMETRY" ICON="inf_dd_crasgo_base.jpg" INVISIBLE="N" CHECKED="N">
+  <DRAWING>
+    <FILE3D NAME="com" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <EVENTS>
+    <ONDIMENSIONCHANGED>
+      <ACTIONS>
+        <ADJUSTCOMPONENTMODELS />
+      </ACTIONS>
+    </ONDIMENSIONCHANGED>
+  </EVENTS>
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+  </MODELS>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" RULE="UN" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trav Tamp Engrossurado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION HEIGHT="@(#TAM_ENG_TAM_1#+#FOL_PAI#)" WIDTH="1000" DEPTH="#TAM_ENG_DIM#" TEXT="1704" DESC="" ITEM_BASE="TAMPEN01">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="2700" />
+  </INSERTDIMENSION>
+</ENTITY>

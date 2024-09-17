@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="p/ Fech Imab 1000/14000/3000 ($TEXT$)" ICON="Vita_Aplique.jpg" CHECKED="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="46" HEIGHT="46" DEPTH="49" TEXT="ZP0764.07" ACAB="">
+    <MIN DEPTH="20" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita Aplique para Fechadura Imab 1000/14000/3000 @zen*(NAME)@ (PAR)" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

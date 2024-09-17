@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="Travessa_H_FV" Type="Bottom" Description="Travessa Traseira" Visible="N">
+		<Dimension Width="$P.W$" Depth="#COZ_CON_DIM_TRA_TRA_VER_HOR#" Height="(#COZ_ESP_TRA#+#FOL_PAI#)" />
+		<Position Y="-#COZ_CON_DIS_TRA_TRAV_TRAS#" Z="$PH$-$H$-#COZ_CON_DIS_TRAV_SUP_TRAS#" Rotation="0">
+			<Normal A="0" B="0" C="1" />
+		</Position>
+		<Alternatives>
+			
+			<Alternative Id="Travessa_1vao" EntityId="com_coz_tra_tra">
+				<Conditions>
+					<TestExpression Expression="$S.Multiplicity$ == 1" />
+					<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Travessas Laterais'" />
+					<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Sem Travessas'" />
+					<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#' == 'Horizontal'" />
+					<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA#' == 'Vertical'" />
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="Travessa_vao1" EntityId="com_coz_tra_nor_pas">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ &gt; 1" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Travessas Laterais'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Sem Travessas'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#' == 'Horizontal'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA#' == 'Vertical'" />
+						<IsLeftExternalGap />
+					</and>
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="Travessa_vao_central" EntityId="com_coz_tra_pas">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ &gt; 1" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Travessas Laterais'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Sem Travessas'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#' == 'Horizontal'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA#' == 'Vertical'" />
+						<IsLeftExternalGap Not="Y" />
+						<IsRightExternalGap Not="Y" />
+					</and>
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="Travessa_ultimo_vao" EntityId="com_coz_tra_nor">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ &gt; 1" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Travessas Laterais'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#'!='Sem Travessas'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA_TRAS#' == 'Horizontal'" />
+						<TestExpression Expression="'#COZ_CON_SENTIDO_TRAVESSA#' == 'Vertical'" />
+						<IsRightExternalGap />
+					</and>
+				</Conditions>
+			</Alternative>
+		</Alternatives>
+		<AutoFunction Enabled="Y">
+			<JointDivisions>
+				<JointDivision Id="com_prat_inv" />
+				<JointDivision Id="com_prat_movel_srecuo" />
+				<JointDivision Id="com_prat_movel_crecuo" />
+				<JointDivision Id="com_prat_fixa_srasgo_crecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo_basc" />
+				<JointDivision Id="com_prat_crasgo_srecuo" />
+				<JointDivision Id="com_prat_crasgo_crecuo" />
+				<JointDivision Id="mon_srasgo_crecuo" />
+				<JointDivision Id="mon_srasgo_srecuo" />
+				<JointDivision Id="mon_crasgo_crecuo" />
+				<JointDivision Id="mon_crasgo_srecuo" />
+			</JointDivisions>
+		</AutoFunction>
+		<Output>
+			<Sets>
+				<SetAttribute Id="Movivel" Value="False" />
+				<SetAttribute Id="Caneditdimension" Value="False" />
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#COZ_TRA_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#COZ_TRA_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#COZ_TRA_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_TRA_FT_ESQ#" />
+				<SetAttribute Id="VOLUME" Value="SV" />				
+			</Sets>
+		</Output>
+	</Item>

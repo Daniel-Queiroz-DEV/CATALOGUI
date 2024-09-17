@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Tandembox" NAME="Tandembox" PREFIXID="Sta_Blu_Tand_" INVISIBLE="N" MODELINVISIBLE="N">
+  <REFERENCE IDREFERENCE="BLUM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand_Gav" DEF="Gavetas.group" GUID="cdc7e53a-c940-426a-8673-689928e9e4ff" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand_kit_div_man" DEF="Kit Orga-Line Mantimentos.group" GUID="11ba540c-9017-47b5-aa13-31c3af98f5ca" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand_kit_div_pan" DEF="Divisor Panelas.group" GUID="61248f79-2a9f-4fde-bf89-b75a7b9613c5" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand_kit_div_tal" DEF="Kit Orga-Line.group" GUID="f44606e8-6be6-4c35-b3df-050f50193bc0" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand_kit_cub" DEF="Orga-Line.group" GUID="afd71ca8-8d40-4664-a037-1b5d150a8104" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

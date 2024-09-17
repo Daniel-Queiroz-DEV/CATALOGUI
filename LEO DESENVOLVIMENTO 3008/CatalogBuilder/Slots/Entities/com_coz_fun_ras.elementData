@@ -1,0 +1,154 @@
+{
+  "ElementId": "com_coz_fun_ras",
+  "Slots": [
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerEnds": "Offseted",
+      "MakerDepthGap": {
+        "Value": "#FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 1,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_coz_fun_ras"
+    },
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$W$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 2,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_coz_fun_ras",
+      "PlaneIndex": 1
+    },
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$W$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 3,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_coz_fun_ras",
+      "PlaneIndex": 3
+    },
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerEnds": "Offseted",
+      "MakerDepthGap": {
+        "Value": "#FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 4,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_coz_fun_ras",
+      "PlaneIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_ocu_pe_div_pas" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="#ESP_EXT_CPORTA#"
+          UniqueID="0"
+          ElementId="ace_ocu_pe_div_pas"
+          PlaneIndex="1"
+          Position="5;5" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Curvo 2 lados" TYPE="GEOMETRY" ICON="..\..\Paineis\PAI_6_3\15mm\2lados curvo.png">
+  <DRAWING>
+    <FILE3D NAME="com_coz_bas_cur_3_3" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-300" Z="0" />
+      <MAX X="550" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-200" A="90" />
+      <PONTO2DA X="100" Y="-300" />
+      <PONTO2DA X="450" Y="-300" A="90" />
+      <PONTO2DA X="550" Y="-200" />
+      <PONTO2DA X="550" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="550" HEIGHT="150" DEPTH="300" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE COMPLETE="$P.REFERENCE(COMPLETE)$" TIPO_FITA="#TIPO_BORDA_PAI#" ALTURA_FITA="@($REFERENCE(MODEL)$ == 'Branco TX' &amp;&amp; ($H$-#FOL_PAI#) == 15 ? 19 :($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" />
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="ace_ocu_pe_painel_usi_especial" ISDRAWABLE="N">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial x" CONSTANT="Y" ORDER="1">
+          <DIMENSION HEIGHT="$PH$" WIDTH="$PW$" DEPTH="$PD$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial x" CONSTANT="Y" ORDER="2">
+          <DIMENSION HEIGHT="$PH$" WIDTH="$PW$" DEPTH="$PD$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="ace_ocu_pe_painel_usi_especial_d" ISDRAWABLE="N">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial y" CONSTANT="Y" ORDER="3">
+          <DIMENSION HEIGHT="$PH$" WIDTH="$PW$" DEPTH="$PD$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="Ag45852361_2_2" CONCURRENT="N" DESCRIPTION="Mao de obra Usi Especial y" CONSTANT="Y" ORDER="4">
+          <DIMENSION HEIGHT="$PH$" DEPTH="$PD$" WIDTH="$PW$" />
+          <POSITION X="0" Y="0" Z="$PH$" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="550" HEIGHT="@(6+#FOL_PAI#)" DEPTH="300" TEXT="PAI" DESC="" ITEM_BASE="USI01">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2720" DEPTH="2720" />
+    <INCREMENT WIDTH="1" DEPTH="1" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="#P.DESCRIPTION#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS />
+  <MODELS>
+    <MODEL IDMODEL="com_paineis_6mm" ENTRYID="COM" />
+  </MODELS>
+</ENTITY>

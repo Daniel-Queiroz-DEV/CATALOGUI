@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Long Interface ($TEXT$)" ICON="mini_interface.jpg">
+  <DRAWING>
+    <FILE3D NAME="interface_100552" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="48" HEIGHT="278" DEPTH="17" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Long Embutido Interface Com Pega" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="100.552" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_int_lon" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

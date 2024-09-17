@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fixadores" NAME="Fixadores" PREFIXID="fer_Fix_" INVISIBLE="Y">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="FANTASMA" VALUE="S" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_1" VALUE="#P.FIX_GEN_1#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_2" VALUE="#P.FIX_GEN_2#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="MED_MAX_FIX_GEN_1" VALUE="#P.MED_MAX_FIX_GEN_1#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="MED_MAX_FIX_GEN_2" VALUE="#P.MED_MAX_FIX_GEN_2#" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_1" DEF="FIX_1.entity" GUID="72828aed-7282-48c7-8c9f-fc2c1a70c580" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_2" DEF="Fix_2.entity" GUID="52f95f57-0cc9-4d17-ba5b-7045e8f21e30" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_2_Afa" DEF="Fix_2_3.entity" GUID="2de04111-9ff6-4682-a695-c8d0c7f04c6b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_pas_1" DEF="fer_Fix_pas_1.entity" GUID="eddfbe7f-ef4f-4700-b8cc-15e80fc3b93d" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_pas_2" DEF="fer_Fix_pas_2.entity" GUID="879a4218-35fb-4b03-9f8d-b801a0919488" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_988" DEF="fer_Fix_988.entity" GUID="6c034a4a-8076-45cf-b736-18e32488e056" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_987" DEF="fer_Fix_987.entity" GUID="35c741b1-8629-4469-b785-e241496eabcf" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_VB54" DEF="FIX_VB54.entity" GUID="b1ba5773-66ca-4eb9-8f62-4064e61e5669" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_1_yellow" DEF="FIX_1_2.entity" GUID="2c137ae7-ef89-4db7-9f23-5772eeb3d626" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_2_yellow" DEF="Fix_2_2.entity" GUID="c3c294bb-cde8-458f-a608-ffcf9d21277b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_pas_1_yellow" DEF="fer_Fix_pas_1_2.entity" GUID="2a4b034a-bbf1-45b9-82a7-ebb2260b2966" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_pas_2_yellow" DEF="fer_Fix_pas_2_2.entity" GUID="fb284334-6242-41fa-ad15-c095c6ac9277" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_988_yellow" DEF="fer_Fix_988_2.entity" GUID="4ad74b6b-4194-4b77-a9b6-79398b54ea63" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_987_yellow" DEF="fer_Fix_987_2.entity" GUID="a74472f4-cfa5-457f-8133-140bec72348a" />
+    <EXPLORERITEM TYPE="entity" ID="fer_Fix_Riv" DEF="FIX_1_3.entity" GUID="1c5e59f5-d497-4310-94c2-19546268d326" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Armarios" NAME="Armários" PREFIXID="COZ_SUPB_ARM_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTINGPARAMETERS REPEAT="DIALOG" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\Aggregates\vistas_superiores.aggregate" ORDER="7" />
+  </AGGREGATECOLLECTION>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_adega" DEF="adega_horizontal.entity" GUID="518ef94b-ed6d-4758-aeb0-e59c75744755" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_ADE_HOR" DEF="COZ_SUPB_ARM_ADE_HOR.entity" GUID="005250a4-7929-4621-80df-2acf5b963988" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_1P" DEF="1p.entity" GUID="0be963b7-c120-495c-baa5-49c009e4c8cb" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_2P" DEF="2p.entity" GUID="c2257fa1-3fcd-44ba-aa78-4730d9e54d63" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_1basc" DEF="1basculante.entity" GUID="3d981709-ab10-4d91-9f9e-deca4546e839" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_2basc" DEF="2basculantes.entity" GUID="3df575f5-d4bf-4adc-bfdb-1a6a2aef8c27" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPM_ARM_2BASC_IS_3" DEF="2basculantes_is.entity" GUID="08d266df-c5b3-49ed-92a3-462c3588341b" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_3P" DEF="3p.entity" GUID="d831ef75-fd4c-4c5a-ae20-ec934c492632" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_2P_DES" DEF="COZ_SUPB_ARM_2P_DES.entity" GUID="eab51849-a56e-4083-a052-82f4663b51b7" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_FECH" DEF="fechamento.entity" GUID="8cadead7-2741-4f44-b5ee-672479931407" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

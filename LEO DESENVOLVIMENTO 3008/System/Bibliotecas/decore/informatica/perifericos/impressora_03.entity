@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Impressora" ICON="IMPRESSORA_03.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Impressora" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="IMPRESSORA_03" />
+    <DIMENSION WIDTH="540" HEIGHT="355" DEPTH="370" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_PAPEL" ID="DEC_PAPEL" EDIT="Y" IDMATERIAL="div_diversos_fax" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

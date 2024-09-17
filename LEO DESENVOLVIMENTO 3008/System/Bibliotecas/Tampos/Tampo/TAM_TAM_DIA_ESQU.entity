@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Diagonal Esq" TYPE="GEOMETRY" ICON="TAM_TAM_DIA_ESQU_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_DIA_ESQU" FORMAT=".DXF" />
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="350" Y="-250" />
+      <PONTO2DA X="350" />
+    </BOUNDINGBOX>
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="250" FORMULA="#A#">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-60.94613" V="-180.0867" />
+              <CORNER2 U="58.98438" V="-273.2813" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="271.1306" V="-13.75" />
+              <CORNER2 U="318.4917" V="-586.4044" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Diagonal Esquerdo Granito" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="250" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="350" HEIGHT="25" DEPTH="550" ITEM_BASE="TAMP01" TEXT="6507">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

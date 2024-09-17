@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Revisteiro ($TEXT$)" ICON="ZP1255.jpg">
+  <DRAWING>
+    <FILE3D NAME="revisteiro garage" />
+    <DIMENSION WIDTH="145.1" HEIGHT="320.7" DEPTH="84.1" />
+    <LIMITS>
+      <MIN X="0" Y="-84.115" Z="0" />
+      <MAX X="145.11" Y="0" Z="320.694" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="148" HEIGHT="320" DEPTH="84" TEXT="ZP1255" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Garage Revisteiro 86mm @zen_garage(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prolong Calço Canto L" INVISIBLE="Y" ICON="prol_calco_reto_165.jpg">
+  <DRAWING>
+    <FILE3D NAME="dob_prol_calco_reto_165" />
+    <LIMITS>
+      <MIN X="-11" Y="-10" Z="-7" />
+      <MAX X="7" Y="24" Z="7" />
+    </LIMITS>
+    <DIMENSION WIDTH="19" HEIGHT="15" DEPTH="35" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CORPO" NAME="CORPO" IDMATERIAL="cin_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <OPENSERVICE TYPE="DOOR" X="@($INVERTED$?-10:10)" Y="-5" MAX="135" INVERT="@($INVERTED$?1:0)" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Prolongador Calço Dobradiça Canto L" VISIBLE="N" />
+    <ATTRIBUTE ID="CanMirror" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="19" HEIGHT="15" DEPTH="35" TEXT="PROLO" />
+</ENTITY>

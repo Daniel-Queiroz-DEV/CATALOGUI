@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cabide ($TEXT$)" ICON="cab.jpg" CHECKED="N">
+  <DRAWING>
+    <FILE3D NAME="cabide" />
+    <DIMENSION WIDTH="106" HEIGHT="106" DEPTH="40" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="53" HEIGHT="53" DEPTH="40" TEXT="BA0304" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_681" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_699" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_76" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_694" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_696" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_203" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_703" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_704" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_689" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_698" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_702" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_690" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_695" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_202" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_697" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_201" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_707" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_77" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_705" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_80" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_cab" MODEL="zen_ane" MODELTYPE="zen_ane_79" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello Cabide @zen_ane(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

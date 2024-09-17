@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Almofada" ICON="Almofada Oriental.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="almofada_02_2013" />
+    <DIMENSION WIDTH="591" HEIGHT="148.6" DEPTH="600" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEFAULT" NAME="DEFAULT" IDMATERIAL="Tec_Chita_004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Almofada de chita" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

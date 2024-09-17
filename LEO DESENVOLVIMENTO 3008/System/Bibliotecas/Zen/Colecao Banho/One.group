@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="One" NAME="One" PREFIXID="zen_banho_one_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="Zen_one" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_sab_fixa" DEF="sab_fixa.entity" GUID="9d81931b-a84a-4e59-ad60-bfa0dcba7da9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_rem" DEF="zen_banho_one_740.entity" GUID="65b2e32f-14b4-4087-a3bb-83784fcdc2ab" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_sab_inox" DEF="sab_inox.entity" GUID="fa7936e9-179d-441d-9baa-44ee4cab88eb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_bal" DEF="zen_banho_one_739.entity" GUID="47939ced-5830-4d0f-a368-75431fa34060" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_sab_fix" DEF="sab_fix.entity" GUID="071aaf6f-500e-455f-a4ee-9442b539c6ae" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_sab_pap" DEF="sab_pap.entity" GUID="3e8db536-f593-468a-a873-188230a468b3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_sab_toa" DEF="sab_toa.entity" GUID="e6187c23-fd7a-4533-adb5-0a7fd21220ff" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_pap" DEF="pap.entity" GUID="5a890384-3b8d-4432-b286-da962b997370" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_pap_dup" DEF="pap_dup.entity" GUID="2de8e87b-a235-4e4b-bc75-2205b0a60d87" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_toa_ponto" DEF="toa_ponto.entity" GUID="9e7dfde3-a588-4741-9f18-87d98925217e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_toa" DEF="toa.entity" GUID="66e18441-6bc6-46db-abed-d0b04a9096e8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_toa_dup" DEF="toa_dup.entity" GUID="ce264474-cb16-47ab-bf3c-51e48abef99f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_cab" DEF="cab.entity" GUID="f58627a7-6941-4882-a45b-e91a7a0d4948" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_por_obj_01" DEF="por_obj_01.entity" GUID="c2a9b982-d82a-45de-b257-d0b33f595388" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_por_obj_02" DEF="por_obj_02.entity" GUID="b499103f-7167-41b6-8526-eca6bfac0042" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_pra" DEF="pra.entity" GUID="52ee92aa-6a34-421d-a782-60c14ca83bc9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_one_pra_inox" DEF="pra_inox.entity" GUID="35c13979-82b3-4156-8234-a8a2b45a04c4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

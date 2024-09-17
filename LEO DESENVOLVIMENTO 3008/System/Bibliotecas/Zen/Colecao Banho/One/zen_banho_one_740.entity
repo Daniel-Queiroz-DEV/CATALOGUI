@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Fixa Acr Rem ($TEXT$)" ICON="sab_fixa.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira one" />
+    <DIMENSION WIDTH="200" HEIGHT="30" DEPTH="220" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_one_rem" MODEL="Zen_one" MODELTYPE="Zen_one_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_one_rem" MODEL="Zen_one" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_one_rem" MODEL="Zen_one" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="30" DEPTH="120" TEXT="BA0229" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="One Saboneteira Fixa com acrilico removivel @zen_one(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

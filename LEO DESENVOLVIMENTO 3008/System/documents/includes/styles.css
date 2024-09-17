@@ -1,0 +1,78 @@
+body{
+	font-size: 14px;
+	font-family: tahoma, verdana, arial;
+	color: #777777;
+}
+
+#container{
+  position: absolute;
+  top: 50%;
+  margin-top: -214px;
+  left: 0;
+  width: 100%;
+}
+
+#content {
+  width: 667px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 428px;
+	background: url("bg.png") no-repeat;
+}
+
+#description {
+ /*border: 1px solid red;*/
+ height: 350px;
+ width: 280px;
+ margin-left: auto;
+ margin-right: 15px;
+ padding-top: 65px;
+ text-align: left;
+}
+
+#iconLinks{
+ /*border: 1px solid green;*/
+ height: 120px;
+ width: 500px;
+ margin-left: 30px;
+ margin-right: auto;
+ margin-top: -55px;
+ text-align: center;
+}
+
+#iconLinksIntern{
+ /*border: 1px solid green;*/
+ height: 120px;
+ width: 350px;
+ text-align: left;
+}
+
+#iconLinks img, #iconLinksIntern img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	border: 0px none;
+}
+
+#iconLinksIntern img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#iconLinks a, #iconLinksIntern a {
+color: #888888;
+font-weight: bold;
+font-size: 10px;
+text-decoration: none;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#iconLinksIntern a{
+margin-left: 0px;
+margin-right: 0px;
+}
+
+#iconLinks a:hover, #iconLinksIntern a:hover{
+	color: #666666;
+}

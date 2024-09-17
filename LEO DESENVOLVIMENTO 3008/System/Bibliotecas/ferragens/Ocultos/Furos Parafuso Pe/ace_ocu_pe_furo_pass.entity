@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Furo Cavilha Passante" INVISIBLE="N" ICON="ace_ocu_pe_furo_pass.jpg">
+  <DRAWING>
+    <FILE3D NAME="box" />
+    <LIMITS>
+      <MIN X="-0,05" Y="-5" Z="-5" />
+      <MAX X="0" Y="5" Z="5" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="10">
+      <PONTO2DA X="-0.05" Y="-5" />
+      <PONTO2DA X="0.05" Y="-5" />
+      <PONTO2DA X="0.05" Y="5" />
+      <PONTO2DA X="-0.05" Y="5" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="0.1" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="cin_cor_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="0.1" HEIGHT="10" DEPTH="10" TEXT=" " />
+</ENTITY>

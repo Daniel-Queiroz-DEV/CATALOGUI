@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="Sta_Blu_Blu_Dob_Dob_31" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition=""
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="11"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="0"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="$W$/2-9.5;$D$/2-22.5"
+          ElementId="Sta_Blu_Blu_Dob_Dob_31" />
+        <Drilling
+          Name="Furação02"
+          InsertDowel="False"
+          Condition=""
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="11"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="1"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="$W$/2-9.5;$D$/2+22.5"
+          ElementId="Sta_Blu_Blu_Dob_Dob_31" />
+        <Drilling
+          Name="Furação03"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo19"
+          ReceiverDepth="#DOB_PRO_FUR#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="2"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="$W$/2;$D$/2"
+          ElementId="Sta_Blu_Blu_Dob_Dob_31" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

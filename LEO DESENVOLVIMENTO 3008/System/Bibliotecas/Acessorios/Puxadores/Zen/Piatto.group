@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Piatto" NAME="Piatto" PREFIXID="zen_piatto_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_piatto_60" DEF="60mm.group" GUID="07584dd5-f26a-4722-906b-fab6e356ff82" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PIATTO_60MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\piatto_60mm" />
+      <DIMENSION WIDTH="60" HEIGHT="60" DEPTH="6.3" />
+      <LIMITS>
+        <MIN X="-30" Y="-6.331" Z="-30" />
+        <MAX X="30" Y="0" Z="30" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

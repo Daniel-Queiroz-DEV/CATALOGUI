@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Balcoes" NAME="Balcões" PREFIXID="COZ_INF_BAL_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\Cozinha\Aggregates\pes_rodapes_tampos_retos.aggregate" />
+  </AGGREGATECOLLECTION>
+  <INSERTINGPARAMETERS REPEAT="DIALOG" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_PT_LATAS_3" DEF="P_latas.entity" GUID="cc763685-27e5-4156-a718-bb1be04232e1" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_1P_3" DEF="1_Porta.entity" GUID="a040f746-7e79-4724-8aa7-6251b9044458" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_2P_4" DEF="2_Porta.entity" GUID="79215c74-4287-4446-8ba8-b65d89cf110d" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_LIX_2" DEF="lixeira.entity" GUID="22929c3c-e303-48d4-a6f1-20e1a815665d" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_TULHA_2" DEF="tulha.entity" GUID="e7ac2d6d-bf72-4c84-8a62-282ded2ece1a" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

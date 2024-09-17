@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="toalheiro_esq" EntityId="ACE_ARA_TOA" Name="Toalheiro Esq" GroupName="Toalheiro" Description="Acessórios" Inverted="Y">
+		<Position X="0" Y="-$P.D$+$D$" Z="$P.H$-$H$-20-('#COZ_SENTIDO_TRAVESSA#' == 'Horizontal' ? (#COZ_ESP_TES#+#FOL_PAI#) : #COZ_CON_DIM_TRA_FRO_VER_HOR#)" Rotation="0">
+			<Min Z="0" />
+			<Max Z="$PH$-$H$" />
+		</Position>		
+	</Item>

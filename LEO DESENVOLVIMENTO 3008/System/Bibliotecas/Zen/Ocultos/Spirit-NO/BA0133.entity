@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Toalheiro Ponto ($TEXT$)" ICON="BA0015.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0133_toalheiropponto" />
+    <DIMENSION WIDTH="260" HEIGHT="30" DEPTH="56" />
+  </DRAWING>
+  <REFERENCE COMPLETE="$TEXT$-@zen_spirit@" />
+  <INSERTDIMENSION WIDTH="260" HEIGHT="30" DEPTH="56" TEXT="BA0133" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Toalheiro Ponto @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Palhas | Vimes" GENERATEITEMSNUMBERS="N">
+  <MATERIALCOLLECTION>
+    <MATERIAL ISFOLDER="Y" ID="palhas_vimes" NAME="Palhas | Vimes" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+      <METADATAS>
+        <METADATA ID="LightWorksMaterialData">
+          <METADATA.VALUE>
+            <LIGHTWORKSMATERIALDATA>
+              <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Eggshell" />
+            </LIGHTWORKSMATERIALDATA>
+          </METADATA.VALUE>
+        </METADATA>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <FILE NAME="palha 061.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 062.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 063.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 064.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 065.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 066.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 067.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 068.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 069.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Express;Academic;Trial;Newexpress;Premium;Catalog" />
+      <FILE NAME="palha 070.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="palha 071.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="palha 072.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="palha 073.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <FILE NAME="palha 074.png" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+      <BORDERCOLOR R="0" G="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <ROTATION>0</ROTATION>
+      <ESCALETEXTUREX>150</ESCALETEXTUREX>
+      <ESCALETEXTUREY>150</ESCALETEXTUREY>
+      <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+      <MIRROR>N</MIRROR>
+      <FRESNELTERM>0</FRESNELTERM>
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.5</DIFFUSE>
+      <REFLECTIONMIN>0</REFLECTIONMIN>
+      <REFLECTIONMAX>0</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0.4</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <TRANSPARENCY>0.01</TRANSPARENCY>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <DIRECTION>Nenhum</DIRECTION>
+      <SLIDEMODE>CropCenter</SLIDEMODE>
+      <TEXTUREFILE>.\textures\padroes\palhas_vimes\palha 001.jpg</TEXTUREFILE>
+      <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+      <MAPPING>Cubo</MAPPING>
+      <COLORBASE R="162" G="122" B="83" />
+    </MATERIAL>
+  </MATERIALCOLLECTION>
+  <FOLDERCOLLECTION>
+    <REF FILE="C:\Users\User\Desktop\16 07\System\Materials\materials\padroes\vidros_acrilicos.material" />
+  </FOLDERCOLLECTION>
+</FOLDER>

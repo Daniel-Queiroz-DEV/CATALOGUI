@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Travessa Maranello Original" ICON="com_coz_div_vis_2.jpg" INVISIBLE="N">
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="com_coz_tra_tra_3">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag7522622" CONCURRENT="Y" DESCRIPTION="Travessa" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" CONSTANT="Y">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="$PD$" WIDTH="$PH$" DEPTH="$PW$" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#P.FT_BORDA_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#P.FT_BORDA_DIR#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#P.FT_BORDA_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#P.FT_BORDA_FRONTAL#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="0" Y="0" Z="0" ROTATION="180" />
+          <NORMAL A="0" B="-1" C="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="500" DEPTH="@(25+#FOL_PAI#)">
+    <MIN WIDTH="30" DEPTH="1" HEIGHT="47" />
+    <MAX WIDTH="1800" DEPTH="200" HEIGHT="2700" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vista" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_TRA_FT_ESQ_MAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_TRA_FT_DIR_MAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_TRA_FT_TRASEIRA_MAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_TRA_FT_FRONTAL_MAR#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_020_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_033_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_051" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_055" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_057" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_06_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_125" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_640" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_647" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_667" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_648" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_633" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_081" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_634" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_053" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_635" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_124" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_636" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_126" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_641" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_022" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_127" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_642" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_649" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_058" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_638" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_087" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_088" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_062" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_639" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_090" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_063" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_651" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_651_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_130" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_069" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_653" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_666" CONDITION="$H$ == 6 || $H$ == 15 || $H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_093" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_655" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_072" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_131" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_074" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_030" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_026" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_709" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_708" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_710" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_711" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_705" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_704" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_ln_002" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_712" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_713" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_716" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_717" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_portas" MODELTYPE="acabamento_527Y" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_3" MODEL="com_porta_fita" MODELTYPE="acabamento_527Y" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

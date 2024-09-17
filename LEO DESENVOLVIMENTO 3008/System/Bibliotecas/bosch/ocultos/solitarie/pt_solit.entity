@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Solitarie" ICON="PT_SOLIT.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Solitarie" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PT_SOLIT" />
+    <DIMENSION WIDTH="785" HEIGHT="538" DEPTH="89" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DUMPING" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_vidro_inc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

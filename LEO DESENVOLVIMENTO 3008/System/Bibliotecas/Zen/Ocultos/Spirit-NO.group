@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Spirit-NO" NAME="Spirit-NO" PREFIXID="zen_ocl_spi_" INVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_spirit" ENTRYID="pux_zen" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ocl_spi" MODEL="Zen_spirit" MODELTYPE="Zen_spi_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_spi" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_ocl_spi_BA0133" DEF="BA0133.entity" GUID="83395126-3acd-46ab-9231-3687a136fd73" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ocl_spi_BA0132" DEF="BA0132.entity" GUID="ed1b63da-04be-4a51-aca8-0dcc66e5d78d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ocl_spi_BA0131" DEF="BA0131.entity" GUID="c6b09110-3abf-4a75-b513-a2ff11751517" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ocl_spi_BA0134" DEF="BA0134.entity" GUID="5e49d70d-c51f-4a2e-817d-371af05c679d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ocl_spi_BA0148" DEF="BA0148.entity" GUID="b88dc90c-8b4b-42b8-9db6-7f74abdec328" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

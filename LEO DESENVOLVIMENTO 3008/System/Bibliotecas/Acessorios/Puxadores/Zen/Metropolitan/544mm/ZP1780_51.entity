@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Bronze/Bronze ($TEXT$.$D.ACAB$)" ICON="Metropolitan.jpg">
+  <INSERTDIMENSION TEXT="ZP1780" ACAB="51" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Metropolitan 544mm Alumínio Bronze c/ Ponteiras Bronze" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_bronze" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_bronze" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

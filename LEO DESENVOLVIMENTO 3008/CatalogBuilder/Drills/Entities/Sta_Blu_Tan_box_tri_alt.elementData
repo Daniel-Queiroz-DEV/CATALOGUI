@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="Sta_Blu_Tan_box_tri_alt" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ ==450"
+          UniqueID="1"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-161;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="2"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-257;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação04"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="3"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-33;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ ==500"
+          UniqueID="4"
+          OperationPrice="{assembly:Null}"
+          Position="$d$-289;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação05"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="5"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="33;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação06"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="6"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="257;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação07"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ ==500"
+          UniqueID="7"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="289;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação08"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ ==450"
+          UniqueID="8"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="161;32.8"
+          ElementId="Sta_Blu_Tan_box_tri_alt" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

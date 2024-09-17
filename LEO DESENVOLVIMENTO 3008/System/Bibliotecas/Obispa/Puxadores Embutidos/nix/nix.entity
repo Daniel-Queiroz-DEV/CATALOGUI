@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="224mm ($TEXT$)" ICON="nix.jpg">
+  <INSERTDIMENSION TEXT="100.676" />
+  <DRAWING>
+    <FILE3D NAME="nix_100676" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="236" HEIGHT="18" DEPTH="18" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Nix 224mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_nix_224" MODEL="Obi_emb_pux_col" MODELTYPE="obi_pin_cha" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_nix_224" MODEL="Obi_emb_pux_col" MODELTYPE="obi_pin_gra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_nix_224" MODEL="Obi_emb_met" MODELTYPE="obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_nix_224" MODEL="Obi_emb_met" MODELTYPE="obi_met_cro_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

@@ -1,0 +1,106 @@
+{
+  "ElementId": "com_coz_pra_canto_l_recorte",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 6,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "1081,717",
+        "Y": "725"
+      },
+      "Edge": 5,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_coz_pra_canto_l_recorte"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "275",
+        "Y": "-99,1693"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_coz_pra_canto_l_recorte"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 7,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "-117,4263",
+        "Y": "894,1015"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 2,
+      "ElementId": "com_coz_pra_canto_l_recorte"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "77,74796",
+        "Y": "1066,756"
+      },
+      "Edge": 7,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 3,
+      "ElementId": "com_coz_pra_canto_l_recorte"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 4,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "603,6584",
+        "Y": "360,9754"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 4,
+      "ElementId": "com_coz_pra_canto_l_recorte",
+      "DistanceFromShape": -89.0246,
+      "DistanceFromElement": -89.0246,
+      "Orientation": "Horizontal"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 3,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "647,5609",
+        "Y": "260,9754"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 5,
+      "ElementId": "com_coz_pra_canto_l_recorte",
+      "DistanceFromShape": 97.56085,
+      "DistanceFromElement": 97.56085,
+      "Orientation": "Vertical"
+    }
+  ]
+}

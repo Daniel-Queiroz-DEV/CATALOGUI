@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Cordoalha" NAME="Cordoalha" PREFIXID="zen_cor_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="CORDOALHA_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CORDOALHA_PONTO" />
+      <DIMENSION WIDTH="59" HEIGHT="93.6" DEPTH="27.2" />
+      <LIMITS>
+        <MIN X="-29.5" Y="-27.24" Z="-79.569" />
+        <MAX X="29.5" Y="0" Z="14" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cor_pon" DEF="Ponto.group" GUID="dcf6bb91-e644-45cc-9090-1f62d07d98ee" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

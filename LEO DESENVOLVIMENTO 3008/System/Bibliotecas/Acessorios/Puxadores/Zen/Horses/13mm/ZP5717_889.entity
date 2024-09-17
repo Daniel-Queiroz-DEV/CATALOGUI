@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Vecchio ($TEXT$.$D.ACAB$)" ICON="Horses_13mm.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Horses Ponto Níquel Vecchio" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="32" HEIGHT="55.5" DEPTH="30" TEXT="ZP5717" ACAB="889" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_vec_hor" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

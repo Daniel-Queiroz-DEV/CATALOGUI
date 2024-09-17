@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Basic" DIRECTORY="basic">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bas_32_2" DEF="32mm.group" GUID="d974c7f5-0439-4bf1-a7a0-62f12b25a2a4" />
+    <EXPLORERITEM TYPE="group" ID="zen_bas_224_2" DEF="224mm.group" GUID="1d0d309c-bda7-4d12-bc7f-666a0f6fdd96" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BASIC_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BASIC_32MM" />
+      <LIMITS>
+        <MIN X="-21" Y="-20" Z="-25" />
+        <MAX X="21" Y="0" Z="5" />
+      </LIMITS>
+      <DIMENSION WIDTH="42" HEIGHT="30" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="BASIC_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BASIC_224MM" />
+      <DIMENSION WIDTH="234" HEIGHT="30" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-117" Y="-20" Z="-25" />
+        <MAX X="117" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

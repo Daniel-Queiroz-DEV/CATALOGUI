@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Aplique ($TEXT$)" ICON="Bari_Aplique.jpg">
+  <DRAWING>
+    <FILE3D NAME="zp0066" />
+    <DIMENSION WIDTH="24" HEIGHT="24" DEPTH="3" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <INSERTDIMENSION WIDTH="24" HEIGHT="24" DEPTH="3" TEXT="ZP0066" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita Base - aplique para Alça Puxador e toalheiro Bari Furo 4,5 mm @zen*(NAME)@ (PAR)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_apl_vit" ENTRYID="pux_zen" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_bar_apl_zp0066" MODEL="Zen_apl_vit" MODELTYPE="Zen_apl_vit_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_bar_apl_zp0066" MODEL="Zen_apl_vit" MODELTYPE="Zen_apl_vit_30" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_bar_apl_zp0066" MODEL="Zen_apl_vit" MODELTYPE="Zen_apl_vit_648" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

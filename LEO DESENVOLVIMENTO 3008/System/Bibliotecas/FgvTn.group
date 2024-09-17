@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP ID="FgvTn" DIRECTORY="FgvTn" NAME="FGVTN" PREFIXID="fgv_" INVISIBLE="N" DESCRIPTION="FGVTN">
+  <BUDGET>
+    <PRICE PROVIDER="fgvtn" FONT="FGVTN" REFERENCE="COMPLETE" />
+    <MARGIN IDCATEGORY="fgvtn" />
+    <INFORMATION CATEGORY="FGVTN" />
+  </BUDGET>
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+  </PROPOSEDATTRIBUTES>
+  <LAYER DESCRIPTION="FGVTN" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <VERSION>NS4zNS4x</VERSION>
+  <REFERENCE COMPLETE="$TEXT$" PARTNER="TRUE" />
+  <MODELS DEF="FgvTn\FgvTn.model" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_ten_kit_ace" DEF="Kit Ace TEN.group" GUID="62e4bc51-787f-4563-8eea-f842bfaf0be8" />
+    <EXPLORERITEM TYPE="group" ID="fgv_gav" DEF="Gavetas.group" GUID="0967e386-5360-47df-9ee2-73a9a74c662a" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_Ava_kit_div_tal" DEF="Kit Orga-Line_2.group" GUID="7d6bd1d3-0f4d-4b23-92fa-285f300dbadd" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_Ava_kit_div_tal_2_2" DEF="Kit Div Int AvantBox_2_2.group" GUID="f8a7a69b-8537-4754-be4a-a1e1ea1d8b65" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_Ava_kit_div_tal_2" DEF="Kit Div Int AvantBox_2.group" GUID="ffadd262-183c-41d3-b74f-db42755b65b1" />
+    <EXPLORERITEM TYPE="group" ID="fgv_pri" DEF="Prime.group" GUID="b246fcea-71e4-43e3-8d9c-3d1c0fe07ea6" />
+    <EXPLORERITEM TYPE="group" ID="fgv_ten" DEF="Ten.group" GUID="163c39d5-5f64-4f17-934b-df1430809360" />
+    <EXPLORERITEM TYPE="group" ID="fgv_cor" DEF="Corredicas.group" GUID="39c3db45-6601-4562-b559-862bd07409d0" />
+    <EXPLORERITEM TYPE="group" ID="fgv_dob" DEF="Dobradicas.group" GUID="4b567431-6d5d-4c68-96a1-5d19360a4145" />
+    <EXPLORERITEM TYPE="group" ID="fgv_sid" DEF="Sistema Deslizante.group" GUID="a2715685-5e30-4ebc-895f-d15245937096" />
+    <EXPLORERITEM TYPE="group" ID="fgv_cal" DEF="Calceiros.group" GUID="5bf828f4-6069-4579-95f9-58d648874862" />
+    <EXPLORERITEM TYPE="group" ID="fgv_cab" DEF="Cabideiros.group" GUID="42274524-65ca-49f4-abb3-330732edcd72" />
+    <EXPLORERITEM TYPE="group" ID="fgv_tbp" DEF="Tabua Passar.group" GUID="3df71585-b8e0-4a4a-99c3-0ae80818471f" />
+    <EXPLORERITEM TYPE="group" ID="fgv_qds" DEF="Quadros.group" GUID="00d6277f-c466-42a6-bf95-3724efd70ba5" />
+    <EXPLORERITEM TYPE="group" ID="fgv_pis" DEF="Pistoes.group" GUID="113947e5-3b94-4215-99b5-ed79c704ea32" />
+    <EXPLORERITEM TYPE="group" ID="fgv_pem_" DEF="Pe Mesa.group" GUID="cd1bf6dc-1487-40ad-8eec-1596d67a322d" />
+    <EXPLORERITEM TYPE="group" ID="fgv_rod" DEF="Rodizios.group" GUID="f177075c-b923-4c54-9566-ae37942be0b8" />
+    <EXPLORERITEM TYPE="group" ID="fgv_por_pan" DEF="Porta Panos.group" GUID="70a97843-4431-4961-8a62-43c92bc32fcd" />
+    <EXPLORERITEM TYPE="group" ID="fgv_div" DEF="Diversos.group" GUID="fe2ee2fa-2162-4cea-8fc4-8f40cb9085cd" />
+    <EXPLORERITEM TYPE="group" ID="fgv_com" DEF="Componentes.group" GUID="99221621-db3d-440e-8073-ae6e629c6995" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_kit_div_tal_3" DEF="Kit Orga-Line_2_2.group" GUID="e6cad6f4-8e53-436a-ad45-04cba0a030f1" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Fgv_TEN_kit_div_tal" DEF="Kit Div Int TEN.group" GUID="c4c5ad55-5d57-4591-9964-9f4a1e6d677a" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

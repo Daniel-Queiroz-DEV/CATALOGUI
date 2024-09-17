@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$ Toalheiro Simples ($TEXT$)" ICON="toa.jpg">
+  <DRAWING>
+    <FILE3D NAME="toalheiro-miss" />
+    <DIMENSION WIDTH="370" HEIGHT="20" DEPTH="18" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_miss_toa" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_toa" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_toa" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_pret" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_toa" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="450" HEIGHT="28" DEPTH="68" MODE="OnlyProposed" TEXT="">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE WIDTH="450" TEXT="BA0252" />
+      <PROPOSEDVALUE WIDTH="600" TEXT="BA0253" />
+      <PROPOSEDVALUE WIDTH="750" TEXT="BA0254" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Miss by Zen Toalheiro Simples $W$mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

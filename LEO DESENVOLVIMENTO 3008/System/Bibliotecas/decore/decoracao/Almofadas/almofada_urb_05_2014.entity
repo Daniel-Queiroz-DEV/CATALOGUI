@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Almofada" ICON="01_1.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="almofada_01" />
+    <DIMENSION WIDTH="650" HEIGHT="675" DEPTH="190" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Almofada" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TECIDO" NAME="DEC_TECIDO" IDMATERIAL="par_papeis_papel 077" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

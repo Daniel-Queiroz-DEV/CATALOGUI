@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="superiores_2" NAME="Superiores Premium" PREFIXID="POR_MOD_SUP_" INVISIBLE="N" MODELNAME="Portas" ORDERSTRING="001">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" MODEL="@COM_*@" />
+  <INSERTINGPARAMETERS REPEAT="Y" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_SUP_GOLA_2" DEF="gola.entity" GUID="a1b570ed-ea9b-430b-b682-31331fc087e6" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_SUP_POR_0_ML_2" DEF="POR_MOD_SUP_1176_2.entity" GUID="be1e83a5-ed93-4e99-8d54-64aca3a2864b" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_SUP_POR_45_ML_2" DEF="POR_MOD_SUP_1176.entity" GUID="9de30224-0bf5-4b2d-8bba-ae88c4b6187a" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_SUP_RETA_2" DEF="reta.entity" GUID="b73ee2c5-e627-4975-9c6c-b239b32dbe38" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_45_ML_3_3_2_2" DEF="POR_MOD_POR_1174_3_3.entity" GUID="a6c1b63a-ab7b-40cd-b736-7e8976dce7f1" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_4_3_2_2" DEF="reta_2_2.entity" GUID="4dd0973a-0355-4901-9b4d-a45dc803f009" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_4_4_2_4_3_2_2" DEF="reta_2_2_3.entity" GUID="eeddd9f6-296b-4962-a351-48e5c77e0d4d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_GAL_NOVA_13" DEF="reta_2_2_4.entity" GUID="e0fd7f4a-3bf8-4321-9cb7-72ac50d68468" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_0_ML_3_2_2_2" DEF="POR_MOD_POR_1174_2_2_2.entity" GUID="5c66c35e-5479-416a-8950-21efc3390fb3" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_0_ML_3_2_2_6_2" DEF="POR_MOD_POR_1174_2_2_2_2.entity" GUID="259890c7-9325-4387-bf6b-3ba4225f092e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_FRE_5_3" DEF="freggio.entity" GUID="c2de6d06-ba89-4206-95ef-454fa7f4f698" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_DES_MARANELLO_2_2_2" DEF="Maranello.entity" GUID="d07d816a-a458-4841-b152-33161a1f0862" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_VIE1F_2_2_2" DEF="reta_2_3_2_2.entity" GUID="c33dd14a-9980-4201-b775-677c803b8f6c" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_VIE2F_2_2_2" DEF="reta_2_3_2_2_2.entity" GUID="0029d90e-7419-4ba4-bc70-fa960a67ab8d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_VIESP_1_2_2_2" DEF="reta_2_3_2.entity" GUID="afa65beb-d286-4619-a661-f103c1e56fef" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_PAINTNG1F_2_2_2" DEF="reta_2_3_2_2_3.entity" GUID="b53eaa1e-7bef-4dfb-90f5-4cd8d2fb55a7" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_PAINTNG2F_2_2_2" DEF="reta_2_3_2_2_2_2.entity" GUID="1f1c9cc6-4a38-485a-8cd8-cdaeca04c9e2" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_PTGSP_2_2_2" DEF="reta_2_3_2_3.entity" GUID="cea0818c-5e8d-4c86-abdd-ec4d3289a36e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_PALHA_2_8_2" DEF="freggio_2_2_2.entity" GUID="e5327cbf-f8a1-4fc7-934e-02b7527dc6ff" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Passa Cabo" ICON="Passa Cabo.jpg">
+  <DRAWING>
+    <FILE3D NAME="passa cabos" />
+    <LIMITS>
+      <MIN X="-35" Y="-35" Z="0" />
+      <MAX X="35" Y="35" Z="2" />
+    </LIMITS>
+    <DIMENSION WIDTH="70" HEIGHT="15" DEPTH="70" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="ace_passa_cabo" ENTRYID="ACE" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$.$ACAB$" ITEM_BASE="$TEXT$" ACAB="@ACE_*(ACABAMENTO)@" COR="@ace_*(COR)@" />
+  <INSERTDIMENSION WIDTH="70" HEIGHT="15" DEPTH="70" TEXT="PACB" ITEM_BASE="PACB" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Passa Cabo $REFERENCE(COR)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

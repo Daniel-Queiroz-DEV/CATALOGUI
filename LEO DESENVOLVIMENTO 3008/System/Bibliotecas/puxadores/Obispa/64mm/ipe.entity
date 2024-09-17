@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ipê ($TEXT$)" ICON="ipe.jpg">
+  <DRAWING>
+    <FILE3D NAME="ipe" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="72" HEIGHT="72" DEPTH="24" />
+    <LIMITS>
+      <MIN X="-36" Y="-24.052" Z="-70.191" />
+      <MAX X="35.806" Y="0" Z="1.774" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.720" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_64_ipe" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_ipe" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_ipe" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_ipe" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_ipe" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_ipe" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ipê 64mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+</ENTITY>

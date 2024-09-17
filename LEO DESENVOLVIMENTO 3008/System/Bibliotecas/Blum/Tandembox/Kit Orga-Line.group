@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Orga-Line" NAME="Kit Orga-Line Divisor Talheres" PREFIXID="Sta_Blu_Tand_kit_" INVISIBLE="N" MODELINVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_300" DEF="Sta_Blu_Tand_300.entity" GUID="715000b4-87a9-4b4a-858a-a7dbf22651dc" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_400" DEF="Sta_Blu_Tand_400.entity" GUID="d6ceddf7-62cb-4ea0-8bad-97f8608b9cd5" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_500" DEF="Sta_Blu_Tand_500.entity" GUID="d3f3a95b-e160-4773-bb4b-f55304f000b2" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_600" DEF="Sta_Blu_Tand_600.entity" GUID="0c3a76ca-d706-4271-9f2c-4c29d6945cf4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

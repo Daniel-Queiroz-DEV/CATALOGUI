@@ -1,0 +1,24 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo04",
+        "ReceiverDepth": {
+          "Value": "(#ESP_EXT_CPORTA#+#FOL_PAI#)"
+        },
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "$w$/2",
+          "Y": "$d$/2"
+        },
+        "ElementId": "ace_ocu_pe_par"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_pe_par"
+}

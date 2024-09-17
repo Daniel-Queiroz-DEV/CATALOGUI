@@ -1,0 +1,53 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#BLU_ENG_LAR_MOV#"
+      },
+      "Height": {
+        "Value": "13"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "Movento",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 2,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "0",
+        "Y": "0"
+      },
+      "ElementId": "com_coz_gav_tan_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#BLU_ENG_LAR_MOV#"
+      },
+      "Height": {
+        "Value": "13"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "Movento",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-#BLU_ENG_LAR_MOV#",
+        "Y": "0"
+      },
+      "ElementId": "com_coz_gav_tan_2"
+    }
+  ],
+  "ElementId": "com_coz_gav_tan_2"
+}

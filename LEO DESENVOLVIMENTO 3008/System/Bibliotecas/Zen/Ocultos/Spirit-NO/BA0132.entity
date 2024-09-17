@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Papeleira ($TEXT$)" ICON="BA0033.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0132_papeleira" />
+    <DIMENSION WIDTH="140" HEIGHT="22" DEPTH="80" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Papeleira @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$-@zen_spirit@" />
+  <INSERTDIMENSION WIDTH="140" HEIGHT="22" DEPTH="80" TEXT="BA0132" />
+</ENTITY>

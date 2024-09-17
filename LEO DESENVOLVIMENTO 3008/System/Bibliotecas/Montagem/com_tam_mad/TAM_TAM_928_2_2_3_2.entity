@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Gallardo Miolo Palha 6mm " TYPE="GEOMETRY" ICON="inf_dd_crasgo_base_5_2_4_2.jpg" INVISIBLE="N" CHECKED="N">
+  <DRAWING>
+    <FILE3D NAME="com_4_2_3_2" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" RULE="UN" />
+  </BUDGET>
+  <MODELS>
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+    <MODEL IDMODEL="com_portas_Gal" ENTRYID="COM" />
+  </MODELS>
+  <INSERTDIMENSION HEIGHT="@(#TAM_ENG_TAM_1_2#+#FOL_PAI#)" WIDTH="1000" DEPTH="500" TEXT="1706" DESC="" ITEM_BASE="GPALHA">
+    <MIN WIDTH="100" DEPTH="100" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <EVENTS>
+    <ONDIMENSIONCHANGED>
+      <ACTIONS>
+        <ADJUSTCOMPONENTMODELS />
+      </ACTIONS>
+    </ONDIMENSIONCHANGED>
+  </EVENTS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta Gallardo Miolo 6mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

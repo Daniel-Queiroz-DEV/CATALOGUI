@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Diversos" NAME="Diversos" PREFIXID="com_coz_div_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_pta_ceg" DEF="com_coz_div_pta_ceg.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_pt_cega_sup" DEF="com_coz_div_pt_cega_sup.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_pt_cega_ilha" DEF="com_coz_div_pt_cega_ilha.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_afa" DEF="com_coz_div_afa.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_afa_ext" DEF="com_coz_div_afa_ext.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_fec" DEF="com_coz_div_fec.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_pai_ele" DEF="com_coz_div_pai_ele.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_vis" DEF="com_coz_div_vis.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_vis_por_des" DEF="com_coz_div_vis_por_des.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_vis_por_des_cpor" DEF="com_coz_div_vis_por_des_cpor.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_rod" DEF="com_coz_div_rod.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_2298" DEF="com_coz_div_2298.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_rod_arm" DEF="com_coz_div_rod_arm.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_fec_lat" DEF="com_coz_div_fec_lat.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_afa_sar" DEF="com_coz_afa_sar.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_afa" DEF="com_coz_afa.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_fre_sap" DEF="com_coz_div_fre_sap.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_inf_ilha" DEF="com_coz_div_2523.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_ele_usi" DEF="com_coz_div_2745.entity" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_ele_usi_mod" DEF="com_coz_div_ele_usi_mod.entity" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

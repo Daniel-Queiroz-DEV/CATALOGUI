@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lís ($TEXT$)" ICON="lis.jpg">
+  <DRAWING>
+    <FILE3D NAME="lis-100712" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="328" HEIGHT="8" DEPTH="30" />
+    <LIMITS>
+      <MIN X="-164" Y="-30.14" Z="-4" />
+      <MAX X="164.689" Y="0" Z="4.249" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.712" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_288_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_288_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_288_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_288_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Lís 288mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

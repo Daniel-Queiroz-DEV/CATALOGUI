@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Zen" NAME="Zen" PREFIXID="zen_" INVISIBLE="N" MODELINVISIBLE="N">
+  <BUDGET>
+    <STEPS />
+    <PRICE PROVIDER="Principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Nenhum" />
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+    <PROPOSEDATTRIBUTE ID="ACAB" />
+  </PROPOSEDATTRIBUTES>
+  <REFERENCE COMPLETE="$CODIGO$.$ACABAMENTO$" CODIGO="$TEXT$" ACABAMENTO="$D.ACAB$" PARTNER="True" CATEGORIA="Parceiro Zen" FORNECEDOR="Zen" ATIVO="Sim" />
+  <DRAWINGS />
+  <POSITIONSERVICE DEFINITIONID="PUX_RETA" DEFAULTOPTIONID="COZ_VER_01" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ANGLEBETWEENEDGES" VALUE="0" VISIBLE="N" />
+    <ATTRIBUTE ID="ANGLEBETWEENEDGESPMOB" VALUE="10" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_acqua_zen" DEF="Acqua_di_Zen.group" GUID="f5d6730e-5d42-49a1-97a6-768311e233f9" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra" DEF="Allen_Granado.group" GUID="b0f8094a-a28c-4a5b-82cf-51c668f982d7" />
+    <EXPLORERITEM TYPE="group" ID="zen_ant" DEF="Antique.group" GUID="c4878341-c926-4e6d-9e61-c7251c027457" />
+    <EXPLORERITEM TYPE="group" ID="zen_arc" DEF="Archive.group" GUID="9faf7758-12b3-4d35-9d03-3caa810df9b0" />
+    <EXPLORERITEM TYPE="group" ID="zen_bee_bas_gra" DEF="Beetle_Granado.group" GUID="e8bd8335-9fbd-4483-bb00-eece8c6379d9" />
+    <EXPLORERITEM TYPE="group" ID="zen_cit_45g" DEF="Citzen45Graus.group" GUID="4116d184-4dc9-4578-b2f4-8112c0b6d970" />
+    <EXPLORERITEM TYPE="group" ID="zen_cor" DEF="Cordoalha.group" GUID="4c81edc6-acaa-441e-b76c-189e0233fb06" />
+    <EXPLORERITEM TYPE="group" ID="zen_cre" DEF="Creta.group" GUID="675fd34c-b92d-4a5d-9967-a65a161d04dc" />
+    <EXPLORERITEM TYPE="group" ID="zen_dharma" DEF="dharma.group" GUID="6dd2f0f8-5671-4e7e-bdf2-fe378249bad1" />
+    <EXPLORERITEM TYPE="group" ID="zen_ele_zen" DEF="ElementoZen.group" GUID="81b2b826-7448-4ee6-a474-08246e64fd50" />
+    <EXPLORERITEM TYPE="group" ID="zen_fle" DEF="Flex.group" GUID="4150cdd9-0fa9-4afc-8087-d3df922f2393" />
+    <EXPLORERITEM TYPE="group" ID="zen_fun_gar" DEF="Fune_Garage.group" GUID="b1735e6e-5f39-44c5-88cf-cca53d550a84" />
+    <EXPLORERITEM TYPE="group" ID="zen_fun_gal" DEF="Fune_Gales.group" GUID="a8b1ff7c-efc5-416d-9bbb-e5267e801e17" />
+    <EXPLORERITEM TYPE="group" ID="zen_garage" DEF="garage.group" GUID="4f3e98e8-720c-49c6-9824-0263f4e867a0" />
+    <EXPLORERITEM TYPE="group" ID="zen_ind_des" DEF="IndustrialDesign.group" GUID="2dbcb57c-d78d-44f9-b5fa-17e79f8ad673" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken" DEF="ken.group" GUID="a8b5cf87-6959-4c9d-a764-ff2e5c9f047c" />
+    <EXPLORERITEM TYPE="group" ID="zen_lotus" DEF="lotus.group" GUID="622f0b6d-5371-4dfa-91e8-20cb6e72cb16" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag" DEF="Magnum.group" GUID="99d95637-9988-481e-835d-8dab09ddc006" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_col" DEF="Manico_di_Coltello.group" GUID="c1bd73ae-4e71-44f2-b5b1-e2f1adc8de4d" />
+    <EXPLORERITEM TYPE="group" ID="zen_nor" DEF="Nord.group" GUID="aeb99dbd-421e-4da5-a54e-ec65894025d4" />
+    <EXPLORERITEM TYPE="group" ID="zen_ori" DEF="Oriente.group" GUID="85ae18eb-348f-4f29-b662-46bbf3fc00c3" />
+    <EXPLORERITEM TYPE="group" ID="zen_orion" DEF="Orion.group" GUID="8e511ec9-1d78-4190-bac7-ca09cdd8d8c9" />
+    <EXPLORERITEM TYPE="group" ID="zen_rad_p" DEF="Radio_P.group" GUID="6a9ce23d-8498-44d2-9666-a74f145bac97" />
+    <EXPLORERITEM TYPE="group" ID="zen_she" DEF="Shell.group" GUID="1fcb30df-99aa-4297-923c-6ff71bdc6a94" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor" DEF="Sorento.group" GUID="19a80c7e-b13c-46d7-8d69-697686dd36aa" />
+    <EXPLORERITEM TYPE="group" ID="zen_urb_2" DEF="Urban_2.group" GUID="f1fe9c8b-69c5-426f-a531-318b659c8ae5" />
+    <EXPLORERITEM TYPE="group" ID="zen_vrs" DEF="Versalhes.group" GUID="2ef84f1f-5d18-40bf-bbac-42d049736154" />
+    <EXPLORERITEM TYPE="group" ID="zen_afro" DEF="afro.group" GUID="fe484d53-8116-4ea9-b6e5-38056bd601b8" />
+    <EXPLORERITEM TYPE="group" ID="zen_afro_metal" DEF="afro_metal.group" GUID="9129b95c-b46b-41ec-9a21-c6fc7f638c7c" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_lis" DEF="Allen_Liso.group" GUID="469fe159-e519-4c6c-b6ed-728cd614932b" />
+    <EXPLORERITEM TYPE="group" ID="zen_arc_min" DEF="Archive_Minimal.group" GUID="7abb9b30-a420-4a02-a4fe-7a0b04ec0f79" />
+    <EXPLORERITEM TYPE="group" ID="zen_bal" DEF="Balli.group" GUID="a5a3a527-2eac-4e94-987d-f3fb6bdb066d" />
+    <EXPLORERITEM TYPE="group" ID="zen_bal_osso" DEF="Balli_Osso.group" GUID="3ec1b633-15d4-4da8-afc9-f24bbfeb2a5e" />
+    <EXPLORERITEM TYPE="group" ID="zen_bal_gra" DEF="Balli_Granado.group" GUID="2ec15de2-36ee-4267-b63e-4b8c0ce3c3e6" />
+    <EXPLORERITEM TYPE="group" ID="zen_bal_gra_sku" DEF="Balli_Granado_Skull.group" GUID="f7cc271b-e5bb-4fab-983f-8daa781cc5d4" />
+    <EXPLORERITEM TYPE="group" ID="zen_bari" DEF="Bari.group" GUID="1fe09522-f296-4a57-af6b-5d83a7479e2a" />
+    <EXPLORERITEM TYPE="group" ID="zen_basic" DEF="basic.group" GUID="f3ab68aa-7250-4ed1-a2b1-aaa92721dd6d" />
+    <EXPLORERITEM TYPE="group" ID="zen_bay" DEF="Bay.group" GUID="66ca65df-140b-4753-85d6-3c08624c1f90" />
+    <EXPLORERITEM TYPE="group" ID="zen_bee" DEF="Beetle.group" GUID="20bae940-2b62-49b2-a35b-64453441336f" />
+    <EXPLORERITEM TYPE="group" ID="zen_epoque" DEF="epoque.group" GUID="d9c0b5a2-7f8d-4293-8622-e7844a3aae0e" />
+    <EXPLORERITEM TYPE="group" ID="zen_big_far" DEF="Big Farm.group" GUID="7964f2b9-3b74-416a-acbc-f8968daf7f0f" />
+    <EXPLORERITEM TYPE="group" ID="zen_box" DEF="Box.group" GUID="84de8744-530c-4b76-a6db-d3e6a52c51ca" />
+    <EXPLORERITEM TYPE="group" ID="zen_caiapo" DEF="caiapo.group" GUID="85876a0f-96b8-46b2-aadf-a1a3f68f0592" />
+    <EXPLORERITEM TYPE="group" ID="zen_cai" DEF="Cairo.group" GUID="3e6a9cb6-8569-420e-9b51-4934580b8d49" />
+    <EXPLORERITEM TYPE="group" ID="zen_cit" DEF="Citzen.group" GUID="aaf61ca7-7957-4aa1-8b2f-31df63595feb" />
+    <EXPLORERITEM TYPE="group" ID="zen_cup" DEF="cup.group" GUID="f5f80069-02ef-4c12-ab73-4189b631464b" />
+    <EXPLORERITEM TYPE="group" ID="zen_dan" DEF="Dance.group" GUID="f2fef69e-427b-46b9-80b1-429d66d993f7" />
+    <EXPLORERITEM TYPE="group" ID="zen_dis" DEF="Disk.group" GUID="f3cd2526-e493-4f7d-9b61-cb00a7630ff4" />
+    <EXPLORERITEM TYPE="group" ID="zen_dualle" DEF="dualle.group" GUID="be596041-0e13-42ec-80c4-ef38cee618eb" />
+    <EXPLORERITEM TYPE="group" ID="zen_ele_zen_per" DEF="ElementoZen_Personalizado.group" GUID="9e667cd1-8e79-4c4f-8f1a-1b29a159925a" />
+    <EXPLORERITEM TYPE="group" ID="zen_far" DEF="Farm.group" GUID="f88bb779-3c35-4d6b-b440-03ad37a734ad" />
+    <EXPLORERITEM TYPE="group" ID="zen_fun" DEF="Fune.group" GUID="afd29ec4-3fe9-451e-a6da-53adb65503a8" />
+    <EXPLORERITEM TYPE="group" ID="zen_fus" DEF="Fusion.group" GUID="5a3ea3b5-a0e0-42cf-aba1-67081a952791" />
+    <EXPLORERITEM TYPE="group" ID="zen_gioiello" DEF="Gioiello.group" GUID="93ae675a-286d-4e88-b1c9-168356390c79" />
+    <EXPLORERITEM TYPE="group" ID="zen_horses" DEF="Horses.group" GUID="3bf9878a-0e86-426a-bc5b-4a6ad73b055e" />
+    <EXPLORERITEM TYPE="group" ID="zen_ice_p" DEF="Ice P.group" GUID="c30759f1-bd52-4886-9468-6f06103addf5" />
+    <EXPLORERITEM TYPE="group" ID="zen_ice_g" DEF="Ice G.group" GUID="2f7df77b-4fff-45bf-bfc3-30ae3163d137" />
+    <EXPLORERITEM TYPE="group" ID="zen_jazz" DEF="Jazz.group" GUID="a5f1b7bb-e958-47b5-9c3b-c2247983f588" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_gra" DEF="Ken_Granado.group" GUID="39bb0845-b5f5-4d38-8192-ea4b229f11a3" />
+    <EXPLORERITEM TYPE="group" ID="zen_laminatto_sem" DEF="Laminatto.group" GUID="a76c18b1-65c7-4fc8-a6c3-3785bece4fd0" />
+    <EXPLORERITEM TYPE="group" ID="zen_luna" DEF="Luna.group" GUID="c6275b34-d9a9-431b-bf4a-cba597c7ec79" />
+    <EXPLORERITEM TYPE="group" ID="zen_lug" DEF="Lugano.group" GUID="31c8b4c6-814c-4cfd-809a-1e37ad2e6d4a" />
+    <EXPLORERITEM TYPE="group" ID="zen_magno_lam" DEF="Magno_Laminatto.group" GUID="5c8b8e65-3725-4272-95bb-b678d9ad034c" />
+    <EXPLORERITEM TYPE="group" ID="zen_mag_per" DEF="Magnum_Personalizado.group" GUID="61d6e885-35c9-4e09-b883-d99c0caec14e" />
+    <EXPLORERITEM TYPE="group" ID="zen_menphis" DEF="menphis.group" GUID="1eee9625-7034-4e0e-89f2-f9312ae04d97" />
+    <EXPLORERITEM TYPE="group" ID="zen_met" DEF="Metropolitan.group" GUID="dc55b9ce-7902-4549-bb48-daeebbad243e" />
+    <EXPLORERITEM TYPE="group" ID="zen_new_lin" DEF="New Linea.group" GUID="0c8fe738-40bd-4b9b-a505-1be4754d8376" />
+    <EXPLORERITEM TYPE="group" ID="zen_nor_gra" DEF="Nord_Granado.group" GUID="ff0bac22-5d5f-4fb8-a869-66b6d253c93f" />
+    <EXPLORERITEM TYPE="group" ID="zen_orvietto" DEF="Orvietto.group" GUID="5ec748ac-283a-429e-b3ba-deacc84709fd" />
+    <EXPLORERITEM TYPE="group" ID="zen_pam" DEF="Pampa.group" GUID="a0f9690c-3f1d-4b60-b1e7-dc28b4eef254" />
+    <EXPLORERITEM TYPE="group" ID="zen_pan" DEF="Pantanal.group" GUID="4f63e4d4-0b89-4f7c-a62f-1400de459c84" />
+    <EXPLORERITEM TYPE="group" ID="zen_phenix" DEF="Phenix.group" GUID="2bc01d91-3027-40e9-aad0-587879b674eb" />
+    <EXPLORERITEM TYPE="group" ID="zen_piatto" DEF="Piatto.group" GUID="e159d90d-dfea-45ec-af6a-389ec7b2cb2b" />
+    <EXPLORERITEM TYPE="group" ID="zen_plana" DEF="Plana.group" GUID="055819b4-ad3f-4770-b147-df007b76029c" />
+    <EXPLORERITEM TYPE="group" ID="zen_pla_per" DEF="Plana_Personalizado.group" GUID="e14a4a6c-dcfe-4df5-9bb3-7ffce0f6605a" />
+    <EXPLORERITEM TYPE="group" ID="zen_ply" DEF="Plymouth.group" GUID="030ddb56-863f-42ca-a4af-13c18d51c9a0" />
+    <EXPLORERITEM TYPE="group" ID="zen_prisma" DEF="Prisma.group" GUID="391b281d-7b5b-47d6-bf40-08b93bb65908" />
+    <EXPLORERITEM TYPE="group" ID="zen_rad" DEF="Radio.group" GUID="4f7ee6bb-76cc-4c4b-9178-20fbc604f13d" />
+    <EXPLORERITEM TYPE="group" ID="zen_rad_per" DEF="Radio_Personalizado.group" GUID="e4420bf1-7ff8-4aaf-b2a4-01ea7742a394" />
+    <EXPLORERITEM TYPE="group" ID="zen_ramp" DEF="ramp.group" GUID="03190c81-a223-4999-bc71-6a2101d91742" />
+    <EXPLORERITEM TYPE="group" ID="zen_rav" DEF="Ravena.group" GUID="92ee57d9-eb6c-4786-b4fb-f1277df30416" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_cru" DEF="Santa_Fe_Cruzado.group" GUID="bc608442-be2c-4749-b437-bd68b0ac3ac3" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_gra" DEF="Santa_Fe_Granado.group" GUID="03f5e9b8-8503-49fb-8002-df5ca582b379" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca" DEF="Scandinavian.group" GUID="28315be3-2fc9-4018-96b5-815758f452a8" />
+    <EXPLORERITEM TYPE="group" ID="zen_senna" DEF="senna.group" GUID="3285b94b-c0fb-4a79-b857-efbd4d076471" />
+    <EXPLORERITEM TYPE="group" ID="zen_shadow" DEF="shadow.group" GUID="fdaad20c-beb0-4b98-ad00-6e831ad596c4" />
+    <EXPLORERITEM TYPE="group" ID="zen_sheer" DEF="Sheer.group" GUID="793090e0-7ac7-49f7-aa2e-f835e110f743" />
+    <EXPLORERITEM TYPE="group" ID="zen_sir" DEF="Sirius.group" GUID="8ae90dd5-a6c4-439d-a2ef-f4c1ff63c8f4" />
+    <EXPLORERITEM TYPE="group" ID="zen_sir_per" DEF="Sirius_Personalizado.group" GUID="b7c2a640-7f71-4785-a046-80429c4964a9" />
+    <EXPLORERITEM TYPE="group" ID="zen_sir_sku" DEF="Sirius Skull.group" GUID="055d67fc-603b-4b75-a01f-83b8e1051c00" />
+    <EXPLORERITEM TYPE="group" ID="zen_slim" DEF="slim.group" GUID="c317e121-93ad-4b36-95b1-958b56307600" />
+    <EXPLORERITEM TYPE="group" ID="zen_sopra" DEF="sopra.group" GUID="9b58249f-e0a2-45c7-8bca-ffd676b94f93" />
+    <EXPLORERITEM TYPE="group" ID="zen_sor_gra" DEF="Sorento_Granado.group" GUID="619af303-96ba-45e2-bdda-cad0d6255b08" />
+    <EXPLORERITEM TYPE="group" ID="zen_sot" DEF="Sotile.group" GUID="6d11ddac-d022-4af2-82e8-7d218a1c1590" />
+    <EXPLORERITEM TYPE="group" ID="zen_sot_plu" DEF="Sotille_Plus.group" GUID="8132c0d7-e953-4998-9463-ce291f072df0" />
+    <EXPLORERITEM TYPE="group" ID="zen_spa" DEF="Space.group" GUID="ebebdf53-d92c-45db-be39-c098d97feb3b" />
+    <EXPLORERITEM TYPE="group" ID="zen_square" DEF="Square.group" GUID="1951600c-4366-417c-b390-0e9bf0b1ddf5" />
+    <EXPLORERITEM TYPE="group" ID="zen_swing" DEF="swing.group" GUID="a4a38815-b9d1-4043-ba63-1b7d38c458aa" />
+    <EXPLORERITEM TYPE="group" ID="zen_tao" DEF="Tao.group" GUID="c16bbd57-5bc8-476d-b6c0-9a411bfd4860" />
+    <EXPLORERITEM TYPE="group" ID="zen_tecno" DEF="tecno.group" GUID="04b10736-5589-4413-b512-0f29831b4d43" />
+    <EXPLORERITEM TYPE="group" ID="zen_tra" DEF="Traso.group" GUID="349f37f3-6862-4622-8efc-1912376780e8" />
+    <EXPLORERITEM TYPE="group" ID="zen_urb" DEF="Urban.group" GUID="70818637-21f0-4b94-a847-6f9171dd1d15" />
+    <EXPLORERITEM TYPE="group" ID="zen_val" DEF="Valigia.group" GUID="e0b36aca-b980-43b2-9c72-5681f97230bf" />
+    <EXPLORERITEM TYPE="group" ID="zen_ver" DEF="Vergalhao.group" GUID="05f8ddc7-3c10-4e32-a09a-d0521a4d686f" />
+    <EXPLORERITEM TYPE="group" ID="zen_wave" DEF="wave.group" GUID="c5c38cf3-85e8-4161-ab9c-ab0fe33d385d" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp" DEF="Linha_Emporio.group" GUID="d2c4301f-a453-48e7-a5ec-685c86da637d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

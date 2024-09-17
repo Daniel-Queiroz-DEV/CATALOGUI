@@ -1,0 +1,27 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "$W$"
+      },
+      "Height": {
+        "Value": "8"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "8"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "Y": "2"
+      },
+      "ElementId": "ACE_TRI_RO21"
+    }
+  ],
+  "ElementId": "ACE_TRI_RO21"
+}

@@ -1,0 +1,44 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_BAS#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_989"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_BAS#"
+        },
+        "UniqueID": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_989"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_989"
+}

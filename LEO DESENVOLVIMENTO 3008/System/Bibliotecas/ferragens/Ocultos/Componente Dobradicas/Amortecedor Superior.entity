@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Amortecedor p/ Dob Curva">
+  <DRAWING>
+    <FILE3D NAME="amortecedor_sup" />
+    <LIMITS>
+      <MIN X="-24.9" Y="-49.626" Z="-9.125" />
+      <MAX X="4.05" Y="29.958" Z="9.125" />
+    </LIMITS>
+    <DIMENSION WIDTH="29" HEIGHT="18.3" DEPTH="79.6" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="AUXILIAR" NAME="AUXILIAR" IDMATERIAL="cin_cor_004" EDIT="N" />
+    <COMPONENTDEFINITION ID="PINO" NAME="PINO" IDMATERIAL="cin_cor_001" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION TEXT="AMODOBA" DEPTH="65" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Amortecedor para Dobradiça Curva" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

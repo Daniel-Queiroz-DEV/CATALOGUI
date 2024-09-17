@@ -1,0 +1,77 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Nenhum",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "Angle": {},
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_RO46_Y"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "ESQUERDA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 5,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "Condition": {
+        "Expression": "'#FT_BORDA_DIR#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_RO46_Y"
+    }
+  ],
+  "ElementId": "POR_PAI_RO46_Y"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Metallo Vecchio ($TEXT$.$D.ACAB$)" ICON="Sirius.png">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sirus 32mm Metallo Vecchio" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP5440" ACAB="599" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

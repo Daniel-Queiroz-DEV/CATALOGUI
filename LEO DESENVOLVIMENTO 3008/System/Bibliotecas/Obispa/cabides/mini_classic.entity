@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mini Classic ($TEXT$)" ICON="mini_classic.jpg">
+  <INSERTDIMENSION TEXT="300.005" />
+  <DRAWING>
+    <FILE3D NAME="mini_classic" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="25" HEIGHT="53" DEPTH="45" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Mini Classic" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+</ENTITY>

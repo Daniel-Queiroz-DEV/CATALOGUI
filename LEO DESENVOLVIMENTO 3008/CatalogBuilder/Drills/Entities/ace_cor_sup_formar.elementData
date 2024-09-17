@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_cor_sup_formar" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo31"
+          ReceiverDepth="2"
+          UniqueID="0"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$/2;$H$"
+          ElementId="ace_cor_sup_formar" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo31"
+          ReceiverDepth="2"
+          UniqueID="1"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$/2;0"
+          ElementId="ace_cor_sup_formar" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,38 @@
+{
+  "ElementId": "com_bas_l_inf",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "275",
+        "Y": "-57,788"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ShowInLabel": true,
+      "ElementId": "com_bas_l_inf"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 5,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "1053,838",
+        "Y": "725"
+      },
+      "Edge": 4,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ShowInLabel": true,
+      "ElementId": "com_bas_l_inf"
+    }
+  ]
+}

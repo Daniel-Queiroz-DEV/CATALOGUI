@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cabide ($TEXT$)" ICON="BA0045_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0131_cabide" />
+    <DIMENSION WIDTH="22" HEIGHT="75" DEPTH="22" />
+  </DRAWING>
+  <REFERENCE COMPLETE="$TEXT$-@zen_spirit@" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Cabide @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="22" HEIGHT="75" DEPTH="25" TEXT="BA0131" />
+</ENTITY>

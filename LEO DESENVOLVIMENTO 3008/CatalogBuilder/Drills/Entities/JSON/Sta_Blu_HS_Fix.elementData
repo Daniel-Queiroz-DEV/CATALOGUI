@@ -1,0 +1,78 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "$H$-5"
+        },
+        "ElementId": "Sta_Blu_HS_Fix"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "$H$-32-5"
+        },
+        "ElementId": "Sta_Blu_HS_Fix"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "$H$-32-32-5"
+        },
+        "ElementId": "Sta_Blu_HS_Fix"
+      },
+      {
+        "Name": "Furação04",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "$H$-32-32-32-5"
+        },
+        "ElementId": "Sta_Blu_HS_Fix"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_HS_Fix"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Esc c/ Verniz ($TEXT$.$D.ACAB$)" ICON="Scandinavian.jpg">
+  <DRAWING ID="Scandinavian_16mm_WS" />
+  <INSERTDIMENSION TEXT="ZP4312" ACAB="923" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_stone" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Scandinavian 16mm Stone/ Níquel ESC c/ Verniz" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

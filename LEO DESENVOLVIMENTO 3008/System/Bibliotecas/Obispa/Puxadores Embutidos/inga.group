@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="inga" NAME="Ingá" PREFIXID="pux_obi_pux_emb_ing_" INVISIBLE="N">
+  <POSITIONSERVICEDEFINITIONS>
+    <POSITIONSERVICEDEFINITION ID="Encaixe_inga" DESCRIPTION="Obispa - Puxador Ingá">
+      <OPTIONS>
+        <OPTION ID="EIV_NOV_01" DESCRIPTION="Vertical 01" X="$H$-1" Y="1" Z="$PH$-$W$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="ECV_NOV_01" DESCRIPTION="Vertical 02" X="$H$-1" Y="1" Z="$PH$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="ESV_NOV_01" DESCRIPTION="Vertical 03" X="$H$-1" Y="1" Z="$W$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="DIV_NOV_01" DESCRIPTION="Vertical 04" X="$PW$-$H$+1" Y="1" Z="$PH$-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DCV_NOV_01" DESCRIPTION="Vertical 05" X="$PW$-$H$+1" Y="1" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="DSV_NOV_01" DESCRIPTION="Vertical 06" X="$PW$-$H$+1" Y="1" Z="$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="EIH_NOV_01" DESCRIPTION="Horizontal 01" X="$W$/2" Y="1" Z="$PH$-$H$+1" A="0" B="0" C="1" />
+        <OPTION ID="CIH_NOV_01" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="1" Z="$PH$-$H$+1" A="0" B="0" C="1" />
+        <OPTION ID="DIH_NOV_01" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2" Y="1" Z="$PH$-$H$+1" A="0" B="0" C="1" />
+        <OPTION ID="ESH_NOV_01" DESCRIPTION="Horizontal 04" X="$W$/2+1" Y="1" Z="$H$-1" A="0" B="0" C="-1" />
+        <OPTION ID="CSH_NOV_01" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="1" Z="$H$-1" A="0" B="0" C="-1" />
+        <OPTION ID="DSH_NOV_01" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2" Y="1" Z="$H$-1" A="0" B="0" C="-1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+  </POSITIONSERVICEDEFINITIONS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="obi_160_ing" DEF="inga.entity" GUID="69897deb-a8ea-4576-8afc-3bdfb5de69c8" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

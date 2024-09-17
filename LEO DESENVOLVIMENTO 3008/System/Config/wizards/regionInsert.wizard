@@ -1,0 +1,347 @@
+﻿<INSERTINGWIZARD TYPE="Region" >
+    <DISPOSITIONS>
+        <DISPOSITION DESCRIPTION="Padrão 01 Simples" IMAGE="padrao_001_simples.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90195"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="0" />
+                    <LINEVARIATION X="0" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        
+        <DISPOSITION DESCRIPTION="Padrão 02 Xadrez" IMAGE="padrao_002_xadrez.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90195"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="(2*$w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="$w$+#GROUT#" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91099">
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="0" />
+                    <STEPVARIATION X="(2*$w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="$w$+#GROUT#" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 03 Alternado" IMAGE="padrao_003_alternado.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90195"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="0" />
+                    <LINEVARIATION X="0" Y="(2*$d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90195">
+                    <INITIALPOSITION X="0" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="(2*$w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(2*$d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90188">
+                    <INITIALPOSITION X="$w$+#GROUT#" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="(2*$w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(2*$d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 04 em L" IMAGE="padrao_004_L.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90188">
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="(3*$w$)+(3*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90188"> 
+                    <INITIALPOSITION X="0" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="(3*$w$)+(3*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>                
+                <PIECEDEFINITION ENTITYID="marmi_90188"> 
+                    <INITIALPOSITION X="0" Y="(2*$d$)+(2*#GROUT#)" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91099">
+                    <INITIALPOSITION X="$w$+#GROUT#" Y="0" />
+                    <STEPVARIATION X="(3*$w$)+(3*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91099">
+                    <INITIALPOSITION X="$w$+#GROUT#" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="(3*$w$)+(3*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91099">
+                    <INITIALPOSITION X="(2*$w$)+(2*#GROUT#)" Y="0" />
+                    <STEPVARIATION X="(3*$w$)+(3*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91099">
+                    <INITIALPOSITION X="(2*$w$)+(2*#GROUT#)" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="(3*$w$)+(3*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="(3*$d$)+(3*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 05 Simples" IMAGE="padrao_005_simples.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_89757"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="$PIECES[1].d$+#GROUT#" />
+                    <LINEVARIATION X="-$PIECES[1].w$-#GROUT#" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90188">
+                    <INITIALPOSITION X="($PIECES[0].w$-$w$)" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="$PIECES[0].w$+#GROUT#" Y="$d$+#GROUT#" />
+                    <LINEVARIATION X="-$w$-#GROUT#" Y="$PIECES[0].d$+#GROUT#" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 06 Simples" IMAGE="padrao_006_simples.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_91944"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="$PIECES[1].d$+#GROUT#" />
+                    <LINEVARIATION X="-$PIECES[1].w$-#GROUT#" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91313">
+                    <INITIALPOSITION X="($PIECES[0].w$-$w$)" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="$PIECES[0].w$+#GROUT#" Y="$d$+#GROUT#" />
+                    <LINEVARIATION X="-$w$-#GROUT#" Y="$PIECES[0].d$+#GROUT#" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 07 Simples" IMAGE="padrao_007_simples.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_91944"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="$PIECES[1].d$+#GROUT#" />
+                    <LINEVARIATION X="-$PIECES[1].w$-#GROUT#" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_91099">
+                    <INITIALPOSITION X="($PIECES[0].w$-$w$)" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="$PIECES[0].w$+#GROUT#" Y="$d$+#GROUT#" />
+                    <LINEVARIATION X="-$w$-#GROUT#" Y="$PIECES[0].d$+#GROUT#" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 08 Simples" IMAGE="padrao_008_simples.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90775"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90775"> 
+                    <INITIALPOSITION X="($PIECES[0].w$)+#GROUT#" Y="($PIECES[0].d$+$PIECES[0].w$)+(3*#GROUT#)" ROTATION="90" />
+                    <STEPVARIATION X="($d$+$PIECES[0].w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($w$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>                
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="0" Y="$PIECES[1].w$+#GROUT#" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="-$PIECES[3].d$-1.5" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="($PIECES[0].w$+$PIECES[3].w$)+(#GROUT#)+1.5" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="($PIECES[0].w$+$PIECES[3].w$)+(#GROUT#)+1.5" Y="-$PIECES[3].d$-1.5" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 09 Xadrez Misto" IMAGE="padrao_009_xadrez_misto.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90775"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90775"> 
+                    <INITIALPOSITION X="($PIECES[0].w$)+#GROUT#" Y="($PIECES[0].d$+$PIECES[0].w$)+(3*#GROUT#)" ROTATION="90" />
+                    <STEPVARIATION X="($d$+$PIECES[0].w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($w$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="0" Y="$PIECES[1].w$+#GROUT#" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 10 Angulado" IMAGE="padrao_010_angulado.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_91313"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="$w$+#GROUT#" Y="$PIECES[1].d$+#GROUT#" />
+                    <LINEVARIATION X="-$PIECES[1].w$-#GROUT#" Y="$d$+#GROUT#" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_88492">
+                    <INITIALPOSITION X="($PIECES[0].w$-$w$)" Y="$d$+#GROUT#" />
+                    <STEPVARIATION X="$PIECES[0].w$+#GROUT#" Y="$d$+#GROUT#" />
+                    <LINEVARIATION X="-$w$-#GROUT#" Y="$PIECES[0].d$+#GROUT#" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 11 Xadrez Misto Grande" IMAGE="padrao_011_xadrez_misto_gde.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90324"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90324"> 
+                    <INITIALPOSITION X="($PIECES[0].w$)+#GROUT#" Y="($PIECES[0].d$+$PIECES[0].w$)+(3*#GROUT#)" ROTATION="90" />
+                    <STEPVARIATION X="($d$+$PIECES[0].w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($w$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>                
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="0" Y="$PIECES[1].w$+#GROUT#" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="-$PIECES[3].d$-1.5" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="($PIECES[0].w$+$PIECES[3].w$)+(#GROUT#)+1.5" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="($PIECES[0].w$+$PIECES[3].w$)+(#GROUT#)+1.5" Y="-$PIECES[3].d$-1.5" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>
+        
+        <DISPOSITION DESCRIPTION="Padrão 12 Xadrez em Blocos" IMAGE="padrao_012_xadrez_blocos.jpg">
+        
+            <PIECESDEFINITIONS>
+            
+                <PIECEDEFINITION ENTITYID="marmi_90324"> 
+                    <INITIALPOSITION X="0" Y="0" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_90324"> 
+                    <INITIALPOSITION X="($PIECES[0].w$)+#GROUT#" Y="($PIECES[0].d$+$PIECES[0].w$)+(3*#GROUT#)" ROTATION="90" />
+                    <STEPVARIATION X="($d$+$PIECES[0].w$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($w$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>       
+                
+                <PIECEDEFINITION ENTITYID="marmi_90190"> 
+                    <INITIALPOSITION X="0" Y="$PIECES[1].w$+#GROUT#" />
+                    <STEPVARIATION X="($w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($d$+$PIECES[0].d$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="$PIECES[0].w$+#GROUT#" Y="-$PIECES[3].d$-1.5" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="($PIECES[0].w$+$PIECES[3].w$)+(#GROUT#)+1.5" Y="0" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                <PIECEDEFINITION ENTITYID="marmi_93381"> 
+                    <INITIALPOSITION X="($PIECES[0].w$+$PIECES[3].w$)+(#GROUT#)+1.5" Y="-$PIECES[3].d$-1.5" />
+                    <STEPVARIATION X="($PIECES[0].w$+$PIECES[1].d$)+(2*#GROUT#)" Y="0" />
+                    <LINEVARIATION X="0" Y="($PIECES[0].d$+$PIECES[1].w$)+(2*#GROUT#)" />
+                </PIECEDEFINITION>
+                
+            </PIECESDEFINITIONS>
+            
+        </DISPOSITION>       
+        
+        
+    </DISPOSITIONS>
+    
+</INSERTINGWIZARD>

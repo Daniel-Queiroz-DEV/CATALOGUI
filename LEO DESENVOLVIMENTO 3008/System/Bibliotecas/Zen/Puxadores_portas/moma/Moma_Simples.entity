@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-136) Simples ($TEXT$)" ICON="Moma_Simples.jpg" CHECKED="N">
+  <DRAWING ID="Moma_Simples" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Moma Alça p/  portas Simples @($H$-136)mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_mom" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <INSERTDIMENSION WIDTH="15" HEIGHT="436" DEPTH="58" MODE="OnlyProposedH" TEXT="ZP1116">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="436" TEXT="ZP1116" />
+      <PROPOSEDVALUE HEIGHT="636" TEXT="ZP1117" />
+      <PROPOSEDVALUE HEIGHT="936" TEXT="ZP1118" />
+      <PROPOSEDVALUE HEIGHT="1136" TEXT="ZP1119" />
+      <PROPOSEDVALUE HEIGHT="1636" TEXT="ZP1120" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_mom_sim" MODEL="Zen_man_mom" MODELTYPE="Zen_man_mom_A00" CONDITION="$H$ &gt;= 936" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_mom_sim" MODEL="Zen_man_mom" MODELTYPE="Zen_man_mom_B00" CONDITION="$H$ &gt;= 936" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_mom_sim" MODEL="Zen_man_mom" MODELTYPE="Zen_man_mom_F00" CONDITION="$H$ &gt;= 936" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_mom_sim" MODEL="Zen_man_mom" MODELTYPE="Zen_man_mom_G00" CONDITION="$H$ &gt;= 936" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_mom_sim" MODEL="Zen_man_mom" MODELTYPE="Zen_man_mom_L00" CONDITION="$H$ &gt;= 936" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_mom_sim" MODEL="Zen_man_mom" MODELTYPE="Zen_man_mom_M00" CONDITION="$H$ &gt;= 936" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="218" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-167.2509" V="309.4342" />
+              <CORNER2 U="162.6887" V="54.40352" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="218" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-179.4787" V="-12.56466" />
+              <CORNER2 U="183.7011" V="-266.2008" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

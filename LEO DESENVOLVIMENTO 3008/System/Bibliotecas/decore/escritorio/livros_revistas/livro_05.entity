@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Livro" ICON="LIVRO_05.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Livro" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="LIVRO_05" />
+    <DIMENSION WIDTH="190" HEIGHT="105" DEPTH="200" />
+  </DRAWING>
+</ENTITY>

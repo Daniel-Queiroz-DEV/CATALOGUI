@@ -1,0 +1,4217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Zen">
+  <FOLDERCOLLECTION>
+    <FOLDER NAME="Metais">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="zen_aluminio" NAME="Alumínio">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Advanced" NAME="Satin Paint" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0.02</CRAND>
+          <SPECULAR>0.3</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="220" G="220" B="220" />
+        </MATERIAL>
+        <MATERIAL ID="zen_fosco" NAME="Alumínio Fosco">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <COLORBASE R="220" G="220" B="220" />
+        </MATERIAL>
+        <MATERIAL ID="zen_are" NAME="Areia">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="92" G="87" B="86" />
+        </MATERIAL>
+        <MATERIAL ID="zen_bei" NAME="Beige">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\beige.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="67" G="63" B="56" />
+        </MATERIAL>
+        <MATERIAL ID="zen_branco" NAME="Branco">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.45</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.17</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="zen_bro" NAME="Bromo">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\bromo.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="45" G="45" B="45" />
+        </MATERIAL>
+        <MATERIAL ID="zen_bronze" NAME="Bronze">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>6</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>6</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.8</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Bronze.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Bronze.Smooth.Satin</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="136" G="124" B="96" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cap" NAME="Capucino">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\capuccino.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="121" G="111" B="90" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_champagne" NAME="Champagne">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\champagne.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="185" G="180" B="160" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo" NAME="Cromo">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Chrome.Smooth.None</MCODE>
+          <COLORBASE R="218" G="218" B="218" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromado" NAME="Cromado">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Chrome.Smooth.None</MCODE>
+          <COLORBASE R="218" G="218" B="218" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cin_fos" NAME="Cinza Fosco">
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Chrome.Smooth.None</MCODE>
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="192" G="192" B="192" />
+        </MATERIAL>
+        <MATERIAL ID="zen_escovado" NAME="Cromo Escovado">
+          <EMISSION>0.15</EMISSION>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>175</ESCALETEXTUREX>
+          <ESCALETEXTUREY>175</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\aco_escovado.JPG</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Chrome.Brushed.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="220" G="220" B="220" />
+        </MATERIAL>
+        <MATERIAL ID="zen_escovado_v" NAME="Cromo Escovado Vertical">
+          <EMISSION>0.15</EMISSION>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>175</ESCALETEXTUREX>
+          <ESCALETEXTUREY>175</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\aco_escovado.JPG</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Chrome.Brushed.None</MCODE>
+          <COLORBASE R="220" G="220" B="220" />
+        </MATERIAL>
+        <MATERIAL ID="zen_dou" NAME="Dourado">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\DOURADO.jpg</TEXTUREFILE>
+          <MCODE>Metal.Gold.Smooth.Satin</MCODE>
+          <COLORBASE R="212" G="197" B="154" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_gol" NAME="Gold">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Stainless Steel" GROUP="Metals" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>991</ESCALETEXTUREX>
+          <ESCALETEXTUREY>870</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="225" G="203" B="150" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_gol_esc" NAME="Gold Escovado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Brushed Steel" GROUP="Metals" TYPE="Environment" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>20</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\GoldEsc.png</TEXTUREFILE>
+          <COLORBASE R="225" G="203" B="150" />
+        </MATERIAL>
+        <MATERIAL ID="zen_gra_1" NAME="Grafitto">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\GRAFFITO.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="29" G="29" B="29" />
+        </MATERIAL>
+        <MATERIAL ID="zen_gri" NAME="Grigio">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\grigio.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="96" G="96" B="96" />
+        </MATERIAL>
+        <MATERIAL ID="Material6350924428469752691" NAME="Inox">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.3</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.StainlessSteel.Smooth.None</MCODE>
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="Material6350957839852644321" NAME="Inox Escovado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Advanced" GROUP="Metals" NAME="Aluminium Brushed 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.29</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0.08</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.5</ROUGHNESS>
+          <METALLIC>0.01</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\metais\metal 026.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.StainlessSteel.Brushed.None</MCODE>
+          <COLORBASE R="188" G="184" B="171" />
+        </MATERIAL>
+        <MATERIAL ID="zen_aco_polido" NAME="Inox Polido">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0.3</REFLECTIONMIN>
+          <REFLECTIONMAX>0.3</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Polished.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="149" G="149" B="149" />
+        </MATERIAL>
+        <MATERIAL ID="zen_mok" NAME="Moka">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\moka.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="31" G="28" B="23" />
+        </MATERIAL>
+        <MATERIAL ID="zen_niquel_esc_bri_hor" NAME="Níquel Esc c/ Verniz Brilho">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>149</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.61</AMBIENT>
+          <DIFFUSE>0.56</DIFFUSE>
+          <REFLECTIONMIN>0.08</REFLECTIONMIN>
+          <REFLECTIONMAX>0.11</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.06</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Niquel ESC Verniz.JPG</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Nickel.Brushed.Glossy</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="175" G="175" B="175" />
+        </MATERIAL>
+        <MATERIAL ID="zen_niquel_vec_hor" NAME="Níquel Velho H">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Nickel.Grimed.None</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>180</ESCALETEXTUREX>
+          <ESCALETEXTUREY>134.1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.22</AMBIENT>
+          <DIFFUSE>0.2</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.18</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.07</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.15</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <IOR>1</IOR>
+          <EMISSION>0</EMISSION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Niquel ESC Verniz.JPG</TEXTUREFILE>
+          <COLORBASE R="175" G="175" B="175" />
+        </MATERIAL>
+        <MATERIAL ID="zen_noc" NAME="Nocciola">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\nocciola.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="83" G="78" B="70" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pan" NAME="Panna">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\panna.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="199" G="204" B="197" />
+        </MATERIAL>
+        <MATERIAL ID="zen_preto" NAME="Preto">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.05</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="23" G="21" B="17" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pre_ner" NAME="Preto Nero">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="23" G="21" B="17" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_red_gol" NAME="Red Gold">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Stainless Steel" GROUP="Metals" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="219" G="183" B="109" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_red_gol_esc" NAME="Red Gold Escovado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Brushed Steel" GROUP="Metals" TYPE="Environment" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>20</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\RedGoldEsc.png</TEXTUREFILE>
+          <COLORBASE R="219" G="183" B="109" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_ros" NAME="Rose">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Stainless Steel" GROUP="Metals" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>986</ESCALETEXTUREX>
+          <ESCALETEXTUREY>916</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="186" G="158" B="144" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="Zen_ros_esc" NAME="Rose Escovado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Brushed Steel" GROUP="Metals" TYPE="Environment" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>20</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\RoseEsc.png</TEXTUREFILE>
+          <COLORBASE R="186" G="158" B="144" />
+        </MATERIAL>
+        <MATERIAL ID="zen_sab" NAME="Sabia">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\sabia.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="181" G="180" B="159" />
+        </MATERIAL>
+        <MATERIAL ID="zen_saf" NAME="Safari">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\safari.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <COLORBASE R="130" G="131" B="116" />
+        </MATERIAL>
+        <MATERIAL ID="zen_titanio" NAME="Titanium">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>6</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>6</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Titanio.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.SemiGloss</MCODE>
+          <COLORBASE R="48" G="48" B="48" />
+        </MATERIAL>
+        <MATERIAL ID="zen_tit" NAME="Titanium">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>457</ESCALETEXTUREX>
+          <ESCALETEXTUREY>416</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\TITANIUM2.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.SemiGloss</MCODE>
+          <COLORBASE R="108" G="119" B="128" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_bia_vec" NAME="Vecchio Bianco">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>4</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>4</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Branco_Vecchio.JPG</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <COLORBASE R="186" G="186" B="188" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_vec_cob" NAME="Vecchio Cobre H">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>6</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>6</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Cobre.JPG</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Copper.Brushed.Matte</MCODE>
+          <COLORBASE R="153" G="114" B="100" />
+        </MATERIAL>
+        <MATERIAL ID="zen_vec_cob_v" NAME="Vecchio Cobre V">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>6</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>6</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Cobre.JPG</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Copper.Brushed.Matte</MCODE>
+          <COLORBASE R="153" G="114" B="100" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_vec" NAME="Vecchio Metallo">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>198</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <IOR>1</IOR>
+          <EMISSION>0</EMISSION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metallo Vecchio.jpg</TEXTUREFILE>
+          <COLORBASE R="132" G="95" B="78" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_und" NAME="Underground">
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Aluminum.Smooth.Satin</MCODE>
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Stainless Steel" GROUP="Metals" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>7</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>7</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.47</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Underground.JPG</TEXTUREFILE>
+          <COLORBASE R="123" G="123" B="124" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pint_fosco" NAME="Pintura Fosco">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Metal.Aluminum.Polished.Matte</MCODE>
+          <COLORBASE R="220" G="220" B="220" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pint_preta" NAME="Pintura Preta">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.05</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <COLORBASE R="23" G="21" B="17" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pint_branca" NAME="Pintura Branca">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.45</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.17</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pint_bronze" NAME="Pintura Bronze">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>6</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>6</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.8</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Bronze.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Bronze.Smooth.Satin</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="136" G="124" B="96" />
+        </MATERIAL>
+        <MATERIAL ID="zen_pint_titanio" NAME="Pintura Titanio">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>6</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>6</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Titanio.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.SemiGloss</MCODE>
+          <COLORBASE R="48" G="48" B="48" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Metais Recartilhado">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="zen_cromo_bra_rec" NAME="Branco Recartilhado ">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="255" G="255" B="255" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.62</AMBIENT>
+          <DIFFUSE>0.05</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.06</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado branco.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="215" G="218" B="220" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo_bro_rec" NAME="Bronze Recartilhado  ">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="255" G="255" B="255" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.29</AMBIENT>
+          <DIFFUSE>0.05</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.06</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado bronze.jpg</TEXTUREFILE>
+          <MCODE>Metal.Bronze.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="119" G="104" B="91" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo_esc_rec" NAME="Cromo Escovado Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.69</AMBIENT>
+          <DIFFUSE>0.71</DIFFUSE>
+          <REFLECTIONMIN>0.11</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.14</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado.jpg</TEXTUREFILE>
+          <MCODE>Metal.Chrome.Smooth.Matte</MCODE>
+          <COLORBASE R="191" G="188" B="181" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo_rec" NAME="Cromo Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.7</AMBIENT>
+          <DIFFUSE>0.71</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.07</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.25</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado.jpg</TEXTUREFILE>
+          <MCODE>Metal.Chrome.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="191" G="188" B="181" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cin_fos_rec" NAME="Cinza Fosco Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.7</AMBIENT>
+          <DIFFUSE>0.71</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.07</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.25</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado.jpg</TEXTUREFILE>
+          <MCODE>Metal.Chrome.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="191" G="188" B="181" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo_rec_2" NAME="Dourado Recartilhado ">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.23</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.07</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.25</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado dourado.jpg</TEXTUREFILE>
+          <MCODE>Metal.Gold.Smooth.Matte</MCODE>
+          <COLORBASE R="222" G="199" B="149" />
+        </MATERIAL>
+        <MATERIAL ID="zen_niquel_esc_ver_rec_" NAME="Niquel Esc Verniz Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.53</AMBIENT>
+          <DIFFUSE>0.65</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.31</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado.jpg</TEXTUREFILE>
+          <MCODE>Metal.Nickel.Smooth.None</MCODE>
+          <COLORBASE R="191" G="188" B="181" />
+        </MATERIAL>
+        <MATERIAL ID="zen_niquel_vec_rec" NAME="Níquel Velho Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.34</AMBIENT>
+          <DIFFUSE>0.43</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.24</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.08</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado.jpg</TEXTUREFILE>
+          <MCODE>Metal.Nickel.Smooth.Matte</MCODE>
+          <COLORBASE R="191" G="188" B="181" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo_pre_rec" NAME="Preto Recartilhado ">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.07</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado preto.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <COLORBASE R="93" G="93" B="93" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cromo_tit_rec" NAME="Titanium Recartilhado  ">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="255" G="255" B="255" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.98</AMBIENT>
+          <DIFFUSE>0.34</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.06</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Titanio.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="47" G="47" B="47" />
+        </MATERIAL>
+        <MATERIAL ID="zen_gra_rec" NAME="Grafitto Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="255" G="255" B="255" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.98</AMBIENT>
+          <DIFFUSE>0.34</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.06</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Titanio.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="47" G="47" B="47" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cobre_vec_rec_" NAME="Vecchio Cobre Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.25</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.08</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.04</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado cobre vecchio.jpg</TEXTUREFILE>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <COLORBASE R="159" G="119" B="104" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_vec_rec" NAME="Vecchio Metallo Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.24</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.04</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado metallo vecchio.jpg</TEXTUREFILE>
+          <COLORBASE R="42" G="26" B="23" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_gol_rec" NAME="Gold Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.69</AMBIENT>
+          <DIFFUSE>0.71</DIFFUSE>
+          <REFLECTIONMIN>0.11</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.14</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado Gold.jpg</TEXTUREFILE>
+          <COLORBASE R="227" G="208" B="168" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_gol_esc_rec" NAME="Gold Escovado Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.24</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.04</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado Gold.jpg</TEXTUREFILE>
+          <COLORBASE R="227" G="208" B="168" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_red_gol_rec" NAME="Red Gold Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.69</AMBIENT>
+          <DIFFUSE>0.71</DIFFUSE>
+          <REFLECTIONMIN>0.11</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.14</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado Red Gold.jpg</TEXTUREFILE>
+          <COLORBASE R="206" G="189" B="137" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_red_gol_esc_rec" NAME="Red Gold Escovado Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.24</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.04</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado Red Gold.jpg</TEXTUREFILE>
+          <COLORBASE R="206" G="189" B="137" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_ros_rec" NAME="Rose Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.69</AMBIENT>
+          <DIFFUSE>0.71</DIFFUSE>
+          <REFLECTIONMIN>0.11</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.14</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado Rose.jpg</TEXTUREFILE>
+          <COLORBASE R="198" G="175" B="166" />
+        </MATERIAL>
+        <MATERIAL ID="zen_met_ros_esc_rec" NAME="Rose Escovado Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <MCODE>Metal.Copper.Smooth.Matte</MCODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.6</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.24</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.04</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Metal Recartilhado Rose.jpg</TEXTUREFILE>
+          <COLORBASE R="198" G="175" B="166" />
+        </MATERIAL>
+        <MATERIAL ID="zen_vec_bia_rec" NAME="Vecchio Bianco Recartilhado">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="255" G="255" B="255" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>45</ROTATION>
+          <ESCALETEXTUREX>80</ESCALETEXTUREX>
+          <ESCALETEXTUREY>41.06667</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.62</AMBIENT>
+          <DIFFUSE>0.05</DIFFUSE>
+          <REFLECTIONMIN>0.06</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.06</SPECULAR>
+          <ROUGHNESS>0.01</ROUGHNESS>
+          <METALLIC>0.1</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Metal Recartilhado branco.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="215" G="218" B="220" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Couros">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="zen_couro_azul" NAME="Couro Azul">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>5</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>5</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Couro_Azul.jpg</TEXTUREFILE>
+          <MCODE>Leather.TopGrain.TannedHeavy.SemiAniline</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="8" G="199" B="229" />
+        </MATERIAL>
+        <MATERIAL ID="zen_couro_branco" NAME="Couro Branco">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>5</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>5</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\couro_branco.jpg</TEXTUREFILE>
+          <MCODE>Leather.TopGrain.Raw.SemiAniline</MCODE>
+          <COLORBASE R="239" G="236" B="224" />
+        </MATERIAL>
+        <MATERIAL ID="zen_couro_marrom" NAME="Couro Marrom">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>5</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>5</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.9</AMBIENT>
+          <DIFFUSE>0.8</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\couro_marrom.jpg</TEXTUREFILE>
+          <MCODE>Leather.TopGrain.Raw.SemiAniline</MCODE>
+          <COLORBASE R="68" G="41" B="30" />
+        </MATERIAL>
+        <MATERIAL ID="zen_couro_preto" NAME="Couro Preto">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>5</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>5</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\couro_preto.jpg</TEXTUREFILE>
+          <MCODE>Leather.TopGrain.Raw.SemiAniline</MCODE>
+          <COLORBASE R="40" G="39" B="46" />
+        </MATERIAL>
+        <MATERIAL ID="zen_couro_ver" NAME="Couro Vermelho">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>5</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>5</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Couro_Vermelho.jpg</TEXTUREFILE>
+          <MCODE>Leather.TopGrain.Raw.SemiAniline</MCODE>
+          <COLORBASE R="146" G="6" B="28" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Diversos">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="Material6351027951410012313" NAME="Acrílico Branco">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.3</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Satin.None</MCODE>
+          <COLORBASE R="244" G="244" B="244" />
+        </MATERIAL>
+        <MATERIAL ID="zen_div_acr_cin" NAME="Acrílico Cinza">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.3</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Satin.None</MCODE>
+          <COLORBASE R="201" G="201" B="201" />
+        </MATERIAL>
+        <MATERIAL ID="Material6351028031450012314" NAME="Acrílico Preto">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.3</REFLECTIONMIN>
+          <REFLECTIONMAX>0.3</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.3</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Satin.None</MCODE>
+          <COLORBASE R="40" G="40" B="40" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cabo_aco" NAME="Cabo de Aço">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>5</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>5</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\cabo_aco.jpg</TEXTUREFILE>
+          <MCODE>Metal.Steel.Smooth.Satin</MCODE>
+          <COLORBASE R="161" G="161" B="161" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cord" NAME="Corda">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>3</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>3</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.7</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\corda.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Medium.None</MCODE>
+          <COLORBASE R="160" G="103" B="74" />
+        </MATERIAL>
+        <MATERIAL ID="zen_corrente" NAME="Corrente">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>8</ESCALETEXTUREX>
+          <ESCALETEXTUREY>12</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.01</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\zen\corrente.JPG</TEXTUREFILE>
+          <MCODE>Metal.Steel.Smooth.Satin</MCODE>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="105" G="105" B="105" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cos" NAME="Costura">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.01</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\champagne.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.Light.None</MCODE>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="185" G="180" B="160" />
+        </MATERIAL>
+        <MATERIAL ID="zen_cristal" NAME="Cristal">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>60</ESCALETEXTUREX>
+          <ESCALETEXTUREY>70</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\cristal.jpg</TEXTUREFILE>
+          <MCODE>Glass.Crystal.None.None</MCODE>
+          <COLORBASE R="210" G="202" B="203" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_negro" NAME="Cristal Negro">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>60</ESCALETEXTUREX>
+          <ESCALETEXTUREY>60</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.1</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\cristal_negro.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Glass.Crystal.None.None</MCODE>
+          <COLORBASE R="48" G="45" B="50" />
+        </MATERIAL>
+        <MATERIAL ID="zen_swarovski" NAME="Cristal Swarovski">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>56</ESCALETEXTUREX>
+          <ESCALETEXTUREY>56</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.01</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\swarovski.jpg</TEXTUREFILE>
+          <MCODE>Glass.Crystal.None.None</MCODE>
+          <COLORBASE R="158" G="158" B="156" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Zen_1" NAME="Detalhe ZbZ 1">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Textura_Zen_1.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="93" G="93" B="93" />
+          <MAPPING>Planar</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Zen_2" NAME="Detalhe ZbZ 2">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Textura_Zen_2.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="137" G="137" B="137" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Zen_3" NAME="Detalhe ZbZ 3">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Textura_Zen_3.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="89" G="89" B="89" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Zen_4" NAME="Detalhe ZbZ 4">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Textura_Zen_4.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="90" G="90" B="90" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Zen_5" NAME="Detalhe ZbZ 5">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Textura_Zen_5.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Raw.None</MCODE>
+          <COLORBASE R="97" G="97" B="97" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Zen_7" NAME="Detalhe ZbZ 7">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Textura_Zen_7.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="97" G="97" B="97" />
+        </MATERIAL>
+        <MATERIAL ID="Zen_Det_Cj_Spirit" NAME="Detalhe Zen a Porter">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>75</ESCALETEXTUREX>
+          <ESCALETEXTUREY>75</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\zen_a_porter.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="44" G="44" B="44" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_dia" NAME="Diamante">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Diamante.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Glass.Diamond.None.None</MCODE>
+          <COLORBASE R="145" G="146" B="153" />
+          <MAPPING>Planar</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_gelo" NAME="Gelo">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Miscellaneous.Undefined.None.None</MCODE>
+          <COLORBASE R="248" G="248" B="248" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_lona" NAME="Lona">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>30</ESCALETEXTUREX>
+          <ESCALETEXTUREY>30</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\lona.JPG</TEXTUREFILE>
+          <MCODE>Plastic.Latex.Satin.None</MCODE>
+          <COLORBASE R="106" G="101" B="92" />
+        </MATERIAL>
+        <MATERIAL ID="mas_noce_athena" NAME="Noce Athena">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Vertical</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\noce_athena.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Wood.Hard.SandedMedium.None</MCODE>
+          <COLORBASE R="150" G="103" B="57" />
+        </MATERIAL>
+        <MATERIAL ID="zen_osso" NAME="Osso Bali">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Osso Bali.JPG</TEXTUREFILE>
+          <MCODE>Miscellaneous.Undefined.None.None</MCODE>
+          <COLORBASE R="210" G="204" B="185" />
+          <MAPPING>Planar</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_per" NAME="Pérola">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>1569</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1569</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.51</AMBIENT>
+          <DIFFUSE>0.45</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.13</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\perola.jpg</TEXTUREFILE>
+          <MCODE>Mineral.Ceramic.PolishedMedium.Satin</MCODE>
+          <COLORBASE R="192" G="198" B="186" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="zen_stone" NAME="Stone">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>541</ESCALETEXTUREX>
+          <ESCALETEXTUREY>94</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\Stone.JPG</TEXTUREFILE>
+          <MCODE>Miscellaneous.Undefined.None.None</MCODE>
+          <COLORBASE R="139" G="143" B="144" />
+        </MATERIAL>
+        <MATERIAL ID="zen_underground" NAME="Underground">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>20</ESCALETEXTUREX>
+          <ESCALETEXTUREY>30</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\Underground.JPG</TEXTUREFILE>
+          <MCODE>Miscellaneous.Undefined.None.None</MCODE>
+          <COLORBASE R="123" G="123" B="124" />
+        </MATERIAL>
+        <MATERIAL ID="zen_vidro" NAME="Vidro p/ Vela">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0.7</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.5</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MAPPING>Cubo</MAPPING>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Glass.Glass.None.None</MCODE>
+          <COLORBASE R="244" G="244" B="244" />
+        </MATERIAL>
+        <MATERIAL ID="zen_vintage" NAME="Vintage">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>56</ESCALETEXTUREX>
+          <ESCALETEXTUREY>56</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.24</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.12</REFLECTIONMIN>
+          <REFLECTIONMAX>0.12</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.7</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\vintage.jpg</TEXTUREFILE>
+          <MCODE>Metal.Aluminum.Smooth.None</MCODE>
+          <COLORBASE R="158" G="158" B="156" />
+        </MATERIAL>
+        <MATERIAL ID="zen_wood" NAME="Wood">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>205</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\wood.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedMedium.None</MCODE>
+          <COLORBASE R="165" G="131" B="66" />
+        </MATERIAL>
+        <MATERIAL ID="zen_woo_2017_2_V" NAME="Wood 2017 2 V">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>372.5002</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.35</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\2.JPG</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedMedium.None</MCODE>
+          <COLORBASE R="129" G="109" B="67" />
+        </MATERIAL>
+        <MATERIAL ID="zen_woo_2017" NAME="Wood 2017 H">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>320</ESCALETEXTUREX>
+          <ESCALETEXTUREY>238.4001</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.04</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.06</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\wood Manico di Coltello.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedMedium.None</MCODE>
+          <COLORBASE R="83" G="63" B="50" />
+        </MATERIAL>
+        <MATERIAL ID="zen_wood_V" NAME="Wood Vertical">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>205</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\zen\wood.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedMedium.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="165" G="131" B="66" />
+        </MATERIAL>
+        <MATERIAL ID="zen_ziper" NAME="Ziper">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.46</AMBIENT>
+          <DIFFUSE>0.52</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\Fabrica\Zen\ZIiper.JPG</TEXTUREFILE>
+          <MCODE>Paint.Enamel.SemiGloss.None</MCODE>
+          <COLORBASE R="143" G="143" B="143" />
+          <MAPPING>Planar</MAPPING>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+  <MATERIALCOLLECTION />
+</FOLDER>

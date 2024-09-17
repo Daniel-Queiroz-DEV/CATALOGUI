@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Orga-Line_2" NAME="DIVISOR INOX" PREFIXID="Sta_Fgv_Ava_kit_">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="start_met_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="@('#INT_MCM#' == 'TRUE'? 'TRUE' : 'FALSE')" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="PEDIDOFABRICA" VALUE="True" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300" DEF="Sta_Fgv_Ava_300.entity" GUID="3e83eb14-0cf8-4f16-9823-bcd59fc2f1fb" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_400" DEF="Sta_Fgv_Ava_400.entity" GUID="1e0ec586-e5b4-4e6c-9119-fc71b5257f92" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_1000" DEF="Sta_Fgv_Ava_1000.entity" GUID="38996cd5-642b-4096-a51e-2f722ed682d5" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_600" DEF="Sta_Fgv_Ava_600.entity" GUID="d3140d03-5161-436f-b42d-679b4f0f3124" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_800" DEF="Sta_Fgv_Ava_800.entity" GUID="8e046158-8250-4f4f-a353-d87d8b15071e" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300_2" DEF="Sta_Fgv_Ava_300_2.entity" GUID="ffe2ffb6-e23f-4825-8c02-36cb32d56b72" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_383" DEF="Sta_Fgv_Ava_383.entity" GUID="8859dc2d-48bc-4453-a0be-dca5e96bf13b" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_759" DEF="Sta_Fgv_Ava_759.entity" GUID="298cb5bd-c4ae-4cd1-838e-79f6e9a65ed4" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_899" DEF="Sta_Fgv_Ava_899.entity" GUID="c4051fcb-997b-4521-92bf-21bce44668b3" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_393" DEF="Sta_Fgv_Ava_393.entity" GUID="24649c71-c1a3-4d4b-bb66-ceccc4a7c22e" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_496" DEF="Sta_Fgv_Ava_496.entity" GUID="726d159c-fc09-434f-b747-2e5fdfb10752" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_486" DEF="Sta_Fgv_Ava_486.entity" GUID="a5b8c89b-4150-4fbf-a9bc-0b202a78cf28" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_582" DEF="Sta_Fgv_Ava_582.entity" GUID="76b72016-f201-46f3-8a08-f36570e6ab64" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_722" DEF="Sta_Fgv_Ava_722.entity" GUID="0a945f8d-971a-4669-b0a4-a9bae1de83a9" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_479" DEF="Sta_Fgv_Ava_479.entity" GUID="849f59aa-9fbd-42cb-abf0-38950eaac751" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_619" DEF="Sta_Fgv_Ava_619.entity" GUID="58fc8e58-d7f2-4f62-8585-b1a1f54f16ff" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_560" DEF="Sta_Fgv_Ava_560.entity" GUID="ef2aa3b4-8cda-4745-861c-91bf8782ec54" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_752" DEF="Sta_Fgv_Ava_752.entity" GUID="959b4acd-c2f5-4747-9298-94181ad71270" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_656" DEF="Sta_Fgv_Ava_656.entity" GUID="de0d04ba-55c0-46f5-9d95-240b05cd7567" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_796" DEF="Sta_Fgv_Ava_796.entity" GUID="136fafca-c25b-4cb0-ae9e-994252b03b3c" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_892" DEF="Sta_Fgv_Ava_892.entity" GUID="ac96db6d-246d-48a3-972c-ccda05d1fc41" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_570" DEF="Sta_Fgv_Ava_570.entity" GUID="0b9203f6-0c9f-4246-afc6-5a5e4cc49016" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_666" DEF="Sta_Fgv_Ava_666.entity" GUID="e7e8239b-4b45-4ee7-8e63-df767d18829b" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_806" DEF="Sta_Fgv_Ava_806.entity" GUID="26d406f1-4cd3-4ede-bade-dfcc81498a1e" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_500" DEF="Sta_Fgv_Ava_500.entity" GUID="6a9839b0-dff0-43b2-a791-0f4ba114ccb8" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_700" DEF="Sta_Fgv_Ava_700.entity" GUID="e3d1f16a-4b74-4607-add4-9ffca9d34396" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_900" DEF="Sta_Fgv_Ava_900.entity" GUID="033ce2cc-0513-4692-adff-69be5994c4e9" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_1100" DEF="Sta_Fgv_Ava_1100.entity" GUID="b956a1e7-48a1-4fc3-b63c-52eef9b82a60" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

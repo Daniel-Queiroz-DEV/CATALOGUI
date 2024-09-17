@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Prisma" NAME="Prisma" PREFIXID="zen_prisma_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_prisma_32_2" DEF="32mm.group" GUID="2865b46e-6e1f-4a37-8925-039966e3a9e0" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PRISMA">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\prisma" />
+      <DIMENSION WIDTH="60" HEIGHT="60" DEPTH="34.3" />
+      <LIMITS>
+        <MIN X="-24.463" Y="-34.305" Z="-53.72" />
+        <MAX X="35.544" Y="0" Z="6.287" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PRISMA_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\prisma_couro" />
+      <DIMENSION WIDTH="60" HEIGHT="60" DEPTH="34.3" />
+      <LIMITS>
+        <MIN X="-24.404" Y="-24.805" Z="-53.72" />
+        <MAX X="35.603" Y="9.5" Z="6.287" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PRISMA_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\prisma_diamond" />
+      <DIMENSION WIDTH="60" HEIGHT="60" DEPTH="34.3" />
+      <LIMITS>
+        <MIN X="-24.404" Y="-24.805" Z="-53.72" />
+        <MAX X="35.603" Y="9.5" Z="6.287" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

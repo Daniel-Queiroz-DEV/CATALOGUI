@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_bal_gra_sku_pon_">
+  <DRAWINGS />
+  <DRAWING ID="BALLI_GRANADO_SKULL_PON" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_122" DEF="ZP5365_122.entity" GUID="4529ad51-2ddd-41a8-9657-7602e85688e6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_123" DEF="ZP5365_123.entity" GUID="07f20b25-5d83-4367-953c-51e735303558" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_951" DEF="ZP5365_951.entity" GUID="8849c54b-5dbc-474f-b49c-6709e103ceab" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_909" DEF="ZP5365_909.entity" GUID="ba7a264d-c2bd-4413-a00f-12bbcfc50745" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_708" DEF="ZP5365_708.entity" GUID="0fad05cc-4658-418d-aeaf-002a0aef1fcd" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_930" DEF="ZP5365_930.entity" GUID="bdf0aa37-c37d-4d99-880e-015c4fd9b7c7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_908" DEF="ZP5365_908.entity" GUID="e6582c82-b80a-4542-992a-04a5d5382b2f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_936" DEF="ZP5365_936.entity" GUID="98fefc80-b482-4628-b85f-ad46e2a335df" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_939" DEF="ZP5365_939.entity" GUID="758482c3-5940-4c5f-a135-be0d612efa26" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_A01" DEF="ZP5365_A01.entity" GUID="ac8077e0-d65e-4971-8423-1ab066a63f4e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_B01" DEF="ZP5365_B01.entity" GUID="e1e681dc-a036-4de5-be22-a6badc4bc818" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_F01" DEF="ZP5365_F01.entity" GUID="0e544c76-aead-413b-b995-b72380e29e99" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_G01" DEF="ZP5365_G01.entity" GUID="f7eec9a3-1d90-4224-80b5-352cca7290f7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_L01" DEF="ZP5365_L01.entity" GUID="250f02ec-06d8-42bd-b99d-41877e61f70b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_sku_pon_zp5365_M01" DEF="ZP5365_M01.entity" GUID="5bb76561-25ba-4bd4-9039-ff254e1a046e" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

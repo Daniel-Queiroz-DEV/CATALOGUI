@@ -1,0 +1,251 @@
+{
+  "ElementId": "com_coz_bas_tes",
+  "Edges": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "50"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "com_coz_bas_tes",
+      "Borders": [
+        {
+          "ProfileIndex": 1,
+          "Text": "Borda01",
+          "Thickness": {
+            "Value": "50"
+          },
+          "CutOffset": {},
+          "SideCutOffset": {},
+          "Index": 0,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "500"
+          },
+          "RightPoint": {
+            "X": "1500"
+          },
+          "Angle": {},
+          "LeftNeighbour": 1,
+          "RightNeighbour": 0,
+          "Reference": "",
+          "OperationPrice": null,
+          "ElementId": "com_coz_bas_tes",
+          "BorderOffsetLeftFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {
+              "X": 500.0,
+              "Y": 50.0
+            },
+            "ParentPointWithOffset2": {
+              "X": 500.0
+            },
+            "ParentPointWithOffset3": {
+              "X": 500.0
+            }
+          },
+          "BorderOffsetRightFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {
+              "X": 1500.0,
+              "Y": 50.0
+            },
+            "ParentPointWithOffset2": {
+              "X": 1500.0
+            },
+            "ParentPointWithOffset3": {
+              "X": 1500.0
+            }
+          },
+          "CuttingFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {},
+            "ParentPointWithOffset2": {},
+            "ParentPointWithOffset3": {}
+          },
+          "BorderStructureID": ""
+        },
+        {
+          "ProfileIndex": 0,
+          "Text": "Borda01",
+          "Thickness": {
+            "Value": "50"
+          },
+          "CutOffset": {},
+          "SideCutOffset": {},
+          "Index": 1,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "500",
+            "Y": "1000"
+          },
+          "RightPoint": {
+            "X": "500"
+          },
+          "Angle": {
+            "Value": "180"
+          },
+          "LeftNeighbour": 2,
+          "RightNeighbour": 0,
+          "Reference": "",
+          "OperationPrice": null,
+          "ElementId": "com_coz_bas_tes",
+          "BorderOffsetLeftFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {
+              "X": 500.0,
+              "Y": 950.0
+            },
+            "ParentPointWithOffset2": {
+              "X": 500.0,
+              "Y": 1000.0
+            },
+            "ParentPointWithOffset3": {
+              "X": 500.0,
+              "Y": 1000.0
+            }
+          },
+          "BorderOffsetRightFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {
+              "X": 500.0,
+              "Y": 50.0
+            },
+            "ParentPointWithOffset2": {
+              "X": 500.0
+            },
+            "ParentPointWithOffset3": {
+              "X": 500.0
+            }
+          },
+          "CuttingFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {},
+            "ParentPointWithOffset2": {},
+            "ParentPointWithOffset3": {}
+          },
+          "BorderStructureID": ""
+        },
+        {
+          "ProfileIndex": 3,
+          "Text": "Borda01",
+          "Thickness": {
+            "Value": "50"
+          },
+          "CutOffset": {},
+          "SideCutOffset": {},
+          "Index": 2,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1500",
+            "Y": "1000"
+          },
+          "RightPoint": {
+            "X": "500",
+            "Y": "1000"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "RightNeighbour": 1,
+          "Reference": "",
+          "OperationPrice": null,
+          "ElementId": "com_coz_bas_tes",
+          "BorderOffsetLeftFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {
+              "X": 1500.0,
+              "Y": 950.0
+            },
+            "ParentPointWithOffset2": {
+              "X": 1500.0,
+              "Y": 1000.0
+            },
+            "ParentPointWithOffset3": {
+              "X": 1500.0,
+              "Y": 1000.0
+            }
+          },
+          "BorderOffsetRightFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {
+              "X": 500.0,
+              "Y": 950.0
+            },
+            "ParentPointWithOffset2": {
+              "X": 500.0,
+              "Y": 1000.0
+            },
+            "ParentPointWithOffset3": {
+              "X": 500.0,
+              "Y": 1000.0
+            }
+          },
+          "CuttingFinishing": {
+            "Radius": {
+              "Value": "50"
+            },
+            "ParentPointWithOffset1": {},
+            "ParentPointWithOffset2": {},
+            "ParentPointWithOffset3": {}
+          },
+          "BorderStructureID": ""
+        }
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

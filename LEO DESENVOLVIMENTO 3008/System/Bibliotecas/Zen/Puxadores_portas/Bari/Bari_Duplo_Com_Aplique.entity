@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-14) Duplo c/ Aplique ($TEXT$)" ICON="Bari_Duplo_Com_Aplique.jpg" CHECKED="N">
+  <DRAWING ID="Bari_Duplo_Com_Aplique" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <INSERTDIMENSION WIDTH="24" HEIGHT="314" DEPTH="86" MODE="OnlyProposedH" TEXT="">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="314" TEXT="ZP1498" />
+      <PROPOSEDVALUE HEIGHT="514" TEXT="ZP1499" />
+      <PROPOSEDVALUE HEIGHT="814" TEXT="ZP1500" />
+      <PROPOSEDVALUE HEIGHT="1014" TEXT="ZP1501" />
+    </PROPOSEDVALUES>
+    <MIN DEPTH="50" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="63" FORMULA="$D$-23">
+            <VECTOR U="-2.29316E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-31.68545" V="19.55122" />
+              <CORNER2 U="30.87947" V="-37.94712" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="157" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-168.5623" V="213.7429" />
+              <CORNER2 U="161.3773" V="78.56712" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="157" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-185.8427" V="-80.02266" />
+              <CORNER2 U="177.3371" V="-207.0633" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_bar_com_apl" ENTRYID="pux_zen" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_bar_dup_com_apli" MODEL="Zen_man_bar_com_apl" MODELTYPE="Zen_man_bar_com_apl_A00" CONDITION="$H$ &gt;= 808" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_bar_dup_com_apli" MODEL="Zen_man_bar_com_apl" MODELTYPE="Zen_man_bar_com_apl_B00" CONDITION="$H$ &gt;= 808" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_bar_dup_com_apli" MODEL="Zen_man_bar_com_apl" MODELTYPE="Zen_man_bar_com_apl_F00" CONDITION="$H$ &gt;= 808" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_bar_dup_com_apli" MODEL="Zen_man_bar_com_apl" MODELTYPE="Zen_man_bar_com_apl_G00" CONDITION="$H$ &gt;= 808" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_bar_dup_com_apli" MODEL="Zen_man_bar_com_apl" MODELTYPE="Zen_man_bar_com_apl_L00" CONDITION="$H$ &gt;= 808" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_bar_dup_com_apli" MODEL="Zen_man_bar_com_apl" MODELTYPE="Zen_man_bar_com_apl_M00" CONDITION="$H$ &gt;= 808" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Bari Alça para porta duplo com aplique @($H$-14)mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prat Acr ($TEXT$)" ICON="pra_acr_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="prateleira" />
+    <DIMENSION WIDTH="500" HEIGHT="20" DEPTH="165" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_miss_pra_acr" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_pra_acr" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_pra_acr" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="420" HEIGHT="30" DEPTH="120" TEXT="BA0247" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Miss by Zen Prateleira em Acrílico @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

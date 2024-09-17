@@ -1,0 +1,34 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-100",
+            "Y": "$D$-11,5"
+          },
+          "End": {
+            "X": "$W$+100",
+            "Y": "$D$-11,5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "13"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "237da40e-42df-45bf-9ef8-b14c31e28bca",
+      "PlaneType": "Superior",
+      "OperationPrice": "sorrento_usi",
+      "Position": {
+        "X": "-100",
+        "Y": "$D$-11,5"
+      },
+      "ElementId": "POR_PAI_PORTA_SOR"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_SOR"
+}

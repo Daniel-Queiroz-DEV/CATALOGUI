@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Urban" NAME="Urban" PREFIXID="zen_urb_">
+  <DRAWINGS>
+    <DRAWING ID="URBAN_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\URBAN_PONTO" />
+      <DIMENSION WIDTH="55" HEIGHT="92" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-27.025" Y="-25" Z="-81.036" />
+        <MAX X="27.975" Y="0" Z="10.964" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_urb_pon_esp_aco_2" DEF="Espia_Aco.group" GUID="4e3d6c7d-d730-4461-8694-6e78a2c8ab30" />
+    <EXPLORERITEM TYPE="group" ID="zen_urb_pon_esp_cou_2" DEF="Espia_Couro.group" GUID="158022df-a467-4dc0-9d0b-fa9877ba5648" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

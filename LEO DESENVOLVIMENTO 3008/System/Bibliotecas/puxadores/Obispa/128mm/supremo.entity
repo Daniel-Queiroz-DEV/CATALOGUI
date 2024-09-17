@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Supremo ($TEXT$)" ICON="supremo.jpg">
+  <INSERTDIMENSION TEXT="100.116" />
+  <DRAWING>
+    <FILE3D NAME="supremo_100116" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="172" HEIGHT="25" DEPTH="35" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+    <MODEL IDMODEL="Par_obi_cou" ENTRYID="puxadorea" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="Metal_Couro" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Supremo 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_128_sup" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_128_sup" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_128_sup" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_128_sup" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

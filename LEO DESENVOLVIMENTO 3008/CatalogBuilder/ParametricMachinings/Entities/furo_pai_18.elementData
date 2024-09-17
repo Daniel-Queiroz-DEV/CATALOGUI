@@ -1,0 +1,89 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-30",
+            "Y": "30"
+          },
+          "End": {
+            "X": "$W$-30",
+            "Y": "10"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-30",
+            "Y": "10"
+          },
+          "End": {
+            "X": "10",
+            "Y": "10"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "10",
+            "Y": "10"
+          },
+          "End": {
+            "X": "10",
+            "Y": "$D$-10"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "10",
+            "Y": "$D$-10"
+          },
+          "End": {
+            "X": "$W$-10",
+            "Y": "$D$-10"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-10",
+            "Y": "$D$-10"
+          },
+          "End": {
+            "X": "$W$-10",
+            "Y": "10"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-10",
+            "Y": "10"
+          },
+          "End": {
+            "X": "$W$-50",
+            "Y": "10"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "21"
+      },
+      "MachiningProcessIDText": "2d281c39-931a-48ab-b71d-688a0ca22e7b",
+      "ID": "c3251795-e9d5-447c-8634-51b414a1bc67",
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-30",
+        "Y": "30"
+      },
+      "ElementId": "furo_pai_18"
+    }
+  ],
+  "ElementId": "furo_pai_18"
+}

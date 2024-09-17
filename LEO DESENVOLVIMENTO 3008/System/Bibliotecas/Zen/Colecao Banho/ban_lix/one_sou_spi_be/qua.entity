@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Bandeja Quadrada ($TEXT$)" ICON="qua.jpg">
+  <DRAWING>
+    <FILE3D NAME="BA0297" />
+    <DIMENSION WIDTH="150" HEIGHT="30" DEPTH="150" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="One/Soul/Spirit/Be Bandeja Quadrada" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="220" HEIGHT="55" DEPTH="220" TEXT="BA0297" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+</ENTITY>

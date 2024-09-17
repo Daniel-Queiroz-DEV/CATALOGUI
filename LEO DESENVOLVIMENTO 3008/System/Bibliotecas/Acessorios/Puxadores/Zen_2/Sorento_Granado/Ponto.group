@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_sor_gra_pon_">
+  <DRAWINGS />
+  <DRAWING ID="SORENTO_GRANADO_PONTO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_1_2" DEF="ZP5451_1.entity" GUID="d51bd49c-76ee-4667-ada9-edf4c2339edc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_24_2" DEF="ZP5451_24.entity" GUID="dc85bfac-d66f-4741-bf5a-c7df329985b3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_25_2" DEF="ZP5451_25.entity" GUID="3bea4acb-4e4b-4756-86cf-93b944de5b8a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_668_2" DEF="ZP5451_668.entity" GUID="4a30c5f9-5442-41e6-a30a-3b0f49b8f56b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_95_2" DEF="ZP5451_95.entity" GUID="f914db77-220f-4e0b-a81a-268def759e55" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_889_2" DEF="ZP5451_889.entity" GUID="d471ac97-3332-4385-99eb-a1ad1087476e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_648_2" DEF="ZP5451_648.entity" GUID="5c6ce9b1-09fe-476b-b9ec-804a9ea89093" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_599_2" DEF="ZP5451_599.entity" GUID="50e5e107-187a-4b40-bde6-d2ee7e946887" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_916_2" DEF="ZP5451_916.entity" GUID="4b9397af-cfe1-464c-9b9f-e4ffd58312de" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_955_2" DEF="ZP5451_955.entity" GUID="3bb035bc-cb03-4aec-a6f1-db9daac3f2dd" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_A00_2" DEF="ZP5451_A00.entity" GUID="3abe46fb-144c-4507-afdf-db8e9222d2c0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_B00_2" DEF="ZP5451_B00.entity" GUID="8073fe08-0e14-42bd-918c-20e45f5886ae" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_F00_2" DEF="ZP5451_F00.entity" GUID="bbb6f2ff-af0e-4563-a6d5-74a4e96065e2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_G00_2" DEF="ZP5451_G00.entity" GUID="10f02879-7440-4864-a127-ca9c7c437e1f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_L00_2" DEF="ZP5451_L00.entity" GUID="ed1911d3-5257-4baa-883b-29d119813619" />
+    <EXPLORERITEM TYPE="entity" ID="zen_sor_gra_pon_ZP5451_M00_2" DEF="ZP5451_M00.entity" GUID="0c5a4925-d527-49ca-9a06-cdb3f83f0e4c" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

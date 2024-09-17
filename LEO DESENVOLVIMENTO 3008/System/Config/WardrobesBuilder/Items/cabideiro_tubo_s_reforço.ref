@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="cabideiro_tubo_sref" Entityid="ACE_ARA_CAB_SREF" Name="Tubo s/ Reforço" GroupName="Aramados" Type="Common" Description="Cabideiros">
+		<Dimension Width="$P.W$" /> 
+		<Position Y="-$PD$/2+$D$/2" Z="$PH$-$H$-55">
+			<Min Z="0" />
+			<Max Z="$P.H$-$H$" />
+      <Increment Z="1" />
+		</Position>		
+	</Item>

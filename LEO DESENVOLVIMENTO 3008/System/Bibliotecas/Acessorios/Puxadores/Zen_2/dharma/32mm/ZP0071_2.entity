@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo Esc ($TEXT$.$D.ACAB$)" ICON="dharma_p.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Dharma 32mm Cromo Escovado" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="PUXADOR" ID="PUXADOR" IDMATERIAL="zen_escovado" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="40" HEIGHT="40" DEPTH="22" TEXT="ZP0071" ACAB="2" />
+</ENTITY>

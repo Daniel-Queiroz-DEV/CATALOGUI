@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Satori" NAME="Satori" PREFIXID="zen_sat_">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWING>
+    <DIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <LIMITS>
+      <MIN X="0" Y="-1" Z="0" />
+      <MAX X="1" Y="0" Z="1" />
+    </LIMITS>
+  </DRAWING>
+  <WALLDEFINITION>
+    <LAYER DESCRIPTION="Parede" />
+    <MATERIAL ID="cin_cor_001" />
+  </WALLDEFINITION>
+  <FLOORDEFINITION>
+    <LAYER DESCRIPTION="Piso" />
+    <MATERIAL ID="cin_cor_001" />
+  </FLOORDEFINITION>
+  <GEOMETRYDEFINITION>
+    <LAYER DESCRIPTION="Geometria" />
+    <MATERIAL ID="cin_cor_001" />
+  </GEOMETRYDEFINITION>
+  <CEILINGDEFINITION>
+    <LAYER DESCRIPTION="Teto" />
+    <MATERIAL ID="cin_cor_000" />
+  </CEILINGDEFINITION>
+  <LIGHTDEFINITION>
+    <LAYER DESCRIPTION="Luz" />
+  </LIGHTDEFINITION>
+  <DRAWINGS>
+    <DRAWING ID="1263">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Satori\3D\zp1263" />
+      <LIMITS>
+        <MIN X="-56" Y="-19" Z="-31" />
+        <MAX X="56" Y="0" Z="25" />
+      </LIMITS>
+      <DIMENSION WIDTH="112" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+    <DRAWING ID="1264">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Satori\3D\zp1264" />
+      <LIMITS>
+        <MIN X="-88" Y="-19" Z="-31" />
+        <MAX X="88" Y="0" Z="25" />
+      </LIMITS>
+      <DIMENSION WIDTH="176" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+    <DRAWING ID="1265">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Satori\3D\zp1265" />
+      <LIMITS>
+        <MIN X="-160" Y="-19" Z="-31" />
+        <MAX X="160" Y="0" Z="25" />
+      </LIMITS>
+      <DIMENSION WIDTH="320" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+    <DRAWING ID="1266">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Satori\3D\zp1266" />
+      <LIMITS>
+        <MIN X="-232" Y="-19" Z="-31" />
+        <MAX X="232" Y="0" Z="25" />
+      </LIMITS>
+      <DIMENSION WIDTH="464" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+    <DRAWING ID="1267">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Satori\3D\zp1267" />
+      <LIMITS>
+        <MIN X="-328" Y="-19" Z="-31" />
+        <MAX X="328" Y="0" Z="25" />
+      </LIMITS>
+      <DIMENSION WIDTH="656" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+  </DRAWINGS>
+  <ATTRIBUTES />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sat_96" DEF="96mm.group" GUID="23170e2c-1021-43d1-b369-3284e8670964" />
+    <EXPLORERITEM TYPE="group" ID="zen_sat_160" DEF="160mm.group" GUID="04397371-38b1-403a-b353-6013be3236a9" />
+    <EXPLORERITEM TYPE="group" ID="zen_sat_288" DEF="288mm.group" GUID="c42678df-c61b-4122-a042-3ac65f4a2c44" />
+    <EXPLORERITEM TYPE="group" ID="zen_sat_448" DEF="448mm.group" GUID="5e477d32-5b2d-4bee-a49d-54405d9b67c4" />
+    <EXPLORERITEM TYPE="group" ID="zen_sat_640" DEF="640mm.group" GUID="0b45efc5-1193-4ead-9e0f-fee4150fe5ed" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

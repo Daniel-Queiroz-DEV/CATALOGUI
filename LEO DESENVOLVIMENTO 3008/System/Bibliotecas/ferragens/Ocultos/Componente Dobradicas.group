@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Componente Dobradicas" NAME="Calço" PREFIXID="ace_ocu_com_dob_" INVISIBLE="N">
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_orc_com_dob_reta" DEF="Comp Dob Reta.entity" GUID="915efc2e-768b-4742-be94-9b1b1682f10f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_parcial" DEF="ace_ocu_com_dob_1920.entity" GUID="3009d1ad-569a-41b5-9693-5809d26d1be0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_cr" DEF="ace_ocu_com_dob_1921.entity" GUID="a25ab3d3-3551-4bd7-bec7-63afd0076710" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_obl" DEF="ace_ocu_com_dob_1922.entity" GUID="8b7e3cb5-fcf9-40f0-a74c-e2a6ad724a4e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_reta" DEF="reta.entity" GUID="29c19db9-2f2d-49f1-a773-7626ccdadbf4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_cmo" DEF="ace_ocu_com_dob_cmo.entity" GUID="46668824-8203-4117-bbf5-b51e22624339" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_l" DEF="l.entity" GUID="4924da89-10e7-4496-8190-a54038a4a7aa" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_l_cmo" DEF="ace_ocu_com_dob_l_cmo.entity" GUID="e19e68e9-7167-4b88-9adf-4b49a2d7def2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_creto" DEF="acreto.entity" GUID="f33722c6-f2a4-47a8-8a13-9b6ae77751cc" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_reta_zero" DEF="ace_ocu_com_dob_864.entity" GUID="1d7ad4b8-80c5-4991-a29e-cb4806b2eddd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_par_cmo" DEF="ace_ocu_com_dob_par_cmo.entity" GUID="1e6e19c2-784f-470f-b2c8-278abe512d87" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_blu_inf" DEF="Amortecedor Inferior.entity" GUID="090666f1-3f98-4d30-b86e-21bff050ca16" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_com_dob_blu_sup" DEF="Amortecedor Superior.entity" GUID="ad6fa256-f4df-4002-b55c-3b562c35bcb3" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="11mm" NAME="11mm" PREFIXID="zen_ele_zen_11_">
+  <DRAWINGS />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_1_2" DEF="ZP5453_1.entity" GUID="982d0c8a-dfd2-42b4-85be-89e98b654ab8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_2_2" DEF="ZP5453_2.entity" GUID="c169bbf4-cdd5-48b4-b76d-fe331715195a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_24_2" DEF="ZP5453_24.entity" GUID="0e858af0-9c47-4602-b685-83e1426ba05f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_25_2" DEF="ZP5453_25.entity" GUID="0e5a1cda-24f2-4c9a-b702-fad3dbdbb0b6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_599_2" DEF="ZP5453_599.entity" GUID="10c35661-8114-4455-b81c-84340c4fbd3b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_648_2" DEF="ZP5453_648.entity" GUID="322b9b4f-a918-497a-af8a-0b3c4d8b3934" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_889_2" DEF="ZP5453_889.entity" GUID="cee7467d-29c4-4b00-8c6a-31f874e4d0f7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_916_2" DEF="ZP5453_916.entity" GUID="3485bd0b-a582-4926-bcd7-2bec28fe5ff9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_95_2" DEF="ZP5453_95.entity" GUID="1146baf9-843f-43ef-8693-95dc311b4ea8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_955_2" DEF="ZP5453_955.entity" GUID="96fd5096-95bf-4a29-b212-2dfa46613479" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_A00_2" DEF="ZP5453_A00.entity" GUID="bdba4454-fbb1-4cd8-999b-de5a75e602d4" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_B00_2" DEF="ZP5453_B00.entity" GUID="9a092310-cdf2-4991-8d59-20fba1def384" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_F00_2" DEF="ZP5453_F00.entity" GUID="3e499698-b503-481f-9439-f3b19d2c29c1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_G00_2" DEF="ZP5453_G00.entity" GUID="fe4ca75c-bb44-48f7-8470-7c1d5129fcf9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_L00_2" DEF="ZP5453_L00.entity" GUID="2ceaa607-da49-433c-9bfc-814df04f8362" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_11_M00_2" DEF="ZP5453_M00.entity" GUID="c60dc9ce-94b3-4332-8246-b3e9dd4f5224" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWING ID="ELEMENTO_ZEN_11MM" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

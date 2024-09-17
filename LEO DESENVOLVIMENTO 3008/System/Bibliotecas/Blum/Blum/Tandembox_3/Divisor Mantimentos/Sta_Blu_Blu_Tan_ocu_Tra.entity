@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sup transv.">
+  <DRAWING>
+    <FILE3D NAME="suptransv" />
+    <DIMENSION WIDTH="37" HEIGHT="12" DEPTH="15" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="65" HEIGHT="12" DEPTH="15" TEXT="" />
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox_Ambialine" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" VOLUME="VOLFER" FERRAGEM="SIM" MODEL="@Blu_Legrabox_Ambialine@" ACAB="@Blu_Legrabox_Ambialine*(ACABAMENTO5)@" DESC="$D.DESC$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Suporte Transversal $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

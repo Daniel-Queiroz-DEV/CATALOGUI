@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Blum" NAME="Blum" PREFIXID="Sta_Blu_" INVISIBLE="N" MODELINVISIBLE="Y">
+  <MODELS DEF="Blum\Blum.model" />
+  <REFERENCES>
+    <REFERENCE ID="BLUM" COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" VOLUME="VOLFER" FERRAGEM="SIM" />
+    <REFERENCE ID="DOBRADICAS" COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" VOLUME="VOLFER" />
+    <REFERENCE ID="FRENTES" COMPLETE="$TEXT$.$PROFUNDIDADE$.$ACAB$" ITEM_BASE="$ITEM_BASE_TESTE$" MODEL="@COM_*@" CODE="$TEXT$" ACAB="@com_*(ACABAMENTO)@" PROFUNDIDADE="@Floor($D$)" TIPO="!find(groupid,POR_MOD_FOR*).$REFERENCE(TIPO)$!" MODELO="!find(groupid,POR_MOD_FOR).$REFERENCE(MODEL)$!" ITEM_BASE_TESTE="@('$TIPO$' == 'ALU' ? $D.ITEM_BASE_ALU$ : '$TIPO$' == 'LAQ' ? $D.ITEM_BASE_LAQ$ : $D.ITEM_BASE$)" DESC="@('$TIPO$' == 'ALU' ? 'Vid $REFERENCE(MODELO)$ $REFERENCE(FORMATO)$ @Ace_per(COR)@' : '$TIPO$' == 'LAQ' ? '$REFERENCE(FORMATO)$ $REFERENCE(MODELO)$ @COM_*(COR)@' : 'MDF $REFERENCE(MODELO)$')" FORMATO="!find(groupid,POR_MOD_*).$REFERENCE(FORMATO)$!" />
+  </REFERENCES>
+  <BUDGET>
+    <PRICE PROVIDER="Blum" FONT="Blum" REFERENCE="COMPLETE" />
+    <INFORMATION CATEGORY="$ROOTGROUP$" />
+    <MARGIN IDCATEGORY="Blum" />
+    <STEPS />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="@('#INT_MCM#' == 'TRUE'? 'TRUE' : 'FALSE')" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand" DEF="Tandembox.group" GUID="204d4daa-9741-4238-bd59-46dce0127f7c" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tand_2" DEF="Tandembox_3.group" GUID="ad93c6ee-7f86-4e31-bf3a-21f87ac7f120" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tan" DEF="Tandem.group" GUID="273c5e36-e63b-4ac6-af3b-d6eb7cffffbc" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Tan_2" DEF="Tandem_2.group" GUID="b35667bd-55d0-4f75-9b37-9df9a66543d0" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Mov" DEF="Movento.group" GUID="b529dc6b-2f39-4857-82d6-48a1f9d9e028" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Dob" DEF="Dobradcas.group" GUID="13be8e31-dcbc-4ebe-96c5-e7e1914b3775" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Ave_HK" DEF="HK.group" GUID="f0ede656-886f-45e0-83d3-45b5af98c210" />
+    <EXPLORERITEM TYPE="group" ID="Fgv_aero_bus" DEF="AERO_BUS.group" GUID="457e5aa6-b014-4673-bdb2-6c937a967524" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Hks" DEF="HKS.group" GUID="b9930fea-5c22-45b6-9f9d-496f95ff63cc" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Hkxs" DEF="HKS_2.group" GUID="730e8442-f4bb-41ab-9af8-574138e7263b" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_HS" DEF="Hs.group" GUID="577f631e-9bf0-4ed6-82c3-788260dde744" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_HF" DEF="HF.group" GUID="0c721cd5-5860-4636-919a-a6d79c0c7ecc" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_HL" DEF="HL.group" GUID="a965b43e-4aa1-4283-95b8-70715d30eb79" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Hkxs_2" DEF="HKS_2_2.group" GUID="ef73c7ea-211c-4057-941f-f88f6887bc6e" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Meriv" DEF="Tandembox_2.group" GUID="e895cc10-0860-4875-a6b2-22bbe56ac92a" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Met" DEF="Metabox.group" GUID="fd18e8a4-a6ed-4a08-93bf-e5ff5a4f3a5e" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu_Blu" DEF="Blum.group" GUID="873c82f4-4e04-49da-916f-01b29ae7c9ce" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

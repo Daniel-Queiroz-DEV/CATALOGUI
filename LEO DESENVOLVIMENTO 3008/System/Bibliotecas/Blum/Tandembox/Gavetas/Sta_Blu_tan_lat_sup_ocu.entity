@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$D$ BOXSIDE " ICON="Boxside.jpg">
+  <DRAWING>
+    <FILE3D NAME="z36h467se01" />
+    <DIMENSION WIDTH="15.3" HEIGHT="127.9" DEPTH="467" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="15.3" HEIGHT="128" DEPTH="467" MODE="OnlyProposed" TEXT="" ITEM_BASE="" PROF="">
+    <MIN DEPTH="417" />
+    <MAX DEPTH="467" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE DEPTH="467" PROF="500" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <BUDGET>
+    <MARGIN ACR_2="Org_Tan" ACRESCIMO="Org_Tan" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+  </BUDGET>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Tandembox_2" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" MODEL="@Blu_Tandembox_2*@" ACAB="@Blu_Tandembox_2*(ACABAMENTO2)@" DESC="$D.DESC$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="BOXSIDE Direita e esquerda c/ Prof.$D.PROF$mm $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

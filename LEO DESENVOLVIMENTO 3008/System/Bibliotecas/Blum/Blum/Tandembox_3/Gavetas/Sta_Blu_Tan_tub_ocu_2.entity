@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tubo Desenho">
+  <DRAWING>
+    <FILE3D NAME="tubo reling_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="1080" HEIGHT="10" DEPTH="10" TEXT="" DESC="">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="1080" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox_Ambialine" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Tubo Reling Larg: 1080mm $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" VOLUME="VOLFER" FERRAGEM="SIM" MODEL="@Blu_Legrabox_Ambialine@" DESC="$D.DESC$" />
+</ENTITY>

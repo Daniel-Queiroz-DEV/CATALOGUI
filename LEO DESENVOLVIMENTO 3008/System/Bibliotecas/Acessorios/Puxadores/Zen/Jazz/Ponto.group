@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_jaz_pon_">
+  <DRAWINGS />
+  <DRAWING ID="JAZZ_PONTO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_cr" DEF="ZP0010_1.entity" GUID="f18030aa-4c40-42e6-80b2-5126a29b7413" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_es" DEF="ZP0010_2.entity" GUID="cc4c4a4f-7f05-4e0d-9ed3-7247d68a3a22" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_648" DEF="zp0010_648.entity" GUID="bf29545e-2e32-40c0-92c6-b03637a5301e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_599" DEF="zp0010_599.entity" GUID="80ffe1dd-166d-480b-b7b7-5c7949042d18" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_955" DEF="zp0010_955.entity" GUID="46216d84-0124-4fd6-83fd-682dba9c38d2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_A00" DEF="ZP0010_A00.entity" GUID="d9d8f63e-3514-4716-a36e-dc8e582eec09" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_B00" DEF="ZP0010_B00.entity" GUID="fb60d0b9-acc1-4233-bd59-caf1de6df296" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_F00" DEF="ZP0010_F00.entity" GUID="b937df39-543b-4db1-9a26-f397ac9f4dc1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_G00" DEF="ZP0010_G00.entity" GUID="e226b0e2-a222-4d23-a450-d98bbe167727" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_L00" DEF="ZP0010_L00.entity" GUID="7be35d0b-d962-4faf-bc76-7cee00996211" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_M00" DEF="ZP0010_M00.entity" GUID="172a186a-e7d4-498d-94bf-00f60aba1bec" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_cr_dia_FL_Mai_2020" DEF="ZP0010_122.entity" GUID="c141d3cc-6050-4348-8336-e6fb33485359" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_A01_FL_Mai_2020" DEF="ZP0010_A01.entity" GUID="af60a6ba-b47e-4432-bd6c-eae65c3378a6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_B01_FL_Mai_2020" DEF="ZP0010_B01.entity" GUID="653002fa-c281-429d-85f1-97fde70dd080" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_F01_FL_Mai_2020" DEF="ZP0010_F01.entity" GUID="a64aebc3-df3b-46dc-a60a-f559df30b827" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_G01_FL_Mai_2020" DEF="ZP0010_G01.entity" GUID="e46e70fc-4114-4c3f-9ea8-7af0d3c25761" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_L01_FL_Mai_2020" DEF="ZP0010_L01.entity" GUID="90be34be-f5cb-43da-aeca-cb34bdca9d47" />
+    <EXPLORERITEM TYPE="entity" ID="zen_jazz_zp0010_M01_FL_Mai_2020" DEF="ZP0010_M01.entity" GUID="0d03d4d0-67a5-42d0-abef-12d2116b47e4" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cabide ($TEXT$)" ICON="BA0045.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0114_cabide" />
+    <DIMENSION WIDTH="22" HEIGHT="85" DEPTH="25" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="22" HEIGHT="85" DEPTH="25" TEXT="BA0114" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0114" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0114" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0114" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Woman Cabide $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

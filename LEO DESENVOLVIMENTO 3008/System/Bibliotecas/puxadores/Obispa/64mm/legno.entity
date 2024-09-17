@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Legno ($TEXT$)" ICON="legno.jpg">
+  <DRAWING>
+    <FILE3D NAME="legno" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="75" HEIGHT="75" DEPTH="25" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.641" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Legno 64mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="legno" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="legno" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="legno" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

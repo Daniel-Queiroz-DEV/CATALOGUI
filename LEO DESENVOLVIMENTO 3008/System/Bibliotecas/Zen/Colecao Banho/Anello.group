@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Anello" NAME="Anello" PREFIXID="zen_banho_ane_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <MODELS>
+    <MODEL IDMODEL="zen_ane" ENTRYID="pux_zen" />
+  </MODELS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_cab" DEF="cab.entity" GUID="aa7d3e2f-394b-40bf-9905-4f16c1c2e95a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_pap" DEF="pap.entity" GUID="a32f7fe0-00e9-47a5-aa74-17d7a628c8f5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_pap_dup" DEF="pap_dup.entity" GUID="0ea3375d-4b39-4b41-a4f1-23a6fa5e4ed9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_toa" DEF="toa.entity" GUID="465a61c0-18ef-4ad9-b5ab-78ecd2d40209" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_toa_sim" DEF="toa_sim.entity" GUID="c4d442e8-21a8-40d2-ac99-26609abc8e95" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_toa_dup" DEF="toa_dup.entity" GUID="5117a19b-5eb6-48c1-8ac2-79c685445035" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_pra" DEF="pra.entity" GUID="370daa34-8b99-4635-add4-27202cc2c5ef" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_sab_fix" DEF="sab_fix.entity" GUID="743b018a-b7cd-4d2a-b3cd-18d2032a4d2d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_por_obj" DEF="por_obj.entity" GUID="d1b528be-0e43-411f-b998-967783c8a7e1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_sab_fix_inox" DEF="sab_fix_inox.entity" GUID="bbbcdf62-3a65-4279-9bc0-eb128347434d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_sab_fix_acri" DEF="sab_fix_acri.entity" GUID="c9c3d8a7-9784-44c1-b3b8-55795dbdca1f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_sab_bal" DEF="sab_bal.entity" GUID="53a9d448-a21b-4f33-8ea7-824972b88133" />
+    <EXPLORERITEM TYPE="entity" ID="zen_banho_ane_sab_bal_acr" DEF="sab_bal_acr.entity" GUID="ba72a85b-7be0-4f08-b452-1bdf334b5f26" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

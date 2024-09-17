@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="Sta_Blu_Ser_Int" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo19"
+          ReceiverDepth="#BLUM_PROF_INT#"
+          UniqueID="0"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-18,5;20"
+          ElementId="Sta_Blu_Ser_Int" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo19"
+          ReceiverDepth="#BLUM_PROF_INT#"
+          UniqueID="1"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="17.5;20"
+          ElementId="Sta_Blu_Ser_Int" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,25 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo02",
+        "ReceiverDepth": {
+          "Value": "@(($P.P.H$-#FOL_PAI#)==15?12.5:14)"
+        },
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "9",
+          "Y": "9,5"
+        },
+        "ElementId": "ace_fer_vb135"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_vb135"
+}

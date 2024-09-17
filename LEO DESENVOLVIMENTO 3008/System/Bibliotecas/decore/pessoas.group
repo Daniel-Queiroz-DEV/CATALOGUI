@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Pessoas | Animais" DIRECTORY="pessoas">
+  <DRAWINGS>
+    <DRAWING ID="pessoa">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\decore\pessoas\3d\pessoa" />
+      <DIMENSION WIDTH="1000" HEIGHT="1000" DEPTH="1" />
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="dec_pes_em_pe" DEF="em_pe.group" GUID="1ccc675b-f4f8-46f3-bcd1-8df4e6e8f62b" />
+    <EXPLORERITEM TYPE="group" ID="dec_pes_sentadas" DEF="sentadas.group" GUID="d0201b97-9b06-4138-b5e9-cefeba0426e1" />
+    <EXPLORERITEM TYPE="group" ID="dec_pes_meio_corpo" DEF="meio_corpo.group" GUID="59732651-3598-49cf-9887-a3b0d2bc3406" />
+    <EXPLORERITEM TYPE="group" ID="dec_pes_deitadas" DEF="deitadas.group" GUID="b9b8304a-d520-4482-a669-52c66ca1fe62" />
+    <EXPLORERITEM TYPE="group" ID="dec_pes_esportes" DEF="esportes.group" GUID="8056a73d-fe6b-4973-b605-2cc764a55441" />
+    <EXPLORERITEM TYPE="group" ID="dec_pes_animais" DEF="Animais.group" GUID="468563d7-3692-4c5d-a689-83e010210312" />
+    <EXPLORERITEM TYPE="group" ID="dec_pes_bon_ergs" DEF="bonecos_ergonomicos.group" GUID="1651c07d-5416-4b75-a574-0d06c4fb6b53" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

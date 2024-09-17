@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pino" ICON="suporte_pino.jpg" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="pino_prat_memor" />
+    <BOUNDINGBOX HEIGHT="5">
+      <PONTO2DA X="-3" Y="-0.05" />
+      <PONTO2DA X="3" Y="-0.05" />
+      <PONTO2DA X="3" Y="0.05" />
+      <PONTO2DA X="-3" Y="0.05" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="6" HEIGHT="5" DEPTH="16" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="8" HEIGHT="35" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="6" HEIGHT="5" DEPTH="16" TEXT="PINMET" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Suporte Pino p/ Prateleira" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

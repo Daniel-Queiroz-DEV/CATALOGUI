@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cortador de folhas para papel aluminio" ICON="Cortador de folhas para filme_2_2.jpg" INVISIBLE="Y" MODELINVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="cortador de folhas para aluminio" />
+    <DIMENSION WIDTH="88.5" HEIGHT="68.4" DEPTH="411.1" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN ACR_2="Org_Tan" ACRESCIMO="Org_Tan" />
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="3D" NAME="3D" IDMATERIAL="cin_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REFERENCE ITEM_BASE="$TEXT$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cortador de folhas para papel aluminio" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="88.5" HEIGHT="68.4" DEPTH="411.1" TEXT="09068450" DESC="">
+    <MIN DEPTH="411.1" HEIGHT="68.4" WIDTH="88.5" />
+    <MAX DEPTH="411.1" HEIGHT="68.4" WIDTH="88.5" />
+  </INSERTDIMENSION>
+</ENTITY>

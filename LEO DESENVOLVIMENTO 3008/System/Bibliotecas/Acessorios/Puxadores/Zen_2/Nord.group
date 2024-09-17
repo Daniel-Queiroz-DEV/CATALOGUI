@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Nord" NAME="Nord" PREFIXID="zen_nor_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_nor_160_2" DEF="160mm.group" GUID="d5be9fee-6258-409d-8277-97b93e1779ac" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="NORD_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NORD_160MM" />
+      <DIMENSION WIDTH="184" HEIGHT="25" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-92" Y="-23" Z="-12.5" />
+        <MAX X="92" Y="0" Z="12.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

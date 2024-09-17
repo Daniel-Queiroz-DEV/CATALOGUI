@@ -1,0 +1,209 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furo_geral",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "35",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "Furo_geral_2",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "35+128",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "",
+        "Condition": {
+          "Expression": "$PD$ <=461 || $PD$ ==561"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "35+128+96",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "",
+        "Condition": {
+          "Expression": "$PD$ ==511"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "35+128+128",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "",
+        "Condition": {
+          "Expression": "$PD$==561"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 5,
+        "OperationPrice": null,
+        "Position": {
+          "X": "35+128+96+96",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "Furo_geral",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 7,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "Furo_geral_2",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 8,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35-128",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "",
+        "Condition": {
+          "Expression": "$PD$ <=461 || $PD$ ==561"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 9,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35-128-96",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "",
+        "Condition": {
+          "Expression": "$PD$ ==511"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 10,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35-128-128",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      },
+      {
+        "Name": "",
+        "Condition": {
+          "Expression": "$PD$ ==561"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 11,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35-128-96-96",
+          "Y": "36"
+        },
+        "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+      }
+    ]
+  },
+  "ElementId": "sta_blu_tan_tri_tot_sem_blu_2"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Modelo Dobradicas" NAME="Modelo Dobradiças" PREFIXID="fer_mod_dob_" INVISIBLE="Y">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="POS_DOBRADICA" VALUE="#P.POS_DOBRADICA#" VISIBLE="Y" />
+    <ATTRIBUTE ID="ESP_LAT_GEN" VALUE="#P.ESP_LAT_GEN#" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_nor" DEF="Normal.group" GUID="51dd9ddb-4977-4462-997e-1c4965c3c4c0" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_nor_4" DEF="Normal_4.group" GUID="0e2389c3-4a91-4647-b452-02b041e2e7ea" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_nor_3_3" DEF="Normal_3_3.group" GUID="6294f3d9-a43f-4b9e-9bf0-8543491d9ddb" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_nor_3_2_2" DEF="Normal_3_2_2.group" GUID="09fae4f3-e9f1-4e87-abcc-c7a1cdf83d9d" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_nor_2" DEF="Normal_2.group" GUID="4d12c468-647d-4326-81ac-e66145d879ac" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_nor_2_2" DEF="Normal_2_2.group" GUID="4c8da95f-d751-423a-bd36-952a3529a3a0" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_can_L" DEF="Canto L.group" GUID="c3c645eb-e75d-4373-822a-113b45c651dd" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_can_L_2" DEF="Canto L_2.group" GUID="df7bc920-bd5b-4551-bc5b-6f23a341e860" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_can_ret" DEF="Canto Reto.group" GUID="9d7aafa2-ad4b-4d51-b501-d604b985fb7e" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_cat_obl" DEF="Obliquo.group" GUID="2c9f470f-01e2-4215-bd18-4dd85f328e49" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_cat_obl_2P" DEF="fer_mod_dob_cat_obl_2P.group" GUID="89f27f84-eb4f-4371-9738-bd3ba17bbbbb" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_avu" DEF="Avulsas.group" GUID="54dee063-d391-4f5d-914b-ece4753d2a67" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob_riv" DEF="Normal_3.group" GUID="686a8aff-7e1d-4375-b92e-dcdb447be711" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

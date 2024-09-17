@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Obj Fixo ($TEXT$)" ICON="por_obj_fix_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="BA0263" />
+    <LIMITS>
+      <MIN X="0" Y="-105" Z="0" />
+      <MAX X="90" Y="0" Z="255" />
+    </LIMITS>
+    <DIMENSION WIDTH="90" HEIGHT="255" DEPTH="90" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_be_por_obj_fix" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_por_obj_fix" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_por_obj_fix" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Be Porta Objetos Fixo @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="72" HEIGHT="216" DEPTH="82" TEXT="BA0220" ACAB="" />
+</ENTITY>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Bases" NAME="Bases" PREFIXID="com_coz_bas_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_bas_crasgo" DEF="com_bas_crasgo.entity" GUID="34629bae-cb5c-421c-98d5-a3f3f9a1657f" />
+    <EXPLORERITEM TYPE="entity" ID="com_bas_srasgo" DEF="com_bas_srasgo.entity" GUID="2bd29b60-1ae0-4677-93d3-41b46b042342" />
+    <EXPLORERITEM TYPE="entity" ID="com_bas_l_inf" DEF="com_coz_bas_l.entity" GUID="8275d0a8-5e71-494b-a305-941c1f8f93a9" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_2514" DEF="com_coz_bas_2514.entity" GUID="1801e67c-973f-4628-8779-4313a23d5cff" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_2515" DEF="com_coz_bas_2515.entity" GUID="dff8d23b-0bec-476a-b5cc-bad15b490e69" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_2516" DEF="com_coz_bas_2516.entity" GUID="44481083-ba25-437b-a1b5-95d668c742f6" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_bas" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_bas" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

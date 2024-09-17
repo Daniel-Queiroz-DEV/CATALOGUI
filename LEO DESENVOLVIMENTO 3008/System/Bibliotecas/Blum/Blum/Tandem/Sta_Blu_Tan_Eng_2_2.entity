@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Acoplamento Dir" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="engate_tandem_2_2" />
+    <DIMENSION WIDTH="236" HEIGHT="17.4" DEPTH="80.8" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="lar_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioLarguraAltura" />
+  <BUDGET />
+  <INSERTDIMENSION HEIGHT="17" DEPTH="80" WIDTH="236" TEXT="02003530" DESC="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Acoplamento Direito" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

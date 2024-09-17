@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Freggio" ICON="CarrinhoDeslExterno_6_2_2_2_2_3_3.jpg" INVISIBLE="Y" TYPE="GEOMETRY">
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="3,6" HEIGHT="$PH$" DEPTH="3" TEXT="" DESC="" />
+  <DRAWING>
+    <FILE3D NAME="ACE_DESEMP_2_2_2_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Freggio" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="F" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

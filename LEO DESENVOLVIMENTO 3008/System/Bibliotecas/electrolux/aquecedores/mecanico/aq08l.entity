@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="AQ08L/N" ICON="AQ08L.png">
+  <DRAWING>
+    <FILE3D NAME="%PastaSistema%\Bibliotecas\Electrolux\aquecedores\mecanico\aq08l" />
+    <DIMENSION WIDTH="320" HEIGHT="530" DEPTH="135" />
+    <LIMITS>
+      <MIN X="0" Y="-135" Z="0" />
+      <MAX X="320" Y="0" Z="530" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="ele_gas" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Aquecedor de Água (AQ08L/N)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="EXCEÇÃO DE REFERENCIA">
+    <MODEL MODELID="ele_gas" MODELTYPEID="ModeloTipo5690313" COMPLETE="AQ08N" />
+    <MODEL MODELID="ele_gas" MODELTYPEID="ModeloTipo50056302" COMPLETE="AQ08L" />
+  </REFERENCE>
+  <INSERTDIMENSION WIDTH="320" HEIGHT="530" DEPTH="135" TEXT="AQ08L/N" />
+</ENTITY>

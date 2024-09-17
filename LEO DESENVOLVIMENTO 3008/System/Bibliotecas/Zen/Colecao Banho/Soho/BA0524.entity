@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prateleira ($TEXT$)" CHECKED="N" ICON="BA0524.jpg">
+  <DRAWING>
+    <FILE3D NAME="soho prateleira" />
+    <DIMENSION WIDTH="487" HEIGHT="28" DEPTH="110" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="487" HEIGHT="28" DEPTH="110" TEXT="BA0524" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_pol_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_gol_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_gol_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_dou_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_cob_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_dou_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_dou" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_met" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_pol_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_cob_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0524" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob_vec_met" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soho Prateleira @Zen_soho(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

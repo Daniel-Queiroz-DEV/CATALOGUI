@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Papeleira ($TEXT$)" ICON="BA0033.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_papeleira" />
+    <DIMENSION WIDTH="154" HEIGHT="115" DEPTH="70" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="154" HEIGHT="115" DEPTH="70" MODE="Nothing" TEXT="BA0033" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0033" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Higiene_10">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="papel" DESCRIPTION="" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <POSITION ROTATION="0" X="23" Y="-30" Z="-44" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Papeleira @zen_jazz(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

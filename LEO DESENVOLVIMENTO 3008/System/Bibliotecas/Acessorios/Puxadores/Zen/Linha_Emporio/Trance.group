@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Trance" NAME="Trance" PREFIXID="zen_emp_tra_">
+  <DRAWINGS>
+    <DRAWING ID="TRANCE_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TRANCE_128MM" />
+      <DIMENSION WIDTH="149.8" HEIGHT="14" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-74.9" Y="-25" Z="-10" />
+        <MAX X="74.9" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRANCE_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TRANCE_192MM" />
+      <DIMENSION WIDTH="213.8" HEIGHT="14" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-106.9" Y="-25" Z="-10" />
+        <MAX X="106.9" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRANCE_256MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TRANCE_256MM" />
+      <DIMENSION WIDTH="277.8" HEIGHT="14" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-138.9" Y="-25" Z="-10" />
+        <MAX X="138.9" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_emp_tra_128mm" DEF="128mm.group" GUID="29d29411-99d5-49c9-82c7-d07008ba8609" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_tra_192mm" DEF="192mm.group" GUID="a3d0f105-a2f1-4e24-bf9d-9e0aba12b1b6" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_tra_256mm" DEF="256mm.group" GUID="49f3da4e-ac6a-4e31-b162-7a172c464d9f" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

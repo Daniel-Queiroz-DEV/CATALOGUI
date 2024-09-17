@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<STRUCTURES>
+  <STRUCTURE ID="parafuso_4_12" REPETITIONFORMULA="" QUANTITYFORMULA="@(($D$&gt;=200&amp;&amp;$D$&lt;=250)?4:($D$&gt;=300&amp;&amp;$D$&lt;=350)?6:$D$&gt;350&amp;&amp;$D$&lt;500?8:10)" CONDITIONFORMULA="" />
+  <STRUCTURE ID="parafuso_4_12_pan" REPETITIONFORMULA="" QUANTITYFORMULA="4" CONDITIONFORMULA="" />
+</STRUCTURES>

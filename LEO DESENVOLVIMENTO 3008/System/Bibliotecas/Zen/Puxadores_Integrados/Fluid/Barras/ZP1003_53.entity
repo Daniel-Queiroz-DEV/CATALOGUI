@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Fosco ($TEXT$.$D.ACAB$)" ICON="Barra_Fluid.jpg" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="barra" />
+    <DIMENSION WIDTH="500" HEIGHT="20" DEPTH="16" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_fosco" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE>
+    <PBLOCK DEFAULTSCALEX="Y" DEFAULTSCALEY="Y" DEFAULTSCALEZ="Y">
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="460.94" V="-39.09404" />
+              <CORNER2 U="516.7563" V="25.90723" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Nothing" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="49.92519" V="65.58826" />
+              <CORNER2 U="-39.80483" V="-78.545" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <BUDGET>
+    <INFORMATION RULE="ZEN_M" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Fluid/Cártago Perfil Alumínio Fosco ao metro (Complemento Pux Fluid/Cártago)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="500" HEIGHT="20" DEPTH="16" TEXT="ZP1003" ACAB="53">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+</ENTITY>

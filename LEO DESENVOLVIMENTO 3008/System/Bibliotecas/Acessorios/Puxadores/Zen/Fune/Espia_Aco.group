@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Espia_Aco" NAME="c/ Espia de Aço" PREFIXID="zen_fun_esp_aco_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_1" DEF="ZP1794_1.entity" GUID="75ea011e-b71f-475c-a530-a12369235380" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_648" DEF="ZP1794_648.entity" GUID="04ccca76-0944-48f9-af6f-883663644fcb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_955" DEF="ZP1794_955.entity" GUID="f58a89f8-d766-4120-957c-3f210ddb365f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_599" DEF="ZP1794_599.entity" GUID="952e03f6-df70-4334-b52d-56774e446f99" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_A00" DEF="ZP1794_A00.entity" GUID="f9bcf66e-d44c-4484-add3-bda4203e6cc9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_B00" DEF="ZP1794_B00.entity" GUID="31e3cc0f-8301-4747-8f9a-6f40e8f681e9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_F00" DEF="ZP1794_F00.entity" GUID="f71f7d39-15cd-4df3-ac14-7dc48552b7c9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_G00" DEF="ZP1794_G00.entity" GUID="30ac2483-4152-4036-a7a6-ba2b447dd2c3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_L00" DEF="ZP1794_L00.entity" GUID="dcaf9a5a-6156-4227-a92d-36a7029d2fc8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1794_M00" DEF="ZP1794_M00.entity" GUID="c47de3ac-9852-4684-9b64-439230639b4c" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="FUNE_PONTO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

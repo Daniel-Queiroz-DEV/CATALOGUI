@@ -1,0 +1,30 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "1106,925",
+        "Y": "725"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "ElementId": "com_coz_pra_obl_2_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "275",
+        "Y": "-75,9006"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "ElementId": "com_coz_pra_obl_2_2"
+    }
+  ],
+  "ElementId": "com_coz_pra_obl_2_2"
+}

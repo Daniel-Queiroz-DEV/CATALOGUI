@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Liv ($TEXT$)" ICON="liv.jpg">
+  <DRAWING>
+    <FILE3D NAME="liv_100731" FORMAT=".dxf" />
+    <DIMENSION WIDTH="577" HEIGHT="12" DEPTH="32" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.731" />
+  <REFERENCE IDREFERENCE="Simples Metal Ouro sob consulta" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_480_liv" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_480_liv" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_480_liv" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_480_liv" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_480_liv" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_niq_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <MODELS>
+    <MODEL IDMODEL="Pux_our_sob_con" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Liv 480mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

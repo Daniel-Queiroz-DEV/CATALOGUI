@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityPropertiesData
+  Offset="{assembly:Null}"
+  GroupHoles="False"
+  FurnitureAssemblyPreviewData="{assembly:Null}"
+  SteelComponentData="{assembly:Null}"
+  PlateCuttingOffset="{assembly:Null}"
+  MachinedContour="False"
+  PurchasedItem="True"
+  DisregardWoodGrain="False"
+  ElementId="PUX_194 YUMA_ PROC_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.EntityProperties;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbcfoac="clr-namespace:Procad.Builder.Core.FactoryOperations.AluminumComponents;assembly=Procad.Builder.Core">
+  <EntityPropertiesData.CNCPluginDataCollection>
+    <CNCPluginDataCollection />
+  </EntityPropertiesData.CNCPluginDataCollection>
+  <EntityPropertiesData.FrontalFace>
+    <FrontalFace
+      PlaneType="Profile"
+      PlaneIndex="0" />
+  </EntityPropertiesData.FrontalFace>
+  <EntityPropertiesData.AlignmentFace>
+    <AlignmentFace
+      PlaneType="Profile"
+      PlaneIndex="0" />
+  </EntityPropertiesData.AlignmentFace>
+  <EntityPropertiesData.AluminumComponentData>
+    <pbcfoac:AluminumComponentData
+      Type="None"
+      CuttingName="{assembly:Null}"
+      Weight="6"
+      Hidden="False"
+      AplicationID="{assembly:Null}"
+      DrawDimension="False"
+      HardwareList="False" />
+  </EntityPropertiesData.AluminumComponentData>
+</EntityPropertiesData>

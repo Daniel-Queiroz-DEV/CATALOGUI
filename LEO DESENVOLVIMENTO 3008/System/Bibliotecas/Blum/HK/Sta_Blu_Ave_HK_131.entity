@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Capa Esq" ICON="capa.jpg">
+  <DRAWING>
+    <FILE3D NAME="capablumretadi" />
+    <DIMENSION WIDTH="34.6" HEIGHT="145.5" DEPTH="175.1" />
+    <LIMITS>
+      <MIN X="-1.906" Y="-175.093" Z="0" />
+      <MAX X="32.16" Y="0" Z="145.479" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Cap_AVE" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Capa Avento HK Esquerda" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="34" HEIGHT="145" DEPTH="175" TEXT="20K8000" DESC="">
+    <MIN DEPTH="50" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+</ENTITY>

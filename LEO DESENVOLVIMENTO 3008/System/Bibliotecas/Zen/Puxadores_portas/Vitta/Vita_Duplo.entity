@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-46) Duplo ($TEXT$)" ICON="Vita_Duplo.jpg" CHECKED="N">
+  <DRAWING ID="Vitta_Duplo" />
+  <INSERTDIMENSION WIDTH="46" HEIGHT="346" DEPTH="141" MODE="OnlyProposedH" TEXT=" " ACAB="64" DESC=" ">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="346" TEXT="ZP0767" DESC="300mm" />
+      <PROPOSEDVALUE HEIGHT="446" TEXT="ZP0768" DESC="400mm" />
+      <PROPOSEDVALUE HEIGHT="546" TEXT="ZP0769" DESC="500mm" />
+      <PROPOSEDVALUE HEIGHT="646" TEXT="ZP0770" DESC="600mm" />
+      <PROPOSEDVALUE HEIGHT="846" TEXT="ZP0771" DESC="800mm" />
+      <PROPOSEDVALUE HEIGHT="1046" TEXT="ZP0772" DESC="1000mm" />
+      <PROPOSEDVALUE HEIGHT="1546" TEXT="ZP0773" DESC="1500mm" />
+    </PROPOSEDVALUES>
+    <MIN DEPTH="50" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_vit" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita alça para porta Duplo @($H$-46)mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_vit_dup" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_A00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_dup" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_B00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_dup" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_F00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_dup" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_G00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_dup" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_L00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_dup" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_M00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="90.5" FORMULA="$D$-50,5">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.87543" V="19.55122" />
+              <CORNER2 U="75.06522" V="-60.29105" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="173" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-167.2509" V="309.4342" />
+              <CORNER2 U="162.6887" V="54.40352" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="173" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-179.4787" V="-12.56466" />
+              <CORNER2 U="183.7011" V="-266.2008" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

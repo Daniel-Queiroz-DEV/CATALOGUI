@@ -1,0 +1,51 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda02",
+      "LayerName": "3",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "NeedLeftExposureClosed": true,
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "BorderID": "5cf10017-731d-40e6-917c-92ac13e9dd9e",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_DESENHO_CAVA_2_2_2"
+    }
+  ],
+  "ElementId": "MON_DESENHO_CAVA_2_2_2"
+}

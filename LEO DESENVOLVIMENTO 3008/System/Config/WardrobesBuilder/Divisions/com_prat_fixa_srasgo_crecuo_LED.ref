@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<HorizontalDivision Id="com_prat_fixa_srasgo_crecuo_led" Category="Prateleiras Fixas" EntityId="com_coz_pra_fix54_led" Fallback="#RECUO_PRAT_SPORTA#+5" Name="Não Divide Fundo c/ Recuo Front LED" Thickness="@(#DOR_ARM_DES_SPOR_ESP_PRA_FIX#+#FOL_PAI#)" Preview="%PastaConstrutorArmarios%\Dormitorios\Divisoes\imagens\prat_fixa_sra_cre.jpg">
+  <Offset Value="#DOR_AFA_TRAS_PRA_ARM#" />
+  <Output>
+    <Sets>
+      <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_PRA_MOV_FT_FRONTAL#" />
+      <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_PRA_MOV_FT_TRASEIRA#" />
+      <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_PRA_MOV_FT_DIR#" />
+      <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_PRA_MOV_FT_ESQ#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_1" Value="#DOR_ARM_MED_MAX_FIX_QUA_1#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_2" Value="#DOR_ARM_MED_MAX_FIX_QUA_2#" />
+      <SetAttribute Id="ESP_MON" Value="#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#" />
+      <SetAttribute Id="VOLUME" Value="SV" />
+    </Sets>
+  </Output>
+</HorizontalDivision>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Armarios" NAME="Armários" PREFIXID="COZ_SUPB_ARM_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTINGPARAMETERS REPEAT="DIALOG" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\Aggregates\vistas_superiores_2.aggregate" ORDER="7" />
+  </AGGREGATECOLLECTION>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_1P_3" DEF="1p.entity" GUID="2d8d7526-6a0c-4972-a998-6694a24c3c59" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_2P_3" DEF="2p.entity" GUID="3798d251-f073-4136-9114-a41c3414c6c8" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_SUPB_ARM_1basc_4" DEF="1basculante.entity" GUID="e2d0958d-622b-42f2-b33f-eb7e98ab63f1" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

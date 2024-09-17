@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Seventy Metal ($TEXT$)" ICON="seventy_metal.jpg">
+  <DRAWING>
+    <FILE3D NAME="seventy_metal" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="48" HEIGHT="48" DEPTH="33" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="300.010" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Seventy Metal" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+</ENTITY>

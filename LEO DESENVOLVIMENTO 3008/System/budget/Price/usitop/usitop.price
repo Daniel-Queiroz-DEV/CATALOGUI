@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER DESCRIPTION="Usitop" ID="usitop">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DATABASE="%PastaPrice%\Usitop\usitop.mdb" ID="BancoDados" SEARCHFIRSTPERSONALBASE="N" CANMODIFY="Y" COLUMNCODE="Code" COLUMNPRICE="Price" DLL="ProCAD.Precos.dll" TABLE="Prices" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

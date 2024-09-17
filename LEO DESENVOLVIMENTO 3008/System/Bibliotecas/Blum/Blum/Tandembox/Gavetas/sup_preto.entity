@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Suporte-BOXSIDE vidro p/ Tandembox Esq e Dir" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="fgv_alu" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Suporte-BOXSIDE vidro p/ Tandembox Esq e Dir" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="41.5" HEIGHT="220" DEPTH="15" TEXT="06544780" DESC="">
+    <MIN HEIGHT="100" />
+    <MAX HEIGHT="2200" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="$TEXT$$DESC$" DESC="$D.DESC$" />
+</ENTITY>

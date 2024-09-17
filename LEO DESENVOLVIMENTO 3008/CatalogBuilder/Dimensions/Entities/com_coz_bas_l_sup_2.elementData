@@ -1,0 +1,122 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 5,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "1120,499",
+        "Y": "725"
+      },
+      "Edge": 4,
+      "PlaneType": "Superior",
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "275",
+        "Y": "-128,2552"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "642,6828",
+        "Y": "26,82911"
+      },
+      "DistanceFromShape": 92.6828,
+      "DistanceFromElement": 92.6828,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 2,
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "971,9511",
+        "Y": "358,5364"
+      },
+      "DistanceFromShape": -91.46362,
+      "DistanceFromElement": -91.46362,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 3,
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 5,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "-135,3659",
+        "Y": "487,8047"
+      },
+      "DistanceFromShape": -135.365875,
+      "DistanceFromElement": -135.365875,
+      "Orientation": "Vertical",
+      "PlaneType": "Inferior",
+      "UniqueID": 4,
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "318,2926",
+        "Y": "346,3413"
+      },
+      "DistanceFromShape": -103.658722,
+      "DistanceFromElement": -103.658722,
+      "Orientation": "Horizontal",
+      "PlaneType": "Inferior",
+      "UniqueID": 5,
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "947,5609",
+        "Y": "-100,0002"
+      },
+      "DistanceFromShape": -100.000153,
+      "DistanceFromElement": -100.000153,
+      "Orientation": "Horizontal",
+      "PlaneType": "Inferior",
+      "UniqueID": 7,
+      "ElementId": "com_coz_bas_l_sup_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "357,317",
+        "Y": "39,02423"
+      },
+      "DistanceFromShape": -52.38083,
+      "DistanceFromElement": -52.38083,
+      "Orientation": "Vertical",
+      "PlaneType": "Inferior",
+      "UniqueID": 6,
+      "DirectionFromFirstElement": "-52, 3808288574219",
+      "DirectionFromSecondElement": "-52, 3808288574219",
+      "ElementId": "com_coz_bas_l_sup_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_l_sup_2"
+}

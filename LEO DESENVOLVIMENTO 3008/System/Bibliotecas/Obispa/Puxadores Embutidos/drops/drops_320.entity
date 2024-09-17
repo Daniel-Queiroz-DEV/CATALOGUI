@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="320mm ($TEXT$)" ICON="drops.jpg">
+  <INSERTDIMENSION TEXT="100.703" />
+  <DRAWING>
+    <FILE3D NAME="drops_100703" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="41" HEIGHT="351.8" DEPTH="16.2" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Drops 320mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_dro_320" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_dro_320" MODEL="Obi_emb_met" MODELTYPE="obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_dro_320" MODEL="Obi_emb_met" MODELTYPE="obi_met_niq_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

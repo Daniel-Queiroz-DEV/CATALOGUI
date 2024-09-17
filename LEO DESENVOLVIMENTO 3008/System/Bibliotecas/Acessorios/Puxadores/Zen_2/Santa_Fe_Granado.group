@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Santa_Fe_Granado" NAME="Santa Fé Granado" PREFIXID="zen_san_fe_gra_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_gra_128_2" DEF="128mm.group" GUID="6e65c114-ef64-4672-8776-78937aeea0e3" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_gra_192_2" DEF="192mm.group" GUID="ab9bd1de-c50a-49bc-864f-fc537abb00b5" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_gra_320_2" DEF="320mm.group" GUID="0e5330cd-28fc-4005-9101-634ea04ff6d1" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_gra_416_2" DEF="416mm.group" GUID="c8660dbb-2846-4a79-842f-db3763a43726" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_gra_640_2" DEF="640mm.group" GUID="f097d190-79e3-47c6-bb55-549b0d270cce" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SANTA_FE_GRANADO_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_GRANADO_128MM" />
+      <DIMENSION WIDTH="142" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-71" Y="-24.35" Z="-8" />
+        <MAX X="71" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_GRANADO_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_GRANADO_192MM" />
+      <DIMENSION WIDTH="206" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-103" Y="-24.35" Z="-8" />
+        <MAX X="103" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_GRANADO_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_GRANADO_320MM" />
+      <DIMENSION WIDTH="334" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-167" Y="-24.35" Z="-8" />
+        <MAX X="167" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_GRANADO_416MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_GRANADO_416MM" />
+      <DIMENSION WIDTH="430" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-215" Y="-24.35" Z="-8" />
+        <MAX X="215" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_GRANADO_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_GRANADO_640MM" />
+      <DIMENSION WIDTH="654" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-327" Y="-24.35" Z="-8" />
+        <MAX X="327" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

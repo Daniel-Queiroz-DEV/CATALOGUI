@@ -1,0 +1,113 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "Condition": {
+          "Expression": "'#TIPO_FUR_CAN#' == 'Inserta'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "11.5"
+        },
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2-9.5",
+          "Y": "$D$/2-22.5"
+        },
+        "ElementId": "Sta_Blu_Blu_Dob_Dob"
+      },
+      {
+        "Name": "Furação02",
+        "Condition": {
+          "Expression": "'#TIPO_FUR_CAN#' == 'Inserta'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "11.5"
+        },
+        "UniqueID": 1,
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2-9.5",
+          "Y": "$D$/2+22.5"
+        },
+        "ElementId": "Sta_Blu_Blu_Dob_Dob"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo19",
+        "ReceiverDepth": {
+          "Value": "#DOB_PRO_FUR#"
+        },
+        "UniqueID": 2,
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2",
+          "Y": "$D$/2"
+        },
+        "ElementId": "Sta_Blu_Blu_Dob_Dob"
+      },
+      {
+        "Name": "Furação04",
+        "Condition": {
+          "Expression": "'#TIPO_FUR_CAN#' == 'Marcacao'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2-9.5",
+          "Y": "$D$/2+22.5"
+        },
+        "ElementId": "Sta_Blu_Blu_Dob_Dob"
+      },
+      {
+        "Name": "Furação05",
+        "Condition": {
+          "Expression": "'#TIPO_FUR_CAN#' == 'Marcacao'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "$W$/2-9.5",
+          "Y": "$D$/2-22.5"
+        },
+        "ElementId": "Sta_Blu_Blu_Dob_Dob"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Blu_Dob_Dob"
+}

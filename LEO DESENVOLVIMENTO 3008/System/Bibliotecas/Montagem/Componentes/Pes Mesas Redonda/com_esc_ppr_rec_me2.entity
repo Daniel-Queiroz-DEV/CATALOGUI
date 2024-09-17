@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reto c/ Recorte Alto" TYPE="GEOMETRY" CHECKED="N" ICON="com_coz_lat_ppr_rec_me2.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_esc_ppr_rec_me2" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="700" HEIGHT="150" DEPTH="600" />
+  </DRAWING>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="com_coz_per_esc_sap_reg" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="'#ESC_ALT_SAP_MES_SN#' == 'SIM'">
+          <AGGREGATEINFORMATION ID="Ag6351207755948405711" CONCURRENT="N" DESCRIPTION="Sapatas Regulaveis" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" DEFAULT="Y" CONSTANT="N">
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <DIMENSION DEPTH="$PD$" />
+            <ATTRIBUTES>
+              <ATTRIBUTE ID="MOVIVEL" VALUE="False" VISIBLE="N" />
+              <ATTRIBUTE ID="REMOVIVEL" VALUE="False" VISIBLE="N" />
+              <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+            </ATTRIBUTES>
+            <POSITION X="-#ESC_ALT_SAP_MES#" Y="0" Z="$PH$/2" ROTATION="0" />
+            <NORMAL A="1" B="0" C="0" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="fer_per_fer_sim">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="com_per_fer_sim_mfx" CONCURRENT="N" DESCRIPTION="Perfil" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" DEFAULT="N" CONSTANT="N" INSERTFUNCTION="FERRAGEM">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="Inverted" VALUE="True" VISIBLE="N" />
+          </ATTRIBUTES>
+          <DIMENSION HEIGHT="$PH$" DEPTH="$PD$" />
+          <POSITION X="$PW$" Y="0" Z="0" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="600" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-30.3727" V="-579.9169" />
+              <CORNER2 U="721.1547" V="-642.1391" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="320" FORMULA="#ESC_ALT_RAS_CRU_PP#">
+            <VECTOR U="-1" V="-1.519846E-08" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="333.9096" V="-362.698" />
+              <CORNER2 U="295.9543" V="-236.2809" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="315" FORMULA="$D$/2+#ESC_LAR_RAS_CRU_PP#/2">
+            <VECTOR U="-1.503549E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="304.7917" V="-303.8889" />
+              <CORNER2 U="710.2083" V="-336.9445" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="285" FORMULA="$D$/2-#ESC_LAR_RAS_CRU_PP#/2">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="711.7438" V="-271.4455" />
+              <CORNER2 U="302.1172" V="-292.432" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="700" FORMULA="$W$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="727.2093" V="21.48753" />
+              <CORNER2 U="288.2464" V="-652.9841" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Reto c/ Recorte Superior" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="700" HEIGHT="@(#ESC_ESP_LAT_PP#+#FOL_PAI#)" DEPTH="596" ITEM_BASE="PEM01" TEXT="1804">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

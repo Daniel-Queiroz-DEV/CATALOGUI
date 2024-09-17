@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="TV 21'' Plana" ICON="TV_VIDEO_01_1.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="TV_VIDEO_01" />
+    <DIMENSION WIDTH="580" HEIGHT="520" DEPTH="530" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="TV Tela Plana 21''" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TELA" NAME="DEC_TELA" IDMATERIAL="ima_TV_tela 017" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

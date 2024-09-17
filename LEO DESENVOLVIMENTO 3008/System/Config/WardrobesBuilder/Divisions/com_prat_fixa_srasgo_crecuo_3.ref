@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<HorizontalDivision Id="com_prat_fixa_srasgo_crecuo" Category="Prateleiras Fixas" EntityId="com_coz_pra_fix54" Fallback="#RECUO_PRAT_SPORTA#" Name="Não Divide Fundo c/ Recuo Front" Thickness="@(#DOR_ARM_DES_CPOR_ESP_PRA_FIX#+#FOL_PAI#)" Preview="%PastaConstrutorArmarios%\Dormitorios\Divisoes\imagens\prat_fixa_sra_cre.jpg">
+  <Normal A="0" B="0" C="1" />
+  <Offset Value="#DOR_AFA_TRAS_PRA_ARM#" />
+  <Output>
+    <Sets>
+      <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_CRI_PRA_FT_FRONTAL#" />
+      <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_CRI_PRA_FT_TRASEIRA#" />
+      <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_CRI_PRA_FT_DIR#" />
+      <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_CRI_PRA_FT_ESQ#" />
+      <SetAttribute Id="ESP_MON" Value="#DOR_ARM_DES_CPOR_ESP_PRA_FIX#+#FOL_PAI#" />
+      <SetAttribute Id="VOLUME" Value="SV" />
+    </Sets>
+  </Output>
+</HorizontalDivision>

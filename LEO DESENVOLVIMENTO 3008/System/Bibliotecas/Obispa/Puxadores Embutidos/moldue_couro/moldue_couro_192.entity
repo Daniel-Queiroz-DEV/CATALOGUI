@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="192mm ($TEXT$)" ICON="moldue_couro.jpg">
+  <DRAWING>
+    <FILE3D NAME="moldue_couro_192" FORMAT=".dxf" />
+    <DIMENSION WIDTH="203" HEIGHT="45" DEPTH="15" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.645" />
+  <REFERENCE IDREFERENCE="Simples Metal_Couro" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_emb" ENTRYID="pux_obi" />
+    <MODEL IDMODEL="obi_cou" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Moldue Couro 192mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_mol_cou_192" MODEL="obi_cou" MODELTYPE="obi_cou_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_mol_cou_192" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

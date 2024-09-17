@@ -1,0 +1,179 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "1"
+      },
+      "SideCutOffset": {
+        "Value": "1"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "RightNeighbour": 3,
+      "Condition": {},
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "BorderID": "10ddfa98-cedf-4e7e-9849-4b89ae0f5d3c",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "PALHA_PALHA_2"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "1"
+      },
+      "SideCutOffset": {
+        "Value": "1"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 2,
+      "RightNeighbour": 0,
+      "Condition": {},
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 250",
+        "End": "1000, 500"
+      },
+      "BorderID": "bbc8542e-eefa-4fb6-be02-579e99ef60fb",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "PALHA_PALHA_2"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "1"
+      },
+      "SideCutOffset": {
+        "Value": "1"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 3,
+      "RightNeighbour": 1,
+      "Condition": {},
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderID": "ac07e5c9-9355-42f3-8aa0-cc5314b010dc",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "PALHA_PALHA_2"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "1"
+      },
+      "SideCutOffset": {
+        "Value": "1"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 0,
+      "RightNeighbour": 2,
+      "Condition": {},
+      "Arc": {
+        "Start": "0, 500",
+        "Mid": "0, 250"
+      },
+      "BorderID": "ed4c050d-ebca-44e1-b5cf-fb1fe18523d7",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "PALHA_PALHA_2"
+    }
+  ],
+  "ElementId": "PALHA_PALHA_2"
+}

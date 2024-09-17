@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Divisores de Talheres" NAME="Divisores de Talheres" PREFIXID="ACE_DIV_TAL_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_TAL_5" DEF="5_repart.entity" GUID="2f4da8fa-a399-4bb4-82ac-16ec4da1c9f6" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_TAL_6" DEF="6_repart.entity" GUID="968cd100-955c-4328-bf31-bba5a862f0b2" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_TAL_7" DEF="7_repart.entity" GUID="c0e201b9-eb05-4b7e-817a-15d49849d14c" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

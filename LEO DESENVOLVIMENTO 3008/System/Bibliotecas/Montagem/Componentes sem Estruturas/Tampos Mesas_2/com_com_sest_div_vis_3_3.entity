@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sorrento Cava Central Cozinha" ICON="com_coz_div_vis_5_2.jpg" INVISIBLE="N">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="18" DEPTH="1500">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_portas_3" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita_2_2" ENTRYID="COM" />
+  </MODELS>
+  <DRAWING>
+    <FILE3D NAME="daumnomeai" />
+    <DIMENSION WIDTH="400" HEIGHT="18" DEPTH="400" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioConserv" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Sorrento Cava Central" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="290" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="290" VISIBLE="N" />
+    <ATTRIBUTE ID="C" VALUE="10" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_cava_central" MODEL="com_portas_3" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_cava_central" MODEL="com_paineis_fita_2_2" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_cava_central" MODEL="com_portas_3" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_cava_central" MODEL="com_portas_3" MODELTYPE="acabamento_031" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Prateleira" NAME="Prateleira" PREFIXID="ACE_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_prat_cant_l_2" DEF="CANTL_2.entity" GUID="59b97549-8ff0-4e20-a65e-d7405c586e3e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_prat_cant_l_2_2_2" DEF="CANTL_2_2_2.entity" GUID="914875b4-b9d0-456a-8d58-678dc9f0350b" />
+    <EXPLORERITEM TYPE="entity" ID="ace_prat_cant_l" DEF="CANTL_1.entity" GUID="c05b6359-1694-4ea6-9cf1-6030e9d7b587" />
+    <EXPLORERITEM TYPE="entity" ID="ace_prat_cant_l_3" DEF="CANTL_1_2.entity" GUID="da495b1b-992e-477e-9b8f-0fe63ccdd25f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_prat_cant_l_2_2" DEF="CANTL_2_2.entity" GUID="aa24ef4d-19b3-450c-a078-5c8219b1238a" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit" DEF="kit_parafuso.entity" GUID="ce181fc8-6f8f-44ac-bb2b-fad123809df7" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_prat_pino" DEF="ACE_1291.entity" GUID="d83529b7-613d-4ed5-aa6b-6439701d30ad" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

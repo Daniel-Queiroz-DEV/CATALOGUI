@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fênix ($TEXT$)" ICON="fenix.jpg">
+  <INSERTDIMENSION TEXT="100.727" />
+  <DRAWING>
+    <FILE3D NAME="fenix" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-26" Y="-17.939" Z="-43" />
+      <MAX X="26.072" Y="0" Z="6.872" />
+    </LIMITS>
+    <DIMENSION WIDTH="52" HEIGHT="50" DEPTH="18" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Fênix 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_fen" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_fen" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_fen" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+</ENTITY>

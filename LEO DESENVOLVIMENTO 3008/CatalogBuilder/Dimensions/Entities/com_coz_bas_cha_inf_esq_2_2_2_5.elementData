@@ -1,0 +1,70 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 0,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "-18,6344",
+        "Y": "350"
+      },
+      "PlaneType": "Superior",
+      "ElementId": "com_coz_bas_cha_inf_esq_2_2_2_5"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "286,0361",
+        "Y": "-62,68823"
+      },
+      "DistanceFromShape": -62.6882324,
+      "DistanceFromElement": -62.6882324,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, -62",
+      "DirectionFromSecondElement": "0, -62",
+      "ElementId": "com_coz_bas_cha_inf_esq_2_2_2_5"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "349,5554",
+        "Y": "23,32751"
+      },
+      "DistanceFromShape": 49.55542,
+      "DistanceFromElement": 49.55542,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 2,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "49, 555419921875",
+      "DirectionFromSecondElement": "49, 555419921875",
+      "ElementId": "com_coz_bas_cha_inf_esq_2_2_2_5"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 0,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "301,916",
+        "Y": "577,5"
+      },
+      "DistanceFromShape": 27.5,
+      "DistanceFromElement": 27.5,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 3,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, 27",
+      "DirectionFromSecondElement": "0, 27",
+      "ElementId": "com_coz_bas_cha_inf_esq_2_2_2_5"
+    }
+  ],
+  "ElementId": "com_coz_bas_cha_inf_esq_2_2_2_5"
+}

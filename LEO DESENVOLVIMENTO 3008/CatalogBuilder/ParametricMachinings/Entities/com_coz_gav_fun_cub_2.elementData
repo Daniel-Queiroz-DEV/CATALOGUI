@@ -1,0 +1,28 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "$W$-#BLU_MET_VAO_CUB_A#-#BLU_MET_VAO_CUB_B#"
+      },
+      "Height": {
+        "Value": "$D$-#BLU_MET_VAO_CUB_FRONTAL#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "@(#BLU_MET_COM_ESP#+#FOL_PAI#)"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#BLU_MET_VAO_CUB_A#",
+        "Y": "#BLU_MET_VAO_CUB_FRONTAL#"
+      },
+      "ElementId": "com_coz_gav_fun_cub_2"
+    }
+  ],
+  "ElementId": "com_coz_gav_fun_cub_2"
+}

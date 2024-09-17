@@ -1,0 +1,36 @@
+{
+  "ElementId": "com_bas_crasgo_canto_l_sup",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 5,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "1095,829",
+        "Y": "725"
+      },
+      "Edge": 4,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_bas_crasgo_canto_l_sup"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "275",
+        "Y": "-106,8775"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_bas_crasgo_canto_l_sup"
+    }
+  ]
+}

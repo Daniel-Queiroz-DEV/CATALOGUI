@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Square ($TEXT$)" ICON="square.jpg">
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <DRAWING>
+    <FILE3D NAME="square" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="40" HEIGHT="40" DEPTH="22" />
+    <LIMITS>
+      <MIN X="-20" Y="-21.986" Z="-20" />
+      <MAX X="20.263" Y="0" Z="19.313" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.642" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Square c/ Cristal Swarovski 32mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_32_squ" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_squ" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_squ" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

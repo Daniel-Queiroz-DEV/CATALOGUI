@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="160mm_Couro_Marrom" NAME="160mm Couro Marrom" PREFIXID="zen_val_160_cou_mar_">
+  <DRAWINGS />
+  <DRAWING ID="VALIGIA_160MM" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_val_723_2" DEF="ZP1931_723.entity" GUID="583d2aee-c09c-41c8-8bff-f84684bf8657" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_736_2" DEF="ZP1931_736.entity" GUID="fbbaa3c9-dcec-4059-9390-d4f7433086c6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_726_2" DEF="ZP1931_726.entity" GUID="be55edfc-b65e-483d-9c92-4f277fca7a16" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_A05_2" DEF="ZP1931_A05.entity" GUID="5d292e9f-5f7a-436a-ab45-1c07e7dd988d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_B05_2" DEF="ZP1931_B05.entity" GUID="68fee6b3-68b3-42f7-99f9-b2560c7d9166" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_F05_2" DEF="ZP1931_F05.entity" GUID="97e743f7-6f21-4c19-b36b-4d9e67206389" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_G05_2" DEF="ZP1931_G05.entity" GUID="127d9444-37ec-4e2a-8cd0-7cde713af593" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_L05_2" DEF="ZP1931_L05.entity" GUID="b9429219-31bd-4282-923f-c032099d13b6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_M05_2" DEF="ZP1931_M05.entity" GUID="41fb0a39-0800-45b2-951f-bcbe0a8fdaf5" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_160mm_Valigia.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

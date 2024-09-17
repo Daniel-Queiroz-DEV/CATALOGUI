@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="travessa_par" Type="Bottom" Description="Travessa" Visible="N">
+	    <Dimension Width="$P.W$" Depth="#COZ_CON_SUP_DIM_TRA_TRA_VER_HOR#" Height="(#COZ_ESP_TRA#+#FOL_PAI#)" />
+	    <Position Y="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? -#COZ_CON_SUP_DIS_TRA_TRAV_TRAS#-$H$ : -#COZ_CON_SUP_DIS_TRA_TRAV_TRAS#)" Z="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? $PH$-$D$-#COZ_CON_SUP_DIS_TRAV_SUP_TRAS# : $PH$-#COZ_CON_SUP_DIS_TRAV_SUP_TRAS#)" Rotation="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? 270 : 90)">
+			<Normal A="0" B="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? 1 : -1)" C="0" />
+	    </Position>
+	    
+		<Alternatives>
+			
+				<Alternative Id="travessa_par" EntityId="com_coz_tra_tra">
+					<Conditions>
+						<TestExpression Expression="'#COZ_FIX_1#' == 'Parafuso'" />
+					</Conditions>
+				</Alternative>
+		</Alternatives>
+
+		<AutoFunction Enabled="Y">
+			<JointDivisions>
+				<JointDivision Id="com_prat_inv" />
+				<JointDivision Id="com_prat_movel_srecuo" />
+				<JointDivision Id="com_prat_movel_crecuo" />
+				<JointDivision Id="com_prat_fixa_srasgo_crecuo" />
+				<JointDivision Id="com_prat_fixa_crasgo_crecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo" />
+				<JointDivision Id="com_prat_crasgo_srecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo_basc" />
+				<JointDivision Id="mon_srasgo_crecuo" />
+				<JointDivision Id="mon_srasgo_srecuo" />
+				<JointDivision Id="mon_crasgo_crecuo" />
+				<JointDivision Id="mon_crasgo_srecuo" />
+			</JointDivisions>
+		</AutoFunction>
+		
+		<Output>
+			<Sets>
+				<SetAttribute Id="Movivel" Value="False" />
+				<SetAttribute Id="Caneditdimension" Value="False" />
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#COZ_TRA_SUP_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#COZ_TRA_SUP_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#COZ_TRA_SUP_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_TRA_SUP_FT_ESQ#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+  </Item>

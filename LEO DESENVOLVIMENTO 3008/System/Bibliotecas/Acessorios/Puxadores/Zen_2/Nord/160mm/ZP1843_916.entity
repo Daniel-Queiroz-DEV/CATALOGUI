@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Esc c/ Verniz Fosco ($TEXT$.$D.ACAB$)" ICON="Nord.jpg">
+  <INSERTDIMENSION WIDTH="184" HEIGHT="25" DEPTH="23" TEXT="ZP1843" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Nord 160mm Níquel Escovado c/ Verniz Fosco" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

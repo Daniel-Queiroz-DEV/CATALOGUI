@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Intense ($TEXT$)" ICON="mini_intense.jpg">
+  <INSERTDIMENSION TEXT="100.538" />
+  <DRAWING>
+    <FILE3D NAME="mini_intense_100538" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="25" HEIGHT="16" DEPTH="26" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_int" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_int" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_int" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_int" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Intense 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+</ENTITY>

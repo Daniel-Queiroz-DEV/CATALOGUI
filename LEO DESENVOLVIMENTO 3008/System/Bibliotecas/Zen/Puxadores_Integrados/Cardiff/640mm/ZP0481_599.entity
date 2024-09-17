@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Metallo ($TEXT$.$D.ACAB$)" ICON="cardiff.jpg">
+  <DRAWING>
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <LIMITS>
+      <MIN X="-322.5" Y="-21.4" Z="-10" />
+      <MAX X="322.5" Y="0" Z="70" />
+    </LIMITS>
+    <FILE3D NAME="ZP0504" />
+    <DIMENSION WIDTH="645" HEIGHT="80" DEPTH="21.4" />
+  </DRAWING>
+  <BUDGET />
+  <INSERTDIMENSION WIDTH="640" HEIGHT="80" DEPTH="21" TEXT="ZP0481" ACAB="599" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cardiff $W$mm Vecchio Metallo" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_met_vec" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR_DET" NAME="PUXADOR_DET" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

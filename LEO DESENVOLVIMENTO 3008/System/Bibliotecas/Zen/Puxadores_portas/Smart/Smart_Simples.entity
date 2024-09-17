@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$H$mm Simples ($TEXT$)" ICON="Smart_Simples.jpg" CHECKED="N">
+  <DRAWING ID="Smart_Simples" />
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="38" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-42.09708" V="66.54591" />
+              <CORNER2 U="44.73282" V="10.82635" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="38" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-39.66343" V="-2.648685" />
+              <CORNER2 U="42.89422" V="-63.91485" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <INSERTDIMENSION WIDTH="44" HEIGHT="64" DEPTH="3" MODE="OnlyProposedH" TEXT="">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="64" TEXT="ZP0067" />
+      <PROPOSEDVALUE HEIGHT="160" TEXT="ZP0058" />
+      <PROPOSEDVALUE HEIGHT="288" TEXT="ZP0059" />
+      <PROPOSEDVALUE HEIGHT="448" TEXT="ZP0060" />
+      <PROPOSEDVALUE HEIGHT="640" TEXT="ZP0061" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_sma" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_sma_sim" MODEL="Zen_man_sma" MODELTYPE="Zen_man_sma_43" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Smart $H$mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

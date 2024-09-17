@@ -1,0 +1,4455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Masisa">
+  <MATERIALCOLLECTION />
+  <FOLDERCOLLECTION>
+    <FOLDER NAME="Assinaturas">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_ass_fitas_ouro" NAME="Fitas Ouro">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="197" G="161" B="116" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>461</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\Fitas Ouro.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_ass_fitas_preto" NAME="Fitas Preto">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="108" G="97" B="83" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>462</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\Fitas Preto.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Basic Colors">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_bas_col_azul" NAME="Azul">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="34" G="67" B="97" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\Basic_Azul.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_bas_col_bege" NAME="Bege">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="184" G="164" B="146" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\bege_soft_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Cores">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_almendra" NAME="Almendra">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="239" G="234" B="205" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\almendra.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_azul_chile" NAME="Azul Chile">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="46" G="67" B="99" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\azul_chile.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_branco" NAME="Branco">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="240" G="240" B="228" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\branco.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_branco_alaska" NAME="Branco Alaska">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" NAME="Eggshell" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="244" G="244" B="244" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.35</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+        </MATERIAL>
+        <MATERIAL ID="mas_bra_pla" NAME="Branco Platinum">
+          <COLORBASE R="247" G="243" B="240" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>745</ESCALETEXTUREX>
+          <ESCALETEXTUREY>783</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+        </MATERIAL>
+        <MATERIAL ID="Mas_Cor_Bra_Por" NAME="Branco Poro">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="255" G="255" B="255" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+        </MATERIAL>
+        <MATERIAL ID="mas_cinza_cristal" NAME="Cinza Cristal">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="235" G="235" B="225" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\cinza_cristal.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_preto" NAME="Preto">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="20" G="20" B="20" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.1</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\preto.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Clássica">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Horizontais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_noce_athena_h" NAME="Noce Athena">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="150" G="103" B="57" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>300</ESCALETEXTUREX>
+              <ESCALETEXTUREY>300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\noce_athena.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_tabaco_h" NAME="Tabaco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" NAME="Eggshell" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin Wood - Medium" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="47" G="33" B="34" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>150</ESCALETEXTUREX>
+              <ESCALETEXTUREY>250</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\tabaco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_venezuela_h" NAME="Venezuela">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="103" G="75" B="54" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>700</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\venezuela.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Verticais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_noce_athena" NAME="Noce Athena">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="150" G="103" B="57" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>300</ESCALETEXTUREX>
+              <ESCALETEXTUREY>300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\noce_athena.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_tabaco" NAME="Tabaco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin Wood - Medium" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="47" G="33" B="34" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>150</ESCALETEXTUREX>
+              <ESCALETEXTUREY>250</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\tabaco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_venezuela" NAME="Venezuela">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="103" G="75" B="54" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>700</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\venezuela.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Contemporânea">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Horizontais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_blue_oak_h" NAME="Blue Oak">
+              <COLORBASE R="168" G="135" B="125" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>640</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Blue_Oak.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_carvalho_h" NAME="Carvalho">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" NAME="Eggshell" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="232" G="219" B="186" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\carvalho.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_cilliegio_h" NAME="Cilliégio">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="222" G="217" B="208" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.5</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Cilliegio.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_coll_h" NAME="Coll">
+              <COLORBASE R="166" G="142" B="119" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.37</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Coll.JPG</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_elmo_suico_h" NAME="Elmo Suíço">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="189" G="166" B="123" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>598</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Contemporanea_Elmo Suico.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_nogueira_h" NAME="Nogueira">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="167" G="128" B="86" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\contemporanea_nogueira.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_teca_h" NAME="Teca">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" NAME="Eggshell" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="152" G="104" B="74" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\teca.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_teca_italia_h" NAME="Teca Itália">
+              <COLORBASE R="105" G="96" B="77" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>628</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1179</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Teca_Italia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_tirol_h" NAME="Tirol">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="219" G="193" B="157" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Contemporanea_Tirol.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Verticais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_blue_oak" NAME="Blue Oak">
+              <COLORBASE R="168" G="135" B="125" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>640</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Blue_Oak.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_carvalho" NAME="Carvalho">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="219" G="197" B="141" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\carvalho.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_cilliegio" NAME="Cilliégio">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="222" G="217" B="208" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.5</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Cilliegio.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_coll" NAME="Coll">
+              <COLORBASE R="166" G="142" B="119" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.37</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Coll.JPG</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_elmo_suico" NAME="Elmo Suíço">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="189" G="166" B="123" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>598</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Contemporanea_Elmo Suico.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_nogueira" NAME="Nogueira">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="182" G="136" B="81" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\contemporanea_nogueira.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_teca" NAME="Teca">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="152" G="104" B="74" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\teca.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_teca_italia" NAME="Teca Itália">
+              <COLORBASE R="105" G="96" B="77" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>628</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1179</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Teca_Italia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_tirol" NAME="Tirol">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="219" G="193" B="157" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Contemporanea_Tirol.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Madeiras Brasileiras">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Horizontais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_ipe_amarelo_h" NAME="Ipê Amarelo">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="78" G="53" B="41" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\ipe_amarelo.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_jacaranda_h" NAME="Jacarandá">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="40" G="29" B="22" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\jacaranda.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_louro_freijo_h" NAME="Louro Freijó">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="123" G="82" B="31" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\louro_freijo.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_nova_imbuia_h" NAME="Nova Imbuia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin Wood - Medium" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="70" G="36" B="8" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>250</ESCALETEXTUREX>
+              <ESCALETEXTUREY>400</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\madeiras_brasileiras_nova_imbuia.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Verticais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_ipe_amarelo" NAME="Ipê Amarelo">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="78" G="53" B="41" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\ipe_amarelo.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_jacaranda" NAME="Jacarandá">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="40" G="29" B="22" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\jacaranda.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_louro_freijo" NAME="Louro Freijó">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="123" G="82" B="31" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\louro_freijo.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_nova_imbuia" NAME="Nova Imbuia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin Wood - Medium" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="70" G="36" B="8" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>250</ESCALETEXTUREX>
+              <ESCALETEXTUREY>400</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\madeiras_brasileiras_nova_imbuia.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Design Colors">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_des_col_olive" NAME="Olive">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="97" G="94" B="77" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\olive_couro_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_des_col_pedra_do_sol" NAME="Pedra do Sol">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="99" G="70" B="54" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\pedra_sol_tela_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_des_col_rubi" NAME="Rubi">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="145" G="68" B="65" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\rubi_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ID="mas_des_col_pistache" NAME="Pistache">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="198" G="194" B="159" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\pistache_gen_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Metais">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_met_aco_corten" NAME="Aço Corten">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="100" G="78" B="66" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\aco_corten_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Nature">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Horizontais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_fresno_blanco_h" NAME="Fresno Blanco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="244" G="251" B="250" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>150</ESCALETEXTUREX>
+              <ESCALETEXTUREY>150</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\fresno_blanco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_fresno_negro_h" NAME="Fresno Negro">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin Wood - Medium" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="54" G="50" B="51" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>750</ESCALETEXTUREX>
+              <ESCALETEXTUREY>750</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\fresno_negro.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_lipari_magnolia_h" NAME="Lipari Magnolia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="233" G="229" B="224" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.5</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.1</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\lipari_magnolia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Nat_Hor_Mal_Ama" NAME="Malbec Amaro">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="102" G="85" B="74" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>996</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Malbec Amaro.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Nat_Hor_Mal_Cas" NAME="Malbec Cassis">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="156" G="130" B="107" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>799</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Malbec Cassis.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Nat_Hor_Mal_Van" NAME="Malbec Vanilla">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="211" G="186" B="159" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>795</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Malbec Vanilla .jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Verticais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="mas_fresno_blanco" NAME="Fresno Blanco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="244" G="251" B="250" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>150</ESCALETEXTUREX>
+              <ESCALETEXTUREY>150</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\fresno_blanco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_fresno_negro" NAME="Fresno Negro">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin Wood - Medium" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="54" G="50" B="51" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>750</ESCALETEXTUREX>
+              <ESCALETEXTUREY>750</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.7</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\fresno_negro.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_lipari_magnolia" NAME="Lipari Magnolia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="233" G="229" B="224" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.5</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.1</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\lipari_magnolia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Nat_Ver_Mal_Ama" NAME="Malbec Amaro">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="102" G="85" B="74" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>996</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Malbec Amaro.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Nat_Ver_Mal_Cas" NAME="Malbec Cassis">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="156" G="130" B="107" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>799</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Malbec Cassis.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Nat_Ver_Mal_Van" NAME="Malbec Vanilla">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="211" G="186" B="159" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>795</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Malbec Vanilla .jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Pedras">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_ped_concreto_metropole" NAME="Concreto Metropole">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="198" G="188" B="177" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\concreto_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Touch">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Horizontais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="Mas_Tou_Hor_Aga" NAME="Agáta">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="132" G="156" B="143" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>540</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Agata.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_ameixa_negra_h" NAME="Ameixa Negra">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="129" G="101" B="76" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.6</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Ameixa_Negra.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Ber" NAME="Bergerac">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="119" G="119" B="121" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>605</ESCALETEXTUREX>
+              <ESCALETEXTUREY>911</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Bergerac.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Bet" NAME="Beton">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="205" G="191" B="182" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1004</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Beton.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Bla" NAME="Blanche">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="239" G="234" B="230" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1006</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Blanche.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Cal" NAME="Calvi">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="170" G="145" B="118" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1065</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Calvi.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Cam" NAME="Camurça">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="146" G="124" B="98" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>300</ESCALETEXTUREX>
+              <ESCALETEXTUREY>300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Camurca.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Cas" NAME="Casablanca">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="206" G="187" B="173" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>768</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1021</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Casablanca.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Cha" NAME="Chamois">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="202" G="182" B="159" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>987</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Chamois.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_copa_h" NAME="Copa">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="230" G="226" B="208" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Touch_Copa.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_cou_branco_h" NAME="Couro Branco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="229" G="229" B="231" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.5</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\touch_couro_branco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Esc" NAME="Escocia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Translucent Glass Opacity 8" GROUP="Glasses_Mirrors" TYPE="Advanced" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="105" G="95" B="77" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>628</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1179</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Escocia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Gen" NAME="Genev">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Translucent Glass Opacity 8" GROUP="Glasses_Mirrors" TYPE="Advanced" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="217" G="204" B="163" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Genev.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_grigio_h" NAME="Grigio">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="207" G="205" B="187" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>2750</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Horizontal</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Grigio.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Hun" NAME="Hunter">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="131" G="117" B="99" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>997</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Hunter.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Irl" NAME="Irlanda">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="168" G="148" B="121" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>363</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Irlanda.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Jea_Bli" NAME="Jeans Blick">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="83" G="75" B="65" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>400</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Jeans_Blick.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_laricina_h" NAME="Laricina">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="215" G="213" B="214" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.42</AMBIENT>
+              <DIFFUSE>0.37</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Laricina.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_linho_h" NAME="Linho">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="218" G="216" B="216" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.43</AMBIENT>
+              <DIFFUSE>0.35</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Linho.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Oni" NAME="Ônix">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="12" G="12" B="12" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>540</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Onix.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_pompeia_h" NAME="Pompéia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="175" G="143" B="131" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>700</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Pompeia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_roble_gris_h" NAME="Roble Gris">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="120" G="117" B="113" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Roble_Gris.JPG</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_Rob_May" NAME="Roble Mayor">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="128" G="100" B="96" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>333.5</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Roble_Mayor.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_rov_bianco_h" NAME="Rovere Bianco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="164" G="158" B="154" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>300</ESCALETEXTUREX>
+              <ESCALETEXTUREY>400</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.5</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\touch_rovere_bianco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_santana_h" NAME="Santana">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="193" G="175" B="166" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>747</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Santana.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Hor_She" NAME="Sheffield">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="29" G="28" B="38" />
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>334</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Sheffield.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_toledo_h" NAME="Toledo">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="85" G="63" B="62" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1460</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1944</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Toledo.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_trama_h" NAME="Trama">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="164" G="150" B="123" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>450</ESCALETEXTUREX>
+              <ESCALETEXTUREY>413</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Touch_Trama.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_valentino_h" NAME="Valentino">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="70" G="60" B="55" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.35</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Valentino.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_vintage_h" NAME="Vintage">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="208" G="203" B="193" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Vintage.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_virginia_h" NAME="Virginia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="150" G="115" B="88" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Virginia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_western_h" NAME="Western">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="146" G="108" B="73" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Western.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_zurich_h" NAME="Zurich">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="138" G="125" B="99" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>750</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Touch_Zurich.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Verticais">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="Mas_Tou_Ver_Aga" NAME="Agáta">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="132" G="156" B="143" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>540</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Agata.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_ameixa_negra" NAME="Ameixa Negra">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" NAME="Eggshell" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="129" G="101" B="76" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.6</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Ameixa_Negra.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Ber" NAME="Bergerac">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="119" G="119" B="121" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>605</ESCALETEXTUREX>
+              <ESCALETEXTUREY>911</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Bergerac.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Bet" NAME="Beton">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="205" G="191" B="182" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1004</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Beton.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Bla" NAME="Blanche">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="239" G="234" B="230" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1006</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Blanche.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Cal" NAME="Calvi">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="170" G="145" B="118" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1065</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Calvi.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Cam" NAME="Camurça">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="146" G="124" B="98" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>300</ESCALETEXTUREX>
+              <ESCALETEXTUREY>300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Camurca.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Cas" NAME="Casablanca">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="206" G="187" B="173" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>768</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1021</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Casablanca.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Cha" NAME="Chamois">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="202" G="182" B="159" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>987</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Chamois.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_copa" NAME="Copa">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="230" G="226" B="208" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Touch_Copa.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_cou_branco" NAME="Couro Branco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="229" G="229" B="231" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.5</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\touch_couro_branco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Esc" NAME="Escocia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="105" G="95" B="77" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>628</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1179</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Escocia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Gen" NAME="Genev">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="217" G="204" B="163" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Genev.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_grigio" NAME="Grigio">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="207" G="205" B="187" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>2750</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Horizontal</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Grigio.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Hun" NAME="Hunter">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="131" G="117" B="99" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>997</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Hunter.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Irl" NAME="Irlanda">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="168" G="148" B="121" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>363</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Irlanda.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Jea_Bli" NAME="Jeans Blick">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="83" G="75" B="65" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>400</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Jeans_Blick.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_laricina" NAME="Laricina">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="215" G="213" B="214" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.42</AMBIENT>
+              <DIFFUSE>0.37</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Laricina.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_linho" NAME="Linho">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="218" G="216" B="216" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.43</AMBIENT>
+              <DIFFUSE>0.35</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Linho.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Oni" NAME="Ônix">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="12" G="12" B="12" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>540</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Onix.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_pompeia" NAME="Pompéia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="175" G="143" B="131" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>700</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Pompeia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_roble_gris" NAME="Roble Gris">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="120" G="117" B="113" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Roble_Gris.JPG</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_Rob_May" NAME="Roble Mayor">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="128" G="100" B="96" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>333.5</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Roble_Mayor.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_rov_bianco" NAME="Rovere Bianco">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="164" G="158" B="154" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>300</ESCALETEXTUREX>
+              <ESCALETEXTUREY>400</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.5</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\touch_rovere_bianco.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_santana" NAME="Santana">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="193" G="175" B="166" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>747</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Santana.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="Mas_Tou_Ver_She" NAME="Sheffield">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="29" G="28" B="38" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>334</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Sheffield.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_toledo" NAME="Toledo">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="85" G="63" B="62" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1460</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1944</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Toledo.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_trama" NAME="Trama">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="164" G="150" B="123" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>450</ESCALETEXTUREX>
+              <ESCALETEXTUREY>413</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Touch_Trama.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_valentino" NAME="Valentino">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 4" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="70" G="60" B="55" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.35</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Valentino.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_vintage" NAME="Vintage">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="208" G="203" B="193" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>Y</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Vintage.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_virginia" NAME="Virginia">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="203" G="167" B="125" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Virginia.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_western" NAME="Western">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="146" G="108" B="73" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Western.jpg</TEXTUREFILE>
+            </MATERIAL>
+            <MATERIAL ID="mas_zurich" NAME="Zurich">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="138" G="125" B="99" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>750</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.03</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\fabrica\masisa\Touch_Zurich.jpg</TEXTUREFILE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Tecidos">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mas_tec_fabric" NAME="Fabric">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="219" G="211" B="200" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\fabrica\masisa\fabric_tela_15x15.jpg</TEXTUREFILE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+</FOLDER>

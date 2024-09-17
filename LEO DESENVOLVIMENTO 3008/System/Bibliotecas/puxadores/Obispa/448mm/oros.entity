@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Oros ($TEXT$)" ICON="oros.jpg">
+  <DRAWING>
+    <FILE3D NAME="oros_100729" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="463" HEIGHT="20" DEPTH="24" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.729" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_448_oro" MODEL="Pux_all" MODELTYPE="Pux_all_pin_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Oros 448mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

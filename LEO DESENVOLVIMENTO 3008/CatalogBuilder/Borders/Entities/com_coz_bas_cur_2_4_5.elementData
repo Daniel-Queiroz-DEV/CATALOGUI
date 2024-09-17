@@ -1,0 +1,236 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "549"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0,0001220703"
+      },
+      "Angle": {},
+      "LeftNeighbour": 4,
+      "RightNeighbour": 1,
+      "Condition": {
+        "Expression": "('#FT_BORDA_ESQ#' == 'SIM')"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "750f64bb-d03f-48c3-b891-e6f0b2fa4e09",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cur_2_4_5"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "ProfileIndex": 1,
+          "Text": "TRASEIRA PORTAS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0,0001220703"
+          },
+          "RightPoint": {
+            "X": "160",
+            "Y": "0,0001220703"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "RightNeighbour": 2,
+          "Condition": {
+            "Expression": "('#FT_BORDA_FRONTAL#' == 'SIM')"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "27d5c15b-8b9a-495e-9eee-0129f6808348",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        {
+          "ProfileIndex": 2,
+          "Text": "TRASEIRA PORTAS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "160",
+            "Y": "0,0001220703"
+          },
+          "RightPoint": {
+            "X": "300",
+            "Y": "150"
+          },
+          "Angle": {
+            "Value": "89,99973"
+          },
+          "LeftNeighbour": 1,
+          "RightNeighbour": 3,
+          "Condition": {
+            "Expression": "('#FT_BORDA_FRONTAL#' == 'SIM')"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "3bb99d01-aa24-4461-ad13-9dc0e16a647d",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        {
+          "ProfileIndex": 3,
+          "Text": "TRASEIRA PORTAS",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 4,
+          "LeftPoint": {
+            "X": "300",
+            "Y": "150"
+          },
+          "RightPoint": {
+            "X": "300",
+            "Y": "549"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "RightNeighbour": 4,
+          "Condition": {
+            "Expression": "('#FT_BORDA_FRONTAL#' == 'SIM')"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "9ee5113f-bd62-4942-bcab-2f1d11835af7",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        }
+      ],
+      "Condition": {
+        "Expression": "('#FT_BORDA_FRONTAL#' == 'SIM')"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ProfileIndex": 9,
+      "Text": "TRASEIRA PORTAS",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "ID": "5f969482-3a17-4ce7-bcbb-882b6c09420e",
+      "ElementId": "com_coz_bas_cur_2_4_5"
+    },
+    {
+      "ProfileIndex": 4,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 4,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "300",
+        "Y": "549"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "549"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "29f8a604-2196-4796-bfe4-805ebc5135d1",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cur_2_4_5"
+    }
+  ],
+  "ElementId": "com_coz_bas_cur_2_4_5"
+}

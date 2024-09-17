@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold ($TEXT$.$D.ACAB$)" ICON="Inca.jpg">
+  <DRAWING>
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <FILE3D NAME="inca" />
+    <DIMENSION WIDTH="200" HEIGHT="80" DEPTH="14.8" />
+    <LIMITS>
+      <MIN X="-100" Y="-14.8" Z="0" />
+      <MAX X="100" Y="0" Z="80" />
+    </LIMITS>
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Inca $D.DESC$ Alum Cromado c/ Ponteiras Red Gold/Aplique Red Gold" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="200" HEIGHT="80" DEPTH="15" TEXT="ZP0800" ACAB="F00" DESC="200mm" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="Zen_red_gol" EDIT="N" />
+    <COMPONENTDEFINITION ID="PEGA" NAME="PEGA" IDMATERIAL="Zen_red_gol" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pé U ($TEXT$)" ICON="pe duplo.jpg">
+  <DRAWING>
+    <FILE3D NAME="Pe_u" />
+    <DIMENSION WIDTH="30" HEIGHT="1000" DEPTH="552" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE IDREFERENCE="PES_METALICOS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Metal U Mesas Lineares/Canto $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="40" DEPTH="#ESC_PRO_PES_LIN_MET#" HEIGHT="700" TEXT="PEACOU">
+    <MIN DEPTH="50" HEIGHT="400" />
+    <MAX DEPTH="1500" HEIGHT="1500" />
+  </INSERTDIMENSION>
+</ENTITY>

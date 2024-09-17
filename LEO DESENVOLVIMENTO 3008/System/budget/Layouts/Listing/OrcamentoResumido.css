@@ -1,0 +1,8 @@
+thead td,tfoot td	{font-size: 11px;}
+thead	{display: table-header-group;	}
+tfoot	{display: table-footer-group;	}
+body,td,tr,a,input,textarea {font-family:Arial; font-size: 10px}
+input, textarea {border: #999999 solid 1px;}
+table {margin-top:2px;}
+span, td{font-family:Arial;font-size: 11px;color:#818181;}
+.textoorc{height:50px;background-image: url(..\..\..\TelaInicial\imagens\fundo_texto.gif);background-repeat:repeat-x;}

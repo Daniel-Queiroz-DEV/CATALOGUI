@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="218 Div.Estrutura $D$mm de Profundidade Legrabox">
+  <INSERTDIMENSION WIDTH="218" HEIGHT="110" DEPTH="370" MODE="OnlyProposedD" TEXT="">
+    <MIN DEPTH="370" WIDTH="218" HEIGHT="110" />
+    <MAX DEPTH="370" WIDTH="218" HEIGHT="110" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox_Ambialine" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" VOLUME="VOLFER" FERRAGEM="SIM" MODEL="@Blu_Legrabox_Ambialine@" ACAB="@Blu_Legrabox_Ambialine*(ACABAMENTO1)@" DESC="$D.DESC$" />
+  <DRAWING>
+    <LIMITS>
+      <MIN X="6673.098" Y="-5700.506" Z="0" />
+      <MAX X="7073.098" Y="-5482.506" Z="110" />
+    </LIMITS>
+    <FILE3D NAME="divisor - zc7f400rsp-1" />
+    <DIMENSION WIDTH="218" HEIGHT="110" DEPTH="400" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="218 Div.Estrutura $D$mm de Profundidade Legrabox $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sorrento F458 Linear Menor Pivotante" ICON="com_coz_div_vis_2_2_2_2_2.jpg" INVISIBLE="N">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="30" DEPTH="1500">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="18" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="32" />
+  </INSERTDIMENSION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWING>
+    <FILE3D NAME="cavalinear225" />
+    <DIMENSION WIDTH="1500" HEIGHT="30" DEPTH="330" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Sorrento F458 Linear" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="com_sequenziato" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita_2_2" ENTRYID="COM" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_desl_2_2" MODEL="com_sequenziato" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_desl_2_2" MODEL="com_paineis_fita_2_2" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_desl_2_2" MODEL="com_sequenziato" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_desl_2_2" MODEL="com_sequenziato" MODELTYPE="acabamento_031" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

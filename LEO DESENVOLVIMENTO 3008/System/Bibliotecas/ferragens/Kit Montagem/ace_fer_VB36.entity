@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="VB 36 M" ICON="163400_1.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="vb364" FORMAT=".dxf" />
+    <BOUNDINGBOX HEIGHT="47.5">
+      <PONTO2DA X="11.5" Y="-0.05" />
+      <PONTO2DA X="11.5" Y="0.05" />
+      <PONTO2DA X="-11.5" Y="0.05" />
+      <PONTO2DA X="-11.5" Y="-0.05" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-11.5" Y="-2" Z="-9.5" />
+      <MAX X="11.5" Y="14" Z="38" />
+    </LIMITS>
+    <DIMENSION WIDTH="22" HEIGHT="47.5" DEPTH="16" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="22" HEIGHT="47" DEPTH="16" TEXT="VB36M18" TEXT_15="VB36M15" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Ligador Excêntrico VB 36 M p/ espessura @(($P.P.H$)&lt;=16?'15':'18/25') mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="@(($H$)&lt;=16?'$D.TEXT_15$':'$TEXT$')" ITEM_BASE="@(($H$)&lt;=16?'$D.TEXT_15$':'$TEXT$')" FERRAGEM="SIM" VOLUME="VOLFER" />
+</ENTITY>

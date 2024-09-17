@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Fosco/Fco ($TEXT$.$D.ACAB$)" ICON="Metropolitan.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Metropolitan 288mm Alumínio Fosco c/ Ponteiras Foscas" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1779" ACAB="48" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_fosco" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_fosco" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

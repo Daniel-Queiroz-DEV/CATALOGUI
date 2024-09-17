@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Stiletto Alça Simples s/ Abert ($TEXT$)" ICON="stiletto_sa.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Stiletto Alça Simples s/ Abert" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="stiletto_88as" FORMAT=".dxf" />
+    <DIMENSION WIDTH="62" HEIGHT="600" DEPTH="44" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="200.088 AS" />
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+</ENTITY>

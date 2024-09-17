@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="cadeira_17.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_17" />
+    <DIMENSION WIDTH="550" HEIGHT="839" DEPTH="557" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_ASSENTO" ID="DEC_ASSENTO" EDIT="Y" IDMATERIAL="cin_cor_001" />
+    <COMPONENTDEFINITION NAME="DEC_INOX" ID="DEC_INOX" EDIT="Y" IDMATERIAL="inox_01" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION MODE="Nothing" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira Arne Jacobsen" />
+  </ATTRIBUTES>
+</ENTITY>

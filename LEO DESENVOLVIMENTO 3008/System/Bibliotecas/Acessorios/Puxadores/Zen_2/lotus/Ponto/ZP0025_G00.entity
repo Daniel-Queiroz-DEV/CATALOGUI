@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado ($TEXT$.$D.ACAB$)" ICON="mini_lotus.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Lótus Vecchio Red Gold Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="30" HEIGHT="30" DEPTH="17" TEXT="ZP0025" ACAB="G00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR_DET" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

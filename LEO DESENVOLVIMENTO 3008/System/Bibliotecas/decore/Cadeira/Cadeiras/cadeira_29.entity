@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="cadeira_29.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_29" />
+    <DIMENSION WIDTH="540" HEIGHT="940" DEPTH="548" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CORPO" NAME="CORPO" IDMATERIAL="acril_incolor" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira Philippe Stark" />
+  </ATTRIBUTES>
+</ENTITY>

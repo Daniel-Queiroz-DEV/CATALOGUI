@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cabide ($TEXT$)" ICON="BA0045.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_cabide" />
+    <DIMENSION WIDTH="63" HEIGHT="63" DEPTH="50" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="63" HEIGHT="63" DEPTH="50" MODE="Nothing" TEXT="BA0045" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0045" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Cabide @zen_jazz(DESCRICAO)@" />
+  </ATTRIBUTES>
+</ENTITY>

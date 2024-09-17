@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reta Obliquo Horizontal ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_tes_tes.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_tes_234" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="0" FORMULA="#R#">
+            <VECTOR U="-1" V="-2.393085E-08" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-58.00278" V="69.46338" />
+              <CORNER2 U="66.963" V="-115.6791" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="#Q#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="144.9785" V="-951.101" />
+              <CORNER2 U="1089.601" V="-1057.286" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="#Q#+#T#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="911.9867" V="58.34461" />
+              <CORNER2 U="1057.169" V="-83.90388" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-68.81182" V="-958.3655" />
+              <CORNER2 U="1034.199" V="-1095.439" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_TES#+#FOL_PAI#)" DEPTH="80" ITEM_BASE="TRA01" TEXT="208">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Travessa Frontal" VISIBLE="N" />
+    <ATTRIBUTE ID="T" VALUE="100" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="Q" VALUE="1000" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="R" VALUE="100" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+</ENTITY>

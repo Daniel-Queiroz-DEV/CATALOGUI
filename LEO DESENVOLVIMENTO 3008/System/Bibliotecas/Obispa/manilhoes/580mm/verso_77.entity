@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Verso Alça Dupla c/ Abert  ($TEXT$)" ICON="verso_77.jpg">
+  <INSERTDIMENSION TEXT="200.077 AD" />
+  <DRAWING>
+    <FILE3D NAME="verso_200077_c_abertura" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="43" HEIGHT="600" DEPTH="130" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Verso Alça Dupla c/ Abert Europerfil 33,5mm x 17,5mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_man_580_77" MODEL="Pux_man" MODELTYPE="Pux_man_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_man_580_77" MODEL="Pux_man" MODELTYPE="Pux_man_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_man_580_77" MODEL="Pux_man" MODELTYPE="Pux_man_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

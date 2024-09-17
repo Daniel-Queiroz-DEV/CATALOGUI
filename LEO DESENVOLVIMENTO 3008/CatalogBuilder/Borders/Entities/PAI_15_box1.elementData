@@ -1,0 +1,273 @@
+{
+  "ElementId": "PAI_15_box1",
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "",
+      "Thickness": {
+        "Value": "50"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "1000"
+      },
+      "RightPoint": {},
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 3,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "PAI_15_box",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 50.1,
+          "Y": 949.9
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 949.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 949.9
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 50.1,
+          "Y": 50.1
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 50.1
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 50.1
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda02",
+      "LayerName": "",
+      "Thickness": {
+        "Value": "50"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 1,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 2,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "PAI_15_box",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 949.9,
+          "Y": 50.1
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 50.1
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 50.1
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 949.9,
+          "Y": 949.9
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 949.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 949.9
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda03",
+      "LayerName": "",
+      "Thickness": {
+        "Value": "50"
+      },
+      "CutOffset": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "SideCutOffset": {},
+      "Index": 2,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "PAI_15_box",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.9,
+          "Y": 949.9
+        },
+        "ParentPointWithOffset2": {
+          "X": 1000.0,
+          "Y": 999.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 1000.0,
+          "Y": 999.9
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 0.1,
+          "Y": 949.9
+        },
+        "ParentPointWithOffset2": {
+          "Y": 999.9
+        },
+        "ParentPointWithOffset3": {
+          "Y": 999.9
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda04",
+      "LayerName": "",
+      "Thickness": {
+        "Value": "50"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 3,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {},
+      "RightPoint": {
+        "X": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 1,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "PAI_15_box",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 0.1,
+          "Y": 50.1
+        },
+        "ParentPointWithOffset2": {
+          "Y": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "Y": 0.1
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.9,
+          "Y": 50.1
+        },
+        "ParentPointWithOffset2": {
+          "X": 1000.0,
+          "Y": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "X": 1000.0,
+          "Y": 0.1
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="500mm ($TEXT$)" ICON="150.jpg">
+  <DRAWING>
+    <FILE3D NAME="ghost500" FORMAT=".dxf" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="500" HEIGHT="45" DEPTH="14" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.615" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Ghost 500mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="160mm ($TEXT$)" ICON="inga.jpg">
+  <DRAWING>
+    <FILE3D NAME="inga" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="200" HEIGHT="15" DEPTH="45" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.711" />
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ingá 160mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Obi_emb" ENTRYID="pux_obi" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_160_ing" MODEL="Obi_emb_met" MODELTYPE="obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_ing" MODEL="Obi_emb_met" MODELTYPE="obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_ing" MODEL="Obi_emb_met" MODELTYPE="obi_met_met_niq" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <POSITIONSERVICE />
+</ENTITY>

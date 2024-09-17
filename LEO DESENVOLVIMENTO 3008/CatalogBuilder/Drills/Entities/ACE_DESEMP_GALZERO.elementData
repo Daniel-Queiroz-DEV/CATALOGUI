@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  DefaultPlane="{assembly:Null}"
+  ElementId="ACE_DESEMP_GALZERO" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.ReceiverData>
+    <DrillingReceiverData
+      AllowedDrillsNames=""
+      Enable="False"
+      ReceiveAllDrills="True"
+      InheritAllDrillsFromParent="True"
+      InheritDrillsFromParent="True" />
+  </DrillingData.ReceiverData>
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação04"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo05"
+          ReceiverDepth="16"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          ID="06d34387-6ed2-42a7-ad7c-406b2de9169f"
+          LinkedOperationID="00000000-0000-0000-0000-000000000000"
+          UniqueID="3"
+          PlaneIndex="3"
+          Position="17,5;1025"
+          ElementId="ACE_DESEMP_GALZERO" />
+        <Drilling
+          Name="Furação05"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo05"
+          ReceiverDepth="16"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          ID="b7406501-f20d-4f5e-a97b-413f1193bd73"
+          LinkedOperationID="00000000-0000-0000-0000-000000000000"
+          UniqueID="4"
+          PlaneIndex="3"
+          Position="17,5;2032,5"
+          ElementId="ACE_DESEMP_GALZERO" />
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo05"
+          ReceiverDepth="16"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          ID="c5eeb91c-55c3-4022-9c50-683feb77a1f2"
+          LinkedOperationID="00000000-0000-0000-0000-000000000000"
+          UniqueID="5"
+          PlaneIndex="3"
+          Position="17,5;17,5"
+          ElementId="ACE_DESEMP_GALZERO" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

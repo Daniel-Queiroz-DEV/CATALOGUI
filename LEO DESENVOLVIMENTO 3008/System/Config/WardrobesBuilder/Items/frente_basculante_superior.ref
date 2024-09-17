@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_basculante" Description="Basculante" Type="Front" Visible="Y">
+  <Dimension Depth="@(#COZ_ESP_POR#+#FOL_PAI#)" Height="$P.H$+(#COZ_ESP_BAS#+#FOL_PAI#)*2-#FOL_MOD_SUP_INF#-#FOL_MOD_SUP_SUP#" Width="$P.W$+(#COZ_ESP_LAT#+#FOL_PAI#)*2-#FOL_MOD_SUP_LAT#*2" />
+  <Position X="$P.W$+(#COZ_ESP_LAT#+#FOL_PAI#)-#FOL_MOD_SUP_LAT#" Y="-$P.D$" Z="$P.H$+(#COZ_ESP_BAS#+#FOL_PAI#)-#FOL_MOD_SUP_INF#" Rotation="0">
+    <Normal A="0" B="0" C="-1" />
+  </Position>
+  <Actions>
+    <ResizeItem Side="Right" Value="-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)/2+#FOL_ENT_PT_LAR#-#COZ_FOL_INT#/2">
+      <Conditions>
+        <Or>
+          <And>
+            <Or Not="Y">
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+              <HasNeighbourItem ItemType="Drawer" Side="Left" />
+            </Or>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+              <HasNeighbourItem ItemType="Drawer" Side="Right" />
+            </Or>
+          </And>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+              <HasNeighbourItem ItemType="Drawer" Side="Right" />
+            </Or>
+            <And Not="Y">
+              <Or Not="Y">
+                <HasNeighbourItem ItemType="Front" Side="Left" />
+                <HasNeighbourItem ItemType="Drawer" Side="Left" />
+              </Or>
+              <Or>
+                <HasNeighbourItem ItemType="Front" Side="Right" />
+                <HasNeighbourItem ItemType="Drawer" Side="Right" />
+              </Or>
+            </And>
+          </And>
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Value="-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)/2+#FOL_ENT_PT_LAR#-#COZ_FOL_INT#/2">
+      <Conditions>
+        <Or>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+              <HasNeighbourItem ItemType="Drawer" Side="Left" />
+            </Or>
+            <Or Not="Y">
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+              <HasNeighbourItem ItemType="Drawer" Side="Right" />
+            </Or>
+          </And>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+              <HasNeighbourItem ItemType="Drawer" Side="Left" />
+            </Or>
+            <And Not="Y">
+              <Or>
+                <HasNeighbourItem ItemType="Front" Side="Left" />
+                <HasNeighbourItem ItemType="Drawer" Side="Left" />
+              </Or>
+              <Or Not="Y">
+                <HasNeighbourItem ItemType="Front" Side="Right" />
+                <HasNeighbourItem ItemType="Drawer" Side="Right" />
+              </Or>
+            </And>
+          </And>
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+          <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="POR_BAS_SUP" Id="porta_basculante_total">
+      <Conditions>
+        <Or>
+          <Or Not="Y">
+            <HasNeighbourItem ItemType="Front" Side="Top" />
+            <HasNeighbourItem ItemType="Drawer" Side="Top" />
+          </Or>
+        </Or>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="POR_BAS_SUP_PRA" Id="porta_basculante_parcial">
+      <Conditions>
+        <Or>
+          <Or>
+            <HasNeighbourItem ItemType="Front" Side="Top" />
+            <HasNeighbourItem ItemType="Drawer" Side="Top" />
+          </Or>
+        </Or>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="CANMIRROR" Value="FALSE" />
+    </Sets>
+  </Output>
+  <Variables>
+    <Variable Id="DrawingType" Value="UpperDumpingFront" />
+  </Variables>
+</Item>

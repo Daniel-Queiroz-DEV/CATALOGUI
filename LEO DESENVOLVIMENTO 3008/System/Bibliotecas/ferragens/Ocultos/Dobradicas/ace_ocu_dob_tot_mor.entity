@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Total c/ Amortecedor" ICON="reta.JPG">
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Dobradiça de Cobrimento Total c/ Calço c/ Amortecedor" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" TEXT="DOBAT" />
+</ENTITY>

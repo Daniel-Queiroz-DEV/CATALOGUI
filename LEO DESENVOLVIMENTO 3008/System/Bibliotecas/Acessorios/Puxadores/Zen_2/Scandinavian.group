@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Scandinavian" NAME="Scandinavian" PREFIXID="zen_sca_">
+  <DRAWINGS>
+    <DRAWING ID="Scandinavian_16mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_16mm" />
+      <DIMENSION WIDTH="30" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-15" Y="-30" Z="-5" />
+        <MAX X="15" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_16mm_WS">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_16mm_WS" />
+      <DIMENSION WIDTH="30" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-15" Y="-30" Z="-5" />
+        <MAX X="15" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_48mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_48mm" />
+      <DIMENSION WIDTH="62" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-31" Y="-30" Z="-5" />
+        <MAX X="31" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_48mm_WS">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_48mm_WS" />
+      <DIMENSION WIDTH="62" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-31" Y="-30" Z="-5" />
+        <MAX X="31" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_192mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_192mm" />
+      <DIMENSION WIDTH="206" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-103" Y="-30" Z="-5" />
+        <MAX X="103" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_192mm_WS">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_192mm_WS" />
+      <DIMENSION WIDTH="206" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-103" Y="-30" Z="-5" />
+        <MAX X="103" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_320mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_320mm" />
+      <DIMENSION WIDTH="334" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-167" Y="-30" Z="-5" />
+        <MAX X="167" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_480mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_480mm" />
+      <DIMENSION WIDTH="494" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-247" Y="-30" Z="-5" />
+        <MAX X="247" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Scandinavian_640mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Scandinavian_640mm" />
+      <DIMENSION WIDTH="654" HEIGHT="10" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-327" Y="-30" Z="-5" />
+        <MAX X="327" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sca_16_2" DEF="16mm.group" GUID="da8219ea-946e-4811-98fc-0226ed9ad899" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_16_woo_2" DEF="16mm_Wood.group" GUID="d51ddf66-fbf4-4dc9-b7bd-b9446769eb01" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_16_sto_2" DEF="16mm_Stone.group" GUID="83b490a4-ce07-42e1-9873-a57ee0b7f17d" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_48_2" DEF="48mm.group" GUID="1660c588-29c4-4635-9b7c-ac07c4ffb1d5" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_48_woo_2" DEF="48mm_Wood.group" GUID="58036a7b-6ca5-4cea-98f2-dd249aefdf71" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_48_sto_2" DEF="48mm_Stone.group" GUID="3202cccc-3cc3-4e16-aa36-258f6ece35a3" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_192_2" DEF="192mm.group" GUID="1b9a9ab9-8d58-4661-b648-2c2e1d9a7355" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_192_woo_2" DEF="192mm_Wood.group" GUID="5f31b57d-9164-4dbb-a22a-4e751c03ebe7" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_192_sto_2" DEF="192mm_Stone.group" GUID="ca729d82-e929-4418-a5a1-15a289018851" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_320_2" DEF="320mm.group" GUID="9089e365-221a-4cc8-9c13-da9e504100fc" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_480_2" DEF="480mm.group" GUID="433d0967-c4d2-4521-a467-eb32827af88a" />
+    <EXPLORERITEM TYPE="group" ID="zen_sca_640_2" DEF="640mm.group" GUID="4ac31135-1aef-4040-83f3-338edf0d913c" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

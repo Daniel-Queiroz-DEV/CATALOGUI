@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Latas" ICON="ACE_ARA_GAR.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="pt_garrafas" />
+    <DIMENSION WIDTH="105" HEIGHT="445" DEPTH="500" />
+    <LIMITS>
+      <MIN X="0" Y="-500" Z="0" />
+      <MAX X="105" Y="0" Z="445" />
+    </LIMITS>
+  </DRAWING>
+  <OPENSERVICE TYPE="DRAWER" MAX="400" />
+  <INSERTDIMENSION WIDTH="235" HEIGHT="495" DEPTH="460" TEXT="PTLATASTEL" ITEM_BASE="PTLATAS">
+    <MIN WIDTH="10" HEIGHT="10" DEPTH="10" />
+    <MAX WIDTH="1000" HEIGHT="1000" DEPTH="1000" />
+  </INSERTDIMENSION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta-Latas" VISIBLE="N" />
+    <ATTRIBUTE ID="OnlinePriceProvider" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+</ENTITY>

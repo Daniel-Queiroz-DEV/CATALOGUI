@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Curva p/ CPU ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_lat_cur.JPG">
+  <DRAWING>
+    <FILE3D NAME="CurvapCPU" />
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION HEIGHT="@(#DOR_BAN_ESP_LAT_CPORTA#+#FOL_PAI#)" WIDTH="300" DEPTH="500" ITEM_BASE="LAT01" TEXT="112">
+    <MIN WIDTH="130" HEIGHT="1" DEPTH="200" />
+    <MAX HEIGHT="26" WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

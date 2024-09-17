@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="160mm_Couro_Azul" NAME="160mm Couro Azul" PREFIXID="zen_val_160_cou_azu_">
+  <DRAWINGS />
+  <DRAWING ID="VALIGIA_160MM" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_val_A15" DEF="ZP1931_A15.entity" GUID="7c2959e6-8f54-40cd-b363-9090aa3271e2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_B15" DEF="ZP1931_B15.entity" GUID="e7e88ca4-b49a-49c5-8876-a50461a97c71" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_F15" DEF="ZP1931_F15.entity" GUID="546bc248-7300-42e2-8da2-58c981c4cc74" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_G15" DEF="ZP1931_G15.entity" GUID="d0a9b6a2-d11b-40ad-9d41-40ee0f8538d5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_L15" DEF="ZP1931_L15.entity" GUID="9fb2b0fc-311e-4696-9e74-20e9a5402577" />
+    <EXPLORERITEM TYPE="entity" ID="zen_val_M15" DEF="ZP1931_M15.entity" GUID="07ca4375-2d9c-4257-918e-c4ef58c396e7" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <INVALIDREF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_160mm_Valigia.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

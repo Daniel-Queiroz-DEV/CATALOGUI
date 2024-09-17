@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Estabilizador" ICON="estabilizador_04.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Estabilizador" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="estabilizador_04" />
+    <DIMENSION WIDTH="139" HEIGHT="185" DEPTH="240" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CINZA" NAME="CINZA" IDMATERIAL="cin_cor_004" EDIT="Y" />
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="cin_cor_006" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Quadrado V ($TEXT$)" ICON="quadrado.jpg">
+  <DRAWING>
+    <FILE3D NAME="aplique 100653" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="36" HEIGHT="200" DEPTH="6" />
+    <LIMITS>
+      <MIN X="-18" Y="-6.3" Z="-100" />
+      <MAX X="18.084" Y="0" Z="100.719" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="Obi_Cor_prt" EDIT="N" />
+    <COMPONENTDEFINITION ID="METAL" NAME="METAL" IDMATERIAL="obi_met_cro" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Aplique Quadrado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_QuartoAltura" />
+  <INSERTDIMENSION HEIGHT="200" TEXT="100.653">
+    <MIN HEIGHT="10" />
+    <MAX HEIGHT="1000" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="188" />
+</ENTITY>

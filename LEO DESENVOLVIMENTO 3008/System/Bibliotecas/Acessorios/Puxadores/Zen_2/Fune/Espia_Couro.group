@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Espia_Couro" NAME="c/ Espia de Couro" PREFIXID="zen_fun_esp_cou_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_102_2" DEF="ZP1795_102.entity" GUID="4408cc8e-9873-40eb-89b7-8925d9265ff2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_648_2" DEF="ZP1795_648.entity" GUID="5e1a04d5-3fad-4a53-a0cd-1008503e4bf7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_599_2" DEF="ZP1795_599.entity" GUID="bd114372-8753-462d-9826-a03acaf01b67" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_955_2" DEF="ZP1795_955.entity" GUID="14d316db-a907-4e42-bdcc-7efda143980b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_A00_2" DEF="ZP1795_A00.entity" GUID="4a3bca88-01d2-43e7-90ef-1b0482fc131c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_B00_2" DEF="ZP1795_B00.entity" GUID="b7625ccc-2d34-4af5-83cb-c0155c9f3461" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_F00_2" DEF="ZP1795_F00.entity" GUID="4d634adf-6b80-4d0d-a47a-95c13e2987f0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_G00_2" DEF="ZP1795_G00.entity" GUID="ca85b617-ffd7-4c0d-a5fa-5a1532ac0bc1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_L00_2" DEF="ZP1795_L00.entity" GUID="e315f57a-69db-4490-9745-ce165508885f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_fun_ZP1795_M00_2" DEF="ZP1795_M00.entity" GUID="921f0ae1-e178-494d-8aa7-7d4de0baf664" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="FUNE_PONTO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

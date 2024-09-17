@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Tandem_2" NAME="Oculta FGV/TN" PREFIXID="Sta_Blu_Blu_Tan_" INVISIBLE="N" MODELINVISIBLE="N">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="start_met_001" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <BUDGET>
+    <MARGIN IDCATEGORY="FER" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" VOLUME="VOLFER" FERRAGEM="SIM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Blu_Tan_tot_cbl_2_2" DEF="Sta_Blu_Blu_Tan_tot_cbl_2.entity" GUID="38acfd3d-2731-4ed7-8e90-fb407dd2b70f" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Blu_Tan_tot_tip_2_2" DEF="Sta_Blu_Blu_Tan_tot_tip_2.entity" GUID="2ef5445e-6090-4f34-97a7-c1d5fa3e9e7b" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Blu_Tan_fur_2" DEF="Sta_Blu_Met_Fur_3.entity" GUID="185f3ce8-55b6-4b05-8b56-09cf81b1e8dc" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_tri_tot_sem_blu_2" DEF="sta_blu_tan_tri_tot_sem_blu_3.entity" GUID="b959e265-c197-4535-83d6-178c6dcd57f4" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_tri_tot_2" DEF="Trilho_Total_2.entity" GUID="807dba18-3412-49b7-b729-a00cc1186600" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_tri_to2_2" DEF="Trilho_Total_M_2.entity" GUID="e9a06a26-158f-4a27-9ae8-680fe0fcd20c" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_pin_par_2" DEF="sta_blu_tan_pin_par_2.entity" GUID="771b3f90-96c7-4544-9e61-9b88173ed910" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tan_Eng_2" DEF="Sta_Blu_Tan_Eng_2.entity" GUID="63d0974a-82c6-4783-b3e9-dbc1e534df21" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

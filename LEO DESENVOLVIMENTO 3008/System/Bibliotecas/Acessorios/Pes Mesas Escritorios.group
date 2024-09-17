@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pes Mesas Escritorios" NAME="Pés Mesas Escritórios" PREFIXID="ACE_PES_ESC_MES_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <MODELS>
+    <MODEL IDMODEL="ace_pes_metalicos_mesas" ENTRYID="ACE" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ACE_PES_ESC_MES_LIN" DEF="Mesas Lineares.group" GUID="8d6a4e56-1f87-4517-aa67-a78df9a713dc" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PES_ESC_MES_RED" DEF="Mesas Redondas.group" GUID="051bfd75-e981-4d40-b364-aa7562d50f03" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PES_ESC_MES_REU" DEF="Mesas de Reuniao.group" GUID="dde38e4c-01fb-4722-9ab3-daea72b1623b" />
+  </EXPLORERITEMCOLLECTION>
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+</GROUP>

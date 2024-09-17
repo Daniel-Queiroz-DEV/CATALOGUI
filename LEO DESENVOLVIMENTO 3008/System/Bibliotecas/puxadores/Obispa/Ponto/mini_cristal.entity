@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mini Cristal ($TEXT$)" ICON="mini_cristal.jpg">
+  <DRAWING>
+    <FILE3D NAME="mini_cristal" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="30" HEIGHT="30" DEPTH="19" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <INSERTDIMENSION TEXT="100.592" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_min_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Cristal c/ Cristal Swarovski Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_esq" Description="Esquerda" Inverted="Y" Type="Front" Visible="Y">
+  <Dimension Depth="(#ESC_ESP_POR#+#FOL_PAI#)" Height="$P.H$+(#ESC_ESP_BAS#+#FOL_PAI#)*2-#ESC_FOL_INF_POR#-#ESC_FOL_MOD_SUP#" Width="$P.W$/2+(#ESC_ESP_LAT#+#FOL_PAI#)-#ESC_FOL_ENT_POR#/2-#ESC_FOL_ENT_PT_LAR#" />
+  <Position X="-(#ESC_ESP_LAT#+#FOL_PAI#)+#ESC_FOL_ENT_PT_LAR#" Y="-$P.D$" Z="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_INF_POR#" />
+  <Actions>
+    <ResizeItem Value="-(#ESC_ESP_LAT#+#FOL_PAI#)+(#ESC_ESP_MON#+#FOL_PAI#)/2+#ESC_FOL_ENT_PT_LAR#-#ESC_FOL_ENT_POR#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Left" />
+          <HasNeighbourItem ItemType="Drawer" Side="Left" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_INF_POR#+(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+          <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_MOD_SUP#+(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)">
+      <Conditions>
+        <IsUpperGap />
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="POR_INF" Id="frente_esq_lat">
+      <Conditions>
+        <Or Not="Y">
+          <HasNeighbourItem ItemType="Front" Side="Left" />
+          <HasNeighbourItem ItemType="Drawer" Side="Left" />
+        </Or>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="POR_INF_MON" Id="frente_esq_div">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Left" />
+          <HasNeighbourItem ItemType="Drawer" Side="Left" />
+        </Or>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="CANMIRROR" Value="FALSE" />
+    </Sets>
+  </Output>
+  <Variables>
+    <Variable Id="DrawingType" Value="RightFront" />
+  </Variables>
+</Item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Papeleira c/ Saboneteira Liquida ($TEXT$)" ICON="BA0514.jpg">
+  <DRAWING>
+    <FILE3D NAME="soho papeleira com saboneteira liquida" />
+    <DIMENSION WIDTH="140" HEIGHT="210" DEPTH="118.5" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="140" HEIGHT="210" DEPTH="118" TEXT="BA0514" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soho Papeleira Com Saboneteira Liquida @Zen_soho(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0514" MODEL="Zen_soho" MODELTYPE="Zen_sou_cro_ino" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0514" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_met" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0514" MODEL="Zen_soho" MODELTYPE="Zen_sou_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0514" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0514" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Construtor de Paineis" NAME="Painéis (Composição)" PREFIXID="PAI_CON_PAI" INVISIBLE="Y">
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" />
+    <MARGIN IDCATEGORY="PAI_TAM" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI" DEF="PAI_PAI.entity" GUID="b3e0d231-37cb-41c8-a044-e504475e4dc2" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_TESTE" DEF="PAI_PAI_7.entity" GUID="c50c79e0-7192-4f68-8c1f-4f05df2557d1" />
+    <EXPLORERITEM TYPE="entity" ID="CANALETADO_3_POL_2" DEF="CANALETADO_3_POL_2.entity" GUID="27c80d5d-cdfc-4369-ab62-c5e571b32dd5" />
+    <EXPLORERITEM TYPE="entity" ID="CANALETADO_4_POL" DEF="CANALETADO_4_POL.entity" GUID="6dbd4648-5b6c-4600-9f2c-d8ed494653da" />
+    <EXPLORERITEM TYPE="entity" ID="CANALETADO_6_POL" DEF="CANALETADO_6_POL.entity" GUID="97fa62d0-76b2-416f-b293-9b72480d1303" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_PLAN" DEF="PAI_PAI_PLAN.entity" GUID="f3d0d21e-72a1-4e82-85c8-f242c84629fb" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_L" DEF="PAI_PAI_L_2.entity" GUID="e6037f3f-136f-4a30-b023-6b11bad547de" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_L_2" DEF="PAI_PAI_L_2_2.entity" GUID="5e4b0c8d-220b-459b-b616-af297d91355b" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_5" DEF="PAI_PAI_5.entity" GUID="a1ebfd58-bac9-4c57-aa0d-1ff1c02ee730" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_4" DEF="PAI_PAI_4.entity" GUID="42583b8c-6758-4dc8-a578-edb0ff9664b1" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_4_2" DEF="PAI_PAI_4_3.entity" GUID="9874a675-1163-4489-b1bc-533fc2e3388d" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_3" DEF="PAI_PAI_3.entity" GUID="1bc90245-d637-4ee6-9343-00b70776b45d" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_LUM" DEF="PAI_PAI_LUM.entity" GUID="5ff41065-18c7-4191-baf4-bbc4c0b61283" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_LUM_18" DEF="PAI_PAI_LUM_18.entity" GUID="85df8ab6-d4ab-4640-a82b-8b05112e1901" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_LUM_25" DEF="PAI_PAI_LUM_25.entity" GUID="7df878f4-d6e2-4291-8d49-8f9bfd948147" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_2" DEF="PAI_PAI_2.entity" GUID="4efc277f-d5aa-4bde-96b9-1b599ec89e38" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_2_3" DEF="PAI_PAI_2_3.entity" GUID="256c4620-52c4-41ea-a538-613bdb37777f" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_2_3_2_2" DEF="PAI_PAI_2_3_3_2.entity" GUID="f5d568e5-565e-496d-bf11-53e4b51bc2d4" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_2_3_2_2_2" DEF="PAI_PAI_2_3_3_2_3.entity" GUID="05df35c1-0381-4f06-8865-67a3083a5d2f" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_EDIT" DEF="PAI_PAI_2_3_3_2_3_2.entity" GUID="dc0e97ad-17f1-4d68-b2b2-8e9407e390e3" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_POR_RIP" DEF="PAI_PAI_2_3_3_2_2.entity" GUID="cc5076a4-7fd8-4039-8414-6a440cda205b" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_FILETE" DEF="PAI_PAI_2_3_2.entity" GUID="0605cb8d-b00c-4b2d-bd6c-d4117c0839f9" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_FILETE_RIP25" DEF="PAI_PAI_2_3_2_3.entity" GUID="11a81d59-9acb-4a11-bd53-13a31b76a3aa" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_FILETE_2" DEF="PAI_PAI_2_3_2_2.entity" GUID="cf6b7bce-ec54-4f48-bcc0-fc4f80067292" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_2_2" DEF="PAI_PAI_2_2.entity" GUID="226be439-78be-46d1-aee2-4fb55744348f" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_CON_PAI_6e9" DEF="PAI_CON_PAI_6e9.entity" GUID="6d99feb7-efda-4b7c-920a-9358a2ad449e" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_CON_PAI_6e9_PLAN" DEF="PAI_CON_PAI_6e9_PLAN.entity" GUID="0f0b38f4-2d47-498d-83b2-be1a779f32c7" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_MAO_AMIGA" DEF="painel_mao_amiga.entity" GUID="b6f22468-8497-45b8-b884-0a4c72be12a5" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_MAO_AMIGA_18" DEF="painel_mao_amiga_2.entity" GUID="46b52f9c-37dd-4214-87b6-de1d10f71fd2" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_MAO_AMIGA_25" DEF="painel_mao_amiga_2_2.entity" GUID="cf0bc03a-503a-4a66-aced-f35c81347c79" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_LED" DEF="PAI_PAI_4_2.entity" GUID="11fd9fa3-e7b0-4e61-a89b-32eb50c417ab" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_TAMP" DEF="PAI_PAI_6.entity" GUID="dece0df7-1b64-4660-981a-6c5b19a1618f" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_TAMP_2" DEF="PAI_PAI_6_2.entity" GUID="3716830e-b73d-4a9b-9a42-5591844db2d2" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_4" DEF="painel_porta_freggio_4_2_3.entity" GUID="ca62b35d-cf10-40a6-a20b-187448041cbb" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_4_3" DEF="painel_porta_freggio_4_2_3_3.entity" GUID="e6747a8b-132f-4241-9ee8-fbdd2adbddb1" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_4_3_2" DEF="painel_porta_freggio_4_2_3_3_2.entity" GUID="ee5e4b28-814c-4921-8992-2a3519d2c7d0" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_GAL" DEF="painel_porta_freggio_4_2_3_4.entity" GUID="52a0dd87-d64a-40d7-9c1e-77c32e8d7796" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_GAL_VID" DEF="painel_porta_freggio_4_2_3_4_2.entity" GUID="8419c7ba-e183-428b-9ac7-db019901eaeb" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_4_2" DEF="painel_porta_freggio_4_2_3_2.entity" GUID="8b3476ad-5a46-4c66-9c66-bdfbabd4f278" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_1" DEF="painel_porta_freggio_4_2_3_2_3.entity" GUID="fa182b37-61e2-40f8-b7a9-862e77c713ee" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA" DEF="painel_porta_freggio_4_2_3_2_2.entity" GUID="67f5133c-870a-4f40-af77-b25430650687" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_3" DEF="painel_porta_freggio_4_2_3_2_2_3.entity" GUID="e518f6fa-242c-49b6-b29b-08a7b377c882" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_3_2" DEF="painel_porta_freggio_4_2_3_2_2_3_2.entity" GUID="1ffe803f-3d6f-41c5-a127-e0ee3946dee0" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_3_3" DEF="painel_porta_freggio_4_2_3_2_2_3_3.entity" GUID="86f88c55-a12d-4620-9be5-81c0e85630aa" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_3_4" DEF="painel_porta_freggio_4_2_3_2_2_3_4.entity" GUID="ab93efcc-6106-4018-90c1-3ce1431d783c" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_3_2_2" DEF="painel_porta_freggio_4_2_3_2_2_3_2_2.entity" GUID="3d6930be-3fb5-4a46-a27c-9ee22d327d6a" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_POR_JOIA_3_3_2" DEF="painel_porta_freggio_4_2_3_2_2_3_3_2.entity" GUID="7bb86aa8-2f15-46cb-a593-f124dc225c43" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION MODELTYPE="acabamento_768" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_773" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_770" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_771" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_769" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_774" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_772" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

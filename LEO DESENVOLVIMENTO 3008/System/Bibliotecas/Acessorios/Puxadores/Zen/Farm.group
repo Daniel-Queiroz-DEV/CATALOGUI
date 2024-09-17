@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Farm" NAME="Farm" PREFIXID="zen_far_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="FARM_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\farm" />
+      <DIMENSION WIDTH="55" HEIGHT="80" DEPTH="55" />
+      <LIMITS>
+        <MIN X="-29.278" Y="-55.088" Z="-67.611" />
+        <MAX X="25.722" Y="-0.088" Z="12.389" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_far_pon_cou_azu" DEF="Ponto_Couro_Azul.group" GUID="e692bf8a-b607-4f82-bd56-dcdb1b3a175b" />
+    <EXPLORERITEM TYPE="group" ID="zen_far_pon_cou_bra" DEF="Ponto_Couro_Branco.group" GUID="d9df3a37-4b9a-4da0-9dac-7b020eb5f505" />
+    <EXPLORERITEM TYPE="group" ID="zen_far_pon_cou_mar" DEF="Ponto_Couro_Marrom.group" GUID="11333196-e520-46f0-8b33-31a415234a9c" />
+    <EXPLORERITEM TYPE="group" ID="zen_far_pon_cou_pre" DEF="Ponto_Couro_Preto.group" GUID="39a81ec2-384d-4ef3-8ff0-a13e2a2d2b5e" />
+    <EXPLORERITEM TYPE="group" ID="zen_far_pon_cou_ver" DEF="Ponto_Couro_Vermelho.group" GUID="71811cb6-2731-479e-bcfe-59d98dd6c803" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

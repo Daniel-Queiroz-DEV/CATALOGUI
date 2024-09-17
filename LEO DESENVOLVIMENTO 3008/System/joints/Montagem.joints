@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JOINTS>
+  <JOINT FIRST="com_coz_lat_lat_4_2" SECOND="com_coz_lat_lat_4_2" SUBSTITUTE="com_coz_lat_lat_4_2" TYPE="Left-Right" TREATASAGGREGATE="N" NAME="Montagem Base" />
+  <JOINT FIRST="com_coz_tra_sap" SECOND="com_coz_tra_gav" SUBSTITUTE="com_coz_tra_sap_inv" TYPE="Bottom-Top" TREATASAGGREGATE="N" />
+  <JOINT FIRST="com_coz_tra_gav_cons" SECOND="com_coz_tra_gav" SUBSTITUTE="com_coz_tra_gav_cons_subs" TYPE="Bottom-Top" TREATASAGGREGATE="Y" WIDTH="$W1$" MOVEPARENT="N" />
+  <JOINT FIRST="com_coz_tra_tra_mar" SECOND="com_coz_tra_tra_mar" SUBSTITUTE="com_coz_tra_tra_mar" />
+  <JOINT FIRST="com_com_sest_div_tra_mar_4" SECOND="com_com_sest_div_tra_mar_4" SUBSTITUTE="com_com_sest_div_tra_mar_4" />
+  <JOINT FIRST="com_com_sest_div_tra_mar_2_2" SECOND="com_com_sest_div_tra_mar_2_2" SUBSTITUTE="com_com_sest_div_tra_mar_2_2" />
+  <JOINT FIRST="com_coz_tra_tra_3_2_2" SECOND="com_coz_tra_tra_3_2_2" SUBSTITUTE="com_coz_tra_tra_3_2_2" />
+  <JOINT FIRST="com_com_sest_div_tra_mar_3" SECOND="com_com_sest_div_tra_mar_3" SUBSTITUTE="com_com_sest_div_tra_mar_3" />
+  <JOINT FIRST="com_coz_tra_tra_18_4" SECOND="com_coz_tra_tra_18_4" SUBSTITUTE="com_coz_tra_tra_18_4" />
+</JOINTS>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="cadeira_21.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_21" />
+    <DIMENSION WIDTH="637" HEIGHT="840" DEPTH="518" />
+  </DRAWING>
+  <INSERTDIMENSION MODE="Nothing" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira Saarinen" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_ESTRUTURA" NAME="DEC_INOX" IDMATERIAL="cin_cor_001" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_ASSENTO" NAME="DEC_ASSENTO" IDMATERIAL="tec_pretos_lisos_tecido 004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

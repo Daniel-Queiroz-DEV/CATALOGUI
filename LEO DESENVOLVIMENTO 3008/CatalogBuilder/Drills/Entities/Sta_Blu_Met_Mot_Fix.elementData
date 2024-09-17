@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="Sta_Blu_Met_Mot_Fix" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="0"
+          PlaneType="Superior"
+          OperationPrice="{assembly:Null}"
+          Position="20.5;$D$/2+16"
+          ElementId="Sta_Blu_Met_Mot_Fix" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="1"
+          PlaneType="Superior"
+          OperationPrice="{assembly:Null}"
+          Position="20.5;$D$/2-16"
+          ElementId="Sta_Blu_Met_Mot_Fix" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="2"
+          PlaneType="Superior"
+          OperationPrice="{assembly:Null}"
+          Position="7;$D$/2"
+          ElementId="Sta_Blu_Met_Mot_Fix" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

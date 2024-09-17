@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Construtor de Paineis_3_2_2" NAME="Painéis Usinagem 25mm" PREFIXID="PAI_CON_PAI" INVISIBLE="Y">
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" />
+    <MARGIN IDCATEGORY="PAI_TAM" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_23_3" DEF="com_coz_bas_cur_2_2_2_2_3_2_2_2_2.entity" GUID="7940a392-279b-47ee-a04d-b5e3c06ec90a" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_34_3" DEF="com_coz_bas_cur_2_2_2.entity" GUID="69046fb1-0c6e-479e-976e-9ce6f7354fd8" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_45_3" DEF="com_coz_bas_cur_2_2_2_2_4.entity" GUID="d70fbcd8-a3d5-4f8c-8c5d-2b647111983e" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_56_3" DEF="com_coz_bas_cur_2_2_2_2.entity" GUID="eb22d14d-6eb8-4d07-8c6e-2bf46ad3f797" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_67_3" DEF="com_coz_bas_cur_2_2_2_2_3.entity" GUID="a244195f-e7ff-425e-baa0-6c34d467f113" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_78_3" DEF="com_coz_bas_cur_2_2_2_2_3_2.entity" GUID="722e7b09-942f-45f4-a6fe-c6ceaf5df525" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_89_3" DEF="com_coz_bas_cur_2_2_2_2_3_2_2.entity" GUID="4a7f9521-c943-45d2-a605-ac5dfb509e77" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_910_3" DEF="com_coz_bas_cur_2_2_2_2_3_2_2_2.entity" GUID="0988741b-cbd9-4fc4-ae21-9ce687c475f4" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_dia_can_25" DEF="com_coz_bas_dia_4.entity" GUID="79171d6e-a17a-4c5e-afa4-7b6ef53d0b45" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cha_inf_25" DEF="com_coz_bas_cha_inf.entity" GUID="25305711-1a9a-40cf-bfc3-28f04c7f2cb0" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_circulo_25" DEF="com_coz_bas_cha_inf_esq_2_3.entity" GUID="19bf9196-56b3-4979-9e5d-8d1a4bf7363e" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_circulo_usi_25" DEF="com_coz_bas_cha_inf_esq_2.entity" GUID="ccc23c1b-9d51-4739-b6e2-b3c960355397" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_curva_25" DEF="com_coz_bas_cur_3.entity" GUID="56a736fe-565e-4252-9a81-881f75576605" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_curva_2_25" DEF="com_coz_bas_cur_3_3.entity" GUID="8666e782-a9d5-47bb-bd5f-7cd774764718" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_pen_25" DEF="com_coz_bas_cur_2_2.entity" GUID="d4105f56-3aa1-4912-86a1-883407c8044c" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_tra_4" DEF="com_coz_bas_cur_2_2_3.entity" GUID="2062bffe-1836-42ea-a35d-cc21d3fe5e8f" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_cur_tra_25" DEF="com_coz_bas_cur_2_2_4.entity" GUID="21acf3c4-5a2e-4ff6-a609-30f219013cfc" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_bas_dia_tria_25" DEF="com_coz_bas_dia_2.entity" GUID="fffaafb6-f3ed-451c-b659-91821bb887bf" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_PLAN_25" DEF="PAI_PAI_PLAN_2_3.entity" GUID="df4eac68-babc-4573-a395-c92c503cebb4" />
+    <EXPLORERITEM TYPE="entity" ID="furo_pai_25" DEF="com_coz_bas_dia_2_3.entity" GUID="98f62866-7bfb-4ea4-8646-24fd78e3669a" />
+    <EXPLORERITEM TYPE="entity" ID="furo_red_25" DEF="com_coz_bas_cha_inf_esq_2_3_2.entity" GUID="6c533f29-ead9-47b6-b24b-5faef79759f9" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_709" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_708" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_710" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_711" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_078" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_050" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_632" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_743" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="start_mad_663_1" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_052" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_633" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_059" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_082" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_083" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_085" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_086" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_672" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_030" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_738" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_124" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_026" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_126" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_641" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_022" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_127" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_742" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_735" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_061" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_05" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_714" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_715" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_064" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_065" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_01" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_067" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_665" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_669" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_671" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_076" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_021" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_664" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_092" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_666" CONDITION="$H$ == 6 || $H$ == 15 || $H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_739" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_070" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_740" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_036" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_702" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_744" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_707" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_703" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_130" CONDITION="$H$ == 6 || $H$ == 15 || $H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_717" CONDITION="$H$ == 6 || $H$ == 15 || $H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_131" CONDITION="$H$ == 6 || $H$ == 15 || $H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_706" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_679" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_701" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_678" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_677" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_676" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="PAI_CON_PAI_25" MODEL="com_paineis" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_772" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_768" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_773" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_770" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_771" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_769" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_774" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

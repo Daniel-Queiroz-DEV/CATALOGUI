@@ -1,0 +1,66 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_290"
+      },
+      {
+        "Name": "Furação02",
+        "Condition": {
+          "Expression": "$PD$ == '450'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-387",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_290"
+      },
+      {
+        "Name": "Furação03",
+        "Condition": {
+          "Expression": "$PD$ == 500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-451",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_290"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Met_290"
+}

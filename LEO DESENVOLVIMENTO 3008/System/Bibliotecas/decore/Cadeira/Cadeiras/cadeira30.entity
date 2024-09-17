@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="Cadeira30.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira30" />
+    <DIMENSION WIDTH="600" HEIGHT="980" DEPTH="700" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CORPO" NAME="CORPO" IDMATERIAL="lar_cor_004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

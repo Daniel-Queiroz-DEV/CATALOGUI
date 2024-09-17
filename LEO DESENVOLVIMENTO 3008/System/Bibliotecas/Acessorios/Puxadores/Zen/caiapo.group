@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Caiapó" DIRECTORY="caiapo" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="CAIAPO_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIAPO_32MM" />
+      <DIMENSION WIDTH="55.6" HEIGHT="52.8" DEPTH="20.6" />
+      <LIMITS>
+        <MIN X="-27.824" Y="-20.643" Z="-37.935" />
+        <MAX X="27.824" Y="0" Z="14.884" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_caipo_32" DEF="32mm.group" GUID="0437aba2-5cd2-43e2-be23-365995825452" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

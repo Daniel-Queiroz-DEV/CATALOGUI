@@ -1,0 +1,36 @@
+{
+  "ElementId": "com_dor_arm_pra_abl",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "1106,925",
+        "Y": "725"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_dor_arm_pra_abl"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "275",
+        "Y": "-101,1084"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_dor_arm_pra_abl"
+    }
+  ]
+}

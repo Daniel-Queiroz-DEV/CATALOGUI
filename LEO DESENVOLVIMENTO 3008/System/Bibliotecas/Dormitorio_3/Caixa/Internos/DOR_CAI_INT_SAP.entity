@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Corpo Sapateira $D$" INVISIBLE="N" ICON="montagem_3_4.jpg" MODELINVISIBLE="N">
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ISDRAWABLE="Y" ID="ace_cor_simples">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CANCHANGESELECTIONMODEL="Y" ID="Parcial" DESCRIPTION="Corrediça" KEEPCHANGEDDIMENSION="N" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION DEPTH="$PD$" WIDTH="$PW$" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="VOLUME" VALUE="SV" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="$PW$" Y="-$PD$" Z="$PH$/2-18.5" ROTATION="180" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="com_dor_arm_pra_sap" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="corpo_gav" CONCURRENT="N" DESCRIPTION="Base" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" DEFAULT="N" CONSTANT="Y" ALWAYSVISIBLE="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="@(15+#FOL_PAI#)" DEPTH="$PD$" WIDTH="$pw$" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="VOLUME" VALUE="SV" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#DOR_BAS_SAP_FT_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#DOR_BAS_SAP_FT_DIR#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#DOR_BAS_SAP_FT_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#DOR_BAS_SAP_FT_FRONTAL#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="0" Y="-$PD$+$D$" Z="$ph$/2-$h$/2" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="com_coz_div_fre_sap_2">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag6350480958730928381" CONCURRENT="Y" DESCRIPTION="Frente" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" DEFAULT="Y" CONSTANT="N" ALWAYSVISIBLE="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="@(15+#FOL_PAI#)" WIDTH="$pw$+#LARG_CORREDICA#*2-#DOR_SAP_EST_AFA_ESQ#-#DOR_SAP_EST_AFA_DIR#" DEPTH="#DOR_SAP_EST_AFA_INF#+#DOR_SAP_EST_AFA_SUP#+(15+#FOL_PAI#)" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="VOLUME" VALUE="SV" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#DOR_FRE_SAP_FT_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#DOR_FRE_SAP_FT_DIR#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#DOR_FRE_SAP_FT_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#DOR_FRE_SAP_FT_FRONTAL#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="#DOR_SAP_EST_AFA_ESQ#-#LARG_CORREDICA#" Y="-$PD$" Z="$ph$/2+$d$-(15+#FOL_PAI#)/2-#DOR_SAP_EST_AFA_INF#" ROTATION="90" />
+          <NORMAL A="0" B="-1" C="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <EVENTS>
+    <ONMODELAGGREGATECHANGED>
+      <ACTIONS>
+        <REPROCESSAGGREGATES />
+      </ACTIONS>
+    </ONMODELAGGREGATECHANGED>
+  </EVENTS>
+  <REFERENCE COMPLETE="$TEXT$.$MODEL$" GRUPO="Dormitórios" PE="@com_*(TAPA_FURO_NIVELADOR)@" MODEL="@COM_*@" TIPO="$POR_FRE_FRE.Frente.REFERENCE(TIPO)$" ESP_FRE="#ESP_POR_GEN#+#FOL_PAI#" />
+  <REMOVEAGGREGATECOLLECTION>
+    <REMOVEAGGREGATE ID="ace_cor_simples" IDINFORMATION="Parcial" />
+    <REMOVEAGGREGATE ID="ace_pux_IL06_4_2" IDINFORMATION="Ag6350480958730928381_2" />
+  </REMOVEAGGREGATECOLLECTION>
+  <OPENSERVICE TYPE="DRAWER" MAX="$D$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="DF - Sapateira $W$x$H$x$D$mm @(250+#DOR_ESP_FRE_SAP#+#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_POR_GEN" VALUE="(#DOR_ESP_FRE_SAP#+#FOL_PAI#)" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="500" HEIGHT="@(15+#FOL_PAI#)" DEPTH="450" TEXT="COSAPDF" ITEM_BASE="COSAPDF">
+    <MIN WIDTH="50" />
+    <MAX WIDTH="10000" />
+  </INSERTDIMENSION>
+  <CONCURRENTSCOLLECTION>
+    <CONCURRENTS>
+      <CONCURRENT AGGREGATEID="ace_pux_IL06_4_2" AGGREGATEINFORMATIONID="Ag6350480958730928381_2" />
+      <CONCURRENT AGGREGATEID="com_coz_div_fre_sap_2" AGGREGATEINFORMATIONID="Ag6350480958730928381" />
+    </CONCURRENTS>
+  </CONCURRENTSCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_012" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_04" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_06" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_010" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_034" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_029" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_03" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_011" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_013" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_031" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_033" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_dor_arm_pra_sap" MODEL="com_caixas" MODELTYPE="acabamento_035" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_013" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_011" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_03" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_034" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_026" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_029" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_022" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_00" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_010" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_012" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_04" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_031" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_06" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_020" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_030" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_033" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_025" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_div_fre_sap_2" ID="POR_PAI_GAVETA" MODEL="com_gavetas" MODELTYPE="acabamento_035" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

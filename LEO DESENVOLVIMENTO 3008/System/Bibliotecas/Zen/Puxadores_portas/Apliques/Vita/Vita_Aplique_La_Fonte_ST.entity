@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="p/ Fech La Fonte ST ($TEXT$)" ICON="Vita_Aplique.jpg" CHECKED="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="46" HEIGHT="46" DEPTH="49" TEXT="ZP0764.04" ACAB="">
+    <MIN DEPTH="20" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita Aplique para Fechadura La Fonte ST @zen*(NAME)@ (PAR)" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

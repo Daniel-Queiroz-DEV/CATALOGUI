@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Cobre ($TEXT$.$D.ACAB$)" ICON="Sorento Granado.png">
+  <INSERTDIMENSION TEXT="ZP5451.416" ACAB="648" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_vec_cob" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_cobre_vec_rec_" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sorento Granado 416mm Vecchio Cobre" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="cup" NAME="Cup" PREFIXID="zen_cup_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cup_pon" DEF="Ponto.group" GUID="0e31d236-b788-4090-aca8-0013dd3ea42f" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="CUP_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CUP_PONTO" />
+      <DIMENSION WIDTH="24.6" HEIGHT="24.6" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-12.303" Y="-26" Z="-12.303" />
+        <MAX X="12.303" Y="0" Z="12.303" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

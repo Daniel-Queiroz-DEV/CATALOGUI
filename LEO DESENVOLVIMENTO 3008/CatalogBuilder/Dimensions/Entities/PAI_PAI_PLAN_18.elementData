@@ -1,0 +1,76 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "333,0714",
+        "Y": "525"
+      },
+      "DistanceFromShape": 25.0,
+      "DistanceFromElement": 25.0,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, 25",
+      "DirectionFromSecondElement": "0, 25",
+      "ElementId": "PAI_PAI_PLAN_18"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "554,1883",
+        "Y": "398,4291"
+      },
+      "DistanceFromShape": 54.1882935,
+      "DistanceFromElement": 54.1882935,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "54, 1882934570313",
+      "DirectionFromSecondElement": "54, 1882934570313",
+      "ElementId": "PAI_PAI_PLAN_18"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 0,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "-46,85866",
+        "Y": "326,3523"
+      },
+      "DistanceFromShape": -46.8586578,
+      "DistanceFromElement": -46.8586578,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 2,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "-46, 8586578369141",
+      "DirectionFromSecondElement": "-46, 8586578369141",
+      "ElementId": "PAI_PAI_PLAN_18"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "278,0976",
+        "Y": "-43,80475"
+      },
+      "DistanceFromShape": -43.80475,
+      "DistanceFromElement": -43.80475,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 3,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, -43",
+      "DirectionFromSecondElement": "0, -43",
+      "ElementId": "PAI_PAI_PLAN_18"
+    }
+  ],
+  "ElementId": "PAI_PAI_PLAN_18"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Chanfrada Sup Esq ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_bas_cha_inf_esq.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_bas_cha_sup_esq" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-400" />
+      <PONTO2DA X="150" Y="-550" />
+      <PONTO2DA X="300" Y="-550" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="400" FORMULA="#I#">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-24.3457" V="-371.0352" />
+              <CORNER2 U="30.43946" V="-437.4219" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="150" FORMULA="$W$-#J#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="134.8535" V="-527.0117" />
+              <CORNER2 U="167.0801" V="-568.2617" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="103.2715" V="-515.4102" />
+              <CORNER2 U="328.8574" V="-579.2188" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="300" FORMULA="$W$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="278.0849" V="15.38966" />
+              <CORNER2 U="319.1932" V="-620.8548" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="@(#COZ_ESP_BAS#+#FOL_PAI#)" DEPTH="550" ITEM_BASE="BAS01" TEXT="022">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="fer_per_fer_bas">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="($PW$ &gt;=200)">
+          <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Minifix" CANCHANGESELECTIONMODEL="Y" ALWAYSVISIBLE="N" DESCRIPTION="Dir" KEEPCHANGEDDIMENSION="N" GROUP="Perfil" INSERTFUNCTION="FERRAGEM" REPOSITION="N" DEFAULT="N" CONCURRENT="N" REPLACEFUNCTION="N">
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <DIMENSION HEIGHT="$PH$" DEPTH="$PD$" />
+            <POSITION X="$PW$" Y="0" Z="$H$" />
+            <NORMAL A="0" B="0" C="-1" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Base Chanfrada Superior Esquerda" VISIBLE="N" />
+    <ATTRIBUTE ID="I" VALUE="400" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="J" VALUE="150" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Bari" NAME="Bari" PREFIXID="zen_bari_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bari_64_2" DEF="64mm.group" GUID="63c002c5-a349-484a-a9e3-3c36acba693a" />
+    <EXPLORERITEM TYPE="group" ID="zen_bari_128_2" DEF="128mm.group" GUID="84fbe26c-8d87-42ed-b403-f1ca22f19cf4" />
+    <EXPLORERITEM TYPE="group" ID="zen_bari_224_2" DEF="224mm.group" GUID="1ed83896-d7a7-4a24-aa7d-3af745911153" />
+    <EXPLORERITEM TYPE="group" ID="zen_bari_320_2" DEF="320mm.group" GUID="47ad6a11-260d-493c-9a7c-cf5a0da05836" />
+    <EXPLORERITEM TYPE="group" ID="zen_bari_448_2" DEF="448mm.group" GUID="20006c76-2fb0-4f2d-822d-e861493f59b9" />
+    <EXPLORERITEM TYPE="group" ID="zen_bari_640_2" DEF="640mm.group" GUID="93834b11-2ec6-4945-a925-2532a744b7dc" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BARI_64mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\bari_64mm" />
+      <DIMENSION WIDTH="78" HEIGHT="24" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-39" Y="-23" Z="-12" />
+        <MAX X="39" Y="0" Z="12" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BARI_128mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\bari_128mm" />
+      <DIMENSION WIDTH="142" HEIGHT="24" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-71" Y="-23" Z="-12" />
+        <MAX X="71" Y="0" Z="12" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BARI_224mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\bari_224mm" />
+      <DIMENSION WIDTH="238" HEIGHT="24" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-119" Y="-23" Z="-12" />
+        <MAX X="119" Y="0" Z="12" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BARI_320mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\bari_320mm" />
+      <DIMENSION WIDTH="334" HEIGHT="24" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-167" Y="-23" Z="-12" />
+        <MAX X="167" Y="0" Z="12" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BARI_448mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\bari_448mm" />
+      <DIMENSION WIDTH="462" HEIGHT="24" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-231" Y="-23" Z="-12" />
+        <MAX X="231" Y="0" Z="12" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BARI_640mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\bari_640mm" />
+      <DIMENSION WIDTH="654" HEIGHT="24" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-327" Y="-23" Z="-12" />
+        <MAX X="327" Y="0" Z="12" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

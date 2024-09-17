@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Affilato ($TEXT$)" ICON="affilato.jpg">
+  <DRAWING>
+    <FILE3D NAME="affilato" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="298" HEIGHT="11" DEPTH="28" />
+    <LIMITS>
+      <MIN X="-149" Y="-26.096" Z="-5" />
+      <MAX X="149.649" Y="0" Z="5.951" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.550" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_288_aff" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_288_aff" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_288_aff" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_288_aff" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Affiliato 288mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

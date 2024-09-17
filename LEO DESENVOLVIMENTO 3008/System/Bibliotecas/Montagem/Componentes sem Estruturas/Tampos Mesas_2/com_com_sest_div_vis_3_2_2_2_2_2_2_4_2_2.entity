@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cava Sequenziato Teste" ICON="com_coz_div_vis_3_2_2_2_2_2_2_4_4_2.jpg" INVISIBLE="N" MODELINVISIBLE="N">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="30" DEPTH="1500">
+    <MIN WIDTH="100" DEPTH="701" HEIGHT="18" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="32" />
+  </INSERTDIMENSION>
+  <DRAWING>
+    <FILE3D NAME="cava sequenziato reta 1f_2" />
+    <DIMENSION WIDTH="1500" HEIGHT="30" DEPTH="330" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="com_sequenziato" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita_2_2" ENTRYID="COM" />
+  </MODELS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1500" FORMULA="$W$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="342.5907" V="524.4746" />
+              <CORNER2 U="1540.152" V="-165.3511" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="335" FORMULA="$D$">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-100.0704" V="551.6487" />
+              <CORNER2 U="1676.607" V="167.7463" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cava Sequenziato" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="10" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="120" VISIBLE="N" />
+    <ATTRIBUTE ID="C" VALUE="0" VISIBLE="N" />
+    <ATTRIBUTE ID="D" VALUE="40" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des_seq_teste_2" MODEL="com_sequenziato" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des_seq_teste_2" MODEL="com_paineis_fita_2_2" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des_seq_teste_2" MODEL="com_sequenziato" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_des_seq_teste_2" MODEL="com_sequenziato" MODELTYPE="acabamento_031" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

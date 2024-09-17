@@ -1,0 +1,100 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "53+40",
+            "Y": "53+20"
+          },
+          "End": {
+            "X": "53+40",
+            "Y": "53"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "53+40",
+            "Y": "53"
+          },
+          "End": {
+            "X": "$W$-53",
+            "Y": "53"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-53",
+            "Y": "53"
+          },
+          "End": {
+            "X": "$W$-53",
+            "Y": "$D$-53"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-53",
+            "Y": "$D$-53"
+          },
+          "End": {
+            "X": "53",
+            "Y": "$D$-53"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "53",
+            "Y": "$D$-53"
+          },
+          "End": {
+            "X": "53",
+            "Y": "53"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "53",
+            "Y": "53"
+          },
+          "End": {
+            "X": "53+80",
+            "Y": "53"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "53+80",
+            "Y": "53"
+          },
+          "End": {
+            "X": "53+80",
+            "Y": "53+20"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "8"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "f3d3d915-b63f-42ca-b5ee-75eee01b0b8c",
+      "PlaneType": "Superior",
+      "OperationPrice": "gallardo_vid_usi",
+      "Position": {
+        "X": "53+40",
+        "Y": "53+20"
+      },
+      "ElementId": "TAM_TAM_ENG_2_2_5_2"
+    }
+  ],
+  "ElementId": "TAM_TAM_ENG_2_2_5_2"
+}

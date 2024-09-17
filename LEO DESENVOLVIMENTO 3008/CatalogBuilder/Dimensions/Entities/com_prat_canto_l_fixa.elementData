@@ -1,0 +1,36 @@
+{
+  "ElementId": "com_prat_canto_l_fixa",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 5,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "1081,623",
+        "Y": "710"
+      },
+      "Edge": 4,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_prat_canto_l_fixa"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "290",
+        "Y": "-108,4558"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_prat_canto_l_fixa"
+    }
+  ]
+}

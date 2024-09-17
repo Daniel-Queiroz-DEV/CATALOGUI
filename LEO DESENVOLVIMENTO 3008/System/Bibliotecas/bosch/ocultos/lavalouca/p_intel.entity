@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Intelligent Branco" ICON="P_INTEL.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Intelligent Branco" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_INTEL" />
+    <DIMENSION WIDTH="600" HEIGHT="670" DEPTH="47" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DUMPING" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

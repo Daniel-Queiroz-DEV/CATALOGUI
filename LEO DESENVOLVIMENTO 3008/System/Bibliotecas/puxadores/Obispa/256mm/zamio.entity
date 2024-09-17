@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Zâmio ($TEXT$)" ICON="zamio.jpg">
+  <DRAWING>
+    <FILE3D NAME="zamio_100698" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="270" HEIGHT="10" DEPTH="38" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_cou" ENTRYID="puxadorea" />
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <INSERTDIMENSION TEXT="100.698" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Zâmio 256mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Metal_Colorido_Couro" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all" MODELTYPE="Pux_all_pin_col" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_256_zam" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

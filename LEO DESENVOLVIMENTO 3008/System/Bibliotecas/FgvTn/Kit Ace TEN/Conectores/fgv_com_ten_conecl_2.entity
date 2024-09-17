@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Conector L Champanhe" ICON="Conector L.jpg">
+  <DRAWING>
+    <FILE3D NAME="conec l" />
+    <LIMITS>
+      <MIN X="-36.609" Y="-0.176" Z="-7.657" />
+      <MAX X="1.554" Y="20.496" Z="8.718" />
+    </LIMITS>
+    <DIMENSION WIDTH="38.2" HEIGHT="16.4" DEPTH="20.7" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="0" NAME="0" IDMATERIAL="fgv_bra" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Conector L Champanhe para Tubo Transversal" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="40" HEIGHT="17" DEPTH="20" TEXT="58AXL0S60000000" DESC="" ITEM_BASE="58AXL0S60000000" />
+</ENTITY>

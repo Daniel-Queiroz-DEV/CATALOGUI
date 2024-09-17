@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_bal_pon_">
+  <DRAWINGS />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_1" DEF="ZP5365_54.entity" GUID="bb230487-4dc0-4aa7-89fc-971702edad31" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_24" DEF="ZP5365_24.entity" GUID="486afa25-e3f1-4da4-811f-57b99ba0d108" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_25" DEF="ZP5365_25.entity" GUID="dab69955-9568-47d6-88c7-ddfd490ca246" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_26" DEF="ZP5365_26.entity" GUID="bf8108ad-c270-468e-8d95-9554c895bf84" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_599" DEF="ZP5365_599.entity" GUID="46407714-586a-402b-89db-20fda2c0649a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_648" DEF="ZP5365_648.entity" GUID="e797972f-ddaa-4705-b2af-6437f58e5a44" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_889" DEF="ZP5365_889.entity" GUID="e68bda02-e502-4c0e-bb8f-3d20aa4bf982" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_916" DEF="ZP5365_916.entity" GUID="832cfced-075f-42f7-a8b6-400ce15a240b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_95" DEF="ZP5365_95.entity" GUID="e227cb97-8d3c-4daf-abdb-65eda571c827" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_955" DEF="ZP5365_955.entity" GUID="053cd542-dbb1-4c9e-8ec5-fd1ec4ff3a1e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_A00" DEF="ZP5365_A00.entity" GUID="6c7243c0-b824-4ba9-b27a-3343aa3ef119" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_B00" DEF="ZP5365_B00.entity" GUID="8d535304-202b-4315-9d2e-edcf58c2c862" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_F00" DEF="ZP5365_F00.entity" GUID="1bf7dbf3-644b-46d0-9d0a-d6b068ab2f66" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_G00" DEF="ZP5365_G00.entity" GUID="09fd322f-fd95-4d41-a55f-315a1d7a5b87" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_L00" DEF="ZP5365_L00.entity" GUID="3fb19f78-5418-4b6b-9099-076696448582" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bal_gra_zp5365_M00" DEF="ZP5365_M00.entity" GUID="49dc09ad-2610-4d7b-a348-abaa83756ded" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWING ID="BALLI_GRANADO_PONTO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

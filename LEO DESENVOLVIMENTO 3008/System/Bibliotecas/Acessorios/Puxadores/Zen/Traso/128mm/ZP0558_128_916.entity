@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Esc c/ Verniz ($TEXT$.$D.ACAB$)" ICON="Traso.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Traso 128mm Niquel Escovado c/ Verniz" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="148" HEIGHT="25" DEPTH="17" TEXT="ZP0558.128" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="GRANADO" NAME="GRANADO" IDMATERIAL="zen_niquel_esc_ver_rec_" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Menphis" DIRECTORY="menphis">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_men_32_2" DEF="32mm.group" GUID="505df92f-20eb-46fa-a06e-bc40fdd2bae5" />
+    <EXPLORERITEM TYPE="group" ID="zen_men_128_2" DEF="128mm.group" GUID="5cb26c31-b07d-469d-8d62-2caf7d5e82b7" />
+    <EXPLORERITEM TYPE="group" ID="zen_men_192_2" DEF="192mm.group" GUID="3d23de69-0136-4ad2-83a4-a44bf9f211d4" />
+    <EXPLORERITEM TYPE="group" ID="zen_men_352_2" DEF="352mm.group" GUID="08bbf88f-9aa3-4df3-a6c7-d365575d2ff7" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="MENPHIS_32MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\MENPHIS_32MM" />
+      <DIMENSION WIDTH="42" HEIGHT="43.6" DEPTH="24.6" />
+      <LIMITS>
+        <MIN X="-21" Y="-24.598" Z="-38.588" />
+        <MAX X="21" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MENPHIS_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\MENPHIS_128MM" />
+      <DIMENSION WIDTH="148" HEIGHT="43.6" DEPTH="24.6" />
+      <LIMITS>
+        <MIN X="-74" Y="-24.598" Z="-38.588" />
+        <MAX X="74" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MENPHIS_192MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\MENPHIS_192MM" />
+      <DIMENSION WIDTH="230" HEIGHT="43.6" DEPTH="24.6" />
+      <LIMITS>
+        <MIN X="-115" Y="-24.598" Z="-38.588" />
+        <MAX X="115" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MENPHIS_352MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\MENPHIS_352MM" />
+      <DIMENSION WIDTH="390" HEIGHT="43.6" DEPTH="24.6" />
+      <LIMITS>
+        <MIN X="-195" Y="-24.598" Z="-38.588" />
+        <MAX X="195" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

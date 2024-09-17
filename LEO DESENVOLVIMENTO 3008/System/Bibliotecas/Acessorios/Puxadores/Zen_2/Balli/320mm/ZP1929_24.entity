@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Pint Preto ($TEXT$.$D.ACAB$)" ICON="Balli.jpg">
+  <INSERTDIMENSION TEXT="ZP1929" ACAB="24" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Balli 320mm Alum Pint Preta" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_pint_preta" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

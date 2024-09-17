@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fechaduras" NAME="Fechaduras" PREFIXID="fer_fec_" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="%PastaSistema%\Bibliotecas\ferragens\3D\parafuso_mini" />
+    <DIMENSION WIDTH="31" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="fer_fec_fec" DEF="fer_fec_fec.entity" GUID="17cc5194-9765-4d15-8798-1448b7639df7" />
+    <EXPLORERITEM TYPE="entity" ID="fer_fec_cha" DEF="fer_fec_cha.entity" GUID="70859797-94d4-4bb9-998c-ee4cae52b113" />
+    <EXPLORERITEM TYPE="entity" ID="fer_fec_fur" DEF="fer_fec_fur.entity" GUID="76282a0a-4c3f-4e1d-91c4-63bbb02c4db4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

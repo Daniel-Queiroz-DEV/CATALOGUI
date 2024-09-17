@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Almofada" ICON="Almofada_02_2015.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Almofada" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="almofada02_2015" />
+    <DIMENSION WIDTH="377.9" HEIGHT="122.4" DEPTH="372.6" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_ALMOFADA" NAME="DEC_ALMOFADA" IDMATERIAL="tec_brancos_lisos_tecido 006" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

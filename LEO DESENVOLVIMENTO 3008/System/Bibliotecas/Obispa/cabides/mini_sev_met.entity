@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mini Seventy Metal ($TEXT$)" ICON="mini_sev_met.jpg">
+  <DRAWING>
+    <FILE3D NAME="mini_seventy_metal" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="44" HEIGHT="33" DEPTH="32" />
+    <LIMITS>
+      <MIN X="0" Y="-32.966" Z="0" />
+      <MAX X="32.015" Y="0" Z="44.006" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Mini Seventy Metal" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="300.004" />
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+</ENTITY>

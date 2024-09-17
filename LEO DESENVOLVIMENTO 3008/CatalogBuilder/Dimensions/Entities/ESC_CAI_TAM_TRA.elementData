@@ -1,0 +1,68 @@
+{
+  "ElementId": "ESC_CAI_TAM_TRA",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "300",
+        "Y": "-66,9962"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "ESC_CAI_TAM_TRA"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 4,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "838,3883",
+        "Y": "362,6637"
+      },
+      "Edge": 4,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "ESC_CAI_TAM_TRA"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 2,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "637,1481",
+        "Y": "161,6116"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 2,
+      "ElementId": "ESC_CAI_TAM_TRA"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 6,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "1086,563",
+        "Y": "700"
+      },
+      "Edge": 5,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 3,
+      "ElementId": "ESC_CAI_TAM_TRA"
+    }
+  ]
+}

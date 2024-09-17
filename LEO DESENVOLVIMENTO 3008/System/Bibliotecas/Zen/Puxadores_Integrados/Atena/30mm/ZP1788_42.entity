@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Cromo/Cr ($TEXT$.$D.ACAB$)" ICON="Atena.jpg">
+  <INSERTDIMENSION TEXT="ZP1788" ACAB="42" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Atena 30mm Alumínio Cromado com ponteiras Cromadas" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_cromado" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_cromado" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

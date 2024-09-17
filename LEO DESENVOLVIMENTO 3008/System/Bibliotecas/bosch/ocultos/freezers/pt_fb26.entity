@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ref FB26" ICON="PT_FB26.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Freezer FB26 (Inclusa no Preço)" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PT_FB26" />
+    <DIMENSION WIDTH="555" HEIGHT="1460" DEPTH="58" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_cinza" NAME="bosch_cinza" IDMATERIAL="bosch_cinza" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

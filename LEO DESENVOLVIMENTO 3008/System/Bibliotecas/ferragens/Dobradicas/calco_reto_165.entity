@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Calço Canto L" INVISIBLE="Y" ICON="calco_reto_165.jpg">
+  <DRAWING>
+    <FILE3D NAME="dob_calco_reto_165" />
+    <BOUNDINGBOX HEIGHT="46">
+      <PONTO2DA X="0.05" Y="7.5" />
+      <PONTO2DA X="-0.05" Y="7.5" />
+      <PONTO2DA X="-0.05" Y="-7.5" />
+      <PONTO2DA X="0.05" Y="-7.5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-0.05" Y="-7,5" Z="-23" />
+      <MAX X="0,05" Y="7,5" Z="23" />
+    </LIMITS>
+    <DIMENSION WIDTH="15" HEIGHT="46" DEPTH="58.4" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CORPO" NAME="CORPO" IDMATERIAL="cin_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="15" HEIGHT="46" DEPTH="58" TEXT="CAL3" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="IGNOREOPENING" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Calço p/ Dobradiça Canto L" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

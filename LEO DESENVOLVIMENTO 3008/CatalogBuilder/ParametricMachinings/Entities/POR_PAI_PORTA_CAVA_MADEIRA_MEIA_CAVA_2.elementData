@@ -1,0 +1,57 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-100",
+            "Y": "11,5"
+          },
+          "End": {
+            "X": "$W$/2",
+            "Y": "11,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$/2",
+            "Y": "11,5"
+          },
+          "End": {
+            "X": "$W$/2",
+            "Y": "-100"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$/2",
+            "Y": "-100"
+          },
+          "End": {
+            "X": "$W$/2-0,01",
+            "Y": "-100"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "13"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "237da40e-42df-45bf-9ef8-b14c31e28bca",
+      "UniqueID": 4,
+      "PlaneType": "Superior",
+      "OperationPrice": "sorrento_usi",
+      "Position": {
+        "X": "-100",
+        "Y": "11,5"
+      },
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_MEIA_CAVA_2"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_MEIA_CAVA_2"
+}

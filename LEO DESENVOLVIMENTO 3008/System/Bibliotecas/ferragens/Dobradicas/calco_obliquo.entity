@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Calço Canto Oblíquo" INVISIBLE="Y" ICON="calco_obliquo.jpg">
+  <DRAWING>
+    <FILE3D NAME="dob_calco_obliquo" />
+    <LIMITS>
+      <MIN X="-28.561" Y="-6.501" Z="-23" />
+      <MAX X="1.204" Y="72.649" Z="23" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="46">
+      <PONTO2DA X="1.25" Y="65.65" />
+      <PONTO2DA X="1.15" Y="65.65" />
+      <PONTO2DA X="1.15" Y="50.65" />
+      <PONTO2DA X="1.25" Y="50.65" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="29" HEIGHT="46" DEPTH="79" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CORPO" NAME="CORPO" IDMATERIAL="cin_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="29" HEIGHT="46" DEPTH="79" TEXT="CAL4" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="IGNOREOPENING" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Calço Dobradiça Canto Oblíquo" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,57 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#DOR_CAM_LAR_1USI#"
+      },
+      "Height": {
+        "Value": "#DOR_CAM_ALT_USI#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 1,
+      "PlaneIndex": 1,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#DOR_CAM_AFA_INI_USI#",
+        "Y": "#DOR_CAM_AFA_INF_USI#"
+      },
+      "ElementId": "ACE_DESEMP_TECIDO"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "1,5"
+      },
+      "Height": {
+        "Value": "2015"
+      },
+      "CornerRadius": {
+        "Value": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "10"
+      },
+      "MachiningProcessIDText": "938abf49-aa68-46f6-801c-f41c1900bbbd",
+      "UniqueID": 3,
+      "PlaneIndex": 3,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "16,75",
+        "Y": "17,5"
+      },
+      "ElementId": "ACE_DESEMP_TECIDO"
+    }
+  ],
+  "ElementId": "ACE_DESEMP_TECIDO"
+}

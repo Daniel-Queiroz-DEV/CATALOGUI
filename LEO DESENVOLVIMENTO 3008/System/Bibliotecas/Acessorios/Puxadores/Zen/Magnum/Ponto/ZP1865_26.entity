@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Pint Bronze ($TEXT$.$D.ACAB$)" ICON="Magnum.jpg">
+  <INSERTDIMENSION TEXT="ZP1865" ACAB="26" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Magnum Ponto Alum Pint Bronze" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_pint_bronze" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

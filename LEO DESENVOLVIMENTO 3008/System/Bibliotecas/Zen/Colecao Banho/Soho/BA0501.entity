@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Toalheiro de balcão ($TEXT$)" ICON="BA0501.jpg">
+  <DRAWING>
+    <FILE3D NAME="soho toalheiro de balcao" />
+    <DIMENSION WIDTH="116" HEIGHT="345" DEPTH="198" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soho Toalheiro De Balcao @Zen_soho(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="116" HEIGHT="345" DEPTH="198" TEXT="BA0501" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0501" MODEL="Zen_soho" MODELTYPE="Zen_sou_cro_ino" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0501" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_met" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0501" MODEL="Zen_soho" MODELTYPE="Zen_sou_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0501" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0501" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

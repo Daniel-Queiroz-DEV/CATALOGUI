@@ -1,0 +1,70 @@
+{
+  "ElementId": "com_tam_canto_diag",
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "50"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1333,333",
+        "Y": "727,2728"
+      },
+      "RightPoint": {
+        "Y": "727,2728"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "com_tam_canto_diag",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1333.333,
+          "Y": 677.172852
+        },
+        "ParentPointWithOffset2": {
+          "X": 1333.333,
+          "Y": 727.172852
+        },
+        "ParentPointWithOffset3": {
+          "X": 1333.333,
+          "Y": 727.172852
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {
+          "Y": 677.172852
+        },
+        "ParentPointWithOffset2": {
+          "Y": 727.172852
+        },
+        "ParentPointWithOffset3": {
+          "Y": 727.172852
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

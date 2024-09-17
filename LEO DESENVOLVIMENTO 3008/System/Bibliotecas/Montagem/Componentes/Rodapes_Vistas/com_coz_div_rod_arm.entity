@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Rodapé Armário Desl ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_div_rod_arm.jpg" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="com_coz_div_rod" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_ROD#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="ROD01" TEXT="1403">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="fer_per_fer_rod_vis">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag6354457456540121382" CONCURRENT="N" DESCRIPTION="Dir" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" DEFAULT="N" CONSTANT="N" INSERTFUNCTION="FERRAGEM">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="$PH$" DEPTH="$PD$" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="Inverted" VALUE="True" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="$PW$" Y="0" Z="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="Ag4789421" CONCURRENT="N" DESCRIPTION="Esq" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" DEFAULT="N" CONSTANT="N" INSERTFUNCTION="FERRAGEM">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION DEPTH="$PD$" HEIGHT="$PH$" />
+          <POSITION X="0" Y="0" Z="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="fer_per_fer_cav_sim">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag6354457456438021381" CONCURRENT="N" DESCRIPTION="Superior" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" DEFAULT="N" CONSTANT="N" INSERTFUNCTION="FERRAGEM">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="$PH$" DEPTH="$PW$" />
+          <POSITION X="$PW$" Y="0" Z="0" ROTATION="270" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Rodapé" VISIBLE="N" />
+    <ATTRIBUTE ID="CANCHANGEPARENT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_00" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_010" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_011" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_012" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_013" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_03" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_033" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_04" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_06" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_fita" MODELTYPE="acabamento_657_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_672" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_05" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_01" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_671" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_021" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_036" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_014" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_029" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_028" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_031" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_035" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_034" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_654" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_016" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_07" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_015" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_019" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_017" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_018" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_caixas" MODELTYPE="acabamento_032" CONDITION="@('#LINHA_PARAFUSO#'=='DOR_2')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_div_rod_arm" MODEL="com_fita" MODELTYPE="acabamento_654" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ == 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

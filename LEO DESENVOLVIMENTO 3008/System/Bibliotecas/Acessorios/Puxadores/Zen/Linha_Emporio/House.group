@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="House" NAME="House" PREFIXID="zen_emp_hou_">
+  <DRAWINGS>
+    <DRAWING ID="HOUSE_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\HOUSE_128MM" />
+      <DIMENSION WIDTH="139.8" HEIGHT="21" DEPTH="22.5" />
+      <LIMITS>
+        <MIN X="-69.9" Y="-22.5" Z="-10.5" />
+        <MAX X="69.9" Y="0" Z="10.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="HOUSE_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\HOUSE_160MM" />
+      <DIMENSION WIDTH="171.8" HEIGHT="21.4" DEPTH="22.6" />
+      <LIMITS>
+        <MIN X="-85.9" Y="-22.6" Z="-10.7" />
+        <MAX X="85.9" Y="0" Z="10.7" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="HOUSE_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\HOUSE_192MM" />
+      <DIMENSION WIDTH="203.8" HEIGHT="21.4" DEPTH="22.7" />
+      <LIMITS>
+        <MIN X="-101.9" Y="-22.7" Z="-10.7" />
+        <MAX X="101.9" Y="0" Z="10.7" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="HOUSE_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\HOUSE_224MM" />
+      <DIMENSION WIDTH="235.8" HEIGHT="21.4" DEPTH="22.8" />
+      <LIMITS>
+        <MIN X="-117.9" Y="-22.3" Z="-10.7" />
+        <MAX X="117.9" Y="0.5" Z="10.7" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_emp_hou_128mm" DEF="128mm.group" GUID="6e7e1369-1853-46e2-9aa5-241dbaa8feb7" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_hou_160mm" DEF="160mm.group" GUID="4f416b7f-d1e7-4e4a-8287-5f47f1d8d926" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_hou_192mm" DEF="192mm.group" GUID="0447d049-f480-4a5a-acc9-a92e88ce485b" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_hou_224mm" DEF="224mm.group" GUID="5190ff72-ba65-4e6b-99fb-6fe1289400ff" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

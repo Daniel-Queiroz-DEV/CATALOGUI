@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Divisores" NAME="Divisores" PREFIXID="ACE_DIV_ACR_" INVISIBLE="N" MODELINVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ACE_DIV_ACR_214" DEF="Divisores.group" GUID="692cbde2-c6ca-4f55-8f59-3c135fae57a6" />
+    <EXPLORERITEM TYPE="group" ID="ACE_DIV_MAD" DEF="Divisores_2.group" GUID="0dd776cd-1fbd-47c4-b88d-5ecf61df8e30" />
+    <EXPLORERITEM TYPE="group" ID="DIV_ACE" DEF="DIV_ACE.group" GUID="18e992c7-3efe-44f5-a5f5-b70ed094eb40" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

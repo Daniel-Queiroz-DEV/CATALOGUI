@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Oriente.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Oriente Ponto Red Gold Escovado c/ Couro Marrom" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1799" ACAB="G00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_cord" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

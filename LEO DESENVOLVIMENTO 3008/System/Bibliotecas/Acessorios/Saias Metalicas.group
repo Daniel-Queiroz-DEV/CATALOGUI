@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Saias Metalicas" NAME="Saias Metálicas" PREFIXID="ACE_ESC_SAI_MET_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_esc_sai_fro_met_lis" DEF="com_esc_sai_fro_met_lis.entity" GUID="659abb10-aa53-4474-939f-b914dda2ef86" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_sai_fro_met_fur" DEF="com_esc_sai_fro_met_fur.entity" GUID="1e0f9b87-b0df-4e40-a778-594bdf29e757" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="ace_saias_metalicos_mesas" ENTRYID="ACE" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="PES_METALICOS" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+</GROUP>

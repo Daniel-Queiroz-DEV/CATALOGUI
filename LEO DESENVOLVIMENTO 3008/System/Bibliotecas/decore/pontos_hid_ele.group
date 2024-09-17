@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Pontos Elétricos | Hidráulicos" DIRECTORY="Pontos_Hid_Ele" INVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Anglebetweenedges" VALUE="0" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="DEC_com_ele" DEF="Componentes_Eletricos.group" GUID="3951ca74-eac9-442e-a6fc-83a585cd7411" />
+    <EXPLORERITEM TYPE="group" ID="dec_com_ele_4x4" DEF="componentes_eletricos4x4.group" GUID="ae8e3798-20f2-4852-b348-cb5f1f3233a2" />
+    <EXPLORERITEM TYPE="group" ID="DEC_com_hid" DEF="Componentes_Hidraulicos.group" GUID="d3ba8b44-86a3-47ad-8eb5-faa1fb6dee75" />
+    <EXPLORERITEM TYPE="group" ID="DEC_com_mov" DEF="componentes_mveis.group" GUID="040d492a-d7b5-4c75-801d-35ece1f63471" />
+    <EXPLORERITEM TYPE="group" ID="DEC_sim_ele" DEF="simbologia_eletrica.group" GUID="010a5a5f-d5f6-4f51-a299-a71d4d5da4fc" />
+    <EXPLORERITEM TYPE="group" ID="DEC_sim_ele_fro" DEF="simbologia_eletrica_frontal.group" GUID="2efdb4f8-d580-4d5f-b17f-7c5dce6bc174" />
+    <EXPLORERITEM TYPE="group" ID="DEC_sim_ele_sup" DEF="simbologia_eletrica_superior.group" GUID="d7585349-e819-4423-9ee7-64fc5de7aec6" />
+    <EXPLORERITEM TYPE="group" ID="DEC_sim_hid" DEF="simbologia_hidraulica.group" GUID="1c1825be-a02f-4062-9c97-540cea8e9d1f" />
+    <EXPLORERITEM TYPE="group" ID="DEC_sim_hid_fro" DEF="simbologia_hidraulica_frontal.group" GUID="aa6d7ddd-5ac8-4a5f-99cb-7cd00a9dfd11" />
+    <EXPLORERITEM TYPE="group" ID="DEC_sim_hid_sup" DEF="simbologia_hidraulica_superior.group" GUID="ca8b7caf-f324-4ddd-a54e-f868c590af2e" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,133 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_Y#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 3,
+      "BorderStructureID": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_DESENHO_MAR"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_Y#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 2,
+      "BorderStructureID": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_DESENHO_MAR"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_X#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_DESENHO_MAR"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_X#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 1,
+      "BorderStructureID": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_DESENHO_MAR"
+    }
+  ],
+  "ElementId": "MON_DESENHO_MAR"
+}

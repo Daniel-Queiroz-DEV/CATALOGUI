@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Acoplamento Direito - Esquerdo" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="engate_tandem" />
+    <DIMENSION WIDTH="236" HEIGHT="17.4" DEPTH="80.8" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="lar_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioLarguraAltura" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Acoplamento Direito - Esquerdo" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION HEIGHT="17" DEPTH="80" WIDTH="236" TEXT="T51.1700.04" DESC="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+</ENTITY>

@@ -1,0 +1,52 @@
+{
+  "ElementId": "com_coz_cam_lat_dir_usi",
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#DOR_CAM_LAR_1USI#"
+      },
+      "Height": {
+        "Value": "#DOR_CAM_ALT_USI#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": null,
+      "Position": {
+        "X": "#DOR_CAM_AFA_INI_USI#",
+        "Y": "#DOR_CAM_AFA_INF_USI#"
+      },
+      "ElementId": "com_coz_cam_lat_dir_usi"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#DOR_CAM_LAR_2USI#"
+      },
+      "Height": {
+        "Value": "#DOR_CAM_ALT_USI#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": null,
+      "Position": {
+        "X": "#DOR_CAM_AFA_INI_USI#+#DOR_CAM_LAR_1USI#+(#DOR_CAM_ESP_AFA#+#FOL_PAI#)",
+        "Y": "#DOR_CAM_AFA_INF_USI#"
+      },
+      "ElementId": "com_coz_cam_lat_dir_usi"
+    }
+  ]
+}

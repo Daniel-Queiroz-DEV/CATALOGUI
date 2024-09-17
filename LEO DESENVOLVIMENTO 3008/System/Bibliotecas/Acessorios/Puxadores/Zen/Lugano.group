@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Lugano" NAME="Lugano" PREFIXID="zen_lug_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="LUGANO_48MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LUGANO_48MM" />
+      <DIMENSION WIDTH="81" HEIGHT="35" DEPTH="17.5" />
+      <LIMITS>
+        <MIN X="-40.5" Y="-17.5" Z="-17.5" />
+        <MAX X="40.5" Y="0" Z="17.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_lug_48mm" DEF="48mm.group" GUID="d40ca8fa-1000-4111-85f7-b45366a047ba" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

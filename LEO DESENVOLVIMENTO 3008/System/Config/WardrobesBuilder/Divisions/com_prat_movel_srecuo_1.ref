@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HorizontalDivision Id="com_prat_movel_srecuo" EntityId="com_coz_pra_mov" THICKNESS="@(#COZ_ESP_PRAT_MOV#+#FOL_PAI#)" Offset="#COZ_AFA_TRAS_PRA_CONS_INF#" Fallback="0" Category="Prateleiras Móveis" Name="s/ Recuo Front" Movable="Y" Preview="%PastaConstrutorArmarios%\Cozinhas\Divisoes\imagens\prat_mov_sra_sre.jpg">
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#COZ_PRA_MOV_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#COZ_PRA_MOV_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#COZ_PRA_MOV_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_PRA_MOV_FT_ESQ#" />
+				<SetAttribute Id="FIX_PRA_GEN" Value="#COZ_FIX_PRAT#" />
+				<SetAttribute Id="LINHA_PARAFUSO" Value="COZ" />
+				<SetAttribute Id="MODULO_PARAFUSO" Value="CPORTA" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</HorizontalDivision>

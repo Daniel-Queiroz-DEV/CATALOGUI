@@ -1,0 +1,303 @@
+{
+  "ElementId": "TAM_tam_com",
+  "Edges": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#+#TAM_ESP_2#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "500"
+      },
+      "RightPoint": {},
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 2,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "TAM_tam_com",
+      "ProfileIndexes": [
+        0
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.6,
+          "Y": 498.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 498.4
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 498.4
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.6,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 1.6
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#+#TAM_ESP_2#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 3,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "TAM_tam_com",
+      "ProfileIndexes": [
+        2
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 998.4,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 1.6
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 998.4,
+          "Y": 498.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 498.4
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 498.4
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda03",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#+#TAM_ESP_2#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {},
+      "RightPoint": {
+        "X": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 1,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "TAM_tam_com",
+      "ProfileIndexes": [
+        1
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 0.1,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "Y": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "Y": 0.1
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.9,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "X": 1000.0,
+          "Y": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "X": 1000.0,
+          "Y": 0.1
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda04",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#+#TAM_ESP_2#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "TAM_tam_com",
+      "ProfileIndexes": [
+        3
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.9,
+          "Y": 498.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 1000.0,
+          "Y": 499.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 1000.0,
+          "Y": 499.9
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 0.1,
+          "Y": 498.4
+        },
+        "ParentPointWithOffset2": {
+          "Y": 499.9
+        },
+        "ParentPointWithOffset3": {
+          "Y": 499.9
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Canto L ($TEXT$)" ICON="inf_dd_crasgo_canto_l.jpg" CHECKED="N" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_AB" />
+  <BUDGET>
+    <INFORMATION HEIGHT="$D$" DEPTH="$H$" />
+  </BUDGET>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="com_l" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Tampo" CONCURRENT="Y" DESCRIPTION="Tampo" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" DEFAULT="N" CONSTANT="Y">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION DEPTH="$PD$" HEIGHT="$PH$" WIDTH="$PW$" />
+          <POSITION X="0" Y="0" Z="0" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="A" VALUE="@(#P.A#)" DYNAMIC="Y" VISIBLE="Y" />
+            <ATTRIBUTE ID="B" VALUE="@(#P.B#)" DYNAMIC="Y" VISIBLE="Y" />
+          </ATTRIBUTES>
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="580" Y="-1000" />
+      <PONTO2DA X="580" Y="-580" />
+      <PONTO2DA X="1000" Y="-580" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="A" VALUE="580" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="B" VALUE="580" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="description" VALUE="Tampo Canto L" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="TAMPOS" />
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="@(#ESP_TAM#+#FOL_PAI#)" TEXT="6452" ITEM_BASE="TAMP01">
+    <MIN WIDTH="500" DEPTH="500" />
+    <MAX WIDTH="1050" DEPTH="1050" />
+    <INCREMENT WIDTH="1" DEPTH="1" />
+  </INSERTDIMENSION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_010" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_013" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_020_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_051" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_053" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_055" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_056" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_057" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_062" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_063" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_072" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_074" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_075" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_077" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_079" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_087" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_088" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_090" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_093" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_128" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_129" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_634" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_635" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_638" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_639" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_640" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_649" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_651" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_653" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_655" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_709" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_708" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_710" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_711" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_633" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_666" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_130" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_717" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_131" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_743" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_742" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_061_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_735" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_739" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_740" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_744" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_727" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_l" MODEL="com_tampos" MODELTYPE="acabamento_726" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

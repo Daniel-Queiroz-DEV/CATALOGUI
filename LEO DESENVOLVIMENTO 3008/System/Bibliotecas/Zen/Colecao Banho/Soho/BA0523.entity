@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Saboneteira Líquida Fixa ($TEXT$)" CHECKED="N" ICON="BA0523.jpg">
+  <DRAWING>
+    <FILE3D NAME="soho saboneteira liquida fixa" />
+    <DIMENSION WIDTH="140" HEIGHT="143.1" DEPTH="118.5" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="140" HEIGHT="145" DEPTH="120" TEXT="BA0523" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0523" MODEL="Zen_soho" MODELTYPE="Zen_sou_cro_ino" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0523" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_met" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0523" MODEL="Zen_soho" MODELTYPE="Zen_sou_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0523" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0523" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soho Saboneteira Líquida Fixa @Zen_soho(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

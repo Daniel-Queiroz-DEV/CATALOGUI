@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Haste p/ VB 35 Montante" ICON="duplo.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="10">
+      <PONTO2DA X="-0.1" Y="-5" />
+      <PONTO2DA X="0.1" Y="-5" />
+      <PONTO2DA X="0.1" Y="5" />
+      <PONTO2DA X="-0.1" Y="5" />
+    </BOUNDINGBOX>
+    <FILE3D NAME="par_mon" />
+    <LIMITS>
+      <MIN X="-6" Y="-5" Z="-5" />
+      <MAX X="25" Y="5" Z="5" />
+    </LIMITS>
+    <DIMENSION WIDTH="66" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="8" HEIGHT="59" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="32" HEIGHT="10" DEPTH="10" TEXT="PARUFDP" />
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Haste p/ VB 35 Montante" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

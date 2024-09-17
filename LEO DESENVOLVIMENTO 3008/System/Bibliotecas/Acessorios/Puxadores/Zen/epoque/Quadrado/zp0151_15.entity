@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo/Inox Esc ($TEXT$.$D.ACAB$)" ICON="quadrado.jpg" CHECKED="N">
+  <INSERTDIMENSION WIDTH="90" HEIGHT="90" DEPTH="19" TEXT="ZP0151" ACAB="15" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Quadrado Belle Époque Cromo/Inox Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_escovado" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

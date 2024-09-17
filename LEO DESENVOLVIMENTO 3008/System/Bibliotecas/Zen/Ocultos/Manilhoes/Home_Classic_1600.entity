@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Home Classic 1600" INVISIBLE="N" MODELINVISIBLE="N" ICON="Home_Classic_1600.jpg">
+  <DRAWING>
+    <FILE3D NAME="Home_Classic_1600" />
+    <DIMENSION WIDTH="44" HEIGHT="1601.5" DEPTH="128" />
+    <LIMITS>
+      <MIN X="-22" Y="-44" Z="-801.5" />
+      <MAX X="22" Y="84" Z="800" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_hom_dup_cla" ENTRYID="pux_zen" />
+  </MODELS>
+  <INSERTDIMENSION HEIGHT="1600" WIDTH="44" DEPTH="128">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Home Classic 1600" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_cla_1600" MODEL="Zen_man_hom_dup_cla" MODELTYPE="Zen_man_hom_cla_A50" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_cla_1600" MODEL="Zen_man_hom_dup_cla" MODELTYPE="Zen_man_hom_cla_B50" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_cla_1600" MODEL="Zen_man_hom_dup_cla" MODELTYPE="Zen_man_hom_cla_F50" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_cla_1600" MODEL="Zen_man_hom_dup_cla" MODELTYPE="Zen_man_hom_cla_G50" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_cla_1600" MODEL="Zen_man_hom_dup_cla" MODELTYPE="Zen_man_hom_cla_L50" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_cla_1600" MODEL="Zen_man_hom_dup_cla" MODELTYPE="Zen_man_hom_cla_M50" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="84" FORMULA="$D$-44">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.28764" V="19.60412" />
+              <CORNER2 U="75.65301" V="-81.14841" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

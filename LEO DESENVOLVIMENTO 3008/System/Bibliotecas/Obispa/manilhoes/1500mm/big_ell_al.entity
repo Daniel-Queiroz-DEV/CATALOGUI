@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Big Elle Alumínio ($TEXT$)" ICON="big_elle.jpg">
+  <DRAWING>
+    <FILE3D NAME="big_elle" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="1530" HEIGHT="31" DEPTH="60" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="200.035 AS" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_big_ell_alu" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Big Elle Alumínio 1500mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Manilhoes_elle_al" />
+</ENTITY>

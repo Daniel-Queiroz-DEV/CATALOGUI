@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_int" CanMirror="Y" Description="Inteira" Type="Front" Visible="Y">
+  <Dimension Depth="@(#COZ_ESP_POR#+#FOL_PAI#)" Height="$P.H$+(#COZ_ESP_BAS#+#FOL_PAI#)*2-#FOL_MOD_SUP_INF#-#FOL_MOD_SUP_SUP#" Width="$P.W$+(#COZ_ESP_LAT#+#FOL_PAI#)*2-#FOL_MOD_SUP_LAT#*2" />
+  <Position X="-(#COZ_ESP_LAT#+#FOL_PAI#)+#FOL_MOD_SUP_LAT#" Y="-$P.D$" Z="-(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_MOD_SUP_INF#" />
+  <Actions>
+    <ResizeItem Side="Right" Value="-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)/2+#FOL_ENT_PT_LAR#-#COZ_FOL_INT#/2">
+      <Conditions>
+        <Or>
+          <And>
+            <Or Not="Y">
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+            </Or>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+            </Or>
+          </And>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+            </Or>
+            <And Not="Y">
+              <Or Not="Y">
+                <HasNeighbourItem ItemType="Front" Side="Left" />
+              </Or>
+              <Or>
+                <HasNeighbourItem ItemType="Front" Side="Right" />
+              </Or>
+            </And>
+          </And>
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Value="-(#COZ_ESP_LAT#+#FOL_PAI#)+(#COZ_ESP_MON#+#FOL_PAI#)/2+#FOL_ENT_PT_LAR#-#COZ_FOL_INT#/2">
+      <Conditions>
+        <Or>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+            </Or>
+            <Or Not="Y">
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+            </Or>
+          </And>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+            </Or>
+            <And Not="Y">
+              <Or>
+                <HasNeighbourItem ItemType="Front" Side="Left" />
+              </Or>
+              <Or Not="Y">
+                <HasNeighbourItem ItemType="Front" Side="Right" />
+              </Or>
+            </And>
+          </And>
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)/2+#FOL_MOD_SUP_INF#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)/2+#FOL_MOD_SUP_SUP#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="POR_SUP" Id="frente_int_lat_s_viz">
+      <Conditions>
+        <Or Not="Y">
+          <And>
+            <IsInvertedItem />
+            <HasNeighbourItem ItemType="Front" Side="Left" />
+          </And>
+          <And>
+            <IsInvertedItem Not="Y" />
+            <HasNeighbourItem ItemType="Front" Side="Right" />
+          </And>
+        </Or>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="POR_SUP_MON" Id="frente_int_lat_c_2viz">
+      <Conditions>
+        <Or>
+          <And>
+            <IsInvertedItem />
+            <HasNeighbourItem ItemType="Front" Side="Left" />
+          </And>
+          <And>
+            <IsInvertedItem Not="Y" />
+            <HasNeighbourItem ItemType="Front" Side="Right" />
+          </And>
+        </Or>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="CANMIRROR" Value="FALSE" />
+    </Sets>
+  </Output>
+  <Variables>
+    <Variable Id="DrawingType" Value="RightFront" />
+  </Variables>
+</Item>

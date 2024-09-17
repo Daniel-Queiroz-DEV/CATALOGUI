@@ -1,0 +1,191 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencial01)=$BORDERTHICKNESSBUILDERS$-@*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 3,
+      "RightNeighbour": 1,
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderID": "a9a406fa-59be-4903-9449-d4cbe066a803",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "6d6c1393-cca0-44ac-9a60-f556b3a18990",
+      "OperationPrice": "BORDA",
+      "ElementId": "REG_18_HOR_RIP_2"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencial01)=$BORDERTHICKNESSBUILDERS$-@*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "25,5"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 0,
+      "RightNeighbour": 2,
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 12",
+        "End": "1000, 25"
+      },
+      "BorderID": "c1aa3002-3fec-4704-a3dc-55f60a398ab5",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "10cc471c-2c96-42de-9657-072101c4ea2a",
+      "OperationPrice": "BORDA",
+      "ElementId": "REG_18_HOR_RIP_2"
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencial01)=$BORDERTHICKNESSBUILDERS$-@*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "25,5"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "25,5"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "RightNeighbour": 3,
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 25",
+        "Mid": "500, 25",
+        "End": "0, 25"
+      },
+      "BorderID": "7a9e5880-e138-4dfa-a234-7dfd5dc9b59c",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "4d8e9337-e97f-4abe-a119-ae7281e7e8b0",
+      "OperationPrice": "BORDA",
+      "ElementId": "REG_18_HOR_RIP_2"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "ReferenceMounter": "Borda01 (Referencial01)=$BORDERTHICKNESSBUILDERS$-@*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "25,5"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 2,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "0, 25",
+        "Mid": "0, 12"
+      },
+      "BorderID": "0302f809-969b-4f08-9f07-3a18c9889016",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "13d889b0-5a45-4f61-92b1-9012fc63a023",
+      "OperationPrice": "BORDA",
+      "ElementId": "REG_18_HOR_RIP_2"
+    }
+  ],
+  "ElementId": "REG_18_HOR_RIP_2"
+}

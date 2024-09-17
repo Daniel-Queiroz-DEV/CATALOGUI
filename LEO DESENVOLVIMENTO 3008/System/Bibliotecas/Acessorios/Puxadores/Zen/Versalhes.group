@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Versalhes" NAME="Versalhes" PREFIXID="zen_vrs_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="VERSALHES_PONTO">
+      <LIMITS>
+        <MIN X="-6.5" Y="-30.5" Z="-3.75" />
+        <MAX X="6.5" Y="1" Z="3.75" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Acessorios\3D\versalhes_ponto" />
+      <DIMENSION WIDTH="13" HEIGHT="7.5" DEPTH="31.5" />
+    </DRAWING>
+    <DRAWING ID="VERSALHES_160MM">
+      <LIMITS>
+        <MIN X="-86" Y="-30" Z="-3.75" />
+        <MAX X="86" Y="0" Z="3.75" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Acessorios\3D\versalhes_160mm" />
+      <DIMENSION WIDTH="172" HEIGHT="7.5" DEPTH="30" />
+    </DRAWING>
+    <DRAWING ID="VERSALHES_320MM">
+      <LIMITS>
+        <MIN X="-166" Y="-30" Z="-3.75" />
+        <MAX X="166" Y="0" Z="3.75" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Acessorios\3D\versalhes_320mm" />
+      <DIMENSION WIDTH="332" HEIGHT="7.5" DEPTH="30" />
+    </DRAWING>
+    <DRAWING ID="VERSALHES_448MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\VERSALHES_448MM" />
+      <DIMENSION WIDTH="460" HEIGHT="7.5" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-230" Y="-30" Z="-3.75" />
+        <MAX X="230" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_vrs_160" DEF="160mm.group" GUID="f50603d1-ee98-4dbe-83a8-05a02ff29b4d" />
+    <EXPLORERITEM TYPE="group" ID="zen_vrs_320" DEF="320mm.group" GUID="87a123df-9027-4e99-ad50-68488ecf566c" />
+    <EXPLORERITEM TYPE="group" ID="zen_vrs_448" DEF="448mm.group" GUID="aff7b3f0-3572-4362-9fa3-85ba164969df" />
+    <EXPLORERITEM TYPE="group" ID="zen_vrs_pon" DEF="Ponto.group" GUID="88b1b6bb-118e-48c0-8df3-2719a9f0f4ad" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

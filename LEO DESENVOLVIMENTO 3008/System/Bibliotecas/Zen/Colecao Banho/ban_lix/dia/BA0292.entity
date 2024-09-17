@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lixeira 5 litros ($TEXT$)" ICON="BA0292.jpg">
+  <DRAWING>
+    <FILE3D NAME="BA0292" />
+    <DIMENSION WIDTH="165" HEIGHT="265" DEPTH="167" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Diamond Lixeira 5 litros" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_dia_lix_5" MODEL="zen_diamond" MODELTYPE="zen_diam_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="165" HEIGHT="264" DEPTH="165" TEXT="BA0292" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

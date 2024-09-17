@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="gaveta_externa" EntityId="BAN_CAI_GAV_EXT" Name="Externa" GroupName="externa" Type="Drawer" Description="Externa">
+  <Dimension Width="$P.W$" Height="$P.H$" Depth="Floor((($PD$-#VAO_GAV#-#P.AFA_FUN_MOV_PAR#-(#COZ_ESP_FUN#+#FOL_PAI#))/50))*50" />
+  <Position Y="-$P.D$" />
+  <Actions>
+    <ResizeItem Side="Bottom" Value="-(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+#DOR_FOL_ARM_INF#+(#DOR_ARM_ESP_PRA_FIX#+#FOL_PAI#)/2-#DOR_FOL_ARM_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="frente_esq" Side="Bottom" />
+          <HasNeighbourItem ItemId="frente_dir" Side="Bottom" />
+          <HasNeighbourItem ItemId="frente_int" Side="Bottom" />
+          <HasNeighbourItem ItemId="gaveta_externa" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+#DOR_FOL_ARM_SUP#+(#DOR_ARM_ESP_PRA_FIX#+#FOL_PAI#)/2-#DOR_FOL_ARM_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="frente_esq" Side="Top" />
+          <HasNeighbourItem ItemId="frente_dir" Side="Top" />
+          <HasNeighbourItem ItemId="frente_int" Side="Top" />
+          <HasNeighbourItem ItemId="gaveta_externa" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Items>
+    <Item Id="gaveta_externa_Y_item" DimensionsFromEntity="Y" />
+  </Items>
+  <Front Id="gav_frente" EntityId="POR_FRE_FRE" Tag="Frente" ModelName="Const Arm - Frentes" Type="Front" FollowsOpening="Y">
+    <Sets>
+      <SetAttribute ID="TIPO_TRILHO" VALUE="'BLUM'" />
+    </Sets>
+    <Dimension Width="$P.W$+(#DOR_ARM_ESP_LAT#+#FOL_PAI#)*2-#DOR_FOL_ARM_LAR#*2" Height="$P.H$" Depth="(#DOR_ARM_ESP_POR#+#FOL_PAI#)" />
+    <Position X="-(#DOR_ARM_ESP_LAT#+#FOL_PAI#)+#DOR_FOL_ARM_LAR#" />
+    <Actions>
+      <ResizeItem Value="-(#DOR_ARM_ESP_LAT#+#FOL_PAI#)/2">
+        <Conditions>
+          <Or>
+            <HasNeighbourItem ItemId="frente_dir" Side="Left" />
+            <HasNeighbourItem ItemId="frente_int" Side="Left" />
+            <HasNeighbourItem ItemId="frente_basculante" Side="Left" />
+            <HasNeighbourItem ItemId="gaveta_externa" Side="Left" />
+          </Or>
+        </Conditions>
+      </ResizeItem>
+      <ResizeItem Side="Right" Value="-(#DOR_ARM_ESP_LAT#+#FOL_PAI#)/2">
+        <Conditions>
+          <Or>
+            <HasNeighbourItem ItemId="frente_esq" Side="Right" />
+            <HasNeighbourItem ItemId="frente_int" Side="Right" />
+            <HasNeighbourItem ItemId="frente_basculante" Side="Right" />
+            <HasNeighbourItem ItemId="gaveta_externa" Side="Right" />
+          </Or>
+        </Conditions>
+      </ResizeItem>
+    </Actions>
+  </Front>
+  <Variables>
+    <Variable Id="DrawingType" Value="DrawerFront" />
+    <Variable Id="DefaultDrawersQuantity" Value="4" />
+    <Variable Id="SpaceBetweenDrawers" Value="#DOR_FOL_ARM_ENT_GAV#" />
+    <Variable Id="UpperDrawersOffset" Value="-(#DOR_ARM_ESP_BAS_SUP#+#FOL_PAI#)+#DOR_FOL_ARM_SUP#" />
+    <Variable Id="LowerDrawersOffset" Value="-(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+#DOR_FOL_ARM_INF#" />
+  </Variables>
+  <InsertConditions>
+    <Conditions>
+      <TestExpression Expression="$PD$&gt;=400" />
+    </Conditions>
+  </InsertConditions>
+</Item>

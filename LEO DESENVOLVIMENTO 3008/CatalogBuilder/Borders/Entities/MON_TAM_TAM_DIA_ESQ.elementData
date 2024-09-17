@@ -1,0 +1,306 @@
+{
+  "ElementId": "MON_TAM_TAM_DIA_ESQ",
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "traseira_tampos",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "342,8571",
+        "Y": "550"
+      },
+      "RightPoint": {
+        "Y": "550"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 1,
+      "Reference": "Referencia01",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_TAM_TAM_DIA_ESQ",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 340.8571,
+          "Y": 548.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 342.8571,
+          "Y": 550.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 342.8571,
+          "Y": 550.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 2.0,
+          "Y": 548.0
+        },
+        "ParentPointWithOffset2": {
+          "Y": 550.0
+        },
+        "ParentPointWithOffset3": {
+          "Y": 550.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "Condition": {
+        "Expression": "'#PAI_TAM_FT_TRASEIRA#' == 'SIM'"
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "traseira_tampos",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "550"
+      },
+      "RightPoint": {
+        "Y": "300"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 3,
+      "Reference": "Referencia01",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_TAM_TAM_DIA_ESQ",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 2.0,
+          "Y": 550.0
+        },
+        "ParentPointWithOffset2": {
+          "Y": 550.0
+        },
+        "ParentPointWithOffset3": {
+          "Y": 550.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 2.0,
+          "Y": 300.9075
+        },
+        "ParentPointWithOffset2": {
+          "Y": 300.0
+        },
+        "ParentPointWithOffset3": {
+          "Y": 300.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "Condition": {
+        "Expression": "'#PAI_TAM_FT_ESQ#' == 'SIM'"
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "traseira_tampos",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "342,8571"
+      },
+      "RightPoint": {
+        "X": "342,8571",
+        "Y": "550"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 0,
+      "Reference": "Referencia01",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_TAM_TAM_DIA_ESQ",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 340.8571,
+          "Y": 4.4075
+        },
+        "ParentPointWithOffset2": {
+          "X": 342.8571
+        },
+        "ParentPointWithOffset3": {
+          "X": 342.8571
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 340.8571,
+          "Y": 550.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 342.8571,
+          "Y": 550.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 342.8571,
+          "Y": 550.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "Condition": {
+        "Expression": "'#PAI_TAM_FT_DIR#' == 'SIM'"
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "traseira_tampos",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "Y": "300"
+      },
+      "RightPoint": {
+        "X": "342,8571"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 2,
+      "Reference": "Referencia01",
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_TAM_TAM_DIA_ESQ",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "Y": 302.657532
+        },
+        "ParentPointWithOffset2": {
+          "Y": 300.0
+        },
+        "ParentPointWithOffset3": {
+          "Y": 300.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 342.857147,
+          "Y": 2.65748334
+        },
+        "ParentPointWithOffset2": {
+          "X": 342.8571
+        },
+        "ParentPointWithOffset3": {
+          "X": 342.8571
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "Condition": {
+        "Expression": "'#PAI_TAM_FT_FRONTAL#' == 'SIM'"
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

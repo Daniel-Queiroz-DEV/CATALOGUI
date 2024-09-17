@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tip-On Kit para Movento  CN=350-750, 15-40kg dir e esq" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="mov_tip_on_2" />
+    <DIMENSION WIDTH="301.2" HEIGHT="14.4" DEPTH="49" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tip-On Kit para Movento  CN=350-750, 15-40kg dir e esq" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="14.4" DEPTH="49" TEXT="02080359" DESC="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="1200" />
+  </INSERTDIMENSION>
+</ENTITY>

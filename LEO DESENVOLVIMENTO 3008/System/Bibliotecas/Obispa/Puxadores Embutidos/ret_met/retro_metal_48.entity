@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="48mm ($TEXT$)" ICON="retro_metal.jpg">
+  <INSERTDIMENSION TEXT="100.267" />
+  <DRAWING>
+    <FILE3D NAME="retro_metal" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-30" Y="-18.997" Z="0" />
+      <MAX X="30.08" Y="0" Z="46.967" />
+    </LIMITS>
+    <DIMENSION WIDTH="60" HEIGHT="47" DEPTH="19" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Retro Metal 48mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_ret_met_48" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

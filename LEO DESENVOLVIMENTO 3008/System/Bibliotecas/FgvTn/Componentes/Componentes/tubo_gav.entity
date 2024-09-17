@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tubo p/ Gaveta" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="tubo_gav" />
+    <DIMENSION WIDTH="405.3" HEIGHT="8.9" DEPTH="329.8" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="400" HEIGHT="9" DEPTH="400" TEXT=" ">
+    <MIN WIDTH="100" DEPTH="400" />
+    <MAX WIDTH="1200" DEPTH="500" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Fgv_1049" ENTRYID="fgv" />
+  </MODELS>
+</ENTITY>

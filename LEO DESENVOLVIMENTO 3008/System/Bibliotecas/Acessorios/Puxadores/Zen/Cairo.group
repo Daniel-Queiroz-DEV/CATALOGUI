@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Cairo" NAME="Cairo" PREFIXID="zen_cai_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cai_128" DEF="128mm.group" GUID="85b4521b-e263-48da-b890-f487728ba266" />
+    <EXPLORERITEM TYPE="group" ID="zen_cai_192" DEF="192mm.group" GUID="4cad6217-de9e-4896-8f9b-ab86a990463e" />
+    <EXPLORERITEM TYPE="group" ID="zen_cai_224" DEF="224mm.group" GUID="21e9e61f-290b-4f22-a8a8-11d178f360a1" />
+    <EXPLORERITEM TYPE="group" ID="zen_cai_352" DEF="352mm.group" GUID="c54f8a7e-52ba-474a-9fe2-ad0d31983622" />
+    <EXPLORERITEM TYPE="group" ID="zen_cai_448" DEF="448mm.group" GUID="d79f8b29-2905-46c3-ac17-5b085dc05527" />
+    <EXPLORERITEM TYPE="group" ID="zen_cai_544" DEF="544mm.group" GUID="ddb69a45-b7ff-4784-8ed8-8381e06c1d7e" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="CAIRO_128mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIRO_128MM" />
+      <DIMENSION WIDTH="148" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-74" Y="-25.5" Z="-8" />
+        <MAX X="74" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CAIRO_192mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIRO_192mm" />
+      <DIMENSION WIDTH="212" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-106" Y="-25.5" Z="-8" />
+        <MAX X="106" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CAIRO_224mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIRO_224mm" />
+      <DIMENSION WIDTH="244" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-122" Y="-25.5" Z="-8" />
+        <MAX X="122" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CAIRO_352mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIRO_352mm" />
+      <DIMENSION WIDTH="372" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-186" Y="-25.5" Z="-8" />
+        <MAX X="186" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CAIRO_448mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIRO_448mm" />
+      <DIMENSION WIDTH="468" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-234" Y="-25.5" Z="-8" />
+        <MAX X="234" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CAIRO_544mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CAIRO_544mm" />
+      <DIMENSION WIDTH="564" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-282" Y="-25.5" Z="-8" />
+        <MAX X="282" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

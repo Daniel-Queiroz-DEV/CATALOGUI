@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="90 ($TEXT$)" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_C90.jpg">
+  <DRAWING>
+    <FILE3D NAME="ESC_CAI_TAM_C90" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="600" Y="-1000" A="-90" />
+      <PONTO2DA X="1000" Y="-600" />
+      <PONTO2DA X="1000" A="90" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_AB_Curvo" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo conexão 90°" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="550" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="B" VALUE="550" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="ABORIG" VALUE="550" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#ESC_ESP_TAM_MES#+#FOL_PAI#)" DEPTH="1000" ITEM_BASE="TAMP01" TEXT="2103">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

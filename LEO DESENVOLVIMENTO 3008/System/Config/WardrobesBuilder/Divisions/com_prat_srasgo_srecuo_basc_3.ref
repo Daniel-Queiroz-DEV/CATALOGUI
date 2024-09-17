@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HorizontalDivision Id="com_prat_srasgo_srecuo_basc" EntityId="com_coz_pra_fix" THICKNESS="@(#ESC_ESP_BAS#+#FOL_PAI#)" Offset="#ESC_AFA_TRAS_PRA_INF#" Fallback="0" Category="Prateleiras Fixas" Name="Não Divide Fundo s/ Recuo Front p/ Basculante" Preview="%PastaConstrutorArmarios%\Escritorios\Divisoes\imagens\prat_fixa_sra_sre_bas.jpg">
+		<NORMAL A="0" B="0" C="-1" />
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_PRA_FIX_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_PRA_FIX_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_PRA_FIX_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_PRA_FIX_FT_ESQ#" />
+				<SetAttribute Id="ESP_MON" Value="#ESC_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</HorizontalDivision>

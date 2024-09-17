@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Tao" NAME="Tao" PREFIXID="zen_tao_">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_tao_64_2" DEF="64mm.group" GUID="381b507c-a1ce-413d-ad5b-c5a0fac38450" />
+    <EXPLORERITEM TYPE="group" ID="zen_tao_128_2" DEF="128mm.group" GUID="72d28291-fe1a-462b-8f55-e50a67ebaa0b" />
+    <EXPLORERITEM TYPE="group" ID="zen_tao_242_2" DEF="242mm.group" GUID="100c5d7b-7334-4e57-a85c-4d4798ec8633" />
+    <EXPLORERITEM TYPE="group" ID="zen_tao_320_2" DEF="320mm.group" GUID="bb252cd7-f30a-4df5-87c3-12f0fcecc5d8" />
+    <EXPLORERITEM TYPE="group" ID="zen_tao_544_2" DEF="544mm.group" GUID="cebf6cf3-c71a-420b-b850-896bf96b4069" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="TAO_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_64MM" />
+      <DIMENSION WIDTH="82" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-41" Y="-22" Z="-8" />
+        <MAX X="41" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_64MM_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_64MM_COURO" />
+      <DIMENSION WIDTH="82" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-41" Y="-22" Z="-8" />
+        <MAX X="41" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_128MM" />
+      <DIMENSION WIDTH="146" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-73" Y="-22" Z="-8" />
+        <MAX X="73" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_128MM_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_128MM_COURO" />
+      <DIMENSION WIDTH="146" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-73" Y="-22" Z="-8" />
+        <MAX X="73" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_242MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_242MM" />
+      <DIMENSION WIDTH="242" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-121" Y="-22" Z="-8" />
+        <MAX X="121" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_242MM_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_242MM_COURO" />
+      <DIMENSION WIDTH="242" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-121" Y="-22" Z="-8" />
+        <MAX X="121" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_320MM" />
+      <DIMENSION WIDTH="338" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-169" Y="-22" Z="-8" />
+        <MAX X="169" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_320MM_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_320MM_COURO" />
+      <DIMENSION WIDTH="338" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-169" Y="-22" Z="-8" />
+        <MAX X="169" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_544MM" />
+      <DIMENSION WIDTH="562" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-281" Y="-22" Z="-8" />
+        <MAX X="281" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TAO_544MM_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\TAO_544MM_COURO" />
+      <DIMENSION WIDTH="562" HEIGHT="16" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-281" Y="-22" Z="-8" />
+        <MAX X="281" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="128mm" NAME="128mm" PREFIXID="zen_ele_zen_128_per_">
+  <DRAWINGS />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <DRAWING ID="ELEMENTO_ZEN_128MM" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacao_128mm_2.aggregate" ORDER="0" />
+    <AGGREGATE ID="zen_mod_for_per">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="personalizado" CONCURRENT="N" DESCRIPTION="" ORDER="1" CONSTANT="Y">
+          <DIMENSION WIDTH="$PW$-32" />
+          <POSITION X="-$PW$/2+16" Y="-$PD$" Z="-$H$/2" ROTATION="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+    <PROPOSEDATTRIBUTE ID="ACAB" />
+    <PROPOSEDATTRIBUTE ID="TEXT_PER_VER_SUP" />
+    <PROPOSEDATTRIBUTE ID="TEXT_PER_VER_INF" />
+    <PROPOSEDATTRIBUTE ID="TEXT_PER_HOR_DIR" />
+    <PROPOSEDATTRIBUTE ID="TEXT_PER_HOR_ESQ" />
+  </PROPOSEDATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_1" DEF="ZP5455_1.entity" GUID="557a0815-bbe4-44f0-ad50-03906f5c89ea" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_2" DEF="ZP5455_2.entity" GUID="1fcce718-adb1-4023-b207-2aff1e3a2bec" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_24" DEF="ZP5455_24.entity" GUID="a069958e-47cd-48f9-a861-72789a364a61" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_25" DEF="ZP5455_25.entity" GUID="256b4020-d465-400e-a4bc-8488691d3b33" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_599" DEF="ZP5455_599.entity" GUID="b1aaea07-cfed-4a3c-8462-2788c12434bd" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_648" DEF="ZP5455_648.entity" GUID="cfb3607f-4d09-45bf-96aa-e0d97ee70620" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_889" DEF="ZP5455_889.entity" GUID="a44b5ca6-815c-4777-80ba-1a35964fcb8c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_916" DEF="ZP5455_916.entity" GUID="4aca934b-aed2-4b97-ad3c-2cba7578e0dc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_95" DEF="ZP5455_95.entity" GUID="679e2812-77f7-4817-a7c7-65b35e406c63" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_955" DEF="ZP5455_955.entity" GUID="c29d4c25-bef0-4213-b4a4-62acbde54b45" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_A00" DEF="ZP5455_A00.entity" GUID="c358e1fd-f305-4185-b2f3-7719f13054e7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_B00" DEF="ZP5455_B00.entity" GUID="51a97ca9-ad66-425d-a986-d40e45e0a11b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_F00" DEF="ZP5455_F00.entity" GUID="e6177a50-19ff-4e8c-994b-75c88cd10e25" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_G00" DEF="ZP5455_G00.entity" GUID="5ad9a468-cbc1-4d89-bd31-3b52a4c3a54f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_L00" DEF="ZP5455_L00.entity" GUID="61c9c23f-4e84-42a2-8d04-2f456cdfa001" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ele_zen_128_per_M00" DEF="ZP5455_M00.entity" GUID="34a9c78f-d6f3-46a4-a871-bfc7b793715d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta 6" ICON="PT_6Q.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta P4" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PT_6Q" />
+    <DIMENSION WIDTH="760" HEIGHT="445" DEPTH="47" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DUMPING" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_espelhado" NAME="bosch_espelhado" IDMATERIAL="bosch_vidro_inc" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

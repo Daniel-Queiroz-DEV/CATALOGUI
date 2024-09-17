@@ -1,0 +1,42 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "PlaneIndex": 1,
+        "Position": {
+          "X": "12,5",
+          "Y": "2"
+        },
+        "ElementId": "Sta_Blu_HF_Fonte"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 1,
+        "Position": {
+          "X": "$W$-12,5",
+          "Y": "2"
+        },
+        "ElementId": "Sta_Blu_HF_Fonte"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_HF_Fonte"
+}

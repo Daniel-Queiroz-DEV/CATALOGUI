@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Travessa" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="travessa" />
+    <DIMENSION WIDTH="5" HEIGHT="35" DEPTH="539" />
+  </DRAWING>
+  <INSERTDIMENSION DEPTH="509" HEIGHT="35" WIDTH="5" TEXT=" ">
+    <MIN DEPTH="409" />
+    <MAX DEPTH="509" />
+    <INCREMENT DEPTH="100" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Dourado ($TEXT$.$D.ACAB$)" ICON="Cairo.jpg">
+  <INSERTDIMENSION TEXT="ZP1771" ACAB="955" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cairo 352mm Alumínio Dourado c/ Ponteiras Douradas" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_dou" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_dou" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,33 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-1,8",
+            "Y": "150"
+          },
+          "End": {
+            "X": "-1,8",
+            "Y": "299,2683427"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "3"
+      },
+      "UniqueID": 4,
+      "PlaneIndex": 3,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$/2",
+        "Y": "$PH$"
+      },
+      "ElementId": "ACE_DESEMP_2_2_2_2_2"
+    }
+  ],
+  "ElementId": "ACE_DESEMP_2_2_2_2_2"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Triangular" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_TRI.jpg">
+  <DRAWING>
+    <FILE3D NAME="Triangular" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA X="424.2641" Y="-424.2641" A="-90" />
+      <PONTO2DA X="706.736" Y="-424.2641" />
+      <PONTO2DA X="1131" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-424" Z="0" />
+      <MAX X="1131" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1131" HEIGHT="150" DEPTH="424" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Triangular" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="@(#ESC_PRO_MES_RET#)" VISIBLE="Y" />
+    <ATTRIBUTE ID="B" VALUE="@(#ESC_PRO_MES_RET#)" VISIBLE="Y" />
+    <ATTRIBUTE ID="IMAGEM" VALUE="%pastasistema%\bibliotecas\Imagens\cantol.jpg" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="ABORIG" VALUE="600" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1131" DEPTH="424" HEIGHT="@(#COM_ESP_TAM#+#FOL_PAI#)" ITEM_BASE="TAMP01" TEXT="008">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

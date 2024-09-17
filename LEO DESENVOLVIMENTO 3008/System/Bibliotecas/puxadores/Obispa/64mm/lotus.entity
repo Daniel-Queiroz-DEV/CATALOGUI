@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lótus ($TEXT$)" ICON="lotus.jpg">
+  <INSERTDIMENSION TEXT="100.722" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_64_lot" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_lot" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_lot" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_64_lot" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <DRAWING>
+    <FILE3D NAME="lotus" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="75" HEIGHT="75" DEPTH="25" />
+    <LIMITS>
+      <MIN X="-37.5" Y="-25.144" Z="-37.5" />
+      <MAX X="37.763" Y="0" Z="37.513" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Lótus c/ Cristal Swarovski 64mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,88 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "10",
+            "Y": "10"
+          },
+          "End": {
+            "X": "0",
+            "Y": "10"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "0",
+            "Y": "10"
+          },
+          "End": {
+            "X": "0",
+            "Y": "15"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "0",
+            "Y": "15"
+          },
+          "End": {
+            "X": "$W$",
+            "Y": "15"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$",
+            "Y": "15"
+          },
+          "End": {
+            "X": "$W$",
+            "Y": "5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$",
+            "Y": "5"
+          },
+          "End": {
+            "X": "0",
+            "Y": "5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "0",
+            "Y": "5"
+          },
+          "End": {
+            "X": "0",
+            "Y": "12"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "19"
+      },
+      "MachiningProcessIDText": "af71762b-3739-44b2-b524-2d8b1202154b",
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "10",
+        "Y": "10"
+      },
+      "ElementId": "ACE_VAZ_RASGO_3_3"
+    }
+  ],
+  "ElementId": "ACE_VAZ_RASGO_3_3"
+}

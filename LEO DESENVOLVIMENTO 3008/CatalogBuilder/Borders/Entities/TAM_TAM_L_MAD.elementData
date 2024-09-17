@@ -1,0 +1,447 @@
+{
+  "ElementId": "TAM_TAM_L_MAD",
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "1000"
+      },
+      "RightPoint": {},
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 4,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_L_MAD",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 1.6,
+          "Y": 998.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 998.4
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 998.4
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 1.6,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 1.6
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 5,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 5,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 5,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_L_MAD",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 998.4,
+          "Y": 998.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 998.4,
+          "Y": 999.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 998.4,
+          "Y": 999.9
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "Y": 998.4
+        },
+        "ParentPointWithOffset2": {
+          "Y": 999.9
+        },
+        "ParentPointWithOffset3": {
+          "Y": 999.9
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda03",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 4,
+      "LeftPoint": {
+        "X": "580",
+        "Y": "420"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "420"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 5,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_L_MAD",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 581.6,
+          "Y": 418.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 581.6,
+          "Y": 419.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 581.6,
+          "Y": 419.9
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 998.4,
+          "Y": 418.4
+        },
+        "ParentPointWithOffset2": {
+          "X": 998.4,
+          "Y": 419.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 998.4,
+          "Y": 419.9
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda04",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "580"
+      },
+      "RightPoint": {
+        "X": "580",
+        "Y": "420"
+      },
+      "Angle": {},
+      "LeftNeighbour": 4,
+      "RightNeighbour": 2,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_L_MAD",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 581.6,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "X": 580.1,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset3": {
+          "X": 580.1,
+          "Y": 1.6
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 581.6,
+          "Y": 420.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 580.1,
+          "Y": 420.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 580.1,
+          "Y": 420.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda05",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {},
+      "RightPoint": {
+        "X": "580"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 3,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_L_MAD",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "Y": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "Y": 0.1
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 580.0,
+          "Y": 1.6
+        },
+        "ParentPointWithOffset2": {
+          "X": 580.0,
+          "Y": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "X": 580.0,
+          "Y": 0.1
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 4,
+      "Text": "Borda06",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 5,
+      "LeftVertexIndex": 4,
+      "RightVertexIndex": 5,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "420"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 1,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_L_MAD",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 998.4,
+          "Y": 420.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 420.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 420.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 998.4,
+          "Y": 1000.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 1000.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 1000.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

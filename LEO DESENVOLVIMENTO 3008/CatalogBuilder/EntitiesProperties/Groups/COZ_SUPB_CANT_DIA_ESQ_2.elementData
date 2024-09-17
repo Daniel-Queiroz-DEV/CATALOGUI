@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityPropertiesData
+  Offset="{assembly:Null}"
+  GroupHoles="False"
+  AluminumComponentData="{assembly:Null}"
+  SteelComponentData="{assembly:Null}"
+  PlateCuttingOffset="{assembly:Null}"
+  MachinedContour="False"
+  PurchasedItem="{assembly:Null}"
+  DisregardWoodGrain="False"
+  ElementId="COZ_SUPB_CANT_DIA_ESQ_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.EntityProperties;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EntityPropertiesData.CNCPluginDataCollection>
+    <CNCPluginDataCollection />
+  </EntityPropertiesData.CNCPluginDataCollection>
+  <EntityPropertiesData.FrontalFace>
+    <FrontalFace
+      PlaneType="Superior"
+      PlaneIndex="0" />
+  </EntityPropertiesData.FrontalFace>
+  <EntityPropertiesData.AlignmentFace>
+    <AlignmentFace
+      PlaneType="Profile"
+      PlaneIndex="0" />
+  </EntityPropertiesData.AlignmentFace>
+  <EntityPropertiesData.FurnitureAssemblyPreviewData>
+    <FurnitureAssemblyPreviewData
+      ExplodeX="0"
+      ExplodeY="0"
+      ExplodeZ="0"
+      Target="191,4671;-130,0471;160,8582"
+      Eye="-205,8174;-619,9164;543,1071"
+      HideDoorsLayer="False"
+      HideAccessoriesLayer="False" />
+  </EntityPropertiesData.FurnitureAssemblyPreviewData>
+</EntityPropertiesData>

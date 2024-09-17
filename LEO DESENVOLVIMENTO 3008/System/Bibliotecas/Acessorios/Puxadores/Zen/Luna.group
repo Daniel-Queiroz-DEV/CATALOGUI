@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Luna" NAME="Luna" PREFIXID="zen_lun_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_lun_96" DEF="96mm.group" GUID="f5654646-bd45-4511-afd3-aa987a34355e" />
+    <EXPLORERITEM TYPE="group" ID="zen_lun_160" DEF="160mm.group" GUID="5a6a3531-3cfe-4841-b93c-8041e536514a" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="LUNA_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\luna_96mm" />
+      <DIMENSION WIDTH="136.4" HEIGHT="37" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-68.181" Y="-21" Z="-18.5" />
+        <MAX X="68.181" Y="0" Z="18.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LUNA_96MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\luna_96mm_diamond" />
+      <DIMENSION WIDTH="136.4" HEIGHT="37" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-68.181" Y="-21" Z="-18.5" />
+        <MAX X="68.181" Y="0" Z="18.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LUNA_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\luna_160mm" />
+      <DIMENSION WIDTH="200.4" HEIGHT="37" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-100.181" Y="-21" Z="-18.5" />
+        <MAX X="100.181" Y="0" Z="18.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LUNA_160MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\luna_160mm_diamond" />
+      <DIMENSION WIDTH="200.4" HEIGHT="37" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-100.181" Y="-21" Z="-18.5" />
+        <MAX X="100.181" Y="0" Z="18.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="500 DuploPux/Toalheiro  ($TEXT$)" ICON="Ramp_Duplo_Pux_Toalheiro.jpg" INVISIBLE="N" MODELINVISIBLE="N" CHECKED="N">
+  <DRAWING ID="Ramp_Duplo_Pux_Toalheiro" />
+  <INSERTDIMENSION WIDTH="514" HEIGHT="315.7" DEPTH="175" TEXT="ZP0005" ACAB="10" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Ramp Alça Puxador e toalheiro para Box 300 x 500mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_ram" ENTRYID="pux_zen" />
+  </MODELS>
+</ENTITY>

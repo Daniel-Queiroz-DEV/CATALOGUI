@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$ Toalheiro Duplo ($TEXT$)" ICON="BA0041.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_toalheiro duplo" />
+    <DIMENSION WIDTH="414" HEIGHT="67" DEPTH="129" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0041" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Toalha_09">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="sabonete" DESCRIPTION="" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION WIDTH="$PW$-160" />
+          <POSITION ROTATION="0" X="80" Y="-32" Z="-330" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="350" HEIGHT="67" DEPTH="129" MODE="OnlyProposed" TEXT=" ">
+    <MIN WIDTH="350" />
+    <MAX WIDTH="650" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE WIDTH="350" TEXT="BA0041" />
+      <PROPOSEDVALUE WIDTH="500" TEXT="BA0042" />
+      <PROPOSEDVALUE WIDTH="650" TEXT="BA0043" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Toalheiro Duplo $W$mm @zen_jazz(DESCRICAO)@" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+</ENTITY>

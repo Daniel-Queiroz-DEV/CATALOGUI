@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="pt_cintos_dir" Name="Direito" GroupName="Aramados" Description="Pt Cintos">
+  <Position X="$PW$" Y="(-$PD$/2+$W$/2)-10" Z="$PH$-$H$-300" Rotation="270">
+    <Max Z="$P.H$-$H$" />
+    <Min Z="0" />
+  </Position>
+  <Alternatives>
+    <Alternative Id="pt_cintos_dir" EntityId="ACE_ARA_CIN">
+      <Conditions>
+        <TestExpression Expression="$PD$ &gt;= 370" />
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="BUDGETAGGREGATE" Value="true" />
+    </Sets>
+  </Output>
+</Item>

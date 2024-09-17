@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Rose Escovado ($TEXT$.$D.ACAB$)" ICON="cabide.jpg">
+  <INSERTDIMENSION WIDTH="130" HEIGHT="65" DEPTH="19" TEXT="ZP0154" ACAB="M00" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cabide Belle Époque Rose Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_ros_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

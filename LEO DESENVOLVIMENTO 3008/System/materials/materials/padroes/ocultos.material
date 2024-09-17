@@ -1,0 +1,2268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Ocultos" PREFIXID="mat_ocu_" HIDDEN="Y">
+  <MATERIALCOLLECTION>
+    <MATERIAL ISFOLDER="Y" ID="mat_ocu_placas" NAME="Placas Indicativas" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+      <METADATAS>
+        <METADATA ID="LightWorksMaterialData">
+          <METADATA.VALUE>
+            <LIGHTWORKSMATERIALDATA>
+              <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+            </LIGHTWORKSMATERIALDATA>
+          </METADATA.VALUE>
+        </METADATA>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <BORDERCOLOR R="0" G="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <ROTATION>0</ROTATION>
+      <ESCALETEXTUREX>1</ESCALETEXTUREX>
+      <ESCALETEXTUREY>1</ESCALETEXTUREY>
+      <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+      <MIRROR>N</MIRROR>
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.42</DIFFUSE>
+      <REFLECTIONMIN>0</REFLECTIONMIN>
+      <REFLECTIONMAX>0</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <DIRECTION>Nenhum</DIRECTION>
+      <SLIDEMODE>Default</SLIDEMODE>
+      <TEXTUREFILE>.\textures\padroes\ocultos\placas_indicativas\Cadeirante.png</TEXTUREFILE>
+      <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+      <MAPPING>Planar</MAPPING>
+      <TRANSPARENCY>0.001</TRANSPARENCY>
+      <IOR>1</IOR>
+      <COLORBASE R="75" G="176" B="229" />
+    </MATERIAL>
+    <MATERIAL ID="mat_ocu_diversos" NAME="Diversos" ISFOLDER="Y" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+      <METADATAS>
+        <METADATA ID="LightWorksMaterialData">
+          <METADATA.VALUE>
+            <LIGHTWORKSMATERIALDATA>
+              <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+            </LIGHTWORKSMATERIALDATA>
+          </METADATA.VALUE>
+        </METADATA>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <DIRECTION>Nenhum</DIRECTION>
+      <SLIDEMODE>Default</SLIDEMODE>
+      <BORDERCOLOR R="0" G="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <ROTATION>0</ROTATION>
+      <ESCALETEXTUREX>1</ESCALETEXTUREX>
+      <ESCALETEXTUREY>1</ESCALETEXTUREY>
+      <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+      <MIRROR>N</MIRROR>
+      <FRESNELTERM>0</FRESNELTERM>
+      <AMBIENT>0.42</AMBIENT>
+      <DIFFUSE>0.4</DIFFUSE>
+      <REFLECTIONMIN>0</REFLECTIONMIN>
+      <REFLECTIONMAX>0</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <TEXTUREFILE>.\textures\padroes\ocultos\diversos\amarra.jpg</TEXTUREFILE>
+      <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+      <IOR>1</IOR>
+      <MAPPING>Planar</MAPPING>
+      <TRANSPARENCY>0.001</TRANSPARENCY>
+      <COLORBASE R="132" G="103" B="81" />
+    </MATERIAL>
+    <MATERIAL ID="mat_ocu_pes" NAME="Pessoas/Animais Inv" ISFOLDER="Y" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+      <BORDERCOLOR R="0" G="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <MAPPING>Planar</MAPPING>
+      <ROTATION>0</ROTATION>
+      <ESCALETEXTUREX>1</ESCALETEXTUREX>
+      <ESCALETEXTUREY>1</ESCALETEXTUREY>
+      <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+      <MIRROR>N</MIRROR>
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.5</DIFFUSE>
+      <REFLECTIONMIN>0</REFLECTIONMIN>
+      <REFLECTIONMAX>0</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <TRANSPARENCY>0.001</TRANSPARENCY>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <DIRECTION>Nenhum</DIRECTION>
+      <SLIDEMODE>Default</SLIDEMODE>
+      <TEXTUREFILE>.\textures\padroes\ocultos\pessoas_animais_inv\animal 001_inv.png</TEXTUREFILE>
+      <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <IOR>1</IOR>
+      <COLORBASE R="255" G="255" B="255" />
+    </MATERIAL>
+  </MATERIALCOLLECTION>
+  <FOLDERCOLLECTION>
+    <FOLDER NAME="Adesivos" PREFIXID="mat_ocu_adesivos">
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="mat_ocu_adesivos_coz" NAME="Cozinha" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <IOR>1</IOR>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="44" G="44" B="44" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\adesivos\Cozinha\Cheff 01 Branco inv.png</TEXTUREFILE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="mat_ocu_adesivos_qua" NAME="Quarto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <IOR>1</IOR>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.42</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\adesivos\Quarto\Bailarina Preto inv.png</TEXTUREFILE>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <COLORBASE R="0" G="0" B="0" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="mat_ocu_adesivos_sal" NAME="Sala" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <IOR>1</IOR>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.42</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\adesivos\Sala\Arvore Branco inv.png</TEXTUREFILE>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="29" G="29" B="29" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="mat_ocu_adesivos_pet" NAME="Pet" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <IOR>1</IOR>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.42</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\adesivos\Pet\Cachorro Branco inv.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <IOR>1.4</IOR>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <COLORBASE R="160" G="160" B="160" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Outros">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="bambu_02" NAME="Bambu 02" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>143</ESCALETEXTUREX>
+          <ESCALETEXTUREY>582</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Vertical</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\bambu.png</TEXTUREFILE>
+          <COLORBASE R="118" G="81" B="28" />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="bambu_01" NAME="Bambu 01" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>100</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1500</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\bambu.jpg</TEXTUREFILE>
+          <COLORBASE R="118" G="81" B="28" />
+          <MAPPING>EsfericoZ</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="goiabao_claro" NAME="Goiabão Claro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\goiabao claro.jpg</TEXTUREFILE>
+          <COLORBASE R="238" G="170" B="68" />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="cedro" NAME="Cedro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.3</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\cedro.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="213" G="103" B="41" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_pne" NAME="Pneu Moto">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FRESNELTERM>0</FRESNELTERM>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>130</ESCALETEXTUREX>
+          <ESCALETEXTUREY>130</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.3</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\Outros\pneu_moto.jpg</TEXTUREFILE>
+          <COLORBASE R="24" G="24" B="24" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_gra" NAME="Grama">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>625</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.9</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\diversos\grama.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="69" G="109" B="27" />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_liq_pai" NAME="Painel Liquidiificador ClicPro">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\painel_liqui.png</TEXTUREFILE>
+          <MAPPING>Planar</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="32" G="32" B="32" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_liq_let" NAME="Letras Liquidificador ClicPro">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\clicpro.png</TEXTUREFILE>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="43" G="43" B="43" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_liq_bot" NAME="Botões Liquidificador ClicPro">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\cliccpro.png</TEXTUREFILE>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="57" G="55" B="56" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_01" NAME="Fritadeira 01">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img01.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="6" G="6" B="6" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_02" NAME="Fritadeira 02">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img02.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="9" G="9" B="9" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_03" NAME="Fritadeira 03">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img03.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="12" G="11" B="12" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_04" NAME="Fritadeira 04">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img04.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="4" G="4" B="5" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_05" NAME="Fritadeira 05">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img05.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="10" G="10" B="11" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_06" NAME="Fritadeira 06">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img06.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="5" G="5" B="5" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_07" NAME="Fritadeira 07">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img07.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="6" G="6" B="6" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_08" NAME="Fritadeira 08">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img08.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="26" G="25" B="26" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_09" NAME="Fritadeira 09">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img09.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="29" G="29" B="28" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_10" NAME="Fritadeira 10">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img10.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="39" G="39" B="39" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_11" NAME="Fritadeira 11">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img11.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="13" G="12" B="13" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_12" NAME="Fritadeira 12">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img12.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="2" G="2" B="2" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fri_ole" NAME="Fritadeira Sem Óleo">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\semoleo.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="10" G="10" B="11" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_fer_Bla_02" NAME="Textura Ferro Black">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>180</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.8</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.32</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\LOGO_COREL3.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="29" G="12" B="11" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_Fer_Bla_03" NAME="Textura Ferro Black">
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>78.88892</ESCALETEXTUREX>
+          <ESCALETEXTUREY>30</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0.32</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\Ferro.jpg</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="94" G="94" B="94" />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_caf" NAME="Painel Comandos Cafeteira">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\img.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="6" G="6" B="6" />
+          <MAPPING>Planar</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_bot_01" NAME="Botão 01">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\botao_001.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="8" G="8" B="8" />
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_bot_02" NAME="Botão 02">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\botao_002.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="7" G="7" B="7" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_bot_03" NAME="Botão 03">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Planar</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\botao_003.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="10" G="10" B="10" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_con_caf" NAME="Controle Cafeterira">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\imge.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MAPPING>Planar</MAPPING>
+          <COLORBASE R="3" G="3" B="3" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <IOR>1</IOR>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_bot_rol" NAME="Botão">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.001</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\ocultos\outros\BOTAO.png</TEXTUREFILE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="145" G="145" B="145" />
+          <MAPPING>Planar</MAPPING>
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_out_whi" NAME="Whisky">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.5</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="253" G="155" B="20" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_out_vin" NAME="Vinagre">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.5</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="210" G="31" B="24" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_out_aze" NAME="Azeite">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.5</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.5</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+          <COLORBASE R="236" G="194" B="30" />
+        </MATERIAL>
+        <MATERIAL ID="vidro_01_NOVO" NAME="Vidro Incolor" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Glasses_Mirrors" NAME="Window Clear Reflect 6" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.9</TRANSPARENCY>
+          <CONSERVEENERGY>Y</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Glass.None.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="250" G="250" B="250" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Catalog 3D" HIDDEN="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="cin_cor_001_a" NAME="Cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.03</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="255" G="255" B="255" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="cin_cor_007_a" NAME="Cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="23" G="23" B="23" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="cin_cor_001_b" NAME="Cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.03</REFLECTIONMIN>
+          <REFLECTIONMAX>0.03</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="255" G="255" B="255" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="cin_cor_007_b" NAME="Cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="23" G="23" B="23" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Emissivos / Luzes" HIDDEN="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="luz" NAME="Luz" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>1</AMBIENT>
+          <DIFFUSE>1</DIFFUSE>
+          <REFLECTIONMIN>1</REFLECTIONMIN>
+          <REFLECTIONMAX>1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.91</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="dec_ocu_emi_luz" NAME="Luz">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="255" G="255" B="255" />
+          <MAPPING>EsfericoX</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="dec_ocu_emi_azu" NAME="Azul">
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0.8</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.02</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="5" G="58" B="239" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+        <MATERIAL ID="dec_ocu_emi_bra_que" NAME="Branco Quente">
+          <FRESNELTERM>0</FRESNELTERM>
+          <EMISSIVE>0.5</EMISSIVE>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0.8</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="254" G="255" B="232" />
+        </MATERIAL>
+        <MATERIAL ID="dec_ocu_emi_ama" NAME="Amarelo">
+          <EMISSION>0.5</EMISSION>
+          <FRESNELTERM>0</FRESNELTERM>
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0.8</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="247" G="205" B="0" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Tecidos com escala" PREFIXID="mat_ocu_tec_">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mat_ocu_tec_bra" NAME="Branco">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>197.3684</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.7</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\01.png</TEXTUREFILE>
+          <COLORBASE R="240" G="240" B="240" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_azu" NAME="Azul">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>197.3684</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\02.png</TEXTUREFILE>
+          <COLORBASE R="134" G="148" B="167" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_beg" NAME="Bege">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>197.3684</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\03.png</TEXTUREFILE>
+          <COLORBASE R="186" G="167" B="148" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_beg_bol" NAME="Bege Bolinha">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>40</ESCALETEXTUREX>
+          <ESCALETEXTUREY>76.79494</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\04.png</TEXTUREFILE>
+          <COLORBASE R="176" G="165" B="150" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_pre" NAME="Preto">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>100</ESCALETEXTUREX>
+          <ESCALETEXTUREY>100</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.9</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\05.png</TEXTUREFILE>
+          <COLORBASE R="19" G="14" B="20" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_azu_bol" NAME="Azul bolinha">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>40</ESCALETEXTUREX>
+          <ESCALETEXTUREY>39.47368</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\06.png</TEXTUREFILE>
+          <COLORBASE R="149" G="157" B="167" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_mar_xad" NAME="Marrom xadrez">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>60</ESCALETEXTUREX>
+          <ESCALETEXTUREY>59.21052</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\07.png</TEXTUREFILE>
+          <COLORBASE R="182" G="175" B="168" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mat_ocu_tec_azu_cla" NAME="Azul">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>100</ESCALETEXTUREX>
+          <ESCALETEXTUREY>98.6842</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.6</AMBIENT>
+          <DIFFUSE>0.6</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\Textures\padroes\ocultos\Tecido escala\08.png</TEXTUREFILE>
+          <COLORBASE R="226" G="233" B="243" />
+          <MCODE>Plastic.Acrylic.Eggshell.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+</FOLDER>

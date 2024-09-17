@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto_Espia_Couro" NAME="Ponto c/ Espia de Couro" PREFIXID="zen_ori_pon_esp_cou_">
+  <DRAWINGS />
+  <DRAWING ID="ORIENTE_PONTO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_2" DEF="ZP1799_102.entity" GUID="7930cc65-8472-453a-81ca-b96294905e8b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_2" DEF="ZP1799_648.entity" GUID="5033d51d-044e-4529-a0eb-4407ffa4ac70" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_599_2" DEF="ZP1799_599.entity" GUID="18dddb11-2779-45c7-ac52-2eb94353cc03" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_955_2" DEF="ZP1799_955.entity" GUID="2b661a0c-553a-4b78-959f-2fca41b45946" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_A00_2" DEF="ZP1799_A00.entity" GUID="705e8a1c-3817-4501-a241-073478ee24ed" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_B00_2" DEF="ZP1799_B00.entity" GUID="ae774c7f-2646-4113-bac8-d3db5a7af434" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_F00_2" DEF="ZP1799_F00.entity" GUID="4858d7dc-e758-400f-a2c4-18e4021237ca" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_G00_2" DEF="ZP1799_G00.entity" GUID="fd8498e6-73b0-4b39-85b4-920948785512" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_L00_2" DEF="ZP1799_L00.entity" GUID="75bc7d2d-a363-4e77-845a-edfe683edf32" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_99_102_M00_2" DEF="ZP1799_M00.entity" GUID="17ca044b-55ea-48da-80e0-4a321d91e517" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

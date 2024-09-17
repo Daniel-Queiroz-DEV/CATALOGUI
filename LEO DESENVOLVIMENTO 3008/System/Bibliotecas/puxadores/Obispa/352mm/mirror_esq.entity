@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mirror E ($TEXT$)" ICON="mirror_esq.jpg">
+  <DRAWING>
+    <FILE3D NAME="mirror_inv" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="390" HEIGHT="40" DEPTH="29" />
+    <LIMITS>
+      <MIN X="-195" Y="-29.432" Z="-20" />
+      <MAX X="194.948" Y="0" Z="20.57" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.679E" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_cro_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_352_mir_esq" MODEL="Pux_all" MODELTYPE="Pux_all_pin_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mirror E 352mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

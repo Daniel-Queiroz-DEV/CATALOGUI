@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Urban_2" NAME="Udine" PREFIXID="zen_urb_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="URBAN_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Acessorios\3D\zp5459" />
+      <DIMENSION WIDTH="98" HEIGHT="98" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-49" Y="4" Z="-49" />
+        <MAX X="49" Y="0" Z="49" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_urb_pon_esp_aco_2" DEF="Espia_Aco.group" GUID="01d3dc4c-4ae8-4a7b-a054-e15f62e238c0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

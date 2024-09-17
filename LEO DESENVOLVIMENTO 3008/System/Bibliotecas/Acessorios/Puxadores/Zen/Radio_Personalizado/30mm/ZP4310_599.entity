@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Metallo ($TEXT$.$D.ACAB$)" ICON="Radio.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_met_vec" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Radio Grande 30mm Vecchio Metallo - !find(entityid,zen_mod_for_per_*).#DESCRIPTION#!" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP4310" ACAB="599" TEXT_PER_HOR_CEN="ZP4310" />
+</ENTITY>

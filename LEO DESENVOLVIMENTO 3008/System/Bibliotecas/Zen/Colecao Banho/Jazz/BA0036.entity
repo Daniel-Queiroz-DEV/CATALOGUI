@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prat c/ Guarn ($TEXT$)" ICON="BA0036.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_prat_inox" />
+    <DIMENSION WIDTH="477" HEIGHT="63" DEPTH="127" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="477" HEIGHT="63" DEPTH="127" MODE="Nothing" TEXT="BA0036" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0036" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Prateleira de Inox c/ Guarnição @zen_jazz(DESCRICAO)@" />
+  </ATTRIBUTES>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Cosmetico_06">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="cosmetico" DESCRIPTION="" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <POSITION ROTATION="0" X="120" Y="-44" Z="34" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+</ENTITY>

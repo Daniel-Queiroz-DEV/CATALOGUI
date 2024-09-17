@@ -1,0 +1,142 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderOffsetLeftFinishing": {
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 1000.0,
+          "Y": 499.55
+        },
+        "ParentPointWithOffset2": {
+          "X": 1000.0,
+          "Y": 500.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 1000.0,
+          "Y": 500.0
+        },
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "Y": 499.55
+        },
+        "ParentPointWithOffset2": {
+          "Y": 500.0
+        },
+        "ParentPointWithOffset3": {
+          "Y": 500.0
+        },
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        }
+      },
+      "CuttingFinishing": {
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {},
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        }
+      },
+      "BorderStructureID": "",
+      "ElementId": "cavilha_base",
+      "OperationPrice": "BORDA"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Reference": "Nenhum",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {},
+      "RightPoint": {
+        "X": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderOffsetLeftFinishing": {
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "Y": 0.45
+        },
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {},
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {
+          "X": 1000.0,
+          "Y": 0.45
+        },
+        "ParentPointWithOffset2": {
+          "X": 1000.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 1000.0
+        },
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        }
+      },
+      "CuttingFinishing": {
+        "FinishingType": "Circular",
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {},
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        }
+      },
+      "BorderStructureID": "",
+      "ElementId": "cavilha_base",
+      "OperationPrice": "BORDA"
+    }
+  ],
+  "ElementId": "cavilha_base"
+}

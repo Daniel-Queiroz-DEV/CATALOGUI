@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Filo ($TEXT$)" ICON="filo.jpg">
+  <DRAWING>
+    <FILE3D NAME="filo_300013" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="32" HEIGHT="82" DEPTH="38" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="300.013" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Filo" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

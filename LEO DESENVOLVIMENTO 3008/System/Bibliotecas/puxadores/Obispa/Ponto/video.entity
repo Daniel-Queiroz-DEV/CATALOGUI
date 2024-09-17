@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Video ($TEXT$)" ICON="video.jpg">
+  <INSERTDIMENSION TEXT="100.072" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_vid" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_vid" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_vid" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_vid" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_vid" MODEL="Pux_all" MODELTYPE="Pux_all_pin" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <DRAWING>
+    <FILE3D NAME="video_100072" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="36" HEIGHT="36" DEPTH="24" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Video Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

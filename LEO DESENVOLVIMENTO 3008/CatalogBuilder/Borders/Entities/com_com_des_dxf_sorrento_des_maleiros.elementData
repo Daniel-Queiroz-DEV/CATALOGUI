@@ -1,0 +1,165 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Traseira",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "BorderStructuresIDs": {},
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "1181acfe-e49b-4e31-bc5e-780cdc772e19",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_com_des_dxf_sorrento_des_maleiros"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Frontal",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "BorderStructuresIDs": {},
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "d2d03e06-1be6-49bb-b41f-f47f1c7b9421",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_com_des_dxf_sorrento_des_maleiros"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Esq",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "BorderStructuresIDs": {},
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "579a9c26-48c0-4725-bf5b-8846e0c5f7ec",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_com_des_dxf_sorrento_des_maleiros"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Dir",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#FT_BORDA_DIR#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "BorderStructuresIDs": {},
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "5e7ce448-58f1-4645-b98a-2d1aa78823f0",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_com_des_dxf_sorrento_des_maleiros"
+    }
+  ],
+  "ElementId": "com_com_des_dxf_sorrento_des_maleiros"
+}

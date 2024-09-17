@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HorizontalDivision Id="com_prat_crasgo_crecuo" EntityId="com_coz_pra_fix" THICKNESS="@(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)" Offset="@(#COZ_CON_SUP_FOL_FUN_MON_BAL# &lt;= 1 ? #COZ_ESP_FUN#+#FOL_PAI#+#COZ_CON_SUP_AFA_FUN_MOV#+#COZ_CON_SUP_FOL_RASGO_LARG#/2 : 0)" Fallback="#RECUO_PRAT_SUP#" Category="Prateleiras Fixas" Name="Divide Fundo c/ Recuo Front" Preview="%PastaConstrutorArmarios%\Cozinhas\Divisoes\imagens\prat_fixa_cra_cre.jpg">
+		<NORMAL A="0" B="0" C="-1" />
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#COZ_PRA_FIX_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#COZ_PRA_FIX_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#COZ_PRA_FIX_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_PRA_FIX_FT_ESQ#" />
+				<SetAttribute Id="ESP_MON" Value="#COZ_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</HorizontalDivision>

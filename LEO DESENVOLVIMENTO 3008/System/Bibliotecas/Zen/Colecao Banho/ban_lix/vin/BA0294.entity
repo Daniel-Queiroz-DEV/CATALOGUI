@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Bandeja Quadrada ($TEXT$)" ICON="BA0294.jpg">
+  <DRAWING>
+    <FILE3D NAME="BA0294" />
+    <DIMENSION WIDTH="150" HEIGHT="30" DEPTH="150" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="zen_vintage" ENTRYID="pux_zen" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vintage Bandeja Quadrada" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="220" HEIGHT="55" DEPTH="220" TEXT="BA0294" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

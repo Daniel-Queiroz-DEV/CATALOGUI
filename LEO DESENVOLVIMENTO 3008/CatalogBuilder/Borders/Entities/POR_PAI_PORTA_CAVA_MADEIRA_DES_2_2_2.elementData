@@ -1,0 +1,181 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda02",
+      "LayerName": "3",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 3,
+      "RightNeighbour": 1,
+      "Condition": {},
+      "Arc": {
+        "Start": "1000, 1000",
+        "Mid": "500, 1000",
+        "End": "0, 1000"
+      },
+      "BorderStructureID": "FITA_BORDA_SOR",
+      "BorderID": "fd32cd06-ce2e-4274-8355-5350a08aa2dd",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "TrimCode": "RunsShort",
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_2_2_2"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 0,
+      "RightNeighbour": 2,
+      "Condition": {},
+      "Arc": {
+        "Start": "0, 1000",
+        "Mid": "0, 500"
+      },
+      "BorderStructureID": "FITA_BORDA",
+      "BorderID": "f72bb9d2-f0da-4ec0-a35d-ea1775bf8c71",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_2_2_2"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "(2*#SOBRE_CORTE_BORDA#)+($W$/2)"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "RightNeighbour": 3,
+      "Condition": {},
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderStructureID": "FITA_BORDA",
+      "BorderID": "e4cfb8bc-2c10-4ab4-a633-5a80de4d5fc5",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_2_2_2"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 2,
+      "RightNeighbour": 0,
+      "Condition": {},
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 500",
+        "End": "1000, 1000"
+      },
+      "BorderStructureID": "FITA_BORDA",
+      "BorderID": "8436dc24-5af6-42a4-a329-8c4b39d1ef20",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_2_2_2"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_2_2_2"
+}

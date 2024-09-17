@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Rodizios" NAME="Rodízios" PREFIXID="fer_rod_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+    <STEPS />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ACE_ROD_2" DEF="Rodizios_2.entity" GUID="03b90126-3399-4f12-8851-d5443ec8be8b" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_ROD" DEF="Rodizios.entity" GUID="8a895b54-1f66-4fb4-bca3-cf420fcb6855" />
+    <EXPLORERITEM TYPE="entity" ID="fer_rod_rod" DEF="fer_rod_rod_2.entity" GUID="bd56c27d-405c-483f-8557-cf87a955d6dc" />
+    <EXPLORERITEM TYPE="entity" ID="fer_rod_fre" DEF="fer_rod_fre_2.entity" GUID="e756557c-3f9f-47fb-a7af-a05b7ddabfc5" />
+    <EXPLORERITEM TYPE="entity" ID="fer_rod_sfr_cam" DEF="fer_rod_sfr_cam.entity" GUID="60d7b359-a31c-4ff8-ab14-ce70a3cdad7c" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

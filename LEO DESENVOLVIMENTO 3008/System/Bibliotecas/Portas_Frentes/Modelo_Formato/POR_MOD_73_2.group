@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="POR_MOD_73_2" NAME="Frentes Internas Seriado" PREFIXID="POR_MOD_FRE_" MODELNAME="Frentes" INVISIBLE="N" ORDERSTRING="001">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="$TEXT$" MODEL="@COM_*@" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_REB_2" DEF="POR_MOD_REB.entity" GUID="9dd78208-fe7c-4db9-a428-76486cf05575" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_GOL_2" DEF="POR_MOD_GOL.entity" GUID="493b7992-ec31-43bf-b636-e77030e25a07" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_RET_2" DEF="POR_MOD_RET.entity" GUID="67d7abcf-816f-446f-8509-99dfe73a0efa" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_FEC_2" DEF="POR_MOD_FEC.entity" GUID="57b0af5e-c3db-4cb7-8fe9-e9f2d20d87b6" />
+  </EXPLORERITEMCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+</GROUP>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Estabilizador Lateral">
+  <DRAWING>
+    <FILE3D NAME="kit_est_lateral" />
+    <DIMENSION WIDTH="182.5" HEIGHT="11.3" DEPTH="138" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="cin_cor_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="215" HEIGHT="11.3" DEPTH="138" TEXT="">
+    <MIN WIDTH="1" DEPTH="1" />
+    <MAX WIDTH="1500" DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Estabilizador Lateral" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Forno" ICON="FORNO_03.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_ELETRO" ID="DEC_ELETRO" EDIT="Y" IDMATERIAL="metal_branco_01" />
+    <COMPONENTDEFINITION NAME="DEC_VIDRO" ID="DEC_VIDRO" EDIT="Y" IDMATERIAL="vidro_fume" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <DRAWING>
+    <FILE3D NAME="forno_03_" />
+    <DIMENSION WIDTH="594" HEIGHT="594" DEPTH="579" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ModuleType" VALUE="INTERNAL" />
+    <ATTRIBUTE ID="description" VALUE="Forno Elétrico" />
+  </ATTRIBUTES>
+</ENTITY>

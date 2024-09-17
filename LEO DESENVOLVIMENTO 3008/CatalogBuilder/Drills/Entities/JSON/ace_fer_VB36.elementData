@@ -1,0 +1,44 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo02",
+        "ReceiverDepth": {
+          "Value": "@(($P.P.H$-#FOL_PAI#)==15?12.5:14)"
+        },
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "11.5",
+          "Y": "9,4"
+        },
+        "ElementId": "ace_fer_VB36"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo26",
+        "ReceiverDepth": {
+          "Value": "10.5"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "11.5",
+          "Y": "41,4"
+        },
+        "ElementId": "ace_fer_VB36"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_VB36"
+}

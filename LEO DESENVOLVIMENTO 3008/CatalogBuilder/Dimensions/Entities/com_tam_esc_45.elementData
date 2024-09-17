@@ -1,0 +1,38 @@
+{
+  "ElementId": "com_tam_esc_45",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "34,62604",
+        "Y": "-104,9865"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ShowInLabel": true,
+      "ElementId": "com_tam_esc_45"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "1103,047",
+        "Y": "399,1686"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ShowInLabel": true,
+      "ElementId": "com_tam_esc_45"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Saboneteira Liquida Fixa ($TEXT$)" ICON="sab_fix_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira_liquida_fixa" />
+    <DIMENSION WIDTH="81.3" HEIGHT="143" DEPTH="113.5" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_689" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_694" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_692" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_82" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_648" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_203" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_696" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_704" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_693" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_690" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_705" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_202" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_695" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_691" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_697" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_201" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_75" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_83" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix" MODEL="zen_ane" MODELTYPE="zen_ane_707" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="85" HEIGHT="143" DEPTH="114" TEXT="BA0321" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello Saboneteira Liquida Fixa @zen_ane(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

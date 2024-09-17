@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq ($TEXT$)" ICON="BA0032_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0141_sabonet_liq_fixa" />
+    <DIMENSION WIDTH="49" HEIGHT="179" DEPTH="90" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Saboneteira Líquida Fixa @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0141" MODEL="Zen_spirit" MODELTYPE="Zen_spi_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0141" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="49" HEIGHT="179" DEPTH="90" TEXT="BA0141" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

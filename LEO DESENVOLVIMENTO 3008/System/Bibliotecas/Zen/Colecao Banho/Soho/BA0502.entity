@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Papeleira de Chão c/ Lix 1,5L ($TEXT$)" ICON="BA0502.jpg">
+  <DRAWING>
+    <FILE3D NAME="soho papeleira de chao c lixeira 15l" />
+    <DIMENSION WIDTH="131" HEIGHT="475" DEPTH="160" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soho Papeleira De Chao C/Lixeira 1,5l @Zen_soho(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="131" HEIGHT="475" DEPTH="160" TEXT="BA0502" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0502" MODEL="Zen_soho" MODELTYPE="Zen_sou_cro_ino" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0502" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_met" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0502" MODEL="Zen_soho" MODELTYPE="Zen_sou_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0502" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0502" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

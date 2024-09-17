@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Divisor Transversal">
+  <DRAWING>
+    <FILE3D NAME="kit div transversal sem lat2" />
+    <DIMENSION WIDTH="1077" HEIGHT="109.3" DEPTH="8.1" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="1077" HEIGHT="109.3" DEPTH="8" TEXT="">
+    <MIN HEIGHT="109.3" DEPTH="8" WIDTH="10" />
+    <MAX WIDTH="1500" HEIGHT="109.3" DEPTH="8" />
+  </INSERTDIMENSION>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="3D" NAME="3D" IDMATERIAL="start_met_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Divisor Transversal" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

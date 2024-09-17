@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Acr Rem Fixa ($TEXT$)" ICON="sab_bal_03.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira de balcao" />
+    <DIMENSION WIDTH="150" HEIGHT="20" DEPTH="165" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_miss_sab_bal_03" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_sab_bal_03" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_sab_bal_03" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="30" DEPTH="110" TEXT="BA0250" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Miss by Zen Saboneteira Fixa com Acrílico Removível @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Electrolux" NAME="Electrolux" PREFIXID="ele_ele_" DESCRIPTION="Electrolux" INVISIBLE="Y">
+  <LAYER DESCRIPTION="Electrolux" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <BUDGET>
+    <MARGIN IDCATEGORY="electrolux" />
+    <PRICE PROVIDER="electrolux" FONT="BancoDados" REFERENCE="COMPLETE" />
+    <INFORMATION CATEGORY="Electrolux" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$" PEDIDOFABRICA="#PEDIDOFABRICA#" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="PEDIDOFABRICA" VALUE="False" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ele_ref" DEF="refrigeradores.group" GUID="0766ca0c-b440-4f68-b04c-f5acc23f27c7" />
+    <EXPLORERITEM TYPE="group" ID="ele_mic_pur" DEF="purificadores.group" GUID="a8a74fe1-6f00-4f58-b0cb-481f42e4235c" />
+    <EXPLORERITEM TYPE="group" ID="ele_mic" DEF="microondas.group" GUID="cda014e0-32ba-4677-a6d0-7d031ba69f31" />
+    <EXPLORERITEM TYPE="group" ID="ele_Wet" DEF="wet.group" GUID="5822ad3a-7d79-44de-a1c0-53b9216f10ef" />
+    <EXPLORERITEM TYPE="group" ID="ele_pro" DEF="home_pro.group" GUID="12697269-f1cd-47fc-b61c-704cf06aa7d7" />
+    <EXPLORERITEM TYPE="group" ID="ele_for" DEF="fornos.group" GUID="9183408d-2c2e-495c-99e4-37a16803098a" />
+    <EXPLORERITEM TYPE="group" ID="ele_hot" DEF="hot.group" GUID="cc3084a7-7191-40ef-8a8e-e160888c83bc" />
+    <EXPLORERITEM TYPE="group" ID="ele_oem" DEF="oem.group" GUID="93dce435-3820-40f2-a812-515dc35437b4" />
+    <EXPLORERITEM TYPE="group" ID="ele_ico" DEF="icon.group" GUID="b71f539d-4e8c-47d1-80f5-0dba6e121f7a" />
+    <EXPLORERITEM TYPE="group" ID="ele_fre" DEF="freezers.group" GUID="7d8bf58d-c5ca-4cb3-ace4-a00eda4c7187" />
+    <EXPLORERITEM TYPE="group" ID="ele_arcon" DEF="arcon.group" GUID="9f598468-c7a4-47ac-8525-205c2a0a30f5" />
+    <EXPLORERITEM TYPE="group" ID="ele_cook" DEF="cooktops.group" GUID="4be09f11-d701-4832-b68d-a5d31bb177b4" />
+    <EXPLORERITEM TYPE="group" ID="ele_cd" DEF="coifas_dep.group" GUID="421d6453-0003-4c5f-a63a-4ef788a1441b" />
+    <EXPLORERITEM TYPE="group" ID="ele_cli" DEF="climatizadores.group" GUID="1d2bdda0-f98e-4505-a809-e08943216885" />
+    <EXPLORERITEM TYPE="group" ID="ele_aque" DEF="aquecedores.group" GUID="7e74f449-f4eb-447d-8b88-55ca37a1342d" />
+    <EXPLORERITEM TYPE="group" ID="ele_ade" DEF="adega.group" GUID="e7cf06aa-dbe9-47aa-a5b8-1553fcedc919" />
+    <EXPLORERITEM TYPE="group" ID="ele_ocu" DEF="ocultos.group" GUID="1b0d3527-57c7-449d-b7a3-6fa859d49cbf" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,25 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "$W$"
+      },
+      "Height": {
+        "Value": "$D$"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "MachiningOperationType": "Interior",
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {},
+      "ElementId": "ace_ocu_esc_cax_tom"
+    }
+  ],
+  "ElementId": "ace_ocu_esc_cax_tom"
+}

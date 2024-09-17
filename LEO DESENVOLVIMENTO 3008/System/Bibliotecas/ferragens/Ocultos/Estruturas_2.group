@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Estruturas_2" NAME="Estruturas Acabamentos" PREFIXID="ace_ocu_est_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <BUDGET>
+    <INFORMATION RULE="M" WIDTH="$w$" HEIGHT="$h$" DEPTH="$d$" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_silicone" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2.entity" GUID="40e5d15c-1add-4d57-a268-78cff57c0e32" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_cola_branco" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_3.entity" GUID="a8176938-08ed-433e-8543-04f8c3d5ad99" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_esp_expan" DEF="roldanas_ext_5_2_2_2_2_2_5.entity" GUID="cd0a1abb-d845-4678-9f1c-c9af7dff7a23" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_cola_2_8" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2.entity" GUID="fdc48046-7bd4-498b-8d62-cf38430ae029" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_thinner" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2_2_2.entity" GUID="cd827975-be55-47b3-bc4e-689829f09270" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_aguarras" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2_2_2_3.entity" GUID="b4a346f8-9d91-4a51-a6f8-6511880bb2b2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_estopa_leo" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2_2_2_2.entity" GUID="d047745c-536c-428f-ba44-7f476002d5b1" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_AMOST_TEC_1" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2_2_2_2_2.entity" GUID="797c4888-0643-401e-ba3a-d53dcdd5724c" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tekbond100" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2_2_2_2_2_2.entity" GUID="12b079f0-e605-4689-bd59-0beae297683c" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_giz" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2_2_2_2_2_2_2.entity" GUID="090fd08b-c49c-4be7-94a3-45e4322b51a9" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

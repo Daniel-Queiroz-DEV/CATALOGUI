@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Esc c/ Verniz ($TEXT$.$D.ACAB$)" ICON="Santa_Fe_Cruzado.png">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Santa Fé Cruzado 416mm Níquel Escovado c/ Verniz" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP5400.416" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

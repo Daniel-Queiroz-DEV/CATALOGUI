@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Big Living" NAME="Big Living" PREFIXID="zen_man_big_liv_">
+  <ATTRIBUTES />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWINGS />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_man_big_liv_dup" DEF="Big_Living_Duplo.entity" GUID="f895cbfb-bfe6-4581-aa57-8033829a9980" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_big_liv_sim" DEF="Big_Living_Simples.entity" GUID="f3e928af-74cc-45e8-961f-bbd061e57564" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

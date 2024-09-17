@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="portas_3_2_2_3" NAME="Painel Cama 14mm" PREFIXID="POR_MOD_POR_" INVISIBLE="N" MODELNAME="Portas" ORDERSTRING="001">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="$TEXT$" MODEL="@COM_*@" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_5_3_3_2_3" DEF="reta_2_3_2_2.entity" GUID="43b36fd9-f307-4093-b2df-3cccc74b3eb0" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_5_3_3_2_3_3" DEF="reta_2_3_2_2_2.entity" GUID="6eec7e05-2834-4b12-ad21-c8db5a7c26d0" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_5_3_3_2_3_3_2" DEF="reta_2_3_2_2_2_2.entity" GUID="da8f9094-3bba-41bc-bc0b-12bd0dc78e51" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_5_3_2_2_2_3" DEF="reta_2_3_2_2_3.entity" GUID="8646266e-36fb-49b8-9293-0fabd3286e6d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_6_2_2_5_2" DEF="reta_2_3_2_3.entity" GUID="5832e9b1-f9ee-48b8-ac62-73d5ce7c60ab" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

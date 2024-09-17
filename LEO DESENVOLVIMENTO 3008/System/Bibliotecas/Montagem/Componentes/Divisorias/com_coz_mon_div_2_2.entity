@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fix Esq/Dir Cozinha ($TEXT$) Yellow" TYPE="GEOMETRY" ICON="com_coz_mon_div_2_2.jpg">
+  <DRAWING>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+    <FILE3D NAME="com_coz_mon_div_3_2" />
+  </DRAWING>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="fer_per_fer_lat_2">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Minifix" ALWAYSVISIBLE="N" DESCRIPTION="Esq" CONCURRENT="N" KEEPCHANGEDDIMENSION="N" GROUP="Perfil" INSERTFUNCTION="FERRAGEM" REPOSITION="N" REPLACEFUNCTION="N" CANCHANGESELECTIONMODEL="Y" DEFAULT="N" ORDER="0">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="$PH$" DEPTH="$PD$-20" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="description" VALUE="Divisória" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="0" Y="0" Z="0" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Ag6349504771686419702" CANCHANGESELECTIONMODEL="Y" ALWAYSVISIBLE="N" DESCRIPTION="Dir" KEEPCHANGEDDIMENSION="N" GROUP="Perfil" INSERTFUNCTION="FERRAGEM" REPOSITION="N" DEFAULT="N" CONCURRENT="N" REPLACEFUNCTION="N" ORDER="1">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION DEPTH="$PD$-20" HEIGHT="$PH$" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="description" VISIBLE="N" />
+            <ATTRIBUTE ID="Inverted" VALUE="True" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="$PW$" Y="0" Z="0" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="ace_ilum_led_perfil_sem_fonte">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag20247541_2" CONCURRENT="N" DESCRIPTION="DIR" ORDER="2" GROUP="LEDs">
+          <DIMENSION HEIGHT="$PW$" />
+          <POSITION X="0" Y="-$PD$+64,9" Z="$PH$-$PH$" ROTATION="90" />
+          <NORMAL A="1" B="0" C="0" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="MOVIVEL" VALUE="False" VISIBLE="N" />
+          </ATTRIBUTES>
+        </AGGREGATEINFORMATION>
+        <AGGREGATEINFORMATION ID="Ag20247541_2_2" CONCURRENT="N" DESCRIPTION="ESQ" ORDER="3" GROUP="LEDs">
+          <DIMENSION HEIGHT="$PW$" />
+          <POSITION X="0" Y="-$PD$+83,4" Z="$PH$" ROTATION="270" />
+          <NORMAL A="1" B="0" C="0" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="MOVIVEL" VALUE="False" VISIBLE="N" />
+          </ATTRIBUTES>
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_MON_SPORTA#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="DIV01" TEXT="402">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Divisória" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#P.FT_BORDA_ESQ#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#P.FT_BORDA_DIR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#P.FT_BORDA_TRASEIRA#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#P.FT_BORDA_FRONTAL#" VISIBLE="N" />
+    <ATTRIBUTE ID="CANCHANGEPARENT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEAGGREGATECOLLECTION>
+    <REMOVEAGGREGATE ID="ace_ilum_led_perfil_sem_fonte" IDINFORMATION="Ag20247541_2" />
+    <REMOVEAGGREGATE ID="ace_ilum_led_perfil_sem_fonte" IDINFORMATION="Ag20247541_2_2" />
+  </REMOVEAGGREGATECOLLECTION>
+  <REFERENCE TIPO_ARMARIO="$P.REFERENCE(TIPO_ARMARIO)$" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_053" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_062" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_063" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_072" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_074" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_087" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_090" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_093" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_634" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_635" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_638" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_639" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_651" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_653" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_655" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_743" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_742" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_735" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_739" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_740" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_656" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_675" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_658" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_674" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_657" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_643" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_659" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_coz_mon_div_yellow" MODEL="com_caixas" MODELTYPE="acabamento_644" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

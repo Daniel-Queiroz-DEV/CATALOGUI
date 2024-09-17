@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="ferragens" NAME="Ferragens" PREFIXID="fer_" INVISIBLE="N">
+  <REFERENCES>
+    <REFERENCE ID="GERAL" COMPLETE="$TEXT$" FERRAGEM="$TEXT$" />
+    <REFERENCE ID="FERRAGEM" COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" VOLUME="VOLFER" />
+    <REFERENCE ID="DOBRADICAS" COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" VOLUME="VOLFER" />
+  </REFERENCES>
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <MARGIN IDCATEGORY="FER" />
+    <STEPS />
+  </BUDGET>
+  <DRAWINGS>
+    <DRAWING ID="Box">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\acessorios\3d\caixa" />
+      <DIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" />
+    </DRAWING>
+  </DRAWINGS>
+  <VERSION>NS4zNC4xNQ==</VERSION>
+  <MODELS DEF="ferragens\ferragens.model" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="@('#INT_MCM#' == 'TRUE'? 'TRUE' : 'FALSE')" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="LINHA_PARAFUSO" VALUE="#P.LINHA_PARAFUSO#" VISIBLE="N" />
+    <ATTRIBUTE ID="MODULO_PARAFUSO" VALUE="#P.MODULO_PARAFUSO#" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_MON" VALUE="#P.ESP_MON#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="fer_192" DEF="corredicas_1.group" GUID="5f334f87-7ec2-4b2c-a16b-47da341a4b81" />
+    <EXPLORERITEM TYPE="group" ID="fer_191" DEF="dobradicas_1.group" GUID="fd34a859-2279-4943-9ec2-0dbbec722b7d" />
+    <EXPLORERITEM TYPE="group" ID="ACE_FER" DEF="Kit Montagem.group" GUID="c5b780ff-e8b7-4d0e-8382-67997c5d8680" />
+    <EXPLORERITEM TYPE="group" ID="fer_194" DEF="pistao.group" GUID="45e9a3ff-1af1-40a1-b48d-e6f9714ca1f5" />
+    <EXPLORERITEM TYPE="group" ID="ACE_prat" DEF="Prateleira.group" GUID="8e93d8e4-4fc4-4747-b224-7a6bc9dca53d" />
+    <EXPLORERITEM TYPE="group" ID="fer_193" DEF="sistcorrer.group" GUID="5f834eba-f75e-4419-b5dd-110de721b58c" />
+    <EXPLORERITEM TYPE="group" ID="fer_195" DEF="suporte.group" GUID="f8d89d38-d4a5-4e32-8056-47437c7fdaa3" />
+    <EXPLORERITEM TYPE="group" ID="ACE_TRI" DEF="trilhos.group" GUID="c723d5d9-3b5b-49e4-a82f-00329bd62a46" />
+    <EXPLORERITEM TYPE="group" ID="fer_esc" DEF="sistcorrer_2.group" GUID="8fdccae9-2f84-4394-a089-d7c9481dcc0f" />
+    <EXPLORERITEM TYPE="group" ID="fer_dobr" DEF="Dobradicas.group" GUID="c76c2abb-04c1-432e-80a8-0e5d59655ac9" />
+    <EXPLORERITEM TYPE="group" ID="fer_mod_dob" DEF="Modelo Dobradicas.group" GUID="1f0afacc-a3f0-4ed7-8f6b-ab3a56bbc298" />
+    <EXPLORERITEM TYPE="group" ID="ace_COR" DEF="Corredicas.group" GUID="5e8f8a1b-8776-4061-bf90-cac00e11511b" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PIS" DEF="Piston.group" GUID="9c71538b-166a-4332-bab9-705f4c4fc7fa" />
+    <EXPLORERITEM TYPE="group" ID="ACE_SUP" DEF="Suportes.group" GUID="2c8e22e5-18ff-4ec0-acc5-9794f5737228" />
+    <EXPLORERITEM TYPE="group" ID="ACE_OCU" DEF="Ocultos.group" GUID="50516609-c336-486d-a55c-f52ca4974cc9" />
+    <EXPLORERITEM TYPE="group" ID="ACE_DOB" DEF="Dobradicas Inferiores.group" GUID="403da4d9-882f-4a50-92c7-8eb044c5dc81" />
+    <EXPLORERITEM TYPE="group" ID="fer_dob" DEF="Dobradicas Superiores.group" GUID="9d2a95c0-fbf2-4ab6-961e-8c924b4205f4" />
+    <EXPLORERITEM TYPE="group" ID="fer_con" DEF="fer_con.group" GUID="0108a2ff-aeec-4bf4-92d8-3d7baf0f8aa0" />
+    <EXPLORERITEM TYPE="group" ID="fer_ocu" DEF="Ferragens Agregadas.group" GUID="1f36912b-7a37-4b24-9396-af9c9188fc93" />
+    <EXPLORERITEM TYPE="group" ID="fer_fec" DEF="Fechaduras.group" GUID="0adda639-472e-4caa-9d1b-5f747e6fb95d" />
+    <EXPLORERITEM TYPE="group" ID="fer_Fix" DEF="Fixadores.group" GUID="277382b8-9cf7-49c7-9c37-f7de883d515f" />
+    <EXPLORERITEM TYPE="group" ID="fer_per_fer" DEF="Perfis_Ferragens.group" GUID="85fdc550-dff1-4b42-8e42-2c7ef74f6c96" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

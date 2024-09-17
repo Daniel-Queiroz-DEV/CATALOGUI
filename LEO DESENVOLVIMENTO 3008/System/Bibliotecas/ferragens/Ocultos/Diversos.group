@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Diversos" NAME="Trilhos" PREFIXID="ace_ocu_div_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_tri" DEF="tri.entity" GUID="d41dbe1b-d2a3-4ba6-880e-a43a6cf66851" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_tri_inv" DEF="sta_blu_tan_tri_tot_sem_blu_3_2.entity" GUID="7d8138ce-792a-4f2b-84fb-c7afdb878835" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_telescopica" DEF="Telescopica.entity" GUID="fd67d235-13f0-4014-a5e8-677b593fdb93" />
+    <EXPLORERITEM TYPE="entity" ID="trilho_invisivel" DEF="trilho_invisivel.entity" GUID="755134e3-7309-4fa9-9e6e-504ba798519d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_toa" DEF="ace_ocu_div_toa.entity" GUID="dc158ce8-c0bc-4e71-aa9c-211e8f425ec8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_cal_desl" DEF="ace_ocu_div_cal_desl.entity" GUID="1dddfd58-247f-4a7c-8a6f-8779ce405083" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_cor_tulha" DEF="ace_ocu_div_cor_tulha.entity" GUID="5f0913da-c283-41d1-b506-1f00891ef60c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_ARA_COR_POR_LAT" DEF="ACE_ARA_COR_POR_LAT.entity" GUID="bf35521b-f205-475a-bacc-890d6c151d12" />
+    <EXPLORERITEM TYPE="entity" ID="fer_ocu_cor_sim_int" DEF="fer_ocu_cor_sim_int.entity" GUID="6fa9fbbe-e23d-4c4e-98c8-ce2337fc10c8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_tri_col" DEF="ace_ocu_tri_col.entity" GUID="9308fd56-0989-48b4-a4d9-818ff374e7b2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_car_des" DEF="ace_ocu_div_car_des.entity" GUID="116e2560-0fca-4772-97af-22dc978571ff" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_gui_des" DEF="ace_ocu_div_gui_des.entity" GUID="81f026c9-c4d0-4c91-8d4b-92eb050b9995" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_piv" DEF="ace_ocu_div_gui_des_3.entity" GUID="998f6383-245e-4220-8463-c5d3459813b0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_sup_ro" DEF="ace_ocu_div_gui_des_2.entity" GUID="11275a02-280c-4238-a512-fe8fd655c121" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_car_des_ro21" DEF="ace_ocu_div_car_des_ro21.entity" GUID="8edd86eb-b721-4b6c-8016-32eeadef413e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_gui_ro21" DEF="ace_ocu_div_gui_ro21.entity" GUID="baf3bdeb-5807-4799-afc8-5f09941ee91b" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

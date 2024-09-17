@@ -1,0 +1,38 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-30",
+            "Y": "$PW$-12,5",
+            "Z": "13"
+          },
+          "End": {
+            "X": "$PH$+10",
+            "Y": "$PW$-12,5",
+            "Z": "13"
+          }
+        }
+      ],
+      "Name": "FRESA_CAVA",
+      "Depth": {
+        "Value": "13"
+      },
+      "OperationType": "Static",
+      "MachiningProcessRuleText": "$MP:237da40e-42df-45bf-9ef8-b14c31e28bca$",
+      "UseMachiningProcessRule": true,
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "FRESA_CAVA",
+      "Position": {
+        "X": "-30",
+        "Y": "$PW$-12,5"
+      },
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_2"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_2"
+}

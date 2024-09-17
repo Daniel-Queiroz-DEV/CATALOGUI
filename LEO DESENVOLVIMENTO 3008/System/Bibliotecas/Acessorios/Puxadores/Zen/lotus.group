@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Lótus" DIRECTORY="lotus" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="LOTUS_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOTUS_PONTO" />
+      <DIMENSION WIDTH="30" HEIGHT="30.1" DEPTH="17.7" />
+      <LIMITS>
+        <MIN X="-15" Y="-17.669" Z="-27.586" />
+        <MAX X="15" Y="0" Z="2.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="LOTUS_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\LOTUS_16MM" />
+      <DIMENSION WIDTH="50" HEIGHT="50.1" DEPTH="17.7" />
+      <LIMITS>
+        <MIN X="-25" Y="-17.669" Z="-43.586" />
+        <MAX X="25" Y="0" Z="6.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_lot_min" DEF="Ponto.group" GUID="11c1727c-10fa-4d7d-b44e-d172994c3c8c" />
+    <EXPLORERITEM TYPE="group" ID="zen_lot_16" DEF="16mm.group" GUID="02ed2bd4-260b-4ca1-a490-b67b066c601e" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

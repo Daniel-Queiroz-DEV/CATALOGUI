@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Curvo Dir ($TEXT$)" TYPE="GEOMETRY" ICON="TAM_TAM_COM_CUR_DIR.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Curvo Direito" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_COM_CUR_DIR" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="160" Y="-550" A="90" />
+      <PONTO2DA X="300" Y="-430" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="@(#ESP_TAM#+#FOL_PAI#)" DEPTH="550" TEXT="1712" ITEM_BASE="TAMP01">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

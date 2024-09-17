@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Rose ($TEXT$.$D.ACAB$)" ICON="Magno Laminatto.jpg">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioConserv_BordaConserv" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Magno 192mm Rose s/ Lâmina" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="15" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="15" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="200" HEIGHT="29" DEPTH="32" TEXT="ZP0617" ACAB="L00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="Zen_ros" EDIT="N" />
+    <COMPONENTDEFINITION ID="LAMINA" NAME="LAMINA" IDMATERIAL="Zen_ros" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

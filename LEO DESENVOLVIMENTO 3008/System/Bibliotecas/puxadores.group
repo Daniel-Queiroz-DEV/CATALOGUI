@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Puxadores" DIRECTORY="Puxadores" MODELNAME="Puxadores" ORDERSTRING="020" DESCRIPTION="$ROOTGROUP$" INVISIBLE="Y" GENERATEITEMSNUMBERS="N">
+  <DRAWINGS>
+    <DRAWING ID="cubo">
+      <FILE3D NAME=".\cozinhas\3d\cubo" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+  </DRAWINGS>
+  <BUDGET>
+    <INFORMATION CATEGORY="$ROOTGROUP$" />
+    <STEPS />
+  </BUDGET>
+  <LAYER DESCRIPTION="$ROOTGROUP$" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <VERSION>NS4zNS4x</VERSION>
+  <POSITIONSERVICE />
+  <MODELS DEF="puxadores\Puxadores.model" />
+  <POSITIONSERVICEDEFINITIONS>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX" DESCRIPTION="Pux Porta Reta">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_ESP" DESCRIPTION="Pux Porta Especial">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2" Y="-$PD$-#P.CORDA#" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2" Y="-$PD$-#P.CORDA#" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+30" Y="-$PD$-(#P.CORDA#/2)" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2" Y="-$PD$-#P.CORDA#" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-30" Y="-$PD$-(#P.CORDA#/2)" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$-#P.CORDA#" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$-#P.CORDA#" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$-(#P.CORDA#/2)" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="-$PD$-(#P.CORDA#/2)" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$-#P.CORDA#" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="-$PD$-(#P.CORDA#/2)" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_2_PER" DESCRIPTION="Pux Porta Vidro c/ 2 Perfis">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$H$/2+30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$H$/2+30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_CCUR" DESCRIPTION="Pux Porta Canto">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="18" Y="30" Z="$PH$-$W$/2-30" A="0" B="1" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="$PD$-18" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="18" Y="30" Z="$PH$/2" A="0" B="1" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="$PD$-18" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="18" Y="30" Z="$W$/2+30" A="0" B="1" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="$PD$-18" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_CAN" DESCRIPTION="Pux Porta Diagonal">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="0" Y="-25" Z="$PH$-$W$/2-30" A="0" B="-1" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="0" Y="-25" Z="$PH$/2" A="0" B="-1" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="0" Y="-25" Z="$W$/2+30" A="0" B="-1" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_CHA" DESCRIPTION="Pux Porta Chanfrada">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="15" Y="-30" Z="$PH$-$W$/2-30" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="15" Y="-30" Z="$PH$/2" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="15" Y="-30" Z="$W$/2+30" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2-15" Y="-$W$/2+15" Z="$PH$-$W$/2-30" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$W$/2-15" Y="-$W$/2+15" Z="$PH$/2" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="COZ_HOR_04" DESCRIPTION="Horizontal 04" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_05" DESCRIPTION="Horizontal 05" X="$W$/2-15" Y="-$W$/2+15" Z="$H$/2+20" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="COZ_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_CUR" DESCRIPTION="Pux Porta Curva">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$+20*0.2" Y="-$PD$*(0.3)" Z="$PH$-$W$/2-30" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$H$+20*0.2" Y="-$PD$*(0.3)" Z="$PH$/2" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$H$+20*0.2" Y="-$PD$*(0.3)" Z="$W$/2+30" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_CON" DESCRIPTION="Pux Porta Côncava">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$+30" Y="-$PD$+20" Z="$PH$-$W$/2-30" A="0.9063078" B="0.4226183" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-30" Y="-20" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$H$+30" Y="-$PD$+20" Z="$PH$/2" A="0.9063078" B="0.4226183" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-30" Y="-20" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$H$+30" Y="-$PD$+20" Z="$W$/2+30" A="0.9063078" B="0.4226183" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-30" Y="-20" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV" DESCRIPTION="Pux Gaveta">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_CURV" DESCRIPTION="Pux Gaveta Curva">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$+5" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$+5" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$+5" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_CONC" DESCRIPTION="Pux Gaveta Côncava">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$+50" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$+50" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$+50" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_VID" DESCRIPTION="Pux Porta Vidro">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$H$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$H$/2+20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_VIDL" DESCRIPTION="Pux Porta Vidro Liso">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$HEIGTH$/2+20" Y="-$PD$" Z="$PH$+$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$+$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$HEIGTH$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$HEIGTH$/2+20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_VID" DESCRIPTION="Pux Gaveta Vidro">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_SUP" DESCRIPTION="Pux Porta Superior">
+      <OPTIONS>
+        <OPTION ID="COZ_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="COZ_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_BASC" DESCRIPTION="Pux Porta Basculante">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_BASC_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_BASC_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_BASC_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX" DESCRIPTION="Pux Portas Reta">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CAN" DESCRIPTION="Pux Porta Diagonal">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="0" Y="-25" Z="$PH$-$W$/2-30" A="0" B="-1" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="0" Y="-25" Z="$PH$/2" A="0" B="-1" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="0" Y="-25" Z="$W$/2+30" A="0" B="-1" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CCUR" DESCRIPTION="Pux Portas Canto">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$/2" Y="30" Z="$PH$-$W$/2-30" A="0" B="1" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="$PD$-15" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$H$/2" Y="30" Z="$PH$/2" A="0" B="1" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="$PD$-15" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$H$/2" Y="30" Z="$W$/2+30" A="0" B="1" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="$PD$-15" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CAN" DESCRIPTION="Pux Portas Cantoneira">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="0" Y="-25" Z="$PH$-$W$/2-30" A="0" B="-1" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="0" Y="-25" Z="$PH$/2" A="0" B="-1" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="0" Y="-25" Z="$W$/2+30" A="0" B="-1" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CHA" DESCRIPTION="Pux Portas Chanfrada">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="15" Y="-30" Z="$PH$-$W$/2-20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="15" Y="-30" Z="$PH$/2" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="15" Y="-30" Z="$W$/2+20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2-15" Y="-$W$/2+15" Z="$PH$-$H$/2-20" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="BAN_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_03" DESCRIPTION="Horizontal 03" X="$W$/2-15" Y="-$W$/2+15" Z="$PH$/2" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="BAN_HOR_04" DESCRIPTION="Horizontal 04" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_05" DESCRIPTION="Horizontal 05" X="$W$/2-15" Y="-$W$/2+15" Z="$H$/2+20" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="BAN_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CUR" DESCRIPTION="Pux Portas Curva">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$+20*0.2" Y="-$PD$*(0.3)" Z="$PH$-$W$/2-30" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$H$+20*0.2" Y="-$PD$*(0.3)" Z="$PH$/2" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$H$+20*0.2" Y="-$PD$*(0.3)" Z="$W$/2+30" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CUR_1P" DESCRIPTION="Pux Portas Curvas 1P">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$+15" Y="-$PD$*(0.3)" Z="$PH$-$W$/2-20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="$PH$-$W$/2-30" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$H$+15" Y="-$PD$*(0.3)" Z="$PH$/2" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="$PH$/2" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$H$+15" Y="-$PD$*(0.3)" Z="$W$/2+30" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="$W$/2+30" A="0.9063078" B="-0.4226183" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CON" DESCRIPTION="Pux Portas Concava">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$+30" Y="-$PD$+20" Z="$PH$-$W$/2-30" A="0.9063078" B="0.4226183" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-30" Y="-20" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$H$+30" Y="-$PD$+20" Z="$PH$/2" A="0.9063078" B="0.4226183" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-30" Y="-20" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$H$+30" Y="-$PD$+20" Z="$W$+30" A="0.9063078" B="0.4226183" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-30" Y="-20" Z="$W$+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_CON_1P" DESCRIPTION="Pux Portas Concava 1P">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="25" Y="-$PD$+35" Z="$PH$-$W$/2-30" A="0.3420201" B="0.9396926" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-30" Y="-15" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="25" Y="-$PD$+35" Z="$PH$/2" A="0.3420201" B="0.9396926" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-30" Y="-15" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="25" Y="-$PD$+35" Z="$W$/2+30" A="0.3420201" B="0.9396926" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-30" Y="-15" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_GAV" DESCRIPTION="Pux Frentes Gaveta">
+      <OPTIONS>
+        <OPTION ID="BAN_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_GAV_VID" DESCRIPTION="Pux Frentes Gaveta Vidro">
+      <OPTIONS>
+        <OPTION ID="BAN_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_VID" DESCRIPTION="Pux Portas Vidro">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$H$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_07" DESCRIPTION="Vertical 05" X="$H$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 07" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_06" DESCRIPTION="Horizontal 07" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_VIDL" DESCRIPTION="Pux Portas Vidro Liso">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$HEIGTH$/2+20" Y="-$PD$" Z="$PH$+$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$+$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$HEIGTH$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$HEIGTH$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="BAN_PUX_SUP" DESCRIPTION="Pux Portas Superiores">
+      <OPTIONS>
+        <OPTION ID="BAN_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="BAN_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="BAN_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX" DESCRIPTION="Pux Porta Reta">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+20" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$PH$/2-$H$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2-$H$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$/2-$H$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CCUR" DESCRIPTION="Pux Porta Cantos">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="18" Y="20" Z="$PH$-$W$/2-20" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="18" Y="20" Z="$PH$/2-$W$/2" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="18" Y="20" Z="$W$/2+20" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$W$/2+20" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CUR" DESCRIPTION="Pux Portas Curvas">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$H$+20" Y="-$PD$*(0.3)" Z="$PH$/2-$W$/2" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="$H$+20" Y="-$PD$*(0.3)" Z="$PH$-$W$/2-20" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="$H$+20" Y="-$PD$*(0.3)" Z="$W$/2+20" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CUR_1P" DESCRIPTION="Pux Portas Curvas 1P">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="$H$+15" Y="-$PD$*(0.3)" Z="$PH$-$W$/2-20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="$PH$-$W$/2-30" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$H$+15" Y="-$PD$*(0.3)" Z="$PH$/2-$W$/2" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="$PH$/2-$W$/2" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="$H$+15" Y="-$PD$*(0.3)" Z="$W$/2+20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="$W$/2+20" A="0.9063078" B="-0.4226183" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CON" DESCRIPTION="Pux Portas Concavas">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="20" Y="-$PD$+15" Z="$PH$/2-$W$/2" A="0.9062078" B="0.4226183" C="0" />
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="20" Y="-$PD$+15" Z="$PH$-$W$/2-20" A="0.9062078" B="0.4226183" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-20" Y="-15" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-20" Y="-15" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="20" Y="-$PD$+15" Z="$W$/2+20" A="0.9062078" B="0.4226183" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-20" Y="-15" Z="$W$/2+20" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CHA" DESCRIPTION="Pux Portas Chanfradas">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="15" Y="-30" Z="$PH$-$W$/2-20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="15" Y="-30" Z="$PH$/2-$W$/2" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="15" Y="-30" Z="$W$/2+20" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2-15" Y="-$W$/2+15" Z="$PH$-$H$/2-20" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="DOR_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_03" DESCRIPTION="Horizontal 03" X="$W$/2-15" Y="-$W$/2+15" Z="$PH$/2-$W$/2" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="DOR_HOR_04" DESCRIPTION="Horizontal 04" X="$PW$-$W$/2-30" Y="-$PD$" Z="$PH$/2-$W$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_05" DESCRIPTION="Horizontal 05" X="$W$/2-15" Y="-$W$/2+15" Z="$H$/2+20" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="DOR_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-30" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_ALUM" DESCRIPTION="Pux Portas Alumínio">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$H$/2+20" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="$H$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_GAV" DESCRIPTION="Pux Frentes Gaveta">
+      <OPTIONS>
+        <OPTION ID="DOR_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_GAV_ALUM" DESCRIPTION="Pux Frentes Gaveta Alumínio">
+      <OPTIONS>
+        <OPTION ID="DOR_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_ARM" DESCRIPTION="Pux Porta Armários Reta">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+20" Y="-$PD$" Z="500" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="1000-$P.Z$" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="1000-$P.Z$" A="1" B="0" C="0" />
+        <OPTION ID="DOR_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="1000-$P.Z$" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="1000-$P.Z$" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="1000-$P.Z$" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_ARM_ALUM" DESCRIPTION="Pux Porta Alum Armários Reta">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+20" Y="-$PD$" Z="1000-$P.Z$" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="1000-$P.Z$" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CCUR_ARM" DESCRIPTION="Pux Porta Armários Cantos">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$H$/2" Y="20" Z="$PH$/2-$W$/2" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CUR_ARM" DESCRIPTION="Pux Portas Armários Curvas">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$H$+20" Y="-$PD$*(0.3)" Z="1000-$P.Z$" A="0.9063078" B="-0.4226183" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$" Z="1000-$P.Z$" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CUR_1P_ARM" DESCRIPTION="Pux Portas Armários Curvas 1P">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$H$+15" Y="-$PD$*(0.3)" Z="1000-$P.Z$" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-30" Y="-$PD$+20" Z="1000-$P.Z$" A="0.9063078" B="-0.4226183" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CON_ARM" DESCRIPTION="Pux Portas Armários Concavas">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="20" Y="-$PD$+15" Z="1000-$P.Z$" A="0.9062078" B="0.4226183" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-20" Y="-15" Z="1000-$P.Z$" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_CHA_ARM" DESCRIPTION="Pux Portas Armários Chanfradas">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="15" Y="-30" Z="1000-$P.Z$" A="0.7071068" B="-0.7071068" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-25" Y="-$PD$+$H$/2" Z="1000-$P.Z$" A="1" B="0" C="0" />
+        <OPTION ID="DOR_HOR_03" DESCRIPTION="Horizontal 03" X="$W$/2-15" Y="-$W$/2+15" Z="1000-$P.Z$" A="0" B="0" C="-1" ROTATION="39.9907836914063" />
+        <OPTION ID="DOR_HOR_04" DESCRIPTION="Horizontal 04" X="$PW$-$W$/2-30" Y="-$PD$" Z="1000-$P.Z$" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_DES_20" DESCRIPTION="Pux Portas Deslizantes">
+      <OPTIONS>
+        <OPTION ID="DOR_DES_20_VER_04" DESCRIPTION="Vertical 04" X="$H$/2" Y="-$PD$" Z="1000-($P.Z$)" A="1" B="0" C="0" />
+        <OPTION ID="DOR_DES_20_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2" Y="-$PD$" Z="1000-($P.Z$)" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_DES" DESCRIPTION="Pux Portas Deslizantes">
+      <OPTIONS>
+        <OPTION ID="DOR_DES_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+15" Y="-$PD$" Z="1000-($P.Z$)" A="1" B="0" C="0" />
+        <OPTION ID="DOR_DES_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-15" Y="-$PD$" Z="1000-($P.Z$)" A="1" B="0" C="0" />
+        <OPTION ID="DOR_DES_VER_07" DESCRIPTION="Vertical Esq/Cen" X="$H$/2+15" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_DES_VER_08" DESCRIPTION="Vertical Dir/Cen" X="$PW$-$H$/2-15" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="DOR_PUX_SUP" DESCRIPTION="Pux Portas Superiores">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+20" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$PH$/2-$H$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2-$H$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$/2-$H$/2" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="DOR_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="ESC_PUX_GAV" DESCRIPTION="Puxador Gaveta">
+      <OPTIONS>
+        <OPTION ID="ESC_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="ESC_PUX" DESCRIPTION="Pux Porta Reta">
+      <OPTIONS>
+        <OPTION ID="ESC_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="esc_PUX_VID" DESCRIPTION="Pux Porta Vidro">
+      <OPTIONS>
+        <OPTION ID="esc_VER_03" DESCRIPTION="Vertical 03" X="$H$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_05" DESCRIPTION="Vertical 05" X="$H$/2+20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="esc_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="esc_PUX_VIDL" DESCRIPTION="Pux Porta Vidro Liso">
+      <OPTIONS>
+        <OPTION ID="esc_VER_01" DESCRIPTION="Vertical 01" X="$HEIGTH$/2+20" Y="-$PD$" Z="$PH$+$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$+$W$/2-30" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_03" DESCRIPTION="Vertical 03" X="$HEIGTH$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_05" DESCRIPTION="Vertical 05" X="$HEIGTH$/2+20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+        <OPTION ID="esc_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+30" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="esc_PUX_GAV_VID" DESCRIPTION="Pux Gaveta Vidro">
+      <OPTIONS>
+        <OPTION ID="esc_HOR_01" DESCRIPTION="Horizontal 01" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="esc_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="ESC_PUX_SUP" DESCRIPTION="Pux Portas Superiores">
+      <OPTIONS>
+        <OPTION ID="ESC_VER_04" DESCRIPTION="Vertical 04" X="$H$/2+20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_01" DESCRIPTION="Vertical 01" X="$H$/2+20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_02" DESCRIPTION="Vertical 02" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_03" DESCRIPTION="Vertical 03" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_05" DESCRIPTION="Vertical 05" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-20" Y="-$PD$" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_07" DESCRIPTION="Vertical 07" X="$H$/2+20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_08" DESCRIPTION="Vertical 08" X="$PW$/2-$H$/2+15" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_VER_09" DESCRIPTION="Vertical 09" X="$PW$-$H$/2-20" Y="-$PD$" Z="$W$/2+20" A="1" B="0" C="0" />
+        <OPTION ID="ESC_HOR_01" DESCRIPTION="Horizontal 01" X="$W$/2+20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_02" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_03" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$-$H$/2-20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_04" DESCRIPTION="Horizontal 04" X="$W$/2+20" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_05" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_06" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2-20" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_07" DESCRIPTION="Horizontal 07" X="$W$/2+20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_08" DESCRIPTION="Horizontal 08" X="$PW$/2" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+        <OPTION ID="ESC_HOR_09" DESCRIPTION="Horizontal 09" X="$PW$-$W$/2-20" Y="-$PD$" Z="$H$/2+20" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION DESCRIPTION="Pux Porta Cantos_L_secc" ID="DOR_PUX_CCUR_secc">
+      <OPTIONS>
+        <OPTION ID="DOR_VER_01" DESCRIPTION="Vertical 01" X="18" Y="20" Z="$PH$-$W$/2-20" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_02" DESCRIPTION="Vertical 02" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$PH$-$W$/2-20" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_03" DESCRIPTION="Vertical 03" X="18" Y="20" Z="$PH$/2-$W$/2" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_04" DESCRIPTION="Vertical 04" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$PH$/2-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DOR_VER_05" DESCRIPTION="Vertical 05" X="18" Y="20" Z="$W$/2+20" A="0" B="1" C="0" />
+        <OPTION ID="DOR_VER_06" DESCRIPTION="Vertical 06" X="$PW$-$H$/2-15" Y="$PD$-15" Z="$W$/2+20" A="1" B="0" C="0" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_ESQ" DESCRIPTION="Pux Gaveta Esq">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02_E" DESCRIPTION="Horizontal 02" X="$PW$/4" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_01_E" DESCRIPTION="Horizontal 01" X="$PW$/4" Y="-$PD$" Z="$PH$-$H$/2-15" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03_E" DESCRIPTION="Horizontal 03" X="$PW$/4" Y="-$PD$" Z="$H$/2+15" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_DIR" DESCRIPTION="Pux Gaveta Dir">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02_D" DESCRIPTION="Horizontal 02" X="($PW$/4)*3" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_01_D" DESCRIPTION="Horizontal 01" X="($PW$/4)*3" Y="-$PD$" Z="$PH$-$H$/2-15" A="0" B="0" C="1" />
+        <OPTION ID="COZ_HOR_03_D" DESCRIPTION="Horizontal 03" X="($PW$/4)*3" Y="-$PD$" Z="$H$/2+15" A="0" B="0" C="1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_ESQ_CURV" DESCRIPTION="Pux Gaveta Esq Curv">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02_E" DESCRIPTION="Horizontal 02" X="$PW$/4" Y="-$PD$+18" Z="$PH$/2" A="0" B="0" C="1" ROTATION="352" />
+        <OPTION ID="COZ_HOR_01_E" DESCRIPTION="Horizontal 01" X="$PW$/4" Y="-$PD$+18" Z="$PH$-$H$/2-15" A="0" B="0" C="1" ROTATION="352" />
+        <OPTION ID="COZ_HOR_03_E" DESCRIPTION="Horizontal 03" X="$PW$/4" Y="-$PD$+18" Z="$H$/2+15" A="0" B="0" C="1" ROTATION="352" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_DIR_CURV" DESCRIPTION="Pux Gaveta Dir Curva">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_01_D" DESCRIPTION="Horizontal 01" X="($PW$/4)*3" Y="-$PD$+18" Z="$PH$-$H$/2-15" A="0" B="0" C="1" ROTATION="7" />
+        <OPTION ID="COZ_HOR_02_D" DESCRIPTION="Horizontal 02" X="($PW$/4)*3" Y="-$PD$+18" Z="$PH$/2" A="0" B="0" C="1" ROTATION="7" />
+        <OPTION ID="COZ_HOR_03_D" DESCRIPTION="Horizontal 03" X="($PW$/4)*3" Y="-$PD$+18" Z="$H$/2+15" A="0" B="0" C="1" ROTATION="7" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_ESQ_CONC" DESCRIPTION="Pux Gaveta Esq Conc">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_02_E" DESCRIPTION="Horizontal 02" X="$PW$/4" Y="-$PD$+39" Z="$PH$/2" A="0" B="0" C="1" ROTATION="7" />
+        <OPTION ID="COZ_HOR_01_E" DESCRIPTION="Horizontal 01" X="$PW$/4" Y="-$PD$+39" Z="$PH$-$H$/2-15" A="0" B="0" C="1" ROTATION="7" />
+        <OPTION ID="COZ_HOR_03_E" DESCRIPTION="Horizontal 03" X="$PW$/4" Y="-$PD$+39" Z="$H$/2+15" A="0" B="0" C="1" ROTATION="7" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+    <POSITIONSERVICEDEFINITION ID="COZ_PUX_GAV_DIR_CONC" DESCRIPTION="Pux Gaveta Dir Conc">
+      <OPTIONS>
+        <OPTION ID="COZ_HOR_01_D" DESCRIPTION="Horizontal 01" X="($PW$/4)*3" Y="-$PD$+39" Z="$PH$-$H$/2-15" A="0" B="0" C="1" ROTATION="352" />
+        <OPTION ID="COZ_HOR_02_D" DESCRIPTION="Horizontal 02" X="($PW$/4)*3" Y="-$PD$+39" Z="$PH$/2" A="0" B="0" C="1" ROTATION="352" />
+        <OPTION ID="COZ_HOR_03_D" DESCRIPTION="Horizontal 03" X="($PW$/4)*3" Y="-$PD$+39" Z="$H$/2+15" A="0" B="0" C="1" ROTATION="352" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+  </POSITIONSERVICEDEFINITIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CanExportEntity" VALUE="TRUE" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="obi" DEF="Obispa.group" GUID="28b5958e-f0ab-4278-80f2-3ed77185cf8c" />
+    <EXPLORERITEM TYPE="entity" ID="sem_pux" DEF="sem_puxador.entity" GUID="a9d5ef46-53f5-4468-8075-844403733b17" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

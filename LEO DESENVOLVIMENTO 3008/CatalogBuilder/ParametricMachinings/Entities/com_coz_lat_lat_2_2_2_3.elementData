@@ -1,0 +1,54 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "(($W$-63-$H$)/2)+$H$/2",
+            "Y": "-5"
+          },
+          "End": {
+            "X": "(($W$-63-$H$)/2)+$H$/2",
+            "Y": "33.5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "(($W$-63-$H$)/2)+$H$/2",
+            "Y": "33.5"
+          },
+          "End": {
+            "X": "(($W$-63-$H$)/2)+$H$/2+63",
+            "Y": "33.5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "(($W$-63-$H$)/2)+$H$/2+63",
+            "Y": "33.5"
+          },
+          "End": {
+            "X": "((($W$-63-$H$)/2)+$H$/2)+63",
+            "Y": "-5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "17"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "Position": {
+        "X": "(($W$-63-$H$)/2)+$H$/2",
+        "Y": "-5"
+      },
+      "ElementId": "com_coz_lat_lat_2_2_2_3"
+    }
+  ],
+  "ElementId": "com_coz_lat_lat_2_2_2_3"
+}

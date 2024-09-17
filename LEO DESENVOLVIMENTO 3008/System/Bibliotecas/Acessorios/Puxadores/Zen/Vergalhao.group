@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Vergalhao" NAME="Vergalhão" PREFIXID="zen_ver_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ver_pon" DEF="Ponto.group" GUID="1523affe-566f-4279-980a-1f6d92cb9508" />
+    <EXPLORERITEM TYPE="group" ID="zen_ver_128" DEF="128mm.group" GUID="b39c5f8f-2ee5-43c6-b03f-4241e658c592" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="VERGALHAO_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\VERGALHAO_PONTO" />
+      <LIMITS>
+        <MIN X="-5.503" Y="-27.003" Z="-5.5" />
+        <MAX X="5.503" Y="0.997" Z="5.5" />
+      </LIMITS>
+      <DIMENSION WIDTH="11" HEIGHT="11" DEPTH="28" />
+    </DRAWING>
+    <DRAWING ID="VERGALHAO_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\VERGALHAO_128MM" />
+      <DIMENSION WIDTH="139.2" HEIGHT="11.1" DEPTH="27.6" />
+      <LIMITS>
+        <MIN X="-69.596" Y="-27.62" Z="-5.529" />
+        <MAX X="69.584" Y="0" Z="5.552" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

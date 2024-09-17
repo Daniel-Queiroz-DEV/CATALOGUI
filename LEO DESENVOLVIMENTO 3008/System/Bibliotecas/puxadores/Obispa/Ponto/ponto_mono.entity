@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ponto Mono ($TEXT$)" ICON="ponto_mono.jpg">
+  <DRAWING>
+    <FILE3D NAME="ponto_mono_100448" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-9" Y="-26.835" Z="-26.5" />
+      <MAX X="9.345" Y="0" Z="6.415" />
+    </LIMITS>
+    <DIMENSION WIDTH="18" HEIGHT="33" DEPTH="27" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.448" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_pon_mon" MODEL="Pux_all" MODELTYPE="Pux_all_pin" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pon_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pon_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pon_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pon_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ponto Mono" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+     <FOLDER NAME="Bosch">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="bosch_inox" NAME="Inox">
+          <COLORBASE R="220" G="220" B="220" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+        </MATERIAL>
+        <MATERIAL ID="bosch_branco" NAME="Branco">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.05</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_preto" NAME="Preto">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Plastic Shininess 8" GROUP="Plastics" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="32" G="32" B="32" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_vermelho" NAME="Vermelho">
+          <COLORBASE R="208" G="0" B="0" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_cinza" NAME="Cinza">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Plastic Shininess 4" GROUP="Plastics" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.05</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="192" G="192" B="192" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_verde" NAME="Verde">
+          <COLORBASE R="0" G="174" B="0" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_vIDro" NAME="Vidro">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0</DIFFUSE>
+          <REFLECTIONMIN>0.2</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.15</SPECULAR>
+          <ROUGHNESS>0.03</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.92</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="235" G="235" B="235" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_azul" NAME="Azul">
+          <COLORBASE R="115" G="172" B="230" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_fume" NAME="Fume">
+          <REFLECTION>0.2</REFLECTION>
+          <SPECULAR>0.15</SPECULAR>
+          <ROUGHNESS>0.03</ROUGHNESS>
+          <TRANSPARENCY>0.8</TRANSPARENCY>
+          <COLORBASE R="110" G="110" B="110" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_amarelo" NAME="Amarelo">
+          <COLORBASE R="255" G="255" B="11" />
+        </MATERIAL>
+        <MATERIAL ID="bocsh_interior" NAME="Interior">
+          <COLORBASE R="85" G="85" B="85" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_arroz" NAME="Arroz">
+          <TEXTUREFILE>.\textures\Imagem\Alimentos\ARROZ.JPG</TEXTUREFILE>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <ESCALETEXTUREX>90</ESCALETEXTUREX>
+          <ESCALETEXTUREY>90</ESCALETEXTUREY>
+          <COLORBASE R="239" G="239" B="239" />
+        </MATERIAL>
+        <MATERIAL ID="bocsh_laranja" NAME="Laranja">
+          <COLORBASE R="249" G="189" B="100" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_uva" NAME="Uva">
+          <COLORBASE R="75" G="4" B="113" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_verdeesc" NAME="Verde Escuro">
+          <COLORBASE R="3" G="97" B="27" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_maionese" NAME="Maionese">
+          <COLORBASE R="250" G="253" B="210" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_inox1" NAME="Inox1">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.32</AMBIENT>
+          <DIFFUSE>0.28</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.3</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0.05</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="180" G="180" B="180" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_branco1" NAME="Branco1">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Plastic Reflect 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR G="0" R="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.25</AMBIENT>
+          <DIFFUSE>0.7</DIFFUSE>
+          <REFLECTIONMIN>0.1</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_fume1" NAME="Fume1">
+          <BORDERCOLOR G="0" R="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.15</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.1</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0.03</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.65</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>Y</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="60" G="60" B="60" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_vidro_inc" NAME="Vidro Incolor">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" NAME="Solid Clear Glass" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.9</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>Y</CONSERVEENERGY>
+          <TEXTUREFILES />
+          <COLORBASE R="250" G="250" B="250" />
+        </MATERIAL>
+        <MATERIAL ID="bosch_acril" NAME="Acrílico">
+          <COLORBASE R="249" G="253" B="255" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.9</TRANSPARENCY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <TEXTUREFILES />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+      <FOLDERCOLLECTION />
+    </FOLDER>

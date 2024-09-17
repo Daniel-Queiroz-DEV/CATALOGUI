@@ -1,0 +1,167 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação02",
+        "Condition": {
+          "Expression": "$D$ ==450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$d$-161",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$d$-257",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação04",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$d$-33",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação01",
+        "Condition": {
+          "Expression": "$D$ ==500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$d$-289",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação05",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "33",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação06",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 6,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "257",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação07",
+        "Condition": {
+          "Expression": "$D$ ==500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 7,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "289",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      },
+      {
+        "Name": "Furação08",
+        "Condition": {
+          "Expression": "$D$ ==450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 8,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "161",
+          "Y": "32.8"
+        },
+        "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Blu_Tan_ocu_sis"
+}

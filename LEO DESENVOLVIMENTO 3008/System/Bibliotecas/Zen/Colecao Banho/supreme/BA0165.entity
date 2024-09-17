@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Obj Fixo ($TEXT$)" ICON="BA0015_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0165_pt_objetos_fixo" />
+    <DIMENSION WIDTH="100" HEIGHT="193" DEPTH="67" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_sup_BA0165" MODEL="Zen_supreme" MODELTYPE="Zen_sup_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sup_BA0165" MODEL="Zen_supreme" MODELTYPE="Zen_sup_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="100" HEIGHT="193" DEPTH="67" TEXT="BA0165" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Supreme Porta Objetos Fixo @zen_*(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

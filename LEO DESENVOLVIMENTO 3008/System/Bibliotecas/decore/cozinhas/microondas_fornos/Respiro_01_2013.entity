@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Respiro" ICON="Respiro_01_2013.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Respiro para Forno/Microondas" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="respiro_2013" />
+    <DIMENSION WIDTH="595" HEIGHT="59.1" DEPTH="20.8" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="cin_cor_007" EDIT="Y" />
+    <COMPONENTDEFINITION ID="INOX" NAME="INOX" IDMATERIAL="inox_escovado" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION HEIGHT="50" DEPTH="20" WIDTH="595" />
+</ENTITY>

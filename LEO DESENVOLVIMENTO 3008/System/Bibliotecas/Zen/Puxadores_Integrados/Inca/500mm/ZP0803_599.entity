@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Metallo/Vecchio Metallo ($TEXT$.$D.ACAB$)" ICON="Inca.jpg">
+  <DRAWING>
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <FILE3D NAME="inca" />
+    <DIMENSION WIDTH="500" HEIGHT="80" DEPTH="14.8" />
+    <LIMITS>
+      <MIN X="-250" Y="-14.8" Z="0" />
+      <MAX X="250" Y="0" Z="80" />
+    </LIMITS>
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Inca $D.DESC$ Alum Vecchio Metallo c/ Ponteiras Vecchio Metallo" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="500" HEIGHT="80" DEPTH="15" TEXT="ZP0803" ACAB="599" DESC="500mm" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_met_vec" EDIT="N" />
+    <COMPONENTDEFINITION ID="PEGA" NAME="PEGA" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

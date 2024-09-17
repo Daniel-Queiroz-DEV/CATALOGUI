@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Simples ($TEXT$)" ICON="Acqua_Simples.jpg" CHECKED="N">
+  <DRAWING ID="Acqua_Simples" />
+  <INSERTDIMENSION WIDTH="105" HEIGHT="105" DEPTH="44" TEXT="ZP0552" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Acqua Di Zen Puxador para Portas Simples @zen*(NAME)@" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_acqua" ENTRYID="pux_zen" />
+  </MODELS>
+</ENTITY>

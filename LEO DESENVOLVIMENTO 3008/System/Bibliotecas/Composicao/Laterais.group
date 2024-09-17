@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Laterais" NAME="Laterais" PREFIXID="com_coz_lat_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_SUP" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_INF" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_lat_ret_crasgo" DEF="com_lat_ret_crasgo.entity" GUID="113b4581-5ad4-4970-8a08-659463c4c421" />
+    <EXPLORERITEM TYPE="entity" ID="com_lat_srasgo" DEF="com_lat_srasgo.entity" GUID="4f8761cc-0d9c-45e8-bef6-06504a140d77" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_lat_2518" DEF="com_coz_lat_2518.entity" GUID="aa1c6d29-cbd1-4f0b-80b3-0614f4e83907" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_lat_2517" DEF="com_coz_lat_2517.entity" GUID="7ef7e5e6-6471-4752-ab89-f2b0044d67db" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_lat" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_lat" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

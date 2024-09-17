@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Obj Fixo ($TEXT$)" ICON="BA0015______15.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soul Porta Objetos Fixo @zen_soul(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="ba0180_pt_objetos_fixo" />
+    <DIMENSION WIDTH="170" HEIGHT="193" DEPTH="67" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="170" HEIGHT="193" DEPTH="67" TEXT="BA0180" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_sou_BA0180" MODEL="Zen_soul" MODELTYPE="Zen_sou_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sou_BA0180" MODEL="Zen_soul" MODELTYPE="ModeloTipo75234479" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sou_BA0180" MODEL="Zen_soul" MODELTYPE="ModeloTipo752344710" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sou_BA0180" MODEL="Zen_soul" MODELTYPE="ModeloTipo752344711" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sou_BA0180" MODEL="Zen_soul" MODELTYPE="ModeloTipo98217467" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sou_BA0180" MODEL="Zen_soul" MODELTYPE="ModeloTipo56238468" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

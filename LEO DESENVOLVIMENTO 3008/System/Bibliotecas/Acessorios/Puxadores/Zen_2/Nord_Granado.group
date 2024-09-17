@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Nord_Granado" NAME="Nord Granado" PREFIXID="zen_nor_gra_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_nor_gra_160_2" DEF="160mm.group" GUID="a840b6a6-ceae-4c69-8dcb-3636a32ee30e" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="NORD_GRANADO_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\NORD_GRANADO_160MM" />
+      <DIMENSION WIDTH="184" HEIGHT="25" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-92" Y="-23" Z="-12.5" />
+        <MAX X="92" Y="0" Z="12.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

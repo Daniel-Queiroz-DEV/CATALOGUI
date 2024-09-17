@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Diagonal Direita ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_tes_dia_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_tes_dia_2" />
+    <LIMITS>
+      <MIN X="0" Y="-100" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="100" />
+  </DRAWING>
+  <REFERENCE COMPLETE="#K#" MODEL="@com_*@" TAMPO="@com_*(TAPA_FURO_MINIFIX)@" ACAB="@com_*(ACABAMENTO)@" DESC="@('#P.LINHA#' == 'COZ' ? 'Cozinha' : ('#P.LINHA#' == 'BAN' ? 'Banheiro' : ('#P.LINHA#' == 'DOR' ? 'Dormitório': '')))" ITEM_BASE="$D.ITEM_BASE$" TIPO_FITA="#TIPO_BORDA_1#" ALTURA_FITA="@(($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" />
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="100" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-24.15864" V="-87.01923" />
+              <CORNER2 U="1034.255" V="-140.8654" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="0" FORMULA="#K#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-39.30287" V="-70.19231" />
+              <CORNER2 U="39.78367" V="-130.7692" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$+2*#K#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="953.1089" V="-63.08481" />
+              <CORNER2 U="1042.291" V="-133.758" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$+#k#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="974.0672" V="27.05224" />
+              <CORNER2 U="1032.836" V="-31.71642" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="K" VALUE="50" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Travessa Frontal" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION DEPTH="80" HEIGHT="@(#COZ_ESP_TES#+#FOL_PAI#)" WIDTH="1000" ITEM_BASE="TRA01" TEXT="205">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

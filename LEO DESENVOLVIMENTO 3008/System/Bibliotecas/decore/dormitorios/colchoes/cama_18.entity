@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Colchão" ICON="CAMA_18.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <REDIMSERVICE CODON="/documentos/sugestao/RedimServices/RedimParametrico_meio" />
+  <DRAWING>
+    <FILE3D NAME="CAMA_18" />
+    <DIMENSION WIDTH="1580" HEIGHT="210" DEPTH="1980" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TECIDO" NAME="DEC_TECIDO" IDMATERIAL="tec_brancos_lisos_tecido 010" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Colchão" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

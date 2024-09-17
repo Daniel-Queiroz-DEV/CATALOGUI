@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Onda ($TEXT$)" ICON="onda.jpg">
+  <DRAWING>
+    <FILE3D NAME="onda" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="188" HEIGHT="17" DEPTH="30" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.181" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="onda" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="onda" MODEL="Pux_all" MODELTYPE="Pux_all_pin" SAMEID="N" />
+    <REMOVEMODELOPTION ID="onda" MODEL="Pux_all" MODELTYPE="Pux_all_pin_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Onda 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

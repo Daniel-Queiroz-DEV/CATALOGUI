@@ -1,0 +1,2120 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "BORDA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "0"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "1,525879E-05",
+        "Y": "550"
+      },
+      "RightPoint": {
+        "X": "1,525879E-05",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 4,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 4,
+        "Text": "BORDA",
+        "LayerName": "BORDA",
+        "Reference": "Referencia02",
+        "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "0"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 4,
+        "LeftVertexIndex": 4,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "300",
+          "Y": "550"
+        },
+        "RightPoint": {
+          "X": "1,525879E-05",
+          "Y": "550"
+        },
+        "Angle": {},
+        "LeftNeighbour": 3,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 4,
+          "LeftPoint": {
+            "X": "298,8481",
+            "Y": "150,0005"
+          },
+          "RightPoint": {
+            "X": "300",
+            "Y": "550"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "160",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "298,8481",
+              "Y": "150,0005"
+            },
+            "Angle": {
+              "Value": "89,99973"
+            },
+            "LeftNeighbour": 1,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 1,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 1,
+              "LeftVertexIndex": 1,
+              "RightVertexIndex": 2,
+              "LeftPoint": {
+                "X": "1,525879E-05",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "160",
+                "Y": "0"
+              },
+              "Angle": {},
+              "LeftNeighbour": 0,
+              "RightNeighbour": 2,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Mid": "80,0000076293954, 0",
+                "End": "160, 0"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur"
+            },
+            "RightNeighbour": 3,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "160, 0",
+              "Mid": "260,490076093216, 46,2439605692687",
+              "End": "298,848114013672, 150,000503540039"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "RightNeighbour": 4,
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "298,848114013672, 150,000503540039",
+            "Mid": "299,424057006836, 350,00025177002",
+            "End": "300, 550"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        "RightNeighbour": 0,
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "300, 550",
+          "Mid": "150,000007629395, 550",
+          "End": "1,52587908814894E-05, 550"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_curva_18"
+      },
+      "RightNeighbour": 1,
+      "RightNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "BORDA",
+        "LayerName": "BORDA",
+        "Reference": "Referencia02",
+        "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "0"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "1,525879E-05",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "160",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 0,
+        "RightNeighbour": 2,
+        "RightNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "160",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "298,8481",
+            "Y": "150,0005"
+          },
+          "Angle": {
+            "Value": "89,99973"
+          },
+          "LeftNeighbour": 1,
+          "RightNeighbour": 3,
+          "RightNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 4,
+            "LeftPoint": {
+              "X": "298,8481",
+              "Y": "150,0005"
+            },
+            "RightPoint": {
+              "X": "300",
+              "Y": "550"
+            },
+            "Angle": {},
+            "LeftNeighbour": 2,
+            "RightNeighbour": 4,
+            "RightNeighbourElement": {
+              "ProfileIndex": 4,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 0,
+              "LeftPoint": {
+                "X": "300",
+                "Y": "550"
+              },
+              "RightPoint": {
+                "X": "1,525879E-05",
+                "Y": "550"
+              },
+              "Angle": {},
+              "LeftNeighbour": 3,
+              "RightNeighbour": 0,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "300, 550",
+                "Mid": "150,000007629395, 550",
+                "End": "1,52587908814894E-05, 550"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_curva_18"
+            },
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "298,848114013672, 150,000503540039",
+              "Mid": "299,424057006836, 350,00025177002",
+              "End": "300, 550"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "160, 0",
+            "Mid": "260,490076093216, 46,2439605692687",
+            "End": "298,848114013672, 150,000503540039"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+        },
+        "Arc": {
+          "Mid": "80,0000076293954, 0",
+          "End": "160, 0"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_cur"
+      },
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1,52587908814894E-05, 550",
+        "Mid": "1,52587908814894E-05, 275"
+      },
+      "BorderStructureID": "",
+      "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_curva_18"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "ProfileIndex": 1,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "1,525879E-05",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "160",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "1,525879E-05",
+              "Y": "550"
+            },
+            "RightPoint": {
+              "X": "1,525879E-05",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 4,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 4,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 0,
+              "LeftPoint": {
+                "X": "300",
+                "Y": "550"
+              },
+              "RightPoint": {
+                "X": "1,525879E-05",
+                "Y": "550"
+              },
+              "Angle": {},
+              "LeftNeighbour": 3,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 3,
+                "Text": "BORDA",
+                "LayerName": "BORDA",
+                "Reference": "Referencia02",
+                "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_PAI#"
+                },
+                "CutOffset": {
+                  "Value": "0"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 3,
+                "LeftVertexIndex": 3,
+                "RightVertexIndex": 4,
+                "LeftPoint": {
+                  "X": "298,8481",
+                  "Y": "150,0005"
+                },
+                "RightPoint": {
+                  "X": "300",
+                  "Y": "550"
+                },
+                "Angle": {},
+                "LeftNeighbour": 2,
+                "LeftNeighbourElement": {
+                  "ProfileIndex": 2,
+                  "Text": "BORDA",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia02",
+                  "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_PAI#"
+                  },
+                  "CutOffset": {
+                    "Value": "0"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 2,
+                  "LeftVertexIndex": 2,
+                  "RightVertexIndex": 3,
+                  "LeftPoint": {
+                    "X": "160",
+                    "Y": "0"
+                  },
+                  "RightPoint": {
+                    "X": "298,8481",
+                    "Y": "150,0005"
+                  },
+                  "Angle": {
+                    "Value": "89,99973"
+                  },
+                  "LeftNeighbour": 1,
+                  "RightNeighbour": 3,
+                  "Condition": {
+                    "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "160, 0",
+                    "Mid": "260,490076093216, 46,2439605692687",
+                    "End": "298,848114013672, 150,000503540039"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_cur"
+                },
+                "RightNeighbour": 4,
+                "Condition": {
+                  "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "298,848114013672, 150,000503540039",
+                  "Mid": "299,424057006836, 350,00025177002",
+                  "End": "300, 550"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "Height": {
+                  "Value": "0"
+                },
+                "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_cur"
+              },
+              "RightNeighbour": 0,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "300, 550",
+                "Mid": "150,000007629395, 550",
+                "End": "1,52587908814894E-05, 550"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_curva_18"
+            },
+            "RightNeighbour": 1,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1,52587908814894E-05, 550",
+              "Mid": "1,52587908814894E-05, 275"
+            },
+            "BorderStructureID": "",
+            "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_curva_18"
+          },
+          "RightNeighbour": 2,
+          "RightNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "160",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "298,8481",
+              "Y": "150,0005"
+            },
+            "Angle": {
+              "Value": "89,99973"
+            },
+            "LeftNeighbour": 1,
+            "RightNeighbour": 3,
+            "RightNeighbourElement": {
+              "ProfileIndex": 3,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 3,
+              "LeftVertexIndex": 3,
+              "RightVertexIndex": 4,
+              "LeftPoint": {
+                "X": "298,8481",
+                "Y": "150,0005"
+              },
+              "RightPoint": {
+                "X": "300",
+                "Y": "550"
+              },
+              "Angle": {},
+              "LeftNeighbour": 2,
+              "RightNeighbour": 4,
+              "RightNeighbourElement": {
+                "ProfileIndex": 4,
+                "Text": "BORDA",
+                "LayerName": "BORDA",
+                "Reference": "Referencia02",
+                "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_PAI#"
+                },
+                "CutOffset": {
+                  "Value": "0"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 4,
+                "LeftVertexIndex": 4,
+                "RightVertexIndex": 0,
+                "LeftPoint": {
+                  "X": "300",
+                  "Y": "550"
+                },
+                "RightPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "550"
+                },
+                "Angle": {},
+                "LeftNeighbour": 3,
+                "RightNeighbour": 0,
+                "RightNeighbourElement": {
+                  "ProfileIndex": 0,
+                  "Text": "BORDA",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia02",
+                  "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_PAI#"
+                  },
+                  "CutOffset": {
+                    "Value": "0"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 0,
+                  "LeftVertexIndex": 0,
+                  "RightVertexIndex": 1,
+                  "LeftPoint": {
+                    "X": "1,525879E-05",
+                    "Y": "550"
+                  },
+                  "RightPoint": {
+                    "X": "1,525879E-05",
+                    "Y": "0"
+                  },
+                  "Angle": {},
+                  "LeftNeighbour": 4,
+                  "RightNeighbour": 1,
+                  "Condition": {
+                    "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "1,52587908814894E-05, 550",
+                    "Mid": "1,52587908814894E-05, 275"
+                  },
+                  "BorderStructureID": "",
+                  "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_curva_18"
+                },
+                "Condition": {
+                  "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "300, 550",
+                  "Mid": "150,000007629395, 550",
+                  "End": "1,52587908814894E-05, 550"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+                "Height": {
+                  "Value": "0"
+                },
+                "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_curva_18"
+              },
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "298,848114013672, 150,000503540039",
+                "Mid": "299,424057006836, 350,00025177002",
+                "End": "300, 550"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur"
+            },
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "160, 0",
+              "Mid": "260,490076093216, 46,2439605692687",
+              "End": "298,848114013672, 150,000503540039"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Mid": "80,0000076293954, 0",
+            "End": "160, 0"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        {
+          "ProfileIndex": 2,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "160",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "298,8481",
+            "Y": "150,0005"
+          },
+          "Angle": {
+            "Value": "89,99973"
+          },
+          "LeftNeighbour": 1,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "1,525879E-05",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "160",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 0,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 0,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 0,
+              "LeftVertexIndex": 0,
+              "RightVertexIndex": 1,
+              "LeftPoint": {
+                "X": "1,525879E-05",
+                "Y": "550"
+              },
+              "RightPoint": {
+                "X": "1,525879E-05",
+                "Y": "0"
+              },
+              "Angle": {},
+              "LeftNeighbour": 4,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 4,
+                "Text": "BORDA",
+                "LayerName": "BORDA",
+                "Reference": "Referencia02",
+                "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_PAI#"
+                },
+                "CutOffset": {
+                  "Value": "0"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 4,
+                "LeftVertexIndex": 4,
+                "RightVertexIndex": 0,
+                "LeftPoint": {
+                  "X": "300",
+                  "Y": "550"
+                },
+                "RightPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "550"
+                },
+                "Angle": {},
+                "LeftNeighbour": 3,
+                "LeftNeighbourElement": {
+                  "ProfileIndex": 3,
+                  "Text": "BORDA",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia02",
+                  "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_PAI#"
+                  },
+                  "CutOffset": {
+                    "Value": "0"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 3,
+                  "LeftVertexIndex": 3,
+                  "RightVertexIndex": 4,
+                  "LeftPoint": {
+                    "X": "298,8481",
+                    "Y": "150,0005"
+                  },
+                  "RightPoint": {
+                    "X": "300",
+                    "Y": "550"
+                  },
+                  "Angle": {},
+                  "LeftNeighbour": 2,
+                  "RightNeighbour": 4,
+                  "Condition": {
+                    "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "298,848114013672, 150,000503540039",
+                    "Mid": "299,424057006836, 350,00025177002",
+                    "End": "300, 550"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_cur"
+                },
+                "RightNeighbour": 0,
+                "Condition": {
+                  "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "300, 550",
+                  "Mid": "150,000007629395, 550",
+                  "End": "1,52587908814894E-05, 550"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+                "Height": {
+                  "Value": "0"
+                },
+                "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_curva_18"
+              },
+              "RightNeighbour": 1,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "1,52587908814894E-05, 550",
+                "Mid": "1,52587908814894E-05, 275"
+              },
+              "BorderStructureID": "",
+              "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_curva_18"
+            },
+            "RightNeighbour": 2,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Mid": "80,0000076293954, 0",
+              "End": "160, 0"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "RightNeighbour": 3,
+          "RightNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 4,
+            "LeftPoint": {
+              "X": "298,8481",
+              "Y": "150,0005"
+            },
+            "RightPoint": {
+              "X": "300",
+              "Y": "550"
+            },
+            "Angle": {},
+            "LeftNeighbour": 2,
+            "RightNeighbour": 4,
+            "RightNeighbourElement": {
+              "ProfileIndex": 4,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 0,
+              "LeftPoint": {
+                "X": "300",
+                "Y": "550"
+              },
+              "RightPoint": {
+                "X": "1,525879E-05",
+                "Y": "550"
+              },
+              "Angle": {},
+              "LeftNeighbour": 3,
+              "RightNeighbour": 0,
+              "RightNeighbourElement": {
+                "ProfileIndex": 0,
+                "Text": "BORDA",
+                "LayerName": "BORDA",
+                "Reference": "Referencia02",
+                "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_PAI#"
+                },
+                "CutOffset": {
+                  "Value": "0"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 0,
+                "LeftVertexIndex": 0,
+                "RightVertexIndex": 1,
+                "LeftPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "550"
+                },
+                "RightPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "0"
+                },
+                "Angle": {},
+                "LeftNeighbour": 4,
+                "RightNeighbour": 1,
+                "RightNeighbourElement": {
+                  "ProfileIndex": 1,
+                  "Text": "BORDA",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia02",
+                  "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_PAI#"
+                  },
+                  "CutOffset": {
+                    "Value": "0"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 1,
+                  "LeftVertexIndex": 1,
+                  "RightVertexIndex": 2,
+                  "LeftPoint": {
+                    "X": "1,525879E-05",
+                    "Y": "0"
+                  },
+                  "RightPoint": {
+                    "X": "160",
+                    "Y": "0"
+                  },
+                  "Angle": {},
+                  "LeftNeighbour": 0,
+                  "RightNeighbour": 2,
+                  "Condition": {
+                    "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Mid": "80,0000076293954, 0",
+                    "End": "160, 0"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_cur"
+                },
+                "Condition": {
+                  "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "1,52587908814894E-05, 550",
+                  "Mid": "1,52587908814894E-05, 275"
+                },
+                "BorderStructureID": "",
+                "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+                "Height": {
+                  "Value": "0"
+                },
+                "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_curva_18"
+              },
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "300, 550",
+                "Mid": "150,000007629395, 550",
+                "End": "1,52587908814894E-05, 550"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_curva_18"
+            },
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "298,848114013672, 150,000503540039",
+              "Mid": "299,424057006836, 350,00025177002",
+              "End": "300, 550"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "160, 0",
+            "Mid": "260,490076093216, 46,2439605692687",
+            "End": "298,848114013672, 150,000503540039"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        {
+          "ProfileIndex": 3,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 4,
+          "LeftPoint": {
+            "X": "298,8481",
+            "Y": "150,0005"
+          },
+          "RightPoint": {
+            "X": "300",
+            "Y": "550"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "160",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "298,8481",
+              "Y": "150,0005"
+            },
+            "Angle": {
+              "Value": "89,99973"
+            },
+            "LeftNeighbour": 1,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 1,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 1,
+              "LeftVertexIndex": 1,
+              "RightVertexIndex": 2,
+              "LeftPoint": {
+                "X": "1,525879E-05",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "160",
+                "Y": "0"
+              },
+              "Angle": {},
+              "LeftNeighbour": 0,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 0,
+                "Text": "BORDA",
+                "LayerName": "BORDA",
+                "Reference": "Referencia02",
+                "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_PAI#"
+                },
+                "CutOffset": {
+                  "Value": "0"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 0,
+                "LeftVertexIndex": 0,
+                "RightVertexIndex": 1,
+                "LeftPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "550"
+                },
+                "RightPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "0"
+                },
+                "Angle": {},
+                "LeftNeighbour": 4,
+                "LeftNeighbourElement": {
+                  "ProfileIndex": 4,
+                  "Text": "BORDA",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia02",
+                  "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_PAI#"
+                  },
+                  "CutOffset": {
+                    "Value": "0"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 4,
+                  "LeftVertexIndex": 4,
+                  "RightVertexIndex": 0,
+                  "LeftPoint": {
+                    "X": "300",
+                    "Y": "550"
+                  },
+                  "RightPoint": {
+                    "X": "1,525879E-05",
+                    "Y": "550"
+                  },
+                  "Angle": {},
+                  "LeftNeighbour": 3,
+                  "RightNeighbour": 0,
+                  "Condition": {
+                    "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "300, 550",
+                    "Mid": "150,000007629395, 550",
+                    "End": "1,52587908814894E-05, 550"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_curva_18"
+                },
+                "RightNeighbour": 1,
+                "Condition": {
+                  "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "1,52587908814894E-05, 550",
+                  "Mid": "1,52587908814894E-05, 275"
+                },
+                "BorderStructureID": "",
+                "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+                "Height": {
+                  "Value": "0"
+                },
+                "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_curva_18"
+              },
+              "RightNeighbour": 2,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Mid": "80,0000076293954, 0",
+                "End": "160, 0"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur"
+            },
+            "RightNeighbour": 3,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "160, 0",
+              "Mid": "260,490076093216, 46,2439605692687",
+              "End": "298,848114013672, 150,000503540039"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "RightNeighbour": 4,
+          "RightNeighbourElement": {
+            "ProfileIndex": 4,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 4,
+            "LeftVertexIndex": 4,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "300",
+              "Y": "550"
+            },
+            "RightPoint": {
+              "X": "1,525879E-05",
+              "Y": "550"
+            },
+            "Angle": {},
+            "LeftNeighbour": 3,
+            "RightNeighbour": 0,
+            "RightNeighbourElement": {
+              "ProfileIndex": 0,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 0,
+              "LeftVertexIndex": 0,
+              "RightVertexIndex": 1,
+              "LeftPoint": {
+                "X": "1,525879E-05",
+                "Y": "550"
+              },
+              "RightPoint": {
+                "X": "1,525879E-05",
+                "Y": "0"
+              },
+              "Angle": {},
+              "LeftNeighbour": 4,
+              "RightNeighbour": 1,
+              "RightNeighbourElement": {
+                "ProfileIndex": 1,
+                "Text": "BORDA",
+                "LayerName": "BORDA",
+                "Reference": "Referencia02",
+                "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_PAI#"
+                },
+                "CutOffset": {
+                  "Value": "0"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 1,
+                "LeftVertexIndex": 1,
+                "RightVertexIndex": 2,
+                "LeftPoint": {
+                  "X": "1,525879E-05",
+                  "Y": "0"
+                },
+                "RightPoint": {
+                  "X": "160",
+                  "Y": "0"
+                },
+                "Angle": {},
+                "LeftNeighbour": 0,
+                "RightNeighbour": 2,
+                "RightNeighbourElement": {
+                  "ProfileIndex": 2,
+                  "Text": "BORDA",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia02",
+                  "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_PAI#"
+                  },
+                  "CutOffset": {
+                    "Value": "0"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 2,
+                  "LeftVertexIndex": 2,
+                  "RightVertexIndex": 3,
+                  "LeftPoint": {
+                    "X": "160",
+                    "Y": "0"
+                  },
+                  "RightPoint": {
+                    "X": "298,8481",
+                    "Y": "150,0005"
+                  },
+                  "Angle": {
+                    "Value": "89,99973"
+                  },
+                  "LeftNeighbour": 1,
+                  "RightNeighbour": 3,
+                  "Condition": {
+                    "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "160, 0",
+                    "Mid": "260,490076093216, 46,2439605692687",
+                    "End": "298,848114013672, 150,000503540039"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_cur"
+                },
+                "Condition": {
+                  "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+                },
+                "Arc": {
+                  "Mid": "80,0000076293954, 0",
+                  "End": "160, 0"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "Height": {
+                  "Value": "0"
+                },
+                "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_cur"
+              },
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "1,52587908814894E-05, 550",
+                "Mid": "1,52587908814894E-05, 275"
+              },
+              "BorderStructureID": "",
+              "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_curva_18"
+            },
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "300, 550",
+              "Mid": "150,000007629395, 550",
+              "End": "1,52587908814894E-05, 550"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_curva_18"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "298,848114013672, 150,000503540039",
+            "Mid": "299,424057006836, 350,00025177002",
+            "End": "300, 550"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        }
+      ],
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "0"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ProfileIndex": 9,
+      "Text": "BORDA",
+      "Reference": "Referencia02",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "BorderID": "d7e3c440-77aa-4259-9df4-c50a9c254d3d",
+      "ID": "472e2a5d-8954-480d-8c47-f5369bb29513",
+      "ElementId": "com_coz_bas_curva_18"
+    },
+    {
+      "ProfileIndex": 4,
+      "Text": "BORDA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "0"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 4,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "300",
+        "Y": "550"
+      },
+      "RightPoint": {
+        "X": "1,525879E-05",
+        "Y": "550"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "BORDA",
+        "LayerName": "BORDA",
+        "Reference": "Referencia02",
+        "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "0"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 4,
+        "LeftPoint": {
+          "X": "298,8481",
+          "Y": "150,0005"
+        },
+        "RightPoint": {
+          "X": "300",
+          "Y": "550"
+        },
+        "Angle": {},
+        "LeftNeighbour": 2,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "160",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "298,8481",
+            "Y": "150,0005"
+          },
+          "Angle": {
+            "Value": "89,99973"
+          },
+          "LeftNeighbour": 1,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "1,525879E-05",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "160",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 0,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 0,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 0,
+              "LeftVertexIndex": 0,
+              "RightVertexIndex": 1,
+              "LeftPoint": {
+                "X": "1,525879E-05",
+                "Y": "550"
+              },
+              "RightPoint": {
+                "X": "1,525879E-05",
+                "Y": "0"
+              },
+              "Angle": {},
+              "LeftNeighbour": 4,
+              "RightNeighbour": 1,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "1,52587908814894E-05, 550",
+                "Mid": "1,52587908814894E-05, 275"
+              },
+              "BorderStructureID": "",
+              "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_curva_18"
+            },
+            "RightNeighbour": 2,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Mid": "80,0000076293954, 0",
+              "End": "160, 0"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "RightNeighbour": 3,
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "160, 0",
+            "Mid": "260,490076093216, 46,2439605692687",
+            "End": "298,848114013672, 150,000503540039"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        "RightNeighbour": 4,
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "298,848114013672, 150,000503540039",
+          "Mid": "299,424057006836, 350,00025177002",
+          "End": "300, 550"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_cur"
+      },
+      "RightNeighbour": 0,
+      "RightNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "BORDA",
+        "LayerName": "BORDA",
+        "Reference": "Referencia02",
+        "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "0"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "1,525879E-05",
+          "Y": "550"
+        },
+        "RightPoint": {
+          "X": "1,525879E-05",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 4,
+        "RightNeighbour": 1,
+        "RightNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "BORDA",
+          "LayerName": "BORDA",
+          "Reference": "Referencia02",
+          "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "0"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "1,525879E-05",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "160",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "RightNeighbour": 2,
+          "RightNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "BORDA",
+            "LayerName": "BORDA",
+            "Reference": "Referencia02",
+            "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "0"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "160",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "298,8481",
+              "Y": "150,0005"
+            },
+            "Angle": {
+              "Value": "89,99973"
+            },
+            "LeftNeighbour": 1,
+            "RightNeighbour": 3,
+            "RightNeighbourElement": {
+              "ProfileIndex": 3,
+              "Text": "BORDA",
+              "LayerName": "BORDA",
+              "Reference": "Referencia02",
+              "ReferenceMounter": "Borda01 (Referencia01) = $BORDERTHICKNESSBUILDER$ - @*_fita@",
+              "Thickness": {
+                "Value": "#ESP_BORDA_PAI#"
+              },
+              "CutOffset": {
+                "Value": "0"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 3,
+              "LeftVertexIndex": 3,
+              "RightVertexIndex": 4,
+              "LeftPoint": {
+                "X": "298,8481",
+                "Y": "150,0005"
+              },
+              "RightPoint": {
+                "X": "300",
+                "Y": "550"
+              },
+              "Angle": {},
+              "LeftNeighbour": 2,
+              "RightNeighbour": 4,
+              "Condition": {
+                "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "298,848114013672, 150,000503540039",
+                "Mid": "299,424057006836, 350,00025177002",
+                "End": "300, 550"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "ID": "1204b3c7-9cfc-4d3e-85f6-3a310a1a1f39",
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_cur"
+            },
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "160, 0",
+              "Mid": "260,490076093216, 46,2439605692687",
+              "End": "298,848114013672, 150,000503540039"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "280c9026-47d8-4270-8d54-8c4e91ef5651",
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_cur"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Mid": "80,0000076293954, 0",
+            "End": "160, 0"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "00402fd1-d402-4cb9-a6f7-f29878297a3d",
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_cur"
+        },
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1,52587908814894E-05, 550",
+          "Mid": "1,52587908814894E-05, 275"
+        },
+        "BorderStructureID": "",
+        "BorderID": "b96a12c2-5247-40da-887b-6a83fe2121f2",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "d1868381-0757-4e82-a536-0e317b7ab5dc",
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_curva_18"
+      },
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "300, 550",
+        "Mid": "150,000007629395, 550",
+        "End": "1,52587908814894E-05, 550"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "BorderID": "586b3609-a1ea-4898-b3b6-3e4c6769ca1c",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "dbd58181-35fc-494f-81e1-50164e717502",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_curva_18"
+    }
+  ],
+  "ElementId": "com_coz_bas_curva_18"
+}

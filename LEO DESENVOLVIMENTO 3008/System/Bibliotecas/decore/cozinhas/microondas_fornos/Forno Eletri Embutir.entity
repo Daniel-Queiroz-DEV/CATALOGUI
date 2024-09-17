@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Forno Embutir" ICON="Forno Eletri Embutir.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Forno Elétrico de Embutir" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="forno_emb_elet_2013" FORMAT=".dxf" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="450">
+      <POSITION>
+        <NORMAL A="0" B="0" C="1" />
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="590.6" HEIGHT="405.1" DEPTH="490.8" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="INOX" NAME="INOX" IDMATERIAL="inox_escovado" EDIT="Y" />
+    <COMPONENTDEFINITION ID="VIDRO" NAME="VIDRO" IDMATERIAL="vidro_fume" EDIT="Y" />
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="cin_cor_006" EDIT="Y" />
+    <COMPONENTDEFINITION ID="LARANJA" NAME="LARANJA" IDMATERIAL="lar_cor_004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

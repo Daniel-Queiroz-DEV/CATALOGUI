@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gérbera" ICON="FOL_AV_01.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Folhagem Avulsa" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="FOL_AV_01" />
+    <DIMENSION WIDTH="142.3" HEIGHT="467.2" DEPTH="136,7" />
+    <LIMITS>
+      <MIN X="-0.043" Y="-136.702" Z="0" />
+      <MAX X="142.222" Y="0.011" Z="467.245" />
+    </LIMITS>
+  </DRAWING>
+</ENTITY>

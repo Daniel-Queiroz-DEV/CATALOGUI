@@ -1,0 +1,134 @@
+{
+  "Edges": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "ProfileIndex": 3,
+          "Text": "Borda01",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_2#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_TAMPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "55"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "55"
+          },
+          "Angle": {},
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_TRA_TOP_2"
+        },
+        {
+          "ProfileIndex": 3,
+          "Text": "Borda01",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_2#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_TAMPO#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "55"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "55"
+          },
+          "Angle": {},
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "TAM_TAM_TRA_TOP_2"
+        }
+      ],
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "ProfileIndex": 0,
+      "Text": "TRASEIRA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "5"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 0,
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "ElementId": "TAM_TAM_TRA_PAL"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "TRASEIRA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_TAMPO#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_TRA_PAL"
+    }
+  ],
+  "ElementId": "TAM_TAM_TRA_PAL"
+}

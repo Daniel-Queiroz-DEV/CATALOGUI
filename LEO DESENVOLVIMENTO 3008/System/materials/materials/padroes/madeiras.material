@@ -1,0 +1,2434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Madeiras">
+  <FOLDERCOLLECTION>
+    <FOLDER NOME="Lisos">
+      <FOLDERCOLLECTION>
+        <FOLDER NOME="Verticais" GENERATEITEMSNUMBERS="Y">
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="carvalho" NAME="Carvalho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\carvalho.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+              <COLORBASE R="218" G="184" B="138" />
+            </MATERIAL>
+            <MATERIAL ID="cerejeira" NAME="Cerejeira" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>750</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\cerejeira.jpg</TEXTUREFILE>
+              <COLORBASE R="186" G="124" B="47" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="chiaro" NAME="Chiaro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="221" G="208" B="176" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>700</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\chiaro.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="freijo" NAME="Freijó" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="161" G="136" B="97" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>700</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\freijo.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="haya_salmao" NAME="Haya Salmão" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="229" G="187" B="147" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>750</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\haya_salmao.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="imbuia" NAME="Imbuia" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>650</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\imbuia.jpg</TEXTUREFILE>
+              <COLORBASE R="92" G="66" B="26" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="maple" NAME="Maple" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="242" G="235" B="216" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.35</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\maple.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="marfim_fabrica" NAME="Marfim" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="251" G="206" B="144" />
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>250</ESCALETEXTUREX>
+              <ESCALETEXTUREY>250</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\marfim.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="mogno" NAME="Mogno" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="161" G="61" B="38" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.2</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\mogno.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="tabaco" NAME="Tabaco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="44" G="27" B="17" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\tabaco.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="tauri" NAME="Tauri" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\tauri.jpg</TEXTUREFILE>
+              <COLORBASE R="253" G="203" B="146" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="wengue" NAME="Wengue" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\wengue.jpg</TEXTUREFILE>
+              <COLORBASE R="49" G="28" B="14" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="marfim_arana" NAME="Marfim Arana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\marfim_arana.jpg</TEXTUREFILE>
+              <COLORBASE R="227" G="204" B="128" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="nogal" NAME="Nogal" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\nogal.jpg</TEXTUREFILE>
+              <COLORBASE R="145" G="94" B="59" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="cedro_rosa" NAME="Cedro Rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\cedro rosa.jpg</TEXTUREFILE>
+              <COLORBASE R="217" G="155" B="100" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="currupixa" NAME="Currupixa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="166" G="99" B="44" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\currupixa.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="figueira" NAME="Figueira" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="248" G="236" B="185" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\figueira.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="goiabao_escuro" NAME="Goiabão Escuro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="88" G="59" B="38" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\goiabao escuro.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="ipe" NAME="Ipê" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="49" G="36" B="29" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>3000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\ipe.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="itauba" NAME="Itaúba" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="106" G="61" B="26" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\itauba.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="jacaranda" NAME="Jacarandá" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\jacaranda.jpg</TEXTUREFILE>
+              <COLORBASE R="82" G="64" B="51" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="louro_freijo" NAME="Louro Freijó" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>700</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\louro freijo.jpg</TEXTUREFILE>
+              <COLORBASE R="160" G="113" B="57" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="pinus" NAME="Pinus" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="238" G="202" B="142" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\pinus.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_mad_lis_faggio_v" NAME="Faggio" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="228" G="186" B="138" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>520</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1100</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\faggio.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_mad_lis_painel_pinus_v" NAME="Painel Pinus" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>680</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\painel_pinus.jpg</TEXTUREFILE>
+              <COLORBASE R="219" G="190" B="151" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_mad_cru_v" NAME="Cru">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="175" G="134" B="87" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>150</ESCALETEXTUREX>
+              <ESCALETEXTUREY>150</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\cru.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NOME="Horizontais" GENERATEITEMSNUMBERS="Y">
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="carvalho_h" NAME="Carvalho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>900</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\carvalho.jpg</TEXTUREFILE>
+              <COLORBASE R="218" G="184" B="138" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="cerejeira_h" NAME="Cerejeira" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="186" G="124" B="47" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>750</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\cerejeira.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="chiaro_h" NAME="Chiaro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="221" G="208" B="176" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>700</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.04</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\chiaro.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="freijo_h" NAME="Freijó" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="161" G="136" B="97" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>700</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\freijo.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="haya_salmao_h" NAME="Haya Salmão" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="229" G="187" B="147" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>750</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\haya_salmao.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="imbuia_h" NAME="Imbuia" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 6" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>650</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\imbuia.jpg</TEXTUREFILE>
+              <COLORBASE R="92" G="66" B="26" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="maple_h" NAME="Maple" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="242" G="235" B="216" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>400</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.35</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\maple.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="marfim_h" NAME="Marfim" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>250</ESCALETEXTUREX>
+              <ESCALETEXTUREY>250</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\marfim.jpg</TEXTUREFILE>
+              <COLORBASE R="251" G="206" B="144" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="mogno_h" NAME="Mogno" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="161" G="61" B="38" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\mogno.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="tabaco_h" NAME="Tabaco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="44" G="27" B="17" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\tabaco.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="tauri_h" NAME="Tauri" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\tauri.jpg</TEXTUREFILE>
+              <COLORBASE R="253" G="203" B="146" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="wengue_h" NAME="Wengue" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\wengue.jpg</TEXTUREFILE>
+              <COLORBASE R="49" G="28" B="14" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="marfim_arana_h" NAME="Marfim Arana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\marfim_arana.jpg</TEXTUREFILE>
+              <COLORBASE R="227" G="204" B="128" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="nogal_h" NAME="Nogal" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>650</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\nogal.jpg</TEXTUREFILE>
+              <COLORBASE R="145" G="94" B="59" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="cedro_rosa_h" NAME="Cedro Rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="217" G="155" B="100" />
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\cedro rosa.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="currupixa_h" NAME="Currupixa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\currupixa.jpg</TEXTUREFILE>
+              <COLORBASE R="166" G="99" B="44" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="figueira_h" NAME="Figueira" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\figueira.jpg</TEXTUREFILE>
+              <COLORBASE R="248" G="236" B="185" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="goiabao_escuro_h" NAME="Goiabão Escuro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="91" G="61" B="38" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\goiabao escuro.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="ipe_h" NAME="Ipê" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="49" G="36" B="29" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>3000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\ipe.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="itauba_h" NAME="Itaúba" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="106" G="61" B="26" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\itauba.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="jacaranda_h" NAME="Jacarandá" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1300</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\jacaranda.jpg</TEXTUREFILE>
+              <COLORBASE R="82" G="64" B="51" />
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="louro_freijo_h" NAME="Louro Freijó" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="160" G="113" B="57" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>700</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\louro freijo.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="pinus_h" NAME="Pinus" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="238" G="202" B="142" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0.2</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\pinus.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_mad_lis_faggio_h" NAME="Faggio" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="228" G="186" B="138" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>520</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1100</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\faggio.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_mad_lis_painel_pinus_h" NAME="Painel Pinus" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="219" G="190" B="151" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>90</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>680</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0.03</REFLECTIONMIN>
+              <REFLECTIONMAX>0.03</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.02</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Vertical</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\painel_pinus.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_mad_cru_h" NAME="Cru">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="175" G="134" B="87" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>150</ESCALETEXTUREX>
+              <ESCALETEXTUREY>150</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\madeiras\naturais\cru.jpg</TEXTUREFILE>
+              <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Demolições" GENERATEITEMSNUMBERS="Y">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mad_demolicao_001" NAME="Demolição" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="128" G="92" B="52" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>978</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Vertical</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\demolicao\demolicao_001.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="mad_demolicao_002" NAME="Demolição" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\demolicao\demolicao_002.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+          <COLORBASE R="160" G="101" B="52" />
+        </MATERIAL>
+        <MATERIAL ID="mad_demolicao_003" NAME="Demolição" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>900</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Vertical</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\demolicao\demolicao_003.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+          <COLORBASE R="151" G="129" B="99" />
+        </MATERIAL>
+        <MATERIAL ID="mad_demolicao_004" NAME="Demolição" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="135" G="110" B="79" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>600</ESCALETEXTUREX>
+          <ESCALETEXTUREY>600</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\demolicao\demolicao_004.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Pátinas" GENERATEITEMSNUMBERS="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="Mad_Pat_001" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte Brightness 8" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="208" G="193" B="174" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>600</ESCALETEXTUREX>
+          <ESCALETEXTUREY>600</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_001.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_002" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="216" G="200" B="174" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>560</ESCALETEXTUREX>
+          <ESCALETEXTUREY>478</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_002.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_003" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="195" G="164" B="129" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>340</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_003.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_004" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="135" G="150" B="173" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>510</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_004.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_005" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="143" G="167" B="176" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>396</ESCALETEXTUREX>
+          <ESCALETEXTUREY>396</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_005.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_006" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="135" G="131" B="129" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>404</ESCALETEXTUREX>
+          <ESCALETEXTUREY>307</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_006.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_007" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="155" G="154" B="142" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>280</ESCALETEXTUREX>
+          <ESCALETEXTUREY>250</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_007.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Mad_Pat_008" NAME="Pátina" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte Brightness 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="134" G="143" B="66" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>350</ESCALETEXTUREX>
+          <ESCALETEXTUREY>250</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.3</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.26</SPECULAR>
+          <ROUGHNESS>0.1</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\patina\Patina_008.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Pré-Compostas">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="mad_compostas" NAME="Verticais" ISFOLDER="Y" HIDDENFILES="erable kraft.jpg;imbuia mel.jpg;listrada-fr.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>600</ESCALETEXTUREX>
+          <ESCALETEXTUREY>600</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\pre-compostas\001.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="162" G="122" B="83" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="mad_compostas_h" NAME="Horizontais" HIDDENFILES="erable kraft.jpg;imbuia mel.jpg;listrada-fr.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <ROTATION>90</ROTATION>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>90</ROTATION>
+          <ESCALETEXTUREX>600</ESCALETEXTUREX>
+          <ESCALETEXTUREY>600</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0.02</REFLECTIONMIN>
+          <REFLECTIONMAX>0.02</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.1</SPECULAR>
+          <ROUGHNESS>0.2</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\madeiras\pre-compostas\001.jpg</TEXTUREFILE>
+          <MCODE>Wood.Hard.SandedPolished.Matte</MCODE>
+          <COLORBASE R="162" G="122" B="83" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+</FOLDER>

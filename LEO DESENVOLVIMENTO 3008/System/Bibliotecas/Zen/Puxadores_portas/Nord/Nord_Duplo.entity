@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-100) Duplo ($TEXT$)" ICON="Nord_Duplo.jpg" CHECKED="N">
+  <INSERTDIMENSION MODE="Nothing" HEIGHT="336" WIDTH="35" DEPTH="100" TEXT="ZP2531.300" ACAB="">
+    <MIN DEPTH="50" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_nor" ENTRYID="pux_zen" />
+  </MODELS>
+  <DRAWING ID="Nord_Duplo" />
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="70" FORMULA="$D$-30">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.87543" V="19.55122" />
+              <CORNER2 U="75.06522" V="-60.29105" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Nord @($H$-100)mm Duplo @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

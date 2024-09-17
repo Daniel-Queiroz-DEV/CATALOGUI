@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_int" CanMirror="Y" Description="Inteira" Type="Front">
+  <Dimension Depth="(#DOR_ARM_ESP_POR#+#FOL_PAI#)" Height="$P.H$+(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+(#DOR_ARM_ESP_BAS_SUP#+#FOL_PAI#)-#DOR_FOL_ARM_INF#-#DOR_FOL_ARM_SUP#" Width="$P.W$+(#DOR_ARM_ESP_LAT#+#FOL_PAI#)*2-#DOR_FOL_ARM_LAR#*2" />
+  <Position X="-(#DOR_ARM_ESP_LAT#+#FOL_PAI#)+#DOR_FOL_ARM_LAR#" Y="-$P.D$" Z="-(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+#DOR_FOL_ARM_INF#" />
+  <Actions>
+    <ResizeItem Side="Right" Value="-(#DOR_ARM_ESP_LAT#+#FOL_PAI#)+(#DOR_ARM_ESP_MON#+#FOL_PAI#)/2+#DOR_FOL_ARM_LAR#-#DOR_FOL_ARM_ENT_POR#/2">
+      <Conditions>
+        <Or>
+          <And>
+            <Or Not="Y">
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+              <HasNeighbourItem ItemType="Drawer" Side="Left" />
+            </Or>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+              <HasNeighbourItem ItemType="Drawer" Side="Right" />
+            </Or>
+          </And>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+              <HasNeighbourItem ItemType="Drawer" Side="Right" />
+            </Or>
+            <And Not="Y">
+              <Or Not="Y">
+                <HasNeighbourItem ItemType="Front" Side="Left" />
+                <HasNeighbourItem ItemType="Drawer" Side="Left" />
+              </Or>
+              <Or>
+                <HasNeighbourItem ItemType="Front" Side="Right" />
+                <HasNeighbourItem ItemType="Drawer" Side="Right" />
+              </Or>
+            </And>
+          </And>
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Value="-(#DOR_ARM_ESP_LAT#+#FOL_PAI#)+(#DOR_ARM_ESP_MON#+#FOL_PAI#)/2+#DOR_FOL_ARM_LAR#-#DOR_FOL_ARM_ENT_POR#/2">
+      <Conditions>
+        <Or>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+              <HasNeighbourItem ItemType="Drawer" Side="Left" />
+            </Or>
+            <Or Not="Y">
+              <HasNeighbourItem ItemType="Front" Side="Right" />
+              <HasNeighbourItem ItemType="Drawer" Side="Right" />
+            </Or>
+          </And>
+          <And>
+            <Or>
+              <HasNeighbourItem ItemType="Front" Side="Left" />
+              <HasNeighbourItem ItemType="Drawer" Side="Left" />
+            </Or>
+            <And Not="Y">
+              <Or>
+                <HasNeighbourItem ItemType="Front" Side="Left" />
+                <HasNeighbourItem ItemType="Drawer" Side="Left" />
+              </Or>
+              <Or Not="Y">
+                <HasNeighbourItem ItemType="Front" Side="Right" />
+                <HasNeighbourItem ItemType="Drawer" Side="Right" />
+              </Or>
+            </And>
+          </And>
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="-(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+#DOR_FOL_ARM_INF#+(#DOR_ARM_ESP_PRA_FIX#+#FOL_PAI#)/2-#DOR_FOL_ARM_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="frente_esq" Side="Bottom" />
+          <HasNeighbourItem ItemId="frente_dir" Side="Bottom" />
+          <HasNeighbourItem ItemId="frente_int" Side="Bottom" />
+          <HasNeighbourItem ItemId="gaveta_externa" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#DOR_ARM_ESP_BAS#+#FOL_PAI#)+#DOR_FOL_ARM_SUP#+(#DOR_ARM_ESP_PRA_FIX#+#FOL_PAI#)/2-#DOR_FOL_ARM_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="POR_POR_DOR" Id="frente_int_lat_s_viz">
+      <Conditions>
+        <Or Not="Y">
+          <And>
+            <IsInvertedItem />
+            <HasNeighbourItem ItemType="Front" Side="Left" />
+          </And>
+          <And>
+            <IsInvertedItem Not="Y" />
+            <HasNeighbourItem ItemType="Front" Side="Right" />
+          </And>
+        </Or>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="POR_POR_DOR_MONT" Id="frente_int_lat_c_2viz">
+      <Conditions>
+        <Or>
+          <And>
+            <IsInvertedItem />
+            <HasNeighbourItem ItemType="Front" Side="Left" />
+          </And>
+          <And>
+            <IsInvertedItem Not="Y" />
+            <HasNeighbourItem ItemType="Front" Side="Right" />
+          </And>
+        </Or>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="CANMIRROR" Value="FALSE" />
+    </Sets>
+  </Output>
+  <Variables>
+    <Variable Id="DrawingType" Value="RightFront" />
+  </Variables>
+</Item>

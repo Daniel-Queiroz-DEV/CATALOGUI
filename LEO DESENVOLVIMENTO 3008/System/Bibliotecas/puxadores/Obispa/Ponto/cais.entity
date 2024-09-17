@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cais ($TEXT$)" ICON="cais.jpg">
+  <DRAWING>
+    <FILE3D NAME="cais" FORMAT=".dxf" />
+    <DIMENSION WIDTH="22" HEIGHT="11" DEPTH="20" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.496" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_cai" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cais Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Movento" NAME="Movento" PREFIXID="Sta_Blu_Mov_" INVISIBLE="N" MODELINVISIBLE="N">
+  <REFERENCE IDREFERENCE="BLUM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Mov_blu" DEF="Sta_Blu_Mov_blu.entity" GUID="d96b6f55-1d12-43eb-873d-1df86d3185c5" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Mov_blu_2" DEF="Sta_Blu_Mov_blu_2.entity" GUID="39e842db-13ed-442f-aeba-83705ea306f0" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Mov_tri_tip" DEF="Sta_Blu_Mov_tri_tip.entity" GUID="2382f5b1-1b1d-4dca-beb2-c5fc38fb5137" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Mov_sin" DEF="Sta_Blu_Mov_sin_cro.entity" GUID="12c400dd-2cea-417b-9424-57ebdaaf4b5a" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

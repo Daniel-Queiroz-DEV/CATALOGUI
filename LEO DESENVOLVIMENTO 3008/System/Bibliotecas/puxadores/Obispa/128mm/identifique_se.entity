@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Identifique-se ($TEXT$)" ICON="identifique_se.jpg">
+  <INSERTDIMENSION TEXT="100.664" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_128_ide" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_128_ide" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_128_ide" MODEL="Pux_all" MODELTYPE="Pux_all_pin" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <DRAWING>
+    <FILE3D NAME="identifiquese_100664" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="143" HEIGHT="18" DEPTH="27" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Identifique-se 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

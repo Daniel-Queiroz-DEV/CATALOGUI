@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Vidros" NAME="Vidros" PREFIXID="com_vid" INVISIBLE="Y">
+  <REFERENCE IDREFERENCE="VIDROS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="SHOWHIDDENENTITY" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="vidro" DEF="vidro.entity" GUID="79a219bd-fa9f-42d5-8b23-e099b15847af" />
+    <EXPLORERITEM TYPE="entity" ID="vidro_2" DEF="vidro_2.entity" GUID="1b4ec107-191b-42df-b81a-6cf6c323f458" />
+    <EXPLORERITEM TYPE="entity" ID="vidro_2_2" DEF="vidro_2_3.entity" GUID="263bca42-dd10-45ff-b38b-c255d24acb02" />
+    <EXPLORERITEM TYPE="entity" ID="vidro_gallardo" DEF="vidro_2_2.entity" GUID="8cf61871-0c42-40cd-86a7-027bc971f009" />
+    <EXPLORERITEM TYPE="entity" ID="Jateamento_vidro" DEF="ace_ocu_est_tri_sup_ext_3.entity" GUID="b17b08ed-b50c-4da2-9bb9-9001a414bd01" />
+    <EXPLORERITEM TYPE="entity" ID="Jateamento_vidro_2" DEF="ace_ocu_est_tri_sup_ext_3_2.entity" GUID="13c4d043-281c-43a9-8998-4867cd1a24c3" />
+    <EXPLORERITEM TYPE="entity" ID="Prateleira_estrutura_vid" DEF="PAI_PRA_2682_3.entity" GUID="105a2fad-267d-42a1-bd4b-970188447b29" />
+    <EXPLORERITEM TYPE="entity" ID="Prateleira_estrutura_vid_2" DEF="PAI_PRA_2682_2.entity" GUID="a824e72a-d4fc-4852-ba83-557c63e6ad8b" />
+    <EXPLORERITEM TYPE="entity" ID="Portajoia_estrutura_vid_2_2" DEF="PAI_PRA_2682_2_3.entity" GUID="af46925a-4b65-4f00-9f1f-1f9c720705e9" />
+    <EXPLORERITEM TYPE="entity" ID="Vidro_Gallardo_estrutura" DEF="PAI_PRA_2682_2_2.entity" GUID="545b4862-54c4-46d4-b2dc-ee923ac65bc7" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_ptajoias_2" DEF="Rasgo Freggio_2_5_2_3_2.entity" GUID="0e51401a-6055-4001-a78a-50bba5ea72a6" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

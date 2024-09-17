@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="Saint Claire" DESCRIPTION="Saint Claire">
+  <SOURCES>
+    <SOURCE ID="Saint Claire" CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" DATABASE="%PastaPrice%\Saint Claire\Saint Claire.mdb" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" CANMODIFY="Y" DESCRIPTION="Saint Claire" SEARCHFIRSTPERSONALBASE="N" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

@@ -1,0 +1,177 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "600"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "600"
+      },
+      "Angle": {},
+      "LeftNeighbour": 9,
+      "RightNeighbour": 8,
+      "Condition": {},
+      "Arc": {
+        "Start": "1000, 600",
+        "Mid": "500, 600",
+        "End": "0, 600"
+      },
+      "BorderStructureID": "",
+      "BorderID": "fcf37054-9127-4591-be5c-56777c8e65d9",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_POR_JOIA_1"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 8,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "600"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 4,
+      "RightNeighbour": 10,
+      "Condition": {},
+      "Arc": {
+        "Start": "0, 600",
+        "Mid": "0, 300"
+      },
+      "BorderStructureID": "",
+      "BorderID": "1902ab2b-d50b-4f99-8c82-fc7ca2ae08fe",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_POR_JOIA_1"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 9,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "600"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 10,
+      "RightNeighbour": 4,
+      "Condition": {},
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 300",
+        "End": "1000, 600"
+      },
+      "BorderStructureID": "",
+      "BorderID": "81f4c6c7-e6ad-4b49-86e7-dba56df430f0",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_POR_JOIA_1"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "DIREITA PORTA",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PORTA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 10,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 8,
+      "RightNeighbour": 9,
+      "Condition": {},
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderStructureID": "",
+      "BorderID": "2363cd3c-6577-4700-b619-a0dbdcf5da29",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "POR_PAI_POR_JOIA_1"
+    }
+  ],
+  "ElementId": "POR_PAI_POR_JOIA_1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Tampos Mesas" NAME="Tampos Mesas" PREFIXID="com_esc_tam_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_esc_tam_ret_pp" DEF="com_esc_tam_ret_pp.entity" GUID="631e92fa-003f-4311-b6cc-0a3b69c91ab0" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_tam_ate_pep" DEF="com_esc_tam_ate_pep.entity" GUID="92bf2f3f-cfd6-45b8-8573-b5c93baec952" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_LCUR" DEF="ESC_CAI_TAM_LCUR.entity" GUID="721301fe-be28-49a5-92b6-593c124c1386" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_LCIR" DEF="ESC_CAI_TAM_LCIR.entity" GUID="9f7c8bd3-e4e8-4cd7-b419-02b8019f49bf" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_TRA" DEF="ESC_CAI_TAM_TRA.entity" GUID="b5d4c477-38ae-4233-9c26-f0606918a936" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_RED" DEF="ESC_CAI_TAM_RED.entity" GUID="c29ec1e2-8287-4000-84f9-7e474228710c" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_RET" DEF="ESC_CAI_TAM_RET.entity" GUID="f2912541-c18f-4126-9795-87748469fe1b" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_OVA" DEF="ESC_CAI_TAM_OVA.entity" GUID="e426bfb1-c99b-4e42-ac16-1a3e6d24b354" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_REU" DEF="ESC_CAI_TAM_REU.entity" GUID="8f374146-b640-4177-9536-c3d8064bca4d" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_tam_reu_01" DEF="com_esc_tam_reu_01.entity" GUID="d922664d-8218-4160-96e6-074b0f2ca94f" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_tam_ret_apa" DEF="com_esc_tam_ret_apa.entity" GUID="ce2bb622-bd4a-4ff7-97ee-1a8f3cbf8731" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_tam_ret_ras" DEF="com_esc_tam_ret_ras.entity" GUID="959e5548-4cf8-40b4-81e8-134de86d65c6" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

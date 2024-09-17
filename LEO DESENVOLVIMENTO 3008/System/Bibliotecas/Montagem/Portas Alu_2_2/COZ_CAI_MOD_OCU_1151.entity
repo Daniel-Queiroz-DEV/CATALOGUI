@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Madeirado" TYPE="GEOMETRY" ICON="COZ_CAI_MOD_OCU_1151.jpg" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="painel_porta" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="com_portas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_porta_fita" ENTRYID="COM" />
+  </MODELS>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="@(6+#FOL_PAI#)" TEXT="1651" ITEM_BASE="PAI01">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="$TEXT$.$ACAB$" MODEL="@com_*@" TAMPO="@com_*(TAPA_FURO_MINIFIX)@" ACAB="@com_*(ACABAMENTO)@" DESC="@('#P.LINHA#' == 'COZ' ? 'Cozinha' : ('#P.LINHA#' == 'BAN' ? 'Banheiro' : ('#P.LINHA#' == 'DOR' ? 'Dormitório': '')))" ITEM_BASE="$D.ITEM_BASE$" TIPO_FITA="#TIPO_BORDA_1#" ALTURA_FITA="@(($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" MIOLO="MDF" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_026" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_06_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_033_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_013" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_025" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_03" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_030" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_alu_mad" MODEL="com_portas" MODELTYPE="acabamento_022" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Painel Porta #P.P.DESCRIPTION#" VISIBLE="N" />
+    <ATTRIBUTE ID="THICKNESS_PLATECUTTING" VALUE="@($H$-#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="CODE_PLATECUTTING" VALUE="@(@($H$-#FOL_PAI#) == 3 ? @com_*(CODE_PLANO_CORTE_3)@ : @(@($H$-#FOL_PAI#) == 6 ? @com_*(CODE_PLANO_CORTE_6)@ : @(@($H$-#FOL_PAI#) == 9 ? @com_*(CODE_PLANO_CORTE_9)@ : @(@($H$-#FOL_PAI#) == 12 ? @com_*(CODE_PLANO_CORTE_12)@ : @(@($H$-#FOL_PAI#) == 15 ? @com_*(CODE_PLANO_CORTE_15)@ : (@($H$-#FOL_PAI#) == 18 ? @com_*(CODE_PLANO_CORTE_18)@ : @com_*(CODE_PLANO_CORTE_25)@))))))" VISIBLE="Y" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

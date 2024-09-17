@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Curvo Esq" TYPE="GEOMETRY" ICON="TAM_TAM_GRA_CUR_ESQ_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_GRA_CUR_ESQ" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-430" A="90" />
+      <PONTO2DA X="140" Y="-550" />
+      <PONTO2DA X="300" Y="-550" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Granito Curvo Esquerdo" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="25" DEPTH="550" ITEM_BASE="TAMP01" TEXT="6510">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

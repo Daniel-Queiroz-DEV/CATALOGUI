@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Comp Dob Canto Reto" ICON="Comp Dob Reta_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="dob_calco_ct_reto" />
+    <BOUNDINGBOX HEIGHT="15">
+      <PONTO2DA X="-16" Y="7.5" />
+      <PONTO2DA X="-16" Y="-7.5" />
+      <PONTO2DA X="16" Y="-7.5" />
+      <PONTO2DA X="16" Y="7.5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-23" Y="-57" Z="-15" />
+      <MAX X="23" Y="14.5" Z="11.8" />
+    </LIMITS>
+    <DIMENSION WIDTH="46" HEIGHT="26.8" DEPTH="71.5" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <INSERTDIMENSION WIDTH="46" HEIGHT="26.8" DEPTH="71.5" TEXT=" " />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Componente Dobradiça Reta" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="start_met_001" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

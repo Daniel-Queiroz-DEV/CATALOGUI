@@ -1,0 +1,68 @@
+.jcarousel-container
+{
+	position: relative;
+}
+
+.jcarousel-clip
+{
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.jcarousel-list
+{
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+	.jcarousel-list li, .jcarousel-item
+	{
+		float: left;
+		list-style: none;
+		width: 40px;
+		height: 40px;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#FFFFFF',GradientType=1 );
+	}
+
+.jcarousel-next
+{
+	z-index: 3;
+	display: none;
+}
+
+.jcarousel-prev
+{
+	z-index: 3;
+	display: none;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal
+{
+	width: 850px;
+	height: 40px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal
+{
+	width: 850px;
+	height: 40px;
+}
+
+.jcarousel-skin-tango .jcarousel-item
+{
+	width: 40px;
+	height: 40px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal
+{
+	margin-left: 5px;
+}

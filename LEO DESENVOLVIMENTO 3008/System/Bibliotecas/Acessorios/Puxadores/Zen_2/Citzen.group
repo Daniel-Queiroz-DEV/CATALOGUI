@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Citzen" NAME="Citzen" PREFIXID="zen_cit_">
+  <DRAWINGS>
+    <DRAWING ID="CITZEN_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CITZEN_32MM" />
+      <DIMENSION WIDTH="65.3" HEIGHT="12.1" DEPTH="45.2" />
+      <LIMITS>
+        <MIN X="-32.662" Y="-25.718" Z="25.448" />
+        <MAX X="32.662" Y="19.507" Z="37.507" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CITZEN_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CITZEN_96MM" />
+      <DIMENSION WIDTH="130.3" HEIGHT="12.1" DEPTH="45.2" />
+      <LIMITS>
+        <MIN X="-65.162" Y="-25.718" Z="25.448" />
+        <MAX X="65.162" Y="19.507" Z="37.507" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cit_32_3" DEF="32mm.group" GUID="a1ca7882-398d-4cce-ada5-3f6d4748d78f" />
+    <EXPLORERITEM TYPE="group" ID="zen_cit_96_3" DEF="96mm.group" GUID="3a13e77b-0238-48c0-9043-dc0155844cf0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

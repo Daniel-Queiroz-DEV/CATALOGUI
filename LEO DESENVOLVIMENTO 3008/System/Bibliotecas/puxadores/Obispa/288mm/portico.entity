@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pórtico ($TEXT$)" ICON="portico.jpg">
+  <DRAWING>
+    <FILE3D NAME="portico" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="308" HEIGHT="8" DEPTH="28" />
+    <LIMITS>
+      <MIN X="-154" Y="-28.052" Z="-4" />
+      <MAX X="154.001" Y="0" Z="4.177" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.388" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_pux_por" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Pórtico 288mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Par_obi_pux_por@" />
+</ENTITY>

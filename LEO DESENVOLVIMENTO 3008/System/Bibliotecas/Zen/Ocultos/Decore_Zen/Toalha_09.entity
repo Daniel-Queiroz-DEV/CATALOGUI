@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Toalha" ICON="TOALHA_09.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Toalha" />
+    <ATTRIBUTE ID="ModuleType" VALUE="INTERNAL" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TOALHA_09" />
+    <DIMENSION WIDTH="210" HEIGHT="373.9" DEPTH="42,6" />
+    <LIMITS>
+      <MIN X="0" Y="-43.86" Z="0" />
+      <MAX X="210" Y="-1.22" Z="373.9" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_REV_01" NAME="DEC_REV_01" IDMATERIAL="tec_brancos_lisos_tecido 010" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

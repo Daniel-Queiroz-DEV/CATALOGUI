@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gabinete" ICON="CPU_03.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Gabinete" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="CPU_03" />
+    <DIMENSION WIDTH="400" HEIGHT="140" DEPTH="480" />
+  </DRAWING>
+</ENTITY>

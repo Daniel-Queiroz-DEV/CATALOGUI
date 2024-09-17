@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Big Elle Alça Dupla ($TEXT$)" ICON="big_elle_dup.jpg">
+  <DRAWING>
+    <FILE3D NAME="big_elle_dup" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="151" HEIGHT="530" DEPTH="31" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="200.008 AD" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_Big_Ell" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Big Elle Alça Dupla 500mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Manilhoes_elle" />
+</ENTITY>

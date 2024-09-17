@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Divisor mantimentos">
+  <DRAWING>
+    <FILE3D NAME="kit trasnversal corr" />
+    <DIMENSION WIDTH="40" HEIGHT="116.3" DEPTH="110.7" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="40" HEIGHT="116.3" DEPTH="110.7" TEXT="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Divisor mantimentos" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="3D" NAME="3D" IDMATERIAL="start_met_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

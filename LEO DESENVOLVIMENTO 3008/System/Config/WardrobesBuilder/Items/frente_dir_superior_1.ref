@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_dir_sup" Description="Direita" Type="Front" Visible="Y">
+  <Dimension Depth="(#ESC_ESP_POR#+#FOL_PAI#)" Height="$P.H$+(#ESC_ESP_BAS#+#FOL_PAI#)*2-#ESC_FOL_MOD_SUP#-#ESC_FOL_MOD_SUP#" Width="$P.W$/2+(#ESC_ESP_LAT#+#FOL_PAI#)-#ESC_FOL_ENT_POR#/2-#ESC_FOL_MOD_SUP#" />
+  <Position X="$P.W$/2+#ESC_FOL_ENT_POR#/2" Y="-$P.D$" Z="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_MOD_SUP#" />
+  <Actions>
+    <ResizeItem Side="Right" Value="-(#ESC_ESP_LAT#+#FOL_PAI#)+(#ESC_ESP_MON#+#FOL_PAI#)/2+#ESC_FOL_ENT_PT_LAR#-#ESC_FOL_ENT_POR#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Right" />
+          <HasNeighbourItem ItemType="Drawer" Side="Right" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)/2+#ESC_FOL_MOD_SUP#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+          <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)/2+#ESC_FOL_MOD_SUP#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="POR_SUP" Id="frente_dir_sup_lat">
+      <Conditions>
+        <Or Not="Y">
+          <HasNeighbourItem ItemType="Front" Side="Right" />
+          <HasNeighbourItem ItemType="Drawer" Side="Right" />
+        </Or>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="POR_SUP_MON" Id="frente_dir_sup_div">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Right" />
+          <HasNeighbourItem ItemType="Drawer" Side="Right" />
+        </Or>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="CANMIRROR" Value="FALSE" />
+    </Sets>
+  </Output>
+  <Variables>
+    <Variable Id="DrawingType" Value="RightFront" />
+  </Variables>
+</Item>

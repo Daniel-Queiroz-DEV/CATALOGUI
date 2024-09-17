@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VerticalDivision Id="div_srasgo_crecuo" EntityId="com_com_sest_cons_des" THICKNESS="@(#COZ_ESP_MON#+#FOL_PAI#)" Offset="#COZ_AFA_TRAS_PRA_CONS_SUP#" Fallback="#REC_MON#" Category="Divisórias" Name="Não Divide o Fundo c/ Recuo Front" Rotation="180" Movable="Y" Preview="%PastaConstrutorArmarios%\Cozinhas\Divisoes\imagens\div_sra_cre.jpg">
+		<NORMAL A="-1" B="0" C="0" />	
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#COZ_MON_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#COZ_MON_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#COZ_MON_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_MON_FT_ESQ#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#COZ_MON_FT_ESQ#" />
+				<SetAttribute ID="SENTIDO_TRAVESSA" VALUE="#COZ_CON_SENTIDO_TRAVESSA#" />
+				<SetAttribute ID="SENTIDO_TRAVESSA_TRAS" VALUE="#COZ_CON_SENTIDO_TRAVESSA_TRAS#" />
+				<SetAttribute Id="LINHA_PARAFUSO" Value="COZ" />
+				<SetAttribute Id="MODULO_PARAFUSO" Value="CPORTA" />	
+				<SetAttribute Id="ESP_MON" Value="#COZ_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</VerticalDivision>

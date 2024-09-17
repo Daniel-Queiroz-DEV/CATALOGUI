@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="sta_blu_tan_tri_tot_com_tip" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo1_top_todos"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="0"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo2_top_todos"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="9"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-67;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo4_top_300_480mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 300 &amp;&amp; $D$ &lt;=480"
+          UniqueID="14"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-163;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo6_top_350-380_450-550mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 350 &amp;&amp; $D$ &lt;=380 || $D$ &gt;= 450 &amp;&amp; $D$ &lt;=550"
+          UniqueID="20"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-259;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo3_top_270mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ == 270"
+          UniqueID="26"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-131;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo5_top_400-420mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 400 &amp;&amp; $D$ &lt;=420"
+          UniqueID="30"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-227;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo7_top_500-550mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 500 &amp;&amp; $D$ &lt;=550"
+          UniqueID="36"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-273;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo1_top_todos"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="43"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="35;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo2_top_todos"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="49"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="67;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo3_top_270mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ == 270"
+          UniqueID="54"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="131;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo4_top_300_480mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 300 &amp;&amp; $D$ &lt;=480"
+          UniqueID="60"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="163;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo5_top_400-420mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 400 &amp;&amp; $D$ &lt;=420"
+          UniqueID="66"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="227;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo6_top_350-380_450-550mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 350 &amp;&amp; $D$ &lt;=380 || $D$ &gt;= 450 &amp;&amp; $D$ &lt;=550"
+          UniqueID="72"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="259;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo7_top_500-550mm"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$ &gt;= 500 &amp;&amp; $D$ &lt;=550"
+          UniqueID="76"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="273;36,3"
+          ElementId="sta_blu_tan_tri_tot_com_tip" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

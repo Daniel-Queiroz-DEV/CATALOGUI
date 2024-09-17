@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Aplique ($TEXT$)" ICON="Aplique.jpg" CHECKED="N">
+  <MODELS>
+    <MODEL IDMODEL="Zen_apl_vit" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita Base - aplique para Alça Puxador e toalheiro Ritz e Ramp Furo 4,5 mm @zen*(NAME)@ (PAR)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="63" HEIGHT="63" DEPTH="5" TEXT="ZP0009" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_ram_apl_cr" MODEL="Zen_apl_vit" MODELTYPE="Zen_apl_vit_2" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ram_apl_cr" MODEL="Zen_apl_vit" MODELTYPE="Zen_apl_vit_30" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ram_apl_cr" MODEL="Zen_apl_vit" MODELTYPE="Zen_apl_vit_648" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

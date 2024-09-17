@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lateral Tandembox Alta">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REMOVEAGGREGATECOLLECTION>
+    <REMOVEAGGREGATE ID="Sta_Blu_Met_Fur" />
+  </REMOVEAGGREGATECOLLECTION>
+  <DRAWING>
+    <FILE3D NAME="trilho_2" />
+    <DIMENSION WIDTH="232.3" HEIGHT="82.4" DEPTH="279.3" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="82.4" DEPTH="300" TEXT="">
+    <MIN WIDTH="1" DEPTH="1" />
+    <MAX WIDTH="1200" DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Lateral Tandembox Alta" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Tandembox_2" ENTRYID="Sta_Blu" />
+  </MODELS>
+</ENTITY>

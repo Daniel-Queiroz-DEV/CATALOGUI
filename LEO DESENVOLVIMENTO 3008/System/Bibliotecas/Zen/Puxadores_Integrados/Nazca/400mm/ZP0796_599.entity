@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY ICON="Nazca.jpg" NAME="Vecchio Metallo ($TEXT$.$D.ACAB$)">
+  <DRAWING>
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <FILE3D NAME="nazca" />
+    <DIMENSION WIDTH="400" HEIGHT="80" DEPTH="14.8" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Nazca $D.DESC$ Vecchio Metallo" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="80" DEPTH="15" TEXT="ZP0796" ACAB="599" DESC="400mm" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_met_vec" EDIT="N" />
+    <COMPONENTDEFINITION ID="PONTEIRA" NAME="PONTEIRA" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

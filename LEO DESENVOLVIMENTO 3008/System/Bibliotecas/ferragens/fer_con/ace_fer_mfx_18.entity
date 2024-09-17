@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Minifix p/ 18/25mm" ICON="coz_ocu_nao_orc_builder_2349.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="mini_fix_18" />
+    <BOUNDINGBOX HEIGHT="0.5">
+      <PONTO2DA X="-9" Y="-9" />
+      <PONTO2DA X="9" Y="-9" />
+      <PONTO2DA X="9" Y="9" />
+      <PONTO2DA X="-9" Y="9" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-9" Y="-9" Z="-0,5" />
+      <MAX X="9" Y="9" Z="11,5" />
+    </LIMITS>
+    <DIMENSION WIDTH="18" HEIGHT="12" DEPTH="18" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="15" HEIGHT="12.5" RULE="UN_FERRAGENS" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="18" HEIGHT="12" DEPTH="18" TEXT="TMF15" DESC="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Minifix 15mm" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" VOLUME="VOLFER" />
+</ENTITY>

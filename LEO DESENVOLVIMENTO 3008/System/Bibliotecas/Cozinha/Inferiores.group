@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Inferiores" NAME="Inferiores" PREFIXID="COZ_INF_" INVISIBLE="N" DESCRIPTION="">
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="ITEM_BASE" />
+  </PROPOSEDATTRIBUTES>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CanMirror" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="ASSEMBLED" VALUE="True" VISIBLE="Y" />
+    <ATTRIBUTE ID="ESP_LAT_GEN" VALUE="@(#COZ_ESP_LAT#+#FOL_PAI#)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_CAN" DEF="Cantos.group" GUID="216ef451-f5e0-4479-b31b-17172452ff3b" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_BAL" DEF="Balcoes.group" GUID="b2eb85d2-0da9-4a56-b701-0d490da00cbf" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_GAV" DEF="Gaveteiros.group" GUID="8cb85f47-30ed-4892-b324-5ea948e1a1ed" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_ELE" DEF="Eletros.group" GUID="ebb2e391-e5ff-446a-b0b5-7aa89523d721" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_PIA" DEF="Pias.group" GUID="7e1940cb-cd7d-4dfe-b3e6-c6519bddff87" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_144" DEF="Modulo p_ Grapa.group" GUID="3c0234fc-f20a-4f6a-a015-51264426b3a7" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_176" DEF="Pias corr oculta.group" GUID="90b729cb-e107-419e-86ab-d64572219f6f" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_CANT" DEF="COZ_INF_CANT_.group" GUID="31054f9c-80dc-415a-b5ea-7d87e04a82f4" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_DIA" DEF="Diagonais.group" GUID="883d4f83-6ee2-4fdc-9786-a2448d5e30f4" />
+    <EXPLORERITEM TYPE="group" ID="COZ_INF_177" DEF="p_ Grapa corr oculta.group" GUID="f5a66eb4-95e6-48ac-b129-55db452857dc" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

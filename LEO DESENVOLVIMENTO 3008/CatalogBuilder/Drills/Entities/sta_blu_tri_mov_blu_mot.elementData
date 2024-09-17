@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="sta_blu_tri_mov_blu_mot" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="0"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="35;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral2"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="1"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="+32+35;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral3"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="2"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="35+32+128;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral5"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="3"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="35+32+192;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral4"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="4"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="35+32+174;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral6"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="5"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="35+32+224;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral_2"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="6"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral2"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="7"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35-32;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral3"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="8"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35-32-128;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral4"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="9"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35-32-174;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral5"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="10"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35-32-192;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furo_geral6"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition=""
+          UniqueID="12"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-35-32-224;#BLU_TAN_ALT_TRI_MOV_FUR#"
+          ElementId="sta_blu_tri_mov_blu_mot" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Interruptor">
+  <DRAWING>
+    <FILE3D NAME="interrupitor" />
+    <BOUNDINGBOX HEIGHT="40">
+      <PONTO2DA X="39.75" Y="22.5" />
+      <PONTO2DA Y="22.5" />
+      <PONTO2DA />
+      <PONTO2DA X="39.75" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-13" Y="-1" Z="0" />
+      <MAX X="52.753" Y="22.5" Z="40" />
+    </LIMITS>
+    <DIMENSION WIDTH="65.8" HEIGHT="40" DEPTH="23.5" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="0" NAME="0" IDMATERIAL="cin_cor_003" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Interruptor" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="40" DEPTH="30.5" TEXT="" DESC="">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

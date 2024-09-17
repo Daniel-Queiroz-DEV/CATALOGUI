@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Luzes" DIRECTORY="avulsas" GENERATEITEMSNUMBERS="Y">
+  <LAYER DESCRIPTION="Luzes" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="dec_lum_amb" DEF="LuzAmbiente.entity" GUID="bbd40718-6d4f-4a01-ad47-9f90e92aa97d" />
+    <EXPLORERITEM TYPE="entity" ID="dec_lum_spot" DEF="LuzSpot.entity" GUID="078c690c-a747-4514-9d13-fe0751ac0f3f" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="PlainNormal" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</GROUP>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Acessorios" NAME="Acessórios" PREFIXID="ACE_" INVISIBLE="N" DESCRIPTION="Acessórios">
+  <BUDGET>
+    <INFORMATION CATEGORY="Acessórios Comprados" />
+    <MARGIN IDCATEGORY="ACE" />
+    <STEPS />
+  </BUDGET>
+  <LAYER DESCRIPTION="Acessórios" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <VERSION>NS4zNC4xNQ==</VERSION>
+  <PROPOSEDREFERENCES>
+    <PROPOSEDREFERENCE ID="COMPLETE" />
+    <PROPOSEDREFERENCE ID="ITEM_BASE" />
+  </PROPOSEDREFERENCES>
+  <MODELS DEF="Acessorios\Acessorios.model" />
+  <REFERENCES>
+    <REFERENCE ID="GERAL" COMPLETE="$TEXT$" ITEM_BASE="$D.ITEM_BASE$" />
+    <REFERENCE ID="FERRAGEM" COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" />
+    <REFERENCE ID="GERAL_ACAB" COMPLETE="$TEXT$.$ACAB$" ITEM_BASE="$TEXT$" ACAB="@ACE_*(ACABAMENTO)@" />
+    <REFERENCE ID="PES_METALICOS" COMPLETE="$TEXT$.$ACAB$" ITEM_BASE="$TEXT$" ACAB="@ace_*(ACABAMENTO)@" COR="@ace_*(COR)@" />
+    <REFERENCE ID="DOBRADICAS" COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" VOLUME="VOLFER" />
+    <REFERENCE ID="PAINEIS" COMPLETE="$TEXT$.$LARGURA$.$ALTURA$.$PROFUNDIDADE$.$ACAB$" MODEL="@COM_*@" ITEM_BASE="$D.ITEM_BASE$V" ACAB="@com_*(ACABAMENTO)@" LARGURA="@(@Floor($W$/10))" ALTURA="@(@Floor($H$/10))" PROFUNDIDADE="@($D$-#FOL_PAI#)" />
+  </REFERENCES>
+  <DRAWINGS />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ACE_PUX" DEF="Puxadores.group" GUID="572ab97b-5fbe-46ae-92f5-7c29a69317f8" />
+    <EXPLORERITEM TYPE="group" ID="ACE_ARA" DEF="Aramados.group" GUID="71598797-d875-43d5-8500-ccc0d04f8f38" />
+    <EXPLORERITEM TYPE="group" ID="ACE_AMOST" DEF="Amostra.group" GUID="31472cc5-4087-408d-8eec-f970363c8b62" />
+    <EXPLORERITEM TYPE="group" ID="ACE_DIV_ACR" DEF="Divisores.group" GUID="59548c15-5b49-4c11-878b-7afeb33daf89" />
+    <EXPLORERITEM TYPE="group" ID="ACE_FIT" DEF="Fita Bordo.group" GUID="c17fcc3c-8a01-4183-9dbe-81b071223c06" />
+    <EXPLORERITEM TYPE="group" ID="ACE_ILUM" DEF="Iluminacao.group" GUID="cb1f7499-d78f-40ae-b72b-e13952979b4a" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PAS_FIO" DEF="Passa Fio.group" GUID="68981880-a6d2-4606-9564-1581b99b759a" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PES" DEF="pes.group" GUID="09ef8e8f-8e15-4d23-9f49-50106a6b341b" />
+    <EXPLORERITEM TYPE="group" ID="ACE_DIV_JOIA" DEF="Porta Joia.group" GUID="c093da70-eee2-4c25-9bbe-49b3ef1e7e0e" />
+    <EXPLORERITEM TYPE="group" ID="fer_rod" DEF="Rodizios.group" GUID="ad6a50f7-7b93-494d-addf-acfd3c2f9cb7" />
+    <EXPLORERITEM TYPE="group" ID="ACE_TAP" DEF="Tapa Furo.group" GUID="a6380db0-a7e3-4eb6-af67-0ccfaadead9f" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PER" DEF="perfil_aluminio.group" GUID="c363d228-4735-4f71-b90c-bd209af6ad1d" />
+    <EXPLORERITEM TYPE="group" ID="ACE_VID" DEF="Vidros.group" GUID="0f0ce53a-7068-46bc-b9d7-c37537c4f767" />
+    <EXPLORERITEM TYPE="group" ID="ACE_DIV_TAL" DEF="Divisores de Talheres.group" GUID="2fa9422c-0dae-4b3b-8885-2f5c87410f1f" />
+    <EXPLORERITEM TYPE="group" ID="ACE_ESC" DEF="Escritorios.group" GUID="2cc3ae25-a63c-45c1-8d61-b391fcaa5e76" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PER_ALU_ML" DEF="ACE_PER_ALU_ML.group" GUID="46dc5903-fe5c-4bc5-8477-bbffe95c0533" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PES_ESC_MES" DEF="Pes Mesas Escritorios.group" GUID="03baafab-db2a-441f-bee8-eccf1cd24090" />
+    <EXPLORERITEM TYPE="group" ID="ACE_ESC_SAI_MET" DEF="Saias Metalicas.group" GUID="50692d7f-9589-4fa3-8e66-3b4833868c3f" />
+    <EXPLORERITEM TYPE="group" ID="ACE_PER_ACE" DEF="Perfis Acessorios.group" GUID="302d1882-74e0-40c1-8140-2ed3fe14201f" />
+    <EXPLORERITEM TYPE="group" ID="ACE_REG_2" DEF="Regua Meia Cana.group" GUID="24b010b7-077b-46e3-b85c-c85f69a2ea86" />
+    <EXPLORERITEM TYPE="group" ID="ACE_REG_2_2" DEF="Regua Mao Amiga.group" GUID="48425e61-a79e-43d6-ba55-48a847e4f81e" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

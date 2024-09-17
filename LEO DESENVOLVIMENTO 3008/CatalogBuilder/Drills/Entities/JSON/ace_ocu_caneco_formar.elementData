@@ -1,0 +1,63 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo30",
+        "ReceiverDepth": {
+          "Value": "12"
+        },
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "15.5",
+          "Y": "$D$/2"
+        },
+        "ElementId": "ace_ocu_caneco_formar"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo31",
+        "ReceiverDepth": {
+          "Value": "2"
+        },
+        "UniqueID": 1,
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "15,5-7,5",
+          "Y": "$D$/2+19"
+        },
+        "ElementId": "ace_ocu_caneco_formar"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo31",
+        "ReceiverDepth": {
+          "Value": "2"
+        },
+        "UniqueID": 2,
+        "PlaneType": "Superior",
+        "OperationPrice": null,
+        "Position": {
+          "X": "15,5-7,5",
+          "Y": "$D$/2-19"
+        },
+        "ElementId": "ace_ocu_caneco_formar"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_caneco_formar"
+}

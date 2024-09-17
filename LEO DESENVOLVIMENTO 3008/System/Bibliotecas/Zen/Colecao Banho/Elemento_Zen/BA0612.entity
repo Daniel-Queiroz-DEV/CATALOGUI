@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Toalheiro Argola ($TEXT$)" CHECKED="N" ICON="BA0612.jpg">
+  <DRAWING>
+    <FILE3D NAME="toalheiro argola" />
+    <DIMENSION WIDTH="263.8" HEIGHT="151.8" DEPTH="62.3" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="265" HEIGHT="152" DEPTH="62" TEXT="BA0612" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Elemento Zen Toalheiro Argola @Zen_Elemento_Zen(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_pol_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_pol_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ino_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ino_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_dou_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_dou_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cob_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cob_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_gol_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_gol_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ros_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ros_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0612" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_sou_ele_zen_cob_vec_met" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

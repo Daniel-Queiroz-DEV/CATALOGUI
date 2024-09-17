@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Santa_Fe_Cruzado" NAME="Santa Fé Cruzado" PREFIXID="zen_san_fe_cru_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_cru_128_2" DEF="128mm.group" GUID="83c47156-56cd-451b-965a-b87bb77a75cf" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_cru_192_2" DEF="192mm.group" GUID="366bc2f2-53e2-4459-92c4-042395aadedb" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_cru_320_2" DEF="320mm.group" GUID="d4de33be-68b3-4c79-a739-5b13168ba449" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_cru_416_2" DEF="416mm.group" GUID="05ad3c1e-1e76-48e0-bc01-9e489d6b1c20" />
+    <EXPLORERITEM TYPE="group" ID="zen_san_fe_cru_640_2" DEF="640mm.group" GUID="7f0f479c-97bc-4b4c-b036-b2eb3e0ee11c" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SANTA_FE_CRUZADO_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_CRUZADO_128MM" />
+      <DIMENSION WIDTH="142" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-71" Y="-24.35" Z="-8" />
+        <MAX X="71" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_CRUZADO_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_CRUZADO_192MM" />
+      <DIMENSION WIDTH="206" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-103" Y="-24.35" Z="-8" />
+        <MAX X="103" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_CRUZADO_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_CRUZADO_320MM" />
+      <DIMENSION WIDTH="334" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-167" Y="-24.35" Z="-8" />
+        <MAX X="167" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_CRUZADO_416MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_CRUZADO_416MM" />
+      <DIMENSION WIDTH="430" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-215" Y="-24.35" Z="-8" />
+        <MAX X="215" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SANTA_FE_CRUZADO_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SANTA_FE_CRUZADO_640MM" />
+      <DIMENSION WIDTH="654" HEIGHT="16" DEPTH="24.4" />
+      <LIMITS>
+        <MIN X="-327" Y="-24.35" Z="-8" />
+        <MAX X="327" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

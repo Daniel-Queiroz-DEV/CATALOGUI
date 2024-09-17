@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="trilhos" NAME="Trilhos" PREFIXID="ACE_TRI_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <BUDGET>
+    <STEPS />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_INF_RO46" DEF="ACE_TRI_INF_RO46.entity" GUID="bfa3a634-a51f-447a-9449-b35e98b42182" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_INF_EXT_3" DEF="trilho_inf_ext_3.entity" GUID="c66ff57b-b6a2-4420-a134-2fef42198457" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_RO21" DEF="ace_ocu_div_tri_ro21.entity" GUID="2941147c-d483-4c18-8931-6954493e628b" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_INF_EXT_4" DEF="trilho_inf_ext_4.entity" GUID="2569f8e3-577e-486b-9883-669bb4e63e2a" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_SUP_EXT_3" DEF="trilho_sup_ext_3.entity" GUID="96daf502-d10b-436b-a5f5-fcac912be00d" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_SUP_RO46" DEF="ACE_TRI_SUP_RO46.entity" GUID="35560d48-4467-46d4-ac70-92e17a577906" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_SUP_EXT_2" DEF="trilho_sup_ext_2.entity" GUID="a7ad2147-d8e7-44b9-b4b1-1b649c0e5b98" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_SUP_VERS" DEF="ACE_TRI_SUP_VERS.entity" GUID="4820ee27-26b8-45f5-b9a9-ad11a62cbdc7" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_RM285" DEF="ace_ocu_div_tri_ro21_2_2.entity" GUID="da2b2076-8b12-4eac-ae13-488feb5fae57" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_RO80U" DEF="ace_ocu_div_tri_ro21_2.entity" GUID="7476e247-e6e1-41ea-80d0-1f27eb873c37" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TRI_SUP_RO82" DEF="trilho_sup_2_4.entity" GUID="af33d55f-5db1-41de-b456-fac87f613f02" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TRI_SUP_RM" DEF="trilho_sup_2.entity" GUID="bea25bb8-2410-44c1-ba48-4b89c06f7978" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2_3_2_3" DEF="roldanas_ext_3_2_2_3_2_3.entity" GUID="69f3dc46-a1f1-4ebb-85bb-d2034a408766" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TRI_SUP" DEF="trilho_sup.entity" GUID="56dce411-c218-4ba8-8bd5-03d50a943a95" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TRI_INF" DEF="trilho_inf.entity" GUID="7b9d51a2-bfe1-4320-90aa-4fae7e9e6ff8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TRI_ROL" DEF="roldanas.entity" GUID="39892041-70c4-4641-b290-3e745f46dba9" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_SUP_EXT" DEF="trilho_sup_ext.entity" GUID="749230b9-2bf5-459d-b7e4-ac3d51e3aba8" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_INF_EXT" DEF="trilho_inf_ext.entity" GUID="699d9090-c207-43f3-b9c8-746c484e9ecf" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_INF_EXT_2" DEF="trilho_inf_ext_2.entity" GUID="ee811e17-3b95-444c-ac9c-f0887e757604" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_INF_EXT_2_2" DEF="trilho_inf_ext_2_2.entity" GUID="02b8ebf6-dae4-4843-aa03-1315ef4a8fc5" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT" DEF="roldanas_ext.entity" GUID="5822de1a-6656-432c-af59-f596bd6c387c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_2_2_2" DEF="roldanas_ext_5_2_2_2_2_2.entity" GUID="b64bd583-8e91-45de-9ba1-198a2816c7d9" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_TECIDO" DEF="roldanas_ext_5_2_2_2_2_2_5.entity" GUID="ad3626c1-3481-4635-8ce6-6e2c2dd9b589" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_1" DEF="roldanas_ext_5_2_2_2_2_2_4.entity" GUID="4379b2fb-3696-44ab-8105-d4b4cb05e740" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_PALHA" DEF="roldanas_ext_5_2_2_2_2_2_3.entity" GUID="7beba510-8157-48f2-86ab-8b81e650cd8c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_GALZERO" DEF="roldanas_ext_5_2_2_2_2_2_3_2.entity" GUID="bb6ea491-63ef-46ea-9696-42121cf40441" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_2_2_2_2" DEF="roldanas_ext_5_2_2_2_2_2_2.entity" GUID="fd509414-1d2e-4450-a3da-32a5e01f7a6c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_2_2_2_2_4" DEF="roldanas_ext_5_2_2_2_2_2_2_3.entity" GUID="c11c68ef-9546-497b-a16f-185cd60eee2f" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_RIP" DEF="roldanas_ext_5_2_2_2_2_2_2_3_5.entity" GUID="0279be52-b06b-48a9-a176-d90f10dc2f60" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_VAZ_RASGO_3_3" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3.entity" GUID="c9270a3f-f8e5-4dd4-84e0-aba8ef3e09bf" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_FREG" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4.entity" GUID="912ce845-84c8-494f-91e8-3227dd84a6e1" />
+    <EXPLORERITEM TYPE="entity" ID="Fresa_Brise" DEF="roldanas_ext_5_2_2_2_2_2_2_3_2.entity" GUID="7b2bd2a8-21e8-44a7-a5a1-93e93d6eaead" />
+    <EXPLORERITEM TYPE="entity" ID="Fresa_Paileo" DEF="roldanas_ext_5_2_2_2_2_2_2_3_2_2.entity" GUID="5a2e569b-df83-4fda-98ef-be4f15343468" />
+    <EXPLORERITEM TYPE="entity" ID="Fresa_Paileo_Edit" DEF="roldanas_ext_5_2_2_2_2_2_2_3_2_2_2.entity" GUID="5cc40ea7-da6c-45c4-9e3e-0ad7c54ec316" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_2_2_2_2_4_3" DEF="roldanas_ext_5_2_2_2_2_2_2_3_3.entity" GUID="7c65bf74-de76-49d5-b9bb-148450a51a11" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_4" DEF="roldanas_ext_4.entity" GUID="a764d7dd-39aa-4af9-994f-4d4e5fa3d87e" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_4_2" DEF="roldanas_ext_4_2.entity" GUID="0f1385b7-33cc-43eb-9e05-6ab6cca6d28e" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_4_2_2" DEF="roldanas_ext_4_2_2.entity" GUID="86c17465-db8e-495f-a1e4-ca509034f116" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2" DEF="roldanas_ext_2.entity" GUID="726e5dfc-a96c-478f-b1fa-2dd79e0b229e" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_3" DEF="roldanas_ext_2_3.entity" GUID="2361e439-f8fe-4471-abf9-71360c3cc7d0" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_3_2" DEF="roldanas_ext_2_3_2.entity" GUID="55cd6302-a472-4b19-b281-a356b2a1daf5" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_3_2_3" DEF="roldanas_ext_2_3_2_3.entity" GUID="932d3ff9-18df-47cb-8691-8e5dace38138" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_3_2_2" DEF="roldanas_ext_2_3_2_2.entity" GUID="e0337dab-2707-46ed-9881-b8408c6a6f2b" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3" DEF="roldanas_ext_3.entity" GUID="ed16b0ad-59a7-4b60-bdf6-5d62389ffc9a" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2" DEF="roldanas_ext_3_2.entity" GUID="2ae909db-5ad8-48f4-9f21-0a785c1ac392" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2" DEF="roldanas_ext_3_2_2.entity" GUID="a1a6f1d7-8904-410f-ac79-13c15a0a445b" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2_3" DEF="roldanas_ext_3_2_2_3.entity" GUID="4190d1cc-0d62-428d-a149-20cfab4a553f" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2_3_2" DEF="roldanas_ext_3_2_2_3_2.entity" GUID="466b2444-c1c8-4ffa-a659-e5e539dba481" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2_3_3" DEF="roldanas_ext_3_2_2_3_3.entity" GUID="42218ae8-d1e3-4237-b367-2ff994053d36" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2_3_2_2" DEF="roldanas_ext_3_2_2_3_2_2.entity" GUID="8f4481dd-b311-49d1-9f94-1d132c855721" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RO_82" DEF="roldanas_ext_3_2_2_3_2_2_2.entity" GUID="1f6f5bcd-2116-4e9e-aae0-c1212921e655" />
+    <EXPLORERITEM TYPE="entity" ID="ace_BAR_EST" DEF="trilho_sup_2_3.entity" GUID="413d4c7d-1cca-45ad-b6fe-56990d946a8b" />
+    <EXPLORERITEM TYPE="entity" ID="ace_BAR_EST_2" DEF="trilho_sup_2_3_2.entity" GUID="07305764-7fdc-4ae8-805d-27c038a39621" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fec_pivo" DEF="trilho_sup_2_3_2_2.entity" GUID="c81edb86-a081-4573-a000-128ad49bb1f3" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TRI_INF_RM" DEF="trilho_sup_2_2.entity" GUID="a035dbfd-6113-4454-8e96-ec5c2d202c47" />
+    <EXPLORERITEM TYPE="entity" ID="ace_TAP_ACA_RM" DEF="trilho_sup_2_2_2.entity" GUID="b59261ab-2281-443d-99d2-7c62e4b8f0df" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_3_2_2_2" DEF="roldanas_ext_3_2_2_2.entity" GUID="aeee08a0-e303-4c3e-b383-c6da0d831d0e" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_2_2" DEF="roldanas_ext_2_2_2.entity" GUID="9a80bf08-fe31-462d-99a6-7917b1b3281c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_2" DEF="roldanas_ext_2_2.entity" GUID="a8e60f90-3c82-46da-be6c-98ff3f2799c2" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_2_2_2" DEF="roldanas_ext_2_2_2_2.entity" GUID="e0508421-0fbb-4f02-8d3a-d39f4516d7b4" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_EXT_2_2_2_2_2" DEF="roldanas_ext_2_2_2_2_2.entity" GUID="42b14075-c1f8-428e-91a2-7e775214ab19" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_RO21" DEF="ACE_TRI_ROL_RO21.entity" GUID="10a8d5af-e134-4342-ab8e-f0974c2bc669" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_R80U" DEF="ACE_TRI_ROL_RO21_3.entity" GUID="f2e5a2ff-eaf8-4bd3-83d7-37bd9fb6a1ca" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_PIV_2" DEF="ACE_TRI_ROL_PIV_2.entity" GUID="bde26ec1-33c6-4835-a55f-d4cacc5f5506" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_PIV_2_2" DEF="ACE_TRI_ROL_PIV_2_2.entity" GUID="113300d0-b7a8-4389-99e6-2c19c0e82cc5" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_FLOW_S" DEF="ACE_TRI_ROL_RM285.entity" GUID="5493d0f0-c9a8-4c53-9115-ac716cb456b3" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_FLOW_S_TOP" DEF="ACE_TRI_ROL_RM285_3.entity" GUID="b910277b-b757-4f4b-9b13-214b0f51b859" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_RO46" DEF="ACE_TRI_ROL_RO46.entity" GUID="cfcdc2a7-73c2-49b3-819e-87043d33eb2d" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_VR200" DEF="ACE_TRI_ROL_RO46_2.entity" GUID="9a91336d-1670-4e16-937f-ac12535dff26" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_VR300" DEF="ACE_TRI_ROL_RO46_2_2.entity" GUID="a9505112-2e92-4935-982c-a045df395827" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_ROL_RO21_2" DEF="ACE_TRI_ROL_RO21_2.entity" GUID="5035fd33-fcef-4db7-8492-00acda56a7f2" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_337" DEF="roldanas_ext_3_2_2_3_2_2_2_2.entity" GUID="4d28e5e9-a5d6-49a9-8bcc-68e0fa8a351c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_405" DEF="roldanas_ext_3_2_2_3_2_2_2_2_2.entity" GUID="25cf6dc4-4994-48ee-b1a2-aae9427b0d09" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_437" DEF="roldanas_ext_3_2_2_3_2_2_2_2_2_2.entity" GUID="3b05ea04-1a74-4654-805c-849d5c7da0bf" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_501" DEF="roldanas_ext_3_2_2_3_2_2_2_2_2_2_2.entity" GUID="fa20579a-6d4e-4286-a9ca-7237cb41b0c2" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_533" DEF="roldanas_ext_3_2_2_3_2_2_2_2_2_2_2_2.entity" GUID="05323ab2-400b-4ce9-9b3c-5cf6ad97b4d8" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_600" DEF="roldanas_ext_3_2_2_3_2_2_2_2_2_2_2_2_2.entity" GUID="f3a01e3b-cff0-430a-92d2-c01da7079f63" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_KIT_STD_RIV_650" DEF="roldanas_ext_3_2_2_3_2_2_2_2_2_2_2_2_2_2.entity" GUID="d6fbe358-8c7b-49f3-8b06-ceec293535f9" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

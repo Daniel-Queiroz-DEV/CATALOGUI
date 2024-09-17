@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Metallo ($TEXT$.$D.ACAB$)" ICON="cardiff_35.jpg">
+  <INSERTDIMENSION WIDTH="30" HEIGHT="80" DEPTH="21" TEXT="ZP0478" ACAB="599" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_met_vec" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR_DET" NAME="PUXADOR_DET" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cardiff $W$mm Vecchio Metallo " VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="zp0478" />
+    <DIMENSION WIDTH="35" HEIGHT="80" DEPTH="21.4" />
+    <LIMITS>
+      <MIN X="-17.5" Y="-21.4" Z="-10" />
+      <MAX X="17.5" Y="0" Z="70" />
+    </LIMITS>
+  </DRAWING>
+</ENTITY>

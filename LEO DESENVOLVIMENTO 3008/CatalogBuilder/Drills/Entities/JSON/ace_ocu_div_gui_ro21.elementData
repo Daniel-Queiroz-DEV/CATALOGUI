@@ -1,0 +1,101 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo05",
+        "ReceiverDepth": {
+          "Value": "#PROF_FUR_GUI_RO21#"
+        },
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "45",
+          "Y": "$H$-19"
+        },
+        "ElementId": "ace_ocu_div_gui_ro21"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "24,5",
+          "Y": "35-12"
+        },
+        "ElementId": "ace_ocu_div_gui_ro21"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "13",
+          "Y": "35-12"
+        },
+        "ElementId": "ace_ocu_div_gui_ro21"
+      },
+      {
+        "Name": "Furação04",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "66",
+          "Y": "35-12"
+        },
+        "ElementId": "ace_ocu_div_gui_ro21"
+      },
+      {
+        "Name": "Furação05",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "77",
+          "Y": "35-12"
+        },
+        "ElementId": "ace_ocu_div_gui_ro21"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_div_gui_ro21"
+}

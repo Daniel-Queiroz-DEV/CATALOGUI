@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-136) Simples ($TEXT$)" ICON="Big_Living_Simples.jpg" CHECKED="N">
+  <DRAWING ID="Big_Living_Simples" />
+  <INSERTDIMENSION MODE="OnlyProposedH" HEIGHT="736" WIDTH="60" DEPTH="44" TEXT="">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="736" TEXT="ZP1912" />
+      <PROPOSEDVALUE HEIGHT="1136" TEXT="ZP1913" />
+      <PROPOSEDVALUE HEIGHT="1636" TEXT="ZP1914" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Big Living @($H$-136)mm Alça para Porta Simples @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_big_liv" ENTRYID="pux_zen" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_24" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_L01" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_F00" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_25" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_955" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_599" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_648" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_A00" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_B00" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_G00" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_L00" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_M00" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_B01" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_A01" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_F01" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_G01" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_big_liv_sim" MODEL="Zen_man_big_liv" MODELTYPE="Zen_man_big_liv_M01" CONDITION="$H$ &gt;= 1136" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="368" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-171.0693" V="446.8958" />
+              <CORNER2 U="158.8703" V="160.0453" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="368" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-185.8427" V="-80.02266" />
+              <CORNER2 U="177.3371" V="-445.6647" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

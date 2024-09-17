@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-46) Simples ($TEXT$)" ICON="Vita_Simples.jpg" CHECKED="N">
+  <DRAWING ID="Vitta_Simples" />
+  <INSERTDIMENSION WIDTH="46" HEIGHT="346" DEPTH="50.5" MODE="OnlyProposedH" TEXT=" " ACAB="64" DESC=" ">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="346" TEXT="ZP0746" DESC="300mm" />
+      <PROPOSEDVALUE HEIGHT="446" TEXT="ZP0747" DESC="400mm" />
+      <PROPOSEDVALUE HEIGHT="546" TEXT="ZP0748" DESC="500mm" />
+      <PROPOSEDVALUE HEIGHT="646" TEXT="ZP0749" DESC="600mm" />
+      <PROPOSEDVALUE HEIGHT="846" TEXT="ZP0750" DESC="800mm" />
+      <PROPOSEDVALUE HEIGHT="1046" TEXT="ZP0751" DESC="1000mm" />
+      <PROPOSEDVALUE HEIGHT="1546" TEXT="ZP0752" DESC="1500mm" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_vit" ENTRYID="pux_zen" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita alça para porta Simples @($H$-46)mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_vit_sim" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_A00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_sim" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_B00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_sim" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_F00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_sim" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_G00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_sim" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_L00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_vit_sim" MODEL="Zen_man_vit" MODELTYPE="Zen_man_vit_M00" CONDITION="$H$ &gt;= 846" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="173" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-167.2509" V="309.4342" />
+              <CORNER2 U="162.6887" V="54.40352" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="173" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-179.4787" V="-12.56466" />
+              <CORNER2 U="183.7011" V="-266.2008" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

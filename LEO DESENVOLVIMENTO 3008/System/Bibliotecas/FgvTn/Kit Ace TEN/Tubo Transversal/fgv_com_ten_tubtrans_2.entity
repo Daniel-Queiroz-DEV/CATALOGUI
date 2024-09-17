@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tubo Transversal Champanhe 1200mm" ICON="Tubo Transversal.jpg">
+  <DRAWING>
+    <FILE3D NAME="transvers" />
+    <LIMITS>
+      <MIN X="0" Y="-4" Z="0" />
+      <MAX X="1032.799" Y="4" Z="6.928" />
+    </LIMITS>
+    <DIMENSION WIDTH="1032.8" HEIGHT="6.9" DEPTH="8" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="BRANCO" NAME="BRANCO" IDMATERIAL="fgv_champagne" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tubo Transversal Champanhe 1200mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1108" HEIGHT="10" DEPTH="10" TEXT="58RXT0S61200000" DESC="" ITEM_BASE="58RXT0S61200000" />
+</ENTITY>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Redondo V ($TEXT$)" ICON="redondo.jpg">
+  <DRAWING>
+    <FILE3D NAME="aplique 100369_v" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="35" HEIGHT="150" DEPTH="6" />
+    <LIMITS>
+      <MIN X="-17.5" Y="-6.199" Z="-75" />
+      <MAX X="17.648" Y="0" Z="74.353" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PRETO" NAME="PRETO" IDMATERIAL="Obi_Cor_prt" EDIT="N" />
+    <COMPONENTDEFINITION ID="METAL" NAME="METAL" IDMATERIAL="obi_met_cro" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_QuartoAltura" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Aplique Redondo" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION HEIGHT="200" TEXT="100.369">
+    <MIN HEIGHT="10" />
+    <MAX HEIGHT="1000" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="188" />
+</ENTITY>

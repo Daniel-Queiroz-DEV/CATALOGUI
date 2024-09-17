@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cantoneira Sup Dir ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_bas_dia_sup_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_bas_dia_sup" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="300" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-250" />
+      <PONTO2DA X="300" Y="-550" />
+      <PONTO2DA X="300" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="300" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="250" FORMULA="#A#">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="261.1816" V="-226.6602" />
+              <CORNER2 U="327.5684" V="-275.6445" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="550" FORMULA="$D$">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-28.21288" V="-16.54298" />
+              <CORNER2 U="40.10743" V="-557.3047" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="@(#COZ_ESP_BAS#+#FOL_PAI#)" DEPTH="550" ITEM_BASE="BAS01" TEXT="015">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="fer_per_fer_bas" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="($PW$ &gt;=200)">
+          <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Minifix" CANCHANGESELECTIONMODEL="Y" ALWAYSVISIBLE="N" DESCRIPTION="Esq" KEEPCHANGEDDIMENSION="N" GROUP="Perfil" INSERTFUNCTION="FERRAGEM" REPOSITION="N" DEFAULT="N" CONCURRENT="N" REPLACEFUNCTION="N">
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <DIMENSION HEIGHT="$PH$" DEPTH="$PD$-20" />
+            <ATTRIBUTES>
+              <ATTRIBUTE ID="Inverted" VALUE="True" VISIBLE="N" />
+            </ATTRIBUTES>
+            <POSITION X="0" Y="0" Z="$H$" ROTATION="0" />
+            <NORMAL A="0" B="0" C="-1" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="A" VALUE="250" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Base Cantoneira Direita Superior" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

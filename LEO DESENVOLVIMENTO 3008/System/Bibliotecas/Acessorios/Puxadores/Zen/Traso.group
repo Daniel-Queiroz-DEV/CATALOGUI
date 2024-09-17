@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Traso" NAME="Traso" PREFIXID="zen_tra_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_tra_32" DEF="32mm.group" GUID="ae4466f2-13ac-4136-8227-4a7250fa537a" />
+    <EXPLORERITEM TYPE="group" ID="zen_tra_128" DEF="128mm.group" GUID="62365781-c66c-45af-829f-6f68eb103c74" />
+    <EXPLORERITEM TYPE="group" ID="zen_tra_192" DEF="192mm.group" GUID="77cf292e-d589-48f7-baf3-21c4a1413f16" />
+    <EXPLORERITEM TYPE="group" ID="zen_tra_320" DEF="320mm.group" GUID="35ca3d9b-6309-4176-ae40-5bf9b46a090e" />
+    <EXPLORERITEM TYPE="group" ID="zen_tra_416" DEF="416mm.group" GUID="0215a2d3-1870-402e-9ab9-4e28bd0d7038" />
+    <EXPLORERITEM TYPE="group" ID="zen_tra_640" DEF="640mm.group" GUID="e5ab6b6a-302c-43ca-8cb8-b86f6a684c90" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="TRASO_32MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\TRASO_32mm" />
+      <DIMENSION WIDTH="52" HEIGHT="25.1" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-26" Y="-17.001" Z="-15.012" />
+        <MAX X="26" Y="0" Z="10.063" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRASO_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\TRASO_128MM" />
+      <DIMENSION WIDTH="148" HEIGHT="25.1" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-74" Y="-17.001" Z="-15" />
+        <MAX X="74" Y="0" Z="10.074" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRASO_192MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\TRASO_192MM" />
+      <DIMENSION WIDTH="212" HEIGHT="25.1" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-106" Y="-17.001" Z="-15" />
+        <MAX X="106" Y="0" Z="10.074" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRASO_320MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\TRASO_320MM" />
+      <DIMENSION WIDTH="340" HEIGHT="25.1" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-170" Y="-17.001" Z="-15" />
+        <MAX X="170" Y="0" Z="10.074" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRASO_416MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\TRASO_416MM" />
+      <DIMENSION WIDTH="436" HEIGHT="25.1" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-218" Y="-17.001" Z="-15" />
+        <MAX X="218" Y="0" Z="10.074" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TRASO_640MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\TRASO_640MM" />
+      <DIMENSION WIDTH="660" HEIGHT="25.1" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-330" Y="-17.001" Z="-15" />
+        <MAX X="330" Y="0" Z="10.074" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

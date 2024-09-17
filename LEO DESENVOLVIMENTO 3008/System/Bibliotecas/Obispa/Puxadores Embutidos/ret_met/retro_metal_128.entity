@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="128mm ($TEXT$)" ICON="retro_metal_128.jpg">
+  <DRAWING>
+    <FILE3D NAME="retro_metal_128" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="140" HEIGHT="47" DEPTH="19" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.268" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Retro Metal 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_ret_met_128" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

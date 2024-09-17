@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$ Vidro ($TEXT$)" ICON="Vidro.jpg" TYPE="GEOMETRY" CHECKED="N">
+  <BUDGET>
+    <INFORMATION CATEGORY="Vidros" />
+    <MARGIN IDCATEGORY="VID" APPLYPARENTINSERTMARGIN="N" />
+  </BUDGET>
+  <DRAWING>
+    <FILE3D NAME="vidro" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <MODELS>
+    <MODEL IDMODEL="com_vidros" ENTRYID="COM" />
+  </MODELS>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="#ESP_VID#" DEPTH="400" TEXT="VIDRO$H$" ITEM_BASE="VIDRO">
+    <MIN WIDTH="10" DEPTH="10" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="20" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="$TEXT$$MODEL$.$W$.$D$" MODEL="@com_vidros(ACABAMENTO)@" ITEM_BASE="$D.ITEM_BASE$" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="vidro" MODEL="com_vidros" MODELTYPE="coz_vid_incolor_2" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Painel de Vidro @com_vidros@ $H$mm $W$x$H$x$D$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="ESPESSURA" VALUE="4" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

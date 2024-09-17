@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Gallardo Travessa 4" TYPE="GEOMETRY" ICON="inf_dd_crasgo_base_4.jpg" INVISIBLE="N" CHECKED="N">
+  <DRAWING>
+    <FILE3D NAME="com_3" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <EVENTS>
+    <ONDIMENSIONCHANGED>
+      <ACTIONS>
+        <ADJUSTCOMPONENTMODELS />
+      </ACTIONS>
+    </ONDIMENSIONCHANGED>
+  </EVENTS>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" RULE="UN" />
+  </BUDGET>
+  <REFERENCE ALTURA_FITA="#ALT_FITA_TAMP_2#" PROF="Cortar com 65mm e Refilar" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta Gallardo Travessa 4" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION HEIGHT="@(#TAM_ENG_TAM_2_2#+#FOL_PAI#)" WIDTH="1000" DEPTH="#TAM_ENG_DIM_2#" TEXT="1705" DESC="" ITEM_BASE="GAL01">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_portas" ENTRYID="COM" />
+  </MODELS>
+</ENTITY>

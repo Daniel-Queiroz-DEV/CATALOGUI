@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Sirius" NAME="Sirius" PREFIXID="zen_sir_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sir_32_2" DEF="32mm.group" GUID="789f16fb-c123-4581-b74e-a50ee37b0645" />
+    <EXPLORERITEM TYPE="group" ID="zen_sir_48_2" DEF="48mm.group" GUID="b368f255-11de-42ad-9da8-c5a4a16a3692" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SIRIUS_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SIRIUS_32MM" />
+      <DIMENSION WIDTH="52" HEIGHT="20" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-26" Y="-18" Z="-10" />
+        <MAX X="26" Y="0" Z="10" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SIRIUS_48MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SIRIUS_48MM" />
+      <DIMENSION WIDTH="68" HEIGHT="20" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-34" Y="-18" Z="-10" />
+        <MAX X="34" Y="0" Z="10" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

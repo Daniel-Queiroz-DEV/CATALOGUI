@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Escovas Balcão ($TEXT$)" ICON="BA0015_8.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0152_pt_esc_balc" />
+    <DIMENSION WIDTH="110" HEIGHT="86" DEPTH="110.3" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0152" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0152" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="86" DEPTH="110" TEXT="BA0152" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Woman Porta Escovas de Balcão $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

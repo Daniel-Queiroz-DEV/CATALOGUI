@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VerticalDivision Id="div_srasgo_srecuo" EntityId="com_coz_mon_div" THICKNESS="@(#DOR_ARM_DES_EXT_SPOR_ESP_MON#+#FOL_PAI#)" Offset="#DOR_AFA_TRAS_PRA_ARM#" Fallback="#DOR_ARM_DES_EXT_SPOR_REC_BAS#" Category="Divisórias" Name="Não Divide Fundos/ Recuo Front" Rotation="180" Movable="Y" Preview="%PastaConstrutorArmarios%\Dormitorios\Divisoes\imagens\div_sra_sre.jpg">
+		<NORMAL A="-1" B="0" C="0" />	
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_ESQ#" />
+				<SetAttribute Id="ESP_MON" Value="#DOR_ARM_DES_EXT_SPOR_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</VerticalDivision>

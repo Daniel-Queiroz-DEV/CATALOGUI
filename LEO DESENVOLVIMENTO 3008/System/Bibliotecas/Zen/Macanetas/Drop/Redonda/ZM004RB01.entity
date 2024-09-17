@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tranqueta ($TEXT$)" ICON="ZM002RB01.jpg">
+  <DRAWING ID="Drop_Redonda_Tranqueta" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE>
+    <PBLOCK DEFAULTSCALEX="Y" DEFAULTSCALEY="Y" DEFAULTSCALEZ="Y">
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-1.156422" V="-67.80116" />
+              <CORNER2 U="172.8249" V="1.26043" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="HalfIncrease" AFFECTSCALEOPERATION="N">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-1.169361" V="4.384045" />
+              <CORNER2 U="171.959" V="30.76405" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Nothing" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-0.900689" V="33.54808" />
+              <CORNER2 U="172.3174" V="103.2386" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Guarnição Break Red. Tranqueta $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="164" HEIGHT="137" DEPTH="164" TEXT="ZM004RB01" ACAB="">
+    <MIN DEPTH="129" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+</ENTITY>

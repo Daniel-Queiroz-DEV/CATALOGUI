@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Moby" NAME="Moby" PREFIXID="zen_emp_mob_">
+  <DRAWINGS>
+    <DRAWING ID="MOBY_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MOBY_128MM" />
+      <DIMENSION WIDTH="143.7" HEIGHT="20" DEPTH="21.7" />
+      <LIMITS>
+        <MIN X="-71.862" Y="-21.727" Z="-10" />
+        <MAX X="71.862" Y="0.011" Z="10" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MOBY_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MOBY_192MM" />
+      <DIMENSION WIDTH="207.7" HEIGHT="20" DEPTH="21.7" />
+      <LIMITS>
+        <MIN X="-103.862" Y="-21.727" Z="-10" />
+        <MAX X="103.862" Y="0.011" Z="10" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MOBY_256MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MOBY_256MM" />
+      <DIMENSION WIDTH="271.7" HEIGHT="20" DEPTH="21.7" />
+      <LIMITS>
+        <MIN X="-135.862" Y="-21.727" Z="-10" />
+        <MAX X="135.862" Y="0.011" Z="10" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_emp_mob_128mm_2" DEF="128mm.group" GUID="5522f0a0-0760-4568-9db2-83d042281817" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_mob_192mm_2" DEF="192mm.group" GUID="49222cad-bfa5-4201-a424-2be08b6dd9c5" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_mob_256mm_2" DEF="256mm.group" GUID="72b690b4-f9e7-436b-ac47-6e0f27b8b27b" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

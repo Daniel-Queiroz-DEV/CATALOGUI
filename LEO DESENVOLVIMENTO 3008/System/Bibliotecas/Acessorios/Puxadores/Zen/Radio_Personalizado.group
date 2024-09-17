@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Radio_Personalizado" NAME="Radio c/ Personalizado" PREFIXID="zen_rad_per_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="RADIO_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\RADIO_PONTO" />
+      <DIMENSION WIDTH="15.4" HEIGHT="16" DEPTH="18.7" />
+      <LIMITS>
+        <MIN X="-7.715" Y="-18.691" Z="-10.115" />
+        <MAX X="7.715" Y="0" Z="5.885" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RADIO_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\RADIO_16MM" />
+      <DIMENSION WIDTH="26" HEIGHT="27" DEPTH="19.2" />
+      <LIMITS>
+        <MIN X="-13.019" Y="-19.166" Z="-17.721" />
+        <MAX X="13.02" Y="0" Z="9.279" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="RADIO_30MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\RADIO_30MM" />
+      <DIMENSION WIDTH="36.5" HEIGHT="37.8" DEPTH="19.6" />
+      <LIMITS>
+        <MIN X="-18.227" Y="-19.633" Z="-24.81" />
+        <MAX X="18.228" Y="0" Z="12.99" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CANMIRRORONLYPOSITION" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <INFORMATION RULE="ZEN_UN_PERSONALIZADOS" />
+  </BUDGET>
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+    <PROPOSEDATTRIBUTE ID="ACAB" />
+    <PROPOSEDATTRIBUTE ID="TEXT_PER_HOR_CEN" />
+  </PROPOSEDATTRIBUTES>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_mod_for_per_cen">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="personalizado" CONCURRENT="N" DESCRIPTION="" ORDER="0" CONSTANT="Y">
+          <POSITION X="-$W$/2" Y="-$PD$" Z="-$H$/2-6" ROTATION="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <REFERENCE CODIGO="@('$REFERENCE(ZEN_PERSONALIZACAO)$' == 'VERTICAL_CENTRALIZADO' ? $D.TEXT_PER_VER_CEN$ : '$REFERENCE(ZEN_PERSONALIZACAO)$' == 'HORIZONTAL_CENTRALIZADO' ? $D.TEXT_PER_HOR_CEN$ : 'FALTA_REFERENCIA')" ZEN_PERSONALIZACAO="!find(entityid,zen_mod_for_per_*).$REFERENCE(COMPLETE)$!" ZEN_TOTAL_LETRAS="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_TOTAL_LETRAS)$!" ZEN_LETRA_1="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_LETRA_1)$!" ZEN_LETRA_2="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_LETRA_2)$!" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION PARENTID="zen_mod_for_per_cen" ID="zen_mod_for_per_ver_cen" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_rad_30_per" DEF="30mm.group" GUID="cd52c4de-6991-4489-8028-c2d100b20286" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

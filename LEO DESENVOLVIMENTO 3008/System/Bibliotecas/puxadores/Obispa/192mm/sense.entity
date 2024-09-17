@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sense ($TEXT$)" ICON="sense.jpg">
+  <DRAWING>
+    <FILE3D NAME="sense" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="202" HEIGHT="27" DEPTH="13" />
+    <LIMITS>
+      <MIN X="-101" Y="-27.253" Z="-6.5" />
+      <MAX X="100.863" Y="0" Z="6.558" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.631" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sense 192mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_192_sen" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_192_sen" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_192_sen" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+    <MODEL IDMODEL="Pux_res" ENTRYID="puxadorea" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Par_obi_met@" ACAB_RES="@Pux_res@" />
+</ENTITY>

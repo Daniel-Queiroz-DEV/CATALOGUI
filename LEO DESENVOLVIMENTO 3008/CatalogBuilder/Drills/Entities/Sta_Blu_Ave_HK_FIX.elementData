@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="Sta_Blu_Ave_HK_FIX" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_POR_HK#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="0"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="8,2;$H$-37.9"
+          ElementId="Sta_Blu_Ave_HK_FIX" />
+        <Drilling
+          Name="Furação03"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_POR_HK#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="2"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="8,2;$H$-101.9"
+          ElementId="Sta_Blu_Ave_HK_FIX" />
+        <Drilling
+          Name="Furação04"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_POR_HK#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="3"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="8,2;$H$-133.9"
+          ElementId="Sta_Blu_Ave_HK_FIX" />
+        <Drilling
+          Name="Furação05"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_POR_HK#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="4"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="8,2;$H$-69.9"
+          ElementId="Sta_Blu_Ave_HK_FIX" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

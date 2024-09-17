@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Underground ($TEXT$.$D.ACAB$)" ICON="Big_Farm.jpg">
+  <INSERTDIMENSION TEXT="ZP1933" ACAB="731" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="COURO" NAME="COURO" IDMATERIAL="zen_couro_marrom" EDIT="N" />
+    <COMPONENTDEFINITION ID="COSTURA" NAME="COSTURA" IDMATERIAL="zen_cos" EDIT="N" />
+    <COMPONENTDEFINITION ID="DET" NAME="DET" IDMATERIAL="zen_underground" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Big Farm 16mm Underground/ Couro Marrom" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+</ENTITY>

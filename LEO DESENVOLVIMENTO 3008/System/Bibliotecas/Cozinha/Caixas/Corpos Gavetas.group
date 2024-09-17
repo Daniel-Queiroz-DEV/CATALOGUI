@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Corpos Gavetas" NAME="Corpos Gavetas" PREFIXID="COZ_CAI_GAV_COM_" INVISIBLE="N" MODELINVISIBLE="N">
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="ITEM_BASE" />
+  </PROPOSEDATTRIBUTES>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_1" VALUE="#COZ_FIX_GAV_1#" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_2" VALUE="#COZ_FIX_GAV_2#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_GEN" VALUE="#COZ_FRE_FAL#" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_FUN_GEN" VALUE="#COZ_ESP_GAV_FUN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#COZ_FRE_FAL_TIPO#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_DES" VALUE="#COZ_FRE_FAL_DES#" VISIBLE="Y" />
+    <ATTRIBUTE ID="FOL_RASGO_PROF_GEN" VALUE="#P.FOL_RASGO_PROF_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_RASGO_LARG_GEN" VALUE="#P.FOL_RASGO_LARG_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_SUP" VALUE="#P.FOL_FUN_SUP#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_LAT" VALUE="#P.FOL_FUN_LAT#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_INF" VALUE="#P.FOL_FUN_INF#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav" DEF="corpo_gav.entity" GUID="ce5a8f00-9327-438e-9f26-306523f8671a" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_4" DEF="corpo_gav_3.entity" GUID="f2cf5755-9559-4ce6-b095-195aa7dc7748" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_4_3" DEF="corpo_gav_3_3.entity" GUID="2a0e9706-1dba-4e03-aff5-bc86eec9fcc7" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_4_2" DEF="corpo_gav_3_2.entity" GUID="550c91e6-8931-4761-ac9f-38ed879476dd" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu_5" DEF="corpo_gav_2_3.entity" GUID="1befc80f-5663-4fcf-a1e6-99ecd2d93d28" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu_5_4" DEF="corpo_gav_2_3_2.entity" GUID="f8ea1d7e-d370-4e6b-b972-919a52b18ecc" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_MDF" DEF="corpo_gav_2_3_3.entity" GUID="a0cb960e-47c4-4ed6-b64d-c73ab6bedaa1" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu" DEF="corpo_gav_2.entity" GUID="8a7963ee-14d1-4ffa-9464-124807fc0534" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu_7" DEF="corpo_gav_2_5.entity" GUID="47b08868-3de0-42ea-a4c2-668f54b333b2" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu_2" DEF="corpo_gav_2_2.entity" GUID="f74a8de9-de63-4b96-a711-a7deec67af8f" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_GAV_ALU" DEF="COZ_CAI_GAV_COM_GAV_ALU.entity" GUID="2169f329-214b-4475-be7e-8a39f5b5c931" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_GAV_ALU_OCU" DEF="COZ_CAI_GAV_COM_GAV_ALU_2.entity" GUID="d411995b-f3cf-41ec-8ab7-22b87e5b32e6" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_GAV_ALU_OCU_2" DEF="COZ_CAI_GAV_COM_GAV_ALU_2_2.entity" GUID="298023cb-eae1-4a74-9f71-5a75f967bea7" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_sem_frente" DEF="corpo_gav_4.entity" GUID="c1818643-7060-4dfe-b766-06b30932febf" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu_sem_frente" DEF="corpo_gav_2_4.entity" GUID="23c4127b-0481-4e33-b954-57a522ecd124" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_corpo_gav_ocu_sem_fre" DEF="corpo_gav_2_2_2.entity" GUID="09b80119-9d80-4286-9b23-6c1b29e2dc11" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_SEM_FRE" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_5.entity" GUID="a88f98d1-65e5-4ec1-9a23-3355f7be643f" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_SEM_FREN" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_2_3.entity" GUID="a3971386-f700-48f4-9132-85d5bbf3b867" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU_SEM_FRE" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_5.entity" GUID="8fc366f0-e3c5-441e-86ab-3fde3085ec2b" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU_SEM_FREN" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_2_3.entity" GUID="0304d8b4-fa8a-455e-aa74-26f8eb333097" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_CLIP_CBLU_SEM_FRE" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_4_3.entity" GUID="f83cb2ad-f457-40ca-a23c-095cde695e06" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_CLIP_CTIP_SEM_FRE" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_4_2_2.entity" GUID="54346c9b-cb37-4c5c-ae7e-189102990f5b" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tan_gav_blum_tot" DEF="Sta_Blu_Tan_gav_blum_tot.entity" GUID="8b7c8150-bd89-4dde-994d-7ffda2d5e444" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU.entity" GUID="6b552dd8-6c53-43ef-ac67-c9dafa52160e" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_3" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2.entity" GUID="e97077da-dd93-4ad7-86ed-00dd16f932b5" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU_Y" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_3.entity" GUID="d3137767-2111-4ac1-8d08-e9873f7e016f" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU_3_Y" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_2_2.entity" GUID="b41d0124-6348-4a6b-9f6f-df9554453c46" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_CLIP_CTIP" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_4_2.entity" GUID="2ff34247-37d9-4877-883a-f1e321d21a04" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_CLIP_CBLU" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_4.entity" GUID="c2c286ae-c4ec-440f-9d9e-a6fa3f2f3912" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU_3_3" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4.entity" GUID="f26d691d-51e7-4195-bf6a-4ae03b37fa5a" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU_3_3_2" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_4_2.entity" GUID="bc012b16-3e76-4d98-acbd-e1c8e7e013f3" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_3_Y" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_3.entity" GUID="56d98304-8b98-41e3-85ba-bcc9ecea4749" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_3_2_Y" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_2_2.entity" GUID="b8ffb759-8f6e-4227-968b-7f79f19d46e4" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_3_2" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_CBLU_2_2.entity" GUID="dce63cc1-fd76-4f62-b394-c5c0a2e93c1c" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_TOT_TIP" DEF="COZ_CAI_GAV_COM_BLU_TAN_TOT_TIP.entity" GUID="9b2a9c8a-0b98-444e-b3c4-d0376eed24a5" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_gav_blum_par" DEF="sta_blu_tan_gav_blum_par.entity" GUID="4987ff42-2571-4db8-b734-633701b3e747" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_CBLU" DEF="COZ_CAI_GAV_COM_BLU_CBLU.entity" GUID="cd7211d9-b193-4030-96c6-8b7e7094cc75" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_TAN_PAR_TIP" DEF="COZ_CAI_GAV_COM_678COZ_CAI_GAV_COM_BLU_PAR_TIPCOZ_CAI_GAV_COM_BLU_TAN_PAR_TIP.entity" GUID="f19eb4ad-def9-4483-9b47-ff620205d454" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_mov" DEF="sta_blu_gav_mov.entity" GUID="52f2d7ba-55bc-4fcf-9d84-da97fd78d537" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_BLU_MOV_TIP" DEF="COZ_CAI_GAV_COM_BLU_MOV_TIP.entity" GUID="09dee80c-a629-44fc-9401-c540cf366011" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_bai_mer" DEF="sta_blu_gav_box_bai_2.entity" GUID="e4dff8e7-7436-41b3-be1c-efed547d8085" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_mer" DEF="sta_blu_gav_box_alt_3.entity" GUID="00faddae-65fb-45b1-9717-2d8eb69176b0" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_mer_2" DEF="sta_blu_gav_box_alt_3_2.entity" GUID="b47cdcf0-1615-4935-b541-10ff4a56edd6" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_mer_2_2" DEF="sta_blu_gav_box_alt_3_2_2.entity" GUID="e9bec58d-4e92-40dc-99d4-919a53909400" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_bai_mer_2" DEF="sta_blu_gav_box_bai_2_2.entity" GUID="f5693590-fe29-4e81-9eab-5a2362aba1d9" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_4_2" DEF="sta_blu_gav_box_alt_4_2.entity" GUID="0d4d06ba-0d53-476e-97f2-f2215ca269e4" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_4_2_3" DEF="sta_blu_gav_box_alt_4_2_3.entity" GUID="5a74fd51-48a5-4185-b58f-dbf54e78926e" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_4_2_2" DEF="sta_blu_gav_box_alt_4_2_2.entity" GUID="1c20ddfe-b48c-4d19-8e85-fe9ec8c0f850" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_4" DEF="sta_blu_gav_box_alt_4.entity" GUID="1a225112-423f-4294-93de-46d661e8dea0" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_bai" DEF="sta_blu_gav_box_bai.entity" GUID="db804992-1bdb-4c9d-910e-fa8f4ddc83c5" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt" DEF="sta_blu_gav_box_alt.entity" GUID="0654ad72-a02f-4638-a2f1-7b64930522f9" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_3" DEF="sta_blu_gav_box_alt_2.entity" GUID="93d54de6-0975-4d98-b5d7-c3c1b1bcae76" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_gav_box_alt_3_2" DEF="sta_blu_gav_box_alt_2_2.entity" GUID="a637701c-7ba1-436b-aabb-bd27b01d195a" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_MET_BAI" DEF="COZ_CAI_GAV_COM_MET_BAI.entity" GUID="a65ba01a-8c0b-412d-afb4-406e94a3ef3f" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_MET_ALT" DEF="COZ_CAI_GAV_COM_MET_ALT.entity" GUID="756777f5-eb64-4203-b3ff-a6c16445e0c2" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_INT_ESC_COR" DEF="COZ_CAI_INT_ESC_COR.entity" GUID="09d90123-99a9-4cb8-b3ad-68afeb16a064" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_GAV_MET_CUB" DEF="COZ_CAI_GAV_COM_GAV_MET_CUB.entity" GUID="4702436c-a176-4157-bcf3-12a816a9a55d" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_415" DEF="COZ_CAI_GAV_COM_415.entity" GUID="82303bbd-f918-4159-9f53-186de5b05295" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_CAI_GAV_COM_VAZ" DEF="COZ_CAI_GAV_COM_VAZ.entity" GUID="6b9710ca-441d-40a1-a80f-a92825f95a74" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_bai" DEF="sta_fgv_gav_box_bai.entity" GUID="3b297aed-f4a0-49ad-b75e-8968cd333dd7" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_bai_3_2_2" DEF="sta_fgv_gav_box_bai_3.entity" GUID="e121a2fd-1005-4a80-8bdf-9733c24a022e" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt" DEF="sta_fgv_gav_box_alt.entity" GUID="ff4da5bf-0fb6-4c85-a19d-ef1b39e65cfa" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_5" DEF="sta_fgv_gav_box_alt_4.entity" GUID="5c042e35-575b-4b33-b8c2-8e19414d3aec" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_2" DEF="sta_fgv_gav_box_alt_2.entity" GUID="0c2206f3-a7ff-4fe5-9e2d-b90a44b00c9a" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_2_4" DEF="sta_fgv_gav_box_alt_2_3.entity" GUID="0df8484c-2697-4f2b-a320-a7789c360497" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_2_2" DEF="sta_fgv_gav_box_alt_2_2.entity" GUID="c6855866-9ef1-4776-be49-62c8ab120b5d" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_2_2_3" DEF="sta_fgv_gav_box_alt_2_2_2.entity" GUID="de6f0934-ef4b-4584-ad27-4c8b8d625d25" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_bai_2" DEF="sta_fgv_gav_box_bai_2.entity" GUID="bbc5ee3e-885c-474f-956f-cde5d4c10b23" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_bai_2_2_2_2" DEF="sta_fgv_gav_box_bai_2_2.entity" GUID="45ea7485-8cec-4333-b5f9-81d24ab113c8" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3" DEF="sta_fgv_gav_box_alt_3.entity" GUID="72a02409-dd0f-4fad-9a05-6ec705798b1d" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3_5" DEF="sta_fgv_gav_box_alt_3_4.entity" GUID="11295a29-55ac-48db-9545-ca703bc89383" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3_3" DEF="sta_fgv_gav_box_alt_3_3.entity" GUID="fdb081bd-c1eb-404b-b341-e2b071c09c0f" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3_2" DEF="sta_fgv_gav_box_alt_3_2.entity" GUID="c65e164d-ce6f-439f-8254-88bef9b15c26" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3_2_4" DEF="sta_fgv_gav_box_alt_3_2_3.entity" GUID="ec7b5188-e3c0-4cde-bdf2-ecc73f11946f" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3_2_2" DEF="sta_fgv_gav_box_alt_3_2_2.entity" GUID="81b30007-5bf7-4cfe-a1b1-5878d9d3eb34" />
+    <EXPLORERITEM TYPE="entity" ID="sta_fgv_gav_box_alt_3_2_2_3" DEF="sta_fgv_gav_box_alt_3_2_2_2.entity" GUID="369069eb-2628-42d3-9703-9e51a2c0b1d6" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

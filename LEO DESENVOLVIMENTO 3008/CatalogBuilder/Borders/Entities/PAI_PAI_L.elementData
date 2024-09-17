@@ -1,0 +1,181 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 2,
+      "Text": "Frontal Esquerda",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "550",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "550",
+        "Y": "450"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "RightNeighbour": 5,
+      "RightNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Frontal Direita",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 5,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 4,
+        "LeftPoint": {
+          "X": "550",
+          "Y": "450"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "450"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 4,
+        "Condition": {
+          "Expression": "'#FT_BORDA_FRONTAL_DIR#' == 'NAO'"
+        },
+        "Arc": {
+          "Start": "550, 450",
+          "Mid": "775, 450",
+          "End": "1000, 450"
+        },
+        "NeedRightExposureClosed": true,
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_L"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL_ESQ#' == 'NAO'"
+      },
+      "Arc": {
+        "Start": "550, 0",
+        "Mid": "550, 225",
+        "End": "550, 450"
+      },
+      "NeedLeftExposureClosed": true,
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_L"
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Frontal Direita",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 5,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 4,
+      "LeftPoint": {
+        "X": "550",
+        "Y": "450"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "450"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 4,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Frontal Esquerda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 4,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "550",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "550",
+          "Y": "450"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "RightNeighbour": 5,
+        "Condition": {
+          "Expression": "'#FT_BORDA_FRONTAL_ESQ#' == 'NAO'"
+        },
+        "Arc": {
+          "Start": "550, 0",
+          "Mid": "550, 225",
+          "End": "550, 450"
+        },
+        "NeedLeftExposureClosed": true,
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_L"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL_DIR#' == 'NAO'"
+      },
+      "Arc": {
+        "Start": "550, 450",
+        "Mid": "775, 450",
+        "End": "1000, 450"
+      },
+      "NeedRightExposureClosed": true,
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_L"
+    }
+  ],
+  "ElementId": "PAI_PAI_L"
+}

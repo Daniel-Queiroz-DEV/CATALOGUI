@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Legumes 4" ICON="P_LEG4.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Legumes 4" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_LEG4" />
+    <DIMENSION WIDTH="460" HEIGHT="249" DEPTH="487" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

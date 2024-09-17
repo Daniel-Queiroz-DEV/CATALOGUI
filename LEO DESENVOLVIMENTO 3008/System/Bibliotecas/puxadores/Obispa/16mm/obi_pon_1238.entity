@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mini Ramp ($TEXT$)" ICON="obi_pon_1238.jpg">
+  <DRAWING>
+    <FILE3D NAME="ramp" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="27" HEIGHT="27" DEPTH="22" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.334" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Ramp 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_16_min_ram" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_16_min_ram" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_16_min_ram" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_16_min_ram" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

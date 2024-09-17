@@ -1,0 +1,81 @@
+{
+  "ElementId": "com_coz_gav_1003",
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$",
+            "Y": "13"
+          },
+          "End": {
+            "X": "$W$-35",
+            "Y": "13"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-35",
+            "Y": "13"
+          },
+          "End": {
+            "X": "$W$-35"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "ElementId": "com_coz_gav_1003",
+      "UniqueID": 6,
+      "PlaneType": "Superior",
+      "OperationPrice": null,
+      "Position": {
+        "X": "$W$",
+        "Y": "13"
+      }
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "Y": "13"
+          },
+          "End": {
+            "X": "35",
+            "Y": "13"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "35",
+            "Y": "13"
+          },
+          "End": {
+            "X": "35"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "ElementId": "com_coz_gav_1003",
+      "UniqueID": 7,
+      "PlaneType": "Superior",
+      "OperationPrice": null,
+      "Position": {
+        "Y": "13"
+      }
+    }
+  ]
+}

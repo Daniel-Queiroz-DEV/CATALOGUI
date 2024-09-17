@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="448mm_Espia_Couro" NAME="448mm c/ Espia de Couro" PREFIXID="zen_ori_448_esp_cou_">
+  <DRAWINGS />
+  <DRAWING ID="ORIENTE_448MM" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_01_102_2" DEF="ZP1801_102.entity" GUID="51f3f93e-7c63-4507-873e-b543eefacef7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_01_2" DEF="ZP1801_648.entity" GUID="f1272546-b2d0-4e08-94ef-8a790c0975a7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_599_2" DEF="ZP1801_599.entity" GUID="1f57bff9-7656-48b7-86c5-d5f13e311e58" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_955_2" DEF="ZP1801_955.entity" GUID="63cca582-81ba-42ae-ad65-8f42e075f030" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_A00_2" DEF="ZP1801_A00.entity" GUID="ee55ae31-f8db-4860-a8af-651128c0206c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_B00_2" DEF="ZP1801_B00.entity" GUID="ee062200-bede-4780-a9c1-6f0f26bf1544" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_F00_2" DEF="ZP1801_F00.entity" GUID="27a802fb-0b01-4cfb-bfb6-30cce926aaa0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_G00_2" DEF="ZP1801_G00.entity" GUID="bcd5d155-d1e4-485d-9dac-4394c40f64a1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_L00_2" DEF="ZP1801_L00.entity" GUID="e0777247-a39d-4da8-8b34-43b8f5371b35" />
+    <EXPLORERITEM TYPE="entity" ID="zen_ori_448_cou_M00_2" DEF="ZP1801_M00.entity" GUID="3e00bbdd-3bb4-48ee-8746-26922ad4694c" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_448mm.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

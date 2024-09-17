@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="frente_int_armarios_livre" Type="Front" Description="Inteira Editável" CanMirror="Y">
+		<Dimension Width="$P.W$+(#ESC_ESP_LAT#+#FOL_PAI#)*2-#ESC_FOL_ENT_PT_LAR#*2" Height="$P.H$+(#ESC_ESP_BAS#+#FOL_PAI#)*2-#ESC_FOL_INF_POR#-#ESC_FOL_MOD_SUP#" Depth="(#ESC_ESP_POR#+#FOL_PAI#)">
+			<Min Width="50" Height="50" />
+			<Max Width="2700" Height="1800" />
+		</Dimension>		
+		<Position X="-(#ESC_ESP_LAT#+#FOL_PAI#)+#ESC_FOL_ENT_PT_LAR#" Y="-$P.D$" Z="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_INF_POR#">
+			<Min X="-2700" Z="-1800" />
+			<Max X="2700" Z="1800" />
+		</Position>		
+		<Variables>
+			<Variable Id="DrawingType" Value="RightFront" />
+		</Variables>
+		<Actions>
+		<ResizeItem Side="Right" Value="-(#ESC_ESP_LAT#+#FOL_PAI#)+(#ESC_ESP_MON#+#FOL_PAI#)/2">
+			<Conditions>
+
+			<or>
+				<and>
+					<or Not="y">
+						<HasNeighbourItem ItemType="Front" Side="Left" />
+						<HasNeighbourItem ItemType="Drawer" Side="Left" />
+					</or>
+					<or>
+						<HasNeighbourItem ItemType="Front" Side="Right" />
+						<HasNeighbourItem ItemType="Drawer" Side="Right" />
+					</or>
+					</and>
+					
+					
+					<and>
+					<or>
+						<HasNeighbourItem ItemType="Front" Side="Right" />
+						<HasNeighbourItem ItemType="Drawer" Side="Right" />
+					</or>
+					<and not="y">
+						<or Not="y">
+							<HasNeighbourItem ItemType="Front" Side="Left" />
+							<HasNeighbourItem ItemType="Drawer" Side="Left" />
+						</or>
+						<or>
+							<HasNeighbourItem ItemType="Front" Side="Right" />
+							<HasNeighbourItem ItemType="Drawer" Side="Right" />
+						</or>
+					</and>
+				</and>
+			</or>
+			
+			</Conditions>
+		</ResizeItem>
+		
+		<ResizeItem Side="Left" Value="-(#ESC_ESP_LAT#+#FOL_PAI#)+(#ESC_ESP_MON#+#FOL_PAI#)/2">
+			<Conditions>
+			<or>
+				<and>
+					<or>
+						<HasNeighbourItem ItemType="Front" Side="Left" />
+						<HasNeighbourItem ItemType="Drawer" Side="Left" />
+					</or>
+					<or Not="y">
+						<HasNeighbourItem ItemType="Front" Side="Right" />
+						<HasNeighbourItem ItemType="Drawer" Side="Right" />
+					</or>
+				</and>
+						
+				<and>
+					<or>
+						<HasNeighbourItem ItemType="Front" Side="Left" />
+						<HasNeighbourItem ItemType="Drawer" Side="Left" />
+					</or>
+						<and not="y">
+							<or>
+								<HasNeighbourItem ItemType="Front" Side="Left" />
+								<HasNeighbourItem ItemType="Drawer" Side="Left" />
+
+							</or>
+							<or Not="y">
+								<HasNeighbourItem ItemType="Front" Side="Right" />
+								<HasNeighbourItem ItemType="Drawer" Side="Right" />
+							</or>
+						</and>
+					</and>
+				</or>
+			</Conditions>
+		</ResizeItem>
+		
+		
+		<ResizeItem Side="Bottom" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_INF_POR#+(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_FOL_ENT_GAV#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemType="Front" Side="Bottom" />
+					<HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+	                    	</or>
+			</Conditions>
+		</ResizeItem>
+		
+		
+		<ResizeItem Side="Top" Value="-(#ESC_ESP_BAS#+#FOL_PAI#)+#ESC_FOL_MOD_SUP#+(#ESC_ESP_PRAT_FIX#+#FOL_PAI#)/2-#ESC_FOL_ENT_GAV#/2">
+			<Conditions>
+				<or>
+					<HasNeighbourItem ItemType="Front" Side="Top" />
+					<HasNeighbourItem ItemType="Drawer" Side="Top" />
+	                    	</or>
+			</Conditions>
+		</ResizeItem>
+		
+
+		
+		</Actions>
+		<Alternatives>
+			<Alternative Id="frente_int_armarios_lat_s_viz" EntityId="POR_POR_DES">
+				<Conditions>
+				<or>
+					
+					<or Not="Y">
+						<HasNeighbourItem ItemType="Front" Side="Left" />
+						<HasNeighbourItem ItemType="Drawer" Side="Left" />
+						<HasNeighbourItem ItemType="Front" Side="Right" />
+						<HasNeighbourItem ItemType="Drawer" Side="Right" />
+					</or>
+					<or>
+						
+						<and>
+								<IsInvertedItem Not="y" />
+								<HasNeighbourItem ItemType="Drawer" Side="Left" />
+							<or not="y">
+								<HasNeighbourItem ItemType="Front" Side="Right" />
+								<HasNeighbourItem ItemType="Drawer" Side="Right" />
+							</or>
+						</and>
+						
+						<and>
+								<IsInvertedItem Not="y" />
+								<HasNeighbourItem ItemType="Front" Side="Left" />
+							<or not="y">
+								<HasNeighbourItem ItemType="Front" Side="Right" />
+								<HasNeighbourItem ItemType="Drawer" Side="Right" />
+							</or>
+						</and>
+
+						
+						
+						<and>
+								<IsInvertedItem />
+								<HasNeighbourItem ItemType="Drawer" Side="Right" />
+							<or not="y">
+								<HasNeighbourItem ItemType="Front" Side="Left" />
+								<HasNeighbourItem ItemType="Drawer" Side="Left" />
+							</or>
+						</and>
+						
+						<and>
+								<IsInvertedItem />
+								<HasNeighbourItem ItemType="Front" Side="Right" />
+							<or not="y">
+								<HasNeighbourItem ItemType="Front" Side="Left" />
+								<HasNeighbourItem ItemType="Drawer" Side="Left" />
+							</or>
+						</and>						
+					</or>
+				</or>
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="frente_int_despenseiro_lat_c_2viz" EntityId="POR_POR_DES_MON">
+				<Conditions>
+					<or>
+						<and>
+							<HasNeighbourItem ItemType="Front" Side="Left" />
+							<HasNeighbourItem ItemType="Drawer" Side="Left" />
+							<HasNeighbourItem ItemType="Front" Side="Right" />
+							<HasNeighbourItem ItemType="Drawer" Side="Right" />
+						</and>
+						
+						
+						<and>
+							<IsInvertedItem />
+							<HasNeighbourItem ItemType="Front" Side="Left" />
+						</and>
+						<and>
+							<IsInvertedItem />
+							<HasNeighbourItem ItemType="Drawer" Side="Left" />
+						</and>
+						<and>
+							<IsInvertedItem />
+							<HasNeighbourItem ItemType="Front" Side="Right" />
+						</and>
+						<and>
+							<IsInvertedItem />
+							<HasNeighbourItem ItemType="Drawer" Side="Right" />
+						</and>
+						
+						
+						
+						<and>
+							<IsInvertedItem Not="y" />
+							<HasNeighbourItem ItemType="Front" Side="Left" />
+						</and>
+
+						<and>
+							<IsInvertedItem Not="y" />
+							<HasNeighbourItem ItemType="Drawer" Side="Left" />
+						</and>
+
+						<and>
+							<IsInvertedItem Not="y" />
+							<HasNeighbourItem ItemType="Front" Side="Right" />
+						</and>
+						<and>
+							<IsInvertedItem Not="y" />
+							<HasNeighbourItem ItemType="Drawer" Side="Right" />
+						</and>
+							
+						<and>
+							<IsInvertedItem Not="y" />
+								<HasNeighbourItem ItemType="Drawer" Side="Right" />
+							<or not="y">
+								<HasNeighbourItem ItemType="Front" Side="Left" />
+								<HasNeighbourItem ItemType="Drawer" Side="Left" />
+							</or>
+						</and>
+						<and>
+							<IsInvertedItem />
+								<HasNeighbourItem ItemType="Drawer" Side="Left" />
+							<or not="y">
+								<HasNeighbourItem ItemType="Front" Side="Right" />
+								<HasNeighbourItem ItemType="Drawer" Side="Right" />
+							</or>
+						</and>
+
+					</or>
+				</Conditions>
+			</Alternative>			
+		</Alternatives>	
+	</Item>

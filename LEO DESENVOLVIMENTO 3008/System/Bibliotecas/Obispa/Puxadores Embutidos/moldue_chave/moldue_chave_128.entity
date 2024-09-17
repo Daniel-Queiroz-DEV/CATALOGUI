@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="128mm ($TEXT$)" ICON="moldue_chave.jpg">
+  <DRAWING>
+    <FILE3D NAME="moldue_chave" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-70" Y="-11.29" Z="0" />
+      <MAX X="70.139" Y="0" Z="44.905" />
+    </LIMITS>
+    <DIMENSION WIDTH="140" HEIGHT="45" DEPTH="11" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.650" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Moldue Chave 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_mol_cha_128" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

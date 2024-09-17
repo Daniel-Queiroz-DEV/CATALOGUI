@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Objetos Fixo ($TEXT$)" ICON="por_obj.jpg">
+  <DRAWING>
+    <FILE3D NAME="porta_objetos_fixo" />
+    <DIMENSION WIDTH="81.3" HEIGHT="241" DEPTH="101.2" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_689" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_694" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_692" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_82" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_648" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_203" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_696" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_704" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_693" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_690" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_705" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_202" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_695" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_691" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_697" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_201" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_75" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_83" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_por_obj" MODEL="zen_ane" MODELTYPE="zen_ane_707" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="85" HEIGHT="241" DEPTH="101" TEXT="BA0322" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello Porta Objetos Fixo @zen_ane(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Escovas Fixo ($TEXT$)" ICON="BA0015__11_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0152_porta_escovas_fixo" />
+    <DIMENSION WIDTH="110" HEIGHT="85.2" DEPTH="120.5" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0150" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0150" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="85" DEPTH="120" TEXT="BA0150" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Woman Porta Escovas Fixo $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

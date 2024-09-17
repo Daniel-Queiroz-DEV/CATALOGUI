@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Cozinhas" DIRECTORY="Cozinhas" INVISIBLE="N" DESCRIPTION="$ROOTGROUP$">
+  <MODELS DEF="Cozinhas\cozinhas.model" />
+  <BUDGET>
+    <INFORMATION RULE="UN" CATEGORY="$ROOTGROUP$" />
+    <MARGIN IDCATEGORY="cozinhas" />
+    <STEPS />
+  </BUDGET>
+  <LAYER DESCRIPTION="$ROOTGROUP$" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <REFERENCE LARGURA_CHAPA="YYY" ALTURA_CHAPA="OOO" />
+  <VERSION>NS4zNS4x</VERSION>
+  <DRAWINGS>
+    <DRAWING ID="cubo">
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+      <FILE3D NAME="cozinhas\3d\cubo" />
+    </DRAWING>
+    <DRAWING ID="Vert_lado_int_ext">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Cozinhas\3D\cubo_v_lateral" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Vert_lado_int_ext_INV">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Cozinhas\3D\cubo_v_lateral_inv" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Horiz_int">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Cozinhas\3D\prateleira" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Vert_lado_int">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Cozinhas\3D\divisoria" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Porta_reta">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Cozinhas\3D\portas_frentes" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Vert_front_int">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\vert_front_interno" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Vert_front_int_ext">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\vert_fron_int_ext" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Vert_front_int_ext_INV">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\vert_fron_int_ext_inv" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Vert_front_int_ext_fundo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\vert_fron_int_ext_fundo" />
+      <DIMENSION WIDTH="400" HEIGHT="400" DEPTH="400" />
+    </DRAWING>
+    <DRAWING ID="Porta_lisa">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_lisa" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_almofada">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_almofada" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="22.5" />
+    </DRAWING>
+    <DRAWING ID="Porta_fresada">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_Fresada" />
+      <DIMENSION WIDTH="400" HEIGHT="680.1" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_colonial">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_colonial" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_bicolor">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_bicolor" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_cava">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_cava" />
+      <DIMENSION WIDTH="400.1" HEIGHT="680" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_cava_vert">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_cava_v" />
+      <DIMENSION WIDTH="400" HEIGHT="400.1" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_borda_aluminio">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_borda_aluminio" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Frente_gav_fresada">
+      <DIMENSION WIDTH="399.3" HEIGHT="169.7" DEPTH="20" />
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\frente_gav_fresada" />
+    </DRAWING>
+    <DRAWING ID="Frente_gav_colonial">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\frente_gav_colonial" />
+      <DIMENSION WIDTH="400" HEIGHT="170" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Frente_gav_almofada">
+      <DIMENSION WIDTH="400" HEIGHT="170" DEPTH="20" />
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\frente_gav_almofada" />
+    </DRAWING>
+    <DRAWING ID="Porta_vid_L2">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_lisa_2p" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_vid_R2">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_reta_2p" />
+      <DIMENSION WIDTH="400" HEIGHT="680" DEPTH="18" />
+    </DRAWING>
+    <DRAWING ID="Porta_vid_L4">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_lisa_4p" />
+      <DIMENSION WIDTH="400" HEIGHT="680.1" DEPTH="20" />
+    </DRAWING>
+    <DRAWING ID="Porta_vid_R4">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\cozinhas\3d\porta_reta_4p" />
+      <DIMENSION WIDTH="400" HEIGHT="680.1" DEPTH="18" />
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="coz_inf_2015" DEF="Inferiores NOVO.group" GUID="7ce5bcf6-1424-4122-a485-7058bb11ad92" />
+    <EXPLORERITEM TYPE="group" ID="coz_des_2015" DEF="Despenseiros NOVO.group" GUID="79c6569f-3a76-4f6f-adb1-13b14d53f136" />
+    <EXPLORERITEM TYPE="group" ID="coz_pen_2015" DEF="Peninsulas NOVO.group" GUID="e7e8b0bd-3346-4d1b-87f6-bbc3248395d8" />
+    <EXPLORERITEM TYPE="group" ID="coz_sup_baix_2015" DEF="Sup_Baixos NOVO.group" GUID="2f907f6b-d7fe-4016-b47e-fb882589d16b" />
+    <EXPLORERITEM TYPE="group" ID="coz_sup_med_2015" DEF="Sup_Medios NOVO.group" GUID="d9213965-9363-458a-8829-860badeb48c4" />
+    <EXPLORERITEM TYPE="group" ID="coz_sup_alt_2015" DEF="Sup_Altos NOVO.group" GUID="7e0b213e-6488-4b88-9123-2a329f1c9ed9" />
+    <EXPLORERITEM TYPE="group" ID="coz_tamp" DEF="Tamp_prat NOVO.group" GUID="f7998a02-58ef-4784-a307-d5320e3fbcbb" />
+    <EXPLORERITEM TYPE="group" ID="coz_com" DEF="Componentes novo.group" GUID="8fee6411-73a3-4cbe-8dfa-18fd56fcc54e" />
+    <EXPLORERITEM TYPE="group" ID="coz_por" DEF="Portas_frentes_novo.group" GUID="c2ea1256-bc9a-43cc-b578-dd81fd22d969" />
+    <EXPLORERITEM TYPE="group" ID="coz_cai_2015" DEF="caixas NOVO.group" GUID="825ff7d7-94fb-42ae-adc1-1757d99e3559" />
+    <EXPLORERITEM TYPE="group" ID="coz_compos_2015" DEF="Composicao NOVO.group" GUID="b8e06eb0-e2df-48c1-8fa5-2201d0086092" />
+    <EXPLORERITEM TYPE="group" ID="coz_for_tam_2015" DEF="Formato Tampos NOVO.group" GUID="ba749807-4b7d-44c7-8147-fb10e9984e4b" />
+    <EXPLORERITEM TYPE="group" ID="coz_ocultos" DEF="ocultos.group" GUID="169baa64-5971-4d2d-bd53-b7f6620c6494" />
+    <EXPLORERITEM TYPE="group" ID="coz_FL" DEF="fora_linha.group" GUID="456067ed-2db6-462d-80a0-a80b2bc8aaf0" />
+    <EXPLORERITEM TYPE="group" ID="coz_tamp_prat" DEF="Tampos_Prateleiras.group" GUID="3aa3451c-506c-4cd8-9b5f-abf433b09df7" />
+    <EXPLORERITEM TYPE="group" ID="coz_compon" DEF="Componentes.group" GUID="bbd82e7f-4750-4f9a-9810-8781fa9ca0a7" />
+    <EXPLORERITEM TYPE="group" ID="coz_for_tam" DEF="Formato Tampos.group" GUID="77f08305-3743-435f-8d56-26caceb4523b" />
+    <EXPLORERITEM TYPE="group" ID="coz_port_fre" DEF="Portas_Frentes.group" GUID="081b661d-7b9b-4f16-b796-a662c294a152" />
+    <EXPLORERITEM TYPE="group" ID="coz_cai" DEF="caixas.group" GUID="9d6ffb1e-9c65-4448-9319-b5dc97b56d34" />
+    <EXPLORERITEM TYPE="group" ID="coz_comp" DEF="composicao.group" GUID="2194b87b-da21-40d1-8301-1de7a07f7b49" />
+    <EXPLORERITEM TYPE="group" ID="coz_inf" DEF="Inferiores.group" GUID="24e2773a-fde7-4493-90ee-255692d723fb" />
+    <EXPLORERITEM TYPE="group" ID="coz_des" DEF="Despenseiros.group" GUID="e9655dfd-c3b1-45b7-9d06-0be954e33a26" />
+    <EXPLORERITEM TYPE="group" ID="coz_pen" DEF="Peninsulas.group" GUID="9b2f9840-7a98-460d-9941-fc93e2476894" />
+    <EXPLORERITEM TYPE="group" ID="coz_sup_baix" DEF="Sup_Baixos.group" GUID="3b38d08b-9b0e-4cf9-93ea-bb6a07206085" />
+    <EXPLORERITEM TYPE="group" ID="coz_sup_med" DEF="Sup_Medios.group" GUID="dfa94969-bae2-495c-b449-d3769bf390e8" />
+    <EXPLORERITEM TYPE="group" ID="coz_sup_alt" DEF="Sup_Altos.group" GUID="5690d8c2-97de-4d9d-b642-9127aee0dd94" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CanExportEntity" VALUE="TRUE" VISIBLE="N" />
+  </ATTRIBUTES>
+</GROUP>

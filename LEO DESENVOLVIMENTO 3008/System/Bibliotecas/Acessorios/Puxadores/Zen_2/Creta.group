@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Creta" NAME="Creta" PREFIXID="zen_cre_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cre_64_2" DEF="64mm.group" GUID="1e1b996b-2d4e-4be8-adc4-7327f341e1b3" />
+    <EXPLORERITEM TYPE="group" ID="zen_cre_192_2" DEF="192mm.group" GUID="f796ae86-2e04-42d4-8b78-39d5fd176120" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="CRETA_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CRETA_64MM" />
+      <DIMENSION WIDTH="72" HEIGHT="29" DEPTH="22.5" />
+      <LIMITS>
+        <MIN X="-36" Y="-22.47" Z="-14.5" />
+        <MAX X="36" Y="0" Z="14.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CRETA_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CRETA_192MM" />
+      <DIMENSION WIDTH="200" HEIGHT="29" DEPTH="22.5" />
+      <LIMITS>
+        <MIN X="-100" Y="-22.47" Z="-14.5" />
+        <MAX X="100" Y="0" Z="14.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

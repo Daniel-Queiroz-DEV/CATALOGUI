@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="VB 135mm p/ Prateleira" ICON="mini_fix_3.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="unif_15" />
+    <LIMITS>
+      <MIN X="-9" Y="-2" Z="-7" />
+      <MAX X="9" Y="9" Z="8" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="15">
+      <PONTO2DA X="9" Y="-1.99" />
+      <PONTO2DA X="9" />
+      <PONTO2DA X="-9" />
+      <PONTO2DA X="-9" Y="-1.99" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="18" HEIGHT="15" DEPTH="11" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="5" HEIGHT="14.5" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="18" HEIGHT="15" DEPTH="11" TEXT="TUFPRAT" />
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Ligador Excêntrico VB 135mm p/ Prateleira" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

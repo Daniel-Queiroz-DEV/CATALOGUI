@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Triangular" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_TRI.jpg">
+  <DRAWING>
+    <FILE3D NAME="Triangular" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="600" Y="-1000" A="-90" />
+      <PONTO2DA X="1000" Y="-600" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Triangular" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="@(#ESP_TAM#+#FOL_PAI#)" TEXT="">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

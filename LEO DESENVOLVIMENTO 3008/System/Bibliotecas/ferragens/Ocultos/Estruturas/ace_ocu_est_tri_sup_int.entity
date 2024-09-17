@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Trilho Superior Int">
+  <REFERENCE COMPLETE="CORTRIC" ITEM_BASE="CORTRIC" />
+  <INSERTDIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" TEXT="CORTRIC">
+    <MIN WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <MAX WIDTH="10000" HEIGHT="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trilho Superior Interno" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

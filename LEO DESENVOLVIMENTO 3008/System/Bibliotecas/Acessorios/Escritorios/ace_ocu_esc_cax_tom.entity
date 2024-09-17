@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Caixa de Tomada" CHECKED="N" ICON="02.jpg" MODELINVISIBLE="N" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="caixa_tomadas01" />
+    <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="60">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="140" HEIGHT="56.8" DEPTH="92.5" />
+    <LIMITS>
+      <MIN X="0" Y="-92.453" Z="0" />
+      <MAX X="140" Y="0" Z="2.642" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="ace_passa_cabo" ENTRYID="ACE" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$.$ACAB$" ITEM_BASE="$TEXT$" ACAB="@ACE_*(ACABAMENTO)@" COR="@ace_*(COR)@" />
+  <INSERTDIMENSION WIDTH="160" HEIGHT="55" DEPTH="90" TEXT="CXTMDA" ITEM_BASE="CXTMDA">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="400" DEPTH="400" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Caixa de Tomada $REFERENCE(COR)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

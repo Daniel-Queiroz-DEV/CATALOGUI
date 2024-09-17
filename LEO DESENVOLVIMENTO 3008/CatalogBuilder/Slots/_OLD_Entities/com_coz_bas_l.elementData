@@ -1,0 +1,136 @@
+{
+  "ElementId": "com_coz_bas_l",
+  "Slots": [
+    {
+      "Name": "Rasgo1",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "Y": "1000"
+      },
+      "End": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "OperationType": "Static",
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "Y": "$D$-(#FOL_TRA_GEN#+(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#)/2)"
+      },
+      "ElementId": "com_coz_bas_l",
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#' == 'Rasgo'&&'#RECORTE#'=='SIM'"
+      }
+    },
+    {
+      "Name": "Rasgo02",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Vertical",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "X": "(#FOL_TRA_GEN#+(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#)/2)"
+      },
+      "End": {
+        "X": "(#FOL_TRA_GEN#+(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#)/2)",
+        "Y": "$d$"
+      },
+      "OperationType": "Static",
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "(#FOL_TRA_GEN#+(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#)/2)"
+      },
+      "ElementId": "com_coz_bas_l",
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#' == 'Rasgo'"
+      }
+    },
+    {
+      "Name": "Rebaixo2",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Vertical",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "X": "(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#)/2"
+      },
+      "End": {
+        "X": "(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#)/2",
+        "Y": "$d$"
+      },
+      "OperationType": "Static",
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#)/2"
+      },
+      "ElementId": "com_coz_bas_l",
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#' == 'Rebaixo'"
+      }
+    },
+    {
+      "Name": "Rebaixo02",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "Y": "$d$-(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#)/2"
+      },
+      "End": {
+        "X": "$w$",
+        "Y": "$d$-(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#)/2"
+      },
+      "OperationType": "Static",
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 4,
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "Y": "$d$-(#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#)/2"
+      },
+      "ElementId": "com_coz_bas_l",
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#'=='Rebaixo'&&'#RECORTE#'=='SIM'"
+      }
+    }
+  ]
+}

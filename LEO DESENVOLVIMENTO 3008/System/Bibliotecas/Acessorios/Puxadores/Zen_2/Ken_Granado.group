@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ken_Granado" NAME="Ken Granado" PREFIXID="zen_ken_gra_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ken_gra_128_2" DEF="128mm.group" GUID="9f4ffe54-7c35-4c55-b7e8-03f6842356a2" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_gra_192_2" DEF="192mm.group" GUID="b2de684b-2d90-4e58-b092-da3d6396c829" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_gra_320_2" DEF="320mm.group" GUID="7b100145-368d-49d2-bf1a-966ed6903cd2" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_gra_416_2" DEF="416mm.group" GUID="9a3d45a1-daaa-4d01-ad58-6b25f5978b15" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_gra_640_2" DEF="640mm.group" GUID="1b385336-38da-4b8c-996a-3c5e8bdde33a" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="KEN_GRANADO_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_GRANADO_128MM" />
+      <DIMENSION WIDTH="148" HEIGHT="15.9" DEPTH="17.4" />
+      <LIMITS>
+        <MIN X="-74" Y="-17.401" Z="-11.101" />
+        <MAX X="74" Y="0" Z="4.824" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_GRANADO_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_GRANADO_192MM" />
+      <DIMENSION WIDTH="212" HEIGHT="16.2" DEPTH="17.1" />
+      <LIMITS>
+        <MIN X="-106" Y="-17.073" Z="-11.101" />
+        <MAX X="106" Y="0" Z="5.113" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_GRANADO_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_GRANADO_320MM" />
+      <DIMENSION WIDTH="340" HEIGHT="15.9" DEPTH="17.4" />
+      <LIMITS>
+        <MIN X="-170" Y="-17.401" Z="-11.101" />
+        <MAX X="170" Y="0" Z="4.824" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_GRANADO_416MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_GRANADO_416MM" />
+      <DIMENSION WIDTH="436" HEIGHT="15.9" DEPTH="17.4" />
+      <LIMITS>
+        <MIN X="-218" Y="-17.401" Z="-11.101" />
+        <MAX X="218" Y="0" Z="4.824" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_GRANADO_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_GRANADO_640MM" />
+      <DIMENSION WIDTH="660" HEIGHT="15.9" DEPTH="17.4" />
+      <LIMITS>
+        <MIN X="-330" Y="-17.401" Z="-11.101" />
+        <MAX X="330" Y="0" Z="4.824" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

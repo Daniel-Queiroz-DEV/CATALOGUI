@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto_Diamond" NAME="Ponto Diamond" PREFIXID="zen_mag_pon_dia_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_122" DEF="ZP1865_122.entity" GUID="695b61e0-daa8-40b0-b5cb-0c2a08d6280a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_123" DEF="ZP1865_123.entity" GUID="c3f2f74e-35a9-4618-afa3-1508050cdeea" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_909" DEF="ZP1865_909.entity" GUID="62faeb0e-ecf9-4330-b9eb-43e3cf4ca9bc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_936" DEF="ZP1865_936.entity" GUID="65f0eb28-8cb6-457b-8500-c6152f0d98d8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_939" DEF="ZP1865_939.entity" GUID="9c6069a1-5a18-47cb-a338-ed1234233368" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_951" DEF="ZP1865_951.entity" GUID="e0b51366-377c-4102-aa46-9851ac7a26ed" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_A01" DEF="ZP1865_A01.entity" GUID="4c85b0ad-6211-42c5-a8bb-04aee0f7d7f9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_F01" DEF="ZP1865_F01.entity" GUID="9a7ff0c9-31a0-42ac-a670-8f52add8c470" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_L01" DEF="ZP1865_L01.entity" GUID="a0575724-6f48-4e43-a8ad-6b4e45bb8908" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_B01" DEF="ZP1865_B01.entity" GUID="d136e3b2-8cda-474b-ad6b-4d225a623a1d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_G01" DEF="ZP1865_G01.entity" GUID="d77ba021-ce93-4843-814c-fbbd3934e2ad" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_M01" DEF="ZP1865_M01.entity" GUID="b914daad-6ce4-47f6-bce6-313f2a02a808" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWING ID="MAGNUM_PONTO_DIAMOND" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

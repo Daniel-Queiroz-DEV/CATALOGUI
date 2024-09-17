@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Carro Deslizador RO46" ICON="carro_des.JPG" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="carro_desliz" />
+    <LIMITS>
+      <MIN X="-45" Y="-3" Z="-0" />
+      <MAX X="45" Y="0" Z="39" />
+    </LIMITS>
+    <DIMENSION WIDTH="90" HEIGHT="46" DEPTH="13" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="90" HEIGHT="46" DEPTH="13" TEXT="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Carro Deslizador RO46 p/ Portas Deslizantes" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="aluminio_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

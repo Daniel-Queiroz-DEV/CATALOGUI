@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Metal Simples ($TEXT$)" ICON="metal_simples.jpg">
+  <DRAWING>
+    <FILE3D NAME="pe _met_simples" />
+    <DIMENSION WIDTH="720" HEIGHT="40" DEPTH="600" />
+  </DRAWING>
+  <INSERTINGPARAMETERS ORIENTATION="VERTICAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Metal Simples Mesas Lineares/Canto $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION DEPTH="#ESC_PRO_PES_LIN_MET#" WIDTH="700" HEIGHT="40" TEXT="PEACOS">
+    <MIN WIDTH="400" />
+    <MAX WIDTH="1200" />
+  </INSERTDIMENSION>
+</ENTITY>

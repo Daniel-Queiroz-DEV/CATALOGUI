@@ -1,0 +1,35 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "329,2212",
+        "Y": "350"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "ElementId": "com_coz_bas_cha_inf_2_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "56,45723",
+        "Y": "-27,5"
+      },
+      "DistanceFromShape": -27.5,
+      "DistanceFromElement": -27.5,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, -27,5",
+      "DirectionFromSecondElement": "0, -27,5",
+      "ElementId": "com_coz_bas_cha_inf_2_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_cha_inf_2_2"
+}

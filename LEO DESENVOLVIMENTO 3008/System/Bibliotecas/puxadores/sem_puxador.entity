@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY ICON="sem_puxador.JPG" NAME="Sem Puxador" INVISIBLE="Y" TYPE="ENTITY">
+  <DRAWING>
+    <LIMITS>
+      <MIN X="0" Y="-1" Z="0" />
+      <MAX X="1" Y="0" Z="1" />
+    </LIMITS>
+    <DIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" />
+  </DRAWING>
+  <REFERENCE COMPLETE="sem_puxador" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Sem Puxador" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

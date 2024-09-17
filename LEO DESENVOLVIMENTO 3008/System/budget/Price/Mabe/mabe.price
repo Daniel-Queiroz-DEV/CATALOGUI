@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER DESCRIPTION="Mabe Eletrodomésticos" ID="mabe">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DATABASE="%PastaPrice%\Mabe\mabe.mdb" ID="mabe" COLUMNPRICE="Price" SEARCHFIRSTPERSONALBASE="N" DESCRIPTION="Mabe Eletrodomésticos" CANMODIFY="N" COLUMNCODE="Code" TABLE="Prices" DLL="ProCAD.Precos.dll" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

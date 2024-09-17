@@ -1,0 +1,56 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$+20",
+            "Y": "$W$-#B#"
+          },
+          "End": {
+            "X": "#A#",
+            "Y": "$W$-#B#"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "#A#",
+            "Y": "$W$-#B#"
+          },
+          "End": {
+            "X": "#A#",
+            "Y": "-20"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "#A#",
+            "Y": "-20"
+          },
+          "End": {
+            "X": "#A#+0,01",
+            "Y": "-20"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "$H$+3"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "679aea2c-b5f5-4c74-8d23-d493b4eac8d6",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$+20",
+        "Y": "$W$-#B#"
+      },
+      "ElementId": "PAI_PAI_L_2"
+    }
+  ],
+  "ElementId": "PAI_PAI_L_2"
+}

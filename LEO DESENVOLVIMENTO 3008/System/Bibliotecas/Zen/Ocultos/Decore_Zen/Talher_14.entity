@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pegador" ICON="TALHER_14.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Pegador" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TALHER_14" />
+    <DIMENSION WIDTH="39.7" HEIGHT="24.7" DEPTH="209,9" />
+    <LIMITS>
+      <MIN X="0" Y="-209.93" Z="0" />
+      <MAX X="39.72" Y="0" Z="24.74" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_INOX" ID="DEC_INOX" EDIT="Y" IDMATERIAL="Inox_01" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

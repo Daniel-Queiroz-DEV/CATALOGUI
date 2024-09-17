@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="cabideiro_ext_1" Description="Cabideiros" Name="Cabideiro Extensível  " DimensionsFromEntity="Y">
+  <Dimension Width="$PW$" />
+  <Position X="0" Y="-$PD$/2+62.5" Z="$PH$-920" />
+  <Alternatives>
+    <Alternative EntityId="ACE_ARA_CAB_EXT" Id="Cab Ext 600-830">
+      <Conditions>
+        <And>
+          <TestExpression Expression="$PW$&gt;=600&amp;&amp;$PW$&lt;=830" />
+          <TestExpression Expression="$PH$&gt;=920" />
+        </And>
+      </Conditions>
+    </Alternative>
+    <Alternative EntityId="ACE_ARA_CAB_EXT_2" Id="Cab Ext 831-1200">
+      <Conditions>
+        <And>
+          <TestExpression Expression="$PW$&gt;=831&amp;&amp;$PW$&lt;=1200" />
+          <TestExpression Expression="$PH$&gt;=920" />
+        </And>
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="BUDGETAGGREGATE" Value="True" />
+    </Sets>
+  </Output>
+</Item>

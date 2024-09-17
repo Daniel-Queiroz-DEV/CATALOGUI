@@ -1,0 +1,38 @@
+{
+  "ElementId": "com_coz_gav_tra_blu_tan_tip",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "42,5",
+        "Y": "-40,5193"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_coz_gav_tra_blu_tan_tip"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "-35,8353",
+        "Y": "6,5"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_coz_gav_tra_blu_tan_tip"
+    }
+  ]
+}

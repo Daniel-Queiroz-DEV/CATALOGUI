@@ -1,0 +1,175 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "15",
+            "Y": "$D$-5"
+          },
+          "End": {
+            "X": "15",
+            "Y": "$D$+5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "15",
+            "Y": "$D$+5"
+          },
+          "End": {
+            "X": "$W$+5",
+            "Y": "$D$+5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$+5",
+            "Y": "$D$+5"
+          },
+          "End": {
+            "X": "$W$+5",
+            "Y": "-5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$+5",
+            "Y": "-5"
+          },
+          "End": {
+            "X": "-5",
+            "Y": "-5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-5",
+            "Y": "-5"
+          },
+          "End": {
+            "X": "-5",
+            "Y": "$D$+5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-5",
+            "Y": "$D$+5"
+          },
+          "End": {
+            "X": "25",
+            "Y": "$D$+5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "9"
+      },
+      "MachiningProcessIDText": "20f4c3ea-730c-4021-beba-7f166e5a273d",
+      "ID": "6f3c8368-fa6b-47d1-a2d8-33d3658a710a",
+      "UniqueID": 1,
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "15",
+        "Y": "$D$-5"
+      },
+      "ElementId": "ACE_PAL_USI_2_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "10",
+            "Y": "$D$-15"
+          },
+          "End": {
+            "X": "10",
+            "Y": "$D$-5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "10",
+            "Y": "$D$-5"
+          },
+          "End": {
+            "X": "$W$-5",
+            "Y": "$D$-5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-5",
+            "Y": "$D$-5"
+          },
+          "End": {
+            "X": "$W$-5",
+            "Y": "5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-5",
+            "Y": "5"
+          },
+          "End": {
+            "X": "5",
+            "Y": "5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "5",
+            "Y": "5"
+          },
+          "End": {
+            "X": "5",
+            "Y": "$D$-5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "5",
+            "Y": "$D$-5"
+          },
+          "End": {
+            "X": "20",
+            "Y": "$D$-5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "19"
+      },
+      "MachiningProcessIDText": "20f4c3ea-730c-4021-beba-7f166e5a273d",
+      "ID": "1a5b79ed-39b9-4087-ab18-4ec01ce8e278",
+      "UniqueID": 2,
+      "PlaneType": "Inferior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "10",
+        "Y": "$D$-15"
+      },
+      "ElementId": "ACE_PAL_USI_2_2"
+    }
+  ],
+  "ElementId": "ACE_PAL_USI_2_2"
+}

@@ -1,0 +1,67 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$+10",
+            "Y": "$D$/2-1"
+          },
+          "End": {
+            "X": "$W$+10",
+            "Y": "$D$/2"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$+10",
+            "Y": "$D$/2"
+          },
+          "End": {
+            "X": "$W$+5",
+            "Y": "$D$/2"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "2413ac87-66c1-4a43-a0b9-d8932f8b8189",
+      "ID": "86b2cd4d-01e3-486e-bd32-1f6e619ca319",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$+10",
+        "Y": "$D$/2-1"
+      },
+      "ElementId": "com_coz_circulo"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.CircularParametricMachining, Procad.Builder.Core",
+      "Diameter": {
+        "Value": "$W$+10"
+      },
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "6e6ca5a0-e9c5-4a45-80ed-f7c1eca8e4d9",
+      "ID": "30d85e52-3737-4b64-9bc1-81ffdbbc5911",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$/2",
+        "Y": "$D$/2"
+      },
+      "ElementId": "com_coz_circulo"
+    }
+  ],
+  "ElementId": "com_coz_circulo"
+}

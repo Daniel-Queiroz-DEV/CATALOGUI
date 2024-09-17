@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Kit de Sincronismo ($TEXT$)" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWING>
+    <FILE3D NAME="tubo" />
+    <DIMENSION WIDTH="251.7" HEIGHT="11" DEPTH="11" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="11" DEPTH="11" TEXT="31041531">
+    <MIN WIDTH="100" />
+    <MAX WIDTH="1200" />
+  </INSERTDIMENSION>
+  <BUDGET>
+    <MARGIN ACR_2="Kit_mov" ACRESCIMO="Kit_mov" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Kit de Sincronismo p/ Sistema Movento c/ TIP-ON" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

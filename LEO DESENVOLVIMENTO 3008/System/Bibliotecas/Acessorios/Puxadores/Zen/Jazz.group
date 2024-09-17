@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Jazz" DIRECTORY="Jazz" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_jaz_pon" DEF="Ponto.group" GUID="e425f910-a92f-4a86-8e58-ca655bc476f0" />
+    <EXPLORERITEM TYPE="group" ID="zen_jaz_96" DEF="96mm.group" GUID="0834c4b6-c337-49e3-9426-edd2b21ff7ff" />
+    <EXPLORERITEM TYPE="group" ID="zen_jaz_160" DEF="160mm.group" GUID="58a3d15d-a0a9-4538-8e90-905cc7a8357f" />
+    <EXPLORERITEM TYPE="group" ID="zen_jaz_288" DEF="288mm.group" GUID="6995c47e-2ddc-4135-b695-f641e73aa372" />
+    <EXPLORERITEM TYPE="group" ID="zen_jaz_352" DEF="352mm.group" GUID="7c5ba80f-d0c7-4561-9ffd-15146e5821bf" />
+    <EXPLORERITEM TYPE="group" ID="zen_jaz_448" DEF="448mm.group" GUID="288dc8f2-437f-4786-a12c-fb1a91747a1b" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="JAZZ_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_PONTO" />
+      <DIMENSION WIDTH="10" HEIGHT="70" DEPTH="19.8" />
+      <LIMITS>
+        <MIN X="-5" Y="-19.767" Z="-38.189" />
+        <MAX X="5" Y="0" Z="31.841" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_PONTO_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_PONTO_DIAMOND" />
+      <DIMENSION WIDTH="10" HEIGHT="70" DEPTH="21.3" />
+      <LIMITS>
+        <MIN X="-5" Y="-21.267" Z="-38.189" />
+        <MAX X="5" Y="0" Z="31.841" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_96MM" />
+      <DIMENSION WIDTH="154" HEIGHT="10" DEPTH="19.8" />
+      <LIMITS>
+        <MIN X="-77" Y="-19.767" Z="-5" />
+        <MAX X="77" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_96MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_96MM_DIAMOND" />
+      <DIMENSION WIDTH="154" HEIGHT="10" DEPTH="24.3" />
+      <LIMITS>
+        <MIN X="-77" Y="-24.267" Z="-5" />
+        <MAX X="77" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_160MM" />
+      <DIMENSION WIDTH="218" HEIGHT="10" DEPTH="19.8" />
+      <LIMITS>
+        <MIN X="-109" Y="-19.767" Z="-5" />
+        <MAX X="109" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_160MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_160MM_DIAMOND" />
+      <DIMENSION WIDTH="218" HEIGHT="10" DEPTH="24" />
+      <LIMITS>
+        <MIN X="-109" Y="-23.967" Z="-5" />
+        <MAX X="109" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_288MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_288MM" />
+      <DIMENSION WIDTH="346" HEIGHT="10" DEPTH="19.8" />
+      <LIMITS>
+        <MIN X="-173" Y="-19.767" Z="-5" />
+        <MAX X="173" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_288MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_288MM_DIAMOND" />
+      <DIMENSION WIDTH="346" HEIGHT="10" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-173" Y="-20.967" Z="-5" />
+        <MAX X="173" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_352MM" />
+      <DIMENSION WIDTH="410" HEIGHT="10" DEPTH="19.8" />
+      <LIMITS>
+        <MIN X="-205" Y="-19.767" Z="-5" />
+        <MAX X="205" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_352MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_352MM_DIAMOND" />
+      <DIMENSION WIDTH="410" HEIGHT="10" DEPTH="24" />
+      <LIMITS>
+        <MIN X="-205" Y="-23.967" Z="-5" />
+        <MAX X="205" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_448MM" />
+      <DIMENSION WIDTH="506" HEIGHT="10" DEPTH="19.8" />
+      <LIMITS>
+        <MIN X="-253" Y="-19.767" Z="-5" />
+        <MAX X="253" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="JAZZ_448MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\JAZZ_448MM_DIAMOND" />
+      <DIMENSION WIDTH="506" HEIGHT="10" DEPTH="24" />
+      <LIMITS>
+        <MIN X="-253" Y="-23.967" Z="-5" />
+        <MAX X="253" Y="0" Z="5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

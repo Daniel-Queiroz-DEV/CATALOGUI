@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold ($TEXT$.$D.ACAB$)" ICON="ElementoZenP.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_red_gol" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Elemento Zen P Red Gold - !find(entityid,zen_mod_for_per_*).#DESCRIPTION#!" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP5453" ACAB="F00" TEXT_PER_HOR_CEN="ZP5453" />
+</ENTITY>

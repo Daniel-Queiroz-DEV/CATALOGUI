@@ -1,0 +1,80 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37",
+          "Y": "$H$-80"
+        },
+        "ElementId": "Sta_Blu_HS_Acu"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-192",
+          "Y": "$H$-80"
+        },
+        "ElementId": "Sta_Blu_HS_Acu"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37",
+          "Y": "$H$-80"
+        },
+        "ElementId": "Sta_Blu_HS_Acu"
+      },
+      {
+        "Name": "Furação04",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+192",
+          "Y": "$H$-80"
+        },
+        "ElementId": "Sta_Blu_HS_Acu"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_HS_Acu"
+}

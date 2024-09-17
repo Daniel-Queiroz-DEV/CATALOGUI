@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="Lofra" DESCRIPTION="Lofra">
+  <SOURCES>
+    <SOURCE ID="BancoDados" CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" DATABASE="%PastaPrice%\Lofra\Lofra.mdb" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" CANMODIFY="Y" />
+  </SOURCES>
+</PRICEPROVIDER>

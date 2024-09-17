@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Timeless ($TEXT$)" ICON="timeless.jpg">
+  <INSERTDIMENSION TEXT="100.624" />
+  <DRAWING>
+    <FILE3D NAME="timeless-100624" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="195" HEIGHT="28" DEPTH="9" />
+    <LIMITS>
+      <MIN X="-97.5" Y="-28.624" Z="-4.5" />
+      <MAX X="97.492" Y="0" Z="5.014" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_160_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Timeless 160mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

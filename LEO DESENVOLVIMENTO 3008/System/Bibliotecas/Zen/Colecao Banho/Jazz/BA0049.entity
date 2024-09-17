@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cj Sab Líq e Pt Obj ($TEXT$)" ICON="BA0049.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_sab_liq_port_obj" />
+    <DIMENSION WIDTH="304" HEIGHT="119" DEPTH="113" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="304" HEIGHT="119" DEPTH="113" MODE="Nothing" TEXT="BA0049" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Conj Saboneteira Liquida e Porta Objetos @zen_jazz(DESCRICAO)@" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_preto_cromo_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_cromo_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_cromo_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0049" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

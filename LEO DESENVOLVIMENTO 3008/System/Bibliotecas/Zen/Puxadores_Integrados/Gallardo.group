@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Gallardo" NAME="Gallardo" PREFIXID="zen_pux_int_gal_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <DRAWINGS>
+    <DRAWING ID="GALLARDO_30mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Gallardo\3D\Gallardo_30mm" />
+      <DIMENSION WIDTH="35.5" HEIGHT="88" DEPTH="21.8" />
+      <LIMITS>
+        <MIN X="-17.75" Y="-21.835" Z="0" />
+        <MAX X="17.75" Y="0" Z="88.004" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GALLARDO_85mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Gallardo\3D\Gallardo_85mm" />
+      <LIMITS>
+        <MIN X="-45.25" Y="-21.835" Z="0" />
+        <MAX X="45.25" Y="0" Z="88.004" />
+      </LIMITS>
+      <DIMENSION WIDTH="90.5" HEIGHT="88" DEPTH="21.8" />
+    </DRAWING>
+    <DRAWING ID="GALLARDO_200mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Gallardo\3D\Gallardo_200mm" />
+      <LIMITS>
+        <MIN X="-102.75" Y="-21.835" Z="0" />
+        <MAX X="102.75" Y="0" Z="88.004" />
+      </LIMITS>
+      <DIMENSION WIDTH="205.5" HEIGHT="88" DEPTH="21.8" />
+    </DRAWING>
+    <DRAWING ID="GALLARDO_420mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Gallardo\3D\Gallardo_420mm" />
+      <LIMITS>
+        <MIN X="-212.75" Y="-21.835" Z="0" />
+        <MAX X="212.75" Y="0" Z="88.004" />
+      </LIMITS>
+      <DIMENSION WIDTH="425.5" HEIGHT="88" DEPTH="21.8" />
+    </DRAWING>
+    <DRAWING ID="GALLARDO_640mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Gallardo\3D\Gallardo_640mm" />
+      <LIMITS>
+        <MIN X="-322.75" Y="-21.835" Z="0" />
+        <MAX X="322.75" Y="0" Z="88.004" />
+      </LIMITS>
+      <DIMENSION WIDTH="645.5" HEIGHT="88" DEPTH="21.8" />
+    </DRAWING>
+  </DRAWINGS>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_gal_30" DEF="30mm.group" GUID="632a8a2c-60d0-4667-84ca-b8f070866f46" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_gal_85" DEF="85mm.group" GUID="44ecd485-2733-485a-b9af-13deb040c494" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_gal_200" DEF="200mm.group" GUID="5d2690ef-16ef-4bd0-9476-a4f52304b1da" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_gal_420" DEF="420mm.group" GUID="74bbac93-a4d0-46c4-9cb9-b5fb139fc7d1" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_gal_640" DEF="640mm.group" GUID="57cc17ac-3100-404c-85bc-9b51eaf603ea" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

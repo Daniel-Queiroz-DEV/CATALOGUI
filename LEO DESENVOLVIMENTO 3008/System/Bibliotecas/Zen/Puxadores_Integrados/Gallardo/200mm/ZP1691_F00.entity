@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Red Gold ($TEXT$.$D.ACAB$)" ICON="Gallardo.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Gallardo 200mm Alumínio Red Gold com ponteiras Red Gold" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1691" ACAB="F00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="Zen_red_gol" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_red_gol" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

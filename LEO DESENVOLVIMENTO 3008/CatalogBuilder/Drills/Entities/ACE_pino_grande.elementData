@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ACE_pino_grande" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo13"
+          ReceiverDepth="#PIN_GRA_PRAT_PROF#"
+          UniqueID="0"
+          ElementId="ACE_pino_grande"
+          PlaneIndex="2"
+          Position="4;3" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

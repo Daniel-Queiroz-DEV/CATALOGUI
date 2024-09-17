@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sup Transv. Central">
+  <DRAWING>
+    <FILE3D NAME="divisor longitudinal - zc7u10f0" />
+    <DIMENSION WIDTH="11" HEIGHT="12" DEPTH="51.2" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="11" HEIGHT="12" DEPTH="80" TEXT="" />
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" VOLUME="VOLFER" FERRAGEM="SIM" MODEL="@Blu_Legrabox_Ambialine@" ACAB="@Blu_Legrabox_Ambialine*(ACABAMENTO6)@" DESC="$D.DESC$" />
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox_Ambialine" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Sup Transversal Central $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

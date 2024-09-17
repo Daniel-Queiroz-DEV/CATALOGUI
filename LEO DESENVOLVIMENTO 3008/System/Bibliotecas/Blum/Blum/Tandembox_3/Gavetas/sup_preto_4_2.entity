@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Suporte Frontal p/ Legrabox C Esq e Dir Desenho" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="389" HEIGHT="177" DEPTH="25" TEXT="" DESC="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="10000" />
+  </INSERTDIMENSION>
+  <DRAWING>
+    <FILE3D NAME="supesqdir2_2" />
+    <DIMENSION WIDTH="606" HEIGHT="177" DEPTH="25" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" DESC="$D.DESC$" MODEL="@Blu_Legrabox*@" ACAB="@Blu_Legrabox(ACABAMENTO)@" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Suporte Frontal p/ Legrabox Esq e Dir $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

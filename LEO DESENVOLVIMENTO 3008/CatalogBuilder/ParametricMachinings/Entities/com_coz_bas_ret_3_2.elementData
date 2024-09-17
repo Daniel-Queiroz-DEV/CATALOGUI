@@ -1,0 +1,68 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "-5",
+            "Y": "49.5"
+          },
+          "End": {
+            "X": "47.5",
+            "Y": "49.5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "47.5",
+            "Y": "49.5"
+          },
+          "End": {
+            "X": "47.5",
+            "Y": "-5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "16"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "-5",
+        "Y": "49.5"
+      },
+      "ElementId": "com_coz_bas_ret_3_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "47.5"
+      },
+      "Height": {
+        "Value": "49.5"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "MachiningOperationType": "Interior",
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "16"
+      },
+      "OperationType": "Static",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "Position": {
+        "X": "0",
+        "Y": "0"
+      },
+      "ElementId": "com_coz_bas_ret_3_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_ret_3_2"
+}

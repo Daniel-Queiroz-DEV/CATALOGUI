@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Furo p/ Painel Estrado" ICON="ace_ocu_pe_1289.jpg">
+  <DRAWING>
+    <FILE3D NAME="furo_pai_est" />
+    <DIMENSION WIDTH="50" HEIGHT="0.1" DEPTH="50" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="#DOR_CAM_DIA_FUR_PAI#" HEIGHT="0.1" DEPTH="#DOR_CAM_DIA_FUR_PAI#" TEXT=" ">
+    <MIN WIDTH="1" DEPTH="1" />
+    <MAX WIDTH="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+</ENTITY>

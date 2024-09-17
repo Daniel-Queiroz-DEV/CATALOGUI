@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Espia_Couro" NAME="c/ Espia de Couro" PREFIXID="zen_urb_pon_esp_cou_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_648_2" DEF="ZP1803_648.entity" GUID="e684c5cb-197a-413d-8550-e7a8d816bfed" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_2" DEF="ZP1803_102.entity" GUID="03702390-7a76-4cae-8de0-e964e15270d5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_599_2" DEF="ZP1803_599.entity" GUID="30e42cc1-da8c-4012-b399-934c75528c48" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_955_2" DEF="ZP1803_955.entity" GUID="bc8ce8ea-f844-448b-96e5-816f20986be5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_A00_2" DEF="ZP1803_A00.entity" GUID="a60e798b-9ea4-40a6-8fa3-effb10721425" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_B00_2" DEF="ZP1803_B00.entity" GUID="b5edb60d-0d3b-40fb-a670-34665e212c07" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_F00_2" DEF="ZP1803_F00.entity" GUID="8cc7e3c1-79e5-466f-ad2b-5c54ffa4a210" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_G00_2" DEF="ZP1803_G00.entity" GUID="1700a87b-bdcf-48b3-bd0a-ec9bdc504a1a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_L00_2" DEF="ZP1803_L00.entity" GUID="cedf8e23-b505-4f5d-bb09-3ed63f3c4afb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_urb_102_M00_2" DEF="ZP1803_M00.entity" GUID="ff944407-7fdb-4034-99e9-c776fc208c8e" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="URBAN_PONTO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Urban.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

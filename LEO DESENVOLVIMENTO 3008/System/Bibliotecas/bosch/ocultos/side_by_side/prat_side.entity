@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prateleira SIDe 1" ICON="PRAT_SIDE.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Prateleira SIDe-by-sIDe 1" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PRAT_SIDE" />
+    <DIMENSION WIDTH="415" HEIGHT="100" DEPTH="599" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

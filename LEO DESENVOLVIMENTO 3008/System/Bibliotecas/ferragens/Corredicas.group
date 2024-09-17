@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Corredicas" NAME="Corrediças" PREFIXID="ace_cor_" INVISIBLE="Y" MODELNAME="Corrediças" DESCRIPTION="" MODELINVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <BUDGET>
+    <STEPS />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples" DEF="simples.entity" GUID="0fd3aca2-7d02-487b-b68a-1e6d70710ee8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_4" DEF="simples_4.entity" GUID="da759cb0-51c5-43ce-90c3-73f83057ac6b" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_4_2" DEF="simples_4_2.entity" GUID="1b7246b6-9fbb-4a10-a3a8-d32a59349269" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_nao_orca" DEF="simples_4_2_2.entity" GUID="02ddb568-3dc0-4c8d-a321-ea6b500834a3" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_nao_orca_2" DEF="simples_4_2_2_2.entity" GUID="e7addc65-488d-4a01-bbe5-0ff85a8b66a6" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_3" DEF="simples_3.entity" GUID="5d54d75d-4c29-4133-b0e7-aa04712a571e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_2" DEF="simples_2.entity" GUID="f2818e27-6e2f-4fc9-98a7-bbd9266e4e4b" />
+    <EXPLORERITEM TYPE="entity" ID="ace_cor_simples_2_2" DEF="simples_2_2.entity" GUID="18abd2a0-a6c3-4955-8dc5-67eeb4383552" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_cor_sim" DEF="ace_ocu_cor_sim.entity" GUID="c6995135-5312-4037-b7a6-0665f9690861" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_tot_tri_cbl_2" DEF="sta_blu_tan_tot_tri_cbl.entity" GUID="7b2b589e-0cd1-449c-839f-19a20b252b55" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_tot_tri_tip_2" DEF="sta_blu_tan_tot_tri_tip.entity" GUID="6a0dcf70-5c7d-4a22-9eec-03e8dfd11f01" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

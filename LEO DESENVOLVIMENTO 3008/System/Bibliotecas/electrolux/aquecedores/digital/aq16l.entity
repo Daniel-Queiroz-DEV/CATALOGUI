@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="AQ16L/N" ICON="AQ16L.png">
+  <DRAWING>
+    <FILE3D NAME="%PastaSistema%\Bibliotecas\Electrolux\aquecedores\digital\aq16l" />
+    <DIMENSION WIDTH="330" HEIGHT="550" DEPTH="140" />
+    <LIMITS>
+      <MIN X="0" Y="-140" Z="0" />
+      <MAX X="330" Y="0" Z="550" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Aquecedor de Água (AQ16L/N)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="ele_gas2" />
+  </MODELS>
+  <REFERENCE COMPLETE="EXCEÇÃO DE REFERENCIA">
+    <MODEL MODELID="ele_gas2" MODELTYPEID="ModeloTipo50056302" COMPLETE="AQ16L" />
+    <MODEL MODELID="ele_gas2" MODELTYPEID="ModeloTipo5690313" COMPLETE="AQ16N" />
+  </REFERENCE>
+  <INSERTDIMENSION WIDTH="330" HEIGHT="550" DEPTH="140" TEXT="AQ16L/N" />
+</ENTITY>

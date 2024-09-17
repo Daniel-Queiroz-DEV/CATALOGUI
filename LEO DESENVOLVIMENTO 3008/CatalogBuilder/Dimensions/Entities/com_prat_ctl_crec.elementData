@@ -1,0 +1,72 @@
+{
+  "ElementId": "com_prat_ctl_crec",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 6,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "1069,719",
+        "Y": "725"
+      },
+      "Edge": 5,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ShowInLabel": true,
+      "ElementId": "com_prat_ctl_crec"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "275",
+        "Y": "-97,6369"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ShowInLabel": true,
+      "ElementId": "com_prat_ctl_crec"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 0,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "40,44321",
+        "Y": "1083,656"
+      },
+      "Edge": 7,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 3,
+      "ShowInLabel": true,
+      "ElementId": "com_prat_ctl_crec"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 7,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "-89,4737",
+        "Y": "950"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 2,
+      "ShowInLabel": true,
+      "ElementId": "com_prat_ctl_crec"
+    }
+  ]
+}

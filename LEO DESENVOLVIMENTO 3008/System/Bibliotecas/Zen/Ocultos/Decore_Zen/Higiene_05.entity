@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sabonete" ICON="HIGIENE_05.jpg">
+  <DRAWING>
+    <FILE3D NAME="HIGIENE_05" />
+    <DIMENSION WIDTH="65" HEIGHT="15" DEPTH="45,0" />
+    <LIMITS>
+      <MIN X="0" Y="-45" Z="0" />
+      <MAX X="65" Y="0" Z="15" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Sabonete" VISIBLE="N" />
+    
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_SABONETE" NAME="DEC_SABONETE" IDMATERIAL="cin_cor_000" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

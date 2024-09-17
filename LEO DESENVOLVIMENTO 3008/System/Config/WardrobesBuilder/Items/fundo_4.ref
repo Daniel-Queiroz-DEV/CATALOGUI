@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="fundo" Description="Fundo" Type="Bottom" Visible="N">
+  <Dimension Depth="$P.W$+2*(#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#)-2*#DOR_ARM_FOL_FUN_LAT_BAL#" Height="(#DOR_ARM_DES_SPOR_ESP_FUN#+#FOL_PAI#)" Width="$PH$+2*(#DOR_ARM_DES_SPOR_ESP_BAS#+#FOL_PAI#)-#DOR_ARM_FOL_FUN_SUP_BAL#-#DOR_ARM_FOL_FUN_INF_BAL#" />
+  <Position X="$D$-(#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#)+#DOR_ARM_FOL_FUN_LAT_BAL#" Y="-(#DOR_ARM_DES_SPOR_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#" Z="#DOR_ARM_FOL_FUN_INF_BAL#-(#DOR_ARM_DES_SPOR_ESP_BAS#+#FOL_PAI#)" Rotation="180">
+    <Normal A="0" B="1" C="0" />
+  </Position>
+  <Actions>
+    <ResizeItem Side="Right" Value="#DOR_ARM_FOL_FUN_LAT_BAL#-(#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#)+(#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#)-(#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#)/2-#DOR_ARM_FOL_FUN_MON_BAL#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="fundo" Side="Right" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Value="#DOR_ARM_FOL_FUN_LAT_BAL#-(#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#)+(#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#)-(#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#)/2-#DOR_ARM_FOL_FUN_MON_BAL#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="fundo" Side="Left" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Bottom" Value="#DOR_ARM_FOL_FUN_INF_BAL#-(#DOR_ARM_DES_SPOR_ESP_PRA_FIX#+#FOL_PAI#)/2-#DOR_ARM_FOL_FUN_MON_BAL#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="fundo" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="#DOR_ARM_FOL_FUN_SUP_BAL#-(#DOR_ARM_DES_SPOR_ESP_PRA_FIX#+#FOL_PAI#)/2-#DOR_ARM_FOL_FUN_MON_BAL#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemId="fundo" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Alternatives>
+    <Alternative EntityId="com_con_fun_fun" Id="item">
+      <Conditions>
+        <TestExpression Expression="#DOR_ARM_FUN_MOD#== 'SIM'" />
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <AutoFunction Enabled="Y">
+    <JointDivisions>
+      <JointDivision Id="com_prat_inv" />
+      <JointDivision Id="com_prat_movel_crecuo" />
+      <JointDivision Id="com_prat_movel_srecuo" />
+      <JointDivision Id="div_srasgo_crecuo" />
+      <JointDivision Id="div_srasgo_srecuo" />
+      <JointDivision Id="com_prat_fixa_srasgo_crecuo" />
+      <JointDivision Id="com_prat_fixa_srasgo_srecuo" />
+      <JointDivision Id="com_prat_fixa_srasgo_crecuo_4_led" />
+      <JointDivision Id="com_prat_fixa_srasgo_crecuo_led" />
+    </JointDivisions>
+  </AutoFunction>
+  <Output>
+    <Sets>
+      <SetAttribute Id="Movivel" Value="False" />
+      <SetAttribute Id="Caneditdimension" Value="False" />
+      <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_FUN_FT_FRONTAL#" />
+      <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_FUN_FT_TRASEIRA#" />
+      <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_FUN_FT_DIR#" />
+      <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_FUN_FT_ESQ#" />
+      <SetAttribute Id="FOL_RASGO_PROF_GEN" Value="#DOR_ARM_FOL_RASGO_PROF#" />
+      <SetAttribute Id="FOL_RASGO_LARG_GEN" Value="#DOR_ARM_FOL_RASGO_LARG#" />
+      <SetAttribute Id="VOLUME" Value="SV" />
+    </Sets>
+  </Output>
+</Item>

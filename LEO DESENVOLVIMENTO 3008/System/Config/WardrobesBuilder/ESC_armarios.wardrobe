@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Wardrobe AllowJoints="Y" Description="Armários s/ Rodapés" Preview="%WardrobesBuilderFolder%\Escritorios\Imagens\armarios.png" TabCategory="Escritórios" Visible="N" OrderCatalog="1">
+  <Dimension Depth="#ESC_ALT_MOD_ARM_PROF#" Height="#ESC_ALT_MOD_ARM_ALT#" Width="500">
+    <Max Depth="1800" Height="2700" Width="1800" />
+    <Min Depth="300" Height="100" Width="100" />
+  </Dimension>
+  <ComponentConcurrences>
+    <Concurrence>
+      <Concurrent Id="pe_01" />
+      <Concurrent Id="rod_01" />
+      <Concurrent Id="rod_fre_01" />
+    </Concurrence>
+    <Concurrence>
+      <Concurrent Id="pe_02" />
+      <Concurrent Id="rod_02" />
+      <Concurrent Id="rod_fre_02" />
+    </Concurrence>
+    <Concurrence>
+      <Concurrent Id="pe_03" />
+      <Concurrent Id="rod_03" />
+      <Concurrent Id="rod_fre_03" />
+    </Concurrence>
+    <Concurrence>
+      <Concurrent Id="pe_04" />
+      <Concurrent Id="rod_04" />
+      <Concurrent Id="rod_fre_04" />
+    </Concurrence>
+    <Concurrence Exclusive="Y">
+      <Concurrent Id="lat_esq" />
+      <Concurrent Id="lat_esq_fec" />
+    </Concurrence>
+    <Concurrence Exclusive="Y">
+      <Concurrent Id="lateral_dir" />
+      <Concurrent Id="lateral_dir_fec" />
+    </Concurrence>
+  </ComponentConcurrences>
+  <Components>
+    <LeftLateral EntityId="com_coz_lat_cons_arm_gir_srod" Id="lat_esq" Name="Lateral Esquerda $W$mm" Type="Default">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:$PD$)" Height="(#ESC_ESP_LAT#+#FOL_PAI#)" Width="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_LAT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_LAT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_LAT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_LAT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="(#ESC_ESP_LAT#+#FOL_PAI#)" Y="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:0)" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </LeftLateral>
+    <LeftLateral EntityId="com_coz_lat_fec_int" Id="lat_esq_fec" Name="Lateral Esquerda p/ Fec $W$mm" Type="Optional">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:$PD$)" Height="(#ESC_ESP_LAT#+#FOL_PAI#)" Width="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_LAT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_LAT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_LAT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_LAT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="(#ESC_ESP_LAT#+#FOL_PAI#)" Y="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:0)" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </LeftLateral>
+    <RightLateral EntityId="com_coz_lat_cons_arm_gir_srod" Id="lateral_dir" Inverted="Y" Name="Lateral Direita $W$mm" Type="Default">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:$PD$)" Height="(#ESC_ESP_LAT#+#FOL_PAI#)" Width="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_LAT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_LAT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_LAT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_LAT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-$H$" Y="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:0)" Z="$P.H$">
+        <Normal A="1" B="0" C="0" />
+      </Position>
+    </RightLateral>
+    <RightLateral EntityId="com_coz_lat_fec_int" Id="lateral_dir_fec" Inverted="Y" Name="Lateral Direita p/ Fec $W$mm" Type="Optional">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:$PD$)" Height="(#ESC_ESP_LAT#+#FOL_PAI#)" Width="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_LAT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_LAT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_LAT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_LAT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-$H$" Y="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#:0)" Z="$P.H$">
+        <Normal A="1" B="0" C="0" />
+      </Position>
+    </RightLateral>
+    <Divider SeparatesBases="N" EntityId="com_coz_mon_div" Id="div" Name="Divisória $W$mm">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2: #ESC_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2 :$PD$)" Height="(#ESC_ESP_MON#+#FOL_PAI#)" Width="$PH$-(#ESC_ESP_BAS#+#FOL_PAI#)-(#ESC_ESP_BAS_SUP#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_DIV_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_DIV_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_DIV_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_DIV_FT_ESQ#" />
+          <SetAttribute Id="ESP_MON" Value="##ESC_ESP_MON#+#FOL_PAI##" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$H$" Y="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2 : #ESC_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2 :0)" Z="(#ESC_ESP_BAS#+#FOL_PAI#)" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </Divider>
+    <Divider EntityId="com_coz_mon_div" Id="div2" Name="Divisória $W$mm">
+      <CuttingLimits Max="$H$" Min="$H$" />
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2: #ESC_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2 :$PD$)" Height="(#ESC_ESP_MON#+#FOL_PAI#)" Width="$PH$-(#ESC_ESP_BAS#+#FOL_PAI#)-(#ESC_ESP_BAS_SUP#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_DIV_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_DIV_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_DIV_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_DIV_FT_ESQ#" />
+          <SetAttribute Id="ESP_MON" Value="##ESC_ESP_MON#+#FOL_PAI##" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$H$" Y="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2 : #ESC_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV#-#ESC_ARM_FOL_RASGO_LARG#/2 :0)" Z="(#ESC_ESP_BAS#+#FOL_PAI#)" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </Divider>
+    <LowerBase EntityId="com_coz_bas_ret_sfix" Id="base_inf" Name="Base Inferior $H$mm">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_BAS#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV# : $PD$)" Height="(#ESC_ESP_BAS#+#FOL_PAI#)" Width="$P.W$-2*(#ESC_ESP_LAT#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_BAS_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_BAS_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_BAS_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_BAS_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$/2-$W$/2" Y="@('#ESC_ARM_REC_TRA_BAS#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV# : 0)" />
+    </LowerBase>
+    <UpperBase EntityId="com_coz_bas_ret_sfix" Id="base_sup" Inverted="Y" Name="Base Superior $H$mm">
+      <Dimension Depth="@('#ESC_ARM_REC_TRA_BAS#' == 'SIM' ? $PD$-(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV# : $PD$)" Height="(#ESC_ESP_BAS_SUP#+#FOL_PAI#)" Width="$P.W$-2*(#ESC_ESP_LAT#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_BAS_SUP_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_BAS_SUP_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_BAS_SUP_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_BAS_SUP_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-(#ESC_ESP_LAT#+#FOL_PAI#)" Y="@('#ESC_ARM_REC_TRA_BAS#' == 'SIM' ? -(#ESC_ESP_FUN#+#FOL_PAI#)-#ESC_ARM_AFA_FUN_MOV# : 0)" Z="$P.H$">
+        <Normal A="0" B="0" C="-1" />
+      </Position>
+    </UpperBase>
+    <Finishing Generic="N" Category="Pés Plásticos" EditableDimension="Height" EditableDimensionValue="150" EntityId="ACE_PE_COZ" Id="pe_01" Name="Posição 01" Type="Optional">
+      <Dimension />
+      <Position X="(#ESC_ESP_ROD#+#FOL_PAI#)+#PE_FOLGA#" Y="-$pd$+$d$+(#ESC_ESP_ROD#+#FOL_PAI#)+#PE_FOLGA#+#ROD_RECUO#" Z="-$H$" />
+    </Finishing>
+    <Finishing Generic="N" Category="Pés Plásticos" EditableDimension="Height" EditableDimensionValue="150" EntityId="ACE_PE_COZ" Id="pe_02" Name="Posição 02" Type="Optional">
+      <Dimension />
+      <Position X="$pw$-(#ESC_ESP_ROD#+#FOL_PAI#)-#PE_FOLGA#-$w$" Y="-$pd$+$d$+(#ESC_ESP_ROD#+#FOL_PAI#)+#PE_FOLGA#+#ROD_RECUO#" Z="-$H$" />
+    </Finishing>
+    <Finishing Generic="N" Category="Pés Plásticos" EditableDimension="Height" EditableDimensionValue="150" EntityId="ACE_PE_COZ" Id="pe_03" Name="Posição 03" Type="Optional">
+      <Dimension />
+      <Position X="$pw$-(#ESC_ESP_ROD#+#FOL_PAI#)-#PE_FOLGA#-$w$" Y="-$d$-(#ESC_ESP_ROD#+#FOL_PAI#)-#PE_FOLGA#" Z="-$H$" />
+    </Finishing>
+    <Finishing Generic="N" Category="Pés Plásticos" EditableDimension="Height" EditableDimensionValue="150" EntityId="ACE_PE_COZ" Id="pe_04" Name="Posição 04" Type="Optional">
+      <Dimension />
+      <Position X="(#ESC_ESP_ROD#+#FOL_PAI#)+#PE_FOLGA#" Y="-$d$-(#ESC_ESP_ROD#+#FOL_PAI#)-#PE_FOLGA#" Z="-$H$" />
+    </Finishing>
+    <Finishing Category="Fechamentos" EditableDimension="Width" EditableDimensionValue="50" EntityId="COZ_CAI_SUP_FECH" Id="fechamento_esq" Name="Esquerdo" Type="Optional">
+      <Dimension Depth="$P.D$" Height="$P.H$" />
+      <Position X="-$W$" />
+    </Finishing>
+    <Finishing Category="Fechamentos" EditableDimension="Width" EditableDimensionValue="50" EntityId="COZ_CAI_SUP_FECH" Id="fechamento_dir" Name="Direito" Type="Optional">
+      <Dimension Depth="$P.D$" Height="$P.H$" />
+      <Position X="$P.W$" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios c/ Freio" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_fre" Id="rod_fre_01" Name="Posição 01" Type="Optional">
+      <Dimension />
+      <Position X="$W$+(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$pd$+(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios c/ Freio" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_fre" Id="rod_fre_02" Name="Posição 02" Type="Optional">
+      <Dimension />
+      <Position X="$pw$-(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$pd$+(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios c/ Freio" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_fre" Id="rod_fre_03" Name="Posição 03" Type="Optional">
+      <Dimension />
+      <Position X="$pw$-(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$d$-(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios c/ Freio" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_fre" Id="rod_fre_04" Name="Posição 04" Type="Optional">
+      <Dimension />
+      <Position X="$W$+(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$d$-(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_rod" Id="rod_01" Name="Posição 01" Type="Optional">
+      <Dimension />
+      <Position X="$W$+(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$pd$+(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_rod" Id="rod_02" Name="Posição 02" Type="Optional">
+      <Dimension />
+      <Position X="$pw$-(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$pd$+(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_rod" Id="rod_03" Name="Posição 03" Type="Optional">
+      <Dimension />
+      <Position X="$pw$-(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$d$-(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Generic="N" Category="Rodizios" EditableDimension="Height" EditableDimensionValue="78" EntityId="fer_rod_rod" Id="rod_04" Name="Posição 04" Type="Optional">
+      <Dimension />
+      <Position X="$W$+(#ESC_ESP_LAT#+#FOL_PAI#)" Y="-$d$-(#ESC_ESP_LAT#+#FOL_PAI#)" Z="-$H$" Rotation="180" />
+    </Finishing>
+    <Finishing Category="Vista" EditableDimension="Depth" EditableDimensionValue="150" EntityId="com_coz_div_vis" Id="vista_frontal" Name="Frontal" Type="Optional">
+      <Dimension Height="(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" Width="$P.W$+[fechamento_esq.CEDV]+[fechamento_dir.CEDV]" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_VIS_SUP_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_VIS_SUP_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_VIS_SUP_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_VIS_SUP_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="-[fechamento_esq.CEDV]" Y="-$PD$+(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" Z="$P.H$+$D$" Rotation="90">
+        <Normal A="0" B="-1" C="0" />
+      </Position>
+    </Finishing>
+    <Finishing Category="Vista" EditableDimension="Depth" EditableDimensionValue="150" EntityId="com_coz_div_vis" Id="vista_esquerdo" Name="Esquerdo" Type="Optional">
+      <Dimension Height="(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" Width="$P.D$-(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_VIS_SUP_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_VIS_SUP_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_VIS_SUP_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_VIS_SUP_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="-[fechamento_esq.CEDV]+(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" Z="$P.H$+$D$" Rotation="90">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </Finishing>
+    <Finishing Category="Vista" EditableDimension="Depth" EditableDimensionValue="150" EntityId="com_coz_div_vis" Id="vista_direito" Name="Direito" Type="Optional">
+      <Dimension Height="(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" Width="$P.D$-(#ESC_ESP_VIS_FEC_SUP#+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_VIS_SUP_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_VIS_SUP_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#ESC_VIS_SUP_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_VIS_SUP_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$pw$+[fechamento_dir.CEDV]" Z="$P.H$+$D$" Rotation="90">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </Finishing>
+  </Components>
+  <DefaultProperties Multiplicity="1">
+    <Dimension Depth="#ESC_ALT_MOD_ARM_PROF#" Height="#ESC_ALT_MOD_ARM_ALT#" Width="500" />
+  </DefaultProperties>
+  <Divisions>
+    <Ref File="Divisions\com_prat_movel_crecuo_8.ref" />
+    <Ref File="Divisions\com_prat_movel_srecuo_7.ref" />
+    <Ref File="Divisions\com_prat_inv_3.ref" />
+    <Ref File="Divisions\com_prat_fixa_srasgo_crecuo_7.ref" />
+    <Ref File="Divisions\com_prat_srasgo_srecuo_4.ref" />
+    <Ref File="Divisions\com_prat_fixa_crasgo_crecuo_5.ref" />
+    <Ref File="Divisions\com_prat_crasgo_srecuo_5.ref" />
+    <Ref File="Divisions\div_srasgo_crecuo_7.ref" />
+    <Ref File="Divisions\div_srasgo_srecuo_7.ref" />
+    <Ref File="Divisions\div_crasgo_crecuo_7.ref" />
+    <Ref File="Divisions\div_crasgo_srecuo_7.ref" />
+    <Ref File="Divisions\div_srasgo_crecuo_esq.ref" />
+    <Ref File="Divisions\div_srasgo_crecuo_dir.ref" />
+  </Divisions>
+  <Items>
+    <Ref File="Items\frente_ambas_armarios.ref" />
+    <Ref File="Items\frente_esq_armarios.ref" />
+    <Ref File="Items\frente_dir_armarios.ref" />
+    <Ref File="Items\frente_int_armarios.ref" />
+    <Ref File="Items\frente_int_armarios_livre.ref" />
+    <Ref File="Items\gaveta_ext.ref" />
+    <Ref File="Items\gaveta_int.ref" />
+    <Ref File="Items\gaveta_pasta.ref" />
+    <Ref File="Items\fundo_8.ref" />
+    <Ref File="Items\travessa_sup_1.ref" />
+    <Ref File="Items\travessa_interm_1.ref" />
+  </Items>
+  <Output>
+    <Sets>
+      <SetAttribute Id="FIX_GEN_1" Value="#ESC_FIX_1#" />
+      <SetAttribute Id="FIX_GEN_2" Value="#ESC_FIX_2#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_1" Value="#ESC_MED_MAX_FIX_QUA_1#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_2" Value="#ESC_MED_MAX_FIX_QUA_2#" />
+      <SetAttribute Id="ESP_FUN_GEN" Value="#ESC_ESP_FUN#" />
+      <SetAttribute Id="FOL_RASGO_PROF_GEN" Value="#ESC_FOL_RASGO_PROF#" />
+      <SetAttribute Id="FOL_RASGO_LARG_GEN" Value="#ESC_FOL_RASGO_LARG#" />
+      <SetAttribute Id="FIX_PRA_GEN" Value="#ESC_FIX_PRAT#" />
+      <SetAttribute Id="ESP_POR_GEN" Value="@(#ESC_ESP_POR#+#FOL_PAI#)" />
+      <SetAttribute Id="FIX_FUN_GEN" Value="#ESC_FIX_FUN#" />
+      <SetAttribute Id="LINHA_PARAFUSO" Value="ESC" />
+      <SetAttribute Id="MODULO_PARAFUSO" Value="CPORTA" />
+      <SetAttribute Id="FRE_FAL_GEN" Value="#ESC_FRE_FAL#" />
+      <SetAttribute Id="ESP_MON" Value="##ESC_ESP_MON#+#FOL_PAI##" />
+      <SetAttribute Id="FOL_FUN_SUP" Value="#ESC_ARM_FOL_FUN_SUP_BAL#" />
+      <SetAttribute Id="FOL_FUN_LAT" Value="#ESC_ARM_FOL_FUN_LAT_BAL#" />
+      <SetAttribute Id="FOL_FUN_INF" Value="#ESC_ARM_FOL_FUN_INF_BAL#" />
+      <SetAttribute Id="FOL_FUN_MON" Value="#ESC_ARM_FOL_FUN_MON_BAL#" />
+      <SetAttribute Id="RECUO_BASE" Value="#ESC_ARM_REC_TRA_BAS#" />
+      <SetAttribute Id="RECUO_LATERAL" Value="#ESC_ARM_REC_TRA_LAT#" />
+      <SetAttribute Id="FUNDO_MODULO" Value="#ESC_ARM_FUN_MOD#" />
+      <SetAttribute Id="DIM_ALT_TRAV_FRO" Value="#ESC_ARM_DIM_TRA_FRO_VER_HOR#" />
+      <SetAttribute Id="AFA_SUP_TRAV_FRO" Value="#ESC_ARM_DIS_TRAV_SUP_FRO#" />
+      <SetAttribute Id="AFA_FRO_TRAV_FRO" Value="#ESC_ARM_DIS_FRO_TRAV_FRON#" />
+      <SetAttribute Id="DIM_ALT_TRAV_TRAS" Value="#ESC_ARM_DIM_TRA_TRA_VER_HOR#" />
+      <SetAttribute Id="DIM_ALT_TRAV_TRAS_LAT" Value="#ESC_ARM_DIM_TRA_LAT_VER#" />
+      <SetAttribute Id="AFA_SUP_TRAV_TRAS" Value="#ESC_ARM_DIS_TRAV_SUP_TRAS#" />
+      <SetAttribute Id="AFA_TRAS_TRAV_TRAS" Value="#ESC_ARM_DIS_TRA_TRAV_TRAS#" />
+      <SetAttribute Id="AFA_FUN_MOV_PAR" Value="#ESC_ARM_AFA_FUN_MOV#" />
+      <SetAttribute Id="POS_DOBRADICA" Value="@((#ESC_ESP_LAT#+#FOL_PAI#)-#ESC_FOL_ENT_PT_LAR#)" />
+      <SetAttribute Id="POS_DOBRADICA_DIV" Value="@((#ESC_ESP_MON#+#FOL_PAI#)/2-#ESC_FOL_ENT_PT_LAR#/2)" />
+      <SetAttribute Id="SENTIDO_TRAVESSA_TRAS" Value="Vertical" />
+      <SetAttribute Id="TIPO_PRODUTO" Value="F" />
+      <SetAttribute Id="LARGURA_AMBIENTE" Value="$W$" />
+      <SetAttribute Id="ALTURA_AMBIENTE" Value="$H$" />
+      <SetAttribute Id="PROFUNDIDADE_AMBIENTE" Value="$D$" />
+      <SetAttribute Id="COR" Value="@com_caixas(ACABAMENTO)@" />
+      <SetAttribute Id="ASSEMBLED" Value="True" />
+      <BudgetInformation>
+        <Set Id="Category" Value="Escritório" />
+        <Set Id="BudgetGroup" Value="ESC" />
+        <Set Id="Reference" Value="ESC01" />
+        <Set Id="Description" Value="Armário" />
+        <Set Id="IsBudget" Value="true" />
+        <References>
+          <Add Id="ITEM_BASE" Value="ARM01" />
+          <Add Id="COMPLETE" Value="ESC01" />
+          <Add Id="ACAB" Value="@com_*(ACABAMENTO)@" />
+        </References>
+        <Set Id="UseBudgetGroupInfo" Value="true" />
+      </BudgetInformation>
+    </Sets>
+  </Output>
+</Wardrobe>

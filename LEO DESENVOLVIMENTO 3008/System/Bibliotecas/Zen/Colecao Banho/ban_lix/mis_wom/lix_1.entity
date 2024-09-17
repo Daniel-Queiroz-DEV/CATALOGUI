@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lixeira 1,5 litros ($TEXT$)" ICON="lix_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="lixeira_1l2" />
+    <DIMENSION WIDTH="131" HEIGHT="135" DEPTH="133" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="131" HEIGHT="136" DEPTH="131" TEXT="BA0287" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Miss/Woman Lixeira 1,5 litros" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_mis_wom_lix_1" MODEL="Zen_miss_Wom" MODELTYPE="Zen_miss_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_mis_wom_lix_1" MODEL="Zen_miss_Wom" MODELTYPE="Zen_miss_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_mis_wom_lix_1" MODEL="Zen_miss_Wom" MODELTYPE="Zen_be_miss_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

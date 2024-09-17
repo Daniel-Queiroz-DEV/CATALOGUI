@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Reguas Ripadas" NAME="Reguas Ripadas" PREFIXID="com_con_pra_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_MON" VALUE="#P.ESP_MON#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="REG_18_HOR_RIP_2" DEF="REG_25_VER_2700__2_2_2_2.entity" GUID="5390c35a-09e2-4f4a-84ed-606d086bc435" />
+    <EXPLORERITEM TYPE="entity" ID="REG_25_HOR_RIP_2" DEF="REG_25_VER_2700__2_2_2.entity" GUID="cceb09f6-2fe6-47c6-b586-b8f502350a07" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_con_reg_rip" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_reg_rip" MODEL="com_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

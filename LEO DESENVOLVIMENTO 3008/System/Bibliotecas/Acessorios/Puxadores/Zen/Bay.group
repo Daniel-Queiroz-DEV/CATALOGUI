@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Bay" NAME="Bay" PREFIXID="zen_bay_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bay_224" DEF="224mm.group" GUID="416e39d7-549c-4eec-99b4-870ea436388c" />
+    <EXPLORERITEM TYPE="group" ID="zen_bay_320" DEF="320mm.group" GUID="8aaca756-72a6-4a56-a215-a4cf14572c16" />
+    <EXPLORERITEM TYPE="group" ID="zen_bay_448" DEF="448mm.group" GUID="a66e23f8-b973-48a0-bc1a-ce3c687921b6" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BAY_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BAY_224MM" />
+      <DIMENSION WIDTH="244" HEIGHT="6.4" DEPTH="41" />
+      <LIMITS>
+        <MIN X="-122" Y="-41" Z="-3.175" />
+        <MAX X="121.996" Y="0" Z="3.175" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BAY_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BAY_320MM" />
+      <DIMENSION WIDTH="340" HEIGHT="6.4" DEPTH="41" />
+      <LIMITS>
+        <MIN X="-170" Y="-41" Z="-3.175" />
+        <MAX X="169.952" Y="0" Z="3.175" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BAY_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\BAY_448MM" />
+      <DIMENSION WIDTH="467.9" HEIGHT="6.4" DEPTH="41" />
+      <LIMITS>
+        <MIN X="-234" Y="-41" Z="-3.175" />
+        <MAX X="233.892" Y="0" Z="3.175" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

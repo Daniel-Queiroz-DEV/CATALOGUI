@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JOINTS>
+  <JOINT NAME="Unifix Base" FIRST="com_coz_per_bas_ufx_esq" SECOND="com_coz_per_bas_vb" SUBSTITUTE="com_coz_per_div_vaz" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" WIDTH="$W1$" MOVEPARENT="N" />
+  <JOINT NAME="Minifix 15 Base" FIRST="ace_fer_minifix_15" SECOND="com_coz_per_bas_mfx_15_dir" SUBSTITUTE="ace_fer_mont_mfx_15" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" WIDTH="$W1$" MOVEPARENT="N" />
+  <JOINT NAME="Parafuso Base" FIRST="com_coz_per_bas_par_esq" SECOND="com_coz_per_bas_par_dir" SUBSTITUTE="com_coz_per_div_vaz" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" WIDTH="$W1$" MOVEPARENT="N" />
+  <JOINT NAME="Cavilha Base" FIRST="com_coz_per_bas_cav" SECOND="com_coz_per_bas_cav_dir" SUBSTITUTE="com_coz_per_div_cav_bas" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" WIDTH="$W1$" MOVEPARENT="N" DELTAX="$W$" />
+  <JOINT NAME="Vb 36M Base" FIRST="com_coz_per_vb36_esq" SECOND="com_coz_per_vb36_dir" SUBSTITUTE="com_coz_per_div_vaz" TYPE="Left-Right" CATEGORY="" TREATASAGGREGATE="N" WIDTH="$W1$" MOVEPARENT="N" GROUP="" />
+</JOINTS>

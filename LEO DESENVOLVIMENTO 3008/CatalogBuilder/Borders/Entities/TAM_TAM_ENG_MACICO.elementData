@@ -1,0 +1,179 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_Y#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 3,
+      "RightNeighbour": 2,
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "BorderID": "e45e1f6c-e225-48c5-aeeb-d0502b711e09",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "0362fadf-7578-4ccf-b9f6-1a86af65826e",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_MACICO"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_Y#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 2,
+      "RightNeighbour": 3,
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderID": "3952787b-30f5-4fba-9186-335ced08e56e",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "4e74aff3-f616-4ceb-a956-b96e2ca4cba0",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_MACICO"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_X#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 0,
+      "RightNeighbour": 1,
+      "Arc": {
+        "Start": "0, 500",
+        "Mid": "0, 250"
+      },
+      "BorderID": "876b3e08-6d76-4d53-9353-e5be0ff275a9",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "932a5963-9e86-4c18-9123-bddef0fb3ee2",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_MACICO"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_X#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "RightNeighbour": 0,
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 250",
+        "End": "1000, 500"
+      },
+      "BorderID": "4edb5bf8-127e-4c01-8143-0bd82211b4d2",
+      "Height": {
+        "Value": "0"
+      },
+      "Type": "",
+      "ID": "b13ffd05-5c3b-4a8a-8512-6527f907d84f",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_ENG_MACICO"
+    }
+  ],
+  "ElementId": "TAM_TAM_ENG_MACICO"
+}

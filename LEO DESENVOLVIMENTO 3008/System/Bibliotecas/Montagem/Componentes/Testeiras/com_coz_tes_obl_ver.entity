@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Oblquo Vertical ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_tes_dia_4.jpg">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="15">
+      <PONTO2DA />
+      <PONTO2DA Y="-100" />
+      <PONTO2DA X="1000" Y="-100" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+    <FILE3D NAME="com_coz_tes_dia_ver_2" />
+    <LIMITS>
+      <MIN X="0" Y="-100" Z="0" />
+      <MAX X="1000" Y="0" Z="15" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="15" DEPTH="100" />
+  </DRAWING>
+  <REFERENCE COMPLETE="#K#" MODEL="@com_*@" TAMPO="@com_*(TAPA_FURO_MINIFIX)@" ACAB="@com_*(ACABAMENTO)@" DESC="@('#P.LINHA#' == 'COZ' ? 'Cozinha' : ('#P.LINHA#' == 'BAN' ? 'Banheiro' : ('#P.LINHA#' == 'DOR' ? 'Dormitório': '')))" ITEM_BASE="$D.ITEM_BASE$" TIPO_FITA="#TIPO_BORDA_1#" ALTURA_FITA="@(($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" />
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="986.952" V="23.99402" />
+              <CORNER2 U="1006.971" V="8.900541" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$+#T#">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="983.306" V="7.539143" />
+              <CORNER2 U="1008.233" V="-12.28887" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="0" FORMULA="#R#">
+            <VECTOR U="-1" V="6.754645E-08" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-17.13972" V="5.926943" />
+              <CORNER2 U="14.63695" V="-12.5272" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="15" FORMULA="$H$">
+            <VECTOR U="2.279442E-07" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-75.93949" V="39.48186" />
+              <CORNER2 U="1047.671" V="8.926249" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <INSERTDIMENSION HEIGHT="@(#COZ_ESP_TES#+#FOL_PAI#)" DEPTH="#P.DIM_ALT_TRAV_FRO#" WIDTH="1000" ITEM_BASE="TRA01" TEXT="207">
+    <MIN WIDTH="50" HEIGHT="1" DEPTH="50" />
+    <MAX WIDTH="2700" HEIGHT="200" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="K" VALUE="50" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Travessa Frontal" VISIBLE="N" />
+    <ATTRIBUTE ID="R" VALUE="#P.R#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="T" VALUE="#P.T#" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

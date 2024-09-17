@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Space" NAME="Space" PREFIXID="zen_spa_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_spa_128_2" DEF="128mm.group" GUID="02611bd7-7b77-4304-a1b8-47125d18c9d4" />
+    <EXPLORERITEM TYPE="group" ID="zen_spa_224_2" DEF="224mm.group" GUID="6e699084-1a78-4e02-9a0c-1159e876029c" />
+    <EXPLORERITEM TYPE="group" ID="zen_spa_352_2" DEF="352mm.group" GUID="83246fed-af98-4577-96da-20e5f1336735" />
+    <EXPLORERITEM TYPE="group" ID="zen_spa_448_2" DEF="448mm.group" GUID="0cbeed1b-3d22-4ef1-870c-7ec70046b59c" />
+    <EXPLORERITEM TYPE="group" ID="zen_spa_544_2" DEF="544mm.group" GUID="ad0bebed-6d9b-4db6-b7b7-c3bcc2adc2c4" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SPACE_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SPACE_128MM" />
+      <DIMENSION WIDTH="188" HEIGHT="8.1" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-94" Y="-26" Z="-4.1" />
+        <MAX X="94" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SPACE_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SPACE_224MM" />
+      <DIMENSION WIDTH="284" HEIGHT="8.1" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-142" Y="-26" Z="-4.1" />
+        <MAX X="142" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SPACE_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SPACE_352MM" />
+      <DIMENSION WIDTH="412" HEIGHT="8.1" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-206" Y="-26" Z="-4.1" />
+        <MAX X="206" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SPACE_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SPACE_448MM" />
+      <DIMENSION WIDTH="508" HEIGHT="8.1" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-254" Y="-26" Z="-4.1" />
+        <MAX X="254" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SPACE_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SPACE_544MM" />
+      <DIMENSION WIDTH="604" HEIGHT="8.1" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-302" Y="-26" Z="-4.1" />
+        <MAX X="302" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cantoneira L p/ Gavetas" ICON="dimec.jpg" INVISIBLE="Y" MODELINVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="cantoneiragav" />
+    <LIMITS>
+      <MIN X="0" Y="-16" Z="-22.5" />
+      <MAX X="16" Y="0" Z="22.5" />
+    </LIMITS>
+    <DIMENSION WIDTH="16" HEIGHT="45" DEPTH="16" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="16" HEIGHT="45" DEPTH="16" TEXT="CANTLGAV" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="cin_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cantoneira L p/ Gavetas" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

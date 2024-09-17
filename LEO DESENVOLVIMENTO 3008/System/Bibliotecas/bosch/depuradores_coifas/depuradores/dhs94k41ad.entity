@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="900 Bosch" ICON="DHS94K41AD.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Depurador Bosch 90 cm - DHS94K41AD" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="DHS94K41AD" />
+    <DIMENSION WIDTH="900" HEIGHT="130" DEPTH="520" />
+  </DRAWING>
+  <REFERENCE COMPLETE="7891646007736" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_vidro_inc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

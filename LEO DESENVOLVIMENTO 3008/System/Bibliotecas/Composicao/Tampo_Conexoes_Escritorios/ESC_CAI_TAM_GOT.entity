@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gota Dupla" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_GOT.jpg">
+  <DRAWING>
+    <FILE3D NAME="Gota" />
+    <LIMITS>
+      <MIN X="0" Y="-550" Z="0" />
+      <MAX X="550" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-550" />
+      <PONTO2DA X="20" Y="-550" A="270" />
+      <PONTO2DA X="550" Y="-20" />
+      <PONTO2DA X="550" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="550" HEIGHT="150" DEPTH="550" />
+  </DRAWING>
+  <REDIMSERVICE CODON="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Conexão Gota Dupla" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="550" DYNAMIC="Y" VISIBLE="n" />
+    <ATTRIBUTE ID="B" VALUE="550" DYNAMIC="Y" VISIBLE="n" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="600" DEPTH="600" HEIGHT="@(#COM_ESP_TAM#+#FOL_PAI#)" ITEM_BASE="TAMP01" TEXT="007">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="1000" DEPTH="10000" />
+  </INSERTDIMENSION>
+</ENTITY>

@@ -1,0 +1,62 @@
+{
+  "ElementId": "com_mon_crasgo",
+  "Slots": [
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#PR#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#LR#"
+      },
+      "Start": {
+        "Y": "$D$-#DR#"
+      },
+      "End": {
+        "X": "$W$",
+        "Y": "$D$-#DR#"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "Y": "$D$-#DR#"
+      },
+      "ElementId": "com_mon_crasgo"
+    },
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#PRE#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#RE#"
+      },
+      "Start": {
+        "Y": "$D$-#DRE#"
+      },
+      "End": {
+        "X": "$W$",
+        "Y": "$D$-#DRE#"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 1,
+      "PlaneType": "Inferior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "Y": "$D$-#DRE#"
+      },
+      "ElementId": "com_mon_crasgo"
+    }
+  ]
+}

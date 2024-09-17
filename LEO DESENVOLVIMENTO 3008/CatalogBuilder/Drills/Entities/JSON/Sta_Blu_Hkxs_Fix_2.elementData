@@ -1,0 +1,42 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Furo36",
+        "MakerDepth": {
+          "Value": "1"
+        },
+        "ReceiverDrillName": "Furo39",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_POR_HKS#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 1,
+        "Position": {
+          "X": "$W$-$W$/2",
+          "Y": "$H$-$H$"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Fix_2"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Furo36",
+        "MakerDepth": {
+          "Value": "1"
+        },
+        "ReceiverDrillName": "Furo39",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_POR_HKS#"
+        },
+        "PlaneIndex": 1,
+        "Position": {
+          "X": "$W$-$W$/2",
+          "Y": "$H$-$H$+32"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Fix_2"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Hkxs_Fix_2"
+}

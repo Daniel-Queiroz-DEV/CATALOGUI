@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pantanal" NAME="Pantanal" PREFIXID="zen_pan_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pan_16" DEF="16mm.group" GUID="45f74d39-5aea-4c29-aefa-ca5308e31855" />
+    <EXPLORERITEM TYPE="group" ID="zen_pan_160" DEF="160mm.group" GUID="dfb77292-b261-432f-a301-7a0cde76a4cb" />
+    <EXPLORERITEM TYPE="group" ID="zen_pan_544" DEF="544mm.group" GUID="8ecd7303-8942-4ec8-a78d-959a1f32477c" />
+    <EXPLORERITEM TYPE="group" ID="zen_pan_786" DEF="786mm.group" GUID="c345fe45-891d-43ec-9395-0e80aa253fc4" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PANTANAL_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PANTANAL_16MM" />
+      <DIMENSION WIDTH="30" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-15" Y="-30" Z="-4" />
+        <MAX X="15" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PANTANAL_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PANTANAL_160MM" />
+      <DIMENSION WIDTH="174" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-87" Y="-30" Z="-4" />
+        <MAX X="87" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PANTANAL_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PANTANAL_544MM" />
+      <DIMENSION WIDTH="558" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-279" Y="-30" Z="-4" />
+        <MAX X="279" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PANTANAL_786MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PANTANAL_786MM" />
+      <DIMENSION WIDTH="800" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-400" Y="-30" Z="-4" />
+        <MAX X="400" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

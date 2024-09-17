@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta 21 Gallardo" TYPE="GEOMETRY" ICON="inf_dd_crasgo_base_5_2_9_2.jpg" INVISIBLE="N" CHECKED="N">
+  <DRAWING>
+    <FILE3D NAME="com_4_2_4_2" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" RULE="UN" />
+  </BUDGET>
+  <EVENTS>
+    <ONDIMENSIONCHANGED>
+      <ACTIONS>
+        <ADJUSTCOMPONENTMODELS />
+      </ACTIONS>
+    </ONDIMENSIONCHANGED>
+  </EVENTS>
+  <INSERTDIMENSION HEIGHT="21" WIDTH="1000" DEPTH="500" TEXT="1706" DESC="" ITEM_BASE="TPG01">
+    <MIN WIDTH="176" DEPTH="176" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_portas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Painel Porta Gallhardo 21" VISIBLE="N" />
+    <ATTRIBUTE ID="ALTURA_AMBIENTE" VALUE="21" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tech ($TEXT$)" ICON="tech.jpg">
+  <DRAWING>
+    <FILE3D NAME="tech" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="35" HEIGHT="45" DEPTH="46" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="300.016" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Tech" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+</ENTITY>

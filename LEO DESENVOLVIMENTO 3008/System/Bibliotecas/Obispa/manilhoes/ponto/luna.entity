@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Luna Alça Simples ($TEXT$)" ICON="luna.jpg">
+  <INSERTDIMENSION TEXT="200.080 AS" />
+  <DRAWING>
+    <FILE3D NAME="luna" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="100" HEIGHT="100" DEPTH="43" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_man" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Luna Alça Simples Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

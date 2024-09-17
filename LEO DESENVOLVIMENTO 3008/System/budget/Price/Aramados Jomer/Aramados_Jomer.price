@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="Aramados_Jomer" DESCRIPTION="Aramados Jomer">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" ID="aramados_jomer" DESCRIPTION="BancoDados" DATABASE="%PastaPrice%\Aramados Jomer\aramados_jomer.mdb" CANMODIFY="Y" SEARCHFIRSTPERSONALBASE="N" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

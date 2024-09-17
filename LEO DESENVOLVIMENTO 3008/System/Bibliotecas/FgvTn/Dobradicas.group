@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Dobradicas" NAME="Dobradiças" PREFIXID="fgv_dob_" INVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="Tambor FGV">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\FgvTn\dobradicas\tam_pad_fgv" />
+      <DIMENSION WIDTH="35" HEIGHT="60" DEPTH="10" />
+    </DRAWING>
+    <DRAWING ID="Tambor Alu">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\FgvTn\3D\tam_alu" />
+      <DIMENSION WIDTH="15" HEIGHT="40" DEPTH="10" />
+    </DRAWING>
+  </DRAWINGS>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="METAL" NAME="METAL" IDMATERIAL="fgv_alu" EDIT="N" />
+    <COMPONENTDEFINITION ID="CINZA" NAME="CINZA" IDMATERIAL="fgv_cinza_cl" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REFERENCE COMPLETE="$TEXT$" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_an2" DEF="fgv_ang_neg.entity" GUID="6c8af054-3627-49ac-8e54-7e588e2b8da7" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_cto" DEF="fgv_canto.entity" GUID="5f56d4dc-9e0e-439d-af25-15f613db65a1" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_243" DEF="fgv_024.entity" GUID="c3e7227b-216c-41f7-963d-2620c47f7178" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_anc" DEF="ang_ceg.entity" GUID="d79619f4-ba5e-4c32-a618-887da4566548" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_f45" DEF="fgv_45.entity" GUID="9b5d4a4e-05ec-4c58-967e-165f549dbe6d" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_110" DEF="fgv_110.entity" GUID="46e4b5b1-c819-4d5d-9169-fcff10575864" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1065" DEF="fgv_dob_1065.entity" GUID="2022c173-7427-44b3-9307-261af0d5fa54" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1066" DEF="fgv_dob_1066.entity" GUID="0d111748-5201-4f38-a6e5-186a24afe4f5" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_bas" DEF="por_bas.entity" GUID="b3d7260d-1dee-40cd-b5ed-90dc97a3a6eb" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1074" DEF="fgv_dob_1074.entity" GUID="8477ccbc-1879-46da-b6ac-12b4560fcb31" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_t11" DEF="tn_110.entity" GUID="dc6660b9-e04e-447e-bbb0-9f51077466de" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1075" DEF="fgv_dob_1075.entity" GUID="25a5b205-b6e9-4e74-a0ee-5fa09e7bfa28" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1076" DEF="fgv_dob_1076.entity" GUID="da1d1c54-42ea-4baf-98eb-15541c69a8c8" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_csm" DEF="click_slow.entity" GUID="cad59ac4-cb40-4854-92c2-99af25aa47c8" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1078" DEF="fgv_dob_1078.entity" GUID="b94b232c-bcd0-4163-a4d5-6be7638a2d98" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1077" DEF="fgv_dob_1077.entity" GUID="f877dc5a-6861-450e-9018-4ecdab78f7a3" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_alu" DEF="por_alu.entity" GUID="f7f60aae-407c-4d8c-b7d5-c4e321204da8" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1067" DEF="fgv_dob_1067.entity" GUID="8641288b-42c0-4789-8700-87b05c72ece3" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1068" DEF="fgv_dob_1068.entity" GUID="75681e30-3f8c-4cd9-89b3-0aeb7904a92f" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_aut" DEF="fgv_aut.entity" GUID="68df1466-3855-4fbb-aea5-248836ef9240" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1072" DEF="fgv_dob_1072.entity" GUID="152d6e52-d1fa-4cca-b2d9-4f93ab7abe68" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1073" DEF="fgv_dob_1073.entity" GUID="8c01d737-be2a-4dee-8c44-664739afa246" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_175" DEF="fgv_175.entity" GUID="4c53373e-872b-4dee-86ea-86dfe40a8c2b" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1079" DEF="fgv_dob_1079.entity" GUID="31abdb1d-ec68-4fa9-a924-b15b75a3cc3d" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_270" DEF="dob_270.entity" GUID="ce1bc32f-5e32-4254-9fe1-9a78d1858933" />
+    <EXPLORERITEM TYPE="entity" ID="fgv_dob_1080" DEF="fgv_dob_1080.entity" GUID="20f1ff55-4f33-497e-aec5-4ed589d5d946" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

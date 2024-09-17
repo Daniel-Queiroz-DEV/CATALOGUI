@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reling Cuba">
+  <DRAWING>
+    <FILE3D NAME="tubo cuba" />
+    <DIMENSION WIDTH="341.2" HEIGHT="5.4" DEPTH="5.4" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioLarguraAltura" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACE_ACE" NAME="ACE_ACE" IDMATERIAL="cin_cor_000" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="341" HEIGHT="11.5" DEPTH="11.5" TEXT="">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="100000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

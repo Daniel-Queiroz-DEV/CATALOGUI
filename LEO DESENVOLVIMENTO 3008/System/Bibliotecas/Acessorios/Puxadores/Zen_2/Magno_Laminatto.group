@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Magno_Laminatto" NAME="Magno Laminatto" PREFIXID="zen_magno_lam_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_magno_lam_64mm_2" DEF="64mm.group" GUID="4b932d02-31fe-42d2-8307-6271637a3e27" />
+    <EXPLORERITEM TYPE="group" ID="zen_magno_lam_192_2" DEF="192mm.group" GUID="687ca3bb-8b48-4794-96ca-3b351997816e" />
+    <EXPLORERITEM TYPE="group" ID="zen_magno_lam_352_2" DEF="352mm.group" GUID="ceb7427f-eff7-46b9-9c33-290797168d69" />
+    <EXPLORERITEM TYPE="group" ID="zen_magno_lam_640_2" DEF="640mm.group" GUID="0270c3f3-1377-4e3a-b850-7e6622fc7730" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="MAGNO_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNO_64MM" />
+      <DIMENSION WIDTH="71" HEIGHT="33" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-35.5" Y="-30" Z="-16.5" />
+        <MAX X="35.5" Y="0" Z="16.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNO_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNO_192MM" />
+      <DIMENSION WIDTH="200" HEIGHT="33" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-100" Y="-30" Z="-16.5" />
+        <MAX X="100" Y="0" Z="16.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNO_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNO_352MM" />
+      <DIMENSION WIDTH="359" HEIGHT="33" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-179.5" Y="-30" Z="-16.5" />
+        <MAX X="179.5" Y="0" Z="16.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MAGNO_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MAGNO_640MM" />
+      <DIMENSION WIDTH="648" HEIGHT="33" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-324" Y="-30" Z="-16.5" />
+        <MAX X="324" Y="0" Z="16.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Dobra ($TEXT$)" ICON="mini_dobra.jpg">
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <DRAWING>
+    <FILE3D NAME="dobra-100378" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="25" HEIGHT="25" DEPTH="18" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.378" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_min_dob" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_dob" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_dob" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_dob" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Dobra Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="com_360_2_2" NAME="Gaveteiro Interno (Composição) (Cópia)" PREFIXID="PAI_OCU_" INVISIBLE="Y">
+  <BUDGET>
+    <INFORMATION RULE="M2" />
+    <MARGIN IDCATEGORY="PAI_TAM" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="TAMBURATOS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_coz_afa_sar_2_2_2_2" DEF="com_coz_afa_sar_2_2.entity" GUID="cf0c4bd1-3994-4f53-8964-81c51dee19e8" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_afa_sar_2_2_2_2_Y" DEF="com_coz_afa_sar_2_2_2.entity" GUID="07b4b71d-9f13-48aa-82d4-7dd0c694165e" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

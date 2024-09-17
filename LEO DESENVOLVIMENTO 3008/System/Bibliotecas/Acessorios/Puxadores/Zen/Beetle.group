@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Beetle" NAME="Beetle" PREFIXID="zen_bee_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="BEETLE_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\beetle" />
+      <DIMENSION WIDTH="30" HEIGHT="20" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-15" Y="-20" Z="-10" />
+        <MAX X="15" Y="0" Z="10" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bee_pon" DEF="Ponto.group" GUID="556703f2-bd0a-444b-9ee5-c9e1ec2483c7" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

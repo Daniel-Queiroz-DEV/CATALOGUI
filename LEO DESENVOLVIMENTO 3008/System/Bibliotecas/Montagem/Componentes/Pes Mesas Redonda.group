@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pes Mesas Redonda" NAME="Pés Mesas Redonda" PREFIXID="com_esc_pes_mes_red_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_esc_ppc_rec_me2" DEF="com_esc_ppc_rec_me2.entity" GUID="0570cc1f-338e-414c-8dd7-09a0e2fe4e21" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_ppc_rec_me1" DEF="com_esc_ppc_rec_me1.entity" GUID="1e4eab31-878b-44ca-992a-bfa14b947565" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_ppr_rec_me1" DEF="com_esc_ppr_rec_me1.entity" GUID="c79c2074-25ce-4454-9425-03ea3f40c251" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_ppr_rec_me2" DEF="com_esc_ppr_rec_me2.entity" GUID="90602067-799b-4d38-94b2-964ce310d7e1" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+</GROUP>

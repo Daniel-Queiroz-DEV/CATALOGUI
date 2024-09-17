@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$mm Toalheiro Simples ($TEXT$)" ICON="toa_sim.jpg">
+  <DRAWING>
+    <FILE3D NAME="toalheiro_simples" />
+    <DIMENSION WIDTH="360" HEIGHT="46" DEPTH="71" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="360" HEIGHT="46" DEPTH="71" MODE="OnlyProposed" TEXT="" ACAB="">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE WIDTH="360" TEXT="BA0308" />
+      <PROPOSEDVALUE WIDTH="560" TEXT="BA0309" />
+      <PROPOSEDVALUE WIDTH="760" TEXT="BA0310" />
+      <PROPOSEDVALUE WIDTH="960" TEXT="BA0311" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Toalha_09" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="toalha" KEEPCHANGEDDIMENSION="N" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N" KEEPCHANGEDPOSITION="N" ALWAYSVISIBLE="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION WIDTH="235" />
+          <POSITION X="($PW$-$W$)/2" Y="-40" Z="-340" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_681" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_699" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_76" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_82" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_692" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_203" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_703" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_704" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_693" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_702" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_77" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_698" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_691" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_202" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_75" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_201" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_707" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_705" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_83" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_80" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_toa_sim" MODEL="zen_ane" MODELTYPE="zen_ane_79" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello Toalheiro Simples $W$mm @zen_ane(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

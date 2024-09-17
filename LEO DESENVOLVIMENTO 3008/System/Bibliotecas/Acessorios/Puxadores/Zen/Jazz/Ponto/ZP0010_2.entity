@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo Esc ($TEXT$.$D.ACAB$)" ICON="jazz_ponto.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Jazz Ponto Cromo Escovado" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="PUXADOR" ID="PUXADOR" IDMATERIAL="zen_escovado" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="10" HEIGHT="70" DEPTH="19" TEXT="ZP0010" ACAB="2" />
+</ENTITY>

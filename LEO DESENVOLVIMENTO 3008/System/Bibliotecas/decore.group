@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Decore" DIRECTORY="Decore" PREFIXID="DEC_" INVISIBLE="N">
+  <INSERTDIMENSION>
+    <MIN WIDTH="10" HEIGHT="10" DEPTH="10" />
+    <MAX WIDTH="100000" HEIGHT="100000" DEPTH="100000" />
+  </INSERTDIMENSION>
+  <LAYER DESCRIPTION="$ROOTGROUP$" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <DRAWING>
+    <LIMITS>
+      <MIN X="0" Y="-1" Z="0" />
+      <MAX X="1" Y="0" Z="1" />
+    </LIMITS>
+    <DIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" />
+  </DRAWING>
+  <VERSION>NS4zNS4x</VERSION>
+  <BUDGET>
+    <INFORMATION CATEGORY="$ROOTGROUP$" />
+    <STEPS />
+    <PRICE REFERENCE="PRICE" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="ANGLEBETWEENEDGESPMOB" VALUE="10" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="DEC_LANCAMENTO" DEF="Lancamentos.group" GUID="e5192896-5b52-4d69-b5c2-f1e100a31cd7" />
+    <EXPLORERITEM TYPE="group" ID="dec_portas" DEF="Portas.group" GUID="92c226e5-dd9a-48a9-bcc0-09bfb1837314" />
+    <EXPLORERITEM TYPE="group" ID="dec_colunas" DEF="colunas.group" GUID="008fc15d-eed3-47c6-9f39-128181698a1d" />
+    <EXPLORERITEM TYPE="group" ID="dec_janelas" DEF="Janelas.group" GUID="cbc78f20-3c2c-4bae-bca3-18817785d5b4" />
+    <EXPLORERITEM TYPE="group" ID="dec_pt_hid_ele" DEF="Pontos_Hid_Ele.group" GUID="6391a5d9-bf08-4b59-b246-816ca73789e9" />
+    <EXPLORERITEM TYPE="group" ID="dec_cozinhas" DEF="Cozinhas.group" GUID="d3bac1eb-7c72-4f9c-9234-f8821c3b8664" />
+    <EXPLORERITEM TYPE="group" ID="dec_acesscoz" DEF="acess_cozinha.group" GUID="1d04390f-54f1-4be7-ae2c-2b425ad098c4" />
+    <EXPLORERITEM TYPE="group" ID="dec_acesmesa" DEF="acess_mesa.group" GUID="e61008cc-e914-4a4a-926c-670522dbd65e" />
+    <EXPLORERITEM TYPE="group" ID="dec_alimentos" DEF="Alimentos.group" GUID="2cc18967-df9b-4fb2-8937-38df743a0f0a" />
+    <EXPLORERITEM TYPE="group" ID="dec_mesas_cad" DEF="mesas_cadeiras.group" GUID="190db1e5-549a-4254-a39d-3ed497850839" />
+    <EXPLORERITEM TYPE="group" ID="DEC_CADEIRA" DEF="Cadeira.group" GUID="db512975-ec65-4411-b865-56b8d03b9837" />
+    <EXPLORERITEM TYPE="group" ID="dec_dormitorios" DEF="dormitorios.group" GUID="30333e86-900e-4147-ab99-21f82ba9fd0d" />
+    <EXPLORERITEM TYPE="group" ID="dec_banheiros" DEF="Banheiros.group" GUID="e44ca656-03d9-492e-b098-065ebd29976c" />
+    <EXPLORERITEM TYPE="group" ID="dec_acessibilidade" DEF="Acessibilidade.group" GUID="36d2b3e6-aa1a-4669-b3de-abee3334f47a" />
+    <EXPLORERITEM TYPE="group" ID="vestuario" DEF="vestuario.group" GUID="e29f1fae-1249-40df-8b0b-a77738cfe135" />
+    <EXPLORERITEM TYPE="group" ID="dec_lavanderia" DEF="Lavanderia.group" GUID="6a3a52f9-1b09-4763-897b-d88269f2a0df" />
+    <EXPLORERITEM TYPE="group" ID="dec_decoracao" DEF="Decoracao.group" GUID="1518322e-5056-4460-933d-f6c66d7f2bfc" />
+    <EXPLORERITEM TYPE="group" ID="dec_tem" DEF="tematica.group" GUID="51ae0af5-cf7b-483f-914b-c0f9b801f9f6" />
+    <EXPLORERITEM TYPE="group" ID="dec_mun" DEF="Mundo.group" GUID="b73229aa-4171-4880-a601-04497df2c23d" />
+    <EXPLORERITEM TYPE="group" ID="dec_folh_vasos" DEF="Folhagens_Vasos.group" GUID="e2d3ff16-e89a-446a-b093-fe97f3763922" />
+    <EXPLORERITEM TYPE="group" ID="dec_pol_ico" DEF="poltronas_icones.group" GUID="42602975-dfb6-4d59-bf0b-9c1b41a5cd97" />
+    <EXPLORERITEM TYPE="group" ID="dec_estofados" DEF="estofados.group" GUID="a770a2d0-da7f-41db-a08e-9246840c811f" />
+    <EXPLORERITEM TYPE="group" ID="DEC_EST_RUST" DEF="EstofadoRustico.group" GUID="8ae1a0fa-ca1b-4378-b296-a4f9944df870" />
+    <EXPLORERITEM TYPE="group" ID="DEC_EST_CLASSICO" DEF="EstofadosClassicos.group" GUID="02305052-0631-4df6-a67d-752b2e13185c" />
+    <EXPLORERITEM TYPE="group" ID="DEC_EST_COMP" DEF="EstofadosComponiveis.group" GUID="9c2e4d25-400d-498a-88d8-f9504efd2b32" />
+    <EXPLORERITEM TYPE="group" ID="DEC_EST_TRAD" DEF="EstofadosTradicionais.group" GUID="42e99c25-3ac7-4e4a-ab18-e276f33e9d05" />
+    <EXPLORERITEM TYPE="group" ID="exest_est_fnat" DEF="Fibras_Naturais.group" GUID="710394d8-81d8-41e3-bb32-a6792019aeb0" />
+    <EXPLORERITEM TYPE="group" ID="dec_eletronicos" DEF="Eletronicos.group" GUID="2550fa95-ec29-4fd4-af8a-b24b85e74e77" />
+    <EXPLORERITEM TYPE="group" ID="dec_informatica" DEF="Informatica.group" GUID="df27a776-972f-4fcd-b8de-16a1a64ece90" />
+    <EXPLORERITEM TYPE="group" ID="dec_escritorio" DEF="Escritorio.group" GUID="7b6b9daa-1269-42ef-8fc9-5ad566de8be7" />
+    <EXPLORERITEM TYPE="group" ID="dec_infantil" DEF="Infantil.group" GUID="5a2f4c8a-956e-4250-b50c-b410355d030f" />
+    <EXPLORERITEM TYPE="group" ID="dec_inf_bebe" DEF="Bebe.group" GUID="fe7dceaa-6a07-4900-8262-e040ee44dbc8" />
+    <EXPLORERITEM TYPE="group" ID="dec_luminarias" DEF="Luminarias.group" GUID="a0842493-d8c7-4902-99b9-3a086a9e2f1d" />
+    <EXPLORERITEM TYPE="group" ID="dec_loj_dep" DEF="Lojas Departamentos.group" GUID="2dd438e1-0c5c-4d8c-84dc-35d0a620f355" />
+    <EXPLORERITEM TYPE="group" ID="ambientes_comerciais" DEF="equip_comerciais.group" GUID="eed39880-b2f9-4be5-934e-f1b64e340def" />
+    <EXPLORERITEM TYPE="group" ID="dec_musica" DEF="musica.group" GUID="c6c82df9-2ee1-4632-b148-e0df79ccc9f9" />
+    <EXPLORERITEM TYPE="group" ID="dec_areas_externas" DEF="areas_ext.group" GUID="a888aa5c-2c50-4dfc-8dff-4102c705fbcf" />
+    <EXPLORERITEM TYPE="group" ID="DEC_EXT_GARAGEM" DEF="garagem.group" GUID="7f574edb-a98e-4b86-9bcf-06a3a88bc7a3" />
+    <EXPLORERITEM TYPE="group" ID="dec_sala_de_jogos" DEF="sala_de_jogos.group" GUID="569fe3ae-e1d5-4bc7-b953-8e68b3898f1f" />
+    <EXPLORERITEM TYPE="group" ID="dec_pessoas" DEF="pessoas.group" GUID="b3197592-9c52-465b-8965-1826d175b989" />
+    <EXPLORERITEM TYPE="group" ID="DEC_PET" DEF="pet.group" GUID="5d34b8a6-8adf-437c-a4b5-1c8ec9790a5a" />
+    <EXPLORERITEM TYPE="group" ID="dec_lar" DEF="lareiras_churrasq_fornos.group" GUID="7bd6e5bd-90d1-4cb9-8657-27fd972da757" />
+    <EXPLORERITEM TYPE="group" ID="dec_ade" DEF="adesivos.group" GUID="492aa972-7604-4edf-a08a-5147e03ddfd2" />
+    <EXPLORERITEM TYPE="group" ID="dec_tap" DEF="tapetes_cortinas.group" GUID="f4cc088c-83c3-4362-a276-28786d3f3a93" />
+    <EXPLORERITEM TYPE="group" ID="dec_org" DEF="organizacao.group" GUID="710d4ba4-a050-4726-98c9-464c91572391" />
+    <EXPLORERITEM TYPE="group" ID="DEC_BIB" DEF="Biblioteca.group" GUID="87dd4a68-e6c9-48a7-b826-ee5772507066" />
+    <EXPLORERITEM TYPE="group" ID="dec_lan_bar_" DEF="Bar.group" GUID="0cd3be31-f7c6-4103-9a59-1ffd07a5d525" />
+    <EXPLORERITEM TYPE="group" ID="dec_ocultos" DEF="Ocultos.group" GUID="8d7b637b-d876-480e-bc86-d28e811da026" />
+    <EXPLORERITEM TYPE="group" ID="PCLOUD_MOVEIS_JARDIM_MADEIRA" DEF="MoveisJardimMadeira.group" GUID="a07c6a41-07f7-475d-b1f6-9c5acbf762eb" />
+    <EXPLORERITEM TYPE="group" ID="PCLOUD_MOVEIS_JARDIM_FIBRA" DEF="Moveis_Jardim_Fibra.group" GUID="d149bfc4-c1c2-4652-891e-5aeab3837c3d" />
+    <EXPLORERITEM TYPE="group" ID="PCLOUD_ACADEMIA_CASA" DEF="Academia_Casa.group" GUID="4c581643-a4f0-4530-b0cf-8c14ec235e8a" />
+  </EXPLORERITEMCOLLECTION>
+  <REFERENCE PRICE="$COMPLETE$" />
+</GROUP>

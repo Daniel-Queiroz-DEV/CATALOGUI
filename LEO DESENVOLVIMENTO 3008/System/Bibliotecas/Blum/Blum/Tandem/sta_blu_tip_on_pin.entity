@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$D$ Kit de Sincronismo TIP-ON Total ($TEXT$)" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="cin_cor_002" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <DRAWING>
+    <FILE3D NAME="sincronizacao" />
+    <DIMENSION WIDTH="135.4" HEIGHT="2.2" DEPTH="4.9" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="140" HEIGHT="2.2" DEPTH="5" TEXT="31030394" ITEM_BASE="31030394">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="1200" />
+  </INSERTDIMENSION>
+  <BUDGET>
+    <MARGIN ACR_2="Tan_tot" ACRESCIMO="Tan_tot" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Kit de Sincronismo p/ Sistema Tadem c/ TIP-ON" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="OnlinePriceProvider" VALUE="" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

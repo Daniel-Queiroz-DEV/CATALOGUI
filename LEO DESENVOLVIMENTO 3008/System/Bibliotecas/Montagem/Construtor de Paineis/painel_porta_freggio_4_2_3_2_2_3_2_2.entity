@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Furo Rebaixo Lat Ext 25mm" ICON="painel_porta_freggio_4_2_3_2_2_3_2_2.jpg" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <REFERENCE PEDIDOFABRICA="#PEDIDOFABRICA#" />
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="25" TEXT="PAIJ01" DESC="" ITEM_BASE="PAIJ01">
+    <MIN WIDTH="1" DEPTH="1" />
+    <MAX DEPTH="1050" WIDTH="2600" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+  <DRAWING>
+    <FILE3D NAME="porta joia lat ext_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="25" DEPTH="500" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Furo" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#PORTA_FT_BORDA_GOL_DIR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#PORTA_FT_BORDA_GOL_ESQ#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#PORTA_FT_BORDA_GOL_FRONTAL#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#PORTA_FT_BORDA_GOL_TRASEIRA#" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="THICKNESS_PLATECUTTING" VALUE="100" VISIBLE="N" />
+    <ATTRIBUTE ID="KeepModelDescription" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPOSED" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="PEDIDOFABRICA" VALUE="False" VISIBLE="Y" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="0" FORMULA="0">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-23.93294" V="597.8659" />
+              <CORNER2 U="125.4573" V="-97.86586" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="500" FORMULA="$D$">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-58.07929" V="550.9146" />
+              <CORNER2 U="1036.738" V="410.061" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="500" FORMULA="$W$/2">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="360.2134" V="606.4025" />
+              <CORNER2 U="537.3475" V="-127.7439" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="1000" FORMULA="$W$">
+            <VECTOR U="1" V="6.040246E-08" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="876.6768" V="629.8781" />
+              <CORNER2 U="1077.287" V="-121.3415" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="0" FORMULA="">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-100.7625" V="145.4269" />
+              <CORNER2 U="1019.664" V="-25.30482" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="POR_PAI_POR_JOIA_3_2_2" MODEL="com_paineis" MODELTYPE="acabamento_727" SAMEID="N" />
+    <REMOVEMODELOPTION ID="POR_PAI_POR_JOIA_3_2_2" MODEL="com_paineis" MODELTYPE="acabamento_726" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

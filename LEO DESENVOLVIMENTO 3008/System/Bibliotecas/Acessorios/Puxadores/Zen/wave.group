@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Wave" DIRECTORY="wave" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_wav_64" DEF="64mm.group" GUID="cdea98d4-582c-4e8f-9c57-1ceb8ce35ee0" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_96" DEF="96mm.group" GUID="37cd5e3c-88aa-4848-baf1-c9413b18a747" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_128" DEF="128mm.group" GUID="2257d013-ea01-46e3-838d-4d5241175f6e" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_192" DEF="192mm.group" GUID="565c1620-71f3-4beb-80f5-62ff1005274b" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_224" DEF="224mm.group" GUID="367080ef-0cda-481b-9d98-29b6cfe8376d" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_352" DEF="352mm.group" GUID="94374fea-2ba6-4745-a25f-0efcf02764c2" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_448" DEF="448mm.group" GUID="b8cdca07-59bd-46b9-95ff-2487bb3077f7" />
+    <EXPLORERITEM TYPE="group" ID="zen_wav_544" DEF="544mm.group" GUID="e6f62675-f0a0-470e-aaef-a33fc2f2b38c" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="WAVE_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_64MM" />
+      <DIMENSION WIDTH="92" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-46" Y="-27.5" Z="-3" />
+        <MAX X="46" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_96MM" />
+      <DIMENSION WIDTH="124" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-62" Y="-27.5" Z="-3" />
+        <MAX X="62" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_128MM" />
+      <DIMENSION WIDTH="156" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-78" Y="-27.5" Z="-3" />
+        <MAX X="78" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_192MM" />
+      <DIMENSION WIDTH="220" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-110" Y="-27.5" Z="-3" />
+        <MAX X="110" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_224MM" />
+      <DIMENSION WIDTH="252" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-126" Y="-27.5" Z="-3" />
+        <MAX X="126" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_352MM" />
+      <DIMENSION WIDTH="380" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-190" Y="-27.5" Z="-3" />
+        <MAX X="190" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_448MM" />
+      <DIMENSION WIDTH="476" HEIGHT="6" DEPTH="27.5" />
+      <LIMITS>
+        <MIN X="-238" Y="-27.5" Z="-3" />
+        <MAX X="238" Y="0" Z="3" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="WAVE_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\WAVE_544MM" />
+      <LIMITS>
+        <MIN X="-286" Y="-27.5" Z="-3" />
+        <MAX X="286" Y="0" Z="3" />
+      </LIMITS>
+      <DIMENSION WIDTH="572" HEIGHT="6" DEPTH="27.5" />
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

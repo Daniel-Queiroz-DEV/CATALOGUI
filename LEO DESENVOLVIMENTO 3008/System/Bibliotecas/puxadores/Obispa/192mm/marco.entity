@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Marco ($TEXT$)" ICON="marco.jpg">
+  <INSERTDIMENSION TEXT="100.393" />
+  <DRAWING>
+    <FILE3D NAME="marco" FORMAT=".dxf" />
+    <DIMENSION WIDTH="202" HEIGHT="10" DEPTH="28" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_pux_mar" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Marco 192mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Par_obi_pux_mar@" />
+</ENTITY>

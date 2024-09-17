@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromada/Branco ($TEXT$.$D.ACAB$)" ICON="Inca.jpg">
+  <DRAWING>
+    <FILE3D NAME="inca" />
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="600" HEIGHT="80" DEPTH="14" />
+    <LIMITS>
+      <MIN X="-300" Y="-14.8" Z="0" />
+      <MAX X="300" Y="0" Z="80" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_cromado" EDIT="N" />
+    <COMPONENTDEFINITION ID="PEGA" NAME="PEGA" IDMATERIAL="zen_branco" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Inca $D.DESC$ Alum Cromado c/ Ponteiras Cromadas/Aplique Branco" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="600" HEIGHT="80" DEPTH="15" TEXT="ZP0804" ACAB="80" DESC="600mm" />
+</ENTITY>

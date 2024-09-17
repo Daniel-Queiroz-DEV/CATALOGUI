@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Externa La Fonte ST2 ($TEXT$)" ICON="ZM001QE01.jpg">
+  <DRAWING ID="Blend_Quadrada_Geral" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE>
+    <PBLOCK DEFAULTSCALEX="Y" DEFAULTSCALEY="Y" DEFAULTSCALEZ="Y">
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-1.670819" V="-53.94218" />
+              <CORNER2 U="155.8764" V="1.26043" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="HalfIncrease" AFFECTSCALEOPERATION="N">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-1.426559" V="5.412838" />
+              <CORNER2 U="155.8764" V="31.79284" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Nothing" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="0" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-1.102845" V="32.53152" />
+              <CORNER2 U="157.1772" V="90.9095" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <INSERTDIMENSION WIDTH="150" HEIGHT="146" DEPTH="134" TEXT="ZM001QE03" ACAB="">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Guarnição Blend Qua. Chave Ext. La Fonte ST2 $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

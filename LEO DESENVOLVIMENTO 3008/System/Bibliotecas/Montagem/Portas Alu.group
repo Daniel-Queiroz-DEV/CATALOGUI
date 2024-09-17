@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Portas Alu" NAME="Painéis Porta Alumínio estrutura" PREFIXID="POR_MOD_ALU_" INVISIBLE="Y" MODELNAME="Miolo Porta" ORDERSTRING="002">
+  <BUDGET>
+    <MARGIN IDCATEGORY="POR" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$ $D$ $MODEL$" ITEM_BASE="$D.ITEM_BASE$" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_5" DEF="vidro_3_2_5.entity" GUID="67bedab0-e109-47c9-891c-4f7c30393c18" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_4" DEF="vidro_3_2_4.entity" GUID="f9cff59b-2e75-46ad-8baa-e5818e7f2953" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_3" DEF="vidro_3_2_3.entity" GUID="ce936c96-6cc7-448d-9f94-69438ec47a90" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_3_3" DEF="vidro_3_2_3_3.entity" GUID="d4efb858-0d1a-4aee-b701-8598c7c5d116" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_3_2" DEF="vidro_3_2_3_2.entity" GUID="95f9522f-226d-4cbd-847d-3dccc39d8bb6" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_Dominus" DEF="vidro_3_2_3_2_3.entity" GUID="6efbe0d6-46da-4c96-8377-3695abe8f434" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45_dominus" DEF="POR_MOD_POR_G_ML_2_2_2_2_2.entity" GUID="dd19f8b4-8323-48ef-a7fe-e165e2462c58" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per45_leo10_dominus" DEF="POR_ALU_1190_4_2_2_2.entity" GUID="39cf00e8-913a-4286-a326-aec2cc46bf11" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_dominus" DEF="POR_ALU_1190_3_2_4_2.entity" GUID="f5c60bbb-74cc-42d2-a1c4-ec30dc7a1a06" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per60_dominus" DEF="POR_ALU_1171_3.entity" GUID="058c0cfa-9485-487c-ab6b-96acdb6a8a40" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per60_dominus_mad" DEF="POR_ALU_1171_2_2.entity" GUID="c3c8c731-2326-4a32-9ee0-ad7709ff2c0a" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45_dominus_2" DEF="POR_MOD_POR_G_ML_2_2_2_3.entity" GUID="3dbf98d5-6c85-4e64-aab8-265c7c613c19" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per45_leo10_dominus_2" DEF="POR_ALU_1190_4_3.entity" GUID="ded1e1dd-436a-4b39-a631-83fe59ceb95f" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_2_dominus" DEF="POR_ALU_1190_3_2_2_2.entity" GUID="2d07cc7d-599f-449e-977b-75b4747746ab" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_3_2_2" DEF="vidro_3_2_3_2_2.entity" GUID="eddde90d-17f7-45c4-ad64-b6068cd83707" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_2" DEF="vidro_3_2_2.entity" GUID="4bff5c7c-8d7c-403c-8a4a-505bb90aef63" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_2_2" DEF="vidro_3_2_2_2.entity" GUID="01215850-979b-42ea-9a6d-5f44de7938a4" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45" DEF="POR_MOD_POR_G_ML_2.entity" GUID="e197f2f0-605e-447c-a600-141ea6a415a7" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45_2" DEF="POR_MOD_POR_G_ML_2_2.entity" GUID="8527a594-9dd2-4956-bf55-e31549d2bdc4" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45_2_2" DEF="POR_MOD_POR_G_ML_2_2_2.entity" GUID="72bdc2bb-3529-4031-9349-175337802626" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45_2_2_2" DEF="POR_MOD_POR_G_ML_2_2_2_2.entity" GUID="ea09230d-1fe5-4167-a54b-77655d8f8c4b" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0" DEF="POR_MOD_POR_1174_2.entity" GUID="9ef77259-cfdd-48b6-99e1-4a422e61fd44" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_5" DEF="POR_MOD_POR_1174_2_6.entity" GUID="e6abc357-203a-4d01-9dd6-94275fd8e8f5" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_4" DEF="POR_MOD_POR_1174_2_5.entity" GUID="485f84b8-6ccf-4ef0-a324-d63ce5dfd40b" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_4_2" DEF="POR_MOD_POR_1174_2_5_2.entity" GUID="ac21557c-c0a3-46e3-97ff-f509e7d3a13d" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_3" DEF="POR_MOD_POR_1174_2_4.entity" GUID="d11ed848-115f-4888-abc4-720618cae926" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_3_2" DEF="POR_MOD_POR_1174_2_4_2.entity" GUID="33e977f3-32fc-4d9c-9495-e2ab2eba39b8" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_2" DEF="POR_MOD_POR_1174_2_3.entity" GUID="50fcc7e7-ea79-4c59-b834-73a7d009bc8c" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_2_4" DEF="POR_MOD_POR_1174_2_3_5.entity" GUID="387fd18d-eeb1-420d-83b6-3687bdaca990" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_2_3" DEF="POR_MOD_POR_1174_2_3_3.entity" GUID="af6852d9-ca13-4f35-8dee-8ffa03caf367" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_2_3_2" DEF="POR_MOD_POR_1174_2_3_3_2.entity" GUID="8e70102e-1233-4822-b118-d07f45eaba34" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_s_pux" DEF="POR_MOD_POR_1174_2_2.entity" GUID="f8340334-0f9f-4a3f-b097-b48e3526fb91" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_s_pux_4" DEF="POR_MOD_POR_1174_2_2_4.entity" GUID="4cee582e-b5c7-4461-9c9d-5739e47321e6" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_s_pux_3" DEF="POR_MOD_POR_1174_2_2_3.entity" GUID="3c55f3dc-03a8-43b5-8a5f-f2b2a5a06538" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_s_pux_3_2" DEF="POR_MOD_POR_1174_2_2_3_2.entity" GUID="58b7a821-496b-45fc-848c-be8dd912251c" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_s_pux_2" DEF="POR_MOD_POR_1174_2_2_2.entity" GUID="9dcac72d-7545-40be-aa76-3425a5514f2e" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_2_2" DEF="POR_MOD_POR_1174_2_3_2.entity" GUID="7601825a-caf1-4b6c-8898-5615853e3a86" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0_2_2_2" DEF="POR_MOD_POR_1174_2_3_2_2.entity" GUID="086c8128-e641-4836-81fd-c3322c2e908a" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0RM_leo252" DEF="POR_ALU_1190_3_2_3_2.entity" GUID="bd64d627-7983-4ccf-8d36-0d75b385a404" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per0RM_leo252_2" DEF="POR_ALU_1190_3_2_3_2_2.entity" GUID="8f384db6-2dd3-4381-97e0-f310e2662e0d" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per45_leo10_2" DEF="POR_ALU_1190_4_2.entity" GUID="a5e8559d-64e0-4f9c-9fca-d703ff98696b" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10" DEF="POR_ALU_1190_3_2.entity" GUID="3df753d9-7c8e-4fb7-b195-02a7716d6cc0" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola45_3" DEF="POR_MOD_POR_G_ML_2_3.entity" GUID="e8afb86f-bb90-4498-910a-986833ece38b" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid" DEF="vidro_3_2.entity" GUID="1c1ecbce-67ed-4465-b898-b4377da52369" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per45_leo10" DEF="POR_ALU_1190_4.entity" GUID="ff9ad023-e942-41f5-8e84-44e9b4ef5405" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_3" DEF="POR_ALU_1190_3_2_3.entity" GUID="6b2c83fc-d9ab-4d66-8fb9-3a960f7acbb6" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_4" DEF="POR_ALU_1190_3_2_4.entity" GUID="f6039160-0bc8-4dc1-a953-783dd5ef8bce" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_ss150" DEF="POR_ALU_1190_3_2_4_3.entity" GUID="344775fe-6de6-4888-acff-6154d6c3200c" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_2" DEF="POR_ALU_1190_3_2_2.entity" GUID="074263e6-686e-4ffe-a7b7-481d676b38c3" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per71_leo10_2_ss150" DEF="POR_ALU_1190_3_2_2_3.entity" GUID="dbdaa712-e29d-4bbe-bbf4-10bf609a4c6f" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per45_leo10_2_2" DEF="POR_ALU_1190_4_2_2.entity" GUID="61e725de-dea9-4ffe-949f-ff4de797ad92" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per60" DEF="POR_ALU_1171.entity" GUID="9e3c05f3-9fac-47d1-9124-4b681df014b7" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per60_2" DEF="POR_ALU_1171_2.entity" GUID="b909f413-0155-4326-90e9-86787187dede" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_per45_leo10_2_3" DEF="POR_ALU_1190_4_2_3.entity" GUID="0f29f2cb-ead3-4494-a8a7-4a83321c9ad1" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie" DEF="gola_2.entity" GUID="197e1374-0781-46e5-a9b6-6f733e8faeb8" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_dir" DEF="gola_2_4.entity" GUID="9e8c9bdb-86e5-4408-9e12-31d196687641" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_esq" DEF="gola_2_4_2.entity" GUID="28721387-111a-4dcb-901d-0a62daef6055" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_premium" DEF="gola_2_3.entity" GUID="c7c47060-930f-4f5f-9475-264c2820c896" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_premium_dir" DEF="gola_2_3_2.entity" GUID="57a81a35-b4f9-4340-90f1-583952fa684f" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_premium_esq" DEF="gola_2_3_2_2.entity" GUID="68bc7629-fb5e-47a1-a0a1-907d14237f99" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_vr" DEF="gola_2_2.entity" GUID="e685f831-9e7b-447e-853f-0e6d874425ce" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_vr_dir" DEF="gola_2_2_2.entity" GUID="976b5883-bcce-4725-b76b-c20d1fbf53d3" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_gola_movie_vr_esq" DEF="gola_2_2_2_2.entity" GUID="621628f6-7a7a-4262-886a-7e075fef215c" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie" DEF="gola_4.entity" GUID="d6765378-24be-44e9-a5b9-028add74fb92" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_dir" DEF="gola_4_3.entity" GUID="e5a9934e-13ab-44d3-afef-b7aa6a82d670" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_esq" DEF="gola_4_3_2.entity" GUID="6f6d6783-c859-4211-ac79-a0281c847a4a" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_vr" DEF="gola_4_2.entity" GUID="2d346edd-c9e9-4c39-8f53-a7d51d43e954" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_vr_dir" DEF="gola_4_2_3.entity" GUID="e8dbfff8-c713-4da3-863b-0baa64eb6ce3" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_vr_esq" DEF="gola_4_2_3_2.entity" GUID="c4c01248-1c33-4ea5-b186-ab3de03ba336" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_vr_premium" DEF="gola_4_2_2.entity" GUID="9d732076-b1a7-43b0-9611-bd30c4541f79" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_vr_premium_dir" DEF="gola_4_2_2_2.entity" GUID="96857bff-a0ec-4a67-9330-3e990866d15a" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_vid_LEO105_movie_vr_premium_esq" DEF="gola_4_2_2_2_2.entity" GUID="a82f6940-256c-4bd4-af02-d09689cb1043" />
+    <EXPLORERITEM TYPE="entity" ID="Porta_estrutura_painel_movie" DEF="POR_MOD_POR_1174_2_3_4.entity" GUID="e66e75d8-315f-400f-8c89-956881d92afb" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid" DEF="vidro_3.entity" GUID="e0ea4d46-3271-4476-ad59-ad3abc5a6460" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_mad" DEF="COZ_CAI_MOD_OCU_1151.entity" GUID="5233a70f-3ae9-4cb5-ae0c-43cc2fb913eb" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_pietra" DEF="COZ_CAI_MOD_OCU_1151_2.entity" GUID="66558622-8232-4c5e-8698-58fea3fe182a" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_Movie" DEF="vidro_2.entity" GUID="9447a587-20c1-46f6-a7f9-0d56178498b8" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_Movie_Porta" DEF="vidro_2_2.entity" GUID="3723aac1-a8b1-4ecb-a14c-131a343372af" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_Movie_Porta_2" DEF="vidro_2_2_2.entity" GUID="72d495a9-4f7d-45bf-b405-f02f741cc242" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

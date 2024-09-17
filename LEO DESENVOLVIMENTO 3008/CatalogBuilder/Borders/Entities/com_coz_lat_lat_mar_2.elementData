@@ -1,0 +1,271 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "7,256095E-05",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 5,
+      "RightNeighbour": 7,
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "0, 500",
+        "Mid": "3, 628047488,74623"
+      },
+      "BorderStructureID": "",
+      "BorderID": "64f44d53-d37a-486e-a651-9e4b63ff3b74",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_lat_lat_mar_2"
+    },
+    {
+      "ProfileIndex": 13,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 5,
+      "LeftVertexIndex": 13,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 6,
+      "RightNeighbour": 1,
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "BorderStructureID": "",
+      "BorderID": "1e53bd5e-5d48-4c81-9498-eb05cd198054",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_lat_lat_mar_2"
+    },
+    {
+      "ProfileIndex": 12,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 6,
+      "LeftVertexIndex": 12,
+      "RightVertexIndex": 13,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "33,5"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "RightNeighbour": 5,
+      "Condition": {
+        "Expression": "'#FT_BORDA_DIR#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 33",
+        "Mid": "1000, 266",
+        "End": "1000, 500"
+      },
+      "BorderStructureID": "",
+      "BorderID": "200b03ba-0e3f-4cb8-a1b6-67e2d908d719",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_lat_lat_mar_2"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 7,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "7,256095E-05",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "453,0001",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 1,
+      "Condition": {
+        "Expression": "'#FT_BORDA_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Mid": "226, 500082056842",
+        "End": "453, 91552734"
+      },
+      "BorderStructureID": "",
+      "BorderID": "1b090e3f-f913-4a7e-9df9-44a7046802c4",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_lat_lat_mar_2"
+    },
+    {
+      "ProfileIndex": 5,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 8,
+      "LeftVertexIndex": 5,
+      "RightVertexIndex": 6,
+      "LeftPoint": {
+        "X": "516,0001",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "699,2501",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "516, 122070313",
+        "Mid": "607, 625122070313",
+        "End": "699, 250122070313"
+      },
+      "BorderStructureID": "",
+      "BorderID": "9e2c92b1-9b0e-42bf-8b0f-be2ed237bf77",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_lat_lat_mar_2"
+    },
+    {
+      "ProfileIndex": 9,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 9,
+      "LeftVertexIndex": 9,
+      "RightVertexIndex": 10,
+      "LeftPoint": {
+        "X": "762,2501",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "953,0001",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "762, 250122070313",
+        "Mid": "857, 625122070313",
+        "End": "953, 122070313"
+      },
+      "BorderStructureID": "",
+      "BorderID": "3a9100de-4b6c-4fe6-9530-8ddd567221f1",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_lat_lat_mar_2"
+    }
+  ],
+  "ElementId": "com_coz_lat_lat_mar_2"
+}

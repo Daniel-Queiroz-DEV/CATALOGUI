@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Acoplamento Esquerdo" INVISIBLE="N">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="cin_cor_002" EDIT="N" />
+    <COMPONENTDEFINITION ID="ES" NAME="ES" IDMATERIAL="cin_cor_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioLarguraAltura" />
+  <INSERTDIMENSION WIDTH="220" HEIGHT="17" DEPTH="80" TEXT="" DESC="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="900" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Acoplamento Esquerdo" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

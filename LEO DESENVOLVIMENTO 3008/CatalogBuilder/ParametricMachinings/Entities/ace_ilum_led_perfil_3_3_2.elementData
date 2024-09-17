@@ -1,0 +1,63 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "7,4",
+            "Y": "-10"
+          },
+          "End": {
+            "X": "7,4",
+            "Y": "$H$+30"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "11"
+      },
+      "MachiningProcessIDText": "2413ac87-66c1-4a43-a0b9-d8932f8b8189",
+      "UniqueID": 4,
+      "PlaneIndex": 1,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "7,4",
+        "Y": "-10"
+      },
+      "ElementId": "ace_ilum_led_perfil_3_3_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "5",
+            "Y": "-10"
+          },
+          "End": {
+            "X": "5",
+            "Y": "$H$+30"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "11"
+      },
+      "MachiningProcessIDText": "2413ac87-66c1-4a43-a0b9-d8932f8b8189",
+      "UniqueID": 5,
+      "PlaneIndex": 1,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "5",
+        "Y": "-10"
+      },
+      "ElementId": "ace_ilum_led_perfil_3_3_2"
+    }
+  ],
+  "ElementId": "ace_ilum_led_perfil_3_3_2"
+}

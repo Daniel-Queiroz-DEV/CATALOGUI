@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Metal Duplo Reuniao ($TEXT$)" ICON="metalduplo.jpg">
+  <DRAWING>
+    <FILE3D NAME="pe_duplo_reuniao" />
+    <DIMENSION WIDTH="720" HEIGHT="40" DEPTH="600" />
+  </DRAWING>
+  <INSERTINGPARAMETERS ORIENTATION="VERTICAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Metal Duplo Mesa Reunião $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="700" DEPTH="#ESC_PRO_PES_REU_MET#" HEIGHT="40" TEXT="PERMD">
+    <MIN WIDTH="500" />
+    <MAX WIDTH="1500" />
+  </INSERTDIMENSION>
+</ENTITY>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mono ($TEXT$)" ICON="mono.jpg">
+  <INSERTDIMENSION TEXT="100.451" />
+  <DRAWING>
+    <FILE3D NAME="mono-100451" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="335" HEIGHT="18" DEPTH="27" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_320_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_320_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_320_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_320_mon" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_320_mon" MODEL="Pux_all" MODELTYPE="Pux_all_pin" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mono 320mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

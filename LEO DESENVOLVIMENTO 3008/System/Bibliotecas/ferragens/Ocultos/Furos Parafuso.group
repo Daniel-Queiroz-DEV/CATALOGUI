@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Furos Parafuso" NAME="Furos Parafuso" PREFIXID="ace_ocu_fur_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ALWAYSCALCULATESTRUCTURES" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_coz" DEF="ace_ocu_fur_coz.entity" GUID="6175830b-814c-4d01-b362-86080a337057" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_ban" DEF="ace_ocu_fur_ban.entity" GUID="c1a0aac6-8d8c-40b9-b503-7bfdc32a73ee" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_dor_ban" DEF="ace_ocu_fur_dor.entity" GUID="02e203f7-6e35-4d81-b78e-c8297ecaef20" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_coz_sporta" DEF="ace_ocu_fur_coz_sporta.entity" GUID="7ecfd202-4a0a-4348-8779-b5947a353469" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_ban_sporta" DEF="ace_ocu_fur_ban_sporta.entity" GUID="31db6f0a-8f3e-4a2c-808b-58e323dbe2d6" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_dor_ban_sporta" DEF="ace_ocu_fur_2082.entity" GUID="3c611d03-a262-407e-8d44-beb9778ca919" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_dor_cri_nor" DEF="ace_ocu_fur_2136.entity" GUID="dcac212d-b13a-4055-8ea9-ab5fb01fbaa8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_dor_cri_emb" DEF="ace_ocu_fur_2137.entity" GUID="e00fec0f-cb24-419b-b306-5e3137ac6106" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_dor_por_gir" DEF="ace_ocu_fur_2140.entity" GUID="825e251e-fbdd-4cf6-81f5-a9fbb72340c9" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_dor_por_desl" DEF="ace_ocu_fur_2141.entity" GUID="f85cbf82-9904-4cea-a65d-65b60a47de53" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_pai_est" DEF="furo_pai_estrado.entity" GUID="a0dd9257-bf35-4f1a-8ef6-5bac1d1bebec" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_col_pai_est" DEF="coluna_furo_pai_estrado.entity" GUID="f01eb059-5b54-4a26-955f-28c1db1deb7d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_ro46" DEF="ace_ocu_fur_ro46.entity" GUID="448efd24-0fb7-4cea-afc1-6dbf36d03921" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

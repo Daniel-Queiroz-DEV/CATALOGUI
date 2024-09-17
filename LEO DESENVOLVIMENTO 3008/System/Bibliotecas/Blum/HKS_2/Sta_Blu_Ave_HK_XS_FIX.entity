@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fixador Frontal" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWING>
+    <LIMITS>
+      <MIN X="0" Y="0" Z="0" />
+      <MAX X="17.3" Y="17.347" Z="43" />
+    </LIMITS>
+    <FILE3D NAME="fixadorhk" />
+    <DIMENSION WIDTH="17.3" HEIGHT="43" DEPTH="17.3" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="dec_met_lis_alu" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Fixador Frontal" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="20K4101" DESC="" />
+</ENTITY>

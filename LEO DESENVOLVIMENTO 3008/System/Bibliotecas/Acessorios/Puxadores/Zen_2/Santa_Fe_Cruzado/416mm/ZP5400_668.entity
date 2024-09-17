@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Grafitto ($TEXT$.$D.ACAB$)" ICON="Santa_Fe_Cruzado.png">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Santa Fé Cruzado 416mm Grafitto" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_gra_1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION TEXT="ZP5400.416" ACAB="668" />
+</ENTITY>

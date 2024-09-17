@@ -1,0 +1,48 @@
+{
+  "ReceiverData": {
+    "AllowedDrillsNames": []
+  },
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_LAT#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_cavilha"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_BAS#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_cavilha"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_cavilha"
+}

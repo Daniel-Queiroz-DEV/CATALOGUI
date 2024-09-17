@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Forli.jpg">
+  <DRAWING>
+    <FILE3D NAME="Forli_400mm" />
+    <DIMENSION WIDTH="400" HEIGHT="55" DEPTH="19" />
+    <LIMITS>
+      <MIN X="-47.5" Y="-1" Z="-27.5" />
+      <MAX X="352.5" Y="18" Z="27.5" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Forli 400mm Red Gold Escovado" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="55" DEPTH="19" TEXT="ZP0562" ACAB="G00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="COURO" NAME="COURO" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

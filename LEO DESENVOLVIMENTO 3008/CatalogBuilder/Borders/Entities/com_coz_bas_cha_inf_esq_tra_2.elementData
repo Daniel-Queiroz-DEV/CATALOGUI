@@ -1,0 +1,200 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "550"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "150"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 4,
+      "Condition": {
+        "Expression": "('#FT_BORDA_ESQ#' == 'SIM') "
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "7273e8fa-2225-4bdc-adbb-6904d531902d",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cha_inf_esq_tra_2"
+    },
+    {
+      "ProfileIndex": 4,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 4,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "300",
+        "Y": "550"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "550"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 0,
+      "Condition": {
+        "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "42b37b2a-b199-4855-9f5f-f7492d1cd8e9",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cha_inf_esq_tra_2"
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 4,
+      "LeftPoint": {
+        "X": "300",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "300",
+        "Y": "550"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 1,
+      "Condition": {
+        "Expression": "('#FT_BORDA_DIR#' == 'SIM')"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "b2c1f7d1-d3d2-400e-a46c-fefcbb2da6c3",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cha_inf_esq_tra_2"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "150",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "300",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 4,
+      "RightNeighbour": 2,
+      "Condition": {
+        "Expression": "('#FT_BORDA_FRONTAL#' == 'SIM')"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "cfadd259-9657-4bc5-8828-7483380d199e",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cha_inf_esq_tra_2"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "TRASEIRA PORTAS",
+      "LayerName": "BORDA",
+      "Reference": "Referencia02",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "150"
+      },
+      "RightPoint": {
+        "X": "150",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 3,
+      "Condition": {
+        "Expression": "('#FT_BORDA_FRONTAL_ESQ#' == 'SIM')"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "cb1171fa-f88d-4387-8359-a828f54c0909",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_cha_inf_esq_tra_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_cha_inf_esq_tra_2"
+}

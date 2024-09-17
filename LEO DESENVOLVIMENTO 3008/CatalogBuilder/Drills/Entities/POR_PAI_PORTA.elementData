@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="POR_PAI_PORTA" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <DrillingCollection />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+  <DrillingData.ReceiverData>
+    <DrillingReceiverData
+      AllowedDrillsNames=""
+      Enable="False"
+      ReceiveAllDrills="True"
+      InheritAllDrillsFromParent="True" />
+  </DrillingData.ReceiverData>
+</DrillingData>

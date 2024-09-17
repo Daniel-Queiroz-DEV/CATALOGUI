@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_cor_simples_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="0"
+          OperationPrice="{assembly:Null}"
+          Position="37;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="1"
+          OperationPrice="{assembly:Null}"
+          Position="37+64;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$&gt;=300"
+          UniqueID="2"
+          OperationPrice="{assembly:Null}"
+          Position="37+224;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação04"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==250"
+          UniqueID="3"
+          OperationPrice="{assembly:Null}"
+          Position="37+148;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação05"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$&gt;=450"
+          UniqueID="4"
+          OperationPrice="{assembly:Null}"
+          Position="37+352;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação06"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==500||$D$==550"
+          UniqueID="5"
+          OperationPrice="{assembly:Null}"
+          Position="37+416;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação07"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==400"
+          UniqueID="6"
+          OperationPrice="{assembly:Null}"
+          Position="37+288;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação09"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==600"
+          UniqueID="8"
+          OperationPrice="{assembly:Null}"
+          Position="37+480;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação10"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="9"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação11"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="10"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-64;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação12"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$&gt;=300"
+          UniqueID="11"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-224;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação13"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==250"
+          UniqueID="12"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-148;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação14"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$&gt;=450"
+          UniqueID="13"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-352;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação15"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==500||$D$==550"
+          UniqueID="14"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-416;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação16"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==400"
+          UniqueID="15"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-288;18,5"
+          ElementId="ace_cor_simples_2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação18"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==600"
+          UniqueID="17"
+          PlaneIndex="2"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-37-480;18,5"
+          ElementId="ace_cor_simples_2" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

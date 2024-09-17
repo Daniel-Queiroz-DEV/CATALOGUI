@@ -1,0 +1,88 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script language="javascript" src="_includes/ManagerOne/jquery.js" type="text/javascript"></script>
+	<script language="javascript" src="_includes/ManagerOne/initializeTooltip.js" type="text/javascript"></script>
+	<script src="_includes/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+	<script src="_includes/jquery.jcarousel.js" language="javascript"></script>
+	<script src="_includes/funcoes.js" language="javascript"></script>
+	<script src="_includes/gerarLinks.js" language="javascript"></script>
+	<script src="_includes/recentes.js" language="javascript"></script>
+	
+	<!--[if lt IE 7]>
+    <script defer type="text/javascript" src="_includes/pngfix.js"></script>
+	<![endif]-->	
+
+	<!--[if lte IE 8]>
+		<link href="_includes/estilos-ie8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+	<link href="_includes/libraryCarousel.css" rel="stylesheet" type="text/css"/>
+		
+	<script type="text/JavaScript"> 
+		function loadFile(){
+			if(window.innerHeight>768){
+				document.write("<link href='_includes/estilos.css' rel='stylesheet' type='text/css'>");
+			}
+			else
+				document.write("<link href='_includes/estilos.small.css' rel='stylesheet' type='text/css'>");
+		}
+		
+		loadFile();
+
+	</script>	
+	
+</head>
+<body onload="chamaRecentes();">
+	<div class="container">
+		<div class="header" align="center">
+			<img src="img/logopromob.png" id="nautilus" class="nautiluslogoinicial"/>
+			<img src="img/promob.png" id="promob-logo" class="promoblogoinicial"/>
+		</div>
+
+		<div class="secondrow">
+			<div class="content projects-container">
+				<div class="projects">
+					<h2>Nuevo Ambiente</h2>
+
+					<a onclick="external.InvokeVSA('GestorPrototiposProjeto','IniciarClienteComPrototipo','1');" href="#">Cocinas</a><br/>
+					<a onclick="external.InvokeVSA('GestorPrototiposProjeto','IniciarClienteComPrototipo','2');" href="#">Baños</a><br/>
+					<a onclick="external.InvokeVSA('GestorPrototiposProjeto','IniciarClienteComPrototipo','3');" href="#">Dormitorios</a><br/>
+					<a onclick="external.InvokeVSA('GestorPrototiposProjeto','IniciarClienteComPrototipo','4');" href="#">Oficinas</a>
+				</div>
+				<div class="recents">
+					<h2>Ambientes Recientes</h2>
+				
+					<div style="overflow: hidden; cursor: hand; height:110px;" id="divRecentes" class="listrecents"></div>
+					<button name="abrirAmbiente" onclick="javascript: external.InvokeVSA('GestorDocumentos', 'AbrirSolucao', 'true');">Abrir ambiente...</button>
+				</div>
+			</div>
+
+			<div class="content">
+				<div id="gallery">
+					<p id="gallery-content-offline" align="center">
+					    Ingrese a <a href="http://galeria.promob.com" target="_blank" class="afontsize">Galeria Promob</a>.
+					    Envie sus proyectos, cree su propia galeria, like, comparta, inspirese..
+					</p>
+
+					<div id="gallery-content-online"></div>
+				</div>			
+			</div>
+
+			<div class="content parceiros-container"> 
+				<p class="md-trigger trigger-parceiros" data-modal="modal-parceiros">V9 R0 </p>
+			</div>
+		</div>
+	</div>
+
+	<div id="iframeRec"></div>
+
+	<div class="md-overlay"></div>
+
+	<script>
+	    preencheFrameRcentes();
+	</script>
+
+	<script src="_includes/modal.js" language="javascript"></script>
+</body>
+</html>

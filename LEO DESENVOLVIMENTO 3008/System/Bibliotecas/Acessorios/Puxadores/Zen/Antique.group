@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Antique" NAME="Antique" PREFIXID="zen_ant_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="ANTIQUE_11MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ANTIQUE_11MM" />
+      <DIMENSION WIDTH="30.2" HEIGHT="49.2" DEPTH="12.6" />
+      <LIMITS>
+        <MIN X="-15.105" Y="-7.035" Z="-35.168" />
+        <MAX X="15.045" Y="5.528" Z="14.077" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ant_11" DEF="11mm.group" GUID="bd04bbeb-d930-4bb8-b2bd-cd641c975d10" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

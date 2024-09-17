@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Disk" NAME="Disk" PREFIXID="zen_dis_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="DISK_P">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\disk_p" />
+      <DIMENSION WIDTH="37" HEIGHT="37" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-18.5" Y="-22" Z="-18.486" />
+        <MAX X="18.5" Y="0" Z="18.486" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DISK_G">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\disk_g" />
+      <DIMENSION WIDTH="56" HEIGHT="56" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-28" Y="-22" Z="-28" />
+        <MAX X="28" Y="0" Z="28" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_dis_p_11" DEF="P_11mm.group" GUID="6ce8a27f-6647-43c9-8519-eb631f043c96" />
+    <EXPLORERITEM TYPE="group" ID="zen_dis_g_11" DEF="G_11mm.group" GUID="285576ed-bdb4-49ed-b200-2b711a4103c8" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

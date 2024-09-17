@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prateleira Porta SIDe" ICON="PRAT_SIDEG.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Prateleira Geladeira SIDe" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PRAT_SIDEG" />
+    <DIMENSION WIDTH="275" HEIGHT="76" DEPTH="72" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

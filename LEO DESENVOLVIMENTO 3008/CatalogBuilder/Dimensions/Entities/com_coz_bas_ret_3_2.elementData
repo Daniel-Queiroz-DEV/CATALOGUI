@@ -1,0 +1,36 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 1,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "886,1915",
+        "Y": "15,30811"
+      },
+      "DistanceFromElement": -113.808533,
+      "Orientation": "Vertical",
+      "PlaneType": "Inferior",
+      "UniqueID": 5,
+      "FontSize": 10.0,
+      "ElementId": "com_coz_bas_ret_3_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "985,3801",
+        "Y": "-50"
+      },
+      "DistanceFromShape": -50.0,
+      "DistanceFromElement": -50.0,
+      "Orientation": "Horizontal",
+      "PlaneType": "Inferior",
+      "UniqueID": 6,
+      "FontSize": 10.0,
+      "ElementId": "com_coz_bas_ret_3_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_ret_3_2"
+}

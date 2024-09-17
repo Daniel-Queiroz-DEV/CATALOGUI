@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sup transv.">
+  <DRAWING>
+    <FILE3D NAME="suport transversal" />
+    <DIMENSION WIDTH="53.3" HEIGHT="146.1" DEPTH="22" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="53.3" HEIGHT="146.1" DEPTH="22" TEXT="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Suporte Transversal Duplo Branco" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="3D" NAME="3D" IDMATERIAL="start_met_001" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

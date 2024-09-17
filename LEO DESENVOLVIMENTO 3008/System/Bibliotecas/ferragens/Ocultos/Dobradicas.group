@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Dobradicas" NAME="Dobradiças" PREFIXID="ace_ocu_dob_" INVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_dob_110_total" DEF="110_total.entity" GUID="f85b3dc9-950e-4143-bfd3-f60200b64a68" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_dob_par" DEF="parcial.entity" GUID="043cfa03-d3d4-4a49-ace1-d612c1817d26" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_dob_L" DEF="L.entity" GUID="0a8bfca4-6484-4e9a-bb21-ff27540669ba" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_dob_tot_mor" DEF="ace_ocu_dob_tot_mor.entity" GUID="b480cb20-3512-44eb-a924-db985c2d29dd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_dob_cl_mor" DEF="ace_ocu_dob_cl_mor.entity" GUID="d4e81152-f65f-4923-a19e-70e8c4769335" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_dob_par_mor" DEF="ace_ocu_dob_par_mor.entity" GUID="f2e34ff4-5f82-45d7-811a-fb8742327212" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

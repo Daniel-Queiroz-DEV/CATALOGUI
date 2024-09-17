@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lixeira 1,5 litros ($TEXT$)" ICON="lix_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="lixeira_1lzen" />
+    <DIMENSION WIDTH="131" HEIGHT="135" DEPTH="133" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Zen by Zen Lixeira 1,5 litros" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="131" HEIGHT="136" DEPTH="131" TEXT="BA0283" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_zen_by_zen_lix" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_zen_by_zen_lix" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_pol_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

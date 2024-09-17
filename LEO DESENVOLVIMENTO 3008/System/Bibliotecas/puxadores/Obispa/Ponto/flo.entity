@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Flo ($TEXT$)" ICON="flo.jpg">
+  <DRAWING>
+    <FILE3D NAME="flo_100162" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="15" HEIGHT="34" DEPTH="20" />
+    <LIMITS>
+      <MIN X="-7.5" Y="-19.59" Z="-30" />
+      <MAX X="7.933" Y="0" Z="3.573" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_flo" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION TEXT="100.162" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Flo Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

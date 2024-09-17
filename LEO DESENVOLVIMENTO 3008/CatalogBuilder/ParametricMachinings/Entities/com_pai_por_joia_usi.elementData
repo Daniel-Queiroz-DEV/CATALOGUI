@@ -1,0 +1,59 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#COZ_EST_POR_JOIAS_LAR#-20"
+      },
+      "Height": {
+        "Value": "#COZ_EST_POR_JOIAS_LAR#-20"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "Usinagem Vao Inferior",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "a0f2a5fb-f6fe-4b83-8b05-e87b789c1092",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#COZ_EST_POR_JOIAS#+10",
+        "Y": "($D$/2)-(#COZ_EST_POR_JOIAS_LAR#/2)+10"
+      },
+      "ElementId": "com_pai_por_joia_usi"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#COZ_EST_POR_JOIAS_LAR#"
+      },
+      "Height": {
+        "Value": "#COZ_EST_POR_JOIAS_LAR#"
+      },
+      "CornerRadius": {
+        "Value": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Name": "Rebaixo",
+      "Depth": {
+        "Value": "6"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "a0f2a5fb-f6fe-4b83-8b05-e87b789c1092",
+      "UniqueID": 2,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#COZ_EST_POR_JOIAS#",
+        "Y": "($D$/2)-(#COZ_EST_POR_JOIAS_LAR#/2)"
+      },
+      "ElementId": "com_pai_por_joia_usi"
+    }
+  ],
+  "ElementId": "com_pai_por_joia_usi"
+}

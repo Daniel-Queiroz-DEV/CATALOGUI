@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pes Mesas Redondas" NAME="Pés Mesas Redondas" PREFIXID="ESC_MOD_FOR_RED_" INVISIBLE="N" MODELNAME="Pés Mesas Redondas" ORDERSTRING="002">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ESC_MOD_FOR_RED_CRU_RET" DEF="Cruzado Reto.entity" GUID="448496f8-e946-4de9-a3c4-045e346d8b5c" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_MOD_FOR_RED_CRU_CUR" DEF="Cruzado Curvo.entity" GUID="df629bed-bcfe-4914-89b3-848726529f59" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_MOD_FOR_RED_MET" DEF="Metal.entity" GUID="a2341a27-fb5b-4f6a-af46-ff1f61607f34" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_MOD_FOR_RED_MET_SIM" DEF="Metal Simples.entity" GUID="0ea073a6-4350-4a14-a9a4-9baec61d9db7" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_MOD_FOR_RED_MET_ACR" DEF="Metal Acrilico.entity" GUID="3f8692dd-0fa2-439b-9332-e6f666abcfe4" />
+  </EXPLORERITEMCOLLECTION>
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="ITEM_BASE" MODEL="@COM_*@" />
+</GROUP>

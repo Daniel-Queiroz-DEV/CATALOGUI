@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="sapateira_5_1" Description="Interna\Nova categoria\Sapateira\Nova categoria\Sapateira\Nova categoria\Sapateira" EntityId="DOR_CAI_INT_SAP" GroupName="Sapateira" Name="Sapateira" Type="Drawer">
+  <Dimension Depth="Floor(($PD$-#RECUO_PRAT_SPORTA#-(#DOR_ESP_FRE_SAP#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#VAO_GAV#-2*(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)-(#DOR_ARM_ESP_FUN#+#FOL_PAI#))/50)*50" Height="$P.H$" Width="$P.W$" />
+  <Position Y="-$PD$+$D$+#RECUO_PRAT_sPORTA#+(#DOR_ESP_FRE_SAP#+#FOL_PAI#)" />
+  <Components>
+    <LeftLateral EntityId="DOR_CAI_INT_AFA" Id="afast_sapateira_esq">
+      <Dimension Depth="$P.D$" Height="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_AFA_INT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_AFA_INT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="#DIM_AFA#" Y="-$PD$+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)-(#DOR_ESP_FRE_SAP#+#FOL_PAI#)" Rotation="180" />
+    </LeftLateral>
+    <RightLateral EntityId="DOR_CAI_INT_AFA_DIR" Id="afast_sapateira_dir">
+      <Dimension Depth="$P.D$" Height="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_AFA_INT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_AFA_INT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_AFA_INT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_AFA_INT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-#DIM_AFA#" Y="-$PD$+(#DOR_ESP_AFA_GAV_INT#+#FOL_PAI#)-(#DOR_ESP_FRE_SAP#+#FOL_PAI#)" Rotation="0" />
+    </RightLateral>
+  </Components>
+  <Variables>
+    <Variable Id="DefaultDrawersQuantity" Value="4" />
+    <Variable Id="SpaceBetweenDrawers" Value="#AFA_SAP#" />
+    <Variable Id="UpperDrawersOffset" Value="#AFA_SAP#" />
+    <Variable Id="LowerDrawersOffset" Value="20+#DOR_SAP_EST_AFA_INF#" />
+    <Variable Id="LeftDrawersOffset" Value="0" />
+    <Variable Id="RightDrawersOffset" Value="0" />
+    <Variable Id="DefaultFallback" Value="0" />
+    <Variable Id="LeftSeparators" Value="afast_sapateira_esq" />
+    <Variable Id="RightSeparators" Value="afast_sapateira_dir" />
+    <Variable Id="EditableSeparators" Value="afast_sapateira_esq;afast_sapateira_dir" />
+  </Variables>
+</Item>

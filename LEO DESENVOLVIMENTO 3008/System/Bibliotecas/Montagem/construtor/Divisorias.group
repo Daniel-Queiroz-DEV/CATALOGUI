@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Divisorias" NAME="Divisórias" PREFIXID="com_con_mon_" INVISIBLE="N" GENERATEITEMSNUMBERS="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_mon" DEF="com_con_mon_mon.entity" GUID="c27b8acd-e474-4254-adf9-146815f9d5b4" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_div" DEF="com_con_mon_div.entity" GUID="52a826c2-9e22-474b-a29a-256a470ef34d" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_cons_arm_giro" DEF="com_con_mon_cons_arm_giro.entity" GUID="24f611b5-ac55-47d8-bb4d-b10582b55097" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_cons_arm_giro_srod" DEF="com_con_mon_cons_arm_giro_srod.entity" GUID="d52a3f80-6667-49cb-9a43-2b4e405450b1" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_cons_arm_desl" DEF="com_con_mon_cons_arm_desl.entity" GUID="a2f593c2-3ac8-4aed-abcc-67415abf263f" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_cons_arm_desl_srod" DEF="com_con_mon_cons_arm_desl_srod.entity" GUID="4652fb6c-2962-4e0a-b861-9b15c6ae350d" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_fec" DEF="com_con_mon_fec.entity" GUID="bc28369b-cc83-4816-9dcc-c78c58d829c5" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_982" DEF="com_con_mon_982.entity" GUID="1f10db22-788f-411f-b92e-48be5d4a0331" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_tra_ver" DEF="com_con_mon_tra_ver.entity" GUID="54709e40-5199-41cb-af69-1107273be915" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_mon_int" DEF="com_con_mon_int.entity" GUID="166ce837-9b60-4e23-9002-92bd0b006ecc" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_con_mon" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_mon" MODEL="com_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_mon" MODEL="com_caixas" MODELTYPE="acabamento_727" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_mon" MODEL="com_caixas" MODELTYPE="acabamento_726" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_mon" MODEL="com_caixas" MODELTYPE="acabamento_027_2" CONDITION="$H$ == 25" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

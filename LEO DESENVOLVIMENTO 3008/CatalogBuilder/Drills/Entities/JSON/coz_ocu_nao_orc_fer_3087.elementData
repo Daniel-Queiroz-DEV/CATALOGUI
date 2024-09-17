@@ -1,0 +1,44 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "@( '#P.LINHA_PARAFUSO#' == 'COZ' && '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#COZ_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'COZ' && '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#COZ_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'BAN' && '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#BAN_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'BAN' && '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#BAN_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_BAN' && '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#DOR_BAN_ESP_LAT_CPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_BAN' && '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#DOR_BAN_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_CRI' && '#P.MODULO_PARAFUSO#' == 'NORMAL' ? (#DOR_BAN_ESP_LAT_CRI#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_CRI' && '#P.MODULO_PARAFUSO#' == 'EMBUTIR' ? (#DOR_BAN_ESP_LAT_CRI_EMB#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' && '#P.MODULO_PARAFUSO#' == 'POR_GIRO' ? (#DOR_ARM_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' && '#P.MODULO_PARAFUSO#' == 'POR_DESL' ? (#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#) : 0 )"
+        },
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "coz_ocu_nao_orc_fer_3087"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "25"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "coz_ocu_nao_orc_fer_3087"
+      }
+    ]
+  },
+  "ElementId": "coz_ocu_nao_orc_fer_3087"
+}

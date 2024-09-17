@@ -1,0 +1,48 @@
+{
+  "ReceiverData": {
+    "AllowedDrillsNames": []
+  },
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "11"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_cav_formar"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "30"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_cav_formar"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_cav_formar"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Parcial" ICON="reta.JPG" INVISIBLE="N">
+  <INSERTDIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" TEXT="DOBP" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Dobradiça de Cobrimento Parcial c/ Calço" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEAGGREGATECOLLECTION>
+    <REMOVEAGGREGATE ID="ace_ocu_com_dob_reta_zero" IDINFORMATION="Ag6350864351135158831" />
+  </REMOVEAGGREGATECOLLECTION>
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+</ENTITY>

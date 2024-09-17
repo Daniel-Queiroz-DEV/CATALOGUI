@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_ocu_div_tri" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          UniqueID="0"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50;11.5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$PD$==250"
+          UniqueID="1"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-176;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação03"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$PD$==300"
+          UniqueID="2"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-96;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação04"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==300"
+          UniqueID="3"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-224;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação05"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==350"
+          UniqueID="4"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-128;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação06"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==350&amp;&amp;$D$==600"
+          UniqueID="5"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-256;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação08"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$&gt;=400&amp;&amp;$D$&lt;=450"
+          UniqueID="7"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-160;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação09"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==400"
+          UniqueID="8"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-320;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação07"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==450"
+          UniqueID="9"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-352;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação10"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==500"
+          UniqueID="10"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-192;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação11"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==550"
+          UniqueID="11"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-224;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação12"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==500"
+          UniqueID="12"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-416;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação13"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==550"
+          UniqueID="13"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-448;11,5"
+          ElementId="ace_ocu_div_tri" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação14"
+          ReceiverDrillName="Furo18"
+          ReceiverDepth="#PRO_MAR#"
+          Condition="$D$==600"
+          UniqueID="14"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="$D$-50-512;11,5"
+          ElementId="ace_ocu_div_tri" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

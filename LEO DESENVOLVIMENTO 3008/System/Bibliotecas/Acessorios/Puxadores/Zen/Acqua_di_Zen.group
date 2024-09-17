@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Acqua_di_Zen" NAME="Acqua di Zen" PREFIXID="zen_acqua_zen_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="ACQUA_38MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ACQUA_38MM" />
+      <DIMENSION WIDTH="38.6" HEIGHT="38.9" DEPTH="16.1" />
+      <LIMITS>
+        <MIN X="-19.626" Y="-16.085" Z="-19.432" />
+        <MAX X="19.004" Y="0" Z="19.468" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ACQUA_60MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ACQUA_60MM" />
+      <DIMENSION WIDTH="61" HEIGHT="61.4" DEPTH="25.4" />
+      <LIMITS>
+        <MIN X="-30.97" Y="-25.383" Z="-30.663" />
+        <MAX X="29.988" Y="0" Z="30.721" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ACQUA_105MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ACQUA_105MM" />
+      <DIMENSION WIDTH="106.7" HEIGHT="107.5" DEPTH="55.2" />
+      <LIMITS>
+        <MIN X="-54.228" Y="-55.173" Z="-53.69" />
+        <MAX X="52.507" Y="0" Z="53.791" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_acqua_zen_60" DEF="60mm.group" GUID="13e1c659-3362-40c9-bf0c-57ecd2aa7d27" />
+    <EXPLORERITEM TYPE="group" ID="zen_acqua_zen_38" DEF="38mm.group" GUID="340be55a-d5f9-4353-aef8-d94e1f70421d" />
+    <EXPLORERITEM TYPE="group" ID="zen_acqua_zen_105" DEF="105mm.group" GUID="e9bf621b-405f-44b7-af5b-14cc40b1a44b" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,57 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$+100",
+            "Y": "96,6"
+          },
+          "End": {
+            "X": "30",
+            "Y": "96,6"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "30",
+            "Y": "96,6"
+          },
+          "End": {
+            "X": "30",
+            "Y": "96,5"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "30",
+            "Y": "96,5"
+          },
+          "End": {
+            "X": "$W$+100",
+            "Y": "96,5"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "12"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "237da40e-42df-45bf-9ef8-b14c31e28bca",
+      "UniqueID": 4,
+      "PlaneType": "Superior",
+      "OperationPrice": "SOR_1LADO",
+      "Position": {
+        "X": "$W$+100",
+        "Y": "96,6"
+      },
+      "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_CAVA_3"
+    }
+  ],
+  "ElementId": "POR_PAI_PORTA_CAVA_MADEIRA_DES_CAVA_3"
+}

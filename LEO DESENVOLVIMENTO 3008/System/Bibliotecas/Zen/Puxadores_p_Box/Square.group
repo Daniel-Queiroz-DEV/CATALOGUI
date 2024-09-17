@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Square" NAME="Square" PREFIXID="zen_pux_box_squ_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <DRAWING>
+    <DIMENSION WIDTH="60" HEIGHT="60" DEPTH="42.5" />
+    <LIMITS>
+      <MIN X="-30" Y="-19.5" Z="-29.987" />
+      <MAX X="30" Y="23" Z="30.013" />
+    </LIMITS>
+    <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_p_Box\Square\3D\Square_Box_Duplo" />
+  </DRAWING>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_pux_box_squ_dup" DEF="Square_Duplo.entity" GUID="2d07c0c5-8244-4909-80ce-0a8cdb8fc60d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

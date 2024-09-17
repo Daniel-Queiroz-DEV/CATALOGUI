@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="gaveta_scorpo_1_1" Description="Interna\Nova categoria\Sapateira\Nova categoria\Sapateira\Nova categoria\Gaveta s/ Corpo" EntityId="COZ_CAI_GAV_COM_VAZ" GroupName="Gavetas" Name="Gaveta s/ Corpo" Type="Drawer">
+  <Dimension Depth="$P.D$-(#COZ_ESP_FUN#+#FOL_PAI#)-(#COZ_ESP_TRA#+#FOL_PAI#)-#VAO_GAV#" Height="$P.H$" Width="$P.W$" />
+  <Position Y="-$P.D$" />
+  <Actions>
+    <ResizeItem Side="Bottom" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_INF_POR#+(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)/2-#FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Bottom" />
+          <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="(#COZ_ESP_BAS#+#FOL_PAI#)/2+#FOL_SUP_POR#-#FOL_ENT_GAV#/2">
+      <Conditions>
+        <Or>
+          <HasNeighbourItem ItemType="Front" Side="Top" />
+          <HasNeighbourItem ItemType="Drawer" Side="Top" />
+        </Or>
+      </Conditions>
+    </ResizeItem>
+    <ResizeItem Side="Top" Value="(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_SUP_POR#-#FOL_ENT_GAV#">
+      <Conditions>
+        <And>
+          <IsUpperGap Not="Y" />
+          <Or Not="Y">
+            <HasNeighbourItem ItemType="Front" Side="Top" />
+            <HasNeighbourItem ItemType="Drawer" Side="Top" />
+          </Or>
+        </And>
+      </Conditions>
+    </ResizeItem>
+  </Actions>
+  <Front Id="gav_frente" EntityId="POR_FRE_FRE" FollowsOpening="Y" ModelName="Const Arm - Frentes" Tag="Frente" Type="Front">
+    <Dimension Depth="@(#COZ_ESP_POR#+#FOL_PAI#)" Height="@('#COZ_CON_SENTIDO_TRAVESSA#'=='Horizontal' ? $PH$ : $PH$+#COZ_CON_DIM_TRA_FRO_VER_HOR#-(#COZ_ESP_TES#+#FOL_PAI#)-#FOL_AJU#)" Width="$P.W$+2*(#COZ_ESP_LAT#+#FOL_PAI#)-2*#FOL_ENT_PT_LAR#" />
+    <Position X="-(#COZ_ESP_LAT#+#FOL_PAI#)+#FOL_ENT_PT_LAR#" />
+    <Actions>
+      <ResizeItem Value="-(#COZ_ESP_LAT#+#FOL_PAI#)/2">
+        <Conditions>
+          <Or>
+            <HasNeighbourItem ItemType="Front" Side="Left" />
+            <HasNeighbourItem ItemType="Drawer" Side="Left" />
+          </Or>
+        </Conditions>
+      </ResizeItem>
+      <ResizeItem Side="Right" Value="-(#COZ_ESP_LAT#+#FOL_PAI#)/2">
+        <Conditions>
+          <Or>
+            <HasNeighbourItem ItemType="Front" Side="Right" />
+            <HasNeighbourItem ItemType="Drawer" Side="Right" />
+          </Or>
+        </Conditions>
+      </ResizeItem>
+    </Actions>
+  </Front>
+  <Variables>
+    <Variable Id="DrawingType" Value="DrawerFront" />
+    <Variable Id="DefaultDrawersQuantity" Value="4" />
+    <Variable Id="SpaceBetweenDrawers" Value="@('#COZ_CON_SENTIDO_TRAVESSA#'=='Horizontal' ? #FOL_ENT_GAV# : #FOL_ENT_GAV#+#COZ_CON_DIM_TRA_FRO_VER_HOR#-(#COZ_ESP_TES#+#FOL_PAI#)-#FOL_AJU#)" />
+    <Variable Id="UpperDrawersOffset" Value="@('#COZ_CON_SENTIDO_TRAVESSA#'=='Horizontal' ? #FOL_SUP_POR# : #FOL_SUP_POR#+#COZ_CON_DIM_TRA_FRO_VER_HOR#-(#COZ_ESP_TES#+#FOL_PAI#)-#FOL_AJU#)" />
+    <Variable Id="LowerDrawersOffset" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_INF_POR#" />
+  </Variables>
+</Item>

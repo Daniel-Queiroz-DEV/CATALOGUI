@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Afro Metal" DIRECTORY="afro_metal" MODELNAME="Afro Metal" ORDERSTRING="005" PREFIXID="zen_afro_met_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="AFRO_METAL_16MM_MINI">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\AFRO_METAL_16MM_MINI" />
+      <DIMENSION WIDTH="64.6" HEIGHT="63.9" DEPTH="24.2" />
+      <LIMITS>
+        <MIN X="-31.93" Y="-24.131" Z="-59.183" />
+        <MAX X="32.678" Y="0.032" Z="4.676" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="AFRO_METAL_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\AFRO_METAL_16MM" />
+      <DIMENSION WIDTH="89.8" HEIGHT="88.8" DEPTH="25.2" />
+      <LIMITS>
+        <MIN X="-44.404" Y="-25.137" Z="-82.302" />
+        <MAX X="45.441" Y="0.033" Z="6.503" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_afro_met_16_min_2" DEF="16mm_Mini.group" GUID="4737dd6f-cac9-44c3-8484-3bdbf2afa904" />
+    <EXPLORERITEM TYPE="group" ID="zen_afro_met_16_2" DEF="16mm.group" GUID="5e8ea25a-a551-477d-b0ad-4c16590017c0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

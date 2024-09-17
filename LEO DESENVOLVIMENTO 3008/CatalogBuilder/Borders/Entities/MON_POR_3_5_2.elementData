@@ -1,0 +1,1125 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "Angle": {},
+        "LeftNeighbour": 1,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 3,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 0,
+            "RightNeighbour": 1,
+            "Arc": {
+              "Start": "0, 500",
+              "Mid": "0, 250"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "RightNeighbour": 2,
+          "Arc": {
+            "Mid": "500, 0",
+            "End": "1000, 0"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "RightNeighbour": 0,
+        "Arc": {
+          "Start": "1000, 0",
+          "Mid": "1000, 250",
+          "End": "1000, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "RightNeighbour": 3,
+      "RightNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 0,
+        "RightNeighbour": 1,
+        "RightNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 3,
+          "RightNeighbour": 2,
+          "RightNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "Angle": {},
+            "LeftNeighbour": 1,
+            "RightNeighbour": 0,
+            "Arc": {
+              "Start": "1000, 0",
+              "Mid": "1000, 250",
+              "End": "1000, 500"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "Arc": {
+            "Mid": "500, 0",
+            "End": "1000, 0"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "Arc": {
+          "Start": "0, 500",
+          "Mid": "0, 250"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_POR_3_5_2"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 0,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "Angle": {},
+            "LeftNeighbour": 1,
+            "RightNeighbour": 0,
+            "Arc": {
+              "Start": "1000, 0",
+              "Mid": "1000, 250",
+              "End": "1000, 500"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "RightNeighbour": 3,
+          "Arc": {
+            "Start": "1000, 500",
+            "Mid": "500, 500",
+            "End": "0, 500"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "RightNeighbour": 1,
+        "Arc": {
+          "Start": "0, 500",
+          "Mid": "0, 250"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "RightNeighbour": 2,
+      "RightNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "Angle": {},
+        "LeftNeighbour": 1,
+        "RightNeighbour": 0,
+        "RightNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "RightNeighbour": 3,
+          "RightNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 0,
+            "RightNeighbour": 1,
+            "Arc": {
+              "Start": "0, 500",
+              "Mid": "0, 250"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "Arc": {
+            "Start": "1000, 500",
+            "Mid": "500, 500",
+            "End": "0, 500"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "Arc": {
+          "Start": "1000, 0",
+          "Mid": "1000, 250",
+          "End": "1000, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_POR_3_5_2"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 3,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "Angle": {},
+            "LeftNeighbour": 2,
+            "RightNeighbour": 3,
+            "Arc": {
+              "Start": "1000, 500",
+              "Mid": "500, 500",
+              "End": "0, 500"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "RightNeighbour": 1,
+          "Arc": {
+            "Start": "0, 500",
+            "Mid": "0, 250"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "RightNeighbour": 2,
+        "Arc": {
+          "Mid": "500, 0",
+          "End": "1000, 0"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "RightNeighbour": 0,
+      "RightNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "Angle": {},
+        "LeftNeighbour": 2,
+        "RightNeighbour": 3,
+        "RightNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "RightNeighbour": 1,
+          "RightNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 3,
+            "RightNeighbour": 2,
+            "Arc": {
+              "Mid": "500, 0",
+              "End": "1000, 0"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "Arc": {
+            "Start": "0, 500",
+            "Mid": "0, 250"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "Arc": {
+          "Start": "1000, 500",
+          "Mid": "500, 500",
+          "End": "0, 500"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 250",
+        "End": "1000, 500"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_POR_3_5_2"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "Angle": {},
+        "LeftNeighbour": 2,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "Angle": {},
+          "LeftNeighbour": 1,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 3,
+            "RightNeighbour": 2,
+            "Arc": {
+              "Mid": "500, 0",
+              "End": "1000, 0"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "RightNeighbour": 0,
+          "Arc": {
+            "Start": "1000, 0",
+            "Mid": "1000, 250",
+            "End": "1000, 500"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "RightNeighbour": 3,
+        "Arc": {
+          "Start": "1000, 500",
+          "Mid": "500, 500",
+          "End": "0, 500"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "RightNeighbour": 1,
+      "RightNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Engrossurado",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_TPO#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 3,
+        "RightNeighbour": 2,
+        "RightNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Engrossurado",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_TPO#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "Angle": {},
+          "LeftNeighbour": 1,
+          "RightNeighbour": 0,
+          "RightNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Engrossurado",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_TPO#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "Angle": {},
+            "LeftNeighbour": 2,
+            "RightNeighbour": 3,
+            "Arc": {
+              "Start": "1000, 500",
+              "Mid": "500, 500",
+              "End": "0, 500"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "MON_POR_3_5_2"
+          },
+          "Arc": {
+            "Start": "1000, 0",
+            "Mid": "1000, 250",
+            "End": "1000, 500"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "MON_POR_3_5_2"
+        },
+        "Arc": {
+          "Mid": "500, 0",
+          "End": "1000, 0"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "MON_POR_3_5_2"
+      },
+      "Arc": {
+        "Start": "0, 500",
+        "Mid": "0, 250"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "MON_POR_3_5_2"
+    }
+  ],
+  "ElementId": "MON_POR_3_5_2"
+}

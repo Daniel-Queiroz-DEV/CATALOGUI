@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="200mm" NAME="200mm" PREFIXID="zen_pam_200_">
+  <DRAWINGS />
+  <DRAWING ID="PAMPA_200MM" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_30_2" DEF="ZP1330_30.entity" GUID="ffb47c63-1184-4dd6-be1b-54354077817d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_26_2" DEF="ZP1330_26.entity" GUID="c4260859-22ac-4ed7-8874-e4314789f845" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_24_2" DEF="ZP1330_24.entity" GUID="b11065f6-23e2-4831-ae97-3f2c2c408a9f" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_25_2" DEF="ZP1330_25.entity" GUID="0ffd91cd-2956-433e-90fa-325d2e61a84c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_95_2" DEF="ZP1330_95.entity" GUID="400fa389-c92e-470f-876b-97b23d1c2939" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_08_2" DEF="ZP1330_8.entity" GUID="29d3294f-c076-40aa-957b-826a862fa00e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_648_2" DEF="ZP1330_648.entity" GUID="eafff904-b40a-404d-8e7d-9974065e7616" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_599_2" DEF="ZP1330_599.entity" GUID="0c28c944-7924-4b62-9d8b-2051f1f4a1f4" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_599_955_2" DEF="ZP1330_955.entity" GUID="a77da669-f09d-4567-8ab9-a052b8ce7d01" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_A00_2" DEF="ZP1330_A00.entity" GUID="11bb1c54-b5db-4edf-8775-ce599f870282" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_B00_2" DEF="ZP1330_B00.entity" GUID="eedb07d8-67e0-4adf-bd29-52cdf6979791" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_F00_2" DEF="ZP1330_F00.entity" GUID="53996fa5-0a64-4ce9-b0ed-675095457b2c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_G00_2" DEF="ZP1330_G00.entity" GUID="1fdc7045-9672-4d6f-bfa6-5884828a4518" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_L00_2" DEF="ZP1330_L00.entity" GUID="5375aded-344a-41a5-b240-75bc9dbd9d08" />
+    <EXPLORERITEM TYPE="entity" ID="zen_pam_200_M00_2" DEF="ZP1330_M00.entity" GUID="f46376a9-c96c-48be-b96e-97dbde3d5a32" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_200mm.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

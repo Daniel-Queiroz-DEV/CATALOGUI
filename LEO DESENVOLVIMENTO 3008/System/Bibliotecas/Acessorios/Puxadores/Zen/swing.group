@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Swing" DIRECTORY="swing" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_swi_32" DEF="32mm.group" GUID="eb71b95e-2364-4644-8354-7faa0570b282" />
+    <EXPLORERITEM TYPE="group" ID="zen_swi_224" DEF="224mm.group" GUID="3858a5ba-1500-4e3c-bf7a-04827a19e90b" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SWING_32MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\swing_32mm" />
+      <DIMENSION WIDTH="42" HEIGHT="45" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-21" Y="-22" Z="-25" />
+        <MAX X="21" Y="0" Z="20" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SWING_224MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\swing_224mm" />
+      <DIMENSION WIDTH="234" HEIGHT="45" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-117" Y="-22" Z="-25" />
+        <MAX X="117" Y="0" Z="20" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

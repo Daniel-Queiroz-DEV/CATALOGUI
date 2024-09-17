@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Professional Style 127V" ICON="WFA106Q30L.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Lavadora de Roupas Professional Style 127V - WFA106Q30L" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="WFA106Q30L" />
+    <DIMENSION WIDTH="596" HEIGHT="890" DEPTH="540" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="596" HEIGHT="890" DEPTH="540" />
+  <REFERENCE COMPLETE="7891646007422" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

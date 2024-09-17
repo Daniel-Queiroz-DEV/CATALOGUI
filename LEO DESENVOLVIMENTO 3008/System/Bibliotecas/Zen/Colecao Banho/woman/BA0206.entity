@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prat ($TEXT$)" ICON="BA0036_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0124_prat_acrilico" />
+    <DIMENSION WIDTH="420" HEIGHT="41.5" DEPTH="120" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="420" HEIGHT="41" DEPTH="120" TEXT="BA0206" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Womann Prateleira em $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_wom_BA0206" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_wom_BA0206" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_wom_BA0206" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro_bra" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

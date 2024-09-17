@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Slash ($TEXT$)" ICON="slash.jpg">
+  <INSERTDIMENSION TEXT="140.001" />
+  <REFERENCE IDREFERENCE="Simples_Crom" />
+  <DRAWING>
+    <FILE3D NAME="slash_140001" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="141" HEIGHT="27" DEPTH="9" />
+    <LIMITS>
+      <MIN X="-71" Y="-26.911" Z="-4.5" />
+      <MAX X="71.09" Y="0" Z="4.609" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="METAL" NAME="METAL" IDMATERIAL="obi_met_cro" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Slash 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

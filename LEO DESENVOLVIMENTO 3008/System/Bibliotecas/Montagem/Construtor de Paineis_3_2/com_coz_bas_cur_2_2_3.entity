@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Trapezio" ICON="..\..\Paineis\PAI_6_3\6mm_\usi1.png">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA X="-0.6285248" Y="0.0003814697" />
+      <PONTO2DA X="-0.6285248" Y="-399.9996" />
+      <PONTO2DA X="299.3715" Y="-399.9996" />
+      <PONTO2DA X="449.3718" Y="-199.9994" />
+      <PONTO2DA X="299.3715" Y="0.0003814697" />
+    </BOUNDINGBOX>
+    <FILE3D NAME="trapezio" />
+    <DIMENSION WIDTH="500" HEIGHT="15" DEPTH="300" />
+    <LIMITS>
+      <MIN X="0" Y="-300" Z="0" />
+      <MAX X="500" Y="0" Z="15" />
+    </LIMITS>
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+  <REFERENCE COMPLETE="$P.REFERENCE(COMPLETE)$" TIPO_FITA="#TIPO_BORDA_PAI#" ALTURA_FITA="@($REFERENCE(MODEL)$ == 'Branco TX' &amp;&amp; ($H$-#FOL_PAI#) == 15 ? 19 :($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" />
+  <INSERTDIMENSION WIDTH="300" HEIGHT="@(18+#FOL_PAI#)" DEPTH="400" TEXT="PAI" DESC="" ITEM_BASE="USI01">
+    <MIN WIDTH="300" DEPTH="50" />
+    <MAX WIDTH="2720" DEPTH="2720" />
+    <INCREMENT WIDTH="1" DEPTH="1" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="#P.DESCRIPTION#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="SIM" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS />
+</ENTITY>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Tampo_Conexoes_Escritorios" NAME="Tampo Conexões Escritórios" PREFIXID="com_tam_esc_" INVISIBLE="Y">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento_Tampos" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_Borda_Tampos_Escritorios_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_45" DEF="ESC_CAI_TAM_45.entity" GUID="c0bb16da-5b6c-4fe1-bc77-1a1abf887031" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_cur" DEF="ESC_CAI_TAM_CUR.entity" GUID="16e6ab77-5a9d-41ba-8ea5-2468d82e2908" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_90" DEF="ESC_CAI_TAM_C90.entity" GUID="4fcfa81d-903b-4be2-a8a6-52aebf0ad66e" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_con_ang" DEF="angular.entity" GUID="11231541-ab4d-438c-b084-1547ba2e3762" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_qua" DEF="ESC_CAI_TAM_QUA.entity" GUID="b4d839d4-c977-4750-9db1-03647446456d" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_got_sim" DEF="com_esc_tam_got.entity" GUID="d95481db-17b5-4847-9c01-392d3a76d297" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_got_dup" DEF="ESC_CAI_TAM_GOT.entity" GUID="4593d594-49dc-4b2c-aa63-dfc1385b3951" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_tri" DEF="ESC_CAI_TAM_TRI.entity" GUID="d28bf787-433c-4286-aa63-33170ea1fa6d" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_cir" DEF="ESC_CAI_TAM_CIR.entity" GUID="c6318ae6-c658-4a1f-9fe4-db4e67d38abc" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TAM_ESC" VALUE="SIM" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+</GROUP>

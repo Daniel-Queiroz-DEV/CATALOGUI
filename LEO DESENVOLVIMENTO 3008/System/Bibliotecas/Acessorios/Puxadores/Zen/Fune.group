@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fune" NAME="Fune" PREFIXID="zen_fun_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="FUNE_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUNE_PONTO" />
+      <DIMENSION WIDTH="22.8" HEIGHT="55" DEPTH="15" />
+      <LIMITS>
+        <MIN X="-11.804" Y="-15" Z="-44.035" />
+        <MAX X="10.991" Y="0" Z="10.964" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_fun_esp_aco" DEF="Espia_Aco.group" GUID="6f1042d4-ed53-4ab2-be44-ecf116b37823" />
+    <EXPLORERITEM TYPE="group" ID="zen_fun_esp_cou" DEF="Espia_Couro.group" GUID="11fca706-4d09-4b39-b68c-49ecc2692531" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

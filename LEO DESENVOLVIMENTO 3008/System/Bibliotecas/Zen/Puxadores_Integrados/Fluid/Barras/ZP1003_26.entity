@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Bronze ($TEXT$.$D.ACAB$)" ICON="Barra_Fluid.jpg" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="barra" />
+    <DIMENSION WIDTH="500" HEIGHT="20" DEPTH="16" />
+  </DRAWING>
+  <REDIMSERVICE>
+    <PBLOCK DEFAULTSCALEX="Y" DEFAULTSCALEY="Y" DEFAULTSCALEZ="Y">
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Nothing" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="52.20588" V="42" />
+              <CORNER2 U="-21.32353" V="-63.88235" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="DIMENSIONOFFSET" ORIGINALVALUE="0" FORMULA="" INCREMENT="Increase" AFFECTSCALEOPERATION="Y">
+            <VECTOR U="1" V="0" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="441.9118" V="49.35294" />
+              <CORNER2 U="522.7941" V="-75.64706" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <BUDGET>
+    <INFORMATION RULE="ZEN_M" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Fluid/Cártago Perfil Bronze ao metro (Complemento Pux Fluid/Cártago)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_bronze" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="500" HEIGHT="20" DEPTH="16" TEXT="ZP1003" ACAB="26">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+</ENTITY>

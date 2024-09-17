@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq e Papeleira ($TEXT$)" ICON="sab_pra.jpg">
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_be_sab_pra" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_sab_pra" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_sab_pra" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="190" HEIGHT="141" DEPTH="101" TEXT="BA0264" />
+  <DRAWING>
+    <FILE3D NAME="drawing5" />
+    <DIMENSION WIDTH="190" HEIGHT="140" DEPTH="96" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Be Saboneteira Líquida e Papeleira @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

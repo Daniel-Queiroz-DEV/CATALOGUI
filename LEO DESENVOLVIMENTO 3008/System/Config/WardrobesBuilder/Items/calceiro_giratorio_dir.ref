@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="calceiro_giratorio_dir" Name="Giratório Direito" GroupName="Aramados" Description="Calceiros" Inverted="Y">
+  <Position X="$PW$-$W$" Y="-$PD$+$D$+60" Z="$PH$-$H$-100">
+    <Max Z="$P.H$-$H$" />
+    <Min Z="0" />
+  </Position>
+  <Alternatives>
+    <Alternative Id="calceiro_giratorio_dir" EntityId="ACE_ARA_CAL_DESL">
+      <Conditions>
+        <TestExpression Expression="$PD$ &gt;= 580" />
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="BUDGETAGGREGATE" Value="true" />
+    </Sets>
+  </Output>
+</Item>

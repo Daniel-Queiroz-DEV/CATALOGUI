@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Portas Alu_2_2" NAME="Painéis Porta Alumínio Miolo Perfil 0" PREFIXID="POR_MOD_ALU_" INVISIBLE="Y" MODELNAME="Miolo Porta" ORDERSTRING="002">
+  <BUDGET>
+    <MARGIN IDCATEGORY="POR" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="PORTAS" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_2_2" DEF="vidro_3.entity" GUID="eb0c1df1-9782-4dc3-8cea-40da439d89cf" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_mad_2_3" DEF="COZ_CAI_MOD_OCU_1151.entity" GUID="f776a4e7-d7c6-4b84-8227-630ccd7fc1b1" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_mad_2_2_2" DEF="COZ_CAI_MOD_OCU_1151_3.entity" GUID="4d63a49c-41cc-42bf-9ff9-8882fb9baf2f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_pietra_4_2" DEF="COZ_CAI_MOD_OCU_1151_2.entity" GUID="c1113bb7-a07f-46ab-9118-9d706bdb12b6" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VerticalDivision Id="div_srasgo_crecuo_Y" Category="Divisórias" EntityId="com_coz_mon_div" Fallback="#REC_MON_DOR_DES_INT#+15" Movable="Y" Name="Não Divide Fundo c/ Recuo Front Yellow" Rotation="180" Thickness="@(#DOR_ARM_YELLOW_ESP#+#FOL_PAI#)" Preview="%PastaConstrutorArmarios%\Dormitorios\Divisoes\imagens\div_sra_cre.jpg">
+  <Normal A="-1" B="0" C="0" />
+  <Offset Value="#DOR_AFA_TRAS_PRA_ARM#" />
+  <Output>
+    <Sets>
+      <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_FRONTAL#" />
+      <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_TRASEIRA#" />
+      <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_DIR#" />
+      <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_DES_SPOR_DIV_INT_FT_ESQ#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_1" Value="#DOR_ARM_MED_MAX_FIX_QUA_1#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_2" Value="#DOR_ARM_MED_MAX_FIX_QUA_2#" />
+      <SetAttribute Id="ESP_MON" Value="#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#" />
+      <SetAttribute Id="VOLUME" Value="SV" />
+    </Sets>
+  </Output>
+</VerticalDivision>

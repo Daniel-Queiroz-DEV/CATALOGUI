@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$D$mm Trilho Movento c/ Blumotion" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWING>
+    <FILE3D NAME="tri_mov" />
+    <DIMENSION WIDTH="226.9" HEIGHT="49" DEPTH="386" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="240" HEIGHT="49" DEPTH="316.5" MODE="OnlyProposed" TEXT="">
+    <MIN WIDTH="1" DEPTH="316.5" />
+    <MAX WIDTH="1500" DEPTH="327.5" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE DEPTH="316.5" />
+      <PROPOSEDVALUE DEPTH="322" />
+      <PROPOSEDVALUE DEPTH="327.5" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Kit Movento $d$mm c/ Blumotion" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

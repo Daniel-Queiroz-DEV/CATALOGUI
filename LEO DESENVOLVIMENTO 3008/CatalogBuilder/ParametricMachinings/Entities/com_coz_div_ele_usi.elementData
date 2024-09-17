@@ -1,0 +1,55 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#COZ_EST_ALT_VAO_INF#"
+      },
+      "Height": {
+        "Value": "#COZ_EST_TOR_LAR_VAO_INF#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "Usinagem Vao Inferior",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "a0f2a5fb-f6fe-4b83-8b05-e87b789c1092",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#COZ_EST_TOR_FOR_MIC_FOR_EMB#",
+        "Y": "($D$/2)-(#COZ_EST_TOR_LAR_VAO_INF#/2)"
+      },
+      "ElementId": "com_coz_div_ele_usi"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#COZ_EST_ALT_VAO_SUP#"
+      },
+      "Height": {
+        "Value": "#COZ_EST_TOR_LAR_VAO_ALT#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "Usinagem Vao Superior",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "a0f2a5fb-f6fe-4b83-8b05-e87b789c1092",
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#COZ_EST_TOR_FOR_MIC_FOR_EMB#+#COZ_EST_ALT_VAO_INF#+#COZ_EST_DES_DIS_VIN_VSU#",
+        "Y": "($D$/2)-(#COZ_EST_TOR_LAR_VAO_ALT#/2)"
+      },
+      "ElementId": "com_coz_div_ele_usi"
+    }
+  ],
+  "ElementId": "com_coz_div_ele_usi"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Almofada" ICON="Almofada_05_2013.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="almofada_01_2013" />
+    <DIMENSION WIDTH="382.7" HEIGHT="71.1" DEPTH="371.5" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Almofada Oriental" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="650" HEIGHT="120" DEPTH="650" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="AZUL" NAME="AZUL" IDMATERIAL="mat_ocu_diversos_almofada_cetim" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DOURADO" NAME="DOURADO" IDMATERIAL="tec_amarelos_lisos_tecido 018" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

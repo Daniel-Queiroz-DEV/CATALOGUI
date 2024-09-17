@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pes_Mesas" NAME="Pés Mesas Escritórios" PREFIXID="com_pes_mes_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_pes_mes_ret" DEF="com_pes_mes_ret.entity" GUID="a47b239f-c0eb-45fb-8d5e-9e38bcc46e8d" />
+    <EXPLORERITEM TYPE="entity" ID="com_pes_mes_cur" DEF="com_pes_mes_cur.entity" GUID="707cf11f-b467-48c2-bdc1-9061ab3c681b" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento_Pes" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_bordas_Pes_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+</GROUP>

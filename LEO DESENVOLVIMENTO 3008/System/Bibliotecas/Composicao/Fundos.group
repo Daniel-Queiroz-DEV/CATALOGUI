@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fundos" NAME="Fundos" PREFIXID="com_coz_fun_">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_fun_reto" DEF="com_coz_fun_fun.entity" GUID="8abc64fb-0be2-4fff-8132-6154eaee1c90" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_fun_1069" DEF="com_coz_fun_1069.entity" GUID="6d2749cc-bc1f-4115-b192-5dbd83dba191" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_fun" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_fun" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

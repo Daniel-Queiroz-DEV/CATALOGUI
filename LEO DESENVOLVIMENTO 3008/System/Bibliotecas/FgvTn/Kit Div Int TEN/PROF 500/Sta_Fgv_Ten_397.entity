@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="PT Tetrix Branco 397mm - Prof500" ICON="3.jpg">
+  <DRAWING>
+    <FILE3D NAME="500 550 tetrix avantbox" />
+    <LIMITS>
+      <MIN X="-239.508" Y="-495" Z="-74.02" />
+      <MAX X="260" Y="0" Z="0.178" />
+    </LIMITS>
+    <DIMENSION WIDTH="499.5" HEIGHT="74.2" DEPTH="495" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN ACR_2="Org_Tan" ACRESCIMO="Org_Tan" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta Talheres Tetrix Universal Branco 397mm - Prof500" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="397" HEIGHT="64" DEPTH="480" TEXT="59TX02F23975000" DESC="" ITEM_BASE="59TX02F23975000" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="BRANCO" NAME="BRANCO" IDMATERIAL="fgv_bra" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

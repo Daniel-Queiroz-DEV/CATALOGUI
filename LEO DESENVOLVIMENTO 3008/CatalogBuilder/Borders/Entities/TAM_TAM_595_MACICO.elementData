@@ -1,0 +1,149 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_Y#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 3,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "8f87ceed-909a-461d-8a24-a36a94f4c82e",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_595_MACICO"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_Y#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 2,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "12d66213-863c-44f2-bf2a-c8ddd89bc8e0",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_595_MACICO"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_X#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 0,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "ec5cdc7f-5ceb-4182-9002-12985960b986",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_595_MACICO"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Engrossurado",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_TPO#"
+      },
+      "CutOffset": {
+        "Value": "#TAM_ENG_SOB_TAM_X#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 1,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "7acc7718-bec6-477f-af05-ae9ebc74ada8",
+      "OperationPrice": "BORDA",
+      "ElementId": "TAM_TAM_595_MACICO"
+    }
+  ],
+  "ElementId": "TAM_TAM_595_MACICO"
+}

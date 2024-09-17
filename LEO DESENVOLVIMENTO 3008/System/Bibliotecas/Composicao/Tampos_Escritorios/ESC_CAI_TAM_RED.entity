@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Redondo" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_RED.jpg">
+  <DRAWING>
+    <FILE3D NAME="Redonda" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA X="500" Y="-1000" A="90" />
+      <PONTO2DA X="1000" Y="-500" A="90" />
+      <PONTO2DA X="500" A="90" />
+      <PONTO2DA Y="-500" A="90" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Mesa Redonda" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="@(#COM_ESP_TAM#+#FOL_PAI#)" ITEM_BASE="TAMP01" TEXT="007">
+    <MIN WIDTH="200" DEPTH="200" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+</ENTITY>

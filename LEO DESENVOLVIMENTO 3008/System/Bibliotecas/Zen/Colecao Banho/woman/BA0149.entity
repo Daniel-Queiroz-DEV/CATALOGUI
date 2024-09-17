@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Obj Fixo ($TEXT$)" ICON="BA0015___12.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0149_pt_obj_fixo_parede" />
+    <DIMENSION WIDTH="110" HEIGHT="70" DEPTH="120.5" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0149" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0149" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="70" DEPTH="120" TEXT="BA0149" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Woman Porta Objetos Fixo $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

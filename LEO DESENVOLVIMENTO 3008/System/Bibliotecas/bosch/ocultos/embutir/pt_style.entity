@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Style" ICON="PT_STYLE.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Style" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PT_STYLE" />
+    <DIMENSION WIDTH="540" HEIGHT="500" DEPTH="61" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DUMPING" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_fume" NAME="bosch_fume" IDMATERIAL="bosch_fume1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

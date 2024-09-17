@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Soffi ($TEXT$)" ICON="soffi.jpg">
+  <DRAWING>
+    <FILE3D NAME="soffi" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="20" HEIGHT="20" DEPTH="25" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.674" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_sof" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_sof" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_sof" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_sof" MODEL="Pux_all" MODELTYPE="Pux_all_pin_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Soffi Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,88 @@
+{
+  "Slots": [
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - #DES_SER_INI_LAT#",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + #DES_SER_FIN_LAT#",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerEnds": "Offseted",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {
+        "Value": "#DES_SER_INI_LAT#"
+      },
+      "MakerEndOffset": {
+        "Value": "#DES_SER_FIN_LAT#"
+      },
+      "ID": "4e0dcb7b-fdcb-4163-a3b6-e099a6006c24",
+      "UniqueID": 1,
+      "PlaneIndex": 2,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - #DES_SER_INI_LAT#",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_coz_fun_fun_premium_2_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - #DES_SER_INI_LAT#",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + #DES_SER_FIN_LAT#",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerEnds": "Offseted",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {
+        "Value": "#DES_SER_INI_LAT#"
+      },
+      "MakerEndOffset": {
+        "Value": "#DES_SER_FIN_LAT#"
+      },
+      "ID": "6306e249-1b91-4310-8df7-2aae73daaba4",
+      "UniqueID": 3,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - #DES_SER_INI_LAT#",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_coz_fun_fun_premium_2_2"
+    }
+  ],
+  "ElementId": "com_coz_fun_fun_premium_2_2"
+}

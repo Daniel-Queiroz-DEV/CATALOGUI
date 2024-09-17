@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Movento" NAME="Movento" PREFIXID="Sta_Blu_Blu_Mov_" INVISIBLE="N" MODELINVISIBLE="N">
+  <REFERENCE IDREFERENCE="BLUM" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="start_met_001" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_mov_aco" DEF="sta_blu_mov_aco.entity" GUID="80dfa775-9ab1-463c-92f0-f6babf3ddac9" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_mov_est_lat" DEF="sta_blu_mov_est_lat.entity" GUID="6cd32086-8971-4b30-96c1-a5735abafb65" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_sis_blu" DEF="sta_blu_sis_blu.entity" GUID="7700e846-8acb-4c33-a1bb-a5f468830207" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_sis_mov" DEF="sta_blu_tan_sis_mov.entity" GUID="8c11272a-7cb4-4266-a6b9-eab16d4169dd" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tan_sis_mov_apo" DEF="sta_blu_tan_sis_mov_apo.entity" GUID="eaacd394-9a65-4f2d-b821-507f12a3b279" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tri_mov_blu_mot" DEF="sta_blu_tri_mov_blu_mot.entity" GUID="0dc621f9-b92e-40ec-af3f-623a8bc7efcb" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_mov_tip_on" DEF="sta_blu_mov_tip_on.entity" GUID="7c9847b4-0361-4aa0-8fb4-bf4be97c8cef" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tri_mov_cbl" DEF="sta_blu_tri_mov_cbl.entity" GUID="944dac71-9f0d-42da-9db1-19c260429f4e" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tri_mov_cbl_2" DEF="sta_blu_tri_mov_cbl_2.entity" GUID="5e8660f7-0c6b-41f0-bd99-54b6cd8e0a7b" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_tri_mov_tip" DEF="sta_blu_tri_mov_tip.entity" GUID="d506dfff-722b-4b16-923c-8013ad2e4f00" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_mov_tip_on_pon" DEF="sta_blu_mov_tip_on_pon.entity" GUID="a7e71086-4af8-401b-bb08-dbdde9bef43a" />
+    <EXPLORERITEM TYPE="entity" ID="sta_blu_mov_tip_on_pon_2" DEF="sta_blu_mov_tip_on_pon_2.entity" GUID="127623d8-7a81-47a2-952a-4d846d1b41c3" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

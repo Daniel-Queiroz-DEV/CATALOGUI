@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Rose Escovado ($TEXT$.$D.ACAB$)" ICON="Valigia.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DET_COURO" NAME="DET_COURO" IDMATERIAL="zen_couro_marrom" EDIT="N" />
+    <COMPONENTDEFINITION ID="DET" NAME="DET" IDMATERIAL="Zen_ros_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="COURO" NAME="COURO" IDMATERIAL="zen_couro_marrom" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION TEXT="ZP1931" ACAB="M05" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Valigia 160mm Rose Escovado/Couro Marrom" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+</ENTITY>

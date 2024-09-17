@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="marlin" NAME="Marlin" PREFIXID="pux_obi_pux_emb_mar_" INVISIBLE="N">
+  <POSITIONSERVICEDEFINITIONS>
+    <POSITIONSERVICEDEFINITION ID="Obispa_marlin" DESCRIPTION="Obispa - Puxador Marlin">
+      <OPTIONS>
+        <OPTION ID="EIH_NOV_01" DESCRIPTION="Horizontal 01" X="$W$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="1" />
+        <OPTION ID="ECH_NOV_01" DESCRIPTION="Horizontal 02" X="$W$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="1" />
+        <OPTION ID="ESH_NOV_01" DESCRIPTION="Horizontal 03" X="$W$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="1" />
+        <OPTION ID="DIH_NOV_01" DESCRIPTION="Horizontal 04" X="$PW$-$W$/2" Y="-$PD$" Z="$PH$-$H$/2-30" A="0" B="0" C="-1" />
+        <OPTION ID="DCH_NOV_01" DESCRIPTION="Horizontal 05" X="$PW$-$W$/2" Y="-$PD$" Z="$PH$/2" A="0" B="0" C="-1" />
+        <OPTION ID="DSH_NOV_01" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2" Y="-$PD$" Z="$H$/2+30" A="0" B="0" C="-1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+  </POSITIONSERVICEDEFINITIONS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_pux_emb_mar_192" DEF="marlin_192.entity" GUID="46894443-334c-4819-9a16-b2f0c2fd4b6d" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_pux_emb_mar_320" DEF="marlin_320.entity" GUID="531f07db-9028-42e3-ab84-820a1595cc08" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

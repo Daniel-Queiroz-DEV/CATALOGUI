@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Classic ($TEXT$)" ICON="classic.jpg">
+  <DRAWING>
+    <FILE3D NAME="classic" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="20" HEIGHT="126" DEPTH="48" />
+    <LIMITS>
+      <MIN X="0" Y="-48.429" Z="0" />
+      <MAX X="20.846" Y="0" Z="126.047" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="300.012" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Classic" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+</ENTITY>

@@ -1,0 +1,2496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Vidros | Acrílicos | Cerâmicas" GENERATEITEMSNUMBERS="N">
+  <FOLDERCOLLECTION>
+    <FOLDER NAME="Vidros" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Lisos" GENERATEITEMSNUMBERS="Y">
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="vidro_01" NAME="Vidro Incolor" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Transparency 8" GROUP="Glasses_Mirrors" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA>
+                      <AMBIENT>0</AMBIENT>
+                      <SPECULAR>0</SPECULAR>
+                      <METALLIC>0</METALLIC>
+                      <ROUGHNESS>0</ROUGHNESS>
+                      <OPACITY>0</OPACITY>
+                      <EMISSIVE>0</EMISSIVE>
+                      <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                    </MOOBLEMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <FRESNELTERM>0</FRESNELTERM>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.9</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <MAPPING>Cubo</MAPPING>
+              <COLORBASE R="250" G="250" B="250" />
+            </MATERIAL>
+            <MATERIAL ID="vidro_fume" NAME="Vidro Fumê" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.15</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0.03</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.65</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.Frosted.None</MCODE>
+              <MAPPING>Cubo</MAPPING>
+              <COLORBASE R="60" G="60" B="60" />
+            </MATERIAL>
+            <MATERIAL ID="vidro_tampo" NAME="Vidro Tampo Mesa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.1</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.15</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.1</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.7</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <IOR>1.4</IOR>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="245" G="255" B="245" />
+            </MATERIAL>
+            <MATERIAL ID="espelho_01" NAME="Espelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Mirror Reflect 8" GROUP="Glasses_Mirrors" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA>
+                      <AMBIENT>0</AMBIENT>
+                      <SPECULAR>0</SPECULAR>
+                      <METALLIC>1</METALLIC>
+                      <ROUGHNESS>0</ROUGHNESS>
+                      <OPACITY>0</OPACITY>
+                      <EMISSIVE>0</EMISSIVE>
+                      <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                    </MOOBLEMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <FRESNELTERM>0</FRESNELTERM>
+              <MCODE>Mineral.Generic.PolishedMirror.None</MCODE>
+              <COLORBASE R="200" G="200" B="200" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.05</AMBIENT>
+              <DIFFUSE>0</DIFFUSE>
+              <REFLECTIONMIN>1</REFLECTIONMIN>
+              <REFLECTIONMAX>1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+            </MATERIAL>
+            <MATERIAL ID="esp_bro_2015" NAME="Espelho Bronze" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Glasses_Mirrors" NAME="Clear Glass Reflect 6" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.05</AMBIENT>
+              <DIFFUSE>0</DIFFUSE>
+              <REFLECTIONMIN>1</REFLECTIONMIN>
+              <REFLECTIONMAX>1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <MCODE>Mineral.Generic.PolishedMirror.None</MCODE>
+              <COLORBASE R="150" G="119" B="67" />
+            </MATERIAL>
+            <MATERIAL ID="esp_fume_2015" NAME="Espelho Fumê" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Smoked Glass Reflect 8" GROUP="Glasses_Mirrors" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>500</ESCALETEXTUREX>
+              <ESCALETEXTUREY>500</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.29</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0.08</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.7</SPECULAR>
+              <ROUGHNESS>0.5</ROUGHNESS>
+              <METALLIC>0.01</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\metais\metal 026.jpg</TEXTUREFILE>
+              <MCODE>Mineral.Generic.PolishedMirror.None</MCODE>
+              <MCODETRANSLATED>Vidro &gt; Genérico &gt; Congelado &gt; Nenhum</MCODETRANSLATED>
+              <COLORBASE R="207" G="204" B="194" />
+            </MATERIAL>
+            <MATERIAL ID="esp_champanhe_2015" NAME="Espelho Champagne" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.7</REFLECTIONMIN>
+              <REFLECTIONMAX>0.7</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <MCODE>Mineral.Generic.PolishedMirror.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="172" G="159" B="145" />
+            </MATERIAL>
+            <MATERIAL ID="vid_jateado" NAME="Vidro Jateado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0</AMBIENT>
+              <DIFFUSE>0</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.7</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.1</IOR>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.Frosted.None</MCODE>
+              <COLORBASE R="223" G="223" B="223" />
+            </MATERIAL>
+            <MATERIAL ID="vid_verde" NAME="Vidro Verde" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.45</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.42</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="214" G="232" B="206" />
+            </MATERIAL>
+            <MATERIAL ID="vid_reflecta" NAME="Reflecta Bronze" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Glasses_Mirrors" NAME="Window Clear Reflect 6" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.45</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0.35</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.8</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="210" G="191" B="147" />
+            </MATERIAL>
+            <MATERIAL ID="vid_reflecta_prata" NAME="Reflecta Prata" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Glasses_Mirrors" NAME="Window Clear Reflect 6" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.45</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0.35</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.8</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="178" G="178" B="178" />
+            </MATERIAL>
+            <MATERIAL ID="vid_boreal" NAME="Vidro Miniboreal" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.45</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.45</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.1</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.Frosted.None</MCODE>
+              <COLORBASE R="214" G="232" B="206" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_Preto" NAME="Vidro Preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="20" G="20" B="20" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_branco" NAME="Vidro Branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <COLORBASE R="244" G="244" B="244" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_branco_leite" NAME="Vidro Branco Leite" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="255" G="255" B="255" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_azul_claro" NAME="Vidro Azul Claro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="132" G="175" B="192" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_azul_royal" NAME="Vidro Azul Royal" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA>
+                      <AMBIENT>0</AMBIENT>
+                      <SPECULAR>0</SPECULAR>
+                      <METALLIC>0</METALLIC>
+                      <ROUGHNESS>0</ROUGHNESS>
+                      <OPACITY>0</OPACITY>
+                      <EMISSIVE>0</EMISSIVE>
+                      <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                    </MOOBLEMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <COLORBASE R="35" G="116" B="161" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_amarelo" NAME="Vidro Amarelo" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MAPPING>Cubo</MAPPING>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <COLORBASE R="253" G="183" B="36" />
+            </MATERIAL>
+            <MATERIAL ID="Vid_verde_oficial" NAME="Vidro Verde Oficial" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MAPPING>Cubo</MAPPING>
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <COLORBASE R="0" G="102" B="51" />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+            </MATERIAL>
+            <MATERIAL ID="Vid_vinho_cor" NAME="Vidro Vinho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MAPPING>Cubo</MAPPING>
+              <COLORBASE R="76" G="64" B="86" />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Vid_rosa" NAME="Vidro Rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <COLORBASE R="228" G="208" B="219" />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+            </MATERIAL>
+            <MATERIAL ID="Vid_laranja2" NAME="Vidro Laranja" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <COLORBASE R="239" G="136" B="59" />
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Vid_nude" NAME="Vidro Nude" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR G="0" R="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <TEXTUREFILES />
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="231" G="214" B="184" />
+            </MATERIAL>
+            <MATERIAL ID="vid_borda" NAME="Vidro Borda" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <EMISSION>0.15</EMISSION>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.6</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.15</REFLECTIONMIN>
+              <REFLECTIONMAX>0.15</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.2</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="40" G="55" B="39" />
+            </MATERIAL>
+            <MATERIAL ID="coz_vid_pre" NAME="Vidro Preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.3</REFLECTIONMIN>
+              <REFLECTIONMAX>0.3</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="0" G="0" B="0" />
+            </MATERIAL>
+            <MATERIAL ID="coz_vid_mar" NAME="Vidro Marrom" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>851</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <IOR>1.4</IOR>
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <COLORBASE R="57" G="40" B="24" />
+            </MATERIAL>
+            <MATERIAL ID="coz_vid_ver" NAME="Vidro Vermelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>604</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.2</REFLECTIONMIN>
+              <REFLECTIONMAX>0.2</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <IOR>1.4</IOR>
+              <MCODE>Paint.Generic.SemiGloss.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="245" G="15" B="25" />
+            </MATERIAL>
+            <MATERIAL ID="vid_escuro" NAME="Vidro Escuro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.15</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.05</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="36" G="36" B="36" />
+            </MATERIAL>
+            <MATERIAL ID="vid_aci_branco" NAME="Acidato Branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" GROUP="Ceramics_Stones" NAME="Unglazed Ceramic" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.02</REFLECTIONMIN>
+              <REFLECTIONMAX>0.02</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.03</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.Frosted.None</MCODE>
+              <COLORBASE R="239" G="239" B="239" />
+            </MATERIAL>
+            <MATERIAL ID="vid_aci_bronze" NAME="Acidato Bronze" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.6</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.3</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.Frosted.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="193" G="179" B="151" />
+            </MATERIAL>
+            <MATERIAL ID="vid_aci_prata" NAME="Acidato Prata" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.06</REFLECTIONMIN>
+              <REFLECTIONMAX>0.06</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.6</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.4</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.Frosted.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MAPPING>Cubo</MAPPING>
+              <COLORBASE R="207" G="206" B="205" />
+            </MATERIAL>
+            <MATERIAL ID="Material65542102" NAME="Azul bombona" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.4</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="148" G="194" B="220" />
+            </MATERIAL>
+            <MATERIAL ID="vid_garrafa" NAME="Vidro Garrafa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0</AMBIENT>
+              <DIFFUSE>0</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.6</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="223" G="223" B="223" />
+            </MATERIAL>
+            <MATERIAL ID="vid_verde_garrafa" NAME="Vidro Verde Garrafa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0.05</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.3</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="0" G="51" B="0" />
+            </MATERIAL>
+            <MATERIAL ID="vid_vinho" NAME="Vidro Vinho Garrafa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX />
+              <ESCALETEXTUREY />
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.05</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.05</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILES />
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="26" G="0" B="5" />
+            </MATERIAL>
+            <MATERIAL ID="vid_laranja" NAME="Vidro Laranja Garrafa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" HIDDEN="Y">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.45</AMBIENT>
+              <DIFFUSE>0.2</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0.7</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.3</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="221" G="111" B="0" />
+            </MATERIAL>
+            <MATERIAL ID="vidro_lampada" NAME="Lâmpada" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.6</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.7</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.8</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.3</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="255" G="255" B="255" />
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Diversos" GENERATEITEMSNUMBERS="Y">
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="vidro_listrado02" NAME="Vidro Listrado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>100</ESCALETEXTUREX>
+              <ESCALETEXTUREY>100</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.3</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.02</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\listrado02.jpg</TEXTUREFILE>
+              <MAPPING>Cubo</MAPPING>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="165" G="145" B="114" />
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="vidro_listrado01" NAME="Vidro Listrado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>100</ESCALETEXTUREX>
+              <ESCALETEXTUREY>100</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.3</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.02</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\listrado01.jpg</TEXTUREFILE>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="96" G="107" B="112" />
+              <MAPPING>Cubo</MAPPING>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+            </MATERIAL>
+            <MATERIAL ID="vidro_poa01" NAME="Vidro Poá" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+              <COLORBASE R="53" G="53" B="53" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>100</ESCALETEXTUREX>
+              <ESCALETEXTUREY>100</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.3</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.02</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\poa01.jpg</TEXTUREFILE>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="vidro_listrado03" NAME="Vidro Listrado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <COLORBASE R="96" G="107" B="112" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>100</ESCALETEXTUREX>
+              <ESCALETEXTUREY>100,3205</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.3</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.02</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\listrado01.jpg</TEXTUREFILE>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="vidro_poa02" NAME="Vidro Poá" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+              <COLORBASE R="96" G="60" B="36" />
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>100</ESCALETEXTUREX>
+              <ESCALETEXTUREY>100</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.3</AMBIENT>
+              <DIFFUSE>0.6</DIFFUSE>
+              <REFLECTIONMIN>0.1</REFLECTIONMIN>
+              <REFLECTIONMAX>0.3</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.3</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.02</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\poa02.jpg</TEXTUREFILE>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_mur01" NAME="Vidro murano" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\murano01.jpg</TEXTUREFILE>
+              <MAPPING>EsfericoZ</MAPPING>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <IOR>1.4</IOR>
+              <COLORBASE R="8" G="123" B="236" />
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_mur02" NAME="Vidro murano" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>EsfericoZ</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\murano02.jpg</TEXTUREFILE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <COLORBASE R="8" G="123" B="236" />
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_mur03" NAME="Vidro murano" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>EsfericoZ</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\murano03.jpg</TEXTUREFILE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="8" G="123" B="236" />
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_mur04" NAME="Vidro murano" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\murano04.jpg</TEXTUREFILE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <IOR>1.4</IOR>
+              <MCODE>Glass.Glass.None.None</MCODE>
+              <MAPPING>EsfericoZ</MAPPING>
+              <COLORBASE R="8" G="123" B="236" />
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_mur05" NAME="Vidro murano" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>EsfericoZ</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\murano05.jpg</TEXTUREFILE>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <COLORBASE R="8" G="123" B="236" />
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_mur06" NAME="Vidro murano" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>EsfericoZ</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>200</ESCALETEXTUREX>
+              <ESCALETEXTUREY>200</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\murano06.jpg</TEXTUREFILE>
+              <COLORBASE R="8" G="123" B="236" />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_bolha01" NAME="Vidro bolha" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\bolhas01.png</TEXTUREFILE>
+              <COLORBASE R="244" G="244" B="244" />
+              <MAPPING>Planar</MAPPING>
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_bolha02" NAME="Vidro bolha" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Planar</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\bolhas02.png</TEXTUREFILE>
+              <COLORBASE R="235" G="248" B="248" />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="dec_vid_div_bolha03" NAME="Vidro bolha" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Planar</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.4</DIFFUSE>
+              <REFLECTIONMIN>0.05</REFLECTIONMIN>
+              <REFLECTIONMAX>0.1</REFLECTIONMAX>
+              <CRAND>0</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0.35</TRANSPARENCY>
+              <CONSERVEENERGY>Y</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\vidros\bolhas03.png</TEXTUREFILE>
+              <COLORBASE R="236" G="251" B="238" />
+              <METADATAS>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <MCODE>Glass.Glass.None.None</MCODE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION />
+    </FOLDER>
+    <FOLDER NAME="Acrilatos" GENERATEITEMSNUMBERS="Y">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="acril_incolor" NAME="Acrilato Incolor" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Advanced" NAME="Clear Plastic" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.05</REFLECTIONMIN>
+          <REFLECTIONMAX>0.2</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.5</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="252" G="252" B="252" />
+        </MATERIAL>
+        <MATERIAL ID="acril_transparente" NAME="Acrilato Transparente" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Glasses_Mirrors" NAME="Transparency 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.8</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="211" G="225" B="237" />
+        </MATERIAL>
+        <MATERIAL ID="acril_azul" NAME="Acrilato Azul" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="144" G="186" B="210" />
+        </MATERIAL>
+        <MATERIAL ID="acril_azul_transparente" NAME="Acrilato Azul Transparente" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.4</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.7</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="214" G="225" B="228" />
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+        </MATERIAL>
+        <MATERIAL ID="acril_vermelho" NAME="Acrilato Vermelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="245" G="15" B="25" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_telha" NAME="Acrilato Telha" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="234" G="98" B="26" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_amarelo" NAME="Acrilato  Amarelo" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="255" G="255" B="0" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_laranja" NAME="Acrilato Laranja" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="227" G="125" B="28" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_azul_claro" NAME="Acrilato Azul Claro" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="158" G="211" B="229" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_verde" NAME="Acrilato Verde" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="209" G="244" B="11" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_lilas" NAME="Acrilato Lilás" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="136" G="146" B="194" />
+        </MATERIAL>
+        <MATERIAL ID="acril_branco" NAME="Acrilato Branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.2</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="254" G="254" B="254" />
+        </MATERIAL>
+        <MATERIAL ID="acril_cinza" NAME="Acrilato Cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="210" G="210" B="210" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="acril_verde_agua" NAME="Acrilato Verde Água" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="162" G="194" B="193" />
+        </MATERIAL>
+        <MATERIAL ID="acril_rosa" NAME="Acrilato Rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Plastics" NAME="Clear Plastic Opacity 8" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.1</AMBIENT>
+          <DIFFUSE>0.4</DIFFUSE>
+          <REFLECTIONMIN>0.01</REFLECTIONMIN>
+          <REFLECTIONMAX>0.01</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0.4</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Acrylic.Clear.None</MCODE>
+          <COLORBASE R="251" G="68" B="183" />
+          <MAPPING>Cubo</MAPPING>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Cerâmicas" GENERATEITEMSNUMBERS="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="dec_vid_cer_bra" NAME="Cerâmica Branca">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <MCODE>Mineral.Ceramic.Natural.SemiGloss</MCODE>
+          <COLORBASE R="240" G="240" B="240" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+        </MATERIAL>
+        <MATERIAL ID="dec_vid_cer_pre" NAME="Cerâmica Preta">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Glass.Glass.None.None</MCODE>
+          <COLORBASE R="50" G="50" B="50" />
+        </MATERIAL>
+        <MATERIAL ID="dec_vid_cer_cor" NAME="Cerâmica Coral">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Mineral.Ceramic.Natural.SemiGloss</MCODE>
+          <COLORBASE R="254" G="180" B="187" />
+        </MATERIAL>
+        <MATERIAL ID="dec_vid_cer_ver" NAME="Cerâmica Vermelha">
+          <METADATAS>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA>
+                  <AMBIENT>0</AMBIENT>
+                  <SPECULAR>0</SPECULAR>
+                  <METALLIC>0</METALLIC>
+                  <ROUGHNESS>0</ROUGHNESS>
+                  <OPACITY>0</OPACITY>
+                  <EMISSIVE>0</EMISSIVE>
+                  <TRANSPARENCYENABLE>N</TRANSPARENCYENABLE>
+                </MOOBLEMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX />
+          <ESCALETEXTUREY />
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.5</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0.2</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Mineral.Ceramic.Natural.SemiGloss</MCODE>
+          <COLORBASE R="200" G="2" B="22" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+  <MATERIALCOLLECTION />
+</FOLDER>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Palha Travessa" TYPE="GEOMETRY" ICON="inf_dd_crasgo_base_3_2.jpg" INVISIBLE="N" CHECKED="N">
+  <DRAWING>
+    <FILE3D NAME="com_2_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" RULE="UN" />
+  </BUDGET>
+  <REFERENCE ALTURA_FITA="#ALT_FITA_TAMP_2#" PROF="Cortar com 65mm e Refilar" />
+  <EVENTS>
+    <ONDIMENSIONCHANGED>
+      <ACTIONS>
+        <ADJUSTCOMPONENTMODELS />
+      </ACTIONS>
+    </ONDIMENSIONCHANGED>
+  </EVENTS>
+  <MODELS>
+    <MODEL IDMODEL="com_portas" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta Palha Travessa" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION HEIGHT="18" WIDTH="$PD$-110" DEPTH="55" TEXT="TRAPAL" DESC="" ITEM_BASE="TRAPAL" />
+</ENTITY>

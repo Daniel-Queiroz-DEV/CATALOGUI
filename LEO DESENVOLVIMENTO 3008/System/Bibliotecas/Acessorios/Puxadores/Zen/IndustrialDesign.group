@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="IndustrialDesign" NAME="Industrial Design" PREFIXID="zen_ind_des_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="INDUSTRIAL_DESIGN_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\INDUSTRIAL_DESIGN_128MM" />
+      <DIMENSION WIDTH="160" HEIGHT="9" DEPTH="40" />
+      <LIMITS>
+        <MIN X="-80" Y="-40" Z="-4.5" />
+        <MAX X="80" Y="0" Z="4.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ind_des_128mm" DEF="128mm.group" GUID="8fead585-77a5-485e-aae2-671aaa1b86a9" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Point ($TEXT$)" ICON="point.jpg">
+  <DRAWING>
+    <FILE3D NAME="point" FORMAT=".dxf" />
+    <DIMENSION WIDTH="15" HEIGHT="15" DEPTH="30" />
+    <LIMITS>
+      <MIN X="-7.5" Y="-30.49" Z="-7.5" />
+      <MAX X="7.333" Y="0" Z="7.333" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.043" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_pnt" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pnt" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pnt" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_pnt" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Point Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

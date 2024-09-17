@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="Perfil Led_2" Description="Leds" EntityId="ace_ilum_led_perfil_5" GroupName="Aramados" Name="Led Embutir Dir" Visible="N" Selectable="N">
+  <Dimension Height="$PH$">
+    <Max Height="$PH$" />
+    <Min Height="0" />
+  </Dimension>
+  <Position Rotation="90" X="$PW$" Z="$P.H$" Y="$D$-$P.D$+#RECUO_PRAT_SPORTA#-4">
+    <Normal A="0" B="0" C="-1" />
+  </Position>
+</Item>

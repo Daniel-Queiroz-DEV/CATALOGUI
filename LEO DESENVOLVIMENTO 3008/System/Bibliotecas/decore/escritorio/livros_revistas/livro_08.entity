@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Livro" ICON="LIVRO_08.jpg" CHECKED="N" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Livro" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="LIVRO_08" />
+    <DIMENSION WIDTH="495" HEIGHT="65" DEPTH="280" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_BRANCO_01" ID="DEC_BRANCO_01" EDIT="Y" IDMATERIAL="div_diversos_fax" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

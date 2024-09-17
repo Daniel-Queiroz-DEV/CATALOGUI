@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Sorento Granado Mini.png">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALH" IDMATERIAL="zen_met_red_gol_esc_rec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sorento Granado 96mm Red Gold Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP5451.096" ACAB="G00" />
+</ENTITY>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Guetta" NAME="Guetta" PREFIXID="zen_emp_gue_">
+  <DRAWINGS>
+    <DRAWING ID="GUETTA_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\GUETTA_128MM" />
+      <DIMENSION WIDTH="136" HEIGHT="14" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-68" Y="-22.994" Z="-7" />
+        <MAX X="68" Y="0" Z="7" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GUETTA_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\GUETTA_192MM" />
+      <DIMENSION WIDTH="200" HEIGHT="14" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-100" Y="-22.994" Z="-7" />
+        <MAX X="100" Y="0" Z="7" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GUETTA_256MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\GUETTA_256MM" />
+      <DIMENSION WIDTH="264" HEIGHT="14" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-132" Y="-22.994" Z="-7" />
+        <MAX X="132" Y="0" Z="7" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_emp_gue_128mm" DEF="128mm.group" GUID="3cc5dbda-4176-4632-8658-400acb3ac3c2" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_gue_192mm" DEF="192mm.group" GUID="507e6584-7841-4aaa-ba9d-0ce49cbf4859" />
+    <EXPLORERITEM TYPE="group" ID="zen_emp_gue_256mm" DEF="256mm.group" GUID="4ff81d41-ac85-4e34-8209-1f71869dfe34" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

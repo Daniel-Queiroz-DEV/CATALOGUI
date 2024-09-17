@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Inox ($TEXT$.$D.ACAB$)" ICON="Ponteira_Zetta.jpg">
+  <DRAWING>
+    <FILE3D NAME="zetta_pon" />
+    <DIMENSION WIDTH="247" HEIGHT="50" DEPTH="21" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="inox_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ponteiras Zetta Inox (Par)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <INFORMATION WIDTH="100" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="247" HEIGHT="50" DEPTH="20" TEXT="ZP0826" ACAB="8">
+    <MIN WIDTH="10" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+</ENTITY>

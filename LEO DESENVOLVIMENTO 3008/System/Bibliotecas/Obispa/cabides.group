@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="cabides" NAME="Cabides" PREFIXID="pux_obi_cab_">
+  <MODELS DEF="cabides\cabides.model" />
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_bAN" DEF="banter.entity" GUID="a4e6d570-20b5-4cd7-9360-84ccee8c0a37" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_bet" DEF="beta.entity" GUID="b3fc0290-8bae-4671-9c3d-d01500e9f4cf" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_cop" DEF="copacabana.entity" GUID="29e4d0f3-2086-4750-a882-b8789e60835c" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_cla" DEF="classic.entity" GUID="794dc06d-a36e-4b72-86cf-089f0d3d5825" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_fil" DEF="filo.entity" GUID="4049427f-b8e1-457b-a680-ae9cc8ecb949" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_hoo" DEF="hook.entity" GUID="df08d160-8d43-4372-9c42-ad38e1ad806b" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_mar" DEF="marine.entity" GUID="1ba9dc6a-28a1-4898-9c1d-d07801811236" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_min_cla" DEF="mini_classic.entity" GUID="f481d10b-a3b9-4d58-a7e1-bff5eea55c91" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_min_sev_met" DEF="mini_sev_met.entity" GUID="1ed5e7a1-1501-4524-ab76-fcfc7313ee07" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_rev" DEF="revil.entity" GUID="9f402145-b126-414a-90f1-4aff11eb6e1d" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_sev_met" DEF="seventy_metal.entity" GUID="dfae40d2-e6c7-45da-9b49-6622a9a268eb" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_cab_tec" DEF="tech.entity" GUID="2ee38952-aa94-44c3-afd4-277c70faf03d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

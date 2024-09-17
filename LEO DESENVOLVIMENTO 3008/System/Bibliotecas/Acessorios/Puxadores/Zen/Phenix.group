@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Phenix" NAME="Phenix" PREFIXID="zen_phe_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_phe_64" DEF="64mm.group" GUID="4d59d2d5-690c-4de3-b46f-1a00f565ea23" />
+    <EXPLORERITEM TYPE="group" ID="zen_phe_192" DEF="192mm.group" GUID="b9e3ed04-b212-4f09-8c38-a572425a193b" />
+    <EXPLORERITEM TYPE="group" ID="zen_phe_320" DEF="320mm.group" GUID="f4d4fdf4-0531-4767-a37d-dea771d15724" />
+    <EXPLORERITEM TYPE="group" ID="zen_phe_448" DEF="448mm.group" GUID="dddda8b6-8c34-4e4a-a6b4-831854eb05f4" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PHENIX_64MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PHENIX_64MM" />
+      <DIMENSION WIDTH="72" HEIGHT="5" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-36" Y="-20" Z="-2.5" />
+        <MAX X="36" Y="0" Z="2.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PHENIX_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PHENIX_192MM" />
+      <DIMENSION WIDTH="200" HEIGHT="5" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-100" Y="-20" Z="-2.5" />
+        <MAX X="100" Y="0" Z="2.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PHENIX_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PHENIX_320MM" />
+      <DIMENSION WIDTH="328" HEIGHT="5" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-164" Y="-20" Z="-2.5" />
+        <MAX X="164" Y="0" Z="2.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PHENIX_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PHENIX_448MM" />
+      <LIMITS>
+        <MIN X="-228" Y="-20" Z="-2.5" />
+        <MAX X="228" Y="0" Z="2.5" />
+      </LIMITS>
+      <DIMENSION WIDTH="456" HEIGHT="5" DEPTH="20" />
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

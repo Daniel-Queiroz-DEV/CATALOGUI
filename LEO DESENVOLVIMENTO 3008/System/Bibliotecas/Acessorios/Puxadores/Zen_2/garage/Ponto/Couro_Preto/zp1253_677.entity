@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cobre ($TEXT$.$D.ACAB$)" ICON="Garage.jpg">
+  <INSERTDIMENSION WIDTH="46" HEIGHT="100" DEPTH="8" TEXT="ZP1253" ACAB="677" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_couro_preto" EDIT="N" />
+    <COMPONENTDEFINITION ID="BOTAO" NAME="BOTAO" IDMATERIAL="zen_vec_cob_v" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Garage Ponto 16mm Couro Preto com Oleoses em Cobre" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+</ENTITY>

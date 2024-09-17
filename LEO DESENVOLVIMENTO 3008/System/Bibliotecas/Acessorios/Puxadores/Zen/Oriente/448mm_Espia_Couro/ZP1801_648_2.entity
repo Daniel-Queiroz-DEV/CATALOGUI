@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Niquel Escovado ($TEXT$.$D.ACAB$)" ICON="Oriente_2.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Oriente 448mm Niquel Escovado c/ Couro Marrom" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP1801" ACAB="916" DESC="" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="DET" NAME="DET" IDMATERIAL="zen_cord" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

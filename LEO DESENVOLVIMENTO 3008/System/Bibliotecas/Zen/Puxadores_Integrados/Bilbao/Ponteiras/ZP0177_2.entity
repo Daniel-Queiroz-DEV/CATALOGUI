@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo Esc ($TEXT$.$D.ACAB$)" ICON="Ponteira_Bilbao.jpg">
+  <DRAWING>
+    <FILE3D NAME="ZP0177" />
+    <DIMENSION WIDTH="395" HEIGHT="36" DEPTH="19" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PONTEIRA" NAME="PONTEIRA" IDMATERIAL="zen_escovado" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ponteiras Bilbao/Leon/Evoluiton/New Cromo Escovado (Par)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <INFORMATION WIDTH="100" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="395" HEIGHT="36" DEPTH="19" TEXT="ZP0177" ACAB="2">
+    <MIN WIDTH="3" />
+    <MAX WIDTH="3000" />
+  </INSERTDIMENSION>
+</ENTITY>

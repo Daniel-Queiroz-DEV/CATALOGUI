@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Categorias>
+	<Categoria ID="MenorAltAmb" Descricao="Menor Altura Ambiente" RegraPadrao="BR">
+		<Regras>
+			<Regra ID="BR" Descricao="Brasileiro" Arquivo="Configuracoes\Montagem\BR.regra" />
+			<Regra ID="US" Descricao="Americano" Arquivo="Configuracoes\Montagem\US.regra" />
+		</Regras>
+	</Categoria>
+	<Categoria ID="MaiorAltAmb" Descricao="Maior Altura Ambiente" RegraPadrao="BR">
+		<Regras>
+			<Regra ID="BR" Descricao="Brasileiro" Arquivo="Configuracoes\Montagem\BR.regra" />
+			<Regra ID="US" Descricao="Americano" Arquivo="Configuracoes\Montagem\US.regra" />
+		</Regras>
+	</Categoria>
+</Categorias>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ágata ($TEXT$)" ICON="agata.jpg">
+  <DRAWING>
+    <FILE3D NAME="agata" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-20" Y="-24.219" Z="-20" />
+      <MAX X="20.242" Y="0" Z="20.172" />
+    </LIMITS>
+    <DIMENSION WIDTH="40" HEIGHT="24" DEPTH="40" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <INSERTDIMENSION TEXT="100.701" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_aga" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_aga" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_aga" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_aga" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Ágata c/ Cristal Swarovski Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

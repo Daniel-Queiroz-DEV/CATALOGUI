@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="sapateira_fixa_esq" Name="Esquerda" GroupName="Aramados" Description="Sapateiras Fixas" Repeat="Y">
+  <Position Y="-$PD$+$D$+60">
+    <Max Z="$P.H$-$H$" />
+    <Min Z="0" />
+  </Position>
+  <Alternatives>
+    <Alternative Id="sapateira_fixa_esq" EntityId="ACE_ARA_SAP">
+      <Conditions>
+        <TestExpression Expression="$PD$ &gt;= 600" />
+      </Conditions>
+    </Alternative>
+  </Alternatives>
+  <Output>
+    <Sets>
+      <SetAttribute Id="BUDGETAGGREGATE" Value="true" />
+    </Sets>
+  </Output>
+  <RepetitionOffset Z="170" />
+</Item>

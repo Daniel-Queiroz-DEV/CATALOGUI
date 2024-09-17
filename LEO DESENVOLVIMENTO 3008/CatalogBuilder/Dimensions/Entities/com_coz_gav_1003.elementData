@@ -1,0 +1,74 @@
+{
+  "ElementId": "com_coz_gav_1003",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "SecondElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 7,
+      "SecondElementId": 7,
+      "FirstIndex": 0,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "17,5",
+        "Y": "-34,9369"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_coz_gav_1003"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 7,
+      "SecondElementId": 0,
+      "FirstIndex": 0,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "-20,8901",
+        "Y": "6,5"
+      },
+      "Edge": 0,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_coz_gav_1003"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "SecondElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 6,
+      "SecondElementId": 6,
+      "FirstIndex": 1,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "982,5",
+        "Y": "-22,5198"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 2,
+      "ElementId": "com_coz_gav_1003"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 6,
+      "SecondElementId": 0,
+      "FirstIndex": 0,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "1048,647",
+        "Y": "6,5"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 3,
+      "ElementId": "com_coz_gav_1003"
+    }
+  ]
+}

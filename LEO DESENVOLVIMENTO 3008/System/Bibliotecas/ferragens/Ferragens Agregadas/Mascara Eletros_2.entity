@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mascara LED" TYPE="GEOMETRY" INVISIBLE="N">
+  <INSERTDIMENSION WIDTH="300" HEIGHT="100" DEPTH="50" TEXT="" ITEM_BASE="">
+    <MIN WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <MAX WIDTH="2200" HEIGHT="2200" DEPTH="2200" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_vao" ENTRYID="Sta_fer" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="fer_ocu_mas_led" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="5">
+      <POSITION>
+        <NORMAL A="0" B="0" C="-1" />
+        <ROTATION>180</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+</ENTITY>

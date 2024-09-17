@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Balcoes" NAME="Balcões" PREFIXID="COZ_INF_BAL_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\Aggregates\pes_rodapes_tampos_retos_2.aggregate" />
+  </AGGREGATECOLLECTION>
+  <INSERTINGPARAMETERS REPEAT="DIALOG" />
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_1P_4" DEF="1_Porta.entity" GUID="f5390afe-230c-4316-837d-a23c5ee48ac6" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_2P_5" DEF="2_Porta.entity" GUID="441a83b4-effa-4120-97eb-69af538d7d9a" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

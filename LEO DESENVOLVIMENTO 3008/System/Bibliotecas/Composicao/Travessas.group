@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Travessas" NAME="Travessas" PREFIXID="com_coz_tra_" INVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_tra_crasgo" DEF="com_tra_crasgo.entity" GUID="572f629a-f58e-4ad6-a5c8-94a982a5d137" />
+    <EXPLORERITEM TYPE="entity" ID="com_tra_srasgo" DEF="com_tra_srasgo.entity" GUID="64bbced5-3630-447b-819a-d9d98703a290" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tra_2520" DEF="com_coz_tra_2520.entity" GUID="4f87e912-8f29-4201-b97f-31fe771a940d" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_tra_2521" DEF="com_coz_tra_2521.entity" GUID="4b0f18a4-d730-46e1-a987-8579a8f6af3d" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="NAO" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_tra" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_tra" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

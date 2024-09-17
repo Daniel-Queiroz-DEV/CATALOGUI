@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cast ($TEXT$)" ICON="cast.jpg">
+  <DRAWING>
+    <FILE3D NAME="cast_100638" FORMAT=".dxf" />
+    <DIMENSION WIDTH="41" HEIGHT="26" DEPTH="23" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.638" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+    <MODEL IDMODEL="Par_obi_cou" ENTRYID="puxadorea" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="Metal_Couro" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cast 32mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_32_cas" MODEL="Par_obi_cou" MODELTYPE="Par_obi_cou_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_cas" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_cas" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_cas" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

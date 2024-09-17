@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Incenso ($TEXT$)" ICON="BA0048.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_porta_icenso" />
+    <DIMENSION WIDTH="63" HEIGHT="63" DEPTH="280" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="63" HEIGHT="63" DEPTH="280" MODE="Nothing" TEXT="BA0048" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Porta Incenso @zen_jazz(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_preto_cromo_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_cromo_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_cromo_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0048" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

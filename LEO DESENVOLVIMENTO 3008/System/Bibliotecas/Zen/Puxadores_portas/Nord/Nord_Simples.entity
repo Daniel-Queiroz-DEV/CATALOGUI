@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-100) Simples ($TEXT$)" ICON="Nord_Simples.jpg" CHECKED="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Nord @($H$-100)mm Simples @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="35" HEIGHT="336" MODE="Nothing" TEXT="ZP2530.300" ACAB="" DEPTH="30" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_nor" ENTRYID="pux_zen" />
+  </MODELS>
+  <DRAWING ID="Nord_Simples" />
+</ENTITY>

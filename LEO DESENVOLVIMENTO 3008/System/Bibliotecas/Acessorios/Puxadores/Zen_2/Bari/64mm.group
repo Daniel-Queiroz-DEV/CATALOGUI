@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="64mm" NAME="64mm" PREFIXID="zen_bari_64_">
+  <DRAWINGS />
+  <DRAWING ID="BARI_64mm" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_zp1583_pol_cr_2" DEF="ZP1583_10.entity" GUID="30609f87-cdd6-4925-a875-c8092e0d9c53" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_zp1583_pol_esc_2" DEF="ZP1583_11.entity" GUID="c76818f2-cf3e-49cb-ac80-41e4a0bf2b88" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_zp1583_esc_cr_2" DEF="ZP1583_12.entity" GUID="5aba0329-2b54-40b4-9aee-b1a044ea3ca6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_zp1583_esc_esc_2" DEF="ZP1583_13.entity" GUID="6f91a66d-1db1-482e-a684-2c43f6f84f41" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_599_2" DEF="ZP1583_599.entity" GUID="f275bf9f-62cf-4de0-be4d-5a4f38697cc5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_955_2" DEF="ZP1583_955.entity" GUID="e33b42ac-2cc0-41f7-bec6-f4ce6d1fdb1d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_A00_2" DEF="ZP1583_A00.entity" GUID="a1f1b170-80a0-4b0e-816a-1dc38dda3074" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_B00_2" DEF="ZP1583_B00.entity" GUID="bc75d7be-e85a-4888-9a17-c08d9b383b9e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_F00_2" DEF="ZP1583_F00.entity" GUID="28952254-889b-423e-8f68-97b9062b0474" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_G00_2" DEF="ZP1583_G00.entity" GUID="5949f5f0-9521-46ec-859a-3bf63ab81464" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_L00_2" DEF="ZP1583_L00.entity" GUID="e4a819bf-ca18-416a-8a31-de66a5f8d91b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bari_64_M00_2" DEF="ZP1583_M00.entity" GUID="bb1b27c9-475f-4725-9e5f-ae6a3657a7e1" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_64mm_Bari.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

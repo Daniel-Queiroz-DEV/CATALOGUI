@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Botão Fogão 01" ICON="botao_fogao_01.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Fogão de embutir 4 queimadores" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="ANGLEBETWEENEDGESPMOB" VALUE="10" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="botao_fogao_01" />
+    <DIMENSION WIDTH="44.4" HEIGHT="48" DEPTH="9,6" />
+    <LIMITS>
+      <MIN X="-1.93" Y="-9.56" Z="0.86" />
+      <MAX X="42.45" Y="0" Z="48.87" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="dec_eletro" ID="dec_eletro" EDIT="Y" IDMATERIAL="metal_branco_01" />
+    <COMPONENTDEFINITION NAME="dec_vidro" ID="dec_vidro" EDIT="Y" IDMATERIAL="vidro_fume" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

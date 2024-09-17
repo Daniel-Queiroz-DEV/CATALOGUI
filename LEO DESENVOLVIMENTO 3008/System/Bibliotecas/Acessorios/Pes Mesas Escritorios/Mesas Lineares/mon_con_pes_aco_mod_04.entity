@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Acrílico ($TEXT$)" ICON="acrilico.jpg">
+  <REDIMSERVICE CODON="/documentos/sugestao/RedimServices/RedimParametrico_MEIO" />
+  <DRAWING>
+    <FILE3D NAME="pe _met_acr" />
+    <DIMENSION WIDTH="720" HEIGHT="79.9" DEPTH="599.3" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="PES_METALICOS" />
+  <INSERTINGPARAMETERS ORIENTATION="VERTICAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Acrílico Mesas Lineares/Canto $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="700" DEPTH="#ESC_PRO_PES_LIN_MET#" HEIGHT="80" TEXT="PEACOA">
+    <MIN WIDTH="500" />
+    <MAX WIDTH="1500" />
+  </INSERTDIMENSION>
+</ENTITY>

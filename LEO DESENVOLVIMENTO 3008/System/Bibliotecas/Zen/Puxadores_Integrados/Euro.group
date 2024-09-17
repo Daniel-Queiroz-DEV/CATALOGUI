@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Euro" NAME="Euro" PREFIXID="zen_euro_">
+  <BUDGET>
+    <INFORMATION RULE="ZEN_M_EURO" />
+    <MARGIN IDCATEGORY="Zen" />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_25" DEF="ZP4033_25.entity" GUID="e7e406f7-b576-4d4e-ac5c-d495fa38eb83" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_895" DEF="ZP4033_895.entity" GUID="a41031ba-691a-4555-a754-8c990db38fcc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_896" DEF="ZP4033_896.entity" GUID="03f7d77e-1650-4c89-b8d2-643c0c024269" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_897" DEF="ZP4033_897.entity" GUID="a942d406-f3cf-4912-afa1-98dfc8acc3e3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_898" DEF="ZP4033_898.entity" GUID="4cb728d9-df66-48fd-b123-d1c56e4a23c9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_899" DEF="ZP4033_899.entity" GUID="fd43a8d4-20cc-4bdc-acf0-5c7902520a99" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_900" DEF="ZP4033_900.entity" GUID="27d66a6a-d60d-495f-ac41-d941b9d6cf1a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_901" DEF="ZP4033_901.entity" GUID="740602df-ab7e-4fea-8a67-a40f53fce63a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_902" DEF="ZP4033_902.entity" GUID="dd38379d-0654-44f9-aa68-842977ff50ac" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_903" DEF="ZP4033_903.entity" GUID="9b068d3c-e24b-46af-b1f0-f8c8978f1a8a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_904" DEF="ZP4033_904.entity" GUID="65e49989-3104-4329-8ce8-241a5c53a096" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_24" DEF="ZP4033_24.entity" GUID="7ebd7320-b624-4548-b02b-8c8aa3f12cb6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_599" DEF="ZP4033_599.entity" GUID="cdfc5a17-0ad3-4aac-8a80-aab8e2061496" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_907" DEF="ZP4033_907.entity" GUID="12f2af26-cab0-43e2-bea5-e4594761e86d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_95" DEF="ZP4033_95.entity" GUID="bfd693e2-6be3-4a56-9d49-c0d45efe2736" />
+    <EXPLORERITEM TYPE="entity" ID="zen_euro_ZP4033_30" DEF="ZP4033_30.entity" GUID="cb6eb731-dffa-4b5f-88cc-22e2a762f8c0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

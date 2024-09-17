@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="60mm" NAME="60mm" PREFIXID="zen_piatto_60_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_117" DEF="ZP0672_1.entity" GUID="0c3ae099-1c32-4129-a4a6-5d26a4c29a42" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_118" DEF="ZP0672_2.entity" GUID="a971fb68-0066-4732-8038-6af8f539af89" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_648" DEF="ZP0672_648.entity" GUID="87306f89-888c-4bb2-8aff-e6bcae2960dc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_599" DEF="ZP0672_599.entity" GUID="881fee52-a082-4d77-bbad-1d732191d750" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_955" DEF="ZP0672_955.entity" GUID="bbf173fe-d1db-4fe9-9cef-bfd9d1e9c7fd" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_A00" DEF="ZP0672_A00.entity" GUID="cd4c19ca-fc83-4a7b-9232-958882c06c76" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_B00" DEF="ZP0672_B00.entity" GUID="f2d588cf-47e4-4a78-ad6e-a9fbc3defb94" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_F00" DEF="ZP0672_F00.entity" GUID="7f44e01a-3d6c-4b51-ac47-3f600e6bd83d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_G00" DEF="ZP0672_G00.entity" GUID="58a89cd7-3db4-4374-a3e7-d356dbe1a510" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_L00" DEF="ZP0672_L00.entity" GUID="9d84fb8e-db0d-4d12-ba74-d45e080ed092" />
+    <EXPLORERITEM TYPE="entity" ID="zen_piatto_60_M00" DEF="ZP0672_M00.entity" GUID="9033cca9-8f7a-4fa6-9685-fdd28ffb52c7" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="PIATTO_60MM" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

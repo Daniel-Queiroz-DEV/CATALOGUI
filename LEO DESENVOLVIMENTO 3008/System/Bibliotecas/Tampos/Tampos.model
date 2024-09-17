@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MODELDEFINITIONCOLLECTION>
+  <MODELDEFINITION NAME="Granitos" ID="com_granitos" CHANGESIBLINGMODELS="N">
+    <MODELTYPEDEFINITIONCOLLECTION>
+      <MODELTYPEDEFINITION REFERENCE="Amarelo Icaraí" ID="Amarelo_Icarai" NAME="Amarelo Icaraí" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\amarelo\icarai.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_amarelo_icarai" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_amarelo_icarai" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE="Branco Portinari" ID="Branco_Portinari" NAME="Branco Portinari" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\branco\portinari.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_Branco_Portinari" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_Branco_Portinari" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE="Cinand" ID="Cinand" NAME="Cinand" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\cinza\cinand.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_cinza_cinand" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_cinza_cinand" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE="Giallo Cri" ID="Giallo_Cristalino" NAME="Giallo Cristalino" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\bege\giallo cristalino.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_bege_giallo cristalino" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_bege_giallo cristalino" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE="Ouro Preto" ID="Ouro_Preto" NAME="Ouro Preto" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\preto\ouro preto.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_preto_ouro preto" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_preto_ouro preto" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE="Preto Amsterdan" ID="Preto_Amsterdan" NAME="Preto Amsterdan" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\preto\amsterdan.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_Preto_Amsterdan" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_Preto_Amsterdan" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE=" Verde Ubatuba" ID=" Verde_Ubatuba" NAME=" Verde Ubatuba" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\verde\ubatuba.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_Verde_Ubatuba" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_Verde_Ubatuba" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+      <MODELTYPEDEFINITION REFERENCE=" Vermelho Brasilia" ID=" Vermelho_Brasilia" NAME=" Vermelho Brasilia" PREVIEW="%pastatextures%\padroes\marmores_granitos\granitos\vermelho\brasilia.jpg">
+        <SELECTEDCOMPONENTCOLLECTION>
+          <SELECTEDCOMPONENT ID="*_BORDA_*" IDMATERIAL="granito_Vermelho_Brasilia" />
+          <SELECTEDCOMPONENT ID="*_FACE_*" IDMATERIAL="granito_Vermelho_Brasilia" />
+        </SELECTEDCOMPONENTCOLLECTION>
+      </MODELTYPEDEFINITION>
+    </MODELTYPEDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITIONCOLLECTION>
+      <COMPONENTDEFINITION ID="*_BORDA_*" NAME="Geometria" EDIT="Y" />
+      <COMPONENTDEFINITION ID="*_FACE_*" NAME="Tampo" EDIT="Y" />
+    </COMPONENTDEFINITIONCOLLECTION>
+  </MODELDEFINITION>
+</MODELDEFINITIONCOLLECTION>

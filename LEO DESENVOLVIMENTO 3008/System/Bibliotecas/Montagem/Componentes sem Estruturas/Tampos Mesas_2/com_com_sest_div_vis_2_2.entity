@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sorrento Inteiro 1 lado" ICON="com_coz_div_vis_2_2.jpg" INVISIBLE="N">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="18" DEPTH="1500">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_portas_3" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita_2_2" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Sorrento" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <DRAWING>
+    <FILE3D NAME="cava001passante_4" />
+    <DIMENSION WIDTH="1500" HEIGHT="18" DEPTH="300" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_2_2" MODEL="com_portas_3" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_2_2" MODEL="com_paineis_fita_2_2" MODELTYPE="acabamento_027" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_2_2" MODEL="com_portas_3" MODELTYPE="acabamento_028" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_com_des_dxf_sorrento_2_2" MODEL="com_portas_3" MODELTYPE="acabamento_031" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

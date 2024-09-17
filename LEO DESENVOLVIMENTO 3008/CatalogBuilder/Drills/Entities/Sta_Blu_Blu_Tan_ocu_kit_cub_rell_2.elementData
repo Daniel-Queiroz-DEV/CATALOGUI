@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="Sta_Blu_Blu_Tan_ocu_kit_cub_rell_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo41"
+          ReceiverDepth="7"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="0"
+          PlaneIndex="2"
+          Position="5.25;5.25"
+          ElementId="Sta_Blu_Blu_Tan_ocu_kit_cub_rell_2" />
+        <Drilling
+          Name="Furação02"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo41"
+          ReceiverDepth="7"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="1"
+          PlaneIndex="0"
+          Position="5.25;5.25"
+          ElementId="Sta_Blu_Blu_Tan_ocu_kit_cub_rell_2" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

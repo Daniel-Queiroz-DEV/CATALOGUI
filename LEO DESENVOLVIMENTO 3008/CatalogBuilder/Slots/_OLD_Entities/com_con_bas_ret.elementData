@@ -1,0 +1,37 @@
+{
+  "ElementId": "com_con_bas_ret",
+  "Slots": [
+    {
+      "Name": "Base",
+      "Depth": {
+        "Value": "$H$-#DOR_ARM_FOL_FUN_INF_BAL#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#DOR_ARM_DES_SPOR_ESP_FUN#+#FOL_PAI#+#DOR_ARM_FOL_RASGO_LARG#"
+      },
+      "Start": {
+        "Y": "$D$-#DOR_ARM_AFA_FUN_MOV#-(#DOR_ARM_DES_SPOR_ESP_FUN#)/2-#FOL_PAI#"
+      },
+      "End": {
+        "X": "$W$",
+        "Y": "$D$-#DOR_ARM_AFA_FUN_MOV#-(#DOR_ARM_DES_SPOR_ESP_FUN#)/2-#FOL_PAI#"
+      },
+      "OperationType": "Static",
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "Y": "$D$-#DOR_ARM_AFA_FUN_MOV#-(#DOR_ARM_DES_SPOR_ESP_FUN#)/2-#FOL_PAI#"
+      },
+      "ElementId": "com_con_bas_ret",
+      "Condition": {
+        "Expression": "#DOR_ARM_FUN_MOD# == 'SIM'"
+      }
+    }
+  ]
+}

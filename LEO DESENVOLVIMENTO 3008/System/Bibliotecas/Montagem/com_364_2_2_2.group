@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="com_364_2_2_2" NAME="Painéis Porta Sorrento" PREFIXID="POR_PAI_" INVISIBLE="Y" MODELNAME="">
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" />
+    <MARGIN IDCATEGORY="POR" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="PORTAS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="THICKNESS_PLATECUTTING" VALUE="@($H$-#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="CODE_PLATECUTTING" VALUE="@com*(ACABAMENTO)@@($H$&lt;10 ? '0' : '')#THICKNESS_PLATECUTTING#" VISIBLE="Y" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_FUN_GEN" VALUE="#P.ESP_FUN_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_GEN" VALUE="#P.FRE_FAL_GEN#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_2_2_2_2" DEF="Rasgo Freggio_2_4_2_2.entity" GUID="c56e3a89-71b8-427d-879e-0d49f1d9948e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2_2_3_2" DEF="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2_2_3_2.entity" GUID="c045490e-535e-4288-aba6-4be8c6494c30" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_SOR" DEF="painel_porta_maranello_2_2_3_2_2_2_2_2_2_2.entity" GUID="24c31a6e-a8f0-498d-892b-27933fd6cb24" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_SOR_COZ" DEF="painel_porta_maranello_2_2_3_2_2_2_2_2_2_2_4.entity" GUID="bb72b6bc-6c39-4fe7-91ea-578b9c4afba3" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_MEIA_CAVA" DEF="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2_2_3_2_3.entity" GUID="d9303203-59ea-44aa-8c3b-cfa745195d5b" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_MEIA_CAVA_ESQ" DEF="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2_2_3_2_3_3.entity" GUID="3d4ade15-468d-4359-8b27-0c9a0cc44f42" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_MEIA_CAVA_2" DEF="POR_PAI_PORTA_CAVA_MADEIRA_GIRO.entity" GUID="01430aaf-f5a2-4347-9370-b6a3c4a4eaa3" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_MEIA_CAVA_ESQ_2" DEF="POR_PAI_PORTA_CAVA_MADEIRA_GIRO_ESQ.entity" GUID="2c85a136-14d9-4503-beb4-0681a3ab8de7" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_CAVA_CENTRAL" DEF="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2_2_3_2_3_2.entity" GUID="3596a876-d2f2-4624-8f16-4bda129d8629" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_DES" DEF="painel_porta_maranello_2_2_3_2_2_2_2_2_2_2_3_2.entity" GUID="3d91d3b2-4c53-43a6-bc53-d8341f1cee46" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_SOR_DES" DEF="painel_porta_maranello_2_2_3_2_2_2_2_2_2_2_3.entity" GUID="f033cd14-2659-4994-a634-3dd9a2b96de2" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_SOR_CENT" DEF="painel_porta_maranello_2_2_3_2_2_2_2_2_2_2_2.entity" GUID="b720eb78-c4a9-4047-b749-7cf79bc44f75" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_MALEIROS" DEF="POR_PAI_PORTA_CAVA_MADEIRA_MALEIRO.entity" GUID="da3179e4-9f42-45fc-bebd-b34d0ded2ab3" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_2_2_2" DEF="Rasgo Freggio_2_4_2_2_2.entity" GUID="4d866b7b-1553-4340-9fb5-905a90448a06" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_meia_cava" DEF="Rasgo Freggio_2_4_2_2_2_2.entity" GUID="c52c4db9-c6c4-43a2-8208-a7f906c091c4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_cava_2" DEF="Rasgo Freggio_2_4_2_2_2_2_3_2.entity" GUID="2df3cc45-efa2-4829-9dfa-1415a522f96e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_cava" DEF="Rasgo Freggio_2_4_2_2_2_2_3.entity" GUID="a2ab1a9a-e51f-4b1f-8e57-caad7f6f3483" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_desl" DEF="Rasgo Freggio_2_4_2_2_2_3.entity" GUID="d71cdc87-2657-49d6-8d24-45a2474a66ec" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_des" DEF="Rasgo Freggio_2_4_2_2_2_2_2.entity" GUID="dc29283e-dca4-4ac2-b481-abff022ec079" />
+    <EXPLORERITEM TYPE="entity" ID="MON_DESENHO_CAVA_2_2_2" DEF="MON_POR_2_2_3_4_2_2_2_3.entity" GUID="920086b9-d8da-45c6-8d6b-7be802514ee4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

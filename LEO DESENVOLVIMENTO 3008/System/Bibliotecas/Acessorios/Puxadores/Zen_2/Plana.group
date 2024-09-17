@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Plana" DIRECTORY="Plana">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pla_16_2" DEF="16mm.group" GUID="a3b50399-ffa8-4c1b-add7-756b1165453b" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PLANA">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\plana" />
+      <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-25" Y="-17" Z="-25" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PLANA_COURO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\plana_couro" />
+      <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-25" Y="-17" Z="-25" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="PLANA_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\plana_diamond" />
+      <DIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" />
+      <LIMITS>
+        <MIN X="-25" Y="-17" Z="-25" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

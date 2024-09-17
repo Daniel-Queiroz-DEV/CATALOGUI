@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Furos Parafuso Pe" NAME="Furos / Usinagem / Mao de Obras" PREFIXID="ace_ocu_pe_" INVISIBLE="N">
+  <MODELS DEF="composicoes\composicoes.model" />
+  <DRAWING>
+    <FILE3D NAME="%PastaSistema%\Bibliotecas\ferragens\3D\dob_calco_curvo" />
+    <DIMENSION WIDTH="27" HEIGHT="46" DEPTH="64" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_furo_mont" DEF="furo.entity" GUID="b6b80226-20a2-479b-8b22-dc34d971f4fb" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_1284" DEF="ace_ocu_pe_1284.entity" GUID="3d8289ad-5dee-4173-84b3-8deb85db85ad" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_1284_2" DEF="ace_ocu_pe_1284_2.entity" GUID="35583373-2184-47f0-98ac-ddbfad4c8a99" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_furo_cavilha_pass" DEF="ace_ocu_pe_furo_pass.entity" GUID="9d90557a-2bf2-40f3-bda1-35b0eb3716db" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_furo_cavilha_pass_2" DEF="ace_ocu_pe_furo_pass_2.entity" GUID="b74cb6f8-9c5e-433e-a463-51585ccc51ca" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_furo_cavilha_pass_2_2" DEF="ace_ocu_pe_furo_pass_2_2.entity" GUID="fedf49d8-1764-447e-b045-47f2e0053357" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_mar" DEF="ace_ocu_pe_mar.entity" GUID="2849fa02-11b6-4fe1-94b8-05147817023f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_mar_2" DEF="ace_ocu_pe_mar_2.entity" GUID="ab0764b5-88d4-4503-a667-da1454726b59" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_fur_par" DEF="ace_ocu_fur_par.entity" GUID="f98558e4-941a-4d37-af3e-33a1ea9ba5f4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_fre" DEF="Rasgo Freggio.entity" GUID="e44b6601-a4d3-44a0-9f2f-717a1b3761d5" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_fre_leo" DEF="Rasgo Freggio_5.entity" GUID="23c80772-4293-40ce-bc29-5cd726fc5924" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_brise" DEF="Rasgo Freggio_4.entity" GUID="42c66141-91a1-4373-95d8-d01c778a935f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_paileo" DEF="Rasgo Freggio_4_3.entity" GUID="e1dd6e29-8808-4251-93c2-d225bb6eada0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_paileo_edit" DEF="Rasgo Freggio_4_3_2.entity" GUID="107732ba-d796-4dc7-a5f9-9b1065cd1960" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_brise_rip_18" DEF="Rasgo Freggio_4_2_2.entity" GUID="52227243-8d2d-4f4c-9e4e-b3dfc8376613" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_brise_rip" DEF="Rasgo Freggio_4_2.entity" GUID="2a76cde6-bb75-46fd-93f6-91ec47e9d06e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_mar" DEF="Rasgo Freggio_2.entity" GUID="2d5725fe-fae8-4e2e-99db-ab4974a8b78d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava" DEF="Rasgo Freggio_2_4.entity" GUID="7d88fdac-bb2b-420a-8ba5-f4755f53d54f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_cava_2_2" DEF="Rasgo Freggio_2_4_2_2.entity" GUID="fa7610c6-6193-4c03-83ca-b0034551995a" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_mao_amiga" DEF="Rasgo Freggio_2_2.entity" GUID="d82ca019-e643-40cf-bda5-380ab41f37b1" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_mar1" DEF="Rasgo Freggio_2_5.entity" GUID="f4c37817-4ebd-481b-84ab-be726aa7b771" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_VAZ_RASGO_3" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3.entity" GUID="93377ad3-6823-42d8-af60-9fe52620cc2a" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PIV_USI" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3_3_3.entity" GUID="69c5346c-bc82-42b8-974b-d3cf9ec6c744" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_POR_JOIAS_2" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3_3_3_2.entity" GUID="a9900a16-2eec-4949-bf9f-d55d10970d15" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_POR_JOIAS_2_2" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3_3_3_2_2.entity" GUID="59e7e5a1-51a9-482c-852c-b811e41f7b19" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PAL_USI" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3_3.entity" GUID="187b9a8f-ef01-47fb-8000-2c995327ed97" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PAL_USI_2" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3_3_2.entity" GUID="981b16ba-6f24-4334-8586-2f2233d41ac8" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PAL_USI_2_2" DEF="roldanas_ext_5_2_2_2_2_2_2_3_4_2_3_3_3_2_2.entity" GUID="852ff7e8-5513-4735-a8dc-ba4c620d0426" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_POR_PUX" DEF="roldanas_ext_pux.entity" GUID="3ac9ff24-3e10-41a0-9548-b1569f4a2fa3" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_POR_PUX_UDINE" DEF="roldanas_ext_pux_3.entity" GUID="dcc352f5-ee5b-45eb-9f05-d03a9a070be0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_paileo" DEF="Rasgo Freggio_2_5_2_6.entity" GUID="ee50ec90-18bb-487c-9d4c-622167bd9848" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_galvid" DEF="Rasgo Freggio_2_5_2.entity" GUID="4130acc4-c867-4411-a50e-cbe367121dd8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_galvidz" DEF="Rasgo Freggio_2_5_2_5.entity" GUID="c4e87e94-cc22-4c5e-b911-84059703c0de" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_galnova" DEF="Rasgo Freggio_2_5_2_4.entity" GUID="50e1511d-4209-4813-902b-bce9ef5fbcfc" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_usi_especial" DEF="Rasgo Freggio_2_5_2_4_3.entity" GUID="86944f95-caa1-43f2-a595-b8885af5922c" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_usi_especial_d" DEF="Rasgo Freggio_2_5_2_4_3_3.entity" GUID="c5e2d594-a729-4b01-8108-c2a316d6d963" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_usi_esp_livre" DEF="Rasgo Freggio_2_5_2_4_3_2.entity" GUID="73349571-486b-4615-8c8c-fc9becbb65df" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_ripada" DEF="Rasgo Freggio_2_5_2_5_2.entity" GUID="783cb8d4-1a22-4c47-a8f7-21bc3837a852" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_legrabox" DEF="Rasgo Freggio_2_5_2_4_2.entity" GUID="e8127cb9-9fb0-4611-a689-1b555bfd6e86" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_ras_brise_paileo" DEF="Rasgo Freggio_4_2_3.entity" GUID="e881595a-489d-4813-9b45-9000daffc66c" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_pux_udine" DEF="Rasgo Freggio_2_5_2_4_2_2.entity" GUID="f6340257-6722-4808-b26e-9e5bede08544" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_ptajoias" DEF="Rasgo Freggio_2_5_2_3.entity" GUID="ae58df65-86b9-4902-a148-993a4f55e961" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_seq" DEF="Rasgo Freggio_2_5_2_2.entity" GUID="9f524a56-fc4b-4e59-abc7-d38fdb5d93e8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_piv" DEF="Rasgo Freggio_2_5_2_2_2.entity" GUID="a6f25aac-0cee-4dd1-be09-1bda6e3c6034" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_pe_painel_tre" DEF="Rasgo Freggio_2_5_2_2_2_2.entity" GUID="9735f8b0-171e-4217-b916-c3f249a4c9c3" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

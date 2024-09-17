@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Havana ($TEXT$)" ICON="havana.jpg">
+  <DRAWING>
+    <FILE3D NAME="havana" FORMAT=".dxf" />
+    <DIMENSION WIDTH="168" HEIGHT="9" DEPTH="27" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.584" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_160_hav" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_hav" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_hav" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_160_hav" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Havana 160mm" VISIBLE="N" />
+    <ATTRIBUTE ID="ANGLEBETWEENEDGES" VALUE="50" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,4021 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="Tecidos" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\tecido_default.jpg.bump" GENERATEITEMSNUMBERS="N">
+  <FOLDERCOLLECTION>
+    <FOLDER NAME="Amarelos" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_amarelos_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\amarelos\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="207" G="175" B="79" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_amarelos_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 043.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 044.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\amarelos\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="235" G="203" B="152" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Azuis">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_azuis_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 043.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 044.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 047.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 048.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 049.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 050.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 051.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 052.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\azuis\lisos\tecido 002.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="24" G="27" B="85" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_azuis_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 045.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 046.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 047.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 048.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 049.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 050.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 051.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 052.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 053.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\azuis\estampados\tecido 004.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="255" G="255" B="128" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Beges" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\beges\tecido_default_bege.jpg.bump" GENERATEITEMSNUMBERS="N">
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_beges_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 043.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 044.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 045.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 046.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 049.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\beges\lisos\tecido 004.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="255" G="255" B="128" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_beges_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <FILE NAME="tecido 054.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 055.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 056.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\beges\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="255" G="255" B="128" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Brancos" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\brancos\tecido_default_branco.jpg.bump" GENERATEITEMSNUMBERS="N">
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_brancos_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 019.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 020.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\brancos\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="255" G="255" B="255" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_brancos_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 023.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 024.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 025.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 026.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 027.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="255" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>300</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\brancos\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Cinzas" GENERATEITEMSNUMBERS="N">
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_cinzas_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 043.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 044.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 047.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 048.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 049.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\cinzas\lisos\tecido 001.jpg</TEXTUREFILE>
+          <COLORBASE R="162" G="162" B="162" />
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_cinzas_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 029.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 030.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 033.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 034.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 035.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 036.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 037.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 038.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\cinzas\estampados\tecido 002.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Laranjas" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_laranjas_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 037.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 038.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 039.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\laranjas\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_laranjas_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 010.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 011.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\laranjas\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Lilases" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_lilases_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 027.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 028.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\lilases\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_lilases_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\lilases\estampados\tecido 001.jpg</TEXTUREFILE>
+          <COLORBASE R="255" G="255" B="128" />
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Marrons" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_marrons_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 044.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 045.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 046.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 047.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 051.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 052.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\marrons\lisos\tecido 009.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="83" G="47" B="19" />
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_marrons_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 017.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 018.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\marrons\estampados\tecido 002.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <COLORBASE R="0" G="0" B="0" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Pretos" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_pretos_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\pretos\lisos\tecido 001.jpg</TEXTUREFILE>
+          <COLORBASE R="255" G="255" B="128" />
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_pretos_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\pretos\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Rosas" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\rosas\tecido_default_rosa.jpg.bump" GENERATEITEMSNUMBERS="N">
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_rosas_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 040.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 043.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\rosas\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_rosas_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 014.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 015.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 016.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\rosas\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Terras" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_terras_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\terras\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_terras_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\terras\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Verdes" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_verdes_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 048.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 049.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 050.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 051.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 052.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 053.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\verdes\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_verdes_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 036.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 037.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 038.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 039.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 040.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="191" G="202" B="158" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\verdes\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Vermelhos" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_vermelhos_lisos" NAME="Lisos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\vermelhos\lisos\tecido 001.jpg</TEXTUREFILE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="174" G="0" B="1" />
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ISFOLDER="Y" ID="tec_vermelhos_estampados" NAME="Diversos" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 016.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 017.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 018.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 019.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 023.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 024.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="255" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\vermelhos\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Floreados" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" HIDDENFILES="tecido 001.jpg;tecido 002.jpg;tecido 003.jpg;tecido 006.jpg;tecido 009.jpg;tecido 010.jpg;tecido 015.jpg;tecido 012.jpg;tecido 016.jpg;tecido 018.jpg;tecido 021.jpg;tecido 023.jpg;tecido 024.jpg;tecido 027.jpg;tecido 028.jpg;" ID="tec_flores" NAME="Floreados" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 032.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 033.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 036.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 037.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 038.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="255" G="128" B="128" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\flores\tecido 004.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Bordados" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_bordados" NAME="Bordados" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="153" G="137" B="104" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\bordados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Estampados" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_estampados" NAME="Estampados" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 018.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 019.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 021.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 022.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 023.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 028.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 029.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 030.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 031.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 032.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 033.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 034.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 041.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 042.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 043.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 044.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 045.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 046.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 047.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 048.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 049.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 050.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 052.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 053.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 055.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 057.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 058.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 061.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 062.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 063.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 064.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 065.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 066.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 068.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 069.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 071.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 072.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 073.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 074.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 075.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="153" G="137" B="104" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\estampados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Listrados" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_listrados" NAME="Listrados" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 007.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 008.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 011.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="153" G="137" B="104" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.16</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\listrados\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Infantis" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\infantis\tecido_default_infantil.jpg.bump" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="tec_infantis" NAME="infantis" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="tecido 015.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 016.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 017.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 018.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 019.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 022.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="tecido 023.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <COLORBASE R="153" G="137" B="104" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\infantis\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Couros" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="DEC_TEC_COURO" NAME="Couros" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="couro 045.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 046.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 047.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 053.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 054.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 055.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 056.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 057.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 059.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 062.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 063.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 064.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 065.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 066.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 067.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 068.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 069.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 070.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 071.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 072.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 073.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 074.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="couro 075.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>800</ESCALETEXTUREX>
+          <ESCALETEXTUREY>800</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.4</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\couros\couro 001.jpg</TEXTUREFILE>
+          <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="192" G="192" B="192" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Cortinas" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Persianas" GENERATEITEMSNUMBERS="Y">
+          <FOLDERCOLLECTION />
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="persiana_001" NAME="Persiana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA TYPE="Standard" NAME="Eggshell" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>977</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.25</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.18</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\percianas\persiana 001.jpg</TEXTUREFILE>
+              <MCODE>Fabric.Sheer.Medium.None</MCODE>
+              <COLORBASE R="246" G="246" B="234" />
+            </MATERIAL>
+            <MATERIAL ID="persiana_002" NAME="Persiana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.25</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.18</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\percianas\persiana 002.jpg</TEXTUREFILE>
+              <MCODE>Fabric.Sheer.Medium.None</MCODE>
+              <COLORBASE R="71" G="61" B="57" />
+            </MATERIAL>
+            <MATERIAL ID="persiana_003" NAME="Persiana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Eggshell" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>842</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.25</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.18</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\percianas\persiana 003.jpg</TEXTUREFILE>
+              <MCODE>Fabric.Sheer.Medium.None</MCODE>
+              <COLORBASE R="140" G="108" B="72" />
+            </MATERIAL>
+            <MATERIAL ID="persiana_004" NAME="Persiana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Satin" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.25</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.18</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\percianas\persiana 004.jpg</TEXTUREFILE>
+              <MCODE>Fabric.Sheer.Medium.None</MCODE>
+              <COLORBASE R="173" G="151" B="103" />
+            </MATERIAL>
+            <MATERIAL ID="persiana_005" NAME="Persiana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.25</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.18</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\percianas\persiana 005.jpg</TEXTUREFILE>
+              <MCODE>Fabric.Sheer.Medium.None</MCODE>
+              <COLORBASE R="150" G="122" B="88" />
+            </MATERIAL>
+            <MATERIAL ID="persiana_006" NAME="Persiana" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Woven" GROUP="Textiles" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+              <ESCALETEXTUREY>1000</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.25</AMBIENT>
+              <DIFFUSE>0.3</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.18</CRAND>
+              <SPECULAR>0.2</SPECULAR>
+              <ROUGHNESS>0</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\percianas\persiana 006.jpg</TEXTUREFILE>
+              <MCODE>Fabric.Sheer.Medium.None</MCODE>
+              <COLORBASE R="214" G="202" B="137" />
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+      <MATERIALCOLLECTION>
+        <MATERIAL ISFOLDER="Y" ID="cortinas" NAME="Cortinas" HIDDENFILES="cortina 001.jpg.jpg;" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="cortina 012.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 015.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 017.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 019.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 020.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 021.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 022.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 025.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 026.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 027.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 028.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 030.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 031.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 033.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 034.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 035.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 037.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="cortina 038.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>200</ESCALETEXTUREX>
+          <ESCALETEXTUREY>200</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\cortinas\cortina 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Sheer.Medium.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="192" G="192" B="192" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Cheniles" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION />
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="tec_chenile" NAME="Cheniles" ISFOLDER="Y" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" GENERATEITEMSNUMBERS="Y">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <FILE NAME="chenile 021.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="chenile 022.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="chenile 025.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="chenile 026.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <FILE NAME="chenile 027.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>1</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>1</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.18</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chenile\chenile 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Rayon.Brushed.None</MCODE>
+          <COLORBASE R="153" G="137" B="104" />
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Chita" PREFIXID="Tec_Chita_" GENERATEITEMSNUMBERS="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="Tec_Chita_001" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="132" G="131" B="158" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>600</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_002" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="132" G="131" B="158" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>500</ESCALETEXTUREX>
+          <ESCALETEXTUREY>400</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 002.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_003" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="177" G="136" B="48" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>1000</ESCALETEXTUREX>
+          <ESCALETEXTUREY>460</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 003.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_004" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="89" G="86" B="57" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 004.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_005" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="49" G="123" B="139" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>652.1739</ESCALETEXTUREX>
+          <ESCALETEXTUREY>300</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 005.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_006" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="124" G="100" B="125" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 006.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_007" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="158" G="169" B="59" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.14</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 007.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_008" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="104" G="84" B="144" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.17</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 008.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_009" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="89" G="86" B="57" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.13</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 009.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_010" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="89" G="86" B="57" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.13</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 010.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Chita_011" NAME="Tecido estampado" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="94" G="85" B="96" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>700</ESCALETEXTUREX>
+          <ESCALETEXTUREY>700</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.42</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.14</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\chita\tecido 011.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Linen.Chintz.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Tricots" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\tricot\tecido_tricot_default.jpg.bump" GENERATEITEMSNUMBERS="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="Tec_Tri_001" NAME="Tricot" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="213" G="212" B="209" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>337</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\tricot\tricot_001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Fleece.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Tri_002" NAME="Tricot" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="47" G="47" B="47" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>337</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\tricot\tricot_002.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Fleece.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Tri_003" NAME="Tricot" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="102" G="71" B="52" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>337</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\tricot\tricot_003.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Fleece.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Tri_004" NAME="Tricot" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="24" G="24" B="24" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>337</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\tricot\tricot_004.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Fleece.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Tri_005" NAME="Tricot" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="96" G="79" B="113" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>337</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\tricot\tricot_005.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Fleece.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Tri_006" NAME="Tricot" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA TYPE="Standard" GROUP="Coatings_Woods" NAME="Matte" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="97" G="104" B="87" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>400</ESCALETEXTUREX>
+          <ESCALETEXTUREY>337</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\tricot\tricot_006.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Jute.Fleece.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Matelassês" GENERATEITEMSNUMBERS="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="Tec_Mat_001" NAME="Matelassê rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="188" G="161" B="146" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>256</ESCALETEXTUREX>
+          <ESCALETEXTUREY>240</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_001.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_002" NAME="Matelassê branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="215" G="215" B="215" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>256</ESCALETEXTUREX>
+          <ESCALETEXTUREY>240</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_002.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_003" NAME="Matelassê rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="185" G="83" B="129" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>256</ESCALETEXTUREX>
+          <ESCALETEXTUREY>240</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_003.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_004" NAME="Matelassê preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="56" G="56" B="56" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>256</ESCALETEXTUREX>
+          <ESCALETEXTUREY>240</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>CropCenter</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_004.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_005" NAME="Matelassê bege" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="217" G="212" B="198" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>334</ESCALETEXTUREX>
+          <ESCALETEXTUREY>342</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_005.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_006" NAME="Matelassê branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="220" G="220" B="223" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>334</ESCALETEXTUREX>
+          <ESCALETEXTUREY>342</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_006.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_007" NAME="Matelassê preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="55" G="55" B="55" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>334</ESCALETEXTUREX>
+          <ESCALETEXTUREY>342</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_007.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Mat_008" NAME="Matelassê branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="223" G="223" B="220" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>334</ESCALETEXTUREX>
+          <ESCALETEXTUREY>342</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0.15</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0.05</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\matelasse\matelasse_008.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Cotton.WovenCoarse.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Capitonês" GENERATEITEMSNUMBERS="N">
+      <FOLDERCOLLECTION>
+        <FOLDER NAME="Capitonês" GENERATEITEMSNUMBERS="Y">
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="Tec_Cap_001" NAME="Capitonê branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_001.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="193" G="193" B="192" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_002" NAME="Capitonê preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_002.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="76" G="76" B="76" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_003" NAME="Capitonê marrom" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_003.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="113" G="83" B="69" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_004" NAME="Capitonê vermelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_004.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="102" G="53" B="53" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_005" NAME="Capitonê rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Studio;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>800</ESCALETEXTUREX>
+              <ESCALETEXTUREY>800</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>Default</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_005.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="181" G="73" B="122" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_006" NAME="Capitonê preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>155</ESCALETEXTUREX>
+              <ESCALETEXTUREY>189</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_006.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="45" G="45" B="45" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_007" NAME="Capitonê marrom" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>155</ESCALETEXTUREX>
+              <ESCALETEXTUREY>189</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_007.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="101" G="77" B="65" />
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_008" NAME="Capitonê bege" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>155</ESCALETEXTUREX>
+              <ESCALETEXTUREY>189</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\capitone\capitone_008.jpg</TEXTUREFILE>
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+              <COLORBASE R="188" G="161" B="146" />
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+        <FOLDER NAME="Lisos" DEFAULTBUMPFILE=".\textures\padroes\tecidos_couros\capitone\lisos\tecido_capitone_default.jpg.bump" GENERATEITEMSNUMBERS="Y">
+          <MATERIALCOLLECTION>
+            <MATERIAL ID="Tec_Cap_Lis_001" NAME="Couro branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_001.jpg</TEXTUREFILE>
+              <COLORBASE R="219" G="219" B="219" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_Lis_002" NAME="Couro marrom" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_002.jpg</TEXTUREFILE>
+              <COLORBASE R="106" G="69" B="53" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_Lis_003" NAME="Couro marrom" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_003.jpg</TEXTUREFILE>
+              <COLORBASE R="94" G="66" B="55" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_Lis_004" NAME="Couro Preto" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_004.jpg</TEXTUREFILE>
+              <MAPPING>Cubo</MAPPING>
+              <COLORBASE R="48" G="48" B="48" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_Lis_005" NAME="Couro Rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_005.jpg</TEXTUREFILE>
+              <COLORBASE R="180" G="60" B="114" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_Lis_006" NAME="Couro bege" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_006.jpg</TEXTUREFILE>
+              <COLORBASE R="203" G="175" B="162" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+            <MATERIAL ID="Tec_Cap_Lis_007" NAME="Couro vermelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+              <METADATAS>
+                <METADATA ID="LightWorksMaterialData">
+                  <METADATA.VALUE>
+                    <LIGHTWORKSMATERIALDATA>
+                      <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+                    </LIGHTWORKSMATERIALDATA>
+                  </METADATA.VALUE>
+                </METADATA>
+                <METADATA ID="MoobleMaterialData">
+                  <METADATA.VALUE>
+                    <MOOBLEMATERIALDATA />
+                  </METADATA.VALUE>
+                </METADATA>
+              </METADATAS>
+              <BORDERCOLOR R="0" G="0" B="0" />
+              <BORDERWIDTH>0</BORDERWIDTH>
+              <MAPPING>Cubo</MAPPING>
+              <ROTATION>0</ROTATION>
+              <ESCALETEXTUREX>600</ESCALETEXTUREX>
+              <ESCALETEXTUREY>600</ESCALETEXTUREY>
+              <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+              <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+              <MIRROR>N</MIRROR>
+              <FRESNELTERM>0</FRESNELTERM>
+              <AMBIENT>0.4</AMBIENT>
+              <DIFFUSE>0.5</DIFFUSE>
+              <REFLECTIONMIN>0</REFLECTIONMIN>
+              <REFLECTIONMAX>0</REFLECTIONMAX>
+              <CRAND>0.15</CRAND>
+              <SPECULAR>0</SPECULAR>
+              <ROUGHNESS>0.4</ROUGHNESS>
+              <METALLIC>0</METALLIC>
+              <TRANSPARENCY>0</TRANSPARENCY>
+              <CONSERVEENERGY>N</CONSERVEENERGY>
+              <DIRECTION>Nenhum</DIRECTION>
+              <SLIDEMODE>CropCenter</SLIDEMODE>
+              <TEXTUREFILE>.\textures\padroes\tecidos_couros\capitone\lisos\liso_007.jpg</TEXTUREFILE>
+              <COLORBASE R="93" G="35" B="34" />
+              <MCODE>Leather.TopGrain.Raw.Aniline</MCODE>
+            </MATERIAL>
+          </MATERIALCOLLECTION>
+        </FOLDER>
+      </FOLDERCOLLECTION>
+    </FOLDER>
+    <FOLDER NAME="Cetim" GENERATEITEMSNUMBERS="Y">
+      <MATERIALCOLLECTION>
+        <MATERIAL ID="Tec_Cet_01" NAME="Cetim branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <COLORBASE R="255" G="255" B="255" />
+          <MAPPING>Cubo</MAPPING>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_02" NAME="Cetim amarelo" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="230" G="154" B="36" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_03" NAME="Cetim bege" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="214" G="198" B="159" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_04" NAME="Cetim branco" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+          <COLORBASE R="229" G="229" B="229" />
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_05" NAME="Cetim cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="187" G="187" B="187" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_06" NAME="Cetim cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="93" G="93" B="93" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_07" NAME="Cetim rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="246" G="138" B="84" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_08" NAME="Cetim lilás" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+          <COLORBASE R="150" G="137" B="183" />
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_09" NAME="Cetim marrom" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="103" G="55" B="33" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_10" NAME="Cetim azul" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+          <MAPPING>Cubo</MAPPING>
+          <COLORBASE R="1" G="20" B="69" />
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_11" NAME="Cetim cinza" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="35" G="35" B="35" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_12" NAME="Cetim rosa" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="167" G="0" B="98" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_13" NAME="Cetim lilás" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+          <COLORBASE R="75" G="44" B="90" />
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_14" NAME="Cetim lilás" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+            <METADATA ID="MoobleMaterialData">
+              <METADATA.VALUE>
+                <MOOBLEMATERIALDATA />
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILE>.\textures\padroes\tecidos_couros\lilases\lisos\tecido 003.jpg</TEXTUREFILE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+          <COLORBASE R="71" G="0" B="39" />
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_15" NAME="Cetim verde" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="19" G="81" B="82" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_16" NAME="Cetim verde" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="129" G="151" B="92" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+        <MATERIAL ID="Tec_Cet_17" NAME="Cetim vermelho" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+          <METADATAS>
+            <METADATA ID="LightWorksMaterialData">
+              <METADATA.VALUE>
+                <LIGHTWORKSMATERIALDATA>
+                  <FINISHDATA NAME="Satin" GROUP="Coatings_Woods" TYPE="Standard" />
+                </LIGHTWORKSMATERIALDATA>
+              </METADATA.VALUE>
+            </METADATA>
+          </METADATAS>
+          <COLORBASE R="127" G="2" B="15" />
+          <BORDERCOLOR R="0" G="0" B="0" />
+          <BORDERWIDTH>0</BORDERWIDTH>
+          <MAPPING>Cubo</MAPPING>
+          <ROTATION>0</ROTATION>
+          <ESCALETEXTUREX>0</ESCALETEXTUREX>
+          <ESCALETEXTUREY>0</ESCALETEXTUREY>
+          <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+          <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+          <MIRROR>N</MIRROR>
+          <FRESNELTERM>0</FRESNELTERM>
+          <AMBIENT>0.4</AMBIENT>
+          <DIFFUSE>0.5</DIFFUSE>
+          <REFLECTIONMIN>0</REFLECTIONMIN>
+          <REFLECTIONMAX>0</REFLECTIONMAX>
+          <CRAND>0</CRAND>
+          <SPECULAR>0</SPECULAR>
+          <ROUGHNESS>0</ROUGHNESS>
+          <METALLIC>0</METALLIC>
+          <TRANSPARENCY>0</TRANSPARENCY>
+          <CONSERVEENERGY>N</CONSERVEENERGY>
+          <DIRECTION>Nenhum</DIRECTION>
+          <SLIDEMODE>Default</SLIDEMODE>
+          <TEXTUREFILES />
+          <MCODE>Fabric.Rayon.PeachSkin.None</MCODE>
+        </MATERIAL>
+      </MATERIALCOLLECTION>
+    </FOLDER>
+  </FOLDERCOLLECTION>
+</FOLDER>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Sheer" NAME="Sheer" PREFIXID="zen_sheer_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sheer_32" DEF="32mm.group" GUID="638f69a7-b2ff-47ef-ae6c-158b95c98631" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SHEER_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SHEER_32MM" />
+      <DIMENSION WIDTH="40" HEIGHT="8" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-20" Y="-26" Z="-4" />
+        <MAX X="20" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

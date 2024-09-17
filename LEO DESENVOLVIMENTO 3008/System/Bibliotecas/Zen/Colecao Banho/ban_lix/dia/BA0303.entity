@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Bandeja Quadrada ($TEXT$)" ICON="BA0303.jpg">
+  <DRAWING>
+    <FILE3D NAME="BA0303" />
+    <DIMENSION WIDTH="200" HEIGHT="40" DEPTH="201" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_dia_ban_qua" MODEL="zen_diamond" MODELTYPE="zen_diam_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Diamond Bandeja Quadrada" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="220" HEIGHT="55" DEPTH="220" TEXT="BA0303" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

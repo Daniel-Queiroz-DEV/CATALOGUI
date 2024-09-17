@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="madelustre" DESCRIPTION="madelustre">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" ID="BancoDados" DATABASE="%PastaPrice%\madelustre\madelustre.mdb" CANMODIFY="Y" SEARCHFIRSTPERSONALBASE="N" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

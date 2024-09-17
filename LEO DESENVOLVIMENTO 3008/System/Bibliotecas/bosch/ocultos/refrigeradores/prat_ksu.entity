@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prateleira KSU" ICON="PRAT_KSU.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Prateleira KSU" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PRAT_KSU" />
+    <DIMENSION WIDTH="630" HEIGHT="10" DEPTH="505" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

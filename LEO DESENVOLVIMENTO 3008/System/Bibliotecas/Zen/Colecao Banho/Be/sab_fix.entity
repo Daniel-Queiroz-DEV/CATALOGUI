@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq Fixa ($TEXT$)" ICON="sab_fix.jpg">
+  <DRAWING>
+    <FILE3D NAME="drawing2" />
+    <LIMITS>
+      <MIN X="0" Y="-111" Z="0" />
+      <MAX X="72" Y="0" Z="130" />
+    </LIMITS>
+    <DIMENSION WIDTH="72" HEIGHT="130" DEPTH="96" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_be_sab_fix" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_sab_fix" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_be_sab_fix" MODEL="Zen_be" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="72" HEIGHT="130" DEPTH="101" TEXT="BA0262" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Be Saboneteira Líquida Fixa @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="portas_3" NAME="Painel Laqueação 6mm" PREFIXID="POR_MOD_POR_" INVISIBLE="N" MODELNAME="Portas" ORDERSTRING="001">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="$TEXT$" MODEL="@COM_*@" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_5_3" DEF="reta_2_3_2_2.entity" GUID="d9ecb524-1ad6-4fd5-9335-6d69ce1f1bae" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_5_3_2" DEF="reta_2_3_2_2_3.entity" GUID="8f34d447-2f99-4233-84ee-573fee65b84c" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2_2_6_2_2_3" DEF="reta_2_3_2_3.entity" GUID="daaf7435-0e5c-4aab-88ac-0214b9725645" />
+  </EXPLORERITEMCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+</GROUP>

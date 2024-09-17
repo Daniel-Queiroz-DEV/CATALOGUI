@@ -1,0 +1,66 @@
+<STEPSDEFINITION>
+
+  <STEPDEFINITION ID="adjustProductiveScript"
+                  DESCRIPTION="Ajustar Roteiro Produtivo"
+                  STEPCLASS="Procad.Builder.Steps.ProductiveScriptListerStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.ProductiveScriptListerStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="autoSave"
+                  DESCRIPTION="Iniciar/Parar autosave"
+                  STEPCLASS="Procad.Builder.Steps.AutoSaveListerStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.AutoSaveListerStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="processAutomaticInsertion"
+                  DESCRIPTION="Processar funções automáticas"
+                  STEPCLASS="Procad.Builder.Steps.ProcessAutomaticInsertionListerStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.ProcessAutomaticInsertionListerStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="calculatebordersandplatecutting"
+                  DESCRIPTION="Criar bordas e plano de corte"
+                  STEPCLASS="Procad.Builder.Steps.CalculateBordersAndPlateCuttingListerStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.CalculateBordersAndPlateCuttingListerStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="clearStructures"
+                  DESCRIPTION="Apagar estruturas dinâmicas"
+                  STEPCLASS="Procad.Builder.Steps.ClearProductiveScriptStructuresStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.ClearProductiveScriptStructuresStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="createStructures"
+                  DESCRIPTION="Criar estruturas dinâmicas"
+                  STEPCLASS="Procad.Builder.Steps.CreateProductiveScriptStructuresStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.CreateProductiveScriptStructuresStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="integration"
+                  DESCRIPTION="Gerar Integracao com ERPs"
+                  STEPCLASS="Procad.Builder.Steps.IntegrationListerStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.IntegrationListerStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+
+  <STEPDEFINITION ID="sendToTXT"
+                  DESCRIPTION="Aplicar XSL e salvar como TXT"
+                  STEPCLASS="Procad.Builder.Steps.SendToTXTListerStep"
+                  STEPDLL="Procad.Builder.Steps.dll"
+                  CONTROLCLASS="Procad.Builder.Steps.SendToTXTListerStep"
+                  CONTROLDLL="Procad.Builder.Steps.dll"
+ />
+</STEPSDEFINITION>

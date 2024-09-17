@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fusion" NAME="Fusion" PREFIXID="zen_fus_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_fus_128" DEF="128mm.group" GUID="9cff07a2-a9aa-4884-ad54-152ed87d13b4" />
+    <EXPLORERITEM TYPE="group" ID="zen_fus_192" DEF="192mm.group" GUID="2163dc9e-1a6b-4dab-aea7-3a413221f04e" />
+    <EXPLORERITEM TYPE="group" ID="zen_fus_224" DEF="224mm.group" GUID="4f9539d3-c5f0-4d18-8c56-1fdbc758abde" />
+    <EXPLORERITEM TYPE="group" ID="zen_fus_352" DEF="352mm.group" GUID="8762f4ac-ddc9-4ead-9c85-4a075c570807" />
+    <EXPLORERITEM TYPE="group" ID="zen_fus_448" DEF="448mm.group" GUID="cbb4b21d-5e3e-4e0c-93d1-55426ea9e88e" />
+    <EXPLORERITEM TYPE="group" ID="zen_fus_544" DEF="544mm.group" GUID="8877357f-6e76-4d6e-834a-66cfc0a12bd6" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="FUSION_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUSION_128MM" />
+      <DIMENSION WIDTH="148" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-74" Y="-34" Z="-3.75" />
+        <MAX X="74" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="FUSION_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUSION_192MM" />
+      <DIMENSION WIDTH="212" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-106" Y="-34" Z="-3.75" />
+        <MAX X="106" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="FUSION_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUSION_224MM" />
+      <DIMENSION WIDTH="244" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-122" Y="-34" Z="-3.75" />
+        <MAX X="122" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="FUSION_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUSION_352MM" />
+      <DIMENSION WIDTH="372" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-186" Y="-34" Z="-3.75" />
+        <MAX X="186" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="FUSION_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUSION_448MM" />
+      <DIMENSION WIDTH="468" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-234" Y="-34" Z="-3.75" />
+        <MAX X="234" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="FUSION_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUSION_544MM" />
+      <DIMENSION WIDTH="564" HEIGHT="7.5" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-282" Y="-34" Z="-3.75" />
+        <MAX X="282" Y="0" Z="3.75" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

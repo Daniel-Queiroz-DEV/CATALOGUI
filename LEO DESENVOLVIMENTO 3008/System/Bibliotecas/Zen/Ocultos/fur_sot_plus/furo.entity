@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Furo" ICON="furo.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Furo" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="furo" />
+    <LIMITS>
+      <MIN X="-2" Y="-3" Z="-1.95" />
+      <MAX X="2" Y="0" Z="1.95" />
+    </LIMITS>
+    <DIMENSION WIDTH="4" HEIGHT="3.9" DEPTH="3" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="FURO" NAME="FURO" IDMATERIAL="zen_preto" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

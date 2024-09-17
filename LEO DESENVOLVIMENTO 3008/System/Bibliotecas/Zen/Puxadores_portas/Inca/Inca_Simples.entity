@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$H$ Simples ($TEXT$)" ICON="Inca_Simples.jpg" INVISIBLE="N" MODELINVISIBLE="N" CHECKED="N">
+  <DRAWING ID="Inca_Simples" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_inc" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="35" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-92.64998" V="65.64532" />
+              <CORNER2 U="82.01044" V="14.55217" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="35" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-87.2393" V="-5.962419" />
+              <CORNER2 U="97.05887" V="-50.53189" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Inca $H$mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="80" HEIGHT="70" DEPTH="15" MODE="OnlyProposedH" TEXT=" ">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="70" TEXT="ZP0829" />
+      <PROPOSEDVALUE HEIGHT="200" TEXT="ZP0800" />
+      <PROPOSEDVALUE HEIGHT="300" TEXT="ZP0801" />
+      <PROPOSEDVALUE HEIGHT="400" TEXT="ZP0802" />
+      <PROPOSEDVALUE HEIGHT="500" TEXT="ZP0803" />
+      <PROPOSEDVALUE HEIGHT="600" TEXT="ZP0804" />
+      <PROPOSEDVALUE HEIGHT="800" TEXT="ZP0805" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+</ENTITY>

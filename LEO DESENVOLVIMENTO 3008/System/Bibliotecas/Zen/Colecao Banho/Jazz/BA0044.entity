@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Toalheiro Ponto ($TEXT$)" ICON="BA0044.jpg">
+  <DRAWING>
+    <FILE3D NAME="jazz_toalheiro ponto" />
+    <DIMENSION WIDTH="180" HEIGHT="115" DEPTH="70" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="180" HEIGHT="115" DEPTH="70" MODE="Nothing" TEXT="BA0044" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="ModeloTipo89382" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_branco_polido" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_gelo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_preto" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_branco" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_jazz_BA0044" MODEL="zen_jazz" MODELTYPE="zen_banho_pol_gelo" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Jazz Toalheiro Ponto @zen_jazz(DESCRICAO)@" />
+  </ATTRIBUTES>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Toalha_09">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="toalha" DESCRIPTION="" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION WIDTH="145" />
+          <POSITION ROTATION="0" X="19" Y="-35" Z="-353" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+</ENTITY>

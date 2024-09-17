@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gota Simples" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_GOT.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_esc_tam_3070" />
+    <LIMITS>
+      <MIN X="0" Y="-600" Z="0" />
+      <MAX X="500" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-600" />
+      <PONTO2DA X="500" Y="-600" A="229.261856079102" />
+      <PONTO2DA X="50" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="500" HEIGHT="150" DEPTH="600" />
+  </DRAWING>
+  <REDIMSERVICE CODON="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Gota Simples" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="600" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="500" DEPTH="600" HEIGHT="@(#COM_ESP_TAM#+#FOL_PAI#)" ITEM_BASE="TAMP01" TEXT="006">
+    <MIN WIDTH="100" DEPTH="100" />
+    <MAX WIDTH="1000" DEPTH="1200" />
+  </INSERTDIMENSION>
+</ENTITY>

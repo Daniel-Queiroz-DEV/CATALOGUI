@@ -1,0 +1,1237 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "1000"
+        },
+        "Angle": {},
+        "LeftNeighbour": 1,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "1000"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 0,
+            "RightNeighbour": 1,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "0, 1000",
+              "Mid": "0, 500"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "RightNeighbour": 3,
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+          },
+          "Arc": {
+            "Mid": "500, 0",
+            "End": "1000, 0"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "RightNeighbour": 0,
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 0",
+          "Mid": "1000, 500",
+          "End": "1000, 1000"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "RightNeighbour": 2,
+      "RightNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "1000"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 0,
+        "RightNeighbour": 1,
+        "RightNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 1,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 2,
+          "RightNeighbour": 3,
+          "RightNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "1000"
+            },
+            "Angle": {},
+            "LeftNeighbour": 1,
+            "RightNeighbour": 0,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1000, 0",
+              "Mid": "1000, 500",
+              "End": "1000, 1000"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+          },
+          "Arc": {
+            "Mid": "500, 0",
+            "End": "1000, 0"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "0, 1000",
+          "Mid": "0, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 1000",
+        "Mid": "500, 1000",
+        "End": "0, 1000"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+    },
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "1000"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 0,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "1000"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "1000"
+          },
+          "Angle": {},
+          "LeftNeighbour": 3,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "1000"
+            },
+            "Angle": {},
+            "LeftNeighbour": 1,
+            "RightNeighbour": 0,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1000, 0",
+              "Mid": "1000, 500",
+              "End": "1000, 1000"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "RightNeighbour": 2,
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "1000, 1000",
+            "Mid": "500, 1000",
+            "End": "0, 1000"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "RightNeighbour": 1,
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "0, 1000",
+          "Mid": "0, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "RightNeighbour": 3,
+      "RightNeighbourElement": {
+        "ProfileIndex": 2,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 2,
+        "RightVertexIndex": 3,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "1000"
+        },
+        "Angle": {},
+        "LeftNeighbour": 1,
+        "RightNeighbour": 0,
+        "RightNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 0,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 0,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "1000"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "1000"
+          },
+          "Angle": {},
+          "LeftNeighbour": 3,
+          "RightNeighbour": 2,
+          "RightNeighbourElement": {
+            "ProfileIndex": 0,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 2,
+            "LeftVertexIndex": 0,
+            "RightVertexIndex": 1,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "1000"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 0,
+            "RightNeighbour": 1,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "0, 1000",
+              "Mid": "0, 500"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "1000, 1000",
+            "Mid": "500, 1000",
+            "End": "0, 1000"
+          },
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 0",
+          "Mid": "1000, 500",
+          "End": "1000, 1000"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+      },
+      "Arc": {
+        "Mid": "500, 0",
+        "End": "1000, 0"
+      },
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "0"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "1000"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "1000"
+        },
+        "Angle": {},
+        "LeftNeighbour": 3,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "1000"
+          },
+          "Angle": {},
+          "LeftNeighbour": 1,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 2,
+            "RightNeighbour": 3,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+            },
+            "Arc": {
+              "Mid": "500, 0",
+              "End": "1000, 0"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "RightNeighbour": 0,
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "1000, 0",
+            "Mid": "1000, 500",
+            "End": "1000, 1000"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "RightNeighbour": 2,
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 1000",
+          "Mid": "500, 1000",
+          "End": "0, 1000"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "RightNeighbour": 1,
+      "RightNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 2,
+        "RightNeighbour": 3,
+        "RightNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 3,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "1000"
+          },
+          "Angle": {},
+          "LeftNeighbour": 1,
+          "RightNeighbour": 0,
+          "RightNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "1000"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "1000"
+            },
+            "Angle": {},
+            "LeftNeighbour": 3,
+            "RightNeighbour": 2,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1000, 1000",
+              "Mid": "500, 1000",
+              "End": "0, 1000"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "1000, 0",
+            "Mid": "1000, 500",
+            "End": "1000, 1000"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+        },
+        "Arc": {
+          "Mid": "500, 0",
+          "End": "1000, 0"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "0, 1000",
+        "Mid": "0, 500"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_PAI#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_PAINEL#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 1,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "0"
+        },
+        "Angle": {},
+        "LeftNeighbour": 2,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "1000"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 0,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "1000"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "1000"
+            },
+            "Angle": {},
+            "LeftNeighbour": 3,
+            "RightNeighbour": 2,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1000, 1000",
+              "Mid": "500, 1000",
+              "End": "0, 1000"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "RightNeighbour": 1,
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "0, 1000",
+            "Mid": "0, 500"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "RightNeighbour": 3,
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+        },
+        "Arc": {
+          "Mid": "500, 0",
+          "End": "1000, 0"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "RightNeighbour": 0,
+      "RightNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Borda",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_PAI#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_PAINEL#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 0,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "1000"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "1000"
+        },
+        "Angle": {},
+        "LeftNeighbour": 3,
+        "RightNeighbour": 2,
+        "RightNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Borda",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_PAI#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_PAINEL#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "1000"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "0"
+          },
+          "Angle": {},
+          "LeftNeighbour": 0,
+          "RightNeighbour": 1,
+          "RightNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Borda",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_PAI#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_PAINEL#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 1,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "0"
+            },
+            "Angle": {},
+            "LeftNeighbour": 2,
+            "RightNeighbour": 3,
+            "Condition": {
+              "Expression": "'#PAI_PAI_FT_FRONTAL#' == 'SIM'"
+            },
+            "Arc": {
+              "Mid": "500, 0",
+              "End": "1000, 0"
+            },
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "ID": "000a40ba-fe62-4dad-bad4-10ad571f59d4",
+            "OperationPrice": "BORDA",
+            "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+          },
+          "Condition": {
+            "Expression": "'#PAI_PAI_FT_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "0, 1000",
+            "Mid": "0, 500"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "ID": "6fac1f79-24be-4aa6-ad45-2a33cfd5f269",
+          "OperationPrice": "BORDA",
+          "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+        },
+        "Condition": {
+          "Expression": "'#PAI_PAI_FT_TRASEIRA#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 1000",
+          "Mid": "500, 1000",
+          "End": "0, 1000"
+        },
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "ID": "b8425a35-4466-4c2c-9763-565eef9c8cff",
+        "OperationPrice": "BORDA",
+        "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+      },
+      "Condition": {
+        "Expression": "'#PAI_PAI_FT_DIR#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 0",
+        "Mid": "1000, 500",
+        "End": "1000, 1000"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "Height": {
+        "Value": "0"
+      },
+      "ID": "8ddb90fb-9e7c-466a-9ee3-4752f576c169",
+      "OperationPrice": "BORDA",
+      "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+    }
+  ],
+  "ElementId": "PAI_PAI_15_PAILEO_EDIT"
+}

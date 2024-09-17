@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER DESCRIPTION="Brastemp" ID="Brastemp">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DATABASE="%PastaPrice%\Brastemp\Brastemp.mdb" ID="BancoDados" COLUMNPRICE="Price" SEARCHFIRSTPERSONALBASE="N" CANMODIFY="Y" COLUMNCODE="Code" TABLE="Prices" DLL="ProCAD.Precos.dll" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

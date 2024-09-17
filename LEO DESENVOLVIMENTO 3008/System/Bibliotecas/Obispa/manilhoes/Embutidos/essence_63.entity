@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Essence Alça Dupla c/ Abert ($TEXT$)" ICON="essence_63.jpg">
+  <DRAWING>
+    <FILE3D NAME="essence_com_abert" FORMAT=".dxf" />
+    <DIMENSION WIDTH="58.1" HEIGHT="544.6" DEPTH="75.5" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+  <INSERTDIMENSION TEXT="200.063 AD" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Essence Alça Dupla c/ Abert 30,5mm x 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Pux_man" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_man_580_ess_63" MODEL="Pux_man" MODELTYPE="Pux_man_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_man_580_ess_63" MODEL="Pux_man" MODELTYPE="Pux_man_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

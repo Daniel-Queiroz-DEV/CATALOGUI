@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Forno" ICON="forno_04_rest.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Studio;Base;Academic;Trial;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="forno_04_rest" />
+    <DIMENSION WIDTH="595" HEIGHT="595" DEPTH="540" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_ELETRO" ID="DEC_ELETRO" EDIT="Y" IDMATERIAL="metal_branco_01" />
+    <COMPONENTDEFINITION NAME="DEC_PUXADOR" ID="DEC_PUXADOR" EDIT="Y" IDMATERIAL="inox_01" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ModuleType" VALUE="INTERNAL" />
+    <ATTRIBUTE ID="description" VALUE="Forno Elétrico" />
+  </ATTRIBUTES>
+</ENTITY>

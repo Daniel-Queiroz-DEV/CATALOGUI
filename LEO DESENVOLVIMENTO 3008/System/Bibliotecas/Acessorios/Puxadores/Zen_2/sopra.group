@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Sopra" DIRECTORY="sopra">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sop_128_2" DEF="128mm.group" GUID="231cbf5b-9e97-49a5-915d-3e65332d37f7" />
+    <EXPLORERITEM TYPE="group" ID="zen_sop_192_2" DEF="192mm.group" GUID="a2d06ead-9829-4517-b174-32b80f7b035d" />
+    <EXPLORERITEM TYPE="group" ID="zen_sop_320_2" DEF="320mm.group" GUID="f9d6e07f-69e8-4fd6-b190-b279b76f7356" />
+    <EXPLORERITEM TYPE="group" ID="zen_sop_416_2" DEF="416mm.group" GUID="62d770af-9412-4ccf-9b69-5f7eca8be4f3" />
+    <EXPLORERITEM TYPE="group" ID="zen_sop_640_2" DEF="640mm.group" GUID="b48d778e-7a4c-4e2b-97ea-44acd5407896" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SOPRA_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_128mm" />
+      <DIMENSION WIDTH="153" HEIGHT="8" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-76.5" Y="-18" Z="-4" />
+        <MAX X="76.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_128MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_128mm_diamond" />
+      <LIMITS>
+        <MIN X="-76.5" Y="-19" Z="-4" />
+        <MAX X="76.5" Y="0" Z="4" />
+      </LIMITS>
+      <DIMENSION WIDTH="153" HEIGHT="8" DEPTH="19" />
+    </DRAWING>
+    <DRAWING ID="SOPRA_192MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_192mm" />
+      <DIMENSION WIDTH="217" HEIGHT="8" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-108.5" Y="-18" Z="-4" />
+        <MAX X="108.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_192MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_192mm_diamond" />
+      <DIMENSION WIDTH="217" HEIGHT="8" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-108.5" Y="-19" Z="-4" />
+        <MAX X="108.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_320MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_320mm" />
+      <DIMENSION WIDTH="345" HEIGHT="8" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-172.5" Y="-18" Z="-4" />
+        <MAX X="172.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_320MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_320mm_diamond" />
+      <DIMENSION WIDTH="345" HEIGHT="8" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-172.5" Y="-19" Z="-4" />
+        <MAX X="172.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_416MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_416mm" />
+      <DIMENSION WIDTH="442" HEIGHT="8" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-221" Y="-18" Z="-4" />
+        <MAX X="221" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_416MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_416mm_diamond" />
+      <DIMENSION WIDTH="442" HEIGHT="8" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-221" Y="-19" Z="-4" />
+        <MAX X="221" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_640MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_640mm" />
+      <DIMENSION WIDTH="665" HEIGHT="8" DEPTH="18" />
+      <LIMITS>
+        <MIN X="-332.5" Y="-18" Z="-4" />
+        <MAX X="332.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOPRA_640MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\sopra_640mm_diamond" />
+      <DIMENSION WIDTH="665" HEIGHT="8" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-332.5" Y="-19" Z="-4" />
+        <MAX X="332.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

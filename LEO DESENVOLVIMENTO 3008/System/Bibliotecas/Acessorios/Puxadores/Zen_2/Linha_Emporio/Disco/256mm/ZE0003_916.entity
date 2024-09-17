@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="256mm Níquel Escovado c/ Verniz Brilho ($TEXT$.$D.ACAB$)" ICON="Disco.jpg">
+  <DRAWING ID="DISCO_256MM" />
+  <INSERTDIMENSION WIDTH="302" HEIGHT="17" DEPTH="22" TEXT="ZE0003" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Disco 256mm Níquel Escovado c/ Verniz Brilho" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

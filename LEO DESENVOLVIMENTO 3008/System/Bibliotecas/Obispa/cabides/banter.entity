@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Banter ($TEXT$)" ICON="banter.jpg">
+  <DRAWING>
+    <FILE3D NAME="banter" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="78" HEIGHT="74" DEPTH="20" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="300.022" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Banter" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Simples_cabide" />
+</ENTITY>

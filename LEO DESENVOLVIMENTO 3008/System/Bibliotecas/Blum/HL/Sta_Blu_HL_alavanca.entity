@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alavanca" ICON="1.jpg">
+  <DRAWING>
+    <FILE3D NAME="braco2_hl" />
+    <LIMITS>
+      <MIN X="0" Y="-41" Z="0" />
+      <MAX X="350" Y="0" Z="176.581" />
+    </LIMITS>
+    <DIMENSION WIDTH="350" HEIGHT="176.6" DEPTH="41" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="aluminio_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <BUDGET>
+    <PRICE PROVIDER="Blum" FONT="Blum" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Kit Alavanca" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="500" HEIGHT="176" DEPTH="41" TEXT="20S3500.06" DESC="">
+    <MIN WIDTH="100" />
+    <MAX WIDTH="1800" />
+  </INSERTDIMENSION>
+  <OPENSERVICE TYPE="DUMPING" Y="-($D$/2)" Z="@($I$?-($H$+$D$/2):$H$+15-$D$/2)" MAX="102" INVERT="Y" />
+</ENTITY>

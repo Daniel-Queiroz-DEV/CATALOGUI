@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  DefaultPlane="{assembly:Null}"
+  ElementId="ace_fer_cola_branco" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.ReceiverData>
+    <DrillingReceiverData
+      AllowedDrillsNames=""
+      ReceiveAllDrills="False"
+      InheritAllDrillsFromParent="False"
+      InheritDrillsFromParent="False" />
+  </DrillingData.ReceiverData>
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação02"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo22"
+          ReceiverDepth="#PRO_CAV_LAT#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="1"
+          PlaneIndex="3"
+          Position="5;5"
+          ElementId="ace_fer_cola_branco" />
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo22"
+          ReceiverDepth="#PRO_CAV_BAS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="2"
+          PlaneIndex="1"
+          Position="5;5"
+          ElementId="ace_fer_cola_branco" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

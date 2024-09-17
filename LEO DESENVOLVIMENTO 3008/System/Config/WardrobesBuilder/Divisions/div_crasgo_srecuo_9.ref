@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VerticalDivision Id="div_crasgo_srecuo" EntityId="com_coz_mon_div" THICKNESS="@(#ESC_ESP_MON#+#FOL_PAI#)" Offset="@('#ESC_ARM_REC_TRA_LAT#' == 'SIM' ? #ESC_ESP_FUN#+#FOL_PAI#+#ESC_SUP_AFA_FUN_MOV#+#ESC_SUP_FOL_RASGO_LARG#/2 : #ESC_SUP_FOL_FUN_MON_BAL# &lt;= 1 ? #ESC_ESP_FUN#+#FOL_PAI#+#ESC_SUP_AFA_FUN_MOV#+#ESC_SUP_FOL_RASGO_LARG#/2 :0)" Fallback="0" Category="Divisórias" Name="Divide Fundo s/ Recuo Front" Rotation="180" Preview="%PastaConstrutorArmarios%\Escritorios\Divisoes\imagens\cras_srec_sup.jpg">
+		<NORMAL A="-1" B="0" C="0" />	
+		<Output>
+			<Sets>
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_DIV_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_DIV_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_DIV_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_DIV_FT_ESQ#" />
+				<SetAttribute Id="ESP_MON" Value="#ESC_ESP_MON#+#FOL_PAI#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</VerticalDivision>

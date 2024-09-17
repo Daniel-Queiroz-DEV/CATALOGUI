@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Furo Trapezio" INVISIBLE="N" ICON="furo_4.jpg">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="10">
+      <PONTO2DA X="-0.05" Y="-5" />
+      <PONTO2DA X="0.05" Y="-5" />
+      <PONTO2DA X="0.05" Y="5" />
+      <PONTO2DA X="-0.05" Y="5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-5" Z="-5" />
+      <MAX X="0" Y="5" Z="5" />
+    </LIMITS>
+    <DIMENSION WIDTH="0.1" HEIGHT="10" DEPTH="10" />
+    <FILE3D NAME="box_2" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="0.1" HEIGHT="10" DEPTH="10" TEXT=" " />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="acril_azul_transparente" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

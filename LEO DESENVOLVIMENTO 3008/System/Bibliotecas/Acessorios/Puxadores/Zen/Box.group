@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Box" NAME="Box" PREFIXID="zen_box_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_box_48" DEF="48mm.group" GUID="87a32c6b-dd6f-4489-a2c8-93fcf10ccda1" />
+    <EXPLORERITEM TYPE="group" ID="zen_box_144" DEF="144mm.group" GUID="7e775f5d-4a93-45d1-9a31-ccf5b4a7aa9f" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BOX_48MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\BOX_48MM" />
+      <DIMENSION WIDTH="67" HEIGHT="20" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-33.503" Y="-20" Z="-16" />
+        <MAX X="33.497" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="BOX_144MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\BOX_144MM" />
+      <DIMENSION WIDTH="162.8" HEIGHT="20" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-81.468" Y="-20" Z="-16" />
+        <MAX X="81.302" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

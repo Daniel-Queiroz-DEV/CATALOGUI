@@ -1,0 +1,38 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "80",
+        "Y": "-52,0806"
+      },
+      "DistanceFromShape": -52.08075,
+      "DistanceFromElement": -52.08075,
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "DirectionFromFirstElement": "0, -52",
+      "DirectionFromSecondElement": "0, -52",
+      "ElementId": "com_coz_bas_cur_2_4_3"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "347,0695",
+        "Y": "349,5"
+      },
+      "DistanceFromShape": 47.069458,
+      "DistanceFromElement": 47.069458,
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "DirectionFromFirstElement": "47, 694580078125",
+      "DirectionFromSecondElement": "47, 694580078125",
+      "ElementId": "com_coz_bas_cur_2_4_3"
+    }
+  ],
+  "ElementId": "com_coz_bas_cur_2_4_3"
+}

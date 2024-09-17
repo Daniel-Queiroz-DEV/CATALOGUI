@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Orvietto" NAME="Orvietto" PREFIXID="zen_orvietto_">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_orvietto_32_2" DEF="32mm.group" GUID="bfff7aa5-babb-419a-a7f2-42586ef54fc8" />
+    <EXPLORERITEM TYPE="group" ID="zen_orvietto_160_2" DEF="160mm.group" GUID="f66871d3-3c47-426f-a8ac-f4fb13f8207f" />
+    <EXPLORERITEM TYPE="group" ID="zen_orvietto_320_2" DEF="320mm.group" GUID="d1b3f66b-d218-4bc8-84aa-d7dfd019790b" />
+    <EXPLORERITEM TYPE="group" ID="zen_orvietto_448_2" DEF="448mm.group" GUID="f5d2c3f3-2ae2-4aa1-a9ed-7fc7aa4c3cd2" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="ORVIETTO_32MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_32mm" />
+      <DIMENSION WIDTH="40" HEIGHT="8" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-20" Y="-25" Z="-4" />
+        <MAX X="20" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_32MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_32mm_couro" />
+      <DIMENSION WIDTH="40" HEIGHT="8" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-20" Y="-25" Z="-4" />
+        <MAX X="20" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_32MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_32mm_diamond" />
+      <DIMENSION WIDTH="40" HEIGHT="8" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-20" Y="-25" Z="-4" />
+        <MAX X="20" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_160MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_160mm" />
+      <DIMENSION WIDTH="168" HEIGHT="8" DEPTH="27" />
+      <LIMITS>
+        <MIN X="-84" Y="-27" Z="-4" />
+        <MAX X="84" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_160MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_160mm_couro" />
+      <DIMENSION WIDTH="168" HEIGHT="8" DEPTH="27" />
+      <LIMITS>
+        <MIN X="-84" Y="-27" Z="-4" />
+        <MAX X="84" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_160MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_160mm_diamond" />
+      <DIMENSION WIDTH="168" HEIGHT="8" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-84" Y="-25" Z="-4" />
+        <MAX X="84" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_320MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_320mm" />
+      <DIMENSION WIDTH="328" HEIGHT="8" DEPTH="27" />
+      <LIMITS>
+        <MIN X="-164" Y="-27" Z="-4" />
+        <MAX X="164" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_320MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_320mm_couro" />
+      <DIMENSION WIDTH="328" HEIGHT="8" DEPTH="27" />
+      <LIMITS>
+        <MIN X="-164" Y="-27" Z="-4" />
+        <MAX X="164" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_320MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_320mm_diamond" />
+      <DIMENSION WIDTH="328" HEIGHT="8" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-164" Y="-25" Z="-4" />
+        <MAX X="164" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_448MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_448mm" />
+      <DIMENSION WIDTH="457" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-228.5" Y="-30" Z="-4" />
+        <MAX X="228.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_448MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_448mm_couro" />
+      <DIMENSION WIDTH="457" HEIGHT="8" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-228.5" Y="-30" Z="-4" />
+        <MAX X="228.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORVIETTO_448MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\orvietto_448mm_diamond" />
+      <DIMENSION WIDTH="457" HEIGHT="8" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-228.5" Y="-25" Z="-4" />
+        <MAX X="228.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

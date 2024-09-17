@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="544mm" NAME="544mm" PREFIXID="zen_gar_544_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS />
+  <DRAWING ID="GARAGE_544mm" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544_cou_azu" DEF="Couro_Azul.group" GUID="d51ba83e-bc86-4746-b948-0d682eb8712b" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544_cou_bra" DEF="Couro_Branco.group" GUID="2910e1aa-4576-48b5-ac88-acde3e08842c" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544_cou_mar" DEF="Couro_Marrom.group" GUID="bab0d575-9f3f-4458-ba5e-db9b956a2f34" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544_cou_pre" DEF="Couro_Preto.group" GUID="a1cbf2e9-9c01-40bf-9d53-35ebb97a9e0d" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544_cou_ver" DEF="Couro_Vermelho.group" GUID="9ae4d6dd-82f2-4233-baf0-ad54a8ef4dd2" />
+    <EXPLORERITEM TYPE="group" ID="zen_gar_544_lon" DEF="Lona.group" GUID="19ef747b-1077-4e4c-8945-958f0a3bedca" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_544mm.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

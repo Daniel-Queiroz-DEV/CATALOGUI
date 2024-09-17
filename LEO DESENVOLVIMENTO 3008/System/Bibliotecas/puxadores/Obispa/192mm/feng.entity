@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Feng ($TEXT$)" ICON="feng.jpg">
+  <DRAWING>
+    <FILE3D NAME="feng_100238" FORMAT=".dxf" />
+    <DIMENSION WIDTH="250" HEIGHT="18" DEPTH="25" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.238" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_pux_fen" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Feng 192mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Par_obi_pux_fen@" />
+</ENTITY>

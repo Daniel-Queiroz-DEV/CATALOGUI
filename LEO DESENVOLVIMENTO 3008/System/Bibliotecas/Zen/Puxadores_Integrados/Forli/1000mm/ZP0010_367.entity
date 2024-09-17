@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Inox/Couro Preto ($TEXT$.$D.ACAB$)" ICON="Forli.jpg">
+  <DRAWING>
+    <FILE3D NAME="Forli_1000mm" />
+    <DIMENSION WIDTH="1000" HEIGHT="55" DEPTH="19" />
+    <LIMITS>
+      <MIN X="-47.5" Y="-1" Z="-27.5" />
+      <MAX X="952.5" Y="18" Z="27.5" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="COURO" NAME="COURO" IDMATERIAL="zen_couro_preto" EDIT="N" />
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_aco_polido" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Forli 1000mm Inox/Couro Preto" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="55" DEPTH="19" TEXT="ZP1010" ACAB="367" />
+</ENTITY>

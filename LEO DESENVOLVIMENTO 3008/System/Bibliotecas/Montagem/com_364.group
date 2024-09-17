@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="com_364" NAME="Painéis Porta" PREFIXID="POR_PAI_" INVISIBLE="Y" MODELNAME="">
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" />
+    <MARGIN IDCATEGORY="POR" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="PORTAS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="THICKNESS_PLATECUTTING" VALUE="@($H$-#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="CODE_PLATECUTTING" VALUE="@com*(ACABAMENTO)@@($H$&lt;10 ? '0' : '')#THICKNESS_PLATECUTTING#" VISIBLE="Y" />
+    <ATTRIBUTE ID="ESP_FUN_GEN" VALUE="#P.ESP_FUN_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FRE_FAL_GEN" VALUE="#P.FRE_FAL_GEN#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA" DEF="painel_porta.entity" GUID="d63906b2-e3ca-4191-87e7-9e1aca0cbb61" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_2" DEF="painel_porta_4.entity" GUID="22dc1a4a-7df8-4126-8832-160452758803" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_2_Y" DEF="painel_porta_3.entity" GUID="2b6eed63-0e18-41ab-b13b-6c3a9ac795f8" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_YELLOW" DEF="painel_porta_5.entity" GUID="052d3ba0-4198-48d1-b815-46bf76f6a797" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_MARANELLO_2" DEF="painel_porta_maranello_2.entity" GUID="25de78d9-5681-4b5e-883b-4c84a5269df9" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_MARANELLO_BASC" DEF="painel_porta_maranello_2_5.entity" GUID="73c4eafd-1242-4dc6-8c00-dcfb8a09ef99" />
+    <EXPLORERITEM TYPE="entity" ID="FR_PAI_MARANELLO" DEF="painel_porta_maranello_2_4.entity" GUID="16214360-5ddc-4162-9053-2fa5b4386280" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_MARANELLO_2_3" DEF="painel_porta_maranello_2_3.entity" GUID="91b1e834-1a78-4a13-91ed-de17cb36e8e4" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_MARANELLO_2_2" DEF="painel_porta_maranello_2_2.entity" GUID="e9e8de16-1e62-4ca6-8e66-3891d8433b22" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA" DEF="painel_porta_maranello_2_2_3.entity" GUID="ce7b4318-c338-43bf-9664-9f9209dbea2d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_2" DEF="painel_porta_maranello_2_2_3_2.entity" GUID="44e6e867-1be3-4b87-86c9-783e996cd465" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2" DEF="painel_porta_maranello_2_2_3_2_2_2.entity" GUID="d22f337c-db24-4b96-96f3-dd2f850fc21f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_MARANELLO_2_2_2" DEF="painel_porta_maranello_2_2_2.entity" GUID="2b8bcdf0-eb6c-4899-8589-5ccbbcf4a7cf" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_VAZ_1" DEF="painel_porta_freggio_4_2.entity" GUID="358317c8-d5c0-45ba-a0da-5a55d213a1a2" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_GAVETA" DEF="COZ_CAI_MOD_OCU_924.entity" GUID="c58d433f-fac8-45a7-bd97-bd4e645307e6" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_GAVETA_Y" DEF="COZ_CAI_MOD_OCU_924_3.entity" GUID="98291422-d126-44c7-94c9-fe3cfff7bd0b" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_GAVETA_2" DEF="COZ_CAI_MOD_OCU_924_2.entity" GUID="8f64a79c-7506-4942-9cc9-f73b3f6b1c3f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_GAV_INT" DEF="POR_PAI_GAV_INT.entity" GUID="a9139973-0b7a-4850-b10a-75e8b8af9c58" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_GAV_INT_SER" DEF="POR_PAI_GAV_INT_2.entity" GUID="4ad1aa74-f48f-4dcb-b01a-11d1d3367607" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_RO46" DEF="POR_PAI_RO46.entity" GUID="534be68b-3b8d-4d5c-b8ba-8dbd721ca18f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_CEN_RO46" DEF="POR_PAI_CEN_RO46.entity" GUID="458f9fa8-a895-45b9-b8b3-d0e4cc70b36b" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_5_2_2" DEF="PAI_PAI_5.entity" GUID="4535a6d9-a9af-4886-8a7f-98b00c27b218" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_18_CONTRA" DEF="painel_porta_freggio_3.entity" GUID="854dfc14-0302-49c2-97ce-719c579335d8" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_PAI_15" DEF="PAI_PAI_15.entity" GUID="5ebbcd51-b195-448c-a081-0b5e898ac489" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_15_CONTRA" DEF="painel_porta_freggio_2.entity" GUID="89dc1335-1cb4-45d8-9fa9-f77cc59bb093" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_FRE_25" DEF="PAI_FRE_25.entity" GUID="b7aeb35d-9439-457c-a1a9-f310d862484b" />
+    <EXPLORERITEM TYPE="entity" ID="PAI_FRE_25_CONTRA" DEF="PAI_FRE_25_CONTRA.entity" GUID="010b7cf2-a190-45cf-88b3-2528b9b1b103" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_FRE" DEF="painel_porta_freggio.entity" GUID="9ec9c4a2-0f85-43d0-90c0-ceacf5c89cba" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_RIP_18" DEF="painel_porta_freggio_4_3.entity" GUID="2658d17e-5e49-4ba8-84fb-2dced376a1a8" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_RIP" DEF="painel_porta_freggio_4.entity" GUID="fd14faf3-a352-4cf7-b8c7-51e3385ae708" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_Y" DEF="painel_porta_2.entity" GUID="231c3984-6311-401e-9a6a-d2c3a0c9bd7c" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_RO46_Y" DEF="POR_PAI_RO46_2.entity" GUID="2531e796-0b07-4def-a201-dd17e5b43826" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_CEN_RO46_Y" DEF="POR_PAI_CEN_RO46_2.entity" GUID="875de45b-ef33-45a6-b759-158635f6a3b0" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_JOIAS" DEF="painel_porta_freggio_4_2_3_2_3_2.entity" GUID="99d43aed-48b1-4456-b524-88f85e7facff" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_JOIAS_2" DEF="painel_porta_freggio_4_2_3_2_3_2_3.entity" GUID="487f8d0c-4839-48dc-9ecd-292561b21f0e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_JOIAS_80_2" DEF="painel_porta_freggio_4_2_3_2_3_2_2.entity" GUID="420fdece-4d76-4489-b916-9337f12c3d42" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_JOIAS_3" DEF="painel_porta_freggio_4_2_3_2_3_2_4.entity" GUID="76828da0-6635-4a74-9f10-be37bedbc4f1" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_JOIAS_2_2" DEF="painel_porta_freggio_4_2_3_2_3_2_3_2.entity" GUID="1cccb302-7d04-43f5-8e04-79d2dbd2755e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_JOIAS_80_2_2" DEF="painel_porta_freggio_4_2_3_2_3_2_2_2.entity" GUID="4ea97a9d-ba69-4b8f-97f1-c0fa0d871d78" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_2_3" DEF="painel_porta_freggio_4_2_3_2_3.entity" GUID="1dfc24ac-d5c7-467e-aeef-f83bbaa9eabe" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_2" DEF="painel_porta_freggio_4_2_3_2.entity" GUID="daba89b0-d113-4444-a8b7-a051649c04ac" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_2_4" DEF="painel_porta_freggio_4_2_3_2_4.entity" GUID="b05789dc-b4c3-4e65-9658-47f1372a9f0f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_PAI_PORTA_PALHA_2_2" DEF="painel_porta_freggio_4_2_3_2_2.entity" GUID="9ea2653b-d24a-4209-bc2e-c50864dda31e" />
+  </EXPLORERITEMCOLLECTION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION MODELTYPE="acabamento_772" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_768" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_773" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_770" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_771" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_769" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+    <REMOVEMODELOPTION MODELTYPE="acabamento_774" CONDITION="$H$ == 25 || @($REFERENCE(TIPO_ARMARIO)$ == 'Yellow') || @($REFERENCE(TIPO_ARMARIO)$ == '3') || @($REFERENCE(TIPO_ARMARIO)$ == '4')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

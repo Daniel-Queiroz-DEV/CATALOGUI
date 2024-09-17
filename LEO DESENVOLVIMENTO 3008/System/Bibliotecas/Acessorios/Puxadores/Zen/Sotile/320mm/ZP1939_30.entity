@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Alum Anod Pint Fosco ($TEXT$.$D.ACAB$)" ICON="Sotile.jpg">
+  <INSERTDIMENSION WIDTH="352" TEXT="ZP1939" ACAB="30" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sotile 320mm Alum Anod Pint Fosco" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_pint_fosco" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

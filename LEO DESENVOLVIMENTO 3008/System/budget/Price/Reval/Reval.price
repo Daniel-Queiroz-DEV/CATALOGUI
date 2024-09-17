@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER DESCRIPTION="Reval" ID="Reval">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DATABASE="%PastaPrice%\Reval\Reval.mdb" ID="BancoDados" SEARCHFIRSTPERSONALBASE="N" CANMODIFY="Y" COLUMNCODE="Code" COLUMNPRICE="Price" DLL="ProCAD.Precos.dll" TABLE="Prices" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

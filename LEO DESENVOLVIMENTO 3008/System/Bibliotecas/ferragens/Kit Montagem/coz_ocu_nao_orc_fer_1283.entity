@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Parafuso p/ Caixa 4,5x40" ICON="paraf.jpg" INVISIBLE="Y" CHECKED="N">
+  <DRAWING>
+    <LIMITS>
+      <MIN X="0" Y="-8" Z="-7,5" />
+      <MAX X="15" Y="7" Z="7,5" />
+    </LIMITS>
+    <FILE3D NAME="parafuso" />
+    <BOUNDINGBOX HEIGHT="15">
+      <PONTO2DA Y="-7.5" />
+      <PONTO2DA X="0.1" Y="-7.5" />
+      <PONTO2DA X="0.1" Y="7.5" />
+      <PONTO2DA Y="7.5" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="15" HEIGHT="15" DEPTH="15" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="4" HEIGHT="40" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="15" HEIGHT="15" DEPTH="15" TEXT="PARC4540" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Parafuso 4,5x40 Cabeça Chata Auto-Atarrachante" VISIBLE="N" />
+    <ATTRIBUTE ID="PAR_PRO_LAT" VALUE="#P.PAR_PRO_LAT#" VISIBLE="Y" />
+  </ATTRIBUTES>
+</ENTITY>

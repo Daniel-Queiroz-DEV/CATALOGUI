@@ -1,0 +1,36 @@
+{
+  "ElementId": "com_ban_pra_cur_dir",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "327,756",
+        "Y": "350"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_ban_pra_cur_dir"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 1,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "156,2319",
+        "Y": "-26,39424"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_ban_pra_cur_dir"
+    }
+  ]
+}

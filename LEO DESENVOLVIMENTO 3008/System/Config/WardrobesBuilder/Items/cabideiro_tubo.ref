@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="cabideiro_tubo" Entityid="ACE_ARA_CAB" Name="Tubo" GroupName="Aramados" Description="Cabideiros">
+  <Dimension Width="$P.W$" />
+  <Position Y="-$PD$/2+$D$/2" Z="$PH$-$H$-55">
+    <Max Z="$P.H$-$H$" />
+    <Min Z="0" />
+  </Position>
+</Item>

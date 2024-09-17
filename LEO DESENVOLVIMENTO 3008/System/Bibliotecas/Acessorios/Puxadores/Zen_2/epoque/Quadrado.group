@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Quadrado" NAME="Quadrado" PREFIXID="zen_epo_qua_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_es_2" DEF="zp0151_15.entity" GUID="b0dd50c0-ccad-4ed0-bc87-8d7bdceb7606" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_648_2" DEF="zp0151_648.entity" GUID="b9e62ce6-fc28-440d-b290-700660cc8011" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_A00_2" DEF="zp0151_A00.entity" GUID="97d35de1-c5fc-4b58-ab29-01caca1384ec" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_B00_2" DEF="zp0151_B00.entity" GUID="72b29929-201f-4b01-8e71-7bc7d088eb69" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_F00_2" DEF="zp0151_F00.entity" GUID="e32d9a2c-4cc6-4233-ba2c-d0ee21c14b53" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_G00_2" DEF="zp0151_G00.entity" GUID="519f0dac-aada-45dd-b034-3a1f25c2f226" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_L00_2" DEF="zp0151_L00.entity" GUID="87efa6a8-098d-4c53-a7f6-b2f411aa6bc7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_epoque_zp0151_M00_2" DEF="zp0151_M00.entity" GUID="a7d1b515-faf7-4568-856c-a64a25e4a8c7" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="BELLE_EPOQUE_QUADRADO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

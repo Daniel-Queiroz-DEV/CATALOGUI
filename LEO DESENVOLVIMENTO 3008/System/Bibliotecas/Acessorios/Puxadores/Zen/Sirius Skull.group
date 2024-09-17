@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Sirius Skull" NAME="Sirius Skull" PREFIXID="zen_sir_sku_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="SIRIUS_SKULL_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SIRIUS_SKULL_32MM" />
+      <DIMENSION WIDTH="52" HEIGHT="20" DEPTH="20.7" />
+      <LIMITS>
+        <MIN X="-26" Y="-20.664" Z="-10" />
+        <MAX X="26" Y="0" Z="10" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SIRIUS_SKULL_48MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SIRIUS_SKULL_48MM" />
+      <DIMENSION WIDTH="68" HEIGHT="30" DEPTH="20.7" />
+      <LIMITS>
+        <MIN X="-34" Y="-20.661" Z="-15" />
+        <MAX X="34" Y="0" Z="15" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sir_sku_32mm" DEF="32mm.group" GUID="c32b74b7-fc28-422e-8b28-6a99aebedc92" />
+    <EXPLORERITEM TYPE="group" ID="zen_sir_sku_48mm" DEF="48mm.group" GUID="4aa221a0-ba88-4e27-86c5-69b0ad271ccc" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

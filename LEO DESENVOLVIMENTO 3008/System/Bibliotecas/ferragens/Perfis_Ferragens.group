@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Perfis_Ferragens" NAME="Perfis Ferragens" PREFIXID="fer_per_fer_" INVISIBLE="Y">
+  <EVENTS>
+    <ONDIMENSIONCHANGED>
+      <ACTIONS>
+        <REPROCESSAGGREGATES />
+      </ACTIONS>
+    </ONDIMENSIONCHANGED>
+  </EVENTS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="FANTASMA" VALUE="S" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_1" VALUE="#P.FIX_GEN_1#" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_2" VALUE="#P.FIX_GEN_2#" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_PRA_GEN" VALUE="#P.FIX_PRA_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="MED_MAX_FIX_GEN_1" VALUE="#P.MED_MAX_FIX_GEN_1#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="MED_MAX_FIX_GEN_2" VALUE="#P.MED_MAX_FIX_GEN_2#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_RASGO_LARG_GEN" VALUE="#P.FOL_RASGO_LARG_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_FUN_GEN" VALUE="#P.ESP_FUN_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_MON" VALUE="#P.ESP_MON#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="FUNDO_MODULO" VALUE="#P.FUNDO_MODULO#" VISIBLE="N" />
+    <ATTRIBUTE ID="SENTIDO_TRAVESSA" VALUE="#P.SENTIDO_TRAVESSA#" VISIBLE="N" />
+    <ATTRIBUTE ID="DIM_ALT_TRAV_FRO" VALUE="#P.DIM_ALT_TRAV_FRO#" VISIBLE="N" />
+    <ATTRIBUTE ID="AFA_SUP_TRAV_FRO" VALUE="#P.AFA_SUP_TRAV_FRO#" VISIBLE="N" />
+    <ATTRIBUTE ID="AFA_FRO_TRAV_FRO" VALUE="#P.AFA_FRO_TRAV_FRO#" VISIBLE="N" />
+    <ATTRIBUTE ID="SENTIDO_TRAVESSA_TRAS" VALUE="#P.SENTIDO_TRAVESSA_TRAS#" VISIBLE="N" />
+    <ATTRIBUTE ID="DIM_ALT_TRAV_TRAS" VALUE="#P.DIM_ALT_TRAV_TRAS#" VISIBLE="N" />
+    <ATTRIBUTE ID="DIM_ALT_TRAV_TRAS_LAT" VALUE="#P.DIM_ALT_TRAV_TRAS_LAT#" VISIBLE="N" />
+    <ATTRIBUTE ID="AFA_SUP_TRAV_TRAS" VALUE="#P.AFA_SUP_TRAV_TRAS#" VISIBLE="N" />
+    <ATTRIBUTE ID="AFA_TRAS_TRAV_TRAS" VALUE="#P.AFA_TRAS_TRAV_TRAS#" VISIBLE="N" />
+    <ATTRIBUTE ID="AFA_FUN_MOV_PAR" VALUE="#P.AFA_FUN_MOV_PAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_RASGO_PROF_GEN" VALUE="#P.FOL_RASGO_PROF_GEN#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_SUP" VALUE="#P.FOL_FUN_SUP#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_LAT" VALUE="#P.FOL_FUN_LAT#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_INF" VALUE="#P.FOL_FUN_INF#" VISIBLE="N" />
+    <ATTRIBUTE ID="FOL_FUN_MON" VALUE="#P.FOL_FUN_MON#" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_bas" DEF="Base.entity" GUID="e8c40ea9-4ff0-444d-869b-8bb900b76fd5" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_afa" DEF="Base_4.entity" GUID="6ddce2d9-c3a5-4cf3-9447-075c670c3e66" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_bas_3" DEF="Base_3.entity" GUID="49d45001-9e4f-464d-9947-3fd673a5038c" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_bas_2" DEF="Base_2.entity" GUID="f8cec25b-05c9-4472-8bdb-8d6e21d28d90" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_bas_pas" DEF="fer_per_fer_bas_pas.entity" GUID="3ce85d4f-39a2-42ae-9994-f8c59547081a" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_bas_pas_yellow" DEF="fer_per_fer_bas_pas_2.entity" GUID="2046268b-2f3f-445e-9a79-6bc58854821d" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_lat" DEF="fer_per_fer_lat.entity" GUID="dd6e0068-a8d2-4514-a7ac-4089cc1daf3b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_riv" DEF="fer_per_fer_lat_5.entity" GUID="8d7bf161-2ca6-4108-8d1c-e41a5c34a8ab" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_lat_4" DEF="fer_per_fer_lat_4.entity" GUID="4b1ca940-d0c3-4580-bf42-f7405979da3b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_lat_yellow" DEF="fer_per_fer_lat_4_2.entity" GUID="8295f1b1-f619-4556-94c9-b49850671eb8" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_lat_3" DEF="fer_per_fer_lat_3.entity" GUID="5e4ec159-ff08-4629-b172-cd2c10eee1bd" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_lat_2" DEF="fer_per_fer_lat_2.entity" GUID="b333d219-a6a2-4818-b790-ec12c39bca3f" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra" DEF="fer_per_fer_tra.entity" GUID="887d8039-148a-42d7-ba6d-72206c164537" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_temp" DEF="fer_per_fer_tra_3.entity" GUID="f365c1b9-2ab2-4086-ae8a-e127a58a00a8" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_2" DEF="fer_per_fer_tra_2.entity" GUID="0d00eabb-53e4-42f2-8967-1147b41cbdd1" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_tra" DEF="fer_per_fer_tra_tra.entity" GUID="7b7d14ea-f079-42a4-ba13-347400ae5b46" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_tra_3" DEF="fer_per_fer_tra_tra_3.entity" GUID="443c96ec-3302-4f55-9932-9d69b12164a0" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_tra_2" DEF="fer_per_fer_tra_tra_2.entity" GUID="0e05ab86-27d4-41ce-9b2a-8a1ac8301e70" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_pas" DEF="fer_per_fer_tra_pas.entity" GUID="085b4683-65b1-45e2-a283-79f857ebe7ab" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_pas_yellow" DEF="fer_per_fer_tra_pas_2.entity" GUID="f0005ce9-5fd2-4c53-88f2-a05d9c80c6b6" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_div_pas" DEF="fer_per_fer_div_pas.entity" GUID="ed6f4a7f-4f04-4bad-a6cf-e2fe0ee3ef26" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_div_pas_yellow" DEF="fer_per_fer_div_pas_2.entity" GUID="2b4cbfb0-d314-4fc8-807e-d3c25dd7c84b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_fun_dir" DEF="fer_per_fer_fun_dir.entity" GUID="6c21a1e5-9f95-4610-b077-bdbb2ea0940f" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_fun_esq" DEF="fer_per_fer_fun_esq.entity" GUID="0cfdc878-b9ef-465a-ae1f-567fef1b380c" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_fun_can_l" DEF="fer_per_fer_fun_can_l.entity" GUID="6c405fca-49a3-4d63-b016-24a15f249d5b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_sim" DEF="fer_per_fer_sim.entity" GUID="aa7b6c1a-fd16-4835-a496-4cdb8670f827" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_pra_mov" DEF="fer_per_fer_pra_mov.entity" GUID="3d4b1953-23fe-4849-b475-76ebff4f413b" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_gav" DEF="fer_per_fer_gav.entity" GUID="1f4a9f8e-e2f9-4544-b722-007b2f7dffe5" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_gav_2" DEF="fer_per_fer_gav_2.entity" GUID="24e845bb-09c6-43d7-9521-53cd87830311" />
+    <EXPLORERITEM TYPE="entity" ID="vazio" DEF="vazio.entity" GUID="30996598-1cd1-46ed-ab8e-f992ac15d41c" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_rod_vis" DEF="fer_per_fer_rod_vis.entity" GUID="20491bdd-88b2-44a2-bfd0-c72c71805fca" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_cav_sim" DEF="fer_per_fer_cav_sim.entity" GUID="1a779dc4-6de5-42cb-9f62-2995abafb8ef" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_per_esc_sap_reg" DEF="com_coz_per_esc_sap_reg.entity" GUID="ba2f5461-de3c-42b1-8b14-9083436f8380" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_sim" DEF="fer_per_fer_tra_sim.entity" GUID="62e6fb13-3a97-485d-9927-bbe3484a4b44" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_pra_fix" DEF="fer_per_fer_pra_fix.entity" GUID="891aca04-4f60-4c94-b4b1-355f00656e5c" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_fundo" DEF="fer_per_fer_pra_fix_3.entity" GUID="488cd636-ba06-4833-aa20-0a01c831efea" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_tra_l" DEF="fer_per_fer_tra_l.entity" GUID="b719c069-0102-4064-bfbe-f0005b8c8996" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_pra_fix_2_2" DEF="fer_per_fer_pra_fix_2_2.entity" GUID="72a0fdff-a492-42f0-99e4-cfae90afd4fb" />
+    <EXPLORERITEM TYPE="entity" ID="fer_per_fer_pra_fix_2" DEF="fer_per_fer_pra_fix_2.entity" GUID="147a96e4-bb90-4779-b82a-2dfc4c0c4da6" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

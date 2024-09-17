@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="Persol" DESCRIPTION="Persol">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" ID="Persol" DESCRIPTION="Persol" DATABASE="%PastaPrice%\Persol\Persol.mdb" />
+  </SOURCES>
+</PRICEPROVIDER>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Caiaque ($TEXT$)" ICON="caiaque.jpg">
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_128_cai" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION TEXT="100.198" />
+  <DRAWING>
+    <FILE3D NAME="caiaque_100198" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="174" HEIGHT="15" DEPTH="35" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Caiaque 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

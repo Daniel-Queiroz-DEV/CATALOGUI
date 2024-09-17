@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ponto ($TEXT$)" ICON="box.jpg">
+  <INSERTDIMENSION TEXT="100.620" />
+  <DRAWING>
+    <FILE3D NAME="box" FORMAT=".dxf" />
+    <DIMENSION WIDTH="37" HEIGHT="37" DEPTH="11" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_pon_box" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Box Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

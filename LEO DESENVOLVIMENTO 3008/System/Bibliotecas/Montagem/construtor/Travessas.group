@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Travessas" NAME="Travessas" PREFIXID="com_con_tra_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_con_tra_tra" DEF="com_con_tra_tra.entity" GUID="4d81bc32-402a-4b21-b49b-fe48bdc79c3f" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_tra_nor_pas" DEF="com_con_tra_nor_pas.entity" GUID="37a56b95-29b1-4d6b-b54d-8d4e57866ecc" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_tra_nor" DEF="com_con_tra_nor.entity" GUID="e172559b-2267-4c78-aabf-57e7d143a3de" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_tra_pas" DEF="com_con_tra_pas.entity" GUID="4a94831b-1492-43d7-b5c1-67e348e3cc53" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_con_tra" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_tra" MODEL="com_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_tra" MODEL="com_caixas" MODELTYPE="acabamento_727" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_tra" MODEL="com_caixas" MODELTYPE="acabamento_726" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_tra" MODEL="com_caixas" MODELTYPE="acabamento_027_2" CONDITION="$H$ == 25" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

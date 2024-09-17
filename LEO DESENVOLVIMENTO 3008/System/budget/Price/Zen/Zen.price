@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER ID="Zen" DESCRIPTION="Zen">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DLL="ProCAD.Precos.dll" TABLE="Prices" COLUMNPRICE="Price" COLUMNCODE="Code" ID="Zen" SEARCHFIRSTPERSONALBASE="N" CANMODIFY="N" SEARCHONLYPERSONALBASE="N" DESCRIPTION="Zen">
+      <DATABASECOLLECTION IDACTUALDATABASE="tabela_rs">
+        <DATABASE ID="tabela_rs" NAME="Tabela RS" PATH="%PastaPrice%\Zen\tabela_rs.mdb" />
+        <DATABASE ID="tabela_for_rs" NAME="Tabela Fora RS" PATH="%PastaPrice%\Zen\tabela_fora_rs.mdb" />
+      </DATABASECOLLECTION>
+    </SOURCE>
+  </SOURCES>
+</PRICEPROVIDER>

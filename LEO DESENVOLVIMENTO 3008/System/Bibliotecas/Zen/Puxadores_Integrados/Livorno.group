@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Livorno" NAME="Livorno" PREFIXID="zen_liv_">
+  <DRAWINGS>
+    <DRAWING ID="ZP5457">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Livorno\3D\ZP5457" />
+      <DIMENSION WIDTH="98" HEIGHT="98" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-49" Y="-4" Z="-49" />
+        <MAX X="49" Y="15" Z="49" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_liv_54mm" DEF="54mm.group" GUID="73be4542-0fa0-43d6-ad34-5b30a67d8978" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

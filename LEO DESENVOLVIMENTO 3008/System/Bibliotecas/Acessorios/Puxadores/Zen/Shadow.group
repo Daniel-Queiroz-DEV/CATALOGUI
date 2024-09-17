@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Shadow" DIRECTORY="shadow" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sha_16" DEF="16mm.group" GUID="e1eb9640-2e29-44f4-9bbd-f172c54967a7" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SHADOW_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\shadow_ponto" />
+      <DIMENSION WIDTH="55" HEIGHT="55" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-30" Y="-19" Z="-30" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SHADOW_PONTO_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\shadow_ponto_couro" />
+      <DIMENSION WIDTH="55" HEIGHT="55" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-30" Y="-19" Z="-30" />
+        <MAX X="25" Y="0" Z="25" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

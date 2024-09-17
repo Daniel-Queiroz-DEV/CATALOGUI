@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq e Papeleira ($TEXT$)" ICON="sab_pap.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira papelira miss-branco" />
+    <DIMENSION WIDTH="209.2" HEIGHT="131" DEPTH="113.1" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_miss_sab_pap" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cromo" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_sab_pap" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_miss_sab_pap" MODEL="Zen_mis" MODELTYPE="Zen_be_pol_cro_acr_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="190" HEIGHT="141" DEPTH="94" TEXT="BA0243" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Miss by Zen Saboneteira Líquida e Papeleira @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

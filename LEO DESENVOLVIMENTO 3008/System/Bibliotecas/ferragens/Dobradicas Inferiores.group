@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Dobradicas Inferiores" NAME="Dobradiças Inferiores" PREFIXID="ace_dob_" INVISIBLE="Y" GENERATEITEMSNUMBERS="N" MODELNAME="">
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+    <STEPS />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="FANTASMA" VALUE="S" VISIBLE="N" />
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ace_dob_gru_dob" DEF="Grupo Dobradicas.group" GUID="e1ad5951-b867-44aa-9fa1-b21081b86352" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

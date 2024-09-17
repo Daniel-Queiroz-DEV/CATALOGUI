@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Parafuso p/ Mini Fix 15mm" ICON="parafuso_mini.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="parafuso1" FORMAT=".dxf" />
+    <BOUNDINGBOX HEIGHT="10">
+      <PONTO2DA X="23.9" Y="-5" />
+      <PONTO2DA X="24.1" Y="-5" />
+      <PONTO2DA X="24.1" Y="5" />
+      <PONTO2DA X="23.9" Y="5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-5" Z="-5" />
+      <MAX X="31" Y="5" Z="5" />
+    </LIMITS>
+    <DIMENSION WIDTH="31" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="8" HEIGHT="31.5" RULE="UN_FERRAGENS" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="31" HEIGHT="10" DEPTH="10" TEXT="PARMF" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Haste p/ Minifix" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" VOLUME="VOLFER" />
+</ENTITY>

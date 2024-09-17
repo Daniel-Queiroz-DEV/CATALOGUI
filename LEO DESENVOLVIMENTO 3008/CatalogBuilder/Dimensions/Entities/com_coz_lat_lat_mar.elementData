@@ -1,0 +1,36 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 2,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "-76,42116",
+        "Y": "7,216566"
+      },
+      "DistanceFromShape": -76.42128,
+      "DistanceFromElement": -123.42128,
+      "Orientation": "Vertical",
+      "PlaneType": "Inferior",
+      "UniqueID": 1,
+      "FontSize": 12.0,
+      "ElementId": "com_coz_lat_lat_mar"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "39,94332",
+        "Y": "-80,4346"
+      },
+      "DistanceFromShape": -80.4346,
+      "DistanceFromElement": -113.9346,
+      "Orientation": "Horizontal",
+      "PlaneType": "Inferior",
+      "FontSize": 12.0,
+      "ElementId": "com_coz_lat_lat_mar"
+    }
+  ],
+  "ElementId": "com_coz_lat_lat_mar"
+}

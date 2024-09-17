@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Senna" DIRECTORY="senna">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sen_pon_2" DEF="Ponto.group" GUID="64e6fa52-721a-4101-b0cd-ec7f8f6a045d" />
+    <EXPLORERITEM TYPE="group" ID="zen_sen_224_2" DEF="224mm.group" GUID="f8afac48-c323-4808-af52-cba686ef5cef" />
+    <EXPLORERITEM TYPE="group" ID="zen_sen_320_2" DEF="320mm.group" GUID="d21e02fa-18a3-4bc1-9810-62cd939ad2b0" />
+    <EXPLORERITEM TYPE="group" ID="zen_sen_448_2" DEF="448mm.group" GUID="c996859f-159f-44a9-abd8-803bc683b219" />
+    <EXPLORERITEM TYPE="group" ID="zen_sen_544_2" DEF="544mm.group" GUID="8097742c-7ead-419c-8c89-637c0158b401" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SENNA_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_ponto" />
+      <LIMITS>
+        <MIN X="-8" Y="-21.508" Z="-29" />
+        <MAX X="8" Y="0" Z="9" />
+      </LIMITS>
+      <DIMENSION WIDTH="16" HEIGHT="38" DEPTH="21.5" />
+    </DRAWING>
+    <DRAWING ID="SENNA_PONTO_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_ponto_couro" />
+      <DIMENSION WIDTH="16" HEIGHT="38" DEPTH="21.5" />
+      <LIMITS>
+        <MIN X="-8" Y="-21.508" Z="-29" />
+        <MAX X="8" Y="0" Z="9" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_PONTO_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_ponto_diamond" />
+      <DIMENSION WIDTH="16" HEIGHT="38" DEPTH="21.5" />
+      <LIMITS>
+        <MIN X="-8" Y="-21.508" Z="-29" />
+        <MAX X="8" Y="0" Z="9" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_224MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_224mm" />
+      <DIMENSION WIDTH="260" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-138.125" Y="-33.35" Z="-8" />
+        <MAX X="121.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_224MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_224mm_couro" />
+      <DIMENSION WIDTH="260" HEIGHT="16.9" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-138.125" Y="-33.35" Z="-8" />
+        <MAX X="121.875" Y="0" Z="8.875" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_224MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_224mm_diamond" />
+      <DIMENSION WIDTH="260" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-138.125" Y="-33.35" Z="-8" />
+        <MAX X="121.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_320MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_320mm" />
+      <DIMENSION WIDTH="360" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-188.125" Y="-33.35" Z="-8" />
+        <MAX X="171.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_320MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_320mm_couro" />
+      <DIMENSION WIDTH="360" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-188.125" Y="-33.35" Z="-8" />
+        <MAX X="171.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_320MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_320mm_diamond" />
+      <DIMENSION WIDTH="360" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-188.125" Y="-33.35" Z="-8" />
+        <MAX X="171.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_448MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_448mm" />
+      <DIMENSION WIDTH="500" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-258.125" Y="-33.35" Z="-8" />
+        <MAX X="241.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_448MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_448mm_couro" />
+      <DIMENSION WIDTH="500" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-258.125" Y="-33.35" Z="-8" />
+        <MAX X="241.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_448MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_448mm_diamond" />
+      <DIMENSION WIDTH="500" HEIGHT="16" DEPTH="33.4" />
+      <LIMITS>
+        <MIN X="-258.125" Y="-33.35" Z="-8" />
+        <MAX X="241.875" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_544MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_544mm" />
+      <DIMENSION WIDTH="700" HEIGHT="16" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-358.124" Y="-33.517" Z="-8" />
+        <MAX X="341.873" Y="0.347" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_544MM_COURO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_544mm_couro" />
+      <DIMENSION WIDTH="700" HEIGHT="16" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-358.124" Y="-33.517" Z="-8" />
+        <MAX X="341.873" Y="0.347" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SENNA_544MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\senna_544mm_diamond" />
+      <DIMENSION WIDTH="700" HEIGHT="16" DEPTH="33.9" />
+      <LIMITS>
+        <MIN X="-358.124" Y="-33.365" Z="-8" />
+        <MAX X="341.874" Y="0.499" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

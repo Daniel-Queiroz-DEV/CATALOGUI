@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityPropertiesData
+  Offset="{assembly:Null}"
+  AlignmentFace="{assembly:Null}"
+  GroupHoles="False"
+  FurnitureAssemblyPreviewData="{assembly:Null}"
+  AluminumComponentData="{assembly:Null}"
+  SteelComponentData="{assembly:Null}"
+  PlateCuttingOffset="{assembly:Null}"
+  MachinedContour="False"
+  PurchasedItem="{assembly:Null}"
+  DisregardWoodGrain="False"
+  ElementId="POR_MOD_POR_GAL_NOVA_20_10" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.EntityProperties;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EntityPropertiesData.CNCPluginDataCollection>
+    <CNCPluginDataCollection>
+      <CNCPluginData
+        ID="2359"
+        ModelName="Tech Z1"
+        Manufacturer="SCM"
+        GenerateDocumentation="True" />
+      <CNCPluginData
+        ID="2348"
+        ModelName="BHX 055"
+        Manufacturer="Weeke"
+        GenerateDocumentation="True" />
+    </CNCPluginDataCollection>
+  </EntityPropertiesData.CNCPluginDataCollection>
+  <EntityPropertiesData.FrontalFace>
+    <FrontalFace
+      PlaneType="Superior"
+      PlaneIndex="0" />
+  </EntityPropertiesData.FrontalFace>
+</EntityPropertiesData>

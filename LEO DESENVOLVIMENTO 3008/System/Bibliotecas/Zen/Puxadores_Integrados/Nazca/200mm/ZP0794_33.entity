@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Branco/Branco ($TEXT$.$D.ACAB$)" ICON="Nazca.jpg">
+  <DRAWING>
+    <FILE3D NAME="nazca" />
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="200" HEIGHT="80" DEPTH="14" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="zen_branco" EDIT="N" />
+    <COMPONENTDEFINITION ID="PONTEIRA" NAME="PONTEIRA" IDMATERIAL="zen_branco" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Nazca $D.DESC$ Branco/Branco" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="200" HEIGHT="80" DEPTH="15" TEXT="ZP0794" ACAB="33" DESC="200mm" />
+</ENTITY>

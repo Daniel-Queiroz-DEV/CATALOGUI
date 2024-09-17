@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Sotile" NAME="Sotile" PREFIXID="zen_sot_">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sot_32_2" DEF="32mm.group" GUID="b87a48cb-32a0-40ee-adf3-cf35e7b0c6cd" />
+    <EXPLORERITEM TYPE="group" ID="zen_sot_160_2" DEF="160mm.group" GUID="e28dabfa-3551-4cd1-a665-da8dfe4121da" />
+    <EXPLORERITEM TYPE="group" ID="zen_sot_320_2" DEF="320mm.group" GUID="9dbb0d40-03ea-41dd-b961-d6b8f8dcc7ab" />
+    <EXPLORERITEM TYPE="group" ID="zen_sot_480_2" DEF="480mm.group" GUID="ae41f3fe-a69a-42e5-a653-20208ba68e04" />
+    <EXPLORERITEM TYPE="group" ID="zen_sot_640_2" DEF="640mm.group" GUID="cd06cad6-66c9-49c1-a4c9-273f0119ba98" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SOTILE_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SOTILE_32MM" />
+      <DIMENSION WIDTH="64" HEIGHT="30" DEPTH="40" />
+      <LIMITS>
+        <MIN X="-32" Y="-19.5" Z="15.796" />
+        <MAX X="32" Y="20.5" Z="45.796" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOTILE_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SOTILE_160MM" />
+      <DIMENSION WIDTH="192" HEIGHT="30" DEPTH="40" />
+      <LIMITS>
+        <MIN X="-96" Y="-19.5" Z="15.796" />
+        <MAX X="96" Y="20.5" Z="45.796" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOTILE_32MMM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SOTILE_320MM" />
+      <DIMENSION WIDTH="352" HEIGHT="30" DEPTH="40" />
+      <LIMITS>
+        <MIN X="-176" Y="-19.5" Z="15.796" />
+        <MAX X="176" Y="20.5" Z="45.796" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOTILE_480MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SOTILE_480MM" />
+      <DIMENSION WIDTH="512" HEIGHT="30" DEPTH="40" />
+      <LIMITS>
+        <MIN X="-256" Y="-19.5" Z="15.796" />
+        <MAX X="256" Y="20.5" Z="45.796" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SOTILE_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SOTILE_640MM" />
+      <DIMENSION WIDTH="672" HEIGHT="30" DEPTH="40" />
+      <LIMITS>
+        <MIN X="-336" Y="-19.5" Z="15.796" />
+        <MAX X="336" Y="20.5" Z="45.796" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

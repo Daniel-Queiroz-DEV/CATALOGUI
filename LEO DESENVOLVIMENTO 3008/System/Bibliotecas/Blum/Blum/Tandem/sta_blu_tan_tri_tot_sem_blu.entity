@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$D$mm Trilho Tandem Total" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="tri_lat_tot_fur" />
+    <DIMENSION WIDTH="325.8" HEIGHT="47.5" DEPTH="386" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="325" HEIGHT="47.5" DEPTH="350" MODE="OnlyProposedD" TEXT="">
+    <MIN WIDTH="100" HEIGHT="10" DEPTH="100" />
+    <MAX WIDTH="1300" HEIGHT="500" DEPTH="1300" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE DEPTH="250" />
+      <PROPOSEDVALUE DEPTH="281" />
+      <PROPOSEDVALUE DEPTH="350" />
+      <PROPOSEDVALUE DEPTH="384" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trilho Tandem Total" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

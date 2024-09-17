@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Red Gold Escovado/Preta ($TEXT$.$D.ACAB$)" ICON="Magno Laminatto Lam.jpg">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioConserv_BordaConserv" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Magno 192mm Red Gold Escovado c/ Lâmina Preta" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="15" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="15" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="200" HEIGHT="29" DEPTH="32" TEXT="ZP0617" ACAB="G03" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIO" NAME="ACESSORIO" IDMATERIAL="Zen_red_gol_esc" EDIT="N" />
+    <COMPONENTDEFINITION ID="LAMINA" NAME="LAMINA" IDMATERIAL="zen_preto" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

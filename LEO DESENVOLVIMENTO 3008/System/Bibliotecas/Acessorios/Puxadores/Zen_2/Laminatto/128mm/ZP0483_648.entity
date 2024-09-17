@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Cobre ($TEXT$.$D.ACAB$)" ICON="Laminatto.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Laminatto s/ Lâmina 128mm Vecchio Cobre" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="136" HEIGHT="23" DEPTH="28" TEXT="ZP0483" ACAB="648" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUX_DET" NAME="PUX_DET" IDMATERIAL="zen_vec_cob" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_vec_cob" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

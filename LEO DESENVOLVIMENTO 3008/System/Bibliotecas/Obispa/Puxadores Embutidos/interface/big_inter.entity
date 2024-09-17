@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Big Interface ($TEXT$)" ICON="mini_interface.jpg">
+  <DRAWING>
+    <FILE3D NAME="interface_100562" FORMAT=".dxf" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="48" HEIGHT="118" DEPTH="17" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Big Embutido Interface Com Pega" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="100.562" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_int_big" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

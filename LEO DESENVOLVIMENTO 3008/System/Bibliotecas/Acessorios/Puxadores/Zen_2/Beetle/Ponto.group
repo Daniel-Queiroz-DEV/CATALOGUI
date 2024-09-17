@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_bee_pon_">
+  <DRAWINGS />
+  <DRAWING ID="BEETLE_PONTO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_1_2" DEF="zp5403_1.entity" GUID="a5ae49b4-fe1e-419f-ac06-e45d296e8ba3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_2_2" DEF="zp5403_2.entity" GUID="6defb28d-ef06-4910-ac65-114abc2af243" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_24_2" DEF="zp5403_24.entity" GUID="a0dadae2-ed51-4b4d-b822-b3791ebfb38a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_25_2" DEF="zp5403_25.entity" GUID="3364238b-b1b2-493e-bdcb-bfc234319d58" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_668_2" DEF="zp5403_668.entity" GUID="2ef4a19a-ffc1-4641-9d5a-a93fab4e3eda" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_95_2" DEF="zp5403_95.entity" GUID="ffe30228-102f-4d26-92e4-3be9f0313af6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_889_2" DEF="zp5403_889.entity" GUID="3a8ea7aa-1323-41e1-91a9-0c9efac0b93e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_648_2" DEF="zp5403_648.entity" GUID="35d2ddce-d763-405c-9954-16aad04125ed" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_599_2" DEF="zp5403_599.entity" GUID="21bc9ef6-5e3b-458a-83d7-8ad5fc62eb4d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_916_2" DEF="zp5403_916.entity" GUID="fe4eced9-3b08-487c-a7e4-f3821e0844e9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_955_2" DEF="zp5403_955.entity" GUID="e9b39878-0282-452c-922e-3daed0cb284e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_A00_2" DEF="zp5403_A00.entity" GUID="dd4faa96-4b06-4fe7-b2e3-2ce021e900e5" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_B00_2" DEF="zp5403_B00.entity" GUID="299952f8-f4c2-4117-ab1e-4e1c26263cfa" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_F00_2" DEF="zp5403_F00.entity" GUID="76fa9cf8-12f4-4a9b-a20e-d677fbd2b5d6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_G00_2" DEF="zp5403_G00.entity" GUID="8b7897a2-185f-426e-9fa3-867b9675fdca" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_L00_2" DEF="zp5403_L00.entity" GUID="ee5d7b12-0f70-48b5-828b-84d4bee52eca" />
+    <EXPLORERITEM TYPE="entity" ID="zen_bee_pon_ZP5403_M00_2" DEF="zp5403_M00.entity" GUID="a908119d-94cf-4835-a67e-fad93ed60946" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

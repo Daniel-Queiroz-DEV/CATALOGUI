@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Travessa Pivotante M2 (Não Orça) Cava" INVISIBLE="N" TYPE="GEOMETRY" ICON="PAI_15_box__9_3_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="pai_15_box__7_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION RULE="M" HEIGHT="($H$-#FOL_PAI#)" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Travessa Pivotante #ESP_TRA_SEQ#mm" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="@('#TAMB_OTI#'=='SIM'?True:False)" VISIBLE="N" />
+    <ATTRIBUTE ID="CODE_PLATECUTTING" VALUE="@(@($H$-#FOL_PAI#) == 3 ? @com_*(CODE_PLANO_CORTE_3)@ : @(@($H$-#FOL_PAI#) == 6 ? @com_*(CODE_PLANO_CORTE_6)@ : @(@($H$-#FOL_PAI#) == 9 ? @com_*(CODE_PLANO_CORTE_9)@ : @(@($H$-#FOL_PAI#) == 12 ? @com_*(CODE_PLANO_CORTE_12)@ : @(@($H$-#FOL_PAI#) == 15 ? @com_*(CODE_PLANO_CORTE_15)@ : (@($H$-#FOL_PAI#) == 18 ? @com_*(CODE_PLANO_CORTE_18)@ : @com_*(CODE_PLANO_CORTE_25)@))))))" VISIBLE="Y" />
+    <ATTRIBUTE ID="THICKNESS_PLATECUTTING" VALUE="@($H$-#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1100" HEIGHT="@(#ESP_TRA_SEQ#+#FOL_PAI#)" DEPTH="1100" TEXT="TRA.PIVO" DESC="" ITEM_BASE="TRA01">
+    <MIN DEPTH="10" WIDTH="10" />
+    <MAX WIDTH="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <REFERENCE ACAB="!find(entityid,MON_DESENHO_CAVA_2_2_2).$REFERENCE(MODEL)$!" />
+  <MODELS>
+    <MODEL IDMODEL="com_sequenziato" ENTRYID="COM" />
+  </MODELS>
+</ENTITY>

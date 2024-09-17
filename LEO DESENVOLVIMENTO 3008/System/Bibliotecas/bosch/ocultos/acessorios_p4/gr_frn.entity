@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Grade" ICON="GR_FRN.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Grade P4" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="GR_FRN" />
+    <DIMENSION WIDTH="530" HEIGHT="132" DEPTH="420" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DRAWER" MAX="400" />
+</ENTITY>

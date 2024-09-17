@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="Cadeira_Indiana_2013.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_indiana_2013" />
+    <DIMENSION WIDTH="714.2" HEIGHT="980" DEPTH="562.2" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="FLORAL_PEQ" NAME="FLORAL_PEQ" IDMATERIAL="fai_salas_dorm_faixa 073" EDIT="Y">
+      <MATERIAL ID="" NAME="faixa 073">
+        <EMISSION>0.15</EMISSION>
+        <FINISHSCHEME>Mirror</FINISHSCHEME>
+        <SPECULARCOLOR G="255" R="255" B="255" />
+        <METADATAS>
+          <METADATA ID="LightWorksMaterialData">
+            <METADATA.VALUE>
+              <LIGHTWORKSMATERIALDATA>
+                <FINISHDATA TYPE="Standard" GROUP="Ceramics_Stones" NAME="Unglazed Ceramic" />
+              </LIGHTWORKSMATERIALDATA>
+            </METADATA.VALUE>
+          </METADATA>
+        </METADATAS>
+        <APPLYTEXTUREINFRAMES>False</APPLYTEXTUREINFRAMES>
+        <COLORBASE G="150" R="150" B="150" />
+        <BORDERCOLOR G="0" R="0" B="0" />
+        <BORDERWIDTH>0</BORDERWIDTH>
+        <MAPPING>Cubo</MAPPING>
+        <ROTATION>0</ROTATION>
+        <ESCALETEXTUREX>250</ESCALETEXTUREX>
+        <ESCALETEXTUREY>45</ESCALETEXTUREY>
+        <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+        <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+        <MIRROR>N</MIRROR>
+        <AMBIENT>0.4</AMBIENT>
+        <DIFFUSE>0.5</DIFFUSE>
+        <REFLECTIONMIN>0</REFLECTIONMIN>
+        <REFLECTIONMAX>0</REFLECTIONMAX>
+        <CRAND>0</CRAND>
+        <SPECULAR>0.05</SPECULAR>
+        <ROUGHNESS>0.05</ROUGHNESS>
+        <METALLIC>0</METALLIC>
+        <TRANSPARENCY>0</TRANSPARENCY>
+        <DIRECTION>Nenhum</DIRECTION>
+        <CONSERVEENERGY>N</CONSERVEENERGY>
+        <TEXTUREFILE>%PastaTextures%\padroes\paredes_pisos\faixas_listelos\salas_dormitorios\faixa 073.jpg</TEXTUREFILE>
+      </MATERIAL>
+    </COMPONENTDEFINITION>
+    <COMPONENTDEFINITION ID="FLORAL_G4" NAME="FLORAL_G4" IDMATERIAL="mat_ocu_diversos_Floral indiano" EDIT="Y" />
+    <COMPONENTDEFINITION ID="FLORAL_G3" NAME="FLORAL_G3" IDMATERIAL="mat_ocu_diversos_Floral indiano" EDIT="Y" />
+    <COMPONENTDEFINITION ID="FLORAL_G2" NAME="FLORAL_G2" IDMATERIAL="mat_ocu_diversos_Floral indiano" EDIT="Y" />
+    <COMPONENTDEFINITION ID="ASSENTO" NAME="ASSENTO" IDMATERIAL="tec_pretos_lisos_tecido 006" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira Indiana" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

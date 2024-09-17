@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Afro" DIRECTORY="afro" MODELNAME="Afro" ORDERSTRING="005" PREFIXID="zen_afro_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="AFRO_16MM_MINI">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\AFRO_16MM_MINI" />
+      <DIMENSION WIDTH="64.8" HEIGHT="64.5" DEPTH="22.1" />
+      <LIMITS>
+        <MIN X="-32.405" Y="-21.924" Z="-58.311" />
+        <MAX X="32.405" Y="0.178" Z="6.15" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="AFRO_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\AFRO_16MM" />
+      <DIMENSION WIDTH="80" HEIGHT="79.6" DEPTH="18.1" />
+      <LIMITS>
+        <MIN X="-39.999" Y="-17.938" Z="-71.978" />
+        <MAX X="39.999" Y="0.146" Z="7.591" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_afro_16_min_2" DEF="16mm_Mini.group" GUID="de92de18-ba38-498d-8395-04fee2b6fcea" />
+    <EXPLORERITEM TYPE="group" ID="zen_afro_16_2" DEF="16mm.group" GUID="37eced13-b84d-4534-876b-23a81fb04135" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

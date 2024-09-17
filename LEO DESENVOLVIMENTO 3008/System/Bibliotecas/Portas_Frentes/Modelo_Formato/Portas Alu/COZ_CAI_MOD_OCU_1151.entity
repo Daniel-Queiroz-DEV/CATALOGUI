@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Madeirado" TYPE="GEOMETRY" ICON="COZ_CAI_MOD_OCU_1151.jpg">
+  <DRAWING>
+    <FILE3D NAME="painel_porta" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="6" TEXT="106">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_por_painel" ENTRYID="POR" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Painel para Porta  de Alumínio" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Gioiello" NAME="Gioiello" PREFIXID="zen_gioiello_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_gioiello_pon_2" DEF="Ponto.group" GUID="184adee2-009e-49dd-afab-b19f9c551b0d" />
+    <EXPLORERITEM TYPE="group" ID="zen_gioiello_16_2" DEF="16mm.group" GUID="a9ab4ee6-f0f1-4f06-ae10-8ac922829101" />
+    <EXPLORERITEM TYPE="group" ID="zen_gioiello_42_2" DEF="42mm.group" GUID="69d27323-e57b-4318-9d5b-8c6b9f65b807" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="GIOIELLO_16MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\GIOIELLO_16MM" />
+      <DIMENSION WIDTH="37" HEIGHT="37" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-18.414" Y="-21" Z="-16" />
+        <MAX X="18.586" Y="0" Z="21" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GIOIELLO_42MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\GIOIELLO_42MM" />
+      <DIMENSION WIDTH="80" HEIGHT="80" DEPTH="21" />
+      <LIMITS>
+        <MIN X="-39.914" Y="-21" Z="-38" />
+        <MAX X="40.086" Y="0" Z="42" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="GIOIELLO_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\GIOIELLO_PONTO" />
+      <DIMENSION WIDTH="16" HEIGHT="16.5" DEPTH="20.5" />
+      <LIMITS>
+        <MIN X="-8" Y="-18.5" Z="-7.5" />
+        <MAX X="8" Y="2" Z="9" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

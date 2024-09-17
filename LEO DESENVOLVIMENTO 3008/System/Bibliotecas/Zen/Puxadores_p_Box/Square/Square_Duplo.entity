@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Duplo ($TEXT$)" ICON="Square_Duplo.jpg">
+  <INSERTDIMENSION WIDTH="60" HEIGHT="60" DEPTH="42" TEXT="ZP1011" ACAB="42" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Box Square (ao par) com Dupla Face @zen*(NAME)@ " VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_pux_box_squ" ENTRYID="pux_zen" />
+  </MODELS>
+</ENTITY>

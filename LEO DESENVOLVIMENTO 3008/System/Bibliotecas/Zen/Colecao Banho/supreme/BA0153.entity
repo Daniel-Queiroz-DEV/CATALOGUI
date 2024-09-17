@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cabide ($TEXT$)" ICON="BA0045.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0153_cabide" />
+    <DIMENSION WIDTH="40" HEIGHT="120" DEPTH="18.5" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="40" HEIGHT="120" DEPTH="18.5" TEXT="BA0153" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_sup_BA0153" MODEL="Zen_supreme" MODELTYPE="Zen_sup_cro_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sup_BA0153" MODEL="Zen_supreme" MODELTYPE="Zen_sup_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_sup_BA0153" MODEL="Zen_supreme" MODELTYPE="Zen_sup_cro_pre" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Supreme Cabide @zen_*(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

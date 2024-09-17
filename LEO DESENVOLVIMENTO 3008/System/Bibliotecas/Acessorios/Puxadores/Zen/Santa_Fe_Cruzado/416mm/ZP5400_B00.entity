@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gold Escovado ($TEXT$.$D.ACAB$)" ICON="Santa_Fe_Cruzado.png">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Santa Fé Cruzado 416mm Gold Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP5400.416" ACAB="B00" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="Zen_gol_esc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Portas Alu_2" NAME="Painéis Porta Alumínio Miolo" PREFIXID="POR_MOD_ALU_" INVISIBLE="Y" MODELNAME="Miolo Porta" ORDERSTRING="002">
+  <BUDGET>
+    <MARGIN IDCATEGORY="POR" APPLYPARENTINSERTMARGIN="Y" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="PORTAS" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_2" DEF="vidro_3.entity" GUID="b475580f-879e-4ea5-ab82-d77482272bad" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_mad_2" DEF="COZ_CAI_MOD_OCU_1151.entity" GUID="b00b1553-bd4d-4115-92c8-94c55baba32b" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_mad_2_2" DEF="COZ_CAI_MOD_OCU_1151_3.entity" GUID="de50e76a-1fa1-45b4-ad3d-b47e963440a8" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_pietra_4" DEF="COZ_CAI_MOD_OCU_1151_2.entity" GUID="78952c8d-45da-47ac-89a9-0ef7f7b43f78" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_Movie_2" DEF="vidro_2.entity" GUID="78a5bc1a-c08f-4435-a189-aba8d56d6c71" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_Movie_Porta_3" DEF="vidro_2_2.entity" GUID="d90967f3-5938-4468-bd68-b5f4a5613df9" />
+    <EXPLORERITEM TYPE="entity" ID="POR_alu_vid_Movie_Porta_2_2" DEF="vidro_2_2_2.entity" GUID="eaf66bcc-3a7e-4076-917b-cd8302335405" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

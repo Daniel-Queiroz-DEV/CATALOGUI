@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Citzen45Graus" NAME="Citzen 45 Graus" PREFIXID="zen_cit_45g_">
+  <DRAWINGS>
+    <DRAWING ID="CITZEN_45G_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CITZEN_45G_32MM" />
+      <DIMENSION WIDTH="65.3" HEIGHT="17.3" DEPTH="41" />
+      <LIMITS>
+        <MIN X="-32.662" Y="-21.476" Z="22.836" />
+        <MAX X="32.662" Y="19.508" Z="40.179" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="CITZEN_45G_96MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\CITZEN_45G_96MM" />
+      <DIMENSION WIDTH="130.3" HEIGHT="17.3" DEPTH="41" />
+      <LIMITS>
+        <MIN X="-65.162" Y="-21.476" Z="22.836" />
+        <MAX X="65.162" Y="19.507" Z="40.179" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cit_45g_32_3" DEF="32mm.group" GUID="1ea0346d-7fe2-44f8-af49-62cb1a04c03f" />
+    <EXPLORERITEM TYPE="group" ID="zen_cit_45g_96_3" DEF="96mm.group" GUID="c2445739-965a-4fa7-a64a-bfc054dbdda2" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

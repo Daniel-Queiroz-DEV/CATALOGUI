@@ -1,0 +1,35 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "1,5"
+      },
+      "Height": {
+        "Value": "2015"
+      },
+      "CornerRadius": {
+        "Value": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "10"
+      },
+      "PerformInOwnModuleOnly": true,
+      "MachiningProcessIDText": "938abf49-aa68-46f6-801c-f41c1900bbbd",
+      "ID": "a0b8202e-d40c-4e11-953d-14313974d9a2",
+      "UniqueID": 3,
+      "PlaneIndex": 3,
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "16,75",
+        "Y": "17,5"
+      },
+      "ElementId": "ACE_DESEMP_PALHA"
+    }
+  ],
+  "ElementId": "ACE_DESEMP_PALHA"
+}

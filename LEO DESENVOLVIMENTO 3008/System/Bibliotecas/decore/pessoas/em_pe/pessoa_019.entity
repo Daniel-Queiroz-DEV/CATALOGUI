@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pessoa" ICON="pessoa_019.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Pessoa" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="450" HEIGHT="1000" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_PESSOA" ID="DEC_PESSOA" EDIT="Y" IDMATERIAL="ima_pessoas_pessoa 026" />
+    <COMPONENTDEFINITION ID="DEC_PESSOA_INV" NAME="DEC_PESSOA_INV" IDMATERIAL="mat_ocu_pes_pessoa 026_inv" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

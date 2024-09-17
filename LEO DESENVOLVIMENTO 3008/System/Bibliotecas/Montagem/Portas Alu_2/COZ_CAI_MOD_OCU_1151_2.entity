@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Linha Piettra" TYPE="GEOMETRY" ICON="COZ_CAI_MOD_OCU_1151_2.jpg" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="painel_porta_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION HEIGHT="($H$-#FOL_PAI#)" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="@(4+#FOL_PAI#)" TEXT="1651" ITEM_BASE="PAI01">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_pietra" ENTRYID="COM" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$.$ACAB$" MODEL="@com_*@" TAMPO="@com_*(TAPA_FURO_MINIFIX)@" ACAB="@('@com_pietra(ACABAMENTO)@'==''?'#LEO_COD_CARTELA#':'@com_pietra(ACABAMENTO)@')" DESC="@('#P.LINHA#' == 'COZ' ? 'Cozinha' : ('#P.LINHA#' == 'BAN' ? 'Banheiro' : ('#P.LINHA#' == 'DOR' ? 'Dormitório': '')))" ITEM_BASE="$D.ITEM_BASE$" TIPO_FITA="#TIPO_BORDA_1#" ALTURA_FITA="@(($H$-#FOL_PAI#) == 15 ? #ALT_FITA_15# : (($H$-#FOL_PAI#) == 18 ? #ALT_FITA_18# : #ALT_FITA_25#))" MIOLO="FORMICA" DESC_COR="@('@com_pietra(ACABAMENTO)@'==''?'#LEO_COD_CARTELA#':'@com_pietra(COR_ABREV)@')" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Linha Piettra #P.P.DESCRIPTION#" VISIBLE="N" />
+    <ATTRIBUTE ID="THICKNESS_PLATECUTTING" VALUE="@($H$-#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="CODE_PLATECUTTING" VALUE="@(@($H$-#FOL_PAI#) == 3 ? @com_*(CODE_PLANO_CORTE_3)@ : @(@($H$-#FOL_PAI#) == 6 ? @com_*(CODE_PLANO_CORTE_6)@ : @(@($H$-#FOL_PAI#) == 9 ? @com_*(CODE_PLANO_CORTE_9)@ : @(@($H$-#FOL_PAI#) == 12 ? @com_*(CODE_PLANO_CORTE_12)@ : @(@($H$-#FOL_PAI#) == 15 ? @com_*(CODE_PLANO_CORTE_15)@ : (@($H$-#FOL_PAI#) == 18 ? @com_*(CODE_PLANO_CORTE_18)@ : @com_*(CODE_PLANO_CORTE_25)@))))))" VISIBLE="Y" />
+  </ATTRIBUTES>
+</ENTITY>

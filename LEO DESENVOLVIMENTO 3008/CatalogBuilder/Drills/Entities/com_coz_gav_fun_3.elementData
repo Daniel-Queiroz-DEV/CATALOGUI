@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="com_coz_gav_fun_3" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação05"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Static"
+          MakerDrillName="Furo18"
+          MakerDepth="#PRO_MAR#"
+          ReceiverDrillName="Furo26"
+          ReceiverDepth="1"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="5"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="48,5;24"
+          ElementId="com_coz_gav_fun_3" />
+        <Drilling
+          Name="Furação06"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Static"
+          MakerDrillName="Furo18"
+          MakerDepth="#PRO_MAR#"
+          ReceiverDrillName="Furo26"
+          ReceiverDepth="1"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="6"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="48,5;152"
+          ElementId="com_coz_gav_fun_3" />
+        <Drilling
+          Name="Furação07"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Static"
+          MakerDrillName="Furo18"
+          MakerDepth="#PRO_MAR#"
+          ReceiverDrillName="Furo26"
+          ReceiverDepth="1"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="7"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="$W$-48,5;24"
+          ElementId="com_coz_gav_fun_3" />
+        <Drilling
+          Name="Furação08"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Static"
+          MakerDrillName="Furo18"
+          MakerDepth="#PRO_MAR#"
+          ReceiverDrillName="Furo26"
+          ReceiverDepth="1"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="8"
+          PlaneType="Superior"
+          PlaneIndex="0"
+          Position="$W$-48,5;152"
+          ElementId="com_coz_gav_fun_3" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

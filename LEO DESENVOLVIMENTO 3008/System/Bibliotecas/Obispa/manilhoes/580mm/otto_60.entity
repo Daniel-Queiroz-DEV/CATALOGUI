@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Otto Alça Simples s/ Abert ($TEXT$)" ICON="otto_60.jpg">
+  <DRAWING>
+    <FILE3D NAME="otto_sim_s_abe" FORMAT=".dxf" />
+    <DIMENSION WIDTH="78" HEIGHT="600" DEPTH="54" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+  <INSERTDIMENSION TEXT="200.060 AS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Otto Alça Dupla s/ Abert" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_man_580_60" MODEL="Pux_man" MODELTYPE="Pux_man_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_man_580_60" MODEL="Pux_man" MODELTYPE="Pux_man_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

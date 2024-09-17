@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Oriente" NAME="Oriente" PREFIXID="zen_ori_">
+  <DRAWINGS>
+    <DRAWING ID="ORIENTE_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ORIENTE_PONTO" />
+      <DIMENSION WIDTH="26.8" HEIGHT="55" DEPTH="15" />
+      <LIMITS>
+        <MIN X="-13.802" Y="-15" Z="-44.035" />
+        <MAX X="13.009" Y="0" Z="10.964" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORIENTE_244MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ORIENTE_244MM" />
+      <DIMENSION WIDTH="240" HEIGHT="25" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-120" Y="-25" Z="-12.266" />
+        <MAX X="120" Y="0" Z="12.734" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ORIENTE_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ORIENTE_448MM" />
+      <DIMENSION WIDTH="464" HEIGHT="25" DEPTH="25" />
+      <LIMITS>
+        <MIN X="-232" Y="-25" Z="-12.266" />
+        <MAX X="232" Y="0" Z="12.734" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ori_pon_esp_aco_2" DEF="Ponto_Espia_Aco.group" GUID="e7922019-8618-4fce-9255-786d7944b6d5" />
+    <EXPLORERITEM TYPE="group" ID="zen_ori_pon_esp_cou_2" DEF="Ponto_Espia_Couro.group" GUID="fd54e276-b0e3-4857-af90-c0aec0bf9e43" />
+    <EXPLORERITEM TYPE="group" ID="zen_ori_224_esp_aco_2" DEF="224mm_Espia_Aco.group" GUID="c115e044-f01b-41e9-9645-787cf518e322" />
+    <EXPLORERITEM TYPE="group" ID="zen_ori_224_esp_cou_2" DEF="224mm_Espia_Couro.group" GUID="a1cbfb40-a91d-468a-88e7-0f08bd1fb9ec" />
+    <EXPLORERITEM TYPE="group" ID="zen_ori_448_esp_aco_2" DEF="448mm_Espia_Aco.group" GUID="7efdae58-9ea6-4dbf-9076-f4812ad5561e" />
+    <EXPLORERITEM TYPE="group" ID="zen_ori_448_esp_cou_2" DEF="448mm_Espia_Couro.group" GUID="0fa74846-0fdb-4c75-9722-190a0e60e0b3" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

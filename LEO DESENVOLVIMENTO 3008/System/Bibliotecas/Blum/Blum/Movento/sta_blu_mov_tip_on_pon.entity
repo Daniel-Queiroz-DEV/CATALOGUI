@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ponteiras Kit Tip-on" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="mov_tip_on" />
+    <DIMENSION WIDTH="301.2" HEIGHT="14.4" DEPTH="49" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="300" HEIGHT="14.4" DEPTH="49" TEXT="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="1200" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Ponteiras Kit Tip-on" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

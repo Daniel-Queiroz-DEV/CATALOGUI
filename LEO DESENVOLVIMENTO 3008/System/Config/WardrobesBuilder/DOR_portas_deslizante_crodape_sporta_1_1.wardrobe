@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Wardrobe AllowJoints="Y" Description="Armário Fácil - Portas Deslizantes Internas c/ Rodapé 3P" Preview="%WardrobesBuilderFolder%\Dormitorios\Imagens\desl_crodape_sporta.png" ResizeTopGapOnly="Y" TabCategory="Dormitórios" Visible="N" OrderCatalog="11" CanChangeWidth="N">
+  <Dimension Depth="#DOR_PROF_DES_SPORTA#">
+    <Increment Height="100" />
+    <Max Height="2620" Width="2655" />
+    <Min Height="2520" Width="100" />
+  </Dimension>
+  <Components>
+    <LeftLateral EntityId="com_coz_lat_cons_arm_desl" Id="lat_esq" Name="Lateral Esquerda $W$mm">
+      <Dimension Depth="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#:$PD$)" Height="(15+#FOL_PAI#)" Width="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_LAT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_LAT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_LAT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_LAT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="(15+#FOL_PAI#)" Y="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#:0)" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </LeftLateral>
+    <RightLateral EntityId="com_coz_lat_cons_arm_desl" Id="lat_dir" Inverted="Y" Name="Lateral Direita $W$mm">
+      <Dimension Depth="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#:$PD$)" Height="(15+#FOL_PAI#)" Width="$P.H$" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_LAT_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_LAT_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_LAT_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_LAT_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-$H$" Y="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#:0)" Z="$P.H$">
+        <Normal A="1" B="0" C="0" />
+      </Position>
+    </RightLateral>
+    <Divider SeparatesBases="N" EntityId="com_coz_mon_div" Id="div" Name="Divisória $W$mm">
+      <Dimension Depth="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#RECUO_PRAT_SPORTA#-#DOR_ARM_FOL_RASGO_LARG#/2: #DOR_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#RECUO_PRAT_SPORTA#-#DOR_ARM_FOL_RASGO_LARG#/2 :$PD$-#RECUO_PRAT_SPORTA#)" Height="(15+#FOL_PAI#)" Width="$PH$-(15+#FOL_PAI#)-(15+#FOL_PAI#)-#DOR_ROD#" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="ESP_MON" Value="#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_DES_SPOR_DIV_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_DES_SPOR_DIV_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_DES_SPOR_DIV_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_DES_SPOR_DIV_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$H$" Y="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#DOR_ARM_FOL_RASGO_LARG#/2: #DOR_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#DOR_ARM_FOL_RASGO_LARG#/2 :0)" Z="(15+#FOL_PAI#)+#DOR_ROD#" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </Divider>
+    <Divider EntityId="com_coz_mon_int" Id="div2" Name="Divisória $W$mm">
+      <CuttingLimits Max="$H$" Min="$H$" />
+      <Dimension Depth="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#RECUO_PRAT_SPORTA#-#DOR_ARM_FOL_RASGO_LARG#/2: #DOR_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#RECUO_PRAT_SPORTA#-#DOR_ARM_FOL_RASGO_LARG#/2 :$PD$-#RECUO_PRAT_SPORTA#)" Height="(15+#FOL_PAI#)" Width="$PH$-(15+#FOL_PAI#)-(15+#FOL_PAI#)-#DOR_ROD#" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="ESP_MON" Value="#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_DES_SPOR_DIV_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_DES_SPOR_DIV_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_DES_SPOR_DIV_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_DES_SPOR_DIV_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$H$" Y="@('#DOR_ARM_REC_TRA_FUN_LAT#' == 'SIM' ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#DOR_ARM_FOL_RASGO_LARG#/2: #DOR_ARM_FOL_FUN_MON_BAL# &lt;= 1 ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV#-#DOR_ARM_FOL_RASGO_LARG#/2 :0)" Z="(15+#FOL_PAI#)+#DOR_ROD#" Rotation="180">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </Divider>
+    <LowerBase EntityId="com_coz_bas_ret_sfix" Id="base_inf" Name="Base Inferior $H$mm">
+      <Dimension Depth="@('#DOR_ARM_REC_TRA_FUN_BAS#' == 'SIM' ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV# : $PD$)" Height="(15+#FOL_PAI#)" Width="$P.W$-2*(15+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_BAS_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_BAS_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_BAS_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_BAS_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$/2-$W$/2" Y="@('#DOR_ARM_REC_TRA_FUN_BAS#' == 'SIM' ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV# : 0)" Z="#DOR_ROD#" />
+    </LowerBase>
+    <UpperBase EntityId="com_coz_bas_ret_sfix" Id="base_sup" Inverted="Y" Name="Base Superior $H$mm">
+      <Dimension Depth="@('#DOR_ARM_REC_TRA_FUN_BAS#' == 'SIM' ? $PD$-(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV# : $PD$)" Height="(15+#FOL_PAI#)" Width="$P.W$-2*(15+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_BAS_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_BAS_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_BAS_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_BAS_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$-(15+#FOL_PAI#)" Y="@('#DOR_ARM_REC_TRA_FUN_BAS#' == 'SIM' ? -(#DOR_ARM_ESP_FUN#+#FOL_PAI#)-#DOR_ARM_AFA_FUN_MOV# : 0)" Z="$P.H$">
+        <Normal A="0" B="0" C="-1" />
+      </Position>
+    </UpperBase>
+    <LowerBase EntityId="com_rod_nor" Id="rodape_frontal" Name="Rodapé $H$mm">
+      <Dimension Depth="#DOR_ROD#" Height="(15+#FOL_PAI#)" Width="$P.W$-2*(15+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ROD_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ROD_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ROD_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ROD_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$/2-$W$/2" Y="-$PD$+$H$+#DOR_RECUO_ROD#" Z="$D$" Rotation="90">
+        <Normal A="0" B="-1" C="0" />
+      </Position>
+    </LowerBase>
+    <LowerBase EntityId="com_rod_nor" Id="rodape_traseiro" Name="Rodapé $H$mm">
+      <Dimension Depth="#DOR_ROD#" Height="(15+#FOL_PAI#)" Width="$P.W$-2*(15+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ROD_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ROD_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ROD_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ROD_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$/2-$W$/2" Y="-#DOR_RECUO_ROD_TRA#" Z="$D$" Rotation="90">
+        <Normal A="0" B="-1" C="0" />
+      </Position>
+    </LowerBase>
+    <GenericComponent EntityId="com_coz_div_rod_arm" Id="rodape_Central" Name="Rodapé $H$mm" Type="Default">
+      <Dimension Depth="#DOR_ROD#" Height="(15+#FOL_PAI#)" Width="$P.D$-((15+#FOL_PAI#)*2)-#DOR_RECUO_ROD#-#DOR_RECUO_ROD_TRA#" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="Removivel" Value="False" />
+          <SetAttribute Id="Movivel" Value="False" />
+          <SetAttribute Id="Caneditdimension" Value="False" />
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ROD_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ROD_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ROD_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ROD_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$/2+$H$/2" Y="-#DOR_RECUO_ROD_TRA#-(#DOR_ESP_ROD#+#FOL_PAI#)" Z="$D$" Rotation="90">
+        <Normal A="-1" B="0" C="0" />
+      </Position>
+    </GenericComponent>
+    <Baseboard EntityId="com_coz_div_vis_por_des" Id="vista_sup" Name="Vista Superior $H$mm" Type="Default">
+      <Dimension Depth="#DOR_ARM_DIM_TRA_FRO_VER_HOR#" Height="(15+#FOL_PAI#)" Width="$P.W$-2*(15+#FOL_PAI#)" />
+      <Output>
+        <Sets>
+          <SetAttribute Id="FT_BORDA_FRONTAL" Value="#DOR_ARM_DES_SPOR_VIS_FT_FRONTAL#" />
+          <SetAttribute Id="FT_BORDA_TRASEIRA" Value="#DOR_ARM_DES_SPOR_VIS_FT_TRASEIRA#" />
+          <SetAttribute Id="FT_BORDA_DIR" Value="#DOR_ARM_DES_SPOR_VIS_FT_DIR#" />
+          <SetAttribute Id="FT_BORDA_ESQ" Value="#DOR_ARM_DES_SPOR_VIS_FT_ESQ#" />
+          <SetAttribute Id="VOLUME" Value="SV" />
+        </Sets>
+      </Output>
+      <Position X="$P.W$/2-$W$/2" Y="-$PD$+$H$+5" Z="$P.H$-(15+#FOL_PAI#)" Rotation="90">
+        <Normal A="0" B="-1" C="0" />
+      </Position>
+    </Baseboard>
+  </Components>
+  <DefaultProperties Multiplicity="1">
+    <Dimension Depth="630" Height="2520" Width="2055" />
+  </DefaultProperties>
+  <Items>
+    <Ref File="Items\fundo_4_1.ref" />
+  </Items>
+  <Output>
+    <Sets>
+      <SetAttribute Id="FIX_GEN_1" Value="#DOR_ARM_FIX_1#" />
+      <SetAttribute Id="FIX_GEN_2" Value="#DOR_ARM_FIX_2#" />
+      <SetAttribute Id="ESP_MON" Value="@(#DOR_ARM_DES_SPOR_ESP_MON#+#FOL_PAI#)" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_1" Value="#DOR_ARM_MED_MAX_FIX_QUA_1#" />
+      <SetAttribute Id="MED_MAX_FIX_GEN_2" Value="#DOR_ARM_MED_MAX_FIX_QUA_2#" />
+      <SetAttribute Id="ESP_FUN_GEN" Value="#DOR_ARM_DES_SPOR_ESP_FUN#" />
+      <SetAttribute Id="FOL_RASGO_PROF_GEN" Value="#DOR_ARM_FOL_RASGO_PROF#" />
+      <SetAttribute Id="FIX_PRA_GEN" Value="#DOR_ARM_FIX_PRAT#" />
+      <SetAttribute Id="ESP_POR_GEN" Value="@(#DOR_ARM_ESP_POR#+#FOL_PAI#)" />
+      <SetAttribute Id="FIX_FUN_GEN" Value="#DOR_ARM_FIX_FUN#" />
+      <SetAttribute Id="LINHA_PARAFUSO" Value="DOR_2" />
+      <SetAttribute Id="MODULO_PARAFUSO" Value="POR_DESL_SPOR" />
+      <SetAttribute Id="FOL_FUN_SUP" Value="#DOR_ARM_FOL_FUN_SUP_BAL#" />
+      <SetAttribute Id="FOL_FUN_LAT" Value="#DOR_ARM_FOL_FUN_LAT_BAL#" />
+      <SetAttribute Id="FOL_FUN_INF" Value="#DOR_ARM_FOL_FUN_INF_BAL#" />
+      <SetAttribute Id="FOL_FUN_MON" Value="#DOR_ARM_FOL_FUN_MON_BAL#" />
+      <SetAttribute Id="RECUO_BASE" Value="#DOR_ARM_REC_TRA_BAS#" />
+      <SetAttribute Id="RECUO_LATERAL" Value="#DOR_ARM_REC_TRA_FUN_LAT#" />
+      <SetAttribute Id="FUNDO_MODULO" Value="#DOR_ARM_FUN_MOD#" />
+      <SetAttribute Id="DIM_ALT_TRAV_FRO" Value="#DOR_ARM_DIM_TRA_FRO_VER_HOR#" />
+      <SetAttribute Id="AFA_SUP_TRAV_FRO" Value="#DOR_ARM_DIS_TRAV_SUP_FRO#" />
+      <SetAttribute Id="AFA_FRO_TRAV_FRO" Value="#DOR_ARM_DIS_FRO_TRAV_FRON#" />
+      <SetAttribute Id="DIM_ALT_TRAV_TRAS" Value="#DOR_ARM_DIM_TRA_TRA_VER_HOR#" />
+      <SetAttribute Id="DIM_ALT_TRAV_TRAS_LAT" Value="#DOR_ARM_DIM_TRA_LAT_VER#" />
+      <SetAttribute Id="AFA_SUP_TRAV_TRAS" Value="#DOR_ARM_DIS_TRAV_SUP_TRAS#" />
+      <SetAttribute Id="AFA_TRAS_TRAV_TRAS" Value="#DOR_ARM_DIS_TRA_TRAV_TRAS#" />
+      <SetAttribute Id="AFA_FUN_MOV_PAR" Value="#DOR_ARM_AFA_FUN_MOV#" />
+      <SetAttribute Id="TIPO_PRODUTO" Value="F" />
+      <SetAttribute Id="LARGURA_AMBIENTE" Value="$W$" />
+      <SetAttribute Id="ALTURA_AMBIENTE" Value="$H$" />
+      <SetAttribute Id="PROFUNDIDADE_AMBIENTE" Value="$D$" />
+      <SetAttribute Id="COR" Value="@com_caixas(ACABAMENTO)@" />
+      <SetAttribute Id="ASSEMBLED" Value="True" />
+      <BudgetInformation>
+        <References>
+          <Add Id="ITEM_BASE" Value="ARM01" />
+          <Add Id="COMPLETE" Value="DCA009" />
+          <Add Id="ACAB" Value="@com_*(ACABAMENTO)@" />
+        </References>
+        <Set Id="Category" Value="Dormitório" />
+        <Set Id="BudgetGroup" Value="DOR_2" />
+        <Set Id="Reference" Value="DCA009" />
+        <Set Id="Description" Value="Armário Fácil - Portas Deslizantes Internas c/ Rodapé " />
+        <Set Id="IsBudget" Value="true" />
+        <Set Id="ShowPrice" Value="false" />
+        <Set Id="UseBudgetGroupInfo" Value="true" />
+      </BudgetInformation>
+    </Sets>
+  </Output>
+</Wardrobe>

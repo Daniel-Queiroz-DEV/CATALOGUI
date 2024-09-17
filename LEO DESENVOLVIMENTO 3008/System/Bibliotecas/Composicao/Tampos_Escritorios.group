@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Tampos_Escritorios" NAME="Tampos Escritórios" PREFIXID="com_tam_esc_">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento_Tampos" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_Borda_Tampos_Escritorios_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TAM_ESC" VALUE="SIM" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_ret" DEF="com_esc_tam_ret_pp.entity" GUID="2948d6f0-9372-49f9-8aa7-cc98bc8a6610" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_ate" DEF="com_esc_tam_ate_pep.entity" GUID="e75ebec1-ea5e-4633-858d-7727ea17d2e7" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_lcu" DEF="ESC_CAI_TAM_LCUR.entity" GUID="993ee2cd-854b-4d36-bf8a-1b5be90802ef" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_lci" DEF="ESC_CAI_TAM_LCIR.entity" GUID="afc690ab-d06b-43fe-9451-29cc0b144594" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_ltr" DEF="ESC_CAI_TAM_TRA.entity" GUID="ae279a24-287d-41c5-b2b6-864ee4f79a70" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_red" DEF="ESC_CAI_TAM_RED.entity" GUID="028cfe41-a8de-4983-9b7f-73368fbc8c44" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_reu_ret" DEF="ESC_CAI_TAM_RET.entity" GUID="05d5bb6b-6601-4441-83a1-89b758bee5de" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_reu_ova" DEF="ESC_CAI_TAM_OVA.entity" GUID="de31dc65-6365-47c7-850e-54d3d463e7b1" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_reu_ova_rec" DEF="ESC_CAI_TAM_REU.entity" GUID="22c20564-7e19-42ed-9d49-5f0e0c397bb9" />
+    <EXPLORERITEM TYPE="entity" ID="com_tam_esc_reu_rec" DEF="com_esc_tam_reu_01.entity" GUID="3400c404-1ee8-4a44-a502-202db9958019" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

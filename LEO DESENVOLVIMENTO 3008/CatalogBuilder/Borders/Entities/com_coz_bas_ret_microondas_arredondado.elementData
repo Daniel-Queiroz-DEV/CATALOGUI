@@ -1,0 +1,3170 @@
+{
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "Esq",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 2,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "50"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 5,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 5,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 4,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 4,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 4,
+          "LeftVertexIndex": 4,
+          "RightVertexIndex": 5,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "50"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 5,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 5,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 4,
+            "LeftPoint": {
+              "X": "900",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "50"
+            },
+            "Angle": {
+              "Value": "90"
+            },
+            "LeftNeighbour": 6,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 2,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 6,
+              "LeftVertexIndex": 2,
+              "RightVertexIndex": 3,
+              "LeftPoint": {
+                "X": "100",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "900",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 7,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 1,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 7,
+                "LeftVertexIndex": 1,
+                "RightVertexIndex": 2,
+                "LeftPoint": {
+                  "X": "0",
+                  "Y": "50"
+                },
+                "RightPoint": {
+                  "X": "100",
+                  "Y": "0"
+                },
+                "Angle": {
+                  "Value": "90"
+                },
+                "LeftNeighbour": 2,
+                "RightNeighbour": 6,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "0, 50",
+                  "Mid": "39,6446609406726, 4,28932188134524",
+                  "End": "100, 0"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "RightNeighbour": 5,
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "100, 0",
+                "Mid": "500, 0",
+                "End": "900, 0"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "RightNeighbour": 4,
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "900, 0",
+              "Mid": "960,355339059327, 4,28932188134524",
+              "End": "1000, 50"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "RightNeighbour": 3,
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "1000, 50",
+            "Mid": "1000, 275",
+            "End": "1000, 500"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "RightNeighbour": 2,
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 500",
+          "Mid": "500, 500",
+          "End": "0, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "RightNeighbour": 7,
+      "RightNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 7,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "50"
+        },
+        "RightPoint": {
+          "X": "100",
+          "Y": "0"
+        },
+        "Angle": {
+          "Value": "90"
+        },
+        "LeftNeighbour": 2,
+        "RightNeighbour": 6,
+        "RightNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 6,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "100",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "900",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 7,
+          "RightNeighbour": 5,
+          "RightNeighbourElement": {
+            "ProfileIndex": 3,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 5,
+            "LeftVertexIndex": 3,
+            "RightVertexIndex": 4,
+            "LeftPoint": {
+              "X": "900",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "1000",
+              "Y": "50"
+            },
+            "Angle": {
+              "Value": "90"
+            },
+            "LeftNeighbour": 6,
+            "RightNeighbour": 4,
+            "RightNeighbourElement": {
+              "ProfileIndex": 4,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 5,
+              "LeftPoint": {
+                "X": "1000",
+                "Y": "50"
+              },
+              "RightPoint": {
+                "X": "1000",
+                "Y": "500"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 5,
+              "RightNeighbour": 3,
+              "RightNeighbourElement": {
+                "ProfileIndex": 5,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 3,
+                "LeftVertexIndex": 5,
+                "RightVertexIndex": 0,
+                "LeftPoint": {
+                  "X": "1000",
+                  "Y": "500"
+                },
+                "RightPoint": {
+                  "X": "0",
+                  "Y": "500"
+                },
+                "Angle": {
+                  "Value": "0"
+                },
+                "LeftNeighbour": 4,
+                "RightNeighbour": 2,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "1000, 500",
+                  "Mid": "500, 500",
+                  "End": "0, 500"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "1000, 50",
+                "Mid": "1000, 275",
+                "End": "1000, 500"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "900, 0",
+              "Mid": "960,355339059327, 4,28932188134524",
+              "End": "1000, 50"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "100, 0",
+            "Mid": "500, 0",
+            "End": "900, 0"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "0, 50",
+          "Mid": "39,6446609406726, 4,28932188134524",
+          "End": "100, 0"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "0, 500",
+        "Mid": "0, 275",
+        "End": "0, 50"
+      },
+      "BorderStructureID": "",
+      "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+    },
+    {
+      "ProfileIndex": 5,
+      "Text": "Esq",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 3,
+      "LeftVertexIndex": 5,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "RightPoint": {
+        "X": "0",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 4,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 4,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 4,
+        "LeftVertexIndex": 4,
+        "RightVertexIndex": 5,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "50"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 5,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 3,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 5,
+          "LeftVertexIndex": 3,
+          "RightVertexIndex": 4,
+          "LeftPoint": {
+            "X": "900",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "50"
+          },
+          "Angle": {
+            "Value": "90"
+          },
+          "LeftNeighbour": 6,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 6,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "100",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "900",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 7,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 1,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 7,
+              "LeftVertexIndex": 1,
+              "RightVertexIndex": 2,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "50"
+              },
+              "RightPoint": {
+                "X": "100",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 2,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 0,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 2,
+                "LeftVertexIndex": 0,
+                "RightVertexIndex": 1,
+                "LeftPoint": {
+                  "X": "0",
+                  "Y": "500"
+                },
+                "RightPoint": {
+                  "X": "0",
+                  "Y": "50"
+                },
+                "Angle": {},
+                "LeftNeighbour": 3,
+                "RightNeighbour": 7,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "0, 500",
+                  "Mid": "0, 275",
+                  "End": "0, 50"
+                },
+                "BorderStructureID": "",
+                "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "RightNeighbour": 6,
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "0, 50",
+                "Mid": "39,6446609406726, 4,28932188134524",
+                "End": "100, 0"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "RightNeighbour": 5,
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "100, 0",
+              "Mid": "500, 0",
+              "End": "900, 0"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "RightNeighbour": 4,
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "900, 0",
+            "Mid": "960,355339059327, 4,28932188134524",
+            "End": "1000, 50"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "RightNeighbour": 3,
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 50",
+          "Mid": "1000, 275",
+          "End": "1000, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "RightNeighbour": 2,
+      "RightNeighbourElement": {
+        "ProfileIndex": 0,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 2,
+        "LeftVertexIndex": 0,
+        "RightVertexIndex": 1,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "50"
+        },
+        "Angle": {},
+        "LeftNeighbour": 3,
+        "RightNeighbour": 7,
+        "RightNeighbourElement": {
+          "ProfileIndex": 1,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 7,
+          "LeftVertexIndex": 1,
+          "RightVertexIndex": 2,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "50"
+          },
+          "RightPoint": {
+            "X": "100",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "90"
+          },
+          "LeftNeighbour": 2,
+          "RightNeighbour": 6,
+          "RightNeighbourElement": {
+            "ProfileIndex": 2,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 6,
+            "LeftVertexIndex": 2,
+            "RightVertexIndex": 3,
+            "LeftPoint": {
+              "X": "100",
+              "Y": "0"
+            },
+            "RightPoint": {
+              "X": "900",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 7,
+            "RightNeighbour": 5,
+            "RightNeighbourElement": {
+              "ProfileIndex": 3,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 5,
+              "LeftVertexIndex": 3,
+              "RightVertexIndex": 4,
+              "LeftPoint": {
+                "X": "900",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "1000",
+                "Y": "50"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 6,
+              "RightNeighbour": 4,
+              "RightNeighbourElement": {
+                "ProfileIndex": 4,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 4,
+                "LeftVertexIndex": 4,
+                "RightVertexIndex": 5,
+                "LeftPoint": {
+                  "X": "1000",
+                  "Y": "50"
+                },
+                "RightPoint": {
+                  "X": "1000",
+                  "Y": "500"
+                },
+                "Angle": {
+                  "Value": "0"
+                },
+                "LeftNeighbour": 5,
+                "RightNeighbour": 3,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "1000, 50",
+                  "Mid": "1000, 275",
+                  "End": "1000, 500"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "900, 0",
+                "Mid": "960,355339059327, 4,28932188134524",
+                "End": "1000, 50"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "100, 0",
+              "Mid": "500, 0",
+              "End": "900, 0"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "0, 50",
+            "Mid": "39,6446609406726, 4,28932188134524",
+            "End": "100, 0"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "0, 500",
+          "Mid": "0, 275",
+          "End": "0, 50"
+        },
+        "BorderStructureID": "",
+        "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 500",
+        "Mid": "500, 500",
+        "End": "0, 500"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+    },
+    {
+      "ProfileIndex": 4,
+      "Text": "Esq",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 4,
+      "LeftVertexIndex": 4,
+      "RightVertexIndex": 5,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "50"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "500"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 5,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 5,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 4,
+        "LeftPoint": {
+          "X": "900",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "50"
+        },
+        "Angle": {
+          "Value": "90"
+        },
+        "LeftNeighbour": 6,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 2,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 6,
+          "LeftVertexIndex": 2,
+          "RightVertexIndex": 3,
+          "LeftPoint": {
+            "X": "100",
+            "Y": "0"
+          },
+          "RightPoint": {
+            "X": "900",
+            "Y": "0"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 7,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 7,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "50"
+            },
+            "RightPoint": {
+              "X": "100",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "90"
+            },
+            "LeftNeighbour": 2,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 0,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 2,
+              "LeftVertexIndex": 0,
+              "RightVertexIndex": 1,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "500"
+              },
+              "RightPoint": {
+                "X": "0",
+                "Y": "50"
+              },
+              "Angle": {},
+              "LeftNeighbour": 3,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 5,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 3,
+                "LeftVertexIndex": 5,
+                "RightVertexIndex": 0,
+                "LeftPoint": {
+                  "X": "1000",
+                  "Y": "500"
+                },
+                "RightPoint": {
+                  "X": "0",
+                  "Y": "500"
+                },
+                "Angle": {
+                  "Value": "0"
+                },
+                "LeftNeighbour": 4,
+                "RightNeighbour": 2,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "1000, 500",
+                  "Mid": "500, 500",
+                  "End": "0, 500"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "RightNeighbour": 7,
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "0, 500",
+                "Mid": "0, 275",
+                "End": "0, 50"
+              },
+              "BorderStructureID": "",
+              "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "RightNeighbour": 6,
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "0, 50",
+              "Mid": "39,6446609406726, 4,28932188134524",
+              "End": "100, 0"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "RightNeighbour": 5,
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "100, 0",
+            "Mid": "500, 0",
+            "End": "900, 0"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "RightNeighbour": 4,
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "900, 0",
+          "Mid": "960,355339059327, 4,28932188134524",
+          "End": "1000, 50"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "RightNeighbour": 3,
+      "RightNeighbourElement": {
+        "ProfileIndex": 5,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 3,
+        "LeftVertexIndex": 5,
+        "RightVertexIndex": 0,
+        "LeftPoint": {
+          "X": "1000",
+          "Y": "500"
+        },
+        "RightPoint": {
+          "X": "0",
+          "Y": "500"
+        },
+        "Angle": {
+          "Value": "0"
+        },
+        "LeftNeighbour": 4,
+        "RightNeighbour": 2,
+        "RightNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "50"
+          },
+          "Angle": {},
+          "LeftNeighbour": 3,
+          "RightNeighbour": 7,
+          "RightNeighbourElement": {
+            "ProfileIndex": 1,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 7,
+            "LeftVertexIndex": 1,
+            "RightVertexIndex": 2,
+            "LeftPoint": {
+              "X": "0",
+              "Y": "50"
+            },
+            "RightPoint": {
+              "X": "100",
+              "Y": "0"
+            },
+            "Angle": {
+              "Value": "90"
+            },
+            "LeftNeighbour": 2,
+            "RightNeighbour": 6,
+            "RightNeighbourElement": {
+              "ProfileIndex": 2,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 6,
+              "LeftVertexIndex": 2,
+              "RightVertexIndex": 3,
+              "LeftPoint": {
+                "X": "100",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "900",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 7,
+              "RightNeighbour": 5,
+              "RightNeighbourElement": {
+                "ProfileIndex": 3,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 5,
+                "LeftVertexIndex": 3,
+                "RightVertexIndex": 4,
+                "LeftPoint": {
+                  "X": "900",
+                  "Y": "0"
+                },
+                "RightPoint": {
+                  "X": "1000",
+                  "Y": "50"
+                },
+                "Angle": {
+                  "Value": "90"
+                },
+                "LeftNeighbour": 6,
+                "RightNeighbour": 4,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "900, 0",
+                  "Mid": "960,355339059327, 4,28932188134524",
+                  "End": "1000, 50"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "100, 0",
+                "Mid": "500, 0",
+                "End": "900, 0"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "0, 50",
+              "Mid": "39,6446609406726, 4,28932188134524",
+              "End": "100, 0"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "0, 500",
+            "Mid": "0, 275",
+            "End": "0, 50"
+          },
+          "BorderStructureID": "",
+          "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "1000, 500",
+          "Mid": "500, 500",
+          "End": "0, 500"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "1000, 50",
+        "Mid": "1000, 275",
+        "End": "1000, 500"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.Borders.ArcComposedBorder, Procad.Builder.Core",
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "Borders": [
+            {
+              "ProfileIndex": 3,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 5,
+              "LeftVertexIndex": 3,
+              "RightVertexIndex": 4,
+              "LeftPoint": {
+                "X": "900",
+                "Y": "0"
+              },
+              "RightPoint": {
+                "X": "1000",
+                "Y": "50"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 6,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 2,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 6,
+                "LeftVertexIndex": 2,
+                "RightVertexIndex": 3,
+                "LeftPoint": {
+                  "X": "100",
+                  "Y": "0"
+                },
+                "RightPoint": {
+                  "X": "900",
+                  "Y": "0"
+                },
+                "Angle": {
+                  "Value": "0"
+                },
+                "LeftNeighbour": 7,
+                "LeftNeighbourElement": {
+                  "ProfileIndex": 1,
+                  "Text": "Esq",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia01",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_1#"
+                  },
+                  "CutOffset": {
+                    "Value": "#SOBRE_CORTE_CHAPA#"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 7,
+                  "LeftVertexIndex": 1,
+                  "RightVertexIndex": 2,
+                  "LeftPoint": {
+                    "X": "0",
+                    "Y": "50"
+                  },
+                  "RightPoint": {
+                    "X": "100",
+                    "Y": "0"
+                  },
+                  "Angle": {
+                    "Value": "90"
+                  },
+                  "LeftNeighbour": 2,
+                  "LeftNeighbourElement": {
+                    "ProfileIndex": 0,
+                    "Text": "Esq",
+                    "LayerName": "BORDA",
+                    "Reference": "Referencia01",
+                    "Thickness": {
+                      "Value": "#ESP_BORDA_1#"
+                    },
+                    "CutOffset": {
+                      "Value": "#SOBRE_CORTE_CHAPA#"
+                    },
+                    "SideCutOffset": {
+                      "Value": "#SOBRE_CORTE_BORDA#"
+                    },
+                    "Index": 2,
+                    "LeftVertexIndex": 0,
+                    "RightVertexIndex": 1,
+                    "LeftPoint": {
+                      "X": "0",
+                      "Y": "500"
+                    },
+                    "RightPoint": {
+                      "X": "0",
+                      "Y": "50"
+                    },
+                    "Angle": {},
+                    "LeftNeighbour": 3,
+                    "LeftNeighbourElement": {
+                      "ProfileIndex": 5,
+                      "Text": "Esq",
+                      "LayerName": "BORDA",
+                      "Reference": "Referencia01",
+                      "Thickness": {
+                        "Value": "#ESP_BORDA_1#"
+                      },
+                      "CutOffset": {
+                        "Value": "#SOBRE_CORTE_CHAPA#"
+                      },
+                      "SideCutOffset": {
+                        "Value": "#SOBRE_CORTE_BORDA#"
+                      },
+                      "Index": 3,
+                      "LeftVertexIndex": 5,
+                      "RightVertexIndex": 0,
+                      "LeftPoint": {
+                        "X": "1000",
+                        "Y": "500"
+                      },
+                      "RightPoint": {
+                        "X": "0",
+                        "Y": "500"
+                      },
+                      "Angle": {
+                        "Value": "0"
+                      },
+                      "LeftNeighbour": 4,
+                      "LeftNeighbourElement": {
+                        "ProfileIndex": 4,
+                        "Text": "Esq",
+                        "LayerName": "BORDA",
+                        "Reference": "Referencia01",
+                        "Thickness": {
+                          "Value": "#ESP_BORDA_1#"
+                        },
+                        "CutOffset": {
+                          "Value": "#SOBRE_CORTE_CHAPA#"
+                        },
+                        "SideCutOffset": {
+                          "Value": "#SOBRE_CORTE_BORDA#"
+                        },
+                        "Index": 4,
+                        "LeftVertexIndex": 4,
+                        "RightVertexIndex": 5,
+                        "LeftPoint": {
+                          "X": "1000",
+                          "Y": "50"
+                        },
+                        "RightPoint": {
+                          "X": "1000",
+                          "Y": "500"
+                        },
+                        "Angle": {
+                          "Value": "0"
+                        },
+                        "LeftNeighbour": 5,
+                        "RightNeighbour": 3,
+                        "Condition": {
+                          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                        },
+                        "Arc": {
+                          "Start": "1000, 50",
+                          "Mid": "1000, 275",
+                          "End": "1000, 500"
+                        },
+                        "NeedRightExposureClosed": true,
+                        "BorderStructureID": "",
+                        "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+                        "Height": {
+                          "Value": "0"
+                        },
+                        "OperationPrice": "BORDA",
+                        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                      },
+                      "RightNeighbour": 2,
+                      "Condition": {
+                        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                      },
+                      "Arc": {
+                        "Start": "1000, 500",
+                        "Mid": "500, 500",
+                        "End": "0, 500"
+                      },
+                      "NeedRightExposureClosed": true,
+                      "BorderStructureID": "",
+                      "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+                      "Height": {
+                        "Value": "0"
+                      },
+                      "OperationPrice": "BORDA",
+                      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                    },
+                    "RightNeighbour": 7,
+                    "Condition": {
+                      "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                    },
+                    "Arc": {
+                      "Start": "0, 500",
+                      "Mid": "0, 275",
+                      "End": "0, 50"
+                    },
+                    "BorderStructureID": "",
+                    "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+                    "Height": {
+                      "Value": "0"
+                    },
+                    "OperationPrice": "BORDA",
+                    "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                  },
+                  "RightNeighbour": 6,
+                  "Condition": {
+                    "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "0, 50",
+                    "Mid": "39,6446609406726, 4,28932188134524",
+                    "End": "100, 0"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                },
+                "RightNeighbour": 5,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "100, 0",
+                  "Mid": "500, 0",
+                  "End": "900, 0"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "RightNeighbour": 4,
+              "RightNeighbourElement": {
+                "ProfileIndex": 4,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 4,
+                "LeftVertexIndex": 4,
+                "RightVertexIndex": 5,
+                "LeftPoint": {
+                  "X": "1000",
+                  "Y": "50"
+                },
+                "RightPoint": {
+                  "X": "1000",
+                  "Y": "500"
+                },
+                "Angle": {
+                  "Value": "0"
+                },
+                "LeftNeighbour": 5,
+                "RightNeighbour": 3,
+                "RightNeighbourElement": {
+                  "ProfileIndex": 5,
+                  "Text": "Esq",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia01",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_1#"
+                  },
+                  "CutOffset": {
+                    "Value": "#SOBRE_CORTE_CHAPA#"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 3,
+                  "LeftVertexIndex": 5,
+                  "RightVertexIndex": 0,
+                  "LeftPoint": {
+                    "X": "1000",
+                    "Y": "500"
+                  },
+                  "RightPoint": {
+                    "X": "0",
+                    "Y": "500"
+                  },
+                  "Angle": {
+                    "Value": "0"
+                  },
+                  "LeftNeighbour": 4,
+                  "RightNeighbour": 2,
+                  "RightNeighbourElement": {
+                    "ProfileIndex": 0,
+                    "Text": "Esq",
+                    "LayerName": "BORDA",
+                    "Reference": "Referencia01",
+                    "Thickness": {
+                      "Value": "#ESP_BORDA_1#"
+                    },
+                    "CutOffset": {
+                      "Value": "#SOBRE_CORTE_CHAPA#"
+                    },
+                    "SideCutOffset": {
+                      "Value": "#SOBRE_CORTE_BORDA#"
+                    },
+                    "Index": 2,
+                    "LeftVertexIndex": 0,
+                    "RightVertexIndex": 1,
+                    "LeftPoint": {
+                      "X": "0",
+                      "Y": "500"
+                    },
+                    "RightPoint": {
+                      "X": "0",
+                      "Y": "50"
+                    },
+                    "Angle": {},
+                    "LeftNeighbour": 3,
+                    "RightNeighbour": 7,
+                    "RightNeighbourElement": {
+                      "ProfileIndex": 1,
+                      "Text": "Esq",
+                      "LayerName": "BORDA",
+                      "Reference": "Referencia01",
+                      "Thickness": {
+                        "Value": "#ESP_BORDA_1#"
+                      },
+                      "CutOffset": {
+                        "Value": "#SOBRE_CORTE_CHAPA#"
+                      },
+                      "SideCutOffset": {
+                        "Value": "#SOBRE_CORTE_BORDA#"
+                      },
+                      "Index": 7,
+                      "LeftVertexIndex": 1,
+                      "RightVertexIndex": 2,
+                      "LeftPoint": {
+                        "X": "0",
+                        "Y": "50"
+                      },
+                      "RightPoint": {
+                        "X": "100",
+                        "Y": "0"
+                      },
+                      "Angle": {
+                        "Value": "90"
+                      },
+                      "LeftNeighbour": 2,
+                      "RightNeighbour": 6,
+                      "RightNeighbourElement": {
+                        "ProfileIndex": 2,
+                        "Text": "Esq",
+                        "LayerName": "BORDA",
+                        "Reference": "Referencia01",
+                        "Thickness": {
+                          "Value": "#ESP_BORDA_1#"
+                        },
+                        "CutOffset": {
+                          "Value": "#SOBRE_CORTE_CHAPA#"
+                        },
+                        "SideCutOffset": {
+                          "Value": "#SOBRE_CORTE_BORDA#"
+                        },
+                        "Index": 6,
+                        "LeftVertexIndex": 2,
+                        "RightVertexIndex": 3,
+                        "LeftPoint": {
+                          "X": "100",
+                          "Y": "0"
+                        },
+                        "RightPoint": {
+                          "X": "900",
+                          "Y": "0"
+                        },
+                        "Angle": {
+                          "Value": "0"
+                        },
+                        "LeftNeighbour": 7,
+                        "RightNeighbour": 5,
+                        "Condition": {
+                          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                        },
+                        "Arc": {
+                          "Start": "100, 0",
+                          "Mid": "500, 0",
+                          "End": "900, 0"
+                        },
+                        "NeedRightExposureClosed": true,
+                        "BorderStructureID": "",
+                        "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+                        "Height": {
+                          "Value": "0"
+                        },
+                        "OperationPrice": "BORDA",
+                        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                      },
+                      "Condition": {
+                        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                      },
+                      "Arc": {
+                        "Start": "0, 50",
+                        "Mid": "39,6446609406726, 4,28932188134524",
+                        "End": "100, 0"
+                      },
+                      "NeedRightExposureClosed": true,
+                      "BorderStructureID": "",
+                      "Height": {
+                        "Value": "0"
+                      },
+                      "OperationPrice": "BORDA",
+                      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                    },
+                    "Condition": {
+                      "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                    },
+                    "Arc": {
+                      "Start": "0, 500",
+                      "Mid": "0, 275",
+                      "End": "0, 50"
+                    },
+                    "BorderStructureID": "",
+                    "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+                    "Height": {
+                      "Value": "0"
+                    },
+                    "OperationPrice": "BORDA",
+                    "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                  },
+                  "Condition": {
+                    "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "1000, 500",
+                    "Mid": "500, 500",
+                    "End": "0, 500"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                },
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "1000, 50",
+                  "Mid": "1000, 275",
+                  "End": "1000, 500"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "900, 0",
+                "Mid": "960,355339059327, 4,28932188134524",
+                "End": "1000, 50"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            }
+          ],
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "LayerName": "BORDA",
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "OperationPrice": "BORDA",
+          "Height": {
+            "Value": "0"
+          },
+          "Text": "Esq",
+          "Reference": "Referencia01",
+          "Angle": {
+            "Value": "0"
+          },
+          "BorderStructureID": ""
+        }
+      ],
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "Text": "Esq",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "Index": 5,
+      "Angle": {
+        "Value": "0"
+      },
+      "BorderStructureID": "",
+      "BorderID": "00087d2c-116a-496f-a0bc-dcfc37827cae",
+      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Esq",
+      "LayerName": "BORDA",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 6,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "100",
+        "Y": "0"
+      },
+      "RightPoint": {
+        "X": "900",
+        "Y": "0"
+      },
+      "Angle": {
+        "Value": "0"
+      },
+      "LeftNeighbour": 7,
+      "LeftNeighbourElement": {
+        "ProfileIndex": 1,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 7,
+        "LeftVertexIndex": 1,
+        "RightVertexIndex": 2,
+        "LeftPoint": {
+          "X": "0",
+          "Y": "50"
+        },
+        "RightPoint": {
+          "X": "100",
+          "Y": "0"
+        },
+        "Angle": {
+          "Value": "90"
+        },
+        "LeftNeighbour": 2,
+        "LeftNeighbourElement": {
+          "ProfileIndex": 0,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 2,
+          "LeftVertexIndex": 0,
+          "RightVertexIndex": 1,
+          "LeftPoint": {
+            "X": "0",
+            "Y": "500"
+          },
+          "RightPoint": {
+            "X": "0",
+            "Y": "50"
+          },
+          "Angle": {},
+          "LeftNeighbour": 3,
+          "LeftNeighbourElement": {
+            "ProfileIndex": 5,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 5,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 4,
+            "LeftNeighbourElement": {
+              "ProfileIndex": 4,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 4,
+              "LeftVertexIndex": 4,
+              "RightVertexIndex": 5,
+              "LeftPoint": {
+                "X": "1000",
+                "Y": "50"
+              },
+              "RightPoint": {
+                "X": "1000",
+                "Y": "500"
+              },
+              "Angle": {
+                "Value": "0"
+              },
+              "LeftNeighbour": 5,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 3,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 5,
+                "LeftVertexIndex": 3,
+                "RightVertexIndex": 4,
+                "LeftPoint": {
+                  "X": "900",
+                  "Y": "0"
+                },
+                "RightPoint": {
+                  "X": "1000",
+                  "Y": "50"
+                },
+                "Angle": {
+                  "Value": "90"
+                },
+                "LeftNeighbour": 6,
+                "RightNeighbour": 4,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "900, 0",
+                  "Mid": "960,355339059327, 4,28932188134524",
+                  "End": "1000, 50"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "RightNeighbour": 3,
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "1000, 50",
+                "Mid": "1000, 275",
+                "End": "1000, 500"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "RightNeighbour": 2,
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1000, 500",
+              "Mid": "500, 500",
+              "End": "0, 500"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "RightNeighbour": 7,
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "0, 500",
+            "Mid": "0, 275",
+            "End": "0, 50"
+          },
+          "BorderStructureID": "",
+          "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "RightNeighbour": 6,
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "0, 50",
+          "Mid": "39,6446609406726, 4,28932188134524",
+          "End": "100, 0"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "RightNeighbour": 5,
+      "RightNeighbourElement": {
+        "ProfileIndex": 3,
+        "Text": "Esq",
+        "LayerName": "BORDA",
+        "Reference": "Referencia01",
+        "Thickness": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "CutOffset": {
+          "Value": "#SOBRE_CORTE_CHAPA#"
+        },
+        "SideCutOffset": {
+          "Value": "#SOBRE_CORTE_BORDA#"
+        },
+        "Index": 5,
+        "LeftVertexIndex": 3,
+        "RightVertexIndex": 4,
+        "LeftPoint": {
+          "X": "900",
+          "Y": "0"
+        },
+        "RightPoint": {
+          "X": "1000",
+          "Y": "50"
+        },
+        "Angle": {
+          "Value": "90"
+        },
+        "LeftNeighbour": 6,
+        "RightNeighbour": 4,
+        "RightNeighbourElement": {
+          "ProfileIndex": 4,
+          "Text": "Esq",
+          "LayerName": "BORDA",
+          "Reference": "Referencia01",
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "Index": 4,
+          "LeftVertexIndex": 4,
+          "RightVertexIndex": 5,
+          "LeftPoint": {
+            "X": "1000",
+            "Y": "50"
+          },
+          "RightPoint": {
+            "X": "1000",
+            "Y": "500"
+          },
+          "Angle": {
+            "Value": "0"
+          },
+          "LeftNeighbour": 5,
+          "RightNeighbour": 3,
+          "RightNeighbourElement": {
+            "ProfileIndex": 5,
+            "Text": "Esq",
+            "LayerName": "BORDA",
+            "Reference": "Referencia01",
+            "Thickness": {
+              "Value": "#ESP_BORDA_1#"
+            },
+            "CutOffset": {
+              "Value": "#SOBRE_CORTE_CHAPA#"
+            },
+            "SideCutOffset": {
+              "Value": "#SOBRE_CORTE_BORDA#"
+            },
+            "Index": 3,
+            "LeftVertexIndex": 5,
+            "RightVertexIndex": 0,
+            "LeftPoint": {
+              "X": "1000",
+              "Y": "500"
+            },
+            "RightPoint": {
+              "X": "0",
+              "Y": "500"
+            },
+            "Angle": {
+              "Value": "0"
+            },
+            "LeftNeighbour": 4,
+            "RightNeighbour": 2,
+            "RightNeighbourElement": {
+              "ProfileIndex": 0,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 2,
+              "LeftVertexIndex": 0,
+              "RightVertexIndex": 1,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "500"
+              },
+              "RightPoint": {
+                "X": "0",
+                "Y": "50"
+              },
+              "Angle": {},
+              "LeftNeighbour": 3,
+              "RightNeighbour": 7,
+              "RightNeighbourElement": {
+                "ProfileIndex": 1,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 7,
+                "LeftVertexIndex": 1,
+                "RightVertexIndex": 2,
+                "LeftPoint": {
+                  "X": "0",
+                  "Y": "50"
+                },
+                "RightPoint": {
+                  "X": "100",
+                  "Y": "0"
+                },
+                "Angle": {
+                  "Value": "90"
+                },
+                "LeftNeighbour": 2,
+                "RightNeighbour": 6,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "0, 50",
+                  "Mid": "39,6446609406726, 4,28932188134524",
+                  "End": "100, 0"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "0, 500",
+                "Mid": "0, 275",
+                "End": "0, 50"
+              },
+              "BorderStructureID": "",
+              "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            },
+            "Condition": {
+              "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+            },
+            "Arc": {
+              "Start": "1000, 500",
+              "Mid": "500, 500",
+              "End": "0, 500"
+            },
+            "NeedRightExposureClosed": true,
+            "BorderStructureID": "",
+            "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+            "Height": {
+              "Value": "0"
+            },
+            "OperationPrice": "BORDA",
+            "ElementId": "com_coz_bas_ret_microondas_arredondado"
+          },
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "Arc": {
+            "Start": "1000, 50",
+            "Mid": "1000, 275",
+            "End": "1000, 500"
+          },
+          "NeedRightExposureClosed": true,
+          "BorderStructureID": "",
+          "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+          "Height": {
+            "Value": "0"
+          },
+          "OperationPrice": "BORDA",
+          "ElementId": "com_coz_bas_ret_microondas_arredondado"
+        },
+        "Condition": {
+          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+        },
+        "Arc": {
+          "Start": "900, 0",
+          "Mid": "960,355339059327, 4,28932188134524",
+          "End": "1000, 50"
+        },
+        "NeedRightExposureClosed": true,
+        "BorderStructureID": "",
+        "Height": {
+          "Value": "0"
+        },
+        "OperationPrice": "BORDA",
+        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+      },
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "Arc": {
+        "Start": "100, 0",
+        "Mid": "500, 0",
+        "End": "900, 0"
+      },
+      "NeedRightExposureClosed": true,
+      "BorderStructureID": "",
+      "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+      "Height": {
+        "Value": "0"
+      },
+      "OperationPrice": "BORDA",
+      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.ComposedBorder, Procad.Builder.Core",
+      "Borders": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.Borders.ArcComposedBorder, Procad.Builder.Core",
+          "CutOffset": {
+            "Value": "#SOBRE_CORTE_CHAPA#"
+          },
+          "Thickness": {
+            "Value": "#ESP_BORDA_1#"
+          },
+          "Borders": [
+            {
+              "ProfileIndex": 1,
+              "Text": "Esq",
+              "LayerName": "BORDA",
+              "Reference": "Referencia01",
+              "Thickness": {
+                "Value": "#ESP_BORDA_1#"
+              },
+              "CutOffset": {
+                "Value": "#SOBRE_CORTE_CHAPA#"
+              },
+              "SideCutOffset": {
+                "Value": "#SOBRE_CORTE_BORDA#"
+              },
+              "Index": 7,
+              "LeftVertexIndex": 1,
+              "RightVertexIndex": 2,
+              "LeftPoint": {
+                "X": "0",
+                "Y": "50"
+              },
+              "RightPoint": {
+                "X": "100",
+                "Y": "0"
+              },
+              "Angle": {
+                "Value": "90"
+              },
+              "LeftNeighbour": 2,
+              "LeftNeighbourElement": {
+                "ProfileIndex": 0,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 2,
+                "LeftVertexIndex": 0,
+                "RightVertexIndex": 1,
+                "LeftPoint": {
+                  "X": "0",
+                  "Y": "500"
+                },
+                "RightPoint": {
+                  "X": "0",
+                  "Y": "50"
+                },
+                "Angle": {},
+                "LeftNeighbour": 3,
+                "LeftNeighbourElement": {
+                  "ProfileIndex": 5,
+                  "Text": "Esq",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia01",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_1#"
+                  },
+                  "CutOffset": {
+                    "Value": "#SOBRE_CORTE_CHAPA#"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 3,
+                  "LeftVertexIndex": 5,
+                  "RightVertexIndex": 0,
+                  "LeftPoint": {
+                    "X": "1000",
+                    "Y": "500"
+                  },
+                  "RightPoint": {
+                    "X": "0",
+                    "Y": "500"
+                  },
+                  "Angle": {
+                    "Value": "0"
+                  },
+                  "LeftNeighbour": 4,
+                  "LeftNeighbourElement": {
+                    "ProfileIndex": 4,
+                    "Text": "Esq",
+                    "LayerName": "BORDA",
+                    "Reference": "Referencia01",
+                    "Thickness": {
+                      "Value": "#ESP_BORDA_1#"
+                    },
+                    "CutOffset": {
+                      "Value": "#SOBRE_CORTE_CHAPA#"
+                    },
+                    "SideCutOffset": {
+                      "Value": "#SOBRE_CORTE_BORDA#"
+                    },
+                    "Index": 4,
+                    "LeftVertexIndex": 4,
+                    "RightVertexIndex": 5,
+                    "LeftPoint": {
+                      "X": "1000",
+                      "Y": "50"
+                    },
+                    "RightPoint": {
+                      "X": "1000",
+                      "Y": "500"
+                    },
+                    "Angle": {
+                      "Value": "0"
+                    },
+                    "LeftNeighbour": 5,
+                    "LeftNeighbourElement": {
+                      "ProfileIndex": 3,
+                      "Text": "Esq",
+                      "LayerName": "BORDA",
+                      "Reference": "Referencia01",
+                      "Thickness": {
+                        "Value": "#ESP_BORDA_1#"
+                      },
+                      "CutOffset": {
+                        "Value": "#SOBRE_CORTE_CHAPA#"
+                      },
+                      "SideCutOffset": {
+                        "Value": "#SOBRE_CORTE_BORDA#"
+                      },
+                      "Index": 5,
+                      "LeftVertexIndex": 3,
+                      "RightVertexIndex": 4,
+                      "LeftPoint": {
+                        "X": "900",
+                        "Y": "0"
+                      },
+                      "RightPoint": {
+                        "X": "1000",
+                        "Y": "50"
+                      },
+                      "Angle": {
+                        "Value": "90"
+                      },
+                      "LeftNeighbour": 6,
+                      "LeftNeighbourElement": {
+                        "ProfileIndex": 2,
+                        "Text": "Esq",
+                        "LayerName": "BORDA",
+                        "Reference": "Referencia01",
+                        "Thickness": {
+                          "Value": "#ESP_BORDA_1#"
+                        },
+                        "CutOffset": {
+                          "Value": "#SOBRE_CORTE_CHAPA#"
+                        },
+                        "SideCutOffset": {
+                          "Value": "#SOBRE_CORTE_BORDA#"
+                        },
+                        "Index": 6,
+                        "LeftVertexIndex": 2,
+                        "RightVertexIndex": 3,
+                        "LeftPoint": {
+                          "X": "100",
+                          "Y": "0"
+                        },
+                        "RightPoint": {
+                          "X": "900",
+                          "Y": "0"
+                        },
+                        "Angle": {
+                          "Value": "0"
+                        },
+                        "LeftNeighbour": 7,
+                        "RightNeighbour": 5,
+                        "Condition": {
+                          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                        },
+                        "Arc": {
+                          "Start": "100, 0",
+                          "Mid": "500, 0",
+                          "End": "900, 0"
+                        },
+                        "NeedRightExposureClosed": true,
+                        "BorderStructureID": "",
+                        "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+                        "Height": {
+                          "Value": "0"
+                        },
+                        "OperationPrice": "BORDA",
+                        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                      },
+                      "RightNeighbour": 4,
+                      "Condition": {
+                        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                      },
+                      "Arc": {
+                        "Start": "900, 0",
+                        "Mid": "960,355339059327, 4,28932188134524",
+                        "End": "1000, 50"
+                      },
+                      "NeedRightExposureClosed": true,
+                      "BorderStructureID": "",
+                      "Height": {
+                        "Value": "0"
+                      },
+                      "OperationPrice": "BORDA",
+                      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                    },
+                    "RightNeighbour": 3,
+                    "Condition": {
+                      "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                    },
+                    "Arc": {
+                      "Start": "1000, 50",
+                      "Mid": "1000, 275",
+                      "End": "1000, 500"
+                    },
+                    "NeedRightExposureClosed": true,
+                    "BorderStructureID": "",
+                    "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+                    "Height": {
+                      "Value": "0"
+                    },
+                    "OperationPrice": "BORDA",
+                    "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                  },
+                  "RightNeighbour": 2,
+                  "Condition": {
+                    "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "1000, 500",
+                    "Mid": "500, 500",
+                    "End": "0, 500"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                },
+                "RightNeighbour": 7,
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "0, 500",
+                  "Mid": "0, 275",
+                  "End": "0, 50"
+                },
+                "BorderStructureID": "",
+                "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "RightNeighbour": 6,
+              "RightNeighbourElement": {
+                "ProfileIndex": 2,
+                "Text": "Esq",
+                "LayerName": "BORDA",
+                "Reference": "Referencia01",
+                "Thickness": {
+                  "Value": "#ESP_BORDA_1#"
+                },
+                "CutOffset": {
+                  "Value": "#SOBRE_CORTE_CHAPA#"
+                },
+                "SideCutOffset": {
+                  "Value": "#SOBRE_CORTE_BORDA#"
+                },
+                "Index": 6,
+                "LeftVertexIndex": 2,
+                "RightVertexIndex": 3,
+                "LeftPoint": {
+                  "X": "100",
+                  "Y": "0"
+                },
+                "RightPoint": {
+                  "X": "900",
+                  "Y": "0"
+                },
+                "Angle": {
+                  "Value": "0"
+                },
+                "LeftNeighbour": 7,
+                "RightNeighbour": 5,
+                "RightNeighbourElement": {
+                  "ProfileIndex": 3,
+                  "Text": "Esq",
+                  "LayerName": "BORDA",
+                  "Reference": "Referencia01",
+                  "Thickness": {
+                    "Value": "#ESP_BORDA_1#"
+                  },
+                  "CutOffset": {
+                    "Value": "#SOBRE_CORTE_CHAPA#"
+                  },
+                  "SideCutOffset": {
+                    "Value": "#SOBRE_CORTE_BORDA#"
+                  },
+                  "Index": 5,
+                  "LeftVertexIndex": 3,
+                  "RightVertexIndex": 4,
+                  "LeftPoint": {
+                    "X": "900",
+                    "Y": "0"
+                  },
+                  "RightPoint": {
+                    "X": "1000",
+                    "Y": "50"
+                  },
+                  "Angle": {
+                    "Value": "90"
+                  },
+                  "LeftNeighbour": 6,
+                  "RightNeighbour": 4,
+                  "RightNeighbourElement": {
+                    "ProfileIndex": 4,
+                    "Text": "Esq",
+                    "LayerName": "BORDA",
+                    "Reference": "Referencia01",
+                    "Thickness": {
+                      "Value": "#ESP_BORDA_1#"
+                    },
+                    "CutOffset": {
+                      "Value": "#SOBRE_CORTE_CHAPA#"
+                    },
+                    "SideCutOffset": {
+                      "Value": "#SOBRE_CORTE_BORDA#"
+                    },
+                    "Index": 4,
+                    "LeftVertexIndex": 4,
+                    "RightVertexIndex": 5,
+                    "LeftPoint": {
+                      "X": "1000",
+                      "Y": "50"
+                    },
+                    "RightPoint": {
+                      "X": "1000",
+                      "Y": "500"
+                    },
+                    "Angle": {
+                      "Value": "0"
+                    },
+                    "LeftNeighbour": 5,
+                    "RightNeighbour": 3,
+                    "RightNeighbourElement": {
+                      "ProfileIndex": 5,
+                      "Text": "Esq",
+                      "LayerName": "BORDA",
+                      "Reference": "Referencia01",
+                      "Thickness": {
+                        "Value": "#ESP_BORDA_1#"
+                      },
+                      "CutOffset": {
+                        "Value": "#SOBRE_CORTE_CHAPA#"
+                      },
+                      "SideCutOffset": {
+                        "Value": "#SOBRE_CORTE_BORDA#"
+                      },
+                      "Index": 3,
+                      "LeftVertexIndex": 5,
+                      "RightVertexIndex": 0,
+                      "LeftPoint": {
+                        "X": "1000",
+                        "Y": "500"
+                      },
+                      "RightPoint": {
+                        "X": "0",
+                        "Y": "500"
+                      },
+                      "Angle": {
+                        "Value": "0"
+                      },
+                      "LeftNeighbour": 4,
+                      "RightNeighbour": 2,
+                      "RightNeighbourElement": {
+                        "ProfileIndex": 0,
+                        "Text": "Esq",
+                        "LayerName": "BORDA",
+                        "Reference": "Referencia01",
+                        "Thickness": {
+                          "Value": "#ESP_BORDA_1#"
+                        },
+                        "CutOffset": {
+                          "Value": "#SOBRE_CORTE_CHAPA#"
+                        },
+                        "SideCutOffset": {
+                          "Value": "#SOBRE_CORTE_BORDA#"
+                        },
+                        "Index": 2,
+                        "LeftVertexIndex": 0,
+                        "RightVertexIndex": 1,
+                        "LeftPoint": {
+                          "X": "0",
+                          "Y": "500"
+                        },
+                        "RightPoint": {
+                          "X": "0",
+                          "Y": "50"
+                        },
+                        "Angle": {},
+                        "LeftNeighbour": 3,
+                        "RightNeighbour": 7,
+                        "Condition": {
+                          "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                        },
+                        "Arc": {
+                          "Start": "0, 500",
+                          "Mid": "0, 275",
+                          "End": "0, 50"
+                        },
+                        "BorderStructureID": "",
+                        "BorderID": "001716a7-ea9c-42f1-a449-dcbc07123d1d",
+                        "Height": {
+                          "Value": "0"
+                        },
+                        "OperationPrice": "BORDA",
+                        "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                      },
+                      "Condition": {
+                        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                      },
+                      "Arc": {
+                        "Start": "1000, 500",
+                        "Mid": "500, 500",
+                        "End": "0, 500"
+                      },
+                      "NeedRightExposureClosed": true,
+                      "BorderStructureID": "",
+                      "BorderID": "1facc411-3a98-4e47-99f8-70b8cdadaadb",
+                      "Height": {
+                        "Value": "0"
+                      },
+                      "OperationPrice": "BORDA",
+                      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                    },
+                    "Condition": {
+                      "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                    },
+                    "Arc": {
+                      "Start": "1000, 50",
+                      "Mid": "1000, 275",
+                      "End": "1000, 500"
+                    },
+                    "NeedRightExposureClosed": true,
+                    "BorderStructureID": "",
+                    "BorderID": "8e35c4de-32e0-4b4a-9522-b076d51f2ec7",
+                    "Height": {
+                      "Value": "0"
+                    },
+                    "OperationPrice": "BORDA",
+                    "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                  },
+                  "Condition": {
+                    "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                  },
+                  "Arc": {
+                    "Start": "900, 0",
+                    "Mid": "960,355339059327, 4,28932188134524",
+                    "End": "1000, 50"
+                  },
+                  "NeedRightExposureClosed": true,
+                  "BorderStructureID": "",
+                  "Height": {
+                    "Value": "0"
+                  },
+                  "OperationPrice": "BORDA",
+                  "ElementId": "com_coz_bas_ret_microondas_arredondado"
+                },
+                "Condition": {
+                  "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+                },
+                "Arc": {
+                  "Start": "100, 0",
+                  "Mid": "500, 0",
+                  "End": "900, 0"
+                },
+                "NeedRightExposureClosed": true,
+                "BorderStructureID": "",
+                "BorderID": "fdf89e9e-82f8-4666-bc93-2b4f2072555a",
+                "Height": {
+                  "Value": "0"
+                },
+                "OperationPrice": "BORDA",
+                "ElementId": "com_coz_bas_ret_microondas_arredondado"
+              },
+              "Condition": {
+                "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+              },
+              "Arc": {
+                "Start": "0, 50",
+                "Mid": "39,6446609406726, 4,28932188134524",
+                "End": "100, 0"
+              },
+              "NeedRightExposureClosed": true,
+              "BorderStructureID": "",
+              "Height": {
+                "Value": "0"
+              },
+              "OperationPrice": "BORDA",
+              "ElementId": "com_coz_bas_ret_microondas_arredondado"
+            }
+          ],
+          "Condition": {
+            "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+          },
+          "LayerName": "BORDA",
+          "SideCutOffset": {
+            "Value": "#SOBRE_CORTE_BORDA#"
+          },
+          "OperationPrice": "BORDA",
+          "Height": {
+            "Value": "0"
+          },
+          "Text": "Esq",
+          "Reference": "Referencia01",
+          "Angle": {
+            "Value": "0"
+          },
+          "BorderStructureID": ""
+        }
+      ],
+      "Condition": {
+        "Expression": "'#FT_BORDA_ESQ#' == 'SIM'"
+      },
+      "LayerName": "BORDA",
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "OperationPrice": "BORDA",
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "Height": {
+        "Value": "0"
+      },
+      "Text": "Esq",
+      "Reference": "Referencia01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "Index": 7,
+      "Angle": {
+        "Value": "0"
+      },
+      "BorderStructureID": "",
+      "BorderID": "3561471d-cf0f-4bbe-9722-e041e32ab5bb",
+      "ElementId": "com_coz_bas_ret_microondas_arredondado"
+    }
+  ],
+  "ElementId": "com_coz_bas_ret_microondas_arredondado"
+}

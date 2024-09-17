@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="VB 35 M" ICON="mini_fix_1.jpg" INVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="unifix_18" FORMAT=".PMOB" />
+    <BOUNDINGBOX HEIGHT="21">
+      <PONTO2DA X="11.5" Y="-0.05" />
+      <PONTO2DA X="11.5" Y="0.05" />
+      <PONTO2DA X="-11.5" Y="0.05" />
+      <PONTO2DA X="-11.5" Y="-0.05" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-11.5" Y="-2" Z="-9.5" />
+      <MAX X="11.5" Y="14" Z="11.5" />
+    </LIMITS>
+    <DIMENSION WIDTH="23" HEIGHT="21" DEPTH="16" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="23" HEIGHT="21" DEPTH="16" TEXT="TUF18" TEXT_15="TUF15" DESC="@(($P.P.H$)&lt;=16?'15':'18/25')" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Ligador Excêntrico VB 35 M p/ espessura @(($P.P.H$)&lt;=16?'15':'18/25') mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="@(($H$)&lt;=16?'$D.TEXT_15$':'$TEXT$')" ITEM_BASE="@(($H$)&lt;=16?'$D.TEXT_15$':'$TEXT$')" FERRAGEM="SIM" />
+</ENTITY>

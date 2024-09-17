@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="No-Break" ICON="estabilizador_03.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="estabilizador_03" />
+    <DIMENSION WIDTH="100" HEIGHT="150" DEPTH="200" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_CORPO" NAME="DEC_CORPO" IDMATERIAL="cin_cor_006" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_BOTAO" NAME="DEC_BOTAO" IDMATERIAL="cin_cor_005" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_LUZ" NAME="DEC_LUZ" IDMATERIAL="verm_cor_004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="No-Break" />
+  </ATTRIBUTES>
+</ENTITY>

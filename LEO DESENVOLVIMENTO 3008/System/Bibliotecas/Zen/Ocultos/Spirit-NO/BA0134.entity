@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$ Toalheiro Simples ($TEXT$)" ICON="BA0038.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0134_toalheiro_simples" />
+    <DIMENSION WIDTH="300.9" HEIGHT="23" DEPTH="56" />
+  </DRAWING>
+  <REFERENCE COMPLETE="$TEXT$-@zen_spirit@" />
+  <INSERTDIMENSION WIDTH="300" HEIGHT="23" DEPTH="56" MODE="OnlyProposed" TEXT=" ">
+    <MIN WIDTH="300" />
+    <MAX WIDTH="700" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE WIDTH="300" TEXT="BA0134" />
+      <PROPOSEDVALUE WIDTH="500" TEXT="BA0135" />
+      <PROPOSEDVALUE WIDTH="700" TEXT="BA0136" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioConserv_BordaConserv" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Toalheiro Simples $W$mm @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="100" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

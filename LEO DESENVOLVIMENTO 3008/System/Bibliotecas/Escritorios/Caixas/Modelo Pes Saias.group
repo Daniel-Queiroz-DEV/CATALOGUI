@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Modelo Pes Saias" NAME="Modelo Pés/Saias" PREFIXID="ESC_MOD_FOR_" INVISIBLE="Y">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="ITEM_BASE" MODEL="@COM_*@" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ESC_MOD_FOR_MET" DEF="Pes Mesas Retas.group" GUID="c87d6a02-a36a-45cc-833d-28323d3d53a5" />
+    <EXPLORERITEM TYPE="group" ID="ESC_MOD_FOR_RED" DEF="Pes Mesas Redondas.group" GUID="99856508-f80f-4419-8cd2-73759b26ca31" />
+    <EXPLORERITEM TYPE="group" ID="ESC_MOD_FOR_MES_REU" DEF="Pes Mesas Reuniao.group" GUID="1c77a567-4269-4c6e-ae79-ec47a6b39b2f" />
+    <EXPLORERITEM TYPE="group" ID="ESC_MOD_FOR_SAI" DEF="Saias Mesas.group" GUID="4404ae73-9822-4fce-9779-20d40ddf34fc" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

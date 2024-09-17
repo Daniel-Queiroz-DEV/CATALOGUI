@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Suporte Encaixe 2" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="trilho_interno_560_2_2_2" />
+    <DIMENSION WIDTH="207.1" HEIGHT="16.8" DEPTH="384" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="240" HEIGHT="16.8" DEPTH="400" TEXT="04257570" DESC="">
+    <MIN WIDTH="100" HEIGHT="10" DEPTH="100" />
+    <MAX WIDTH="1500" HEIGHT="500" DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Suporte De Encaixe" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

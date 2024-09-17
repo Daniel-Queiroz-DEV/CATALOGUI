@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Passe ($TEXT$)" ICON="passe.jpg">
+  <INSERTDIMENSION TEXT="100.365" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_224_cas" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_cas" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_cas" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_128_bag" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Niq_vel_lat_vel_sob_con" />
+  <DRAWING>
+    <FILE3D NAME="mini_passe_100365" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="31" HEIGHT="56" DEPTH="13" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Passe 16mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_cou" ENTRYID="puxadorea" />
+    <MODEL IDMODEL="Pux_niq_vel_lat_vel_sob_con" ENTRYID="puxadorea" />
+  </MODELS>
+</ENTITY>

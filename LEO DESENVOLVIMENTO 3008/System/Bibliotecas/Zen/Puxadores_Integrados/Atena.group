@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Atena" NAME="Atena" PREFIXID="zen_pux_int_ate_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_ate_30" DEF="30mm.group" GUID="0b66a546-6e4a-48f9-a467-81197d3cc122" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_ate_85" DEF="85mm.group" GUID="68ded0a0-97bc-4a26-9539-45c7d35909f6" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_ate_200" DEF="200mm.group" GUID="4b3a89ae-70c8-4268-a9bd-1324c36ed857" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_ate_420" DEF="420mm.group" GUID="4e7cc24c-3c8e-4763-9b55-379ff5ef0a0e" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int_ate_640" DEF="640mm.group" GUID="d27235e4-7454-4b27-99bc-f5a6df3f3f95" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="ZP1788_30mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Atena\3D\ZP1788" />
+      <DIMENSION WIDTH="35.5" HEIGHT="53" DEPTH="21.3" />
+      <LIMITS>
+        <MIN X="-17.75" Y="-21.3" Z="0" />
+        <MAX X="17.75" Y="0" Z="53" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ZP1789_85mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Atena\3D\ZP1789" />
+      <DIMENSION WIDTH="90.5" HEIGHT="53" DEPTH="21.3" />
+      <LIMITS>
+        <MIN X="-45.25" Y="-21.3" Z="0" />
+        <MAX X="45.25" Y="0" Z="53" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ZP1790_200mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Atena\3D\ZP1790" />
+      <LIMITS>
+        <MIN X="-102.75" Y="-21.3" Z="0" />
+        <MAX X="102.75" Y="0" Z="53" />
+      </LIMITS>
+      <DIMENSION WIDTH="205.5" HEIGHT="53" DEPTH="21.3" />
+    </DRAWING>
+    <DRAWING ID="ZP1791_420mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Atena\3D\ZP1791" />
+      <DIMENSION WIDTH="425.5" HEIGHT="53" DEPTH="21.3" />
+      <LIMITS>
+        <MIN X="-212.75" Y="-21.3" Z="0" />
+        <MAX X="212.75" Y="0" Z="53" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ZP1792_640mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\Atena\3D\ZP1792" />
+      <DIMENSION WIDTH="645.5" HEIGHT="53" DEPTH="21.3" />
+      <LIMITS>
+        <MIN X="-322.75" Y="-21.3" Z="0" />
+        <MAX X="322.75" Y="0" Z="53" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

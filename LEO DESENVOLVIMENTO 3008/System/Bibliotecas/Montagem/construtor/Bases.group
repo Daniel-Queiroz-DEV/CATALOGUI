@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Bases" NAME="Bases" PREFIXID="com_con_bas_" INVISIBLE="N">
+  <MODELS>
+    <MODEL IDMODEL="com_caixas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_fita" ENTRYID="COM" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_ret" DEF="com_con_bas_ret.entity" GUID="3e165368-a76b-44e4-b4b1-34c670d1c74c" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_ret_sfix" DEF="com_con_bas_ret_sfix.entity" GUID="e6efa2c2-f445-49a8-bac5-e8a983faca97" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_ret_microondas" DEF="com_con_bas_ret_microondas.entity" GUID="0a2b6bdd-b961-4188-88cc-9a8dc3a9d249" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_ret_inf_arm_desl_spor" DEF="com_con_bas_ret_inf_arm_desl_spor.entity" GUID="d7353699-0816-43fa-957f-7c6b795c4bb2" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_ret_sup_arm_desl_spor" DEF="com_con_bas_ret_sup_arm_desl_spor.entity" GUID="0f421421-f14e-49e7-8078-9b717f18180f" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_ras_emb" DEF="com_con_bas_ras_emb.entity" GUID="37ea4ee8-5814-45ee-8175-17b357978ca6" />
+    <EXPLORERITEM TYPE="entity" ID="com_con_bas_mod_des" DEF="com_con_bas_658.entity" GUID="6a3c8584-03b9-47f9-9097-f010f3533d81" />
+  </EXPLORERITEMCOLLECTION>
+  <REFERENCE ITENS_INVERTIDOS="@($INVERTED$? 'Direita' : 'Esquerda')" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_con_bas" MODEL="com_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_bas" MODEL="com_caixas" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_bas" MODEL="com_caixas" MODELTYPE="acabamento_727" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_bas" MODEL="com_caixas" MODELTYPE="acabamento_726" CONDITION="$H$ == 25" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_con_bas" MODEL="com_caixas" MODELTYPE="acabamento_027_2" CONDITION="$H$ == 25" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

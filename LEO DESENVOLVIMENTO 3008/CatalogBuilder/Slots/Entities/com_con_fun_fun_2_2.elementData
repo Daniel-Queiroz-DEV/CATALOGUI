@@ -1,0 +1,151 @@
+{
+  "Slots": [
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$W$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "ID": "00258190-4b30-4901-a042-41976278d2f1",
+      "PlaneIndex": 3,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "ID": "42196244-43f9-450e-a4f1-132c3d5aba0b",
+      "UniqueID": 1,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$W$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "ID": "9f522537-c2a0-458e-8476-7da0f63cac27",
+      "UniqueID": 2,
+      "PlaneIndex": 1,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "ID": "c61ad088-09ed-496f-96e9-7af96818d2fb",
+      "UniqueID": 3,
+      "PlaneIndex": 2,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2_2"
+    }
+  ],
+  "ElementId": "com_con_fun_fun_2_2"
+}

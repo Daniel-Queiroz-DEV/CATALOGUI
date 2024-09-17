@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lís ($TEXT$)" ICON="lis.jpg">
+  <DRAWING>
+    <FILE3D NAME="lis-100713" FORMAT=".dxf" />
+    <DIMENSION WIDTH="580" HEIGHT="8" DEPTH="30" />
+    <LIMITS>
+      <MIN X="-290" Y="-30.451" Z="-4" />
+      <MAX X="290.016" Y="0" Z="4.249" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.713" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_544_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_544_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_544_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_544_lis" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Lís 544mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

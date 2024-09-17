@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Travessa Maranello 18mm" ICON="com_coz_div_vis_2_6.jpg" INVISIBLE="N" CHECKED="N">
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="com_coz_tra_tra_mar">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION ID="Ag7522622" CONCURRENT="Y" DESCRIPTION="Travessa" REPOSITION="N" CANCHANGESELECTIONMODEL="Y" KEEPCHANGEDDIMENSION="N" KEEPCHANGEDPOSITION="N" REPLACEFUNCTION="N" ALWAYSVISIBLE="N" CONSTANT="Y">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION HEIGHT="$PD$" WIDTH="$PH$" DEPTH="$PW$" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#P.FT_BORDA_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#P.FT_BORDA_DIR#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#P.FT_BORDA_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#P.FT_BORDA_FRONTAL#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="0" Y="0" Z="0" ROTATION="180" />
+          <NORMAL A="0" B="-1" C="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="500" DEPTH="@(18+#FOL_PAI#)">
+    <MIN WIDTH="30" DEPTH="1" HEIGHT="47" />
+    <MAX WIDTH="1800" DEPTH="200" HEIGHT="2700" />
+  </INSERTDIMENSION>
+  <REFERENCE TIPO="MARANELLO" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_porta_fita" MODELTYPE="acabamento_527Y" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_030" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_124" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_026" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_126" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_641" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_022" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_127" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_527Y" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_tra_tra_mar" MODEL="com_portas" MODELTYPE="acabamento_738" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vista" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_TRA_FT_ESQ_MAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_TRA_FT_DIR_MAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_TRA_FT_TRASEIRA_MAR#" VISIBLE="N" />
+    <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_TRA_FT_FRONTAL_MAR#" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

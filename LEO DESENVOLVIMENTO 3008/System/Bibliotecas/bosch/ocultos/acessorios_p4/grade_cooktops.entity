@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Grade_Cooktops">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Grade Cooktops" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="GRADE_COOKTOPS" />
+    <DIMENSION WIDTH="122" HEIGHT="36" DEPTH="348" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

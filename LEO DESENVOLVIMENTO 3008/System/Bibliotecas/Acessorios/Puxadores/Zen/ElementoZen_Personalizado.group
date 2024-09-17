@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="ElementoZen_Personalizado" NAME="Elemento Zen c/ Personalizado" PREFIXID="zen_ele_zen_per_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="ELEMENTO_ZEN_11MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ELEMENTO_ZEN_11MM" />
+      <DIMENSION WIDTH="49.9" HEIGHT="18" DEPTH="29.7" />
+      <LIMITS>
+        <MIN X="-24.935" Y="-29.698" Z="-9" />
+        <MAX X="24.935" Y="0" Z="9" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ELEMENTO_ZEN_48MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ELEMENTO_ZEN_48MM" />
+      <DIMENSION WIDTH="96.5" HEIGHT="18.1" DEPTH="29.8" />
+      <LIMITS>
+        <MIN X="-48.24" Y="-29.847" Z="-9.045" />
+        <MAX X="48.24" Y="0" Z="9.045" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ELEMENTO_ZEN_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ELEMENTO_ZEN_128MM" />
+      <DIMENSION WIDTH="192.5" HEIGHT="18.1" DEPTH="29.8" />
+      <LIMITS>
+        <MIN X="-96.24" Y="-29.847" Z="-9.045" />
+        <MAX X="96.24" Y="0" Z="9.045" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <BUDGET>
+    <INFORMATION RULE="ZEN_UN_PERSONALIZADOS" />
+  </BUDGET>
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+    <PROPOSEDATTRIBUTE ID="ACAB" />
+  </PROPOSEDATTRIBUTES>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CANMIRRORONLYPOSITION" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE CODIGO="@('$REFERENCE(ZEN_PERSONALIZACAO)$' == 'VERTICAL_SUPERIOR' ? $D.TEXT_PER_VER_SUP$ : '$REFERENCE(ZEN_PERSONALIZACAO)$' == 'VERTICAL_INFERIOR' ? $D.TEXT_PER_VER_INF$ : '$REFERENCE(ZEN_PERSONALIZACAO)$' == 'HORIZONTAL_DIREITO' ? $D.TEXT_PER_HOR_DIR$ : '$REFERENCE(ZEN_PERSONALIZACAO)$' == 'HORIZONTAL_ESQUERDO' ? $D.TEXT_PER_HOR_ESQ$ : 'FALTA_REFERENCIA')" ZEN_PERSONALIZACAO="!find(entityid,zen_mod_for_per_*).$REFERENCE(COMPLETE)$!" ZEN_TOTAL_LETRAS="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_TOTAL_LETRAS)$!" ZEN_LETRA_1="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_LETRA_1)$!" ZEN_LETRA_2="!find(entityid,zen_mod_for_per_*).$REFERENCE(ZEN_LETRA_2)$!" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ele_zen_11_per" DEF="11mm.group" GUID="7cf61151-786a-4491-9363-9eb1fa9a1e65" />
+    <EXPLORERITEM TYPE="group" ID="zen_ele_zen_48_per" DEF="48mm.group" GUID="1e7a22c0-9224-4b47-971d-652d69651f9c" />
+    <EXPLORERITEM TYPE="group" ID="zen_ele_zen_128_per" DEF="128mm.group" GUID="37c18b99-a6ee-43c1-b660-38dd22676890" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="gaveta_int_1" Description="Sapateira\Nova categoria\Interna" EntityId="ESC_GAV_INT" GroupName="Montante" Name="Interna" Type="Drawer">
+  <Dimension Depth="@(($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 300 ? 250 : ($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &gt;= 300 &amp;&amp; $P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 350 ? 300 : ($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &gt;= 350 &amp;&amp; $P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 400 ? 350 : ($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &gt;= 400 &amp;&amp; $P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 450 ? 400 : ($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &gt;= 450 &amp;&amp; $P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 500 ? 450 : ($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &gt;= 500 &amp;&amp; $P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 550 ? 500 : ($P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &gt;= 550 &amp;&amp; $P.D$-#VAO_GAV#-#RECUO_PRAT_CPORTA# &lt; 600 ? 550 : 600))))))))" Height="$P.H$" Width="$P.W$" />
+  <Position Y="-$P.D$+#RECUO_PRAT_CPORTA#+(#DOR_ESP_FRE_GAV_INT#+#FOL_PAI#)" />
+  <Components>
+    <LeftLateral EntityId="ESC_CAI_INT_AFA" Id="gaveta_afast_esq">
+      <Dimension Depth="$P.D$" Height="$P.H$" />
+      <Position X="#DIM_AFA#" Y="0" Rotation="180" />
+    </LeftLateral>
+    <RightLateral EntityId="ESC_CAI_INT_AFA_DIR" Id="gaveta_afast_dir">
+      <Dimension Depth="$P.D$" Height="$P.H$" />
+      <Position X="$P.W$-#DIM_AFA#" Y="0" Rotation="0" />
+    </RightLateral>
+  </Components>
+  <Variables>
+    <Variable Id="DrawingType" Value="DrawerFront" />
+    <Variable Id="DefaultDrawersQuantity" Value="4" />
+    <Variable Id="UpperDrawersOffset" Value="#ESC_FOL_ENT_GAV#" />
+    <Variable Id="LowerDrawersOffset" Value="#ESC_FOL_ENT_GAV#" />
+    <Variable Id="SpaceBetweenDrawers" Value="#ESC_FOL_ENT_GAV#" />
+    <Variable Id="LeftDrawersOffset" Value="0" />
+    <Variable Id="RightDrawersOffset" Value="0" />
+    <Variable Id="DefaultFallback" Value="#RECUO_PRAT_CPORTA#" />
+    <Variable Id="LeftSeparators" Value="gaveta_afast_esq" />
+    <Variable Id="RightSeparators" Value="gaveta_afast_dir" />
+    <Variable Id="EditableSeparators" Value="gaveta_afast_esq;gaveta_afast_dir" />
+  </Variables>
+</Item>

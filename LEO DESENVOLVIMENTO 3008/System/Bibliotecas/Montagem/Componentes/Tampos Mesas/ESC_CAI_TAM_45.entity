@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="45°" TYPE="GEOMETRY" ICON="ESC_CAI_TAM_45.jpg">
+  <INSERTDIMENSION HEIGHT="@(#ESP_TAM#+#FOL_PAI#)" WIDTH="1000" DEPTH="10000" TEXT="">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <DRAWING>
+    <FILE3D NAME="45" />
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="600" Y="-1000" />
+      <PONTO2DA X="1000" Y="-660" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_AB" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="A" VALUE="550" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="550" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Tampo 45°" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

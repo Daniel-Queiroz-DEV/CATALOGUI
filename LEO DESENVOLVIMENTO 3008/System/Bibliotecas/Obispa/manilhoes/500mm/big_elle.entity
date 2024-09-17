@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Big Elle ($TEXT$)" ICON="big_elle.jpg">
+  <DRAWING>
+    <FILE3D NAME="big_elle" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="31" HEIGHT="530" DEPTH="60" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="200.011 AS" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_Big_Ell" ENTRYID="puxadorea" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Big Elle 500mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="Manilhoes_elle" />
+</ENTITY>

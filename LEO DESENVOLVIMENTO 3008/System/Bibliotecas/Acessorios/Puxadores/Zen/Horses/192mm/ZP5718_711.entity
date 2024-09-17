@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Escovado c/ Couro Branco ($TEXT$.$D.ACAB$)" ICON="Horses_192mm.jpg">
+  <INSERTDIMENSION WIDTH="231" HEIGHT="40" DEPTH="32" TEXT="ZP5718" ACAB="711" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Horses 192mm Níquel Escovado c/ Couro Branco" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR_DET" NAME="PUXADOR_DET" IDMATERIAL="zen_couro_branco" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

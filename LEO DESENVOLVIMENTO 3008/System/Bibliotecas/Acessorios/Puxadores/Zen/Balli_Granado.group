@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Balli_Granado" NAME="Balli Granado" PREFIXID="zen_bal_gra_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bal_pon" DEF="Ponto.group" GUID="88890a19-0d9a-4604-a053-a8e3fe7c0791" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BALLI_GRANADO_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Balli_Granado_Ponto" />
+      <DIMENSION WIDTH="18.3" HEIGHT="18.6" DEPTH="28.5" />
+      <LIMITS>
+        <MIN X="-9.555" Y="-28.5" Z="-9.302" />
+        <MAX X="8.783" Y="0" Z="9.302" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

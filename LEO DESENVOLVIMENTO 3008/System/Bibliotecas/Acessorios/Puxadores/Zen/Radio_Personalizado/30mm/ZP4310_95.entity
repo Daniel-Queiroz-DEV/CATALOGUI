@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pint Titanio ($TEXT$.$D.ACAB$)" ICON="Radio.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_pint_titanio" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_pint_titanio" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Radio Grande 30mm Pint Titanio - !find(entityid,zen_mod_for_per_*).#DESCRIPTION#!" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="36.5" HEIGHT="37.8" DEPTH="19.6" TEXT="ZP4310" ACAB="95" TEXT_PER_HOR_CEN="ZP4310" />
+</ENTITY>

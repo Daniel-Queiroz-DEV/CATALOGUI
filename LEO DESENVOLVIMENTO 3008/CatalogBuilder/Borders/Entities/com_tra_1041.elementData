@@ -1,0 +1,142 @@
+{
+  "ElementId": "com_tra_1041",
+  "Edges": [
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "40"
+      },
+      "RightPoint": {},
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "com_tra_1041",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 0.55,
+          "Y": 40.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1,
+          "Y": 40.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1,
+          "Y": 40.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 0.55
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.1
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.1
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RASP#"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda02",
+      "LayerName": "BORDA",
+      "Thickness": {
+        "Value": "#ESP_BORDA_1#"
+      },
+      "CutOffset": {
+        "Value": "#SOBRE_CORTE_CHAPA#"
+      },
+      "SideCutOffset": {
+        "Value": "#SOBRE_CORTE_BORDA#"
+      },
+      "Index": 1,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "1000"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "40"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "com_tra_1041",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.45
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_1#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.45,
+          "Y": 40.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.9,
+          "Y": 40.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.9,
+          "Y": 40.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "#RAIO_BORDA_RESP#"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

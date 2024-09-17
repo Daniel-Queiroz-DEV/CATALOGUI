@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="p/ Fech Papaiz C200/357 ($TEXT$)" ICON="Vita_Aplique.jpg" CHECKED="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="46" HEIGHT="46" DEPTH="49" TEXT="ZP0764.02" ACAB="">
+    <MIN DEPTH="20" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vita Aplique para Fechadura Papaiz C200/357 @zen*(NAME)@ (PAR)" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="44.5" FORMULA="$D$-4.5">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-31.68545" V="19.55122" />
+              <CORNER2 U="30.87947" V="-12.99064" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="157" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-168.5623" V="213.7429" />
+              <CORNER2 U="161.3773" V="78.56712" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="157" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-185.8427" V="-80.02266" />
+              <CORNER2 U="177.3371" V="-207.0633" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

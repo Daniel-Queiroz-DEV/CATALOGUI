@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Div Int AvantBox_2" NAME="PORTA TALHER TETRIX UNV CHAMPAGNE" PREFIXID="Sta_Fgv_Ava_kit_">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="start_met_005" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="@('#INT_MCM#' == 'TRUE'? 'TRUE' : 'FALSE')" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="PEDIDOFABRICA" VALUE="True" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_2" DEF="Sta_Fgv_Ava_300T_2.entity" GUID="eda0dc70-1cae-4eb2-89a6-e93a3a1a73fa" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_400T_2" DEF="Sta_Fgv_Ava_400T_2.entity" GUID="7a13c76a-539e-4ac7-840d-166bc93cb048" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_500T_2" DEF="Sta_Fgv_Ava_500T_2.entity" GUID="7dfa1935-3f92-43d0-9308-7d63ddb18479" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_600T_2" DEF="Sta_Fgv_Ava_600T_2.entity" GUID="7458f909-2269-4add-acb0-afe2c2291f3f" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T" DEF="Sta_Fgv_Ava_300T.entity" GUID="95c9f06f-c313-48f6-96b1-dd47d91e349c" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_2_2" DEF="Sta_Fgv_Ava_300T_2_2.entity" GUID="67b04bd9-1890-4eda-8472-95875ad432a8" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_400T" DEF="Sta_Fgv_Ava_400T.entity" GUID="ec7ef3ca-3375-45e7-8e5a-94f76a62ed9e" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_400T_2_2" DEF="Sta_Fgv_Ava_400T_2_2.entity" GUID="b1a80535-b0f5-43a8-aa0d-2bb593997fb4" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_500T" DEF="Sta_Fgv_Ava_500T.entity" GUID="2a35eb3b-4606-4ce4-beb8-6f88c0438a42" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_500T_2_2" DEF="Sta_Fgv_Ava_500T_2_2.entity" GUID="4b6d431c-2101-44ec-a8cb-2256a15d8e6b" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_600T" DEF="Sta_Fgv_Ava_600T.entity" GUID="d93a4052-0b10-448b-bb88-2e7b9ae1d8fd" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_600T_2_2" DEF="Sta_Fgv_Ava_600T_2_2.entity" GUID="22b3020e-e3fb-4829-89f5-d90632423cf1" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3" DEF="Sta_Fgv_Ava_300T_3.entity" GUID="71592fdc-b815-4f8b-b478-864031c8e6a3" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_2" DEF="Sta_Fgv_Ava_300T_3_2.entity" GUID="92b5a27a-d6b1-49a8-b75f-f642c3c159ff" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_2_2" DEF="Sta_Fgv_Ava_300T_3_2_2.entity" GUID="625c7d64-fd3e-4146-b9c7-975ea6b537e3" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3" DEF="Sta_Fgv_Ava_300T_3_3.entity" GUID="22da6f70-d571-4d87-9042-cd361598032d" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_3" DEF="Sta_Fgv_Ava_300T_3_3_3.entity" GUID="959e1ebe-85e4-4e36-a3d3-411b44197999" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_3_2" DEF="Sta_Fgv_Ava_300T_3_3_3_2.entity" GUID="e8ec25f2-b033-4098-871e-fd8df2759ac5" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_2" DEF="Sta_Fgv_Ava_300T_3_3_2.entity" GUID="136c460d-74cd-4cc7-b50b-2db74ea79258" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_2_3" DEF="Sta_Fgv_Ava_300T_3_3_2_3.entity" GUID="657f74b5-45f0-4923-90ad-f53183d46271" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_2_3_2" DEF="Sta_Fgv_Ava_300T_3_3_2_3_2.entity" GUID="9f8fb196-88ec-4928-8081-8e647c84b26c" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_2_2" DEF="Sta_Fgv_Ava_300T_3_3_2_2.entity" GUID="b91b8e0b-36db-4a2b-9ad8-794fc5e71d6b" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_2_2_2" DEF="Sta_Fgv_Ava_300T_3_3_2_2_2.entity" GUID="a6c94aa4-e025-425b-82c5-eb8d8500ac0c" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Fgv_Ava_300T_3_3_2_2_2_2" DEF="Sta_Fgv_Ava_300T_3_3_2_2_2_2.entity" GUID="25b3a049-5b18-4170-88e8-071e907efecc" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

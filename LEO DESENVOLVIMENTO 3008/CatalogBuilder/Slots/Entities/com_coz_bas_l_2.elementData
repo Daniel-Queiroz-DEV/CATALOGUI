@@ -1,0 +1,136 @@
+{
+  "Slots": [
+    {
+      "Name": "Rasgo1",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "X": "-12,49674",
+        "Y": "998,864"
+      },
+      "End": {
+        "X": "987,5032",
+        "Y": "998,864"
+      },
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#' == 'Rasgo'&&'#RECORTE#'=='SIM'"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "PlaneType": "Superior",
+      "Position": {
+        "X": "-12,49674",
+        "Y": "998,864"
+      },
+      "ElementId": "com_coz_bas_l_2"
+    },
+    {
+      "Name": "Rasgo02",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Vertical",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "X": "0",
+        "Y": "0"
+      },
+      "End": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#' == 'Rasgo'"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "Position": {
+        "X": "0",
+        "Y": "0"
+      },
+      "ElementId": "com_coz_bas_l_2"
+    },
+    {
+      "Name": "Rebaixo2",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Vertical",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "X": "0",
+        "Y": "0"
+      },
+      "End": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#' == 'Rebaixo'"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "Position": {
+        "X": "0",
+        "Y": "0"
+      },
+      "ElementId": "com_coz_bas_l_2"
+    },
+    {
+      "Name": "Rebaixo02",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#RFB_GEN#+#FOL_RASGO_PROF_GEN#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#ESP_FUN_GEN#+#FOL_RASGO_LARG_GEN#+#FOL_AJU_TRA#"
+      },
+      "Start": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "End": {
+        "X": "1000",
+        "Y": "1000"
+      },
+      "Condition": {
+        "Expression": "'#TIPO_FUNDO#'=='Rebaixo'&&'#RECORTE#'=='SIM'"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 4,
+      "PlaneType": "Superior",
+      "Position": {
+        "X": "0",
+        "Y": "1000"
+      },
+      "ElementId": "com_coz_bas_l_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_l_2"
+}

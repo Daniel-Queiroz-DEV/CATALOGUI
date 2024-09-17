@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Beetle_Granado" NAME="Beetle c/ Base Granada" PREFIXID="zen_bee_bas_gra_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bee_bas_gra_pon_2" DEF="Ponto.group" GUID="b0f5902a-1648-47f8-80bd-09418f35c815" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="BEETLE_PONTO_BASE_GRANADA">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\BEETLE_BASE_GRANADA" />
+      <DIMENSION WIDTH="40" HEIGHT="30" DEPTH="22" />
+      <LIMITS>
+        <MIN X="-20" Y="-22" Z="-15" />
+        <MAX X="20" Y="0" Z="15" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

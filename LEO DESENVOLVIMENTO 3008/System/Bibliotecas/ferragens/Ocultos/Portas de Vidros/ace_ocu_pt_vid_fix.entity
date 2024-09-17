@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fixador" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="dobradicaportavidro" FORMAT=".dxf" />
+    <LIMITS>
+      <MIN X="0" Y="-60" Z="0" />
+      <MAX X="50" Y="0" Z="70" />
+    </LIMITS>
+    <DIMENSION WIDTH="50" HEIGHT="70" DEPTH="60" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="50" HEIGHT="70" DEPTH="60" TEXT="" />
+</ENTITY>

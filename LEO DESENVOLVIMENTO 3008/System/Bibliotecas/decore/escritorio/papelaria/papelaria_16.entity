@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pasta Suspensa" ICON="PAPELARIA_16.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="PAPELARIA_16" />
+    <DIMENSION WIDTH="390" HEIGHT="240" DEPTH="20" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_PASTA" ID="DEC_PASTA" EDIT="Y" IDMATERIAL="div_diversos_pasta suspensa" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Pasta Suspensa" />
+    <ATTRIBUTE ID="ModuleType" VALUE="INTERNAL" />
+  </ATTRIBUTES>
+</ENTITY>

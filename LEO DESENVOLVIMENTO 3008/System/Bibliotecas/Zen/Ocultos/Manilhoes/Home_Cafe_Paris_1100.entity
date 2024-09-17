@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Café Paris 1100" INVISIBLE="N" MODELINVISIBLE="N" ICON="Home_Cafe_Paris_1100.jpg">
+  <DRAWING>
+    <DIMENSION WIDTH="40" HEIGHT="1100" DEPTH="126" />
+    <FILE3D NAME="Home_Cafe_Paris_1100" />
+    <LIMITS>
+      <MIN X="-20" Y="-42.997" Z="-550" />
+      <MAX X="20" Y="82.997" Z="550" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Café Paris 1100" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_hom_dup_caf" ENTRYID="pux_zen" />
+  </MODELS>
+  <INSERTDIMENSION HEIGHT="1100" WIDTH="40" DEPTH="126">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_caf_1100" MODEL="Zen_man_hom_dup_caf" MODELTYPE="Zen_man_hom_caf_A45" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_caf_1100" MODEL="Zen_man_hom_dup_caf" MODELTYPE="Zen_man_hom_caf_B45" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_caf_1100" MODEL="Zen_man_hom_dup_caf" MODELTYPE="Zen_man_hom_caf_F45" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_caf_1100" MODEL="Zen_man_hom_dup_caf" MODELTYPE="Zen_man_hom_caf_G45" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_caf_1100" MODEL="Zen_man_hom_dup_caf" MODELTYPE="Zen_man_hom_caf_L45" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_hom_caf_1100" MODEL="Zen_man_hom_dup_caf" MODELTYPE="Zen_man_hom_caf_M45" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="83" FORMULA="$D$-43">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.28764" V="19.60412" />
+              <CORNER2 U="75.65301" V="-81.14841" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

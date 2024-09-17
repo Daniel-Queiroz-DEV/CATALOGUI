@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Big Farm" NAME="Big Farm" PREFIXID="zen_big_far_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="BIGFARM_16mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\big_farm" />
+      <DIMENSION WIDTH="90" HEIGHT="150" DEPTH="70" />
+      <LIMITS>
+        <MIN X="-48.097" Y="-70.464" Z="-126.812" />
+        <MAX X="41.903" Y="-0.463" Z="23.188" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_big_far_16_cou_azu" DEF="16mm_Couro_Azul.group" GUID="d6aee009-108b-4c1b-84c8-670c45b91fda" />
+    <EXPLORERITEM TYPE="group" ID="zen_big_far_16_cou_bra" DEF="16mm_Couro_Branco.group" GUID="3e7c9c34-7f47-4964-9297-7d82ce25c4ed" />
+    <EXPLORERITEM TYPE="group" ID="zen_big_far_16_cou_mar" DEF="16mm_Couro_Marrom.group" GUID="1115302f-0f55-455f-8543-220ca2c104e4" />
+    <EXPLORERITEM TYPE="group" ID="zen_big_far_16_cou_pre" DEF="16mm_Couro_Preto.group" GUID="be98b573-8f40-4745-9354-efb1a06576b4" />
+    <EXPLORERITEM TYPE="group" ID="zen_big_far_16_cou_ver" DEF="16mm_Couro_Vermelho.group" GUID="5906e5da-ddb6-4ecd-8707-cfee7f9e7ff1" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Concha" ICON="TALHER_10.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Concha" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TALHER_10" />
+    <DIMENSION WIDTH="121" HEIGHT="345.2" DEPTH="95,3" />
+    <LIMITS>
+      <MIN X="-0.5" Y="-94.755" Z="-0.5" />
+      <MAX X="120.51" Y="0.5" Z="344.71" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_INOX" ID="DEC_INOX" EDIT="Y" IDMATERIAL="Inox_01" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

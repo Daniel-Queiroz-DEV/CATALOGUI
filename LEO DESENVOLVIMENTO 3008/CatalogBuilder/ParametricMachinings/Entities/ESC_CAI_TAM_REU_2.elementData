@@ -1,0 +1,28 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#ESC_USI_LARG#"
+      },
+      "Height": {
+        "Value": "#ESC_USI_PROF#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "RASGO_REUNIAO",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$/2-#ESC_USI_LARG#/2",
+        "Y": "$D$/2-#ESC_USI_PROF#/2"
+      },
+      "ElementId": "ESC_CAI_TAM_REU_2"
+    }
+  ],
+  "ElementId": "ESC_CAI_TAM_REU_2"
+}

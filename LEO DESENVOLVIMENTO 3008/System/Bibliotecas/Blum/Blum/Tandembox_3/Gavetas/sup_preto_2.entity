@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Peça De Apoio" INVISIBLE="N" TYPE="GEOMETRY">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <DRAWING>
+    <FILE3D NAME="fgv_gav_com_1153_2_2_2" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Peça De Apoio" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="50" HEIGHT="50" DEPTH="15" TEXT="04412881" DESC="" />
+  <REFERENCE COMPLETE="$TEXT$$DESC$" DESC="$D.DESC$" MODEL="@Blu_Legrabox*@" ACAB="@Blu_Legrabox(ACABAMENTO)@" VOLUME="VOLFER" FERRAGEM="SIM" />
+</ENTITY>

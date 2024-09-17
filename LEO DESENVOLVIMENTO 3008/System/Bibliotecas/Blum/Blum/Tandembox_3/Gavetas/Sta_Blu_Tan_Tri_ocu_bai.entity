@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lateral Legrabox Baixa">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REMOVEAGGREGATECOLLECTION>
+    <REMOVEAGGREGATE ID="Sta_Blu_Met_Fur" />
+  </REMOVEAGGREGATECOLLECTION>
+  <DRAWING>
+    <FILE3D NAME="770k4002s_468729822" />
+    <DIMENSION WIDTH="233.3" HEIGHT="91.4" DEPTH="393.5" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="90,5" DEPTH="500" TEXT="">
+    <MIN WIDTH="1" DEPTH="500" />
+    <MAX WIDTH="1200" DEPTH="500" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Lateral Legrabox Baixa" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox" ENTRYID="Sta_Blu" />
+  </MODELS>
+</ENTITY>

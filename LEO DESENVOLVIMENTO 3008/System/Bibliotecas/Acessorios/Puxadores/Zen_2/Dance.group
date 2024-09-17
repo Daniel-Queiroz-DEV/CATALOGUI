@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Dance" NAME="Dance" PREFIXID="zen_dan_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_dan_192_2" DEF="192mm.group" GUID="3a99e4fb-c755-44ad-a893-66077938ce85" />
+    <EXPLORERITEM TYPE="group" ID="zen_dan_288_2" DEF="288mm.group" GUID="68e9056d-ab42-4b89-95e8-7926f519adcf" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="DANCE_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DANCE_192MM" />
+      <DIMENSION WIDTH="201" HEIGHT="16" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-100.5" Y="-28" Z="-8" />
+        <MAX X="100.5" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="DANCE_288MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\DANCE_288MM" />
+      <DIMENSION WIDTH="288" HEIGHT="16" DEPTH="28" />
+      <LIMITS>
+        <MIN X="-144" Y="-28" Z="-8" />
+        <MAX X="144" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

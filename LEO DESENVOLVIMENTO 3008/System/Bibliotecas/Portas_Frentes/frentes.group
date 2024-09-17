@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="frentes" NAME="Frentes" PREFIXID="POR_FRE_" INVISIBLE="Y" MODELINVISIBLE="N">
+  <BUDGET>
+    <INFORMATION RULE="UN" />
+    <STEPS />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="PORTAS" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ESPESSURA" VALUE="@($D$-#FOL_PAI#)" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_POR" VALUE="@(#P.ESP_POR_GEN# &gt;= 01 ? #P.ESP_POR_GEN# : #COM_ESP_POR#+#FOL_PAI#)" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="LEO_COD_CARTELA" VALUE="0" VISIBLE="Y" />
+  </ATTRIBUTES>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE" DEF="POR_FRE_FRE.entity" GUID="fd8bff05-f0c5-4233-b32b-9d6537f9ef49" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE_Y" DEF="POR_FRE_FRE_6.entity" GUID="dacfab59-d7f2-4d4f-8216-0f594fd945d8" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE_6" DEF="POR_FRE_FRE_5.entity" GUID="5ad9d2a5-e4f8-4830-9df4-957772d92be7" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_COZ_YELLOW" DEF="POR_FRE_FRE_7.entity" GUID="c893c1b9-d00f-40a6-ac7f-fffece8a5024" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE_5" DEF="POR_FRE_FRE_4.entity" GUID="0b19cd2a-fa51-4619-b191-dc3e81254b5f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE_3" DEF="POR_FRE_FRE_3.entity" GUID="0c660256-f166-41b1-848e-e084b3f347ad" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE_3_2" DEF="POR_FRE_FRE_3_2.entity" GUID="06feef3d-dea9-432f-8b9b-a378fcc24cfc" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FRE_2" DEF="POR_FRE_FRE_2.entity" GUID="976877db-a256-4bd9-b8ba-35e29b07f106" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_TEMPERO" DEF="POR_FRE_1043.entity" GUID="5ad1bdbb-88df-43f3-af6f-b20cdca1816d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_TEMPERO_4" DEF="POR_FRE_1043_4.entity" GUID="9b2791d4-df2d-4796-8f6c-2259d0c60bbb" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_TEMPERO_3" DEF="POR_FRE_1043_3.entity" GUID="479d984b-aeec-4ab4-add8-e5b08906609e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_TEMPERO_2" DEF="POR_FRE_1043_2.entity" GUID="0c3b9571-f4b8-48a8-a4df-4f7fd61bb96b" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_INT" DEF="POR_FRE_2463.entity" GUID="f47820f8-2780-4653-a389-b0eb7bdeb0df" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_INT_Y" DEF="POR_FRE_2463_3.entity" GUID="515b0a16-77c6-4cf0-9f27-c10772ce9212" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_INT_2" DEF="POR_FRE_2463_2.entity" GUID="2eb6d106-b901-4b68-b8a9-9ef1cb991626" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_ESC" DEF="POR_FRE_ESC.entity" GUID="16757271-e900-4f10-835b-93a4eaf90049" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_FEC" DEF="POR_FRE_FEC.entity" GUID="59b9f71d-039c-44cc-b3fa-9b05992cf4b2" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_PAS" DEF="POR_FRE_PAS.entity" GUID="ffb66f44-47b9-4d6a-965a-a728b76cdbb5" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_fre_sap" DEF="com_coz_div_fre_sap.entity" GUID="72bb7c5f-241a-4ec1-aa01-9764536ecc48" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_fre_sap_Y" DEF="com_coz_div_fre_sap_3.entity" GUID="3c2b0ef9-ac3d-4db8-93c7-2034bce13107" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_div_fre_sap_2" DEF="com_coz_div_fre_sap_2.entity" GUID="8581f671-cc2b-4d6a-a1f9-1c96b895313c" />
+    <EXPLORERITEM TYPE="entity" ID="com_gav_fre_esc_2" DEF="com_gav_fre_esc.entity" GUID="2161fe3a-7820-40d4-a8b5-d0e3773a3519" />
+    <EXPLORERITEM TYPE="entity" ID="POR_FRE_INT_SER" DEF="POR_FRE_2463_4.entity" GUID="4a90f3ae-6bc7-4769-9210-cbe7c37167f8" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

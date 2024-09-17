@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Calço Dob Parcial" ICON="Comp Dob Reta.jpg">
+  <DRAWING>
+    <FILE3D NAME="dobradica" />
+    <BOUNDINGBOX HEIGHT="8.5">
+      <PONTO2DA X="-26.5" Y="-6.5" />
+      <PONTO2DA X="-26.33" Y="-7.79" />
+      <PONTO2DA X="-25.83" Y="-9" />
+      <PONTO2DA X="-25.04" Y="-10.04" />
+      <PONTO2DA X="-24" Y="-10.83" />
+      <PONTO2DA X="-22.79" Y="-11.33" />
+      <PONTO2DA X="-21.5" Y="-11.5" />
+      <PONTO2DA X="21.5" Y="-11.5" />
+      <PONTO2DA X="22.79" Y="-11.33" />
+      <PONTO2DA X="24" Y="-10.83" />
+      <PONTO2DA X="25.04" Y="-10.04" />
+      <PONTO2DA X="25.83" Y="-9" />
+      <PONTO2DA X="26.33" Y="-7.79" />
+      <PONTO2DA X="26.5" Y="-6.5" />
+      <PONTO2DA X="26.5" Y="6.5" />
+      <PONTO2DA X="26.33" Y="7.79" />
+      <PONTO2DA X="25.83" Y="9" />
+      <PONTO2DA X="25.04" Y="10.04" />
+      <PONTO2DA X="24" Y="10.83" />
+      <PONTO2DA X="22.79" Y="11.33" />
+      <PONTO2DA X="21.5" Y="11.5" />
+      <PONTO2DA X="-21.5" Y="11.5" />
+      <PONTO2DA X="-22.79" Y="11.33" />
+      <PONTO2DA X="-24" Y="10.83" />
+      <PONTO2DA X="-25.04" Y="10.04" />
+      <PONTO2DA X="-25.83" Y="9" />
+      <PONTO2DA X="-26.33" Y="7.79" />
+      <PONTO2DA X="-26.5" Y="6.5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-26.5" Y="-20.5" Z="-8.532" />
+      <MAX X="26.5" Y="21" Z="0" />
+    </LIMITS>
+    <DIMENSION WIDTH="53" HEIGHT="8.5" DEPTH="41.5" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="inox_01" EDIT="N" />
+    <COMPONENTDEFINITION ID="AUX" NAME="AUX" IDMATERIAL="inox_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="53" HEIGHT="8.5" DEPTH="41.5" TEXT=" " />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Componente Dobradiça Reta" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Puxadores_portas" NAME="Manilhões/Puxadores p/ Portas de Passagem" INVISIBLE="N" PREFIXID="zen_man_">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioConserv_BordaConserv_L_A" />
+  <DRAWINGS>
+    <DRAWING ID="Acqua_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\aqua_duplo" />
+      <DIMENSION WIDTH="106.8" HEIGHT="107.5" DEPTH="128.9" />
+      <LIMITS>
+        <MIN X="-54.237" Y="-44.452" Z="-53.7" />
+        <MAX X="52.516" Y="84.452" Z="53.801" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Acqua_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\aqua" />
+      <DIMENSION WIDTH="106.8" HEIGHT="107.5" DEPTH="44.5" />
+      <LIMITS>
+        <MIN X="-54.237" Y="-44.452" Z="-53.7" />
+        <MAX X="52.516" Y="0" Z="53.801" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Anello_Sem_Desenho">
+      <LIMITS>
+        <MIN X="-22" Y="-73" Z="-368" />
+        <MAX X="22" Y="113" Z="368" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Anello_Sem_Desenho" />
+      <DIMENSION WIDTH="44" HEIGHT="736" DEPTH="186" />
+    </DRAWING>
+    <DRAWING ID="Home_Sem_Desenho">
+      <LIMITS>
+        <MIN X="-22" Y="-44" Z="-368" />
+        <MAX X="22" Y="84" Z="368" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Home_Sem_Desenho" />
+      <DIMENSION WIDTH="44" HEIGHT="736" DEPTH="128" />
+    </DRAWING>
+    <DRAWING ID="Bari_Duplo_Com_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Bari_Duplo_Com_Aplique" />
+      <DIMENSION WIDTH="24" HEIGHT="314" DEPTH="86" />
+      <LIMITS>
+        <MIN X="-12" Y="-23" Z="-157" />
+        <MAX X="12" Y="63" Z="157" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Bari_Duplo_Sem_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Bari_Duplo_Sem_Aplique" />
+      <DIMENSION WIDTH="12" HEIGHT="308" DEPTH="80" />
+      <LIMITS>
+        <MIN X="-6" Y="-20" Z="-154" />
+        <MAX X="6" Y="60" Z="154" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Bari_Simples_Com_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Bari_Simples_Com _Aplique" />
+      <DIMENSION WIDTH="24" HEIGHT="314" DEPTH="23" />
+      <LIMITS>
+        <MIN X="-12" Y="-23" Z="-157" />
+        <MAX X="12" Y="0" Z="157" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Bari_Simples_Sem_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Bari_Simples_Sem_Aplique" />
+      <DIMENSION WIDTH="12" HEIGHT="297.5" DEPTH="20" />
+      <LIMITS>
+        <MIN X="-6" Y="-20" Z="-148.766" />
+        <MAX X="6" Y="0" Z="148.766" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Big_Living_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Big_Living_Duplo" />
+      <DIMENSION WIDTH="60" HEIGHT="736" DEPTH="132.6" />
+      <LIMITS>
+        <MIN X="-31.175" Y="-46.297" Z="-368" />
+        <MAX X="28.825" Y="86.297" Z="368" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Big_Living_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Big_Living_Simples" />
+      <DIMENSION WIDTH="60" HEIGHT="736" DEPTH="46.3" />
+      <LIMITS>
+        <MIN X="-30" Y="-46.297" Z="-368" />
+        <MAX X="30" Y="0" Z="368" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Home_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Home_Duplo" />
+      <DIMENSION WIDTH="40" HEIGHT="400" DEPTH="140" />
+      <LIMITS>
+        <MIN X="-20" Y="-50" Z="-200" />
+        <MAX X="20" Y="90" Z="200" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Home_Duplo_Wood">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Home_Duplo_Wood" />
+      <DIMENSION WIDTH="40" HEIGHT="400" DEPTH="133" />
+      <LIMITS>
+        <MIN X="-20" Y="-46.5" Z="-200" />
+        <MAX X="20" Y="86.5" Z="200" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Home_Duplo_Stone">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Home_Duplo_Stone" />
+      <DIMENSION WIDTH="40" HEIGHT="400" DEPTH="140" />
+      <LIMITS>
+        <MIN X="-20" Y="-50" Z="-200" />
+        <MAX X="20" Y="90" Z="200" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Inca_Simples">
+      <DIMENSION WIDTH="80" HEIGHT="70" DEPTH="14.8" />
+      <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="15">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+        <SHAPE>
+          <POINT2DG X="-22" NAME="" />
+        </SHAPE>
+      </HOLE>
+      <LIMITS>
+        <MIN X="-44.567" Y="-2" Z="-28.392" />
+        <MAX X="35.433" Y="12.8" Z="41.608" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Inca_Simples" />
+    </DRAWING>
+    <DRAWING ID="Living_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Living_Duplo" />
+      <DIMENSION WIDTH="30" HEIGHT="436" DEPTH="130" />
+      <LIMITS>
+        <MIN X="-15" Y="-45" Z="-218" />
+        <MAX X="15" Y="85" Z="218" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Living_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Living_Simples" />
+      <DIMENSION WIDTH="30" HEIGHT="436" DEPTH="45" />
+      <LIMITS>
+        <MIN X="-15" Y="-45" Z="-218" />
+        <MAX X="15" Y="0" Z="218" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Moma_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Moma_Duplo" />
+      <DIMENSION WIDTH="15" HEIGHT="436" DEPTH="156" />
+      <LIMITS>
+        <MIN X="-7.5" Y="-58" Z="-218" />
+        <MAX X="7.5" Y="98" Z="218" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Moma_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Moma_Simples" />
+      <DIMENSION WIDTH="15" HEIGHT="436" DEPTH="58" />
+      <LIMITS>
+        <MIN X="-7.5" Y="-58" Z="-218" />
+        <MAX X="7.5" Y="0" Z="218" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Nazca_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Nazca_Simples" />
+      <LIMITS>
+        <MIN X="-40" Y="-2" Z="-35" />
+        <MAX X="40" Y="12.8" Z="35" />
+      </LIMITS>
+      <DIMENSION WIDTH="80" HEIGHT="70" DEPTH="14.8" />
+      <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="15">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+      </HOLE>
+    </DRAWING>
+    <DRAWING ID="Nord_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Nord_Duplo" />
+      <DIMENSION WIDTH="35" HEIGHT="336" DEPTH="100" />
+      <LIMITS>
+        <MIN X="-17.5" Y="-30" Z="-168" />
+        <MAX X="17.5" Y="70" Z="168" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Nord_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Nord_Simples" />
+      <DIMENSION WIDTH="35" HEIGHT="336" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-17.5" Y="-30" Z="-168" />
+        <MAX X="17.5" Y="0" Z="168" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ramp_Duplo_Pux_Toalheiro">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ramp_Duplo_Pux_Toalheiro" />
+      <DIMENSION WIDTH="514" HEIGHT="315.7" DEPTH="207.3" />
+      <LIMITS>
+        <MIN X="-12.5" Y="-83.669" Z="-14.232" />
+        <MAX X="501.5" Y="123.669" Z="301.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ritz_Duplo_Com_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ritz_Duplo_Com_Aplique" />
+      <DIMENSION WIDTH="63" HEIGHT="363" DEPTH="172" />
+      <LIMITS>
+        <MIN X="-31.5" Y="-66" Z="-181.5" />
+        <MAX X="31.5" Y="106" Z="181.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ritz_Duplo_Sem_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ritz_Duplo_Sem_Aplique" />
+      <DIMENSION WIDTH="24" HEIGHT="324" DEPTH="158" />
+      <LIMITS>
+        <MIN X="-12" Y="-59" Z="-162" />
+        <MAX X="12" Y="99" Z="162" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ritz_Duplo_Pux_Toalheiro">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ritz_Duplo_Pux_Toalheiro" />
+      <DIMENSION WIDTH="363" HEIGHT="363" DEPTH="172" />
+      <LIMITS>
+        <MIN X="-31.5" Y="-66" Z="-31.5" />
+        <MAX X="331.5" Y="106" Z="331.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ritz_Simples_Com_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ritz_Simples_Com_Aplique" />
+      <DIMENSION WIDTH="63" HEIGHT="363" DEPTH="66" />
+      <LIMITS>
+        <MIN X="-31.5" Y="-66" Z="-181.5" />
+        <MAX X="31.5" Y="0" Z="181.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ritz_Simples_Sem_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ritz_Simples_Sem_Aplique" />
+      <DIMENSION WIDTH="24" HEIGHT="324" DEPTH="59" />
+      <LIMITS>
+        <MIN X="-12" Y="-59" Z="-162" />
+        <MAX X="12" Y="0" Z="162" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Ritz_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Ritz_Aplique" />
+      <DIMENSION WIDTH="63" HEIGHT="63" DEPTH="5" />
+      <LIMITS>
+        <MIN X="-31.5" Y="-5.01" Z="-31.5" />
+        <MAX X="31.5" Y="0" Z="31.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Smart_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Smart_Simples" />
+      <DIMENSION WIDTH="44" HEIGHT="76" DEPTH="3" />
+      <LIMITS>
+        <MIN X="-22" Y="-3" Z="-38" />
+        <MAX X="22" Y="0" Z="38" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Smart_Simples_Furacao">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Smart_Simples_Furacao" />
+      <DIMENSION WIDTH="44.3" HEIGHT="172" DEPTH="5.8" />
+      <LIMITS>
+        <MIN X="-22.15" Y="-5.824" Z="-86" />
+        <MAX X="22.15" Y="0" Z="86" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Vitta_Duplo">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Vitta_Duplo" />
+      <DIMENSION WIDTH="46" HEIGHT="346.3" DEPTH="141" />
+      <LIMITS>
+        <MIN X="-23" Y="-50.505" Z="-173.147" />
+        <MAX X="23" Y="90.505" Z="173.147" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Vitta_Simples">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Vitta_Simples" />
+      <DIMENSION WIDTH="46" HEIGHT="346.3" DEPTH="50.5" />
+      <LIMITS>
+        <MIN X="-23" Y="-50.505" Z="-173.147" />
+        <MAX X="23" Y="0" Z="173.147" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Vitta_Aplique">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_portas\3D\Vitta_Aplique" />
+      <DIMENSION WIDTH="46" HEIGHT="46" DEPTH="49" />
+      <LIMITS>
+        <MIN X="-23" Y="-4.5" Z="-23" />
+        <MAX X="23" Y="44.5" Z="23" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_man_acq" DEF="Acqua_Di_Zen.group" GUID="c76486ed-d240-4575-83c6-591f350c35c1" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_ane" DEF="Anello.group" GUID="ac73adac-ee3f-4c78-ae97-ffa0bf8362c9" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_bar" DEF="Bari.group" GUID="9f3ed3b8-dbfa-4629-b8ae-596dab91df22" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_big_liv" DEF="Big Living.group" GUID="b66c7747-f8bd-4cf7-a8db-262193e24796" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_hom" DEF="Home.group" GUID="9960d190-8310-4a24-b4f7-0a9728205408" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_inc" DEF="Inca.group" GUID="f7045d0c-3f7e-496c-ac4b-88d7ea60fdf1" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_liv" DEF="Living.group" GUID="46559cd2-e82e-4794-b123-7256ff74608d" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_mom" DEF="moma.group" GUID="d24d8ec3-d50d-445b-8598-ec0698151494" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_naz" DEF="Nazca.group" GUID="bda49108-605c-4a3c-870f-a511ad62a3a7" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_nor" DEF="Nord.group" GUID="5ce02407-76d0-4b22-aac3-95e488af107a" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_ram" DEF="Ramp.group" GUID="1d505336-5cd1-4910-97b5-52e108aba601" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_rit" DEF="Ritz.group" GUID="cd2e1eef-3496-4ea2-b8ed-a3ba7b1ff894" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_sma" DEF="Smart.group" GUID="084cf06a-7b97-4944-b872-5312cf4bd7e1" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_vit" DEF="Vitta.group" GUID="300f7a89-1e65-465a-a325-253dd89c45a4" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_apl" DEF="Apliques.group" GUID="b3253763-db20-4447-89fc-561c248fa05e" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

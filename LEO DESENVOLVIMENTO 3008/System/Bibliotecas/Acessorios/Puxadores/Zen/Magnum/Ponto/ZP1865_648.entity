@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Cobre ($TEXT$.$D.ACAB$)" ICON="Magnum.jpg">
+  <INSERTDIMENSION TEXT="ZP1865" ACAB="648" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Magnum Ponto Vecchio Cobre" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_vec_cob" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Copacabana ($TEXT$)" ICON="copacabana.jpg">
+  <DRAWING>
+    <FILE3D NAME="copacabana" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="170" HEIGHT="31" DEPTH="82" />
+    <LIMITS>
+      <MIN X="0" Y="-31.648" Z="0" />
+      <MAX X="169.485" Y="0" Z="82.407" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="300.002" />
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab_mar" ENTRYID="pux_obi" />
+  </MODELS>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Obi_cab_mar@" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Copacabana" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

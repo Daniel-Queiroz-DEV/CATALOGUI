@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="PINO RASTEX" ICON="parafuso_mini.jpg" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="parafuso_min" />
+    <BOUNDINGBOX HEIGHT="10">
+      <PONTO2DA X="23.9" Y="-5" />
+      <PONTO2DA X="24.1" Y="-5" />
+      <PONTO2DA X="24.1" Y="5" />
+      <PONTO2DA X="23.9" Y="5" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="0" Y="-5" Z="-5" />
+      <MAX X="35" Y="5" Z="5" />
+    </LIMITS>
+    <DIMENSION WIDTH="35" HEIGHT="10" DEPTH="10" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="8" HEIGHT="31.5" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="31" HEIGHT="10" DEPTH="10" TEXT="PARMF" />
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" FERRAGEM="SIM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="PINO RASTEX" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

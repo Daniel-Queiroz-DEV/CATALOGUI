@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_slim_pon_">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_pt_cr" DEF="ZP0052_20.entity" GUID="1d3fbaf3-98fe-4806-b670-c6be88c3ff3b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_br_cr" DEF="ZP0052_22.entity" GUID="6081d86b-a200-4038-927f-5f5cae6de057" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_cr_cr" DEF="ZP0052_10.entity" GUID="1f583f8f-1056-4c40-a78d-e499763d6ef2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_cr_es" DEF="ZP0052_11.entity" GUID="f0f5aeb6-f8be-4485-adda-da7ea136db39" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_es_cr" DEF="ZP0052_12.entity" GUID="42db9bb1-999f-4486-8b4a-5f03074f5de0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_es_es" DEF="ZP0052_13.entity" GUID="5d150b1b-3351-4673-84c1-b950c0b21023" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_pt_es" DEF="ZP0052_21.entity" GUID="a0a2fa02-802c-4e19-b384-29aafbfdcec6" />
+    <EXPLORERITEM TYPE="entity" ID="zen_slim_zp0052_br_es" DEF="ZP0052_23.entity" GUID="2ccf0a35-8768-44d5-828c-96e9202349ca" />
+    <EXPLORERITEM TYPE="entity" ID="zen_145" DEF="ZP0052_40.entity" GUID="6e0a77af-cdd6-4bf2-8209-62232de5cfa0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_146" DEF="ZP0052_41.entity" GUID="80e9c87f-190a-4c31-a6a4-82f1ac93212e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_143" DEF="ZP0052_42.entity" GUID="45475bda-b36b-432c-b909-a449ef28fe52" />
+    <EXPLORERITEM TYPE="entity" ID="zen_144" DEF="ZP0052_43.entity" GUID="e6697aa8-4753-48f1-8549-469063a3f001" />
+    <EXPLORERITEM TYPE="entity" ID="zen_147" DEF="ZP0052_46.entity" GUID="9187e3a8-0b34-42c5-a40d-6a744aa53422" />
+    <EXPLORERITEM TYPE="entity" ID="zen_148" DEF="ZP0052_47.entity" GUID="cdba2844-22e1-4ef1-9669-143a3d5689e9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490" DEF="ZP0052_48.entity" GUID="e196ed70-e006-4257-84c8-58798c94d734" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_648" DEF="ZP0052_648.entity" GUID="c1f4ca51-8764-476e-a22f-f1e3bfa26416" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_599" DEF="ZP0052_599.entity" GUID="242597e2-f589-4633-a203-3d05c16a26d2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_955" DEF="ZP0052_955.entity" GUID="bd25d238-f3e9-4828-a901-daf6115987a7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_A00" DEF="ZP0052_A00.entity" GUID="072e41df-0521-4619-826f-cb186500b14a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_B00" DEF="ZP0052_B00.entity" GUID="51c12e57-26d8-4021-8f84-eccf3b69d2cc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_F00" DEF="ZP0052_F00.entity" GUID="9161b7c6-99d0-4e42-bd70-235af15330bd" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_G00" DEF="ZP0052_G00.entity" GUID="bfdfee16-c755-4d6a-be33-e6408f5ecbd3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_L00" DEF="ZP0052_L00.entity" GUID="e159b9e9-f609-442e-b583-7b8d00f8538a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_1490_M00" DEF="ZP0052_M00.entity" GUID="b6ec7dc8-5905-43f4-a207-c753ccf0e393" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <DRAWING ID="SLIM_PONTO" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

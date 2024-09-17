@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="100mm ($TEXT$)" ICON="100mm.jpg">
+  <INSERTDIMENSION TEXT="100.612" />
+  <DRAWING>
+    <FILE3D NAME="ghost" FORMAT=".PMOB" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="100" HEIGHT="45" DEPTH="14" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="obi_emb_gho" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Ghost 100mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

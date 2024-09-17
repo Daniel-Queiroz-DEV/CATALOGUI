@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tampa_Cooktops">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Tampa Cooktops" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TAMPA_COOKTOPS" />
+    <DIMENSION WIDTH="178" HEIGHT="8" DEPTH="336" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

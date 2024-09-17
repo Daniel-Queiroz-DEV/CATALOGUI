@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Allen_Granado" NAME="Allen Granado" PREFIXID="zen_all_gra_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="ALLEN_GRANADO_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_160MM" />
+      <DIMENSION WIDTH="170" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-85" Y="-34" Z="-8" />
+        <MAX X="85" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_160MM_DIAMOND">
+      <LIMITS>
+        <MIN X="-86.045" Y="-34" Z="-8" />
+        <MAX X="86.045" Y="0" Z="8" />
+      </LIMITS>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Acessorios\3D\ALLEN_GRANADO_160MM_DIAMOND" />
+      <DIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" />
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_224MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_224MM" />
+      <DIMENSION WIDTH="234" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-117" Y="-34" Z="-8" />
+        <MAX X="117" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_224MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_224MM_DIAMOND" />
+      <DIMENSION WIDTH="236.1" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-118.045" Y="-34" Z="-8" />
+        <MAX X="118.045" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_352MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_352MM" />
+      <DIMENSION WIDTH="362" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-181" Y="-34" Z="-8" />
+        <MAX X="181" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_352MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_352MM_DIAMOND" />
+      <DIMENSION WIDTH="364.1" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-182.045" Y="-34" Z="-8" />
+        <MAX X="182.045" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_448MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_448MM" />
+      <DIMENSION WIDTH="458" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-229" Y="-34" Z="-8" />
+        <MAX X="229" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_448MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_448MM_DIAMOND" />
+      <DIMENSION WIDTH="460.1" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-230.045" Y="-34" Z="-8" />
+        <MAX X="230.045" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_544MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_544MM" />
+      <DIMENSION WIDTH="554" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-277" Y="-34" Z="-8" />
+        <MAX X="277" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_544MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_544MM_DIAMOND" />
+      <DIMENSION WIDTH="556.1" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-278.045" Y="-34" Z="-8" />
+        <MAX X="278.045" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_800MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_800MM" />
+      <DIMENSION WIDTH="810" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-405" Y="-34" Z="-8" />
+        <MAX X="405" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ALLEN_GRANADO_800MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\ALLEN_GRANADO_800MM_DIAMOND" />
+      <DIMENSION WIDTH="812.1" HEIGHT="16" DEPTH="34" />
+      <LIMITS>
+        <MIN X="-406.045" Y="-34" Z="-8" />
+        <MAX X="406.045" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra_160" DEF="160mm.group" GUID="63aa3436-0088-4eb9-a1a2-06e5052ed88b" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra_224" DEF="224mm.group" GUID="3a399343-3fc1-40bc-951f-7aff398b8a29" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra_448" DEF="448mm.group" GUID="e2a47d38-6f4f-4a23-bae3-26235005efc6" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra_352" DEF="352mm.group" GUID="0d3ba049-226d-42e6-8474-17d14db1a08d" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra_544" DEF="544mm.group" GUID="cf1c2496-5642-47d0-bba9-7425c4f1eb30" />
+    <EXPLORERITEM TYPE="group" ID="zen_all_gra_800" DEF="800mm.group" GUID="1704cc39-239a-44e3-a5bf-a107f011c947" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

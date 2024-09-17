@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Paper Sup Mão Francesa ($TEXT$)" ICON="la0082.jpg">
+  <DRAWING>
+    <FILE3D NAME="mao_fra_la_0082" />
+    <DIMENSION WIDTH="30" HEIGHT="215" DEPTH="190" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="zen_paper" ENTRYID="pux_zen" />
+  </MODELS>
+  <INSERTDIMENSION WIDTH="30" HEIGHT="215" DEPTH="190" TEXT="LA0082" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Suporte Mão Francesa Paper @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+</ENTITY>

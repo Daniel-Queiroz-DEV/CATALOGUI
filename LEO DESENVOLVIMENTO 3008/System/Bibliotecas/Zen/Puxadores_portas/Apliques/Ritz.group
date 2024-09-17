@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ritz" NAME="Ritz" PREFIXID="zen_man_apl_rit_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <DRAWINGS />
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_rit" ENTRYID="pux_zen" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_man_apl_rit" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_55" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_man_apl_rit" MODEL="Zen_man_rit" MODELTYPE="Zen_man_rit_56" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <DRAWING ID="Ritz_Aplique" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_eur" DEF="Ritz_Aplique_Euro.entity" GUID="9d12bec4-15f7-43bb-8fc5-cd4bd587f2b3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_pap" DEF="Ritz_Aplique_Papaiz.entity" GUID="ba54e8f2-97c2-4bbf-933b-62e5c7faba4c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_tet" DEF="Ritz_Aplique_Tetra.entity" GUID="c8d8cafc-fba1-4111-a2ff-7c800f5fa17c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_laf_st" DEF="Ritz_Aplique_La_Fonte_ST.entity" GUID="35f2240e-880a-4349-acb4-7f6b0c58223b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_laf_st2" DEF="Ritz_Aplique_La_Fonte_ST2.entity" GUID="11e044eb-52d1-48ee-b416-b0165a3690bc" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_4800" DEF="Ritz_Aplique_Imab_4800.entity" GUID="d0cb3ca4-886e-4a87-9b42-a1e11a7faab2" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_1000" DEF="Ritz_Aplique_Imab_1000.entity" GUID="dbd7fb2e-f2d1-4c69-9271-a00f0bc787c9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_sta" DEF="Ritz_Aplique_Stam.entity" GUID="e79ee68a-1c4b-42e9-9853-f315fcf16bf7" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_aro" DEF="Ritz_Aplique_Arouca.entity" GUID="85c6d839-c556-4911-acd2-21d7d36a71c8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_fec_int" DEF="Ritz_Aplique_Interna.entity" GUID="42565e80-7031-4e88-8de6-eaca34666b68" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_rit_alc_alc" DEF="Ritz_Aplique_Alca.entity" GUID="2294a691-e34d-45e5-aa99-185b1aa1ccc9" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mascara Tampos" TYPE="GEOMETRY" INVISIBLE="N">
+  <DRAWING>
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="26">
+      <POSITION>
+        <NORMAL A="0" B="-1" C="0" />
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <FILE3D NAME="fer_ocu_mas_tam" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="100" DEPTH="50" ITEM_BASE="" TEXT="">
+    <MIN WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <MAX WIDTH="2200" HEIGHT="2200" DEPTH="2200" />
+  </INSERTDIMENSION>
+  <MODELS>
+    <MODEL IDMODEL="com_vao" ENTRYID="Sta_fer" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

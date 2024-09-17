@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pino Frontal Gaveta Alta">
+  <DRAWING>
+    <FILE3D NAME="pino_frontal_2" />
+    <DIMENSION WIDTH="10" HEIGHT="42" DEPTH="37.4" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="10" HEIGHT="42" DEPTH="37.4" TEXT="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pino Frontal Gaveta Alta" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox" ENTRYID="Sta_Blu" />
+  </MODELS>
+</ENTITY>

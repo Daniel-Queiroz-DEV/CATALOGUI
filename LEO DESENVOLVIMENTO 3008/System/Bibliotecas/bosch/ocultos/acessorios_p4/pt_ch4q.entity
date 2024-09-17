@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Churrasqueira" ICON="PT_CH4QB.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Churrasqueira" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PT_CH4QB" />
+    <DIMENSION WIDTH="559" HEIGHT="198" DEPTH="26" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DUMPING" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_inox1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_preto" NAME="bosch_preto" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

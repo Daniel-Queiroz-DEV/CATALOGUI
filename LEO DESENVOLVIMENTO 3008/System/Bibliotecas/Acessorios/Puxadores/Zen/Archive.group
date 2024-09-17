@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Archive" NAME="Archive" PREFIXID="zen_arc_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="ARCHIVE_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ARCHIVE_PONTO" />
+      <DIMENSION WIDTH="16" HEIGHT="16" DEPTH="25.5" />
+      <LIMITS>
+        <MIN X="-8" Y="-25.5" Z="-8" />
+        <MAX X="8" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="ARCHIVE_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\ARCHIVE_128MM" />
+      <DIMENSION WIDTH="144.6" HEIGHT="16" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-72.325" Y="-29.996" Z="-8" />
+        <MAX X="72.325" Y="0" Z="8" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_arc_pon" DEF="Ponto.group" GUID="83cbc278-7a36-4749-834f-b0a7d106122e" />
+    <EXPLORERITEM TYPE="group" ID="zen_arc_128" DEF="128mm.group" GUID="b869dd24-fd1a-4f36-a7f5-e034fd9ca08f" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

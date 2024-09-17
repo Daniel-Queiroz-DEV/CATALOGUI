@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="5 Bocas Gás" ICON="P00146.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="5 Gás Cooktop - P00146" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P00146" />
+    <DIMENSION WIDTH="685" HEIGHT="49" DEPTH="510" />
+  </DRAWING>
+  <REFERENCE COMPLETE="7891646002830" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_inox1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

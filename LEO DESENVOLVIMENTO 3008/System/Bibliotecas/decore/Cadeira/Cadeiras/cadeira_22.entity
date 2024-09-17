@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="cadeira_22.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_22" />
+    <DIMENSION WIDTH="498" HEIGHT="819" DEPTH="592" />
+  </DRAWING>
+  <INSERTDIMENSION MODE="Nothing" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_INOX" NAME="DEC_INOX" IDMATERIAL="inox_01" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_ASSENTO" NAME="DEC_ASSENTO" IDMATERIAL="acril_verde" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira Charles e Eames" />
+  </ATTRIBUTES>
+</ENTITY>

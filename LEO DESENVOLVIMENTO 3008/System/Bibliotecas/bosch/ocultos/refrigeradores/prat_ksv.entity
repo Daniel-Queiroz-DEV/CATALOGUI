@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prateleira KSV" ICON="PRAT_KSV.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Prateleira KSV" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PRAT_KSV" />
+    <DIMENSION WIDTH="625" HEIGHT="13" DEPTH="504" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

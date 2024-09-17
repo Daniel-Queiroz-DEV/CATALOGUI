@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Bandeja Quadrada $TEXT$)" ICON="qua_1.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Zen by Zen Bandeja Quadrada" VISIBLE="N" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="bandeja - zen by zen 2" />
+    <DIMENSION WIDTH="150" HEIGHT="30" DEPTH="150" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="220" HEIGHT="55" DEPTH="220" TEXT="BA0298" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_zen_by_zen_qua" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ban_lix_zen_by_zen_qua" MODEL="Zen_zen_by_zen" MODELTYPE="Zen_zen_by_zen_pol_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Papeleira ($TEXT$)" ICON="BA0512.jpg">
+  <DRAWING>
+    <FILE3D NAME="soho papeleira" />
+    <DIMENSION WIDTH="211.2" HEIGHT="69.2" DEPTH="69.5" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Soho Papeleira @Zen_soho(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="212" HEIGHT="70" DEPTH="70" TEXT="BA0512" ACAB="" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_pol_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_pol_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_dou_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_dou_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_cob_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_cob_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_gol_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_gol_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros_bra" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_ros_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_soh_BA0512" MODEL="Zen_soho" MODELTYPE="Zen_sou_vec_cob_vec_met" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

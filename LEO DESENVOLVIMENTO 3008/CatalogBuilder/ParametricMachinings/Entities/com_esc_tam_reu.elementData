@@ -1,0 +1,31 @@
+{
+  "ElementId": "com_esc_tam_reu",
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#ESC_LAR_VAO_CAI_TOM#"
+      },
+      "Height": {
+        "Value": "#ESC_PRO_VAO_CAI_TOM#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "CAIXA_TOMADA_REUNIAO",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": null,
+      "Position": {
+        "X": "$W$/2-(#ESC_LAR_VAO_CAI_TOM#/2)",
+        "Y": "$D$/2-(#ESC_PRO_VAO_CAI_TOM#/2)"
+      },
+      "ElementId": "com_esc_tam_reu",
+      "Condition": {
+        "Expression": "'#ESC_CAI_TOM_MES_REU#' == 'SIM'"
+      }
+    }
+  ]
+}

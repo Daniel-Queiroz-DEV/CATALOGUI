@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Tubo Lateral Branco 500mm" ICON="Tubo Lateral.jpg">
+  <DRAWING>
+    <FILE3D NAME="tubo lateral2" />
+    <LIMITS>
+      <MIN X="-0.03" Y="-4" Z="0" />
+      <MAX X="441.998" Y="4" Z="8.188" />
+    </LIMITS>
+    <DIMENSION WIDTH="442" HEIGHT="8.2" DEPTH="8" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tubo Lateral Branco 500mm " VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="492" HEIGHT="10" DEPTH="10" TEXT="58RX03F15000000" DESC="" ITEM_BASE="58RX03F15000000" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="0" NAME="0" IDMATERIAL="fgv_bra" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

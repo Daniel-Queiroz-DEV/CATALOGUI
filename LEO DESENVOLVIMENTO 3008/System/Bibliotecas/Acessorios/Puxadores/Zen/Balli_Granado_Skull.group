@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Balli_Granado_Skull" NAME="Balli Granado Skull" PREFIXID="zen_bal_gra_sku_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS>
+    <DRAWING ID="BALLI_GRANADO_SKULL_PON">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\Balli_Granado_Skull_Ponto" />
+      <DIMENSION WIDTH="18.3" HEIGHT="18.6" DEPTH="31.1" />
+      <LIMITS>
+        <MIN X="-9.555" Y="-31.079" Z="-9.302" />
+        <MAX X="8.783" Y="0" Z="9.302" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_bal_gra_sku_pon" DEF="Ponto.group" GUID="17617cef-0b35-4f57-a07a-a1d4e99e4c4d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

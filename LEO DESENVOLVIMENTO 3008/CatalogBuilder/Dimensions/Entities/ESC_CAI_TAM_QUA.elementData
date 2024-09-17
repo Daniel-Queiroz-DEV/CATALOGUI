@@ -1,0 +1,36 @@
+{
+  "ElementId": "ESC_CAI_TAM_QUA",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 5,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "1161,331",
+        "Y": "89,51815"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "ESC_CAI_TAM_QUA"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "126,2039",
+        "Y": "-69,12204"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "ESC_CAI_TAM_QUA"
+    }
+  ]
+}

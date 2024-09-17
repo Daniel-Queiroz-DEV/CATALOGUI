@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Atlanta ($TEXT$)" ICON="atlanta.jpg">
+  <DRAWING>
+    <FILE3D NAME="atlanta" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="240" HEIGHT="9" DEPTH="28" />
+    <LIMITS>
+      <MIN X="-120" Y="-28.301" Z="-4.5" />
+      <MAX X="119.524" Y="0" Z="4.477" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.589" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_224_atl" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_atl" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_atl" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_atl" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Atlanta 224mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="travessa_interm" Type="Bottom" Description="Travessa" Visible="N">
+		<Dimension Width="$P.W$" Depth="#ESC_ARM_DIM_TRA_TRA_VER_HOR#" Height="(#ESC_ESP_TRA#+#FOL_PAI#)" />
+		<Position Y="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? -#ESC_ARM_DIS_TRA_TRAV_TRAS#-$H$ : -#ESC_ARM_DIS_TRA_TRAV_TRAS#)" Z="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? $PH$/2-$D$/2 : $PH$/2+$D$/2)" Rotation="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? 270 : 90)">
+			<Normal A="0" B="@('#POS_FIX_TRAV_TRAS_ARM#' == 'Interna' ? 1 : -1)" C="0" />
+		</Position>
+		<Alternatives>
+			
+			<Alternative Id="travessa_interm_1vao" EntityId="com_coz_tra_tra">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ == 1" />
+						<TestExpression Expression="($PH$+(2*(#ESC_ESP_BAS#+#FOL_PAI#))) &gt;= 1200" />
+					</and>
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="travessa_interm_vao1" EntityId="com_coz_tra_nor_pas">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ &gt; 1" />
+						<TestExpression Expression="($PH$+(2*(#ESC_ESP_BAS#+#FOL_PAI#))) &gt;= 1200" />
+            <IsLeftExternalGap />
+					</and>
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="travessa_interm_vao_central" EntityId="com_coz_tra_pas">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ &gt; 1" />
+						<TestExpression Expression="($PH$+(2*(#ESC_ESP_BAS#+#FOL_PAI#))) &gt;= 1200" />
+            <IsLeftExternalGap Not="Y" />
+            <IsRightExternalGap Not="Y" />
+          </and>
+				</Conditions>
+			</Alternative>
+			
+			<Alternative Id="travessa_interm_ultimo_vao" EntityId="com_coz_tra_nor">
+				<Conditions>
+					<and>
+						<TestExpression Expression="$S.Multiplicity$ &gt; 1" />
+						<TestExpression Expression="($PH$+(2*(#ESC_ESP_BAS#+#FOL_PAI#))) &gt;= 1200" />
+            <IsRightExternalGap />
+					</and>
+				</Conditions>
+			</Alternative>
+		</Alternatives>
+		<AutoFunction Enabled="Y">
+			<JointDivisions>
+				<JointDivision Id="com_prat_movel_crecuo" />
+				<JointDivision Id="com_prat_movel_srecuo" />
+				<JointDivision Id="com_prat_inv" />
+				<JointDivision Id="com_prat_fixa_srasgo_crecuo" />
+				<JointDivision Id="com_prat_srasgo_srecuo" />
+				<JointDivision Id="com_prat_fixa_crasgo_crecuo" />
+				<JointDivision Id="com_prat_crasgo_srecuo" />
+				<JointDivision Id="div_srasgo_crecuo" />
+				<JointDivision Id="div_srasgo_srecuo" />
+				<JointDivision Id="div_crasgo_crecuo" />
+				<JointDivision Id="div_crasgo_srecuo" />
+				<JointDivision Id="div_srasgo_crecuo_esq" />
+				<JointDivision Id="div_srasgo_crecuo_dir" />		
+			</JointDivisions>
+		</AutoFunction>
+		<Output>
+			<Sets>
+				<SetAttribute Id="Movivel" Value="False" />
+				<SetAttribute Id="Caneditdimension" Value="False" />
+				<SetAttribute Id="FT_BORDA_FRONTAL" Value="#ESC_TRA_SUP_FT_FRONTAL#" />
+				<SetAttribute Id="FT_BORDA_TRASEIRA" Value="#ESC_TRA_SUP_FT_TRASEIRA#" />
+				<SetAttribute Id="FT_BORDA_DIR" Value="#ESC_TRA_SUP_FT_DIR#" />
+				<SetAttribute Id="FT_BORDA_ESQ" Value="#ESC_TRA_SUP_FT_ESQ#" />
+				<SetAttribute Id="VOLUME" Value="SV" />
+			</Sets>
+		</Output>
+	</Item>

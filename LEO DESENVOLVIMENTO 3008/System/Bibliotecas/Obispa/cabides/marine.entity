@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Marine ($TEXT$)" ICON="marine.jpg">
+  <DRAWING>
+    <FILE3D NAME="marine" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="108" HEIGHT="144" DEPTH="55" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Obi_cab_mar" ENTRYID="pux_obi" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cabide Marine" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="300.024" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_cab_mar" MODEL="Obi_cab_mar" MODELTYPE="Obi_cab_cro_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE COMPLETE="$TEXT$" ACAB_MET="@Obi_cab_mar@" />
+</ENTITY>

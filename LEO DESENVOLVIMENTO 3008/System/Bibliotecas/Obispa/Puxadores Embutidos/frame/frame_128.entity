@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="128mm ($TEXT$)" ICON="frame.jpg">
+  <DRAWING>
+    <FILE3D NAME="frame_100619" FORMAT=".PMOB" />
+    <HOLE PRICK="Y" PERFORATETOTAL="False" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="163" HEIGHT="29" DEPTH="22.5" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Frame 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_fra_128" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_fra_128" MODEL="Obi_emb_met" MODELTYPE="obi_met_niq_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_fra_128" MODEL="Obi_emb_met" MODELTYPE="obi_met_cro_esc" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION HEIGHT="29" TEXT="100.570" />
+</ENTITY>

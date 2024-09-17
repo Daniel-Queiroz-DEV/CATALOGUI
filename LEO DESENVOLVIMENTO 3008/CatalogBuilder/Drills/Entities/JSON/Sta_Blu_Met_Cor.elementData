@@ -1,0 +1,120 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-35",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_Cor"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-387",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_Cor"
+      },
+      {
+        "Name": "Furação03",
+        "Condition": {
+          "Expression": "$PD$ == 500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-451",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_Cor"
+      },
+      {
+        "Name": "Furação04",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "35",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_Cor"
+      },
+      {
+        "Name": "Furação05",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "387",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_Cor"
+      },
+      {
+        "Name": "Furação06",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo01",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "451",
+          "Y": "$H$/2"
+        },
+        "ElementId": "Sta_Blu_Met_Cor"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Met_Cor"
+}

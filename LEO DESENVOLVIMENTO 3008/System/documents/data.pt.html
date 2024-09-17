@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<script language="javascript" src="../startPage/_includes/ManagerOne/jquery.js" type="text/javascript"></script>
+	<script language="javascript" src="../startPage/_includes/ManagerOne/initializeAutocomplete.js" type="text/javascript"></script>
+	<title>Promob</title>
+	<script src="../startPage/_includes/gerarLinks.js" language="javascript"></script>
+	<link href="../startPage/_includes/form.css" rel="stylesheet" type="text/css"/>
+	
+	<script type="text/JavaScript"> 
+		function loadFile(){
+			if(screen.height>768){
+				document.write("<link href='../startPage/_includes/estilos.css' rel='stylesheet' type='text/css'>");
+			}
+			else
+				document.write("<link href='../startPage/_includes/estilos.small.css' rel='stylesheet' type='text/css'>");
+		}
+		
+		loadFile();
+
+	</script>
+	
+</head>
+<body style="overflow:hidden">
+	<script language="jscript">
+		function IrParaProjeto_onClick() {
+			external.InvokeVSA("GestorDocumentos", "IrParaDocumento", "GetType(Promob.Projeto.Sugestao.SugestaoCtrl)");
+		}
+	</script>
+		<form name="formulario" style="margin: 0px">
+		<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td align="center">
+					<table width="1024" border="0" cellspacing="0" cellpadding="0" class="container">
+						<tr class="header">
+							<td align="center" valign="middle" colspan="2">
+								<img align="asbmiddle" src="../startpage/img/logopromob.png" class="nautiluslogo"/><img align="absmiddle" src="../startpage/img/promob.png" class="promoblogo"/></td>
+						</tr>
+						<tr>
+							<td width="50%" align="center" valign="top">
+								<table width="97%" border="0" align="right" cellpadding="4" cellspacing="0">
+									<tr>
+										<td colspan="2" style="color: #fff; font-size: 16px; height: 30px;"><h2>Dados do Cliente</h2></td>
+									</tr>
+									<tr>
+										<td align="right" width="140">C&oacute;digo: </td>
+										<td>
+											<input type="text" class="texto" name="codcliente" description="C&oacute;digo do Cliente" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Nome: </td>
+										<td>
+											<input type="text" class="texto" name="nomecliente" description="Nome" maxlength="100" id="customerNameField"></td>
+									</tr>
+									<tr>
+										<td align="right">CPF/CNPJ: </td>
+										<td>
+											<input type="text" class="texto" name="cpfcnpj" description="CPF/CNPJ" maxlength="18"></td>
+									</tr>
+									<tr>
+										<td align="right">Telefone: </td>
+										<td>
+											<input type="text" class="texto" name="fone" description="Telefone" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Celular: </td>
+										<td>
+											<input type="text" class="texto" name="celular" description="Celular" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Endere&ccedil;o: </td>
+										<td>
+											<input type="text" class="texto" name="endereco" description="Endere&ccedil;o" maxlength="200"></td>
+									</tr>
+									<tr>
+										<td align="right">Bairro: </td>
+										<td>
+											<input type="text" class="texto" name="bairro" description="Bairro" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Cidade: </td>
+										<td>
+											<input type="text" class="texto" name="cidade" description="Cidade" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">UF:</td>
+										<td>
+											<input type="text" class="texto" name="uf" description="UF" size="5" maxlength="2" style="width: 50px"><font style="height: 17px;">&nbsp;&nbsp;&nbsp;CEP:</font>
+											<input type="text" class="texto" name="cep" description="CEP" size="10" maxlength="9" style="width: 90px">
+										</td>
+									</tr>
+									<tr>
+										<td align="right">E-mail: </td>
+										<td>
+											<input type="text" class="texto" name="email" description="E-mail" maxlength="60"></td>
+									</tr>
+									<tr>
+										<td align="right">Endere&ccedil;o de Entrega: </td>
+										<td>
+											<input type="text" class="texto" name="endentrega" description="Endere&ccedil;o de Entrega" maxlength="200"></td>
+									</tr>
+									<tr>
+										<td align="right">Observa&ccedil;&otilde;es: </td>
+										<td>
+											<textarea class="texto" cols="48" rows="5" name="observacoes" description="Observa&ccedil;&otilde;es"></textarea></td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" align="left">
+								<table width="97%" cellspacing="0" cellpadding="4" border="0">
+									<tr>
+										<td colspan="2" style="color: #fff; font-size: 16px;"><h2>Dados da Empresa</h2></td>
+									</tr>
+									<tr>
+										<td align="right" style="width: 90px;">Nome: </td>
+										<td>
+											<input type="text" class="texto" name="rep_nomeempresa" description="Nome da Empresa" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">CPF/CNPJ: </td>
+										<td>
+											<input type="text" class="texto" name="rep_cpfcnpjempresa" description="CPF/CNPJ" maxlength="18"></td>
+									</tr>
+									<tr>
+										<td align="right">Endere&ccedil;o: </td>
+										<td>
+											<input type="text" class="texto" name="rep_enderecoempresa" description="Endere&ccedil;o da Empresa" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Bairro: </td>
+										<td>
+											<input type="text" class="texto" name="rep_bairroempresa" description="Bairro da Empresa" size="35" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Cidade: </td>
+										<td>
+											<input type="text" class="texto" name="rep_cidadeempresa" description="Cidade da Empresa" size="35" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">UF:</td>
+										<td>
+											<input type="text" class="texto" name="rep_ufempresa" description="Estado da Empresa" size="5" maxlength="2" style="width: 50px"><font style="height: 17px;">&nbsp;&nbsp;&nbsp;CEP:</font>
+									</tr>
+									<tr>
+										<td align="right">CEP:</td>
+										<td>											
+											<input type="text" class="texto" name="rep_cepenpresa" description="CEP da Empresa" size="10" maxlength="9" style="width: 90px">
+										</td>
+									</tr>
+									<tr>
+										<td align="right">Telefone: </td>
+										<td>
+											<input type="text" class="texto" name="rep_telefoneempresa" description="Telefone da Empresa" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">E-mail: </td>
+										<td>
+											<input type="text" class="texto" name="rep_emailempresa" description="E-mail do Respons&aacute;vel da Empresa" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td align="right">Respons&aacute;vel: </td>
+										<td>
+											<input type="text" class="texto" name="rep_contatoempresa" description="Contato do Respons&aacute;vel da Empresa" maxlength="100"></td>
+									</tr>
+									<tr>
+										<td colspan="2" height="140" align="right" valign="bottom" style="padding-right: 38px;">
+											<input name="irParaProjeto" type="button" class="botao" value="Ir para o projeto" onclick="IrParaProjeto_onClick();"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center" valign="bottom" class="linkscontact">
+								<script>gerarLinks('pt');</script>
+								&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

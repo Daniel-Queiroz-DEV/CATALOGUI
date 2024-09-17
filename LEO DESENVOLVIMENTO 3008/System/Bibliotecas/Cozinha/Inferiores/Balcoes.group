@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Balcoes" NAME="Balcões" PREFIXID="COZ_INF_BAL_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\Aggregates\pes_rodapes_tampos_retos.aggregate" />
+  </AGGREGATECOLLECTION>
+  <INSERTINGPARAMETERS REPEAT="DIALOG" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_ADE" DEF="Adega.entity" GUID="7a44b289-5d2b-4d9e-b8fa-b25b773df124" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_TOA" DEF="Toalheiro.entity" GUID="51dc984a-e058-4c88-99e0-b54de5b9a000" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_PT_LATAS" DEF="P_latas.entity" GUID="44e0471f-a2f9-4ab6-8ac3-c157f769bce3" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_1P" DEF="1_Porta.entity" GUID="a1561843-c368-4e3f-b3e1-5aca2d904958" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_2P" DEF="2_Porta.entity" GUID="8811c7c5-d105-4138-96b3-56c3e82a9750" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_3P" DEF="3P.entity" GUID="077bfb3b-d62a-4ba8-a9cb-e84bdc5151aa" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_3P_2" DEF="3P_2.entity" GUID="7ff0010b-2b71-4a0d-861f-fef481440e0e" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_LIX" DEF="lixeira.entity" GUID="464ee562-bad0-481e-86aa-e47cc1fe87e2" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_TULHA" DEF="tulha.entity" GUID="bfc0029d-26fd-4d25-8b67-67740a180f27" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_ESC" DEF="COZ_INF_BAL_ESC_.entity" GUID="ff005014-703f-4a59-9fec-6cc70ca5e361" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_2P_DES" DEF="COZ_INF_BAL_2P_DES.entity" GUID="7566d4be-f69f-4223-85dc-a58a8368ab36" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_FECH" DEF="fechamento.entity" GUID="5fff35c3-d98f-4ecf-8cce-465f35b9501b" />
+    <EXPLORERITEM TYPE="entity" ID="COZ_INF_BAL_ILHA" DEF="COZ_INF_BAL_ILHA_.entity" GUID="ff525728-2eab-4b1b-9e91-761f5f30dfc1" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Essence Simple s/ Abert ($TEXT$)" ICON="essence_66.jpg">
+  <DRAWING>
+    <FILE3D NAME="essence_sim" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="64" HEIGHT="543" DEPTH="23" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="200.066 AS" />
+  <REFERENCE IDREFERENCE="Manilhoes_met" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Manilhão Essence Alça Simples s/ Abert" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Pux_man" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_man_580_ess_66" MODEL="Pux_man" MODELTYPE="Pux_man_our" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_man_580_ess_66" MODEL="Pux_man" MODELTYPE="Pux_man_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

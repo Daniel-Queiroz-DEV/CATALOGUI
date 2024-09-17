@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto" NAME="Ponto" PREFIXID="zen_mag_pon_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWINGS />
+  <DRAWING ID="MAGNUM_PONTO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_54" DEF="ZP1865_54.entity" GUID="a03d5aad-3798-4dc9-a869-70b56e8d1352" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_25" DEF="ZP1865_25.entity" GUID="56435d53-2682-4134-a541-5dc275b6bc11" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_24" DEF="ZP1865_24.entity" GUID="14ee4e76-c731-4b23-951d-a5e314486bf0" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_30" DEF="ZP1865_30.entity" GUID="077d9b7b-fd92-43ff-9314-7184d49efb0c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_26" DEF="ZP1865_26.entity" GUID="90bb4ff8-28e2-4e68-b253-76955345bfea" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_648" DEF="ZP1865_648.entity" GUID="bb22a90f-9a3f-40de-bed6-4fb417f7969d" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_597" DEF="ZP1865_597.entity" GUID="28372a5f-f7aa-4748-b911-4253f1f92bc8" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_599" DEF="ZP1865_599.entity" GUID="c4b334c9-f689-4387-9ec5-a0fc65588d88" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_955" DEF="ZP1865_955.entity" GUID="e8abaf85-9828-4e29-a539-33c6e82f3ae9" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_A00" DEF="ZP1865_A00.entity" GUID="ae995b13-49bf-44df-8366-4f43c53302cf" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_B00" DEF="ZP1865_B00.entity" GUID="18f27b46-d575-48c0-83e9-8644934effbd" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_F00" DEF="ZP1865_F00.entity" GUID="9f158b53-d77f-4253-a13a-ce83fdb57462" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_G00" DEF="ZP1865_G00.entity" GUID="7620c38d-1003-449d-adb2-966dff3cd543" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_L00" DEF="ZP1865_L00.entity" GUID="8f0551c1-2ceb-47fa-9f4c-026644f29f86" />
+    <EXPLORERITEM TYPE="entity" ID="zen_mag_pon_M00" DEF="ZP1865_M00.entity" GUID="09eab783-dc35-4c48-99b2-e698550c13b8" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" />
+  </AGGREGATECOLLECTION>
+</GROUP>

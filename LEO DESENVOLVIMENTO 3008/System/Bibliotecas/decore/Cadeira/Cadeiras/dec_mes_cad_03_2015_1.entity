@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog" ICON="dec_mes_cad_03_2015_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="cadeira_04_2015_1" />
+    <DIMENSION WIDTH="622.1" HEIGHT="730" DEPTH="548.6" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_INOX" NAME="DEC_INOX" IDMATERIAL="inox_01" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_ASSENTO" NAME="DEC_ASSENTO" IDMATERIAL="tec_estampados_tecido 009" EDIT="Y">
+      <MATERIAL ID="tec_flores_tecido 040" ORIGINALID="tec_flores" NAME="Tecido floreado" ISEXTERNAL="N" GENERATEITEMSNUMBERS="Y">
+        <EMISSION>0.15</EMISSION>
+        <FINISHSCHEME>Mirror</FINISHSCHEME>
+        <SPECULARCOLOR R="255" G="255" B="255" />
+        <METADATAS>
+          <METADATA ID="LightWorksMaterialData">
+            <METADATA.VALUE>
+              <LIGHTWORKSMATERIALDATA>
+                <FINISHDATA NAME="Matte" GROUP="Coatings_Woods" TYPE="Standard" />
+              </LIGHTWORKSMATERIALDATA>
+            </METADATA.VALUE>
+          </METADATA>
+        </METADATAS>
+        <APPLYTEXTUREINFRAMES>False</APPLYTEXTUREINFRAMES>
+        <DEFAULTBUMPFILE>\\srvfs05\UD-InBox\Projetos\Em Andamento\Decore 2015\Sistema\Sistema Padrao Premium\System\Materials\textures\padroes\tecidos_couros\tecido_default.jpg.bump</DEFAULTBUMPFILE>
+        <COLORBASE R="255" G="128" B="128" />
+        <BORDERCOLOR R="0" G="0" B="0" />
+        <BORDERWIDTH>0</BORDERWIDTH>
+        <MAPPING>Cubo</MAPPING>
+        <ROTATION>0</ROTATION>
+        <ESCALETEXTUREX>200</ESCALETEXTUREX>
+        <ESCALETEXTUREY>200</ESCALETEXTUREY>
+        <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+        <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+        <MIRROR>N</MIRROR>
+        <FRESNELTERM>0</FRESNELTERM>
+        <AMBIENT>0.4</AMBIENT>
+        <DIFFUSE>0.5</DIFFUSE>
+        <REFLECTIONMIN>0</REFLECTIONMIN>
+        <REFLECTIONMAX>0</REFLECTIONMAX>
+        <CRAND>0.15</CRAND>
+        <SPECULAR>0</SPECULAR>
+        <ROUGHNESS>0.05</ROUGHNESS>
+        <METALLIC>0</METALLIC>
+        <TRANSPARENCY>0</TRANSPARENCY>
+        <CONSERVEENERGY>N</CONSERVEENERGY>
+        <DIRECTION>Nenhum</DIRECTION>
+        <SLIDEMODE>CropCenter</SLIDEMODE>
+        <TEXTUREFILE>%PastaTextures%\padroes\tecidos_couros\flores\tecido 040.jpg</TEXTUREFILE>
+      </MATERIAL>
+    </COMPONENTDEFINITION>
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

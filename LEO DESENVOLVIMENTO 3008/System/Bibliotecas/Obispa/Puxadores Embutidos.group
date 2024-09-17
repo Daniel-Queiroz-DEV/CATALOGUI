@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Puxadores Embutidos" NAME="Puxadores Embutidos" PREFIXID="pux_obi_pux_emb_">
+  <MODELS>
+    <MODEL IDMODEL="Obi_emb" ENTRYID="pux_obi" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_apl" DEF="Aplic.group" GUID="a6ffc9ec-9088-4fba-a8f6-7c385ad333e9" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_box" DEF="box.group" GUID="1b27cf37-e33d-428e-afca-2670f495b718" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_edg" DEF="edge.group" GUID="06cb3975-97d7-4025-8017-5321aad376b6" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_dro" DEF="drops.group" GUID="8c186e9c-cec2-4e50-accc-deb1c4bf80e0" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_fra" DEF="frame.group" GUID="bedff7cc-7acd-401e-a753-8c527cd9dd4b" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_gho" DEF="Ghost.group" GUID="c37f3d12-ab8e-4451-be35-fa71b14cc915" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_ing" DEF="inga.group" GUID="e7bede96-ac86-42b6-a437-706f8c648219" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_int" DEF="interface.group" GUID="c72019e0-167a-4e06-aa97-c7617bf8c128" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_mar" DEF="marlin.group" GUID="3164d4cb-cb13-4539-882e-6bcc5f2905f1" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_mol" DEF="moldue.group" GUID="6c05755b-913e-4ec4-a628-3b0d8393f4f6" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_mol_cou" DEF="moldue_couro.group" GUID="79d17254-ab50-48b0-bcf9-5901c779730b" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_mol_cha" DEF="moldue_chave.group" GUID="4704b709-974f-4af1-b0bb-cfbb9c5ccf6f" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_nix" DEF="nix.group" GUID="03c7de9e-f524-484d-86be-8fd22a41b547" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi_pux_emb_ret_met" DEF="ret_met.group" GUID="a8663774-166a-4c6c-8d20-cb65b4450cb4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

@@ -1,0 +1,449 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "165",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação03",
+        "Condition": {
+          "Expression": "$D$>=300"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "261",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação04",
+        "Condition": {
+          "Expression": "$D$==400"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "357",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação05",
+        "Condition": {
+          "Expression": "$D$>=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "389",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação06",
+        "Condition": {
+          "Expression": "$D$==500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "451",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação07",
+        "Condition": {
+          "Expression": "$D$>=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 6,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "485",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação08",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 7,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação09",
+        "Condition": {
+          "Expression": "$D$>=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 8,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$d$-389",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação10",
+        "Condition": {
+          "Expression": "$d$==400"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 9,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-357",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação11",
+        "Condition": {
+          "Expression": "$D$>=300"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 10,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-261",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação12",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 11,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-165",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação13",
+        "Condition": {
+          "Expression": "$D$==500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 12,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-451",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação14",
+        "Condition": {
+          "Expression": "$D$>=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 13,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-485",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "165",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação03",
+        "Condition": {
+          "Expression": "$D$>=300"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "261",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação04",
+        "Condition": {
+          "Expression": "$D$==400"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "357",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação05",
+        "Condition": {
+          "Expression": "$D$>=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "389",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação06",
+        "Condition": {
+          "Expression": "$D$==500"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "451",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      },
+      {
+        "Name": "Furação07",
+        "Condition": {
+          "Expression": "$D$>=550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 6,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "485",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_telescopica"
+      }
+    ]
+  },
+  "ElementId": "ace_cor_telescopica"
+}

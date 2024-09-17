@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Prateleiras" NAME="Prateleiras" PREFIXID="com_coz_pra_">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_prat_crasgo" DEF="com_prat_crasgo.entity" GUID="61970475-1c20-40c0-a1bc-9bcac6abf282" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_pra_2faces" DEF="com_coz_pra_2faces.entity" GUID="fe415afe-b0c6-4c5e-9365-2ada7020b31f" />
+    <EXPLORERITEM TYPE="entity" ID="com_prat_srasgo" DEF="com_prat_srasgo.entity" GUID="894bd5ad-304e-4dbc-b6eb-b8695b3469ea" />
+    <EXPLORERITEM TYPE="entity" ID="com_prat_ctl" DEF="com_coz_pra_ctl.entity" GUID="4cea97a6-df3d-49af-9981-40460acedbad" />
+    <EXPLORERITEM TYPE="entity" ID="com_prat_ctl_crec" DEF="com_coz_pra_2333.entity" GUID="2c87fcf4-a45a-40b5-a366-25af2a55c9b0" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="COM_Acabamento" ENTRYID="Com_Gerais" />
+    <MODEL IDMODEL="COM_borda_fita" ENTRYID="Com_Gerais" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_prat" MODEL="COM_Acabamento" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+    <REMOVEMODELOPTION ID="com_prat" MODEL="COM_borda_fita" MODELTYPE="acabamento_527Y" CONDITION="@($REFERENCE(TIPO_ARMARIO)$ != '3') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != '4') &amp;&amp; @($REFERENCE(TIPO_ARMARIO)$ != 'Yellow')" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</GROUP>

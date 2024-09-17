@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fillet ($TEXT$)" ICON="fillet.jpg">
+  <DRAWING>
+    <FILE3D NAME="fillet" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="114" HEIGHT="25" DEPTH="8" />
+    <LIMITS>
+      <MIN X="-57" Y="-25.544" Z="-4" />
+      <MAX X="56.985" Y="0" Z="4.109" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="METAL" NAME="METAL" IDMATERIAL="obi_met_cro" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION TEXT="140.015" />
+  <REFERENCE IDREFERENCE="Simples_Crom" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Fillet Cromo 96mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

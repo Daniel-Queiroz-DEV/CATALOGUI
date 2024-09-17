@@ -1,0 +1,31 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#REC_TRA_L_FUNDO_LARG#-(#COZ_ESP_TRA#+#FOL_PAI#)"
+      },
+      "Height": {
+        "Value": "#REC_TRA_L_FUNDO_PROF#-(#COZ_ESP_TRA#+#FOL_PAI#)"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Condition": {
+        "Expression": "'#USI_CTO_L_GEN#'=='SIM'&&'#REC_CTO_L_GEN#'=='SIM'"
+      },
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "0",
+        "Y": "$D$-#REC_TRA_L_FUNDO_PROF#+(#COZ_ESP_TRA#+#FOL_PAI#)"
+      },
+      "ElementId": "com_coz_bas_obl_sup_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_obl_sup_2"
+}

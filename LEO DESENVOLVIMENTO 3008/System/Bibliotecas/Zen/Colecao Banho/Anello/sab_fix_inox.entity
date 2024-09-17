@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Saboneteira Fixa de Inox ($TEXT$)" ICON="sab_fix_inox.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira_fixa_inox" />
+    <DIMENSION WIDTH="112" HEIGHT="46" DEPTH="142" />
+  </DRAWING>
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Higiene_05" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="sabonete" KEEPCHANGEDDIMENSION="N" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N" KEEPCHANGEDPOSITION="N" ALWAYSVISIBLE="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <POSITION X="($PW$-$W$)/2" Y="-65" Z="27" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="112" HEIGHT="46" DEPTH="142" TEXT="BA0317" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello Saboneteira Fixa de Inox @zen_ane(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_681" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_699" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_76" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_82" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_692" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_203" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_703" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_704" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_693" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_702" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_77" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_698" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_691" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_202" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_75" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_201" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_707" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_705" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_83" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_80" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_79" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_sab_fix_inox" MODEL="zen_ane" MODELTYPE="zen_ane_648" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

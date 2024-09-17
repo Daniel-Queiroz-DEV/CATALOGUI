@@ -1,0 +1,199 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "Condition": {
+          "Expression": "'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo38",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_EXT_HKS#"
+        },
+        "PlaneIndex": 2,
+        "Position": {
+          "X": "38",
+          "Y": "$H$-10"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação02",
+        "Condition": {
+          "Expression": "'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo38",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_EXT_HKS#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 2,
+        "Position": {
+          "X": "110",
+          "Y": "$H$-10"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação04",
+        "Condition": {
+          "Expression": "'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo38",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_EXT_HKS#"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 2,
+        "Position": {
+          "X": "20.5",
+          "Y": "$H$-79"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo37",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_GUIA_HKS#"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 2,
+        "Position": {
+          "X": "22",
+          "Y": "$H$-47"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação05",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo37",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_GUIA_HKS#"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 2,
+        "Position": {
+          "X": "86",
+          "Y": "$H$-47"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação06",
+        "Condition": {
+          "Expression": "'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo38",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_EXT_HKS#"
+        },
+        "UniqueID": 6,
+        "Position": {
+          "X": "$D$-110",
+          "Y": "$H$-10"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação07",
+        "Condition": {
+          "Expression": "'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo38",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_EXT_HKS#"
+        },
+        "UniqueID": 7,
+        "Position": {
+          "X": "$D$-38",
+          "Y": "$H$-10"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação08",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo37",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_GUIA_HKS#"
+        },
+        "UniqueID": 8,
+        "Position": {
+          "X": "$D$-86",
+          "Y": "$H$-47"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação09",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo37",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_GUIA_HKS#"
+        },
+        "UniqueID": 9,
+        "Position": {
+          "X": "$D$-22",
+          "Y": "$H$-47"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      },
+      {
+        "Name": "Furação10",
+        "Condition": {
+          "Expression": "'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo38",
+        "ReceiverDepth": {
+          "Value": "#BLU_AVE_PROF_FUR_EXT_HKS#"
+        },
+        "UniqueID": 10,
+        "Position": {
+          "X": "$D$-20.5",
+          "Y": "$H$-79"
+        },
+        "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Hkxs_Acu_Esq_3"
+}

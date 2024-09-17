@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="ace_fer_18_par_mont_yellow" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo25"
+          ReceiverDepth="#PRO_FIX_LAT#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="0"
+          PlaneIndex="3"
+          Position="5;5"
+          ElementId="ace_fer_18_par_mont_yellow" />
+        <Drilling
+          Name="Furação02"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="@( '#P.LINHA_PARAFUSO#' == 'COZ' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#COZ_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'COZ' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#COZ_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'BAN' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#BAN_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'BAN' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#BAN_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_BAN' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'CPORTA' ? (#DOR_BAN_ESP_LAT_CPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_BAN' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'SPORTA' ? (#DOR_BAN_ESP_LAT_SPORTA#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_CRI' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'NORMAL' ? (#DOR_BAN_ESP_LAT_CRI#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR_CRI' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'EMBUTIR' ? (#DOR_BAN_ESP_LAT_CRI_EMB#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'POR_GIRO' ? (#DOR_ARM_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'POR_DESL' ? (#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#) : '#P.LINHA_PARAFUSO#' == 'DOR' &amp;&amp; '#P.MODULO_PARAFUSO#' == 'POR_DESL_SPOR' ? (#DOR_ARM_DES_SPOR_ESP_LAT#+#FOL_PAI#) : (18+#FOL_PAI#) )"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="1"
+          PlaneIndex="1"
+          Position="5;5"
+          ElementId="ace_fer_18_par_mont_yellow" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Grade Solitarie" ICON="GR_SOLIT.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Grade" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="GR_SOLIT" />
+    <DIMENSION WIDTH="815" HEIGHT="12" DEPTH="575" />
+    <MIN DEPTH="10" />
+    <MAX DEPTH="10000" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="815" HEIGHT="12" DEPTH="575">
+    <MIN WIDTH="10" DEPTH="10" />
+    <MAX WIDTH="10000" DEPTH="10000" />
+  </INSERTDIMENSION>
+  <OPENSERVICE TYPE="DRAWER" MAX="400" />
+</ENTITY>

@@ -1,0 +1,34 @@
+{
+  "ElementId": "com_coz_tra_2520",
+  "Slots": [
+    {
+      "Name": "Rasgo01",
+      "OverlapBorders": false,
+      "Depth": {
+        "Value": "#PR#"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "#LR#"
+      },
+      "Start": {
+        "Y": "$D$-#DR#"
+      },
+      "End": {
+        "X": "$W$",
+        "Y": "$D$-#DR#"
+      },
+      "MakerDepthGap": {},
+      "MakerWidthGap": {},
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "PlaneType": "Superior",
+      "OperationPrice": "RASGO",
+      "Position": {
+        "Y": "$D$-#DR#"
+      },
+      "ElementId": "com_coz_tra_2520"
+    }
+  ]
+}

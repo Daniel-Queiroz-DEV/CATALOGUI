@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Timeless ($TEXT$)" ICON="mini_timeless.jpg">
+  <DRAWING>
+    <FILE3D NAME="mini_timeless" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-4.5" Y="-28.124" Z="-45" />
+      <MAX X="4.514" Y="0" Z="4.948" />
+    </LIMITS>
+    <DIMENSION WIDTH="9" HEIGHT="50" DEPTH="28" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.623" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_min_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_tim" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Timeless Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

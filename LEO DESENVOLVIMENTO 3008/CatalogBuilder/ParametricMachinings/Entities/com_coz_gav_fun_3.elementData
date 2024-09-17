@@ -1,0 +1,125 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "10",
+            "Y": "-20"
+          },
+          "End": {
+            "X": "10",
+            "Y": "$D$+20"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "7"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "edfa8f64-59cf-405c-96f3-f0bab5ada9f2",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "10",
+        "Y": "-20"
+      },
+      "ElementId": "com_coz_gav_fun_3"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "28",
+            "Y": "-20"
+          },
+          "End": {
+            "X": "28",
+            "Y": "$D$+20"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica01",
+      "Depth": {
+        "Value": "7"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "edfa8f64-59cf-405c-96f3-f0bab5ada9f2",
+      "UniqueID": 2,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "28",
+        "Y": "-20"
+      },
+      "ElementId": "com_coz_gav_fun_3"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-28",
+            "Y": "-20"
+          },
+          "End": {
+            "X": "$W$-28",
+            "Y": "$D$+20"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica03",
+      "Depth": {
+        "Value": "7"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "edfa8f64-59cf-405c-96f3-f0bab5ada9f2",
+      "UniqueID": 3,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-28",
+        "Y": "-20"
+      },
+      "ElementId": "com_coz_gav_fun_3"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-10",
+            "Y": "-20"
+          },
+          "End": {
+            "X": "$W$-10",
+            "Y": "$D$+20"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica04",
+      "Depth": {
+        "Value": "7"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "edfa8f64-59cf-405c-96f3-f0bab5ada9f2",
+      "UniqueID": 4,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-10",
+        "Y": "-20"
+      },
+      "ElementId": "com_coz_gav_fun_3"
+    }
+  ],
+  "ElementId": "com_coz_gav_fun_3"
+}

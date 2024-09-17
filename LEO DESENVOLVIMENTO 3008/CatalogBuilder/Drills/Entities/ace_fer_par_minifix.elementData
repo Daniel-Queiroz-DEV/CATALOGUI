@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_fer_par_minifix" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo16"
+          ReceiverDepth="#PRO_FIX#"
+          UniqueID="0"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="5;5"
+          ElementId="ace_fer_par_minifix" />
+        <Drilling
+          Condition=""
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="#PRO_FIX_LAT#"
+          UniqueID="1"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="5;5"
+          ElementId="ace_fer_par_minifix" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

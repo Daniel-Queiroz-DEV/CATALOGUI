@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo/Diamond ($TEXT$.$D.ACAB$)" ICON="cardiff.jpg">
+  <DRAWING>
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <FILE3D NAME="zp0480_diamond" />
+    <DIMENSION WIDTH="425" HEIGHT="80" DEPTH="21" />
+    <LIMITS>
+      <MIN X="-212.5" Y="-23" Z="-10" />
+      <MAX X="212.5" Y="0" Z="70" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="420" HEIGHT="80" DEPTH="21" TEXT="ZP0480" ACAB="122" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cardiff $W$mm Cromo/Diamond" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CRISTAL" NAME="CRISTAL" IDMATERIAL="zen_swarovski" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR_DET" NAME="PUXADOR_DET" IDMATERIAL="zen_cromado" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_cromado" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

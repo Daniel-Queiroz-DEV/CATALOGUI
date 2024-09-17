@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Travessa($TEXT$) Maranello Bordo 1 longo" TYPE="GEOMETRY" INVISIBLE="N" ICON="com_coz_tra_tra_4.jpg" MODELINVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="com_coz_tra_tra_6" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="com_portas" ENTRYID="COM" />
+    <MODEL IDMODEL="com_porta_fita" ENTRYID="COM" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Travessa Maranello Bordo 1 longo" VISIBLE="N" />
+    <ATTRIBUTE ID="KEEPMODELDESCRIPTION" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="25" DEPTH="46" ITEM_BASE="MAR01" TEXT="301" DESC="">
+    <MIN WIDTH="30" DEPTH="30" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+</ENTITY>

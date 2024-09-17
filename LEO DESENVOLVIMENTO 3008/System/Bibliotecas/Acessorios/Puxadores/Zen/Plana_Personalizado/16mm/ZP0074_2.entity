@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo Esc ($TEXT$.$D.ACAB$)" ICON="Plana.jpg">
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="PUXADOR_DET" ID="PUXADOR" IDMATERIAL="zen_escovado" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <DRAWING ID="PLANA" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Plana 16mm Cromo Escovado - !find(entityid,zen_mod_for_per_*).#DESCRIPTION#!" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="50" HEIGHT="50" DEPTH="17" TEXT="ZP0074" ACAB="2" TEXT_PER_HOR_CEN="ZP0074" />
+</ENTITY>

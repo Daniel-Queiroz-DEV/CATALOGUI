@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="TV 22''" ICON="TV_VIDEO_04.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="TV_VIDEO_04" />
+    <DIMENSION WIDTH="523" HEIGHT="380" DEPTH="69" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TELA" NAME="DEC_TELA" IDMATERIAL="ima_TV_tela 025" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Televisão LCD" />
+  </ATTRIBUTES>
+</ENTITY>

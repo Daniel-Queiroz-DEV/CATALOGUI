@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mantimentos 2" ICON="P_MANT2.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Mantimentos 2" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_MANT2" />
+    <DIMENSION WIDTH="565" HEIGHT="70" DEPTH="100" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

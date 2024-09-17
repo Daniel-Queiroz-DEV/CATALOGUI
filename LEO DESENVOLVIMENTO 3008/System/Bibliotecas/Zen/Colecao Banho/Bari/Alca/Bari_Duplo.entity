@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$W$ ($TEXT$)" ICON="Bari_Duplo.jpg">
+  <DRAWING>
+    <FILE3D NAME="bari_300mm" />
+    <DIMENSION WIDTH="500" HEIGHT="300" DEPTH="54" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Zen_ban_bar" ENTRYID="pux_zen" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <INSERTDIMENSION WIDTH="500" HEIGHT="300" DEPTH="54" TEXT="ZP0004" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Bari Alça Puxador e toalheiro para Box 300 x 500mm @zen*(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,83 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação05",
+        "DrillingType": "Static",
+        "MakerDrillName": "Furo18",
+        "MakerDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "ReceiverDrillName": "Furo26",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 5,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "48,5",
+          "Y": "24"
+        },
+        "ElementId": "com_coz_gav_fun_3"
+      },
+      {
+        "Name": "Furação06",
+        "DrillingType": "Static",
+        "MakerDrillName": "Furo18",
+        "MakerDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "ReceiverDrillName": "Furo26",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 6,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "48,5",
+          "Y": "152"
+        },
+        "ElementId": "com_coz_gav_fun_3"
+      },
+      {
+        "Name": "Furação07",
+        "DrillingType": "Static",
+        "MakerDrillName": "Furo18",
+        "MakerDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "ReceiverDrillName": "Furo26",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 7,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "$W$-48,5",
+          "Y": "24"
+        },
+        "ElementId": "com_coz_gav_fun_3"
+      },
+      {
+        "Name": "Furação08",
+        "DrillingType": "Static",
+        "MakerDrillName": "Furo18",
+        "MakerDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "ReceiverDrillName": "Furo26",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 8,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "$W$-48,5",
+          "Y": "152"
+        },
+        "ElementId": "com_coz_gav_fun_3"
+      }
+    ]
+  },
+  "ElementId": "com_coz_gav_fun_3"
+}

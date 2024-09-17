@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Escovado ($TEXT$.$D.ACAB$)" ICON="BaliGranadoPortaVidro.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Bali Granado p/ Porta de Vidro Níquel Escovado" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION TEXT="ZP5366" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR_DET" NAME="PUXADOR_DET" IDMATERIAL="zen_niquel_esc_ver_rec_" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+</ENTITY>

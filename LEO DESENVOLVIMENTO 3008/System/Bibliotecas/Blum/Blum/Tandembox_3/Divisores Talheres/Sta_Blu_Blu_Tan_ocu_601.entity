@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$D$ mm Div.Talheres $D$mm de Profundidade Legrabox">
+  <DRAWING>
+    <FILE3D NAME="porta talher - zc7s500bs3-1" />
+    <DIMENSION WIDTH="300" HEIGHT="47.1" DEPTH="510" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Legrabox_Ambialine" ENTRYID="Sta_Blu" />
+  </MODELS>
+  <INSERTDIMENSION WIDTH="300" HEIGHT="50" DEPTH="472" TEXT="" DESC="">
+    <MIN DEPTH="472" WIDTH="300" HEIGHT="50" />
+    <MAX DEPTH="472" WIDTH="300" HEIGHT="50" />
+  </INSERTDIMENSION>
+  <REFERENCE COMPLETE="$TEXT$$ACAB$$DESC$" VOLUME="VOLFER" FERRAGEM="SIM" MODEL="@Blu_Legrabox_Ambialine@" ACAB="@Blu_Legrabox_Ambialine*(ACABAMENTO2)@" DESC="$D.DESC$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="300 Div.Talheres $D$mm de Profundidade Legrabox $REFERENCE(MODEL)$" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

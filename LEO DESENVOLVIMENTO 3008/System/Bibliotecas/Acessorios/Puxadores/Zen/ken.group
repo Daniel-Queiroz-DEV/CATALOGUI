@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Ken" DIRECTORY="ken" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="KEN_32MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_32MM" />
+      <DIMENSION WIDTH="52" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-26" Y="-16.834" Z="-11.101" />
+        <MAX X="26" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_32MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_32MM_DIAMOND" />
+      <DIMENSION WIDTH="52" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-26" Y="-16.834" Z="-11.101" />
+        <MAX X="26" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_128MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_128MM" />
+      <DIMENSION WIDTH="148" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-74" Y="-16.834" Z="-11.101" />
+        <MAX X="74" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_128MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_128MM_DIAMOND" />
+      <DIMENSION WIDTH="148" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-74" Y="-16.834" Z="-11.101" />
+        <MAX X="74" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_192MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_192MM" />
+      <DIMENSION WIDTH="212" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-106" Y="-16.834" Z="-11.101" />
+        <MAX X="106" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_192MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_192MM_DIAMOND" />
+      <DIMENSION WIDTH="212" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-106" Y="-16.834" Z="-11.101" />
+        <MAX X="106" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_320MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_320MM" />
+      <DIMENSION WIDTH="340" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-170" Y="-16.834" Z="-11.101" />
+        <MAX X="170" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_320MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_320MM_DIAMOND" />
+      <DIMENSION WIDTH="340" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-170" Y="-16.834" Z="-11.101" />
+        <MAX X="170" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_416MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_416MM" />
+      <DIMENSION WIDTH="436" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-218" Y="-16.834" Z="-11.101" />
+        <MAX X="218" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_416MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_416MM_DIAMOND" />
+      <DIMENSION WIDTH="436" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-218" Y="-16.834" Z="-11.101" />
+        <MAX X="218" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_640MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_640MM" />
+      <DIMENSION WIDTH="660" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-330" Y="-16.834" Z="-11.101" />
+        <MAX X="330" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="KEN_640MM_DIAMOND">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\KEN_640MM_DIAMOND" />
+      <DIMENSION WIDTH="660" HEIGHT="15.9" DEPTH="16.8" />
+      <LIMITS>
+        <MIN X="-330" Y="-16.834" Z="-11.101" />
+        <MAX X="330" Y="0" Z="4.795" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ken_128" DEF="128mm.group" GUID="47d3a070-736a-455d-9c27-8a5a94a848ac" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_192" DEF="192mm.group" GUID="83b7fb8c-9458-4a55-ad1e-c56d596fdcdb" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_416" DEF="416mm.group" GUID="9050421c-afc8-4947-8a06-2feb1514e95d" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_640" DEF="640mm.group" GUID="382491d6-164f-4c10-b5b5-0c14d2556ae4" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_32" DEF="32mm.group" GUID="d688ee78-388f-4c34-8312-cc7eb6ea8008" />
+    <EXPLORERITEM TYPE="group" ID="zen_ken_320" DEF="320mm.group" GUID="d19e0a3b-d4d1-4cc5-8860-d959543013f4" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

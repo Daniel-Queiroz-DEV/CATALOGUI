@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Trav Gaveteiro Junção Vazia ($TEXT$)" INVISIBLE="N" ICON="com_coz_tra_tra_3_3_2.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trav Gaveteiro" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_TRA#+#FOL_PAI#)" DEPTH="500">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="200" />
+  </INSERTDIMENSION>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="com_coz_tra_gav" MODEL="com_fita" MODELTYPE="acabamento_657_2" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

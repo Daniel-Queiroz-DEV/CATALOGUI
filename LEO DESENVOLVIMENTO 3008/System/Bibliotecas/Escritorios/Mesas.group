@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Mesas" NAME="Mesas" PREFIXID="ESC_MES_">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ESC_MES_RET" DEF="Mesas.group" GUID="4a54b55f-58a9-46fa-af49-d3c004b710f7" />
+    <EXPLORERITEM TYPE="group" ID="ESC_MES_REU" DEF="Mesas Reuniao.group" GUID="60f3f07e-cf92-4ede-aa77-1e8ea06545db" />
+    <EXPLORERITEM TYPE="group" ID="ESC_MES_CON" DEF="Conexoes.group" GUID="88c804a9-7a3e-44f9-abb5-3d26eedf99ae" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ASSEMBLED" VALUE="True" VISIBLE="Y" />
+  </ATTRIBUTES>
+</GROUP>

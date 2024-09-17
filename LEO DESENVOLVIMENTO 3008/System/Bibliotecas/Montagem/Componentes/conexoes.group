@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="conexoes" NAME="Conexões" PREFIXID="com_coz_conexao_">
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_45" DEF="ESC_CAI_TAM_45.entity" GUID="d36550aa-c3fe-41a1-9ba2-a5530e751c61" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_CUR" DEF="ESC_CAI_TAM_CUR.entity" GUID="f8e26803-5169-498e-a48f-ba2b5e6b04d6" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_C90" DEF="ESC_CAI_TAM_C90.entity" GUID="346ba1e0-f9e9-4b43-9309-617c37c50f94" />
+    <EXPLORERITEM TYPE="entity" ID="com_coz_conexao_ang" DEF="angular.entity" GUID="92975b42-fef8-4094-aa59-31361bf61480" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_QUA" DEF="ESC_CAI_TAM_QUA.entity" GUID="f7764442-5ee1-4c7c-8798-5611440be589" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_tam_got" DEF="com_esc_tam_got.entity" GUID="2dfd133b-fa17-4053-8097-bd2971756f2c" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_GOT" DEF="ESC_CAI_TAM_GOT.entity" GUID="4b220aa4-922b-4d7d-9eca-28c92550ba47" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_TRI" DEF="ESC_CAI_TAM_TRI.entity" GUID="7dc370a8-15b2-46ad-aa81-9490788479cf" />
+    <EXPLORERITEM TYPE="entity" ID="ESC_CAI_TAM_CIR" DEF="ESC_CAI_TAM_CIR.entity" GUID="780aa128-bc1e-4ea9-8801-0d3f3e0e15be" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="CanMirror" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</GROUP>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Pes Mesas Escritorio" NAME="Pés Mesas Escritório" PREFIXID="com_esc_pes_mes_" INVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="com_esc_lat_ppr" DEF="com_esc_lat_ppr.entity" GUID="73dd148e-accb-44f9-9b34-8cc7e36ddc09" />
+    <EXPLORERITEM TYPE="entity" ID="com_esc_lat_ppc" DEF="com_esc_lat_ppc.entity" GUID="caa48db1-d32f-4c65-a009-f705926283b5" />
+  </EXPLORERITEMCOLLECTION>
+  <MODELS>
+    <MODEL IDMODEL="com_paineis" ENTRYID="COM" />
+    <MODEL IDMODEL="com_paineis_fita" ENTRYID="COM" />
+  </MODELS>
+</GROUP>

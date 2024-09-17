@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Afastador Sarrafo Armários ($TEXT$)" TYPE="GEOMETRY" ICON="com_coz_div_afa.jpg">
+  <DRAWING>
+    <FILE3D NAME="com_coz_div_afa" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Afastador" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_LAT#+#FOL_PAI#)" DEPTH="500" ITEM_BASE="DIV0001" TEXT="993">
+    <MIN WIDTH="50" DEPTH="1" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="500" />
+  </INSERTDIMENSION>
+</ENTITY>

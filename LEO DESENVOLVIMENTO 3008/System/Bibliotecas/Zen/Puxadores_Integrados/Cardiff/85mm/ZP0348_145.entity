@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Titanium ($TEXT$.$D.ACAB$)" ICON="cardiff_90.jpg">
+  <BUDGET />
+  <INSERTDIMENSION WIDTH="85" HEIGHT="80" DEPTH="21" TEXT="ZP0348" ACAB="145" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cardiff $W$mm Titanium" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_titanio" EDIT="N" />
+    <COMPONENTDEFINITION ID="PUXADOR_DET" NAME="PUXADOR_DET" IDMATERIAL="zen_titanio" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <DRAWING>
+    <FILE3D NAME="zp0348" />
+    <DIMENSION WIDTH="85" HEIGHT="80" DEPTH="21.4" />
+    <LIMITS>
+      <MIN X="-42.5" Y="-21.4" Z="-10" />
+      <MAX X="42.5" Y="0" Z="70" />
+    </LIMITS>
+  </DRAWING>
+</ENTITY>

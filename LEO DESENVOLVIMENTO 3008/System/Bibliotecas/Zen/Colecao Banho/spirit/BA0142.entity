@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pt Obj Fixo ($TEXT$)" ICON="BA0015_10.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0142_pt_objetos_fixo" />
+    <DIMENSION WIDTH="49" HEIGHT="193.5" DEPTH="66" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Porta Objetos Fixo @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0142" MODEL="Zen_spirit" MODELTYPE="Zen_spi_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0142" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="49" HEIGHT="193" DEPTH="64" TEXT="BA0142" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

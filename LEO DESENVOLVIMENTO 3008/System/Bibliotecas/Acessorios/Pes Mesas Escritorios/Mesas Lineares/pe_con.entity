@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pé Conexão ($TEXT$)" ICON="pe.jpg">
+  <DRAWING>
+    <FILE3D NAME="pe_de_canto" />
+    <DIMENSION WIDTH="100" HEIGHT="715" DEPTH="100" />
+  </DRAWING>
+  <REFERENCE IDREFERENCE="PES_METALICOS" />
+  <INSERTDIMENSION WIDTH="#ESC_DIA_PE_CAN#" HEIGHT="80" DEPTH="#ESC_DIA_PE_CAN#" TEXT="PEACOCX">
+    <MIN HEIGHT="20" />
+    <MAX HEIGHT="1500" />
+  </INSERTDIMENSION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Geral" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Conexão / Pé de Canto $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

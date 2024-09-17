@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="coz_ocu_nao_orc_fer_tra" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo02"
+          ReceiverDepth="22.5"
+          UniqueID="0"
+          ElementId="coz_ocu_nao_orc_fer_tra"
+          Position="9;10"
+          PlaneIndex="2" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo04"
+          ReceiverDepth="#ESP_EXT#"
+          UniqueID="1"
+          ElementId="coz_ocu_nao_orc_fer_tra"
+          Position="9;10"
+          PlaneIndex="2" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

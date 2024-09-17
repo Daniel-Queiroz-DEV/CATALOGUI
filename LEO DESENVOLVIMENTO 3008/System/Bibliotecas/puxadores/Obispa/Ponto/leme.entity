@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Leme ($TEXT$)" ICON="leme.jpg">
+  <DRAWING>
+    <FILE3D NAME="leme_100067" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="59" HEIGHT="13" DEPTH="30" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REFERENCE IDREFERENCE="Simples Metal" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_lem" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION TEXT="100.067" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Leme Ponto" VISIBLE="N" />
+    <ATTRIBUTE ID="ANGLEBETWEENEDGES" VALUE="15" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Fune_Garage" NAME="Fune Garage" PREFIXID="zen_fun_gar_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="FUNE_GARAGE_PONTO">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\FUNE_GARAGE_PONTO" />
+      <DIMENSION WIDTH="38" HEIGHT="78" DEPTH="26" />
+      <LIMITS>
+        <MIN X="-19.116" Y="-26.005" Z="-67.162" />
+        <MAX X="18.884" Y="0.001" Z="10.838" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_fun_gar_esp_aco" DEF="Espia_Aco.group" GUID="d2bc9568-0307-419d-b6d4-0ea672955ebf" />
+    <EXPLORERITEM TYPE="group" ID="zen_fun_gar_esp_aco_2" DEF="Espia_Aco_2.group" GUID="cf281e87-a520-4da2-a875-28df6d1a93bb" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

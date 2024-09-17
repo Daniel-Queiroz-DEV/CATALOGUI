@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Portas" DIRECTORY="Portas" INVISIBLE="N" GENERATEITEMSNUMBERS="Y">
+  <LAYER DESCRIPTION="$ROOTGROUP$-Aberturas" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" />
+  <DRAWINGS>
+    <DRAWING ID="marco">
+      <DIMENSION WIDTH="979.8" HEIGHT="2289.5" DEPTH="190" />
+      <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="190">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+        <SHAPE>
+          <POINT2DG NAME="" />
+          <POINT2DG X="979" NAME="" />
+          <POINT2DG X="979" Y="2289" NAME="" />
+          <POINT2DG Y="2289" NAME="" />
+        </SHAPE>
+      </HOLE>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Decore\portas\3d\marco" />
+    </DRAWING>
+    <DRAWING ID="marco_alum2">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\decore\portas\3d\marco_alum2" />
+      <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="190">
+        <POSITION>
+          <ROTATION>0</ROTATION>
+        </POSITION>
+      </HOLE>
+      <DIMENSION WIDTH="780" HEIGHT="2240" DEPTH="150" />
+    </DRAWING>
+    <DRAWING ID="marco_abert">
+      <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="150">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+        <SHAPE>
+          <POINT2DG NAME="" />
+          <POINT2DG X="980" NAME="" />
+          <POINT2DG X="980" Y="2200" NAME="" />
+          <POINT2DG Y="2200" NAME="" />
+        </SHAPE>
+      </HOLE>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Decore\portas\3d\marco_abert" />
+      <DIMENSION WIDTH="980" HEIGHT="2200" DEPTH="150" />
+    </DRAWING>
+    <DRAWING ID="marco_int">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Decore\portas\3d\marco_int" />
+      <DIMENSION WIDTH="979.8" HEIGHT="2189.5" DEPTH="190" />
+      <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="190">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+        <SHAPE>
+          <POINT2DG NAME="" />
+          <POINT2DG X="979" NAME="" />
+          <POINT2DG X="979" Y="2189" NAME="" />
+          <POINT2DG Y="2189" NAME="" />
+        </SHAPE>
+      </HOLE>
+    </DRAWING>
+    <DRAWING ID="marco_estreito">
+      <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="170">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+        <SHAPE>
+          <POINT2DG NAME="" />
+          <POINT2DG X="990" NAME="" />
+          <POINT2DG X="990" Y="2000" NAME="" />
+          <POINT2DG Y="2000" NAME="" />
+        </SHAPE>
+      </HOLE>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Decore\portas\3d\marco_estreito" />
+      <DIMENSION WIDTH="990" HEIGHT="2000" DEPTH="170" />
+    </DRAWING>
+    <DRAWING ID="marco_alum1">
+      <HOLE PRICK="Y" PERFORATETOTAL="True" DEPTH="150">
+        <POSITION>
+          <NORMAL A="0" B="-1" C="0" />
+          <ROTATION>90</ROTATION>
+        </POSITION>
+      </HOLE>
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Decore\portas\3d\marco_alum1ok" />
+      <DIMENSION WIDTH="780" HEIGHT="2240" DEPTH="170" />
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Externas" DEF="Externas.group" GUID="5ee01949-b78e-4395-be98-30c6ae723ebc" />
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Internas" DEF="Internas.group" GUID="da5ab20f-3664-4949-9b82-5e65add3d0b1" />
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Com_vidro" DEF="Com_vidro.group" GUID="ef5405cf-5c99-41d1-9d29-00b809d0cc76" />
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Ext_vitro_1lado" DEF="Ext_Vitro_1Lado.group" GUID="9a19f471-217b-456f-97cc-d368eeaecea5" />
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Ext_vitro_2lados" DEF="Ext_Vitro_2Lados.group" GUID="c47a5e1f-4ace-4fdd-ad5b-7b5f5915f4ac" />
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Portoes" DEF="Portoes.group" GUID="d340dc37-7a38-4242-8907-8e4fe5724469" />
+    <EXPLORERITEM TYPE="group" ID="DEC_P_Macanetas" DEF="Macanetas.group" GUID="415f833d-88e3-4f14-b016-35e948b1a913" />
+    <EXPLORERITEM TYPE="group" ID="dec_por_pux" DEF="puxadores.group" GUID="76b37069-5bb1-4cc2-8ead-d624daf75055" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

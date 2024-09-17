@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Almofada" ICON="E900.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Academic;Trial;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="almofada_05" />
+    <DIMENSION WIDTH="603" HEIGHT="559" DEPTH="98" />
+  </DRAWING>
+  <INSERTDIMENSION />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Almofada" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TECIDO" NAME="DEC_TECIDO" IDMATERIAL="tec_beges_lisos_tecido 013" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_detalhe" NAME="DEC_detalhe" IDMATERIAL="tec_amarelos_lisos_tecido 051" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

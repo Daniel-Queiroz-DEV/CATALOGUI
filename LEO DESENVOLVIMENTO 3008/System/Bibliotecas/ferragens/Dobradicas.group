@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Dobradicas" NAME="Dobradiças" PREFIXID="ace_fer_uni_dob_" INVISIBLE="Y" MODELINVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_LAT_GEN" VALUE="#P.ESP_LAT_GEN#" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_reta_amort" DEF="reta_amort.entity" GUID="14b8e247-9bf0-483d-b88e-fc030b6b285b" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_reta_amort_next" DEF="reta_amort_2.entity" GUID="360ade99-7108-48d4-8839-7b28514c1c79" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_reta" DEF="reta.entity" GUID="ec69b955-6ba8-4d83-9952-074226b19d95" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_rivelato" DEF="reta_2_2.entity" GUID="f5e3a297-e48c-4743-bafb-b04f97aab6e7" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_curva_amort_next" DEF="curva_amort_2.entity" GUID="60a1558d-fbca-421b-bc8a-925b9b3b7b23" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_curva" DEF="curva.entity" GUID="7964a4de-e3cb-4001-ae25-705ecc913fce" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_curva_amort" DEF="curva_amort.entity" GUID="71222751-5607-4e56-90d9-8706cb707034" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_super_curva" DEF="super_curva.entity" GUID="aefec082-0fba-4fb5-80d3-38e2f98a1484" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_super_curva_amort" DEF="super_curva_amort.entity" GUID="fa35a524-4a22-4c0e-a521-8f2ad075c151" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_canto_L" DEF="canto_L.entity" GUID="20ad26b2-84ac-46a5-9e6c-38eb1cebc3ed" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_canto_L_amort" DEF="canto_L_amort.entity" GUID="6e4ef452-7a33-4687-8253-0832e2602134" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_ct_reto" DEF="ct_reto.entity" GUID="2d06c73e-d7c9-47b5-adf0-e9ba66e16a3b" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_ct_obliquo" DEF="ct_obliquo.entity" GUID="87940d5d-1c10-4dfc-a18a-91f5a68d99cf" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_reto" DEF="calco_reto.entity" GUID="c975a3d0-7a89-4e6a-af07-79a6acc82dd7" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_rivelato" DEF="calco_reto_2.entity" GUID="547da5a1-6058-45c7-898b-7d4ec15ee190" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_curvo" DEF="calco_curvo.entity" GUID="0d173144-28c0-4f69-ad95-02c1e554715a" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_super_curvo" DEF="calco_super_curvo.entity" GUID="e10c3ace-a172-49f7-822d-1f0af916895e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_reto_165" DEF="calco_reto_165.entity" GUID="77e137e2-080e-4e2b-a3b4-8ee4b1c007e2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_reto_165_2" DEF="calco_reto_165_2.entity" GUID="2b543a3a-9c5e-4b79-a789-dd2c1847b820" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_prol_calco_reto_165" DEF="prol_calco_reto_165.entity" GUID="9722b23a-b0c7-4999-b539-366438e6c362" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_prol_calco_reto_165_2" DEF="prol_calco_reto_165_2.entity" GUID="981b449b-5de7-4cf0-8f9f-84cf1e602af0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_obliquo" DEF="calco_obliquo.entity" GUID="115179f6-4c71-4f23-80fd-d1b5723e50b9" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_calco_ct_reto" DEF="calco_ct_reto.entity" GUID="588fbe85-53c0-419d-850e-b45f6297141e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_caneco" DEF="caneco.entity" GUID="aa42ab0a-fb1b-4327-a4d4-ee395505048c" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_ct_obliquo_inv" DEF="ace_fer_uni_dob_ct_obliquo_inv.entity" GUID="6ce4f47c-ae5d-476a-ac46-a861f6a99485" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_uni_dob_ct_obliquo_2p" DEF="ace_fer_uni_dob_ct_obliquo_2p.entity" GUID="b9c78044-f0f0-4094-8786-16dff0189579" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

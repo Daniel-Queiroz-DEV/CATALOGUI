@@ -1,0 +1,46 @@
+{
+  "ReceiverData": {
+    "AllowedDrillsNames": []
+  },
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_LAT#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_cola_branco"
+      },
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_BAS#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 1,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_fer_cola_branco"
+      }
+    ]
+  },
+  "ElementId": "ace_fer_cola_branco"
+}

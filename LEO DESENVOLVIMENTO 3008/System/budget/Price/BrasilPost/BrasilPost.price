@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER DESCRIPTION="Brasil Post" ID="BrasilPost">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DATABASE="%PastaPrice%\BrasilPost\BrasilPost.mdb" ID="BancoDados" COLUMNPRICE="Price" CANMODIFY="Y" COLUMNCODE="Code" TABLE="Prices" DLL="ProCAD.Precos.dll" />
+  </SOURCES>
+</PRICEPROVIDER>

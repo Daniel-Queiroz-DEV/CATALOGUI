@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="TV 14''" ICON="TV_VIDEO_03_1.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="TV_VIDEO_03" />
+    <DIMENSION WIDTH="476" HEIGHT="370" DEPTH="380" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Descricao" VALUE="Televisão" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_TELA" NAME="DEC_TELA" IDMATERIAL="ima_TV_tela 004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

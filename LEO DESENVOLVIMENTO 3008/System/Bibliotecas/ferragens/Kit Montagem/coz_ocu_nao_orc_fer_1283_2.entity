@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Parafuso p/ Caixa 4,0x16 dob 6 unid" ICON="paraf_2.jpg" INVISIBLE="Y" CHECKED="N">
+  <DRAWING>
+    <LIMITS>
+      <MIN X="0" Y="-8" Z="-7,5" />
+      <MAX X="15" Y="7" Z="7,5" />
+    </LIMITS>
+    <FILE3D NAME="parafuso_4" />
+    <BOUNDINGBOX HEIGHT="15">
+      <PONTO2DA Y="-7.5" />
+      <PONTO2DA X="0.1" Y="-7.5" />
+      <PONTO2DA X="0.1" Y="7.5" />
+      <PONTO2DA Y="7.5" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="15" HEIGHT="15" DEPTH="15" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION WIDTH="4" HEIGHT="16" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="15" HEIGHT="15" DEPTH="15" TEXT="VPAR416" DESC="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Parafuso 4,0x16 Cabeça Chata Auto-Atarrachante" VISIBLE="N" />
+    <ATTRIBUTE ID="PAR_PRO_LAT" VALUE="#P.PAR_PRO_LAT#" VISIBLE="Y" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="False" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Frigo ($TEXT$)" ICON="mini frigo.jpg">
+  <DRAWING>
+    <FILE3D NAME="mini_frigo" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="11" HEIGHT="55" DEPTH="25" />
+    <LIMITS>
+      <MIN X="-5.5" Y="-24.649" Z="-37.5" />
+      <MAX X="5.876" Y="0" Z="17.56" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.574" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_all" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_min_fri" MODEL="Pux_all" MODELTYPE="Pux_all_pin" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_fri" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_fri" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_fri" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_fri" MODEL="Pux_all_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <REFERENCE IDREFERENCE="Metal_Colorido" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Frigo Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

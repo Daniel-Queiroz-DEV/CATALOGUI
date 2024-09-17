@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog" ICON="dec_mes_cad_02_2015_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="cadeira_02_2015_1" />
+    <DIMENSION WIDTH="536.9" HEIGHT="820" DEPTH="522.4" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_CADEIRA" NAME="DEC_CADEIRA" IDMATERIAL="verm_cor_004" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION />
+</ENTITY>

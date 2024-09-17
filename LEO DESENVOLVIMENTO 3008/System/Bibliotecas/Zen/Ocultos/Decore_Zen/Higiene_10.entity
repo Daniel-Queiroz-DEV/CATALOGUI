@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Papel Higiênico" ICON="HIGIENE_10.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Papel Higiênico" />
+    
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="HIGIENE_10" />
+    <LIMITS>
+      <MIN X="0" Y="-92" Z="0.28" />
+      <MAX X="100" Y="0" Z="100" />
+    </LIMITS>
+    <DIMENSION WIDTH="100" HEIGHT="99.7" DEPTH="92" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_PAPEL" NAME="DEC_PAPEL" IDMATERIAL="cin_cor_000" EDIT="N" />
+    <COMPONENTDEFINITION ID="DEC_ROLO" NAME="DEC_ROLO" IDMATERIAL="lar_cor_007" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

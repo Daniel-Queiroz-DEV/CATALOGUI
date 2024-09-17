@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="portas_4_2" NAME="Inferior sem dobr com furação" PREFIXID="POR_MOD_POR_" INVISIBLE="N" MODELNAME="Portas" ORDERSTRING="001">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="$TEXT$" MODEL="@COM_*@" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_4_4_2_3_2" DEF="reta_2_2.entity" GUID="3b12155d-9f3d-4414-a84b-e06747ac0fd4" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_VID_14_2" DEF="reta_2_2_4_2.entity" GUID="0aaac6e5-cab5-4bee-973d-214e67b3b16d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_GOLA_3_2" DEF="gola.entity" GUID="c5677b6d-0e95-4fdb-a3b2-5468691fec38" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_2" DEF="reta.entity" GUID="631355e0-9a62-4104-884e-1515254e5337" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_4_4_2_4_2_3" DEF="reta_2_2_3.entity" GUID="811cd2f9-0d57-4653-b911-fe7bfe3e32a2" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_GAL_NOVA" DEF="reta_2_2_4.entity" GUID="17c2f96c-d869-4969-8001-4fd47bc55b7a" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_GAL_ZERO_VID_6" DEF="reta_2_2_4_2_2.entity" GUID="fd53e11a-7710-45b2-92fe-babcea89f9d3" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_PALHA_2_4_2" DEF="freggio_2_2_2.entity" GUID="c5ee8b0f-bd7c-4acd-8580-31210a1b0512" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_VAZ_2_2" DEF="freggio_2_2.entity" GUID="f8ea6570-7298-4eb0-9409-361f14018805" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_TEC_20_2_6" DEF="reta_2_3_2_2_4.entity" GUID="beb77b84-be07-4201-9107-2bd186903a2d" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RIPADA_18_6" DEF="ripada_2.entity" GUID="6b72d54c-2f6a-40cd-b63e-6b95f722c7f8" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RIPADA_2_6" DEF="ripada.entity" GUID="39b08a97-af04-42a9-a5a8-0cdc251f8b8e" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_3_4_2_2_4_2" DEF="reta_2_2_2.entity" GUID="369d4f27-4e56-4017-b641-215735438129" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_FRE_3_4" DEF="freggio.entity" GUID="e33dab6c-dfca-4a8e-9b1b-5ac5fc5525d6" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_DES_MARANELLO_2_2_3_2_2" DEF="Maranello.entity" GUID="6a56fe4f-4c21-4000-8fc1-e44573209cf5" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_POR_RETA_6_2_2_2_2_5" DEF="reta_2_3.entity" GUID="95be7daa-2862-452c-8727-8a1a4226c89f" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_CAVA_MADEIRA_2_2_5_5_2_2" DEF="Maranello_2_2_2_2.entity" GUID="b62b5882-595b-4ca6-bc5e-20f72f37a4d7" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_CAVA_MADEIRA_2_4_7" DEF="Maranello_2_2.entity" GUID="2ff33ce3-33ad-485b-96f1-0d2dc77b346d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

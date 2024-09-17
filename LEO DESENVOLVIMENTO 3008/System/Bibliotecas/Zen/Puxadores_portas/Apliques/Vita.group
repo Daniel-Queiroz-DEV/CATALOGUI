@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Vita" NAME="Vita" PREFIXID="zen_man_apl_vit_">
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <MODELS>
+    <MODEL IDMODEL="Zen_apl_vit" ENTRYID="pux_zen" />
+  </MODELS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_eur" DEF="Vita_Aplique_Euro.entity" GUID="140b4a9a-def8-476e-9c8b-48f639d81756" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_pap" DEF="Vita_Aplique_Papaiz.entity" GUID="3f415094-c4fe-4d06-b268-e073ca2e4c8a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_tet" DEF="Vita_Aplique_Tetra.entity" GUID="b84796ac-8210-41fa-a169-187603ff4e8a" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_laf_st" DEF="Vita_Aplique_La_Fonte_ST.entity" GUID="dca49e57-1b28-4be5-b007-49ee2f231a8b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_laf_st2" DEF="Vita_Aplique_La_Fonte_ST2.entity" GUID="9717f8e2-7366-4080-8792-c55b38c26895" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_ima_4800" DEF="Vita_Aplique_Imab_4800.entity" GUID="a0effe32-d288-463e-a02c-b2a45e1311f1" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_ima_1000" DEF="Vita_Aplique_Imab_1000.entity" GUID="eb6b8af3-b042-4a75-9710-43d428db342e" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_sta" DEF="Vita_Aplique_Stam.entity" GUID="88a4d9d5-cef0-480c-90fc-e491bd5fb219" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_aro" DEF="Vita_Aplique_Arouca.entity" GUID="8893ec68-824c-40b4-a26f-f7069ab3d0c3" />
+    <EXPLORERITEM TYPE="entity" ID="zen_man_apl_vit_fec_int" DEF="Vita_Aplique_Interna.entity" GUID="ca8420f4-c0eb-473b-85a3-afdaa312c37f" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWING ID="Vitta_Aplique" />
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="44.5" FORMULA="$D$-4.5">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-31.68545" V="19.55122" />
+              <CORNER2 U="30.87947" V="-12.99064" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="157" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-168.5623" V="213.7429" />
+              <CORNER2 U="161.3773" V="78.56712" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="157" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-185.8427" V="-80.02266" />
+              <CORNER2 U="177.3371" V="-207.0633" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <DRAWINGS />
+</GROUP>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Dolomita ($TEXT$)" ICON="dolomita.jpg">
+  <DRAWING>
+    <FILE3D NAME="dolomita_100705" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="233" HEIGHT="20" DEPTH="24" />
+    <LIMITS>
+      <MIN X="-116.5" Y="-24.587" Z="-12" />
+      <MAX X="116.203" Y="0" Z="8.013" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_224_dol" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_dol" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_dol" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_224_dol" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION TEXT="100.705" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Dolomita 224mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

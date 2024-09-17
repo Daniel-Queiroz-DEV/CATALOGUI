@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sabonet Rem de Balc ($TEXT$)" ICON="BA0015____13.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0148_sabonet_remov_balc" />
+    <DIMENSION WIDTH="110" HEIGHT="28" DEPTH="110" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Saboneteira com Acrílico Removível de Balcão @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE COMPLETE="$TEXT$-@zen_spirit@" />
+  <INSERTDIMENSION WIDTH="110" HEIGHT="28" DEPTH="110" TEXT="BA0148" />
+</ENTITY>

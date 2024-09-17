@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gaveta Lava-Louças" ICON="GAV_LAVA.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Gaveta Lava-Louças" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="GAV_LAVA" />
+    <DIMENSION WIDTH="535" HEIGHT="560" DEPTH="545" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DRAWER" MAX="400" />
+</ENTITY>

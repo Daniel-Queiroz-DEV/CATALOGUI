@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Trav Sapateira Invisivel ($TEXT$)" INVISIBLE="N" ICON="com_coz_tra_tra_3_2_2.jpg">
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#COZ_ESP_TRA#+#FOL_PAI#)" DEPTH="#DIM_ALT_TRAV_TRAS#" ITEM_BASE="TRA01" TEXT="301">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trav Sapateira" VISIBLE="N" />
+    <ATTRIBUTE ID="CALCULATED" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS />
+</ENTITY>

@@ -1,0 +1,44 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo31",
+        "ReceiverDepth": {
+          "Value": "2"
+        },
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$/2",
+          "Y": "$H$"
+        },
+        "ElementId": "ace_cor_sup_formar"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo31",
+        "ReceiverDepth": {
+          "Value": "2"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 2,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$/2",
+          "Y": "0"
+        },
+        "ElementId": "ace_cor_sup_formar"
+      }
+    ]
+  },
+  "ElementId": "ace_cor_sup_formar"
+}

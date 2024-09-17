@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lis Cristal ($TEXT$)" ICON="lis_cri.jpg">
+  <DRAWING>
+    <FILE3D NAME="lis_cristal_100715" FORMAT=".dxf" />
+    <DIMENSION WIDTH="580" HEIGHT="8" DEPTH="30" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.715" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_544_lis_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_544_lis_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_544_lis_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_544_lis_cri" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Lis Cristal 544mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

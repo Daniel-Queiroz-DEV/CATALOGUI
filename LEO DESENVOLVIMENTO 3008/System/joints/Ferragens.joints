@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JOINTS>
+  <JOINT NAME="Passante" FIRST="fer_per_fer_pra_fix" SECOND="fer_per_fer_pra_fix" SUBSTITUTE="fer_per_fer_bas_pas" TYPE="Left-Right" TREATASAGGREGATE="Y" MOVEPARENT="N" WIDTH="#P.ESP_MON#" PARENT="FIRST" />
+  <JOINT FIRST="fer_per_fer_lat_4" SECOND="fer_per_fer_lat_4" SUBSTITUTE="fer_per_fer_bas_pas" NAME="Perfil Lateral" TYPE="Left-Right" TREATASAGGREGATE="N" />
+</JOINTS>

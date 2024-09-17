@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Canto &quot;L&quot;" ICON="inf_dd_crasgo_canto_l.jpg" CHECKED="N" TYPE="GEOMETRY">
+  <DRAWING>
+    <FILE3D NAME="crasgo_canto_l" />
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+    <BOUNDINGBOX HEIGHT="15">
+      <PONTO2DA />
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="550" Y="-1000" />
+      <PONTO2DA X="550" Y="-550" />
+      <PONTO2DA X="1000" Y="-550" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_AB" />
+  <BUDGET>
+    <INFORMATION HEIGHT="$D$" DEPTH="$H$" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo p/ Canto &quot;L&quot;" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="580" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="580" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="1000" DEPTH="1000" HEIGHT="#ESP_TAMP#" TEXT=" ">
+    <MIN WIDTH="50" DEPTH="50" HEIGHT="1" />
+    <MAX WIDTH="2700" DEPTH="1800" HEIGHT="100" />
+  </INSERTDIMENSION>
+</ENTITY>

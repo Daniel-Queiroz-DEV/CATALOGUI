@@ -1,0 +1,53 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "327,7088",
+        "Y": "425"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "ElementId": "com_coz_bas_dia_tri_3_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "186,2478",
+        "Y": "577,5"
+      },
+      "DistanceFromShape": 27.5,
+      "DistanceFromElement": 27.5,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "0, 27",
+      "DirectionFromSecondElement": "0, 27",
+      "ElementId": "com_coz_bas_dia_tri_3_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 0,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "-27,5",
+        "Y": "459,1621"
+      },
+      "DistanceFromShape": -27.5,
+      "DistanceFromElement": -27.5,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 2,
+      "FontSize": 14.0,
+      "DirectionFromFirstElement": "-27, 5",
+      "DirectionFromSecondElement": "-27, 5",
+      "ElementId": "com_coz_bas_dia_tri_3_2"
+    }
+  ],
+  "ElementId": "com_coz_bas_dia_tri_3_2"
+}

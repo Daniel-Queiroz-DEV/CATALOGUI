@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="cadeira_28.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_28" />
+    <DIMENSION WIDTH="547" HEIGHT="1016" DEPTH="621" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="DEC_MADEIRA" NAME="DEC_MADEIRA" IDMATERIAL="ipe" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_ASSENTO" NAME="DEC_ASSENTO" IDMATERIAL="tec_brancos_lisos_tecido 001" EDIT="Y" />
+    <COMPONENTDEFINITION ID="DEC_PALHA" NAME="DEC_PALHA" IDMATERIAL="palhas_vimes_palha 008" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

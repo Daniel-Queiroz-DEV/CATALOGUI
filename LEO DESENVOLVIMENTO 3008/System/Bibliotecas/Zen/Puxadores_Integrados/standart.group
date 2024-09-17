@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="standart" NAME="Standart" PREFIXID="zen_sta_" INVISIBLE="N">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_LARG" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_sta_40" DEF="40mm.group" GUID="235d8079-8044-43c1-a111-f920f2f8187b" />
+    <EXPLORERITEM TYPE="group" ID="zen_sta_96" DEF="96mm.group" GUID="ab0edeaa-4ba9-46a3-9337-4854dd22ba9c" />
+    <EXPLORERITEM TYPE="group" ID="zen_sta_160" DEF="160mm.group" GUID="a046e99c-396f-4888-bd80-ccf2e7693221" />
+    <EXPLORERITEM TYPE="group" ID="zen_sta_288" DEF="288mm.group" GUID="af51b93f-0f6e-484b-a374-9746547b0a0d" />
+    <EXPLORERITEM TYPE="group" ID="zen_sta_448" DEF="448mm.group" GUID="1dcf3607-0e74-4023-a7b7-6e9100576ab5" />
+    <EXPLORERITEM TYPE="group" ID="zen_sta_640" DEF="640mm.group" GUID="e6196301-0d3c-4d85-a28f-9dff23e9b77e" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="Pux_40mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\standart\3D\perfil" />
+      <DIMENSION WIDTH="56" HEIGHT="56" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-28" Y="-19" Z="-28" />
+        <MAX X="28" Y="0" Z="28" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Pux_96mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\standart\3D\pux_96mm" />
+      <DIMENSION WIDTH="112" HEIGHT="56" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-56" Y="-19" Z="-28" />
+        <MAX X="56" Y="0" Z="28" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Pux_160mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\standart\3D\pux_160mm" />
+      <DIMENSION WIDTH="172" HEIGHT="56" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-86" Y="-19" Z="-28" />
+        <MAX X="86" Y="0" Z="28" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Pux_288mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\standart\3D\pux_288mm" />
+      <DIMENSION WIDTH="304" HEIGHT="56" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-152" Y="-19" Z="-28" />
+        <MAX X="152" Y="0" Z="28" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="Pux_448mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\standart\3D\pux_448mm" />
+      <LIMITS>
+        <MIN X="-232" Y="-19" Z="-28" />
+        <MAX X="232" Y="0" Z="28" />
+      </LIMITS>
+      <DIMENSION WIDTH="464" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+    <DRAWING ID="Pux_656mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\standart\3D\pux_656mm" />
+      <LIMITS>
+        <MIN X="-328" Y="-19" Z="-28" />
+        <MAX X="328" Y="0" Z="28" />
+      </LIMITS>
+      <DIMENSION WIDTH="656" HEIGHT="56" DEPTH="19" />
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

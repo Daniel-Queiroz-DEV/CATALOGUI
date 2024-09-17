@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductiveScriptData
+  ElementId="POR_PAI_PORTA_SOR_DES" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Script;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ProductiveScriptData.ProductiveScripts>
+    <ProductiveScriptItem
+      ID="sorrento_usi"
+      Description="Sorrento"
+      OperationType="Extra"
+      Condition="{assembly:Null}"
+      Dynamic="False"
+      Reference="21"
+      Operation="{assembly:Null}"
+      AplicationID="POR_PAI_PORTA_CAVA_MADEIRA_2_2_2_2_3_2"
+      Unit="{assembly:Null}"
+      PriceUnit="{assembly:Null}"
+      ReferenceMounted="{assembly:Null}"
+      Rule="{assembly:Null}"
+      Quantity="{assembly:Null}" />
+  </ProductiveScriptData.ProductiveScripts>
+  <ProductiveScriptData.ProductiveScriptsType>
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Cut" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Border" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Slot" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Hole" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Machining" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="MachiningContours" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="ObliqueProfileMachining" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="InternalLaminate" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="ExternalLaminate" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="InternalPaint" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="ExternalPaint" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Assembly" />
+    <ProductiveScriptType
+      Index="0"
+      ID="FRESA_CAVA"
+      OperationType="Extra" />
+    <ProductiveScriptType
+      Index="0"
+      ID="sorrento_usi"
+      OperationType="Extra" />
+    <ProductiveScriptType
+      Index="0"
+      ID=""
+      OperationType="Insertion" />
+  </ProductiveScriptData.ProductiveScriptsType>
+</ProductiveScriptData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prat Acr ($TEXT$)" ICON="BA0036.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0124_prat_acrilico" />
+    <DIMENSION WIDTH="420" HEIGHT="41.5" DEPTH="120" />
+  </DRAWING>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0124" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0124" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <INSERTDIMENSION WIDTH="420" HEIGHT="41" DEPTH="120" TEXT="BA0124" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Woman Prateleira em Acrílico $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

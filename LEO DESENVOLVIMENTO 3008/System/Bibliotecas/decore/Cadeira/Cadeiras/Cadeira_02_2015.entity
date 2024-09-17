@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cadeira" ICON="Cadeira_02_2015.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="cadeira_bar02_2015" />
+    <DIMENSION WIDTH="399.3" HEIGHT="840.2" DEPTH="451.7" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="MADEIRA" NAME="MADEIRA" IDMATERIAL="wengue" EDIT="Y" />
+    <COMPONENTDEFINITION ID="MADEIRA_H" NAME="MADEIRA_H" IDMATERIAL="wengue_h" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Cadeira" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

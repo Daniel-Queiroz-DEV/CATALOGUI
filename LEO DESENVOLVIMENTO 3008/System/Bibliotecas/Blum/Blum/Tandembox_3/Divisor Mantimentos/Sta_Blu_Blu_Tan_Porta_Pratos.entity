@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta Pratos" INVISIBLE="Y" MODELINVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="porta pratos" />
+    <DIMENSION WIDTH="350" HEIGHT="170" DEPTH="240" />
+  </DRAWING>
+  <REFERENCE ITEM_BASE="$TEXT$" />
+  <INSERTDIMENSION WIDTH="350" HEIGHT="170" DEPTH="240" TEXT="01366848" DESC="">
+    <MIN WIDTH="350" DEPTH="240" HEIGHT="170" />
+    <MAX WIDTH="350" DEPTH="240" HEIGHT="170" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Porta Pratos Blum - diametro do prato =186-322mm" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

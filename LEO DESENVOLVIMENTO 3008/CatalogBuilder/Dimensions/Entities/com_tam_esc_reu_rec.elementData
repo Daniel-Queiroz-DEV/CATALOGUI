@@ -1,0 +1,22 @@
+{
+  "ElementId": "com_tam_esc_reu_rec",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "SecondElementType": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "1000",
+        "Y": "1009,13"
+      },
+      "Edge": 6,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_tam_esc_reu_rec"
+    }
+  ]
+}

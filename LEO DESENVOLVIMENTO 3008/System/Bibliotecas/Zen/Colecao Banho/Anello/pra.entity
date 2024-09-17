@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prateleira de Inox c/ Guarnição ($TEXT$)" ICON="pra.jpg">
+  <DRAWING>
+    <FILE3D NAME="prateleira_guardicao" />
+    <LIMITS>
+      <MIN X="-17.683" Y="-134.001" Z="0" />
+      <MAX X="432.317" Y="0" Z="46" />
+    </LIMITS>
+    <DIMENSION WIDTH="450" HEIGHT="46" DEPTH="134" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_dec_Cosmetico_06" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION CANCHANGESELECTIONMODEL="Y" ID="cosmetico" KEEPCHANGEDDIMENSION="N" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="Y" REPLACEFUNCTION="N" KEEPCHANGEDPOSITION="N" ALWAYSVISIBLE="N">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <POSITION X="100" Y="-35" Z="24" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="450" HEIGHT="46" DEPTH="134" TEXT="BA0316" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello Prateleira de Inox c/ Guardição @zen_ane(NAME)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_202" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_707" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_691" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_698" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_702" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_705" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_699" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_77" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_75" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_83" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_201" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_693" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_82" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_692" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_76" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_681" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_703" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_704" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_203" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_706" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_708" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_80" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_79" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_ane_pra" MODEL="zen_ane" MODELTYPE="zen_ane_648" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

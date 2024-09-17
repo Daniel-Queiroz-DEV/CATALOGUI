@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Cromo/Couro Marrom ($TEXT$.$D.ACAB$)" ICON="cardiff_marrom.jpg">
+  <DRAWING>
+    <FILE3D NAME="ZP0503" />
+    <HOLE PRICK="Y" DEPTH="1">
+      <POSITION>
+        <ROTATION>0</ROTATION>
+      </POSITION>
+    </HOLE>
+    <DIMENSION WIDTH="425" HEIGHT="80" DEPTH="21" />
+    <LIMITS>
+      <MIN X="-212.5" Y="-21.4" Z="-10" />
+      <MAX X="212.5" Y="0" Z="70" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="PUXADOR_DET" ID="PUXADOR_DET" IDMATERIAL="zen_couro_marrom" />
+    <COMPONENTDEFINITION NAME="PUXADOR" ID="PUXADOR" IDMATERIAL="zen_cromado" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="425" HEIGHT="80" DEPTH="21" TEXT="ZP0503" ACAB="102" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Cardiff Couro $W$mm Cromo/Marrom" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+</ENTITY>

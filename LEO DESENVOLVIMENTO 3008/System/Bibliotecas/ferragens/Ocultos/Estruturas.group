@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Estruturas" NAME="Estruturas" PREFIXID="ace_ocu_est_" INVISIBLE="N">
+  <BUDGET>
+    <INFORMATION RULE="M" WIDTH="$w$" HEIGHT="$h$" DEPTH="$d$" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_int_inf" DEF="ace_ocu_est_tri_int_inf.entity" GUID="f4a53299-e341-4ae0-9c69-ec94d5a0fb4d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_697" DEF="ace_ocu_est_697.entity" GUID="98c7d2e6-16ce-4dc5-b36a-482a4e1ecc4e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_697_3" DEF="ace_ocu_est_697_3.entity" GUID="dfa270a0-3a83-4573-a37a-f559a2cb7780" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_697_2" DEF="ace_ocu_est_697_2.entity" GUID="263f42d3-f60c-4b26-a2d7-998ba6d0e5fd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_sup_int" DEF="ace_ocu_est_tri_sup_int.entity" GUID="17709c7e-b49a-4cfe-9c00-dc4b6caf6409" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_sup_ext" DEF="ace_ocu_est_tri_sup_ext.entity" GUID="cdff017b-7c64-4b21-8aca-586acf265f2d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_sup_ext_3" DEF="ace_ocu_est_tri_sup_ext_3.entity" GUID="f317f1bb-5061-4c61-a30e-e6186f75294d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_sup_ext_2" DEF="ace_ocu_est_tri_sup_ext_2.entity" GUID="2275fc23-9884-4563-b095-93ae1070a765" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_tri_ro21" DEF="ace_ocu_div_tri_ro21.entity" GUID="d57911d5-97c9-45f3-ad9e-bb00335322e7" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_tri_ro80" DEF="ace_ocu_div_tri_ro80.entity" GUID="2f48f9a2-2a9e-4310-a1de-f208986952a1" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_tri_rm285" DEF="ace_ocu_div_tri_ro80_3.entity" GUID="0d7448ce-f79d-4bde-abc8-4b3da1631273" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_div_kit_seq" DEF="ace_ocu_div_tri_ro80_2.entity" GUID="5fcf2774-ca38-4dde-9b12-00729e7842e3" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_sup_ro46" DEF="ace_ocu_est_sup_ro46.entity" GUID="7844a01d-cf72-41f3-bd26-144ca0118f79" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_sup_vers" DEF="ace_ocu_est_sup_vers.entity" GUID="48d84103-4fc1-41f3-a118-a34adcfe6d92" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_inf_ro46" DEF="ace_ocu_est_inf_ro46.entity" GUID="6e41f222-32f9-47ab-965d-3a67963b80dd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_sup_rm82" DEF="ace_ocu_est_tri_sup_rm_3.entity" GUID="9609d062-726d-4bc9-b1f5-04808663a778" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_sup_rm" DEF="ace_ocu_est_tri_sup_rm.entity" GUID="798503e4-e3d3-4e19-8002-c49c9bb14aa2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_bar_est" DEF="ace_ocu_est_tri_sup_rm_2.entity" GUID="4a42578e-01f7-4ddd-a518-5e49fcfa6dd0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_bar_est_2" DEF="ace_ocu_est_tri_sup_rm_2_2.entity" GUID="ed46a75d-04b9-428e-b21a-97082f9e0b37" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_fec_pivo" DEF="ace_ocu_est_tri_sup_rm_2_2_2.entity" GUID="ba0f0203-ea92-4009-8a1c-9d54aa6d0b87" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_dob_pivo" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2.entity" GUID="6d9ccca3-9219-4a58-a361-f46c463de8c0" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_des" DEF="ace_ocu_est_tri_sup_rm_2_2_2_2_2.entity" GUID="d67a1ac3-6002-4227-a82d-a328307a5571" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tri_inf_rm" DEF="ace_ocu_est_tri_inf_rm.entity" GUID="f1c09426-3609-4a0f-ba60-34b0d5174233" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_est_tap_aca_rm" DEF="ace_ocu_est_tap_aca_rm.entity" GUID="2f58216d-44f7-4ad8-82cc-ebe1ef5d8d33" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

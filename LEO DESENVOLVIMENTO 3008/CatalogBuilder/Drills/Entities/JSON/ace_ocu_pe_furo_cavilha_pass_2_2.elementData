@@ -1,0 +1,47 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "Condition": {
+          "Expression": "$P.P.H$==(25+#FOL_PAI#)"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "27"
+        },
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_ocu_pe_furo_cavilha_pass_2_2"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo22",
+        "ReceiverDepth": {
+          "Value": "#PRO_CAV_BAS#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "5",
+          "Y": "5"
+        },
+        "ElementId": "ace_ocu_pe_furo_cavilha_pass_2_2"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_pe_furo_cavilha_pass_2_2"
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="4 Latas" ICON="P_4LATAS.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta 4 Latas" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_4LATAS" />
+    <DIMENSION WIDTH="368" HEIGHT="121" DEPTH="126" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

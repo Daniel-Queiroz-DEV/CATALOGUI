@@ -1,0 +1,147 @@
+{
+  "Slots": [
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$W$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "PlaneIndex": 3,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 1,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$W$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 2,
+      "PlaneIndex": 1,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2"
+    },
+    {
+      "Name": "Rasgo01",
+      "Depth": {
+        "Value": "10"
+      },
+      "SlotType": "Horizontal",
+      "Width": {
+        "Value": "$H$"
+      },
+      "Start": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "End": {
+        "X": "$D$ + 0",
+        "Y": "$H$/2"
+      },
+      "OperationType": "Dynamic",
+      "MakerDepthGap": {
+        "Value": "#P.FOL_RASGO_PROF_GEN#"
+      },
+      "MakerWidthGap": {
+        "Value": "#P.FOL_RASGO_LARG_GEN#"
+      },
+      "MakerWidthGapAlignment": "Center",
+      "MakerStartOffset": {},
+      "MakerEndOffset": {},
+      "UniqueID": 3,
+      "PlaneIndex": 2,
+      "OperationPrice": "RASGO",
+      "Position": {
+        "X": "0 - 0",
+        "Y": "$H$/2"
+      },
+      "ElementId": "com_con_fun_fun_2"
+    }
+  ],
+  "ElementId": "com_con_fun_fun_2"
+}

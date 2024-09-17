@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Ponto_Couro_Vermelho" NAME="Ponto Couro Vermelho" PREFIXID="zen_far_pon_cou_ver_">
+  <DRAWINGS />
+  <DRAWING ID="FARM_PONTO" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="zen_far_739_2" DEF="ZP1932_739.entity" GUID="1cc2fd9d-9a4c-4af0-ae40-02f83bf6c31b" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_740_2" DEF="ZP1932_740.entity" GUID="6cf5e088-7091-4471-9c8a-8554c5a92200" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_741_2" DEF="ZP1932_741.entity" GUID="8b59b423-1f14-4f0b-958a-44197bce50bb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_A14_2" DEF="ZP1932_A14.entity" GUID="80cf05f4-cc7a-4dc1-a41f-53a0c7e155cb" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_B14_2" DEF="ZP1932_B14.entity" GUID="ef6f264d-93fa-4a4a-abe7-b491845f212c" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_F14_2" DEF="ZP1932_F14.entity" GUID="27b71358-d469-4104-809d-4578155a2936" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_G14_2" DEF="ZP1932_G14.entity" GUID="c1324f80-dfbb-4dc4-a798-16b7aa9d87b4" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_L14_2" DEF="ZP1932_L14.entity" GUID="2c6aa0be-7bb7-4af7-a77f-eb7449ca1491" />
+    <EXPLORERITEM TYPE="entity" ID="zen_far_M14_2" DEF="ZP1932_M14.entity" GUID="89ce807f-a9fd-40fd-bc4a-ef5b652e28a0" />
+  </EXPLORERITEMCOLLECTION>
+  <AGGREGATECOLLECTION>
+    <REF FILE="..\..\..\Aggregates\Furacoes_Zen\Furacao_Ponto.aggregate" ORDER="0" />
+  </AGGREGATECOLLECTION>
+</GROUP>

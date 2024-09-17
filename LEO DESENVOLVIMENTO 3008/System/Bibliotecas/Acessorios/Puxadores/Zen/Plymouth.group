@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Plymouth" NAME="Plymouth" PREFIXID="zen_ply_" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_ply_80" DEF="80mm.group" GUID="42c7287f-d6bf-494b-8078-5e3ce584a1e3" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="PLYMOUTH">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\PLYMOUTH" />
+      <DIMENSION WIDTH="95.5" HEIGHT="33.3" DEPTH="28.7" />
+      <LIMITS>
+        <MIN X="-47.738" Y="-19.135" Z="-16.669" />
+        <MAX X="47.738" Y="9.552" Z="16.669" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

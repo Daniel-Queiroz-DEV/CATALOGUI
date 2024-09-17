@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq Balcão ($TEXT$)" ICON="BA0015_____14_1.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0146_sabonet_liq_balc" />
+    <DIMENSION WIDTH="70" HEIGHT="182" DEPTH="85" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Saboneteira Líquida de Balcão @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="70" HEIGHT="182" DEPTH="85" TEXT="BA0146" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0146" MODEL="Zen_spirit" MODELTYPE="Zen_spi_pol_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_spi_BA0146" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

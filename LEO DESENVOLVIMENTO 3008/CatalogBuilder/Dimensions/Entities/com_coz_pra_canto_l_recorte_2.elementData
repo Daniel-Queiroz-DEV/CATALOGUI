@@ -1,0 +1,85 @@
+{
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 6,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "1081,717",
+        "Y": "725"
+      },
+      "Edge": 5,
+      "PlaneType": "Superior",
+      "ElementId": "com_coz_pra_canto_l_recorte_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 2,
+      "Point": {
+        "X": "275",
+        "Y": "-99,1693"
+      },
+      "Edge": 2,
+      "PlaneType": "Superior",
+      "UniqueID": 1,
+      "ElementId": "com_coz_pra_canto_l_recorte_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 7,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "-117,4263",
+        "Y": "894,1015"
+      },
+      "PlaneType": "Superior",
+      "UniqueID": 2,
+      "ElementId": "com_coz_pra_canto_l_recorte_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 1,
+      "SecondIndex": 0,
+      "Point": {
+        "X": "77,74796",
+        "Y": "1066,756"
+      },
+      "Edge": 7,
+      "PlaneType": "Superior",
+      "UniqueID": 3,
+      "ElementId": "com_coz_pra_canto_l_recorte_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 4,
+      "SecondIndex": 5,
+      "Point": {
+        "X": "603,6584",
+        "Y": "360,9754"
+      },
+      "DistanceFromShape": -89.0246,
+      "DistanceFromElement": -89.0246,
+      "Orientation": "Horizontal",
+      "PlaneType": "Superior",
+      "UniqueID": 4,
+      "ElementId": "com_coz_pra_canto_l_recorte_2"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstIndex": 3,
+      "SecondIndex": 4,
+      "Point": {
+        "X": "647,5609",
+        "Y": "260,9754"
+      },
+      "DistanceFromShape": 97.56085,
+      "DistanceFromElement": 97.56085,
+      "Orientation": "Vertical",
+      "PlaneType": "Superior",
+      "UniqueID": 5,
+      "ElementId": "com_coz_pra_canto_l_recorte_2"
+    }
+  ],
+  "ElementId": "com_coz_pra_canto_l_recorte_2"
+}

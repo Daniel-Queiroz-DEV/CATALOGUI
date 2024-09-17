@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Obliquo ($TEXT$)" TYPE="GEOMETRY" ICON="TAM_TAM_OBL.jpg">
+  <DRAWING>
+    <FILE3D NAME="TAM_TAM_OBL" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-1000" Z="0" />
+      <MAX X="1000" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-1000" />
+      <PONTO2DA X="550" Y="-1000" />
+      <PONTO2DA X="1000" Y="-550" />
+      <PONTO2DA X="1000" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_AB" />
+  <MODELS>
+    <MODEL IDMODEL="com_tampos" ENTRYID="COM" />
+    <MODEL IDMODEL="com_tampo_fita" ENTRYID="COM" />
+  </MODELS>
+  <INSERTDIMENSION WIDTH="1000" HEIGHT="@(#ESP_TAM#+#FOL_PAI#)" DEPTH="1000" TEXT="1703" ITEM_BASE="TAMP01">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2700" DEPTH="1800" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Tampo Canto Oblíquo" VISIBLE="N" />
+    <ATTRIBUTE ID="A" VALUE="550" VISIBLE="N" />
+    <ATTRIBUTE ID="B" VALUE="550" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

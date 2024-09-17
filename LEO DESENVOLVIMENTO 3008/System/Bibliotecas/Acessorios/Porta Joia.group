@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Porta Joia" NAME="Porta Joia" PREFIXID="ACE_DIV_JOIA_" INVISIBLE="N" MODELINVISIBLE="N">
+  <REFERENCE IDREFERENCE="GERAL" />
+  <BUDGET>
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_JOIA_1_2_3" DEF="joia_1_2_3.entity" GUID="0f574288-d232-4bce-bbf7-676447e52ac7" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_JOIA_1_2_2" DEF="joia_1_2_2.entity" GUID="89d9ccf1-0ac6-4ec6-98db-bd8a0c0644e5" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_JOIA_1_2" DEF="joia_1_2.entity" GUID="d8fb2b09-604a-47ac-91f1-475655e3dabd" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_JOIA_2" DEF="joia_2.entity" GUID="33befc62-c382-44a8-9a15-5dab0558b366" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_JOIA_3" DEF="joia_3.entity" GUID="3868fd4c-c921-4f2f-a187-f9067cd9d29f" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DIV_JOIA_1" DEF="joia_1.entity" GUID="bf6a177b-714a-4a37-a7a1-50a86fc0f4d0" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

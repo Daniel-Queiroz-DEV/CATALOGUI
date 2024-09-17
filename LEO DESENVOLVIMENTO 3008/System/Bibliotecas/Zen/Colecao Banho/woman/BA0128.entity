@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq Balcão ($TEXT$)" ICON="BA0015_5.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0128_saboneteira_liq_balc" />
+    <DIMENSION WIDTH="110" HEIGHT="114.3" DEPTH="115.1" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="110" HEIGHT="115" DEPTH="115" TEXT="BA0128" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Womann Saboneteira Líquida de Balcão $REFERENCE(DESCRICAO)$" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0128" MODEL="Zen_womann" MODELTYPE="Zen_wom_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_wom_BA0128" MODEL="Zen_womann" MODELTYPE="Zen_wom_pol_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

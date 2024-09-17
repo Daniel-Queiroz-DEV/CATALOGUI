@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fixador Alta">
+  <DRAWING>
+    <FILE3D NAME="ponteira" />
+    <LIMITS>
+      <MIN X="-6.489" Y="0" Z="-5.619" />
+      <MAX X="6.489" Y="512.326" Z="5.619" />
+    </LIMITS>
+    <DIMENSION WIDTH="13" HEIGHT="11.2" DEPTH="512.3" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="13" HEIGHT="11.2" DEPTH="509.6" TEXT="">
+    <MIN DEPTH="10" />
+    <MAX DEPTH="10000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <MODELS>
+    <MODEL IDMODEL="Blu_Tandembox_2" ENTRYID="Sta_Blu" />
+  </MODELS>
+</ENTITY>

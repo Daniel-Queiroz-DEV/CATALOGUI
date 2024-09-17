@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Anello 1100" ICON="Anello_1100.jpg">
+  <DRAWING>
+    <FILE3D NAME="Anello_Duplo_1000" />
+    <LIMITS>
+      <MIN X="-22" Y="-73.12" Z="-550" />
+      <MAX X="22" Y="113.12" Z="550" />
+    </LIMITS>
+    <DIMENSION WIDTH="44" HEIGHT="1100" DEPTH="186" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Zen_man_anello" ENTRYID="pux_zen" />
+  </MODELS>
+  <INSERTDIMENSION HEIGHT="1100" WIDTH="44" DEPTH="186">
+    <MIN DEPTH="100" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Anello 1100" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="113" FORMULA="$D$-73">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.28764" V="19.60412" />
+              <CORNER2 U="75.65301" V="-81.14841" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_A00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_F00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_B00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_G00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_L00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_M00" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_A01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_B01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_F01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_G01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_L01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_M01" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_A29" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_B29" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_F29" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_G29" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_L29" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ocl_man_ane_1100" MODEL="Zen_man_anello" MODELTYPE="Zen_man_M29" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Escumadeira" ICON="TALHER_11.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Escumadeira" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="AllowIndividualBudget" VALUE="true" VISIBLE="N" />
+    <ATTRIBUTE ID="CANMIRROR" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEXPORTENTITY" VALUE="False" VISIBLE="N" />
+    
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="TALHER_11" />
+    <DIMENSION WIDTH="120.8" HEIGHT="334.7" DEPTH="90,4" />
+    <LIMITS>
+      <MIN X="-0.396" Y="-94.663" Z="10.011" />
+      <MAX X="120.406" Y="-4.31" Z="344.71" />
+    </LIMITS>
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="DEC_INOX" ID="DEC_INOX" EDIT="Y" IDMATERIAL="Inox_01" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

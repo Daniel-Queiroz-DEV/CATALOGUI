@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Acoplamento Direito - Esquerdo" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="engate_movento" />
+    <DIMENSION WIDTH="411.8" HEIGHT="13.3" DEPTH="88.5" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="lar_cor_004" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioLarguraAltura" />
+  <INSERTDIMENSION WIDTH="390" HEIGHT="13.3" DEPTH="88.5" TEXT="">
+    <MIN WIDTH="1" />
+    <MAX WIDTH="10000" />
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Acoplamento Direito - Esquerdo" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

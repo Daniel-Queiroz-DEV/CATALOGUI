@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Shell" NAME="Shell" PREFIXID="zen_she_">
+  <DRAWINGS>
+    <DRAWING ID="SHELL_48mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SHELL_48mm" />
+      <DIMENSION WIDTH="68.9" HEIGHT="34.4" DEPTH="14.6" />
+      <LIMITS>
+        <MIN X="-34.438" Y="-14.639" Z="0" />
+        <MAX X="34.438" Y="0" Z="34.438" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SHELL_64mm">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\SHELL_64mm" />
+      <DIMENSION WIDTH="89.4" HEIGHT="44.7" DEPTH="19" />
+      <LIMITS>
+        <MIN X="-44.697" Y="-19" Z="0" />
+        <MAX X="44.697" Y="0" Z="44.697" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_she_48_2" DEF="48mm.group" GUID="f1979fce-f05b-4d9a-a361-b447fca922c7" />
+    <EXPLORERITEM TYPE="group" ID="zen_she_64_2" DEF="64mm.group" GUID="f918b3f7-ea09-430c-9e49-de4fe4bd3cfd" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

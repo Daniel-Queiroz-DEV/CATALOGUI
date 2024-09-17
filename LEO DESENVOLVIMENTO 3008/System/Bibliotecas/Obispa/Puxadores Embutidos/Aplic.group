@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Aplic" NAME="Aplic" PREFIXID="pux_obi_pux_emb_apl_" INVISIBLE="N">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_pux_emb_apl_64" DEF="aplic_64.entity" GUID="052cb10f-f0c8-4a79-989c-f557274601cb" />
+    <EXPLORERITEM TYPE="entity" ID="pux_obi_pux_emb_apl_128" DEF="aplic_128.entity" GUID="58b35388-a111-4200-ac3a-1a7a55c25511" />
+  </EXPLORERITEMCOLLECTION>
+  <POSITIONSERVICEDEFINITIONS>
+    <POSITIONSERVICEDEFINITION ID="Encaixe_aplic" DESCRIPTION="Obispa - Puxador Aplic">
+      <OPTIONS>
+        <OPTION ID="EIV_NOV_01" DESCRIPTION="Vertical 01" X="$H$-1" Y="1" Z="$PH$-$W$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="ECV_NOV_01" DESCRIPTION="Vertical 02" X="$H$-1" Y="1" Z="$PH$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="ESV_NOV_01" DESCRIPTION="Vertical 03" X="$H$-1" Y="1" Z="$W$/2" A="-1" B="0" C="0" ROTATION="180" />
+        <OPTION ID="DIV_NOV_01" DESCRIPTION="Vertical 04" X="$PW$-$H$+1" Y="1" Z="$PH$-$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="DCV_NOV_01" DESCRIPTION="Vertical 05" X="$PW$-$H$+1" Y="1" Z="$PH$/2" A="1" B="0" C="0" />
+        <OPTION ID="DSV_NOV_01" DESCRIPTION="Vertical 06" X="$PW$-$H$+1" Y="1" Z="$W$/2" A="1" B="0" C="0" />
+        <OPTION ID="EIH_NOV_01" DESCRIPTION="Horizontal 01" X="$W$/2" Y="1" Z="$PH$-$H$+1" A="0" B="0" C="1" />
+        <OPTION ID="CIH_NOV_01" DESCRIPTION="Horizontal 02" X="$PW$/2" Y="1" Z="$PH$-$H$+1" A="0" B="0" C="1" />
+        <OPTION ID="DIH_NOV_01" DESCRIPTION="Horizontal 03" X="$PW$-$W$/2" Y="1" Z="$PH$-$H$+1" A="0" B="0" C="1" />
+        <OPTION ID="ESH_NOV_01" DESCRIPTION="Horizontal 04" X="$W$/2+1" Y="1" Z="$H$-1" A="0" B="0" C="-1" />
+        <OPTION ID="CSH_NOV_01" DESCRIPTION="Horizontal 05" X="$PW$/2" Y="1" Z="$H$-1" A="0" B="0" C="-1" />
+        <OPTION ID="DSH_NOV_01" DESCRIPTION="Horizontal 06" X="$PW$-$W$/2" Y="1" Z="$H$-1" A="0" B="0" C="-1" />
+      </OPTIONS>
+    </POSITIONSERVICEDEFINITION>
+  </POSITIONSERVICEDEFINITIONS>
+</GROUP>

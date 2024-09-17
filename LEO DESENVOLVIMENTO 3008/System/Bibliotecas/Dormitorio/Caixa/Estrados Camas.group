@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Estrados Camas" NAME="Estrados Camas" PREFIXID="DOR_CAI_EST_" INVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOL01" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="DOR_CAI_CAM_EST_SOL" DEF="estrado_solteiro.entity" GUID="ec342ef3-6ace-428f-9ce8-e89de5592d95" />
+    <EXPLORERITEM TYPE="entity" ID="DOR_CAI_CAM_EST_CAS" DEF="estrado_casal.entity" GUID="e4966915-8916-4f4c-aa40-0cb5bacd6bf7" />
+    <EXPLORERITEM TYPE="entity" ID="DOR_CAI_CAM_EST_AUX" DEF="est_auxiliar.entity" GUID="6e334e9b-8c81-49be-a680-90fea6542a5d" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

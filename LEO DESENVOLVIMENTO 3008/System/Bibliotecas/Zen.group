@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Zen" DIRECTORY="Zen" MODELNAME="Puxadores Zen" ORDERSTRING="020" INVISIBLE="Y" DESCRIPTION="Zen" PREFIXID="zen_" MODELINVISIBLE="Y">
+  <SUPPLIERINFORMATION DESCRIPTION="Zen" LOGO="%systemfolder%\identity\LogoZen.jpg" />
+  <MODELS DEF="Zen\Zen.model" />
+  <BUDGET>
+    <INFORMATION CATEGORY="Zen" RULE="ZEN_UN" />
+    <MARGIN IDCATEGORY="Zen" />
+    <PRICE PROVIDER="Zen" FONT="Zen" REFERENCE="COMPLETE" />
+    <STEPS />
+  </BUDGET>
+  <VERSION>NS4zNS4x</VERSION>
+  <LAYER DESCRIPTION="Zen" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Nenhum" />
+  <PROPOSEDATTRIBUTES>
+    <PROPOSEDATTRIBUTE ID="TEXT" />
+    <PROPOSEDATTRIBUTE ID="ACAB" />
+  </PROPOSEDATTRIBUTES>
+  <REFERENCES>
+    <REFERENCE ID="CODIGO_ACAB" COMPLETE="$CODIGO$.$ACABAMENTO$" CODIGO="$TEXT$" ACABAMENTO="$D.ACAB$" />
+    <REFERENCE ID="CODIGO_ACAB_LARG" COMPLETE="$CODIGO$.$ACABAMENTO$" CODIGO="$TEXT$" ACABAMENTO="$D.ACAB$" LARGURA="$W$" />
+    <REFERENCE ID="Geral" COMPLETE="$COD_INICIAL$.$COD_FINAL$" COD_INICIAL="$TEXT$" COD_FINAL="$D.ACAB$" />
+    <REFERENCE ID="Geral_Modelo" COMPLETE="$COD_INICIAL$.$COD_FINAL$" COD_INICIAL="$TEXT$" COD_FINAL="@zen_*@" />
+    <REFERENCE ID="CODIGO_ACAB_MODELO" COMPLETE="$CODIGO$.$ACABAMENTO$" CODIGO="$TEXT$" ACABAMENTO="@zen_*(REFERENCE)@" DESCRICAO="@zen_*(DESCRICAO)@" />
+  </REFERENCES>
+  <REFERENCE PARTNER="True" CATEGORIA="Parceiro Zen" FORNECEDOR="Zen" ATIVO="Sim" />
+  <DRAWING>
+    <DIMENSION WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <LIMITS>
+      <MIN X="0" Y="-1" Z="0" />
+      <MAX X="1" Y="0" Z="1" />
+    </LIMITS>
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="ANGLEBETWEENEDGES" VALUE="0" VISIBLE="N" />
+    <ATTRIBUTE ID="ANGLEBETWEENEDGESPMOB" VALUE="10" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_pux" DEF="Puxadores.group" GUID="476ca006-e075-41e5-a3bb-51455f661132" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_int" DEF="Puxadores_Integrados.group" GUID="d0c4f875-5bad-4639-ab3a-516681c955cb" />
+    <EXPLORERITEM TYPE="group" ID="zen_col_ban" DEF="Colecao Banho.group" GUID="541109bf-255d-45d3-9190-a03cd5b5d78d" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_por" DEF="Puxadores_portas.group" GUID="a722574c-55f3-4f2f-a2d0-412c8da62a94" />
+    <EXPLORERITEM TYPE="group" ID="pux_zen_mac" DEF="Macanetas.group" GUID="716ac66e-93e2-441d-910c-515737f7ded2" />
+    <EXPLORERITEM TYPE="group" ID="zen_pux_box" DEF="Puxadores_p_Box.group" GUID="e562766d-a9da-419a-9c82-4960df6c085d" />
+    <EXPLORERITEM TYPE="group" ID="zen_aer_flo" DEF="Linha_Aerea_Flow.group" GUID="93755947-dd6f-46a1-9000-e5ce21b2d580" />
+    <EXPLORERITEM TYPE="group" ID="zen_ace" DEF="Acessorios.group" GUID="043d0be7-186e-42d3-90f2-cfb6a024df15" />
+    <EXPLORERITEM TYPE="group" ID="zen_ocl" DEF="Ocultos.group" GUID="060b7d5d-4ce6-409b-bff1-92ae2c478a03" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

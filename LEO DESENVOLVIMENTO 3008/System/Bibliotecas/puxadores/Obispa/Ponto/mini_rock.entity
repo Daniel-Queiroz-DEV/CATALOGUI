@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Rock ($TEXT$)" ICON="mini_rock.jpg">
+  <DRAWING>
+    <FILE3D NAME="mini_rock" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-8" Y="-19.888" Z="-8" />
+      <MAX X="8.384" Y="0" Z="8.384" />
+    </LIMITS>
+    <DIMENSION WIDTH="16" HEIGHT="20" DEPTH="16" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.470" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_min_roc" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_roc" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_roc" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_min_roc" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Rock Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,36 @@
+{
+  "ElementId": "com_coz_bas_cur_sup",
+  "Dimensions": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 4,
+      "SecondIndex": 3,
+      "Point": {
+        "X": "329,8118",
+        "Y": "334,5"
+      },
+      "Edge": 3,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "ElementId": "com_coz_bas_cur_sup"
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Dimensions.LinearDimension, Procad.Builder.Core",
+      "FirstElementId": 0,
+      "SecondElementId": 0,
+      "FirstIndex": 2,
+      "SecondIndex": 1,
+      "Point": {
+        "X": "5,797684",
+        "Y": "-23,25522"
+      },
+      "Edge": 1,
+      "PlaneType": "Superior",
+      "PlaneIndex": 0,
+      "UniqueID": 1,
+      "ElementId": "com_coz_bas_cur_sup"
+    }
+  ]
+}

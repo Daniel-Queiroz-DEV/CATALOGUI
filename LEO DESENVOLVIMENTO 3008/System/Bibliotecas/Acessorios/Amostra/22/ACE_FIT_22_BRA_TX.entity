@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Rolo Fita de Borda 20m Branco TX" ICON="Branco.jpg" TYPE="GEOMETRY">
+  <DRAWING>
+    <FILE3D NAME="ACE_FIT_22_BRA_TX" />
+    <LIMITS>
+      <MIN X="-11" Y="-9.526" Z="0" />
+      <MAX X="11" Y="9.526" Z="23.8" />
+    </LIMITS>
+    <DIMENSION WIDTH="1000" HEIGHT="150" DEPTH="1000" />
+  </DRAWING>
+  <REFERENCE ITEM_BASE="$TEXT$" COMPLETE="$TEXT$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Rolo 20 m Fita de Borda ABS1mm H22 - Branco TX" VISIBLE="N" />
+    <ATTRIBUTE ID="OnlinePriceProvider" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="500" HEIGHT="22" DEPTH="500" TEXT="RTFABS122527" ITEM_BASE="RTFABS122527" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="*_face_*" NAME="*_face_*" IDMATERIAL="start_mad_527" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

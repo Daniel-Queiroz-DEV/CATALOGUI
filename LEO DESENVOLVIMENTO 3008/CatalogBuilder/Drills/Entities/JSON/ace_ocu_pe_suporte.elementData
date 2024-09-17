@@ -1,0 +1,40 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo12",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "Position": {
+          "X": "60",
+          "Y": "10-2.5"
+        },
+        "ElementId": "ace_ocu_pe_suporte"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo12",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 1,
+        "Position": {
+          "X": "5",
+          "Y": "10-2.5"
+        },
+        "ElementId": "ace_ocu_pe_suporte"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_pe_suporte"
+}

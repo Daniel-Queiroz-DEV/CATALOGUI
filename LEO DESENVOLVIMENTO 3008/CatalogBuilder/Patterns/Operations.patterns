@@ -1,0 +1,41 @@
+{
+  "BorderPatterns": {
+    "DefaultIndex": 0,
+    "Edges": {
+      "$type": "Procad.Builder.Core.FactoryOperations.Patterns.BorderPatterns, Procad.Builder.Core",
+      "$values": [
+        {
+          "Id": "d1d8427a-5a26-4c16-ae6b-96f9c02e0de4",
+          "Index": 0,
+          "ProfileIndex": 0,
+          "Text": "Borda01",
+          "ReferenceMounter": "",
+          "OperationPrice": "BORDA",
+          "LayerName": "BORDA",
+          "Condition": {
+            "Expression": "'#FT_BORDA_TRASEIRA#' == 'SIM'"
+          },
+          "Thickness": {
+            "Value": "1"
+          },
+          "CutOffset": {
+            "Value": "1"
+          },
+          "SideCutOffset": {
+            "Value": "1"
+          },
+          "Height": {
+            "Value": "0"
+          },
+          "Type": ""
+        }
+      ]
+    }
+  },
+  "SlotPatterns": {
+    "Slots": {
+      "$type": "Procad.Builder.Core.FactoryOperations.Patterns.SlotPatterns, Procad.Builder.Core",
+      "$values": []
+    }
+  }
+}

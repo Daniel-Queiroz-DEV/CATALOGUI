@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Porta 6 Branco" ICON="PT_6QB.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta P4" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="PT_6QB" />
+    <DIMENSION WIDTH="760" HEIGHT="445" DEPTH="47" />
+  </DRAWING>
+  <OPENSERVICE TYPE="DUMPING" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_fume" NAME="bosch_fume" IDMATERIAL="bosch_vIDro" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

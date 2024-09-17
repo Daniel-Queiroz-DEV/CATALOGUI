@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sita ($TEXT$)" ICON="sita.jpg">
+  <DRAWING>
+    <FILE3D NAME="sita_100681" FORMAT=".dxf" />
+    <DIMENSION WIDTH="25" HEIGHT="55" DEPTH="25" />
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.681" />
+  <REFERENCE IDREFERENCE="Simples Metal Ouro sob consulta" />
+  <MODELS>
+    <MODEL IDMODEL="Pux_our_sob_con" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_pon_sit" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_sit" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_pon_sit" MODEL="Pux_our_sob_con_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Sita Ponto" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

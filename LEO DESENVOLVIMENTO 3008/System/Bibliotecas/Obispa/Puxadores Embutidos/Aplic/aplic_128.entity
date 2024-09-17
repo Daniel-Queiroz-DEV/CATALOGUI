@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="128mm ($TEXT$)" ICON="aplic.jpg">
+  <INSERTDIMENSION TEXT="100.561" />
+  <DRAWING>
+    <FILE3D NAME="aplic_100561" FORMAT=".PMOB" />
+    <LIMITS>
+      <MIN X="-71.5" Y="-47.545" Z="0" />
+      <MAX X="72.14" Y="0" Z="19.33" />
+    </LIMITS>
+    <DIMENSION WIDTH="143" HEIGHT="19" DEPTH="47" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Aplic 128mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_apl_128" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

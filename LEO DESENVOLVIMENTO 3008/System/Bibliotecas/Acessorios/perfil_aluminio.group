@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="perfil_aluminio" NAME="Perfis Alumínio" PREFIXID="ACE_TRI_" INVISIBLE="Y">
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <REFERENCE IDREFERENCE="GERAL" />
+  <BUDGET>
+    <INFORMATION CATEGORY="Acessórios Fabricados" />
+    <STEPS />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ACE_PER_45" DEF="perfil_aluminio_45.entity" GUID="66928701-c172-41d2-9757-9a20f5ea439c" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PER_50" DEF="perfil_aluminio_50.entity" GUID="d80e47fc-c988-4704-ae33-a75aed0c1dda" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PER_60" DEF="perfil_aluminio_60.entity" GUID="9e0b59c6-fd9c-44dc-a169-f65c2bd39ae7" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_TRI_PER_G" DEF="ACE_TRI_PER_G.entity" GUID="0a69264a-da29-41be-a246-0d247c366337" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_PER_0" DEF="perfil_aluminio_0.entity" GUID="6f5a0a14-e9a9-414c-95af-378a103ee04c" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="COMPRIMENTO" VALUE="$W$" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="F" VISIBLE="N" />
+  </ATTRIBUTES>
+</GROUP>

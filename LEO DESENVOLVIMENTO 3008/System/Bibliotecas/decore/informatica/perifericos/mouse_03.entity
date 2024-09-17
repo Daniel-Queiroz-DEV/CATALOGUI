@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Mouse" ICON="mouse_03.jpg" ALLOWEDDISTRIBUTIONS="Plus;Arch;Lite;Express;Studio;Base;Academic;Trial;Newexpress;Premium;Catalog">
+  <DRAWING>
+    <FILE3D NAME="mouse_03" />
+    <DIMENSION WIDTH="40" HEIGHT="11" DEPTH="75" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="CINZA" NAME="CINZA" IDMATERIAL="cin_cor_005" EDIT="Y" />
+    <COMPONENTDEFINITION ID="CINZA_CLARO" NAME="CINZA_CLARO" IDMATERIAL="Metal_Branco_01" EDIT="Y" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Mouse" />
+  </ATTRIBUTES>
+</ENTITY>

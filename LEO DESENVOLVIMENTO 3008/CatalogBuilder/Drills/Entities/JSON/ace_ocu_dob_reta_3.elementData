@@ -1,0 +1,60 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo19",
+        "ReceiverDepth": {
+          "Value": "#DOB_PRO_FUR#"
+        },
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "15,5",
+          "Y": "$D$/2"
+        },
+        "ElementId": "ace_ocu_dob_reta_3"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "10",
+          "Y": "45"
+        },
+        "ElementId": "ace_ocu_dob_reta_3"
+      },
+      {
+        "Name": "Furação03",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "10",
+          "Y": "-3"
+        },
+        "ElementId": "ace_ocu_dob_reta_3"
+      }
+    ]
+  },
+  "ElementId": "ace_ocu_dob_reta_3"
+}

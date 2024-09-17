@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CATEGORYCOLLECTION>
+  <CATEGORY ID="Dimensões Cozinhas" DESCRIPTION="Dimensões Cozinhas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="N" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="COZ_MED" DESCRIPTION="Externas" IMAGE="imagens\cozinha.png" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="COZ_AFA_CAN" DESCRIPTION="Afatamento cantos" IMAGE="imagens\espessuras.jpg" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="COZ_EST_DES_TOR" DESCRIPTION="Despenseiros &gt; Torres" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="N" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="COZ_EST_DES_TOR_MIC_FOR_EMB" DESCRIPTION="Forno/Micro Embutidos" IMAGE="imagens\torre - forno e micro embutido.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_DES_TOR_MIC_FOR" DESCRIPTION="Forno/Micro" IMAGE="imagens\torre - forno e micro.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_DES_TOR_FOR_EMB" DESCRIPTION="Forno Embutido" IMAGE="imagens\torre - vao embutido.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_DES_TOR_FOR_EMB_MIC" DESCRIPTION="Forno Embutido + Vao Micro" IMAGE="imagens\torre - vao embutido_vao micro.jpg" PROTECTED="N" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="COZ_EST_ELE" DESCRIPTION="Inferiores &gt; Eletros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="N" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="COZ_EST_FOG" DESCRIPTION="Fogão" IMAGE="imagens\eletro - fogao.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_ELE_EMB" DESCRIPTION="Forno Embutido" IMAGE="imagens\eletro - forno embutido.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_ELE_LAV_LOU" DESCRIPTION="Lava Louças" IMAGE="imagens\eletro - lava loucas.jpg" PROTECTED="N" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="COZ_EST_INF_GAV" DESCRIPTION="Inferiores &gt; Gaveteiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="N" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="COZ_EST_FRE_GAV_3GV" DESCRIPTION="Gaveteiro 3G Edit" IMAGE="imagens\gaveteiro 3gv - 2grandes 1 peq.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_GAV_DES_ARA" DESCRIPTION="Gaveta Porta Latas" IMAGE="imagens\gaveteiro 1gv - 1porta aram desl.jpg" PROTECTED="N" CATALOGONLY="Y" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="Dimensões Banheiros" DESCRIPTION="Dimensões Banheiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="N" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="BAN_MED" DESCRIPTION="Externas" IMAGE="imagens\banheiro.png" PROTECTED="N" CATALOGONLY="N" />
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="Dimensões Dormitórios" DESCRIPTION="Dimensões Dormitórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="N" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="DOR_MED" DESCRIPTION="Externas" IMAGE="imagens\dormitorio.jpg" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="DOR_ARM_AFA_CAN" DESCRIPTION="Afastamento Cantos Armarios" IMAGE="imagens\espessuras.jpg" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="DOR_BAN_AFA_CAN" DESCRIPTION="Afastamento Cantos Bancadas" IMAGE="imagens\espessuras.jpg" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="DOR_CAMAS" DESCRIPTION="Camas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="N" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="DOR_CAM_DIM" DESCRIPTION="Afastamentos e Folgas Camas" IMAGE="imagens\camas - afastamentos.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_CAM" DESCRIPTION="Dimensões" IMAGE="imagens\camas - dimensoes.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_COL" DESCRIPTION="Colchão" IMAGE="imagens\camas folgas.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_CAM_GAV" DESCRIPTION="Gavetas Camas" IMAGE="imagens\camas - gavetas.jpg" PROTECTED="N" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY DESCRIPTION="Armário Tamponado" ID="ARM_TAM" IMAGE="imagens\armario tamponado.jpg" CATALOGONLY="N" />
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="Dimensões Escritorios" DESCRIPTION="Dimensões Escritórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\atributos" PROTECTED="N" CATALOGONLY="Y">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="ESC_MED" DESCRIPTION="Externas" IMAGE="imagens\dim_esc.jpg" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="ESC_AVA_TAM" DESCRIPTION="Avanço Tampo" IMAGE="imagens\avanco tampo.jpg" PROTECTED="N" CATALOGONLY="N" />
+      <CATEGORY ID="ESC_MES" DESCRIPTION="Mesas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="N" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="ESC_MES_LIN" DESCRIPTION="Mesas Lineares" IMAGE="imagens\mesas lineares dimensoes.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_EST_SAI_LIN" DESCRIPTION="Saias Mesas Lineares" IMAGE="imagens\saia - mesas escritorios.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_SAP" DESCRIPTION="Sapatas" IMAGE="imagens\sapatas.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_CAI_TOM" DESCRIPTION="Caixa Tomada - Mesa Linear" IMAGE="imagens\caixa de tomada.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_CXT_PC" DESCRIPTION="Caixa Tomada / Passa Cabo - Estação de Trabalho" IMAGE="imagens\caixas de tomada - estacao trabalho.jpg" PROTECTED="N" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_MES_GAV" DESCRIPTION="Gavetas das Mesas" IMAGE="imagens\mesas escritorios - gavetas.jpg" PROTECTED="N" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="Estrutura" DESCRIPTION="Montagem Geral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="AJU_AJUS" DESCRIPTION="Ajustes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fol_pai.jpg" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="AJU" DESCRIPTION="Ajustes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fol_pai.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="FIT_BOR_GER" DESCRIPTION="Fitas de Borda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="ALT_FIT_BORDA" DESCRIPTION="Alturas Fitas de Borda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\altura fita borda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="FIT_BOR_PAI_POR" DESCRIPTION="Fitas de Borda Portas Gola" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\porta gola borda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="EST_FIT_BOR_PAI" DESCRIPTION="Fitas de Borda Paineis/Prateleiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\paineis.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="EST_FIT_BOR" DESCRIPTION="Sobre Corte e Bordas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fita de borda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="Fundos" DESCRIPTION="Fundos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="DES_RAS" DESCRIPTION="Deslocamento Rasgos Fundo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\deslocamento_rasgos_fundo.jpg" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DES_RAS_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\deslocamento_rasgos_fundo_gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DES_RAS_MOD" DESCRIPTION="Módulos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="GAVETAS" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="EST_GAV" DESCRIPTION="Estruturas Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estrutura gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="PU_PER" DESCRIPTION="Puxadores/Perfis" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="PERFIL" DESCRIPTION="Perfis Portas Alumínio" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\perfis.png" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="POR_ALU_ORC" DESCRIPTION="Portas Alumínio Orçamento" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\orcamento portas aluminio.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ACE" DESCRIPTION="Puxador Gola" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\altura puxador.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="RECUO" DESCRIPTION="Recuos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="PRAT" DESCRIPTION="Recuos Frontais Prateleiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleiras recuos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="REC_MONT" DESCRIPTION="Recuos Frontais Montantes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\recuo_frontal_montantes.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="TRAVESSA" DESCRIPTION="Travessas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="MONT" DESCRIPTION="Travessas Caixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fixacao_trav_tras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="COZ" DESCRIPTION="Cozinhas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="COZ_EST" DESCRIPTION="Montagem" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="COZ_EST_CAI" DESCRIPTION="Estruturas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_EST_CAI_GER" DESCRIPTION="Cantos / Balcões / Eletros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_CAI_GER_GAV" DESCRIPTION="Gaveteiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gav_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_CAI_GER_PIA" DESCRIPTION="Pias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_CAI_GER_SUP" DESCRIPTION="Despenseiros / Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sup_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_CON_INF" DESCRIPTION="Construtor Inferior" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_CON_SUP" DESCRIPTION="Construtor Superior" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sup_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_EST_CAN" DESCRIPTION="Cantos / Diagonal" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_EST_CR" DESCRIPTION="Cantos Retos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\mont_cr_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_CL" DESCRIPTION="Cantos L / Oblíquo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_DIA" DESCRIPTION="Diagonal" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\afastador_interno_diagonal.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_EST_INC" DESCRIPTION="Incrementos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_EST_INC_MOD_DES" DESCRIPTION="Despenseiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_coz_des.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_INC_MOD_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_coz_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_EST_INC_MOD_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_coz_sup.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_EST_FOL" DESCRIPTION="Folgas entre Portas Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas cozinhas inferiores.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_FOL_SUP" DESCRIPTION="Folgas entre Portas Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas cozinhas superiores.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_EST_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gavetas_estrutura_nova.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_POR_DES" DESCRIPTION="Portas Deslizantes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\portas deslizantes.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="COZ_ESP" DESCRIPTION="Espessuras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="COZ_ESP_ROD_VIS" DESCRIPTION="Rodapés" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodape esp.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_ESP_VIS_FEC" DESCRIPTION="Vistas de Fechamento" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista de fechamento sup lat.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_ESP_INF_CAIXAS" DESCRIPTION="Caixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_ESP_INF_CPOR" DESCRIPTION="Com Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\coz_esp_cai_cporta .jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_ESP_INF_SPOR" DESCRIPTION="Sem Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\coz_esp_cai_sporta .jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_ESP_GAV" DESCRIPTION="Caixas Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\coz - caixas gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="COZ_FIT_BOR" DESCRIPTION="Fitas de Borda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="COZ_FIT_BOR_AFA" DESCRIPTION="Afastadores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_AFA_CR_EXT" DESCRIPTION="CR Externo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\afastador externo canto reto.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_AFA_INF_SUF" DESCRIPTION="CR Externo superiores e inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\afastador externo canto reto sup_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_AFA_CR_INT" DESCRIPTION="CR Interno" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\afastador interno canto reto.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_AFA_CR_INT_SUP" DESCRIPTION="CR Interno Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\afastador interno superior canto reto .jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_BAS" DESCRIPTION="Bases" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_BAS_LINF" DESCRIPTION="Cantos L Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_LSUP" DESCRIPTION="Cantos L Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base superior canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_OBL_INF" DESCRIPTION="Cantos Obliquos Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior canto obliquo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_OBL_SUP" DESCRIPTION="Cantos Obliquos Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base superior canto obliquo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_CANT_CHA_ESQ" DESCRIPTION="Chanfrada Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base chanfrada esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_CANT_CHA_DIR" DESCRIPTION="Chanfrada Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base chanfrada direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_CANT_CUR_ESQ" DESCRIPTION="Curva Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base curva esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_CANT_CUR_DIR" DESCRIPTION="Curva Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base curva direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_CANT_DIA_ESQ" DESCRIPTION="Diagonal Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base diagonal esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_CANT_DIA_DIR" DESCRIPTION="Diagonal Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base diagonal direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_ILHA_2LAD" DESCRIPTION="Ilha 2 Lados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior ilha 2 lados.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_MICRO" DESCRIPTION="Microondas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior microondas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_BAS_SUP_COZ" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base superior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_MONT" DESCRIPTION="Divisórias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_MONT_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\montantes cozinha inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_MONT_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\montantes cozinha sup.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_DIV_ADEGA" DESCRIPTION="Adega Horizontal" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias adega horizontal.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_EST" DESCRIPTION="Estrado" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_EST_TAM" DESCRIPTION="Tampo Estrado" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tampo estrado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_EST_LAT" DESCRIPTION="Lateral Estrado" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estrado - travessa lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_EST_TRA" DESCRIPTION="Travessa Frontal e Traseira" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estrado - travessa ft tr.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_FRE_FAL" DESCRIPTION="Frentes Falsas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_FRE_FAL_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda frente falsa.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_FUN" DESCRIPTION="Fundos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_FUN_MOD_CPOR" DESCRIPTION="Módulos c/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos 6mm.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_FUN_ILHA_INF" DESCRIPTION="Ilhas Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos ilha.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_FUN_NIC" DESCRIPTION="Nichos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos nichos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_FUN_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda fundos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_FUN_CAN" DESCRIPTION="Fundo Canto c/ Espessura da Lateral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo lateral canto l superior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_FUN_CANT_ESQ" DESCRIPTION="Fundo Cantoneira Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo cantoneira esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_FUN_CANT_DIR" DESCRIPTION="Fundo Cantoneira Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo cantoneira direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_LAT" DESCRIPTION="Laterais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_LAT_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral superior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_LAT_ILHA_2LAD" DESCRIPTION="Ilha 2 Lados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral ilha 2 lados.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_LAT_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral inferior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_LAT_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_LAT_ELE" DESCRIPTION="Eletros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral eletros r2.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_LAT_CANT" DESCRIPTION="Cantoneiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral cantoneira.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_PRA" DESCRIPTION="Prateleiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_PRA_L" DESCRIPTION="Prateleiras L" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_FIX" DESCRIPTION="Prateleiras Fixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira fixa.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_MOV" DESCRIPTION="Prateleiras Móveis" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira movel.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_ILHA" DESCRIPTION="Ilhas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira ilha 2 lados.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_OBL" DESCRIPTION="Prateleira Obliquo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira canto obliquo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_DIA_ESQ" DESCRIPTION="Prateleira Diagonal Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira diagonal esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_DIA_DIR" DESCRIPTION="Prateleira Diagonal Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira diagonal direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_CHA_ESQ" DESCRIPTION="Prateleira Chanfrada Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira chanfrada esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_CHA_DIR" DESCRIPTION="Prateleira Chanfrada Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira chanfrada direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_CUR_ESQ" DESCRIPTION="Prateleira Curva Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira curva esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_PRA_CUR_DIR" DESCRIPTION="Prateleira Curva Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira curva direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_VIS" DESCRIPTION="Vistas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_VIS_FEC_LAT" DESCRIPTION="Fechamentos Laterais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="COZ_FIT_BOR_VIS_FEC_SUP" DESCRIPTION="Fechamentos Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_TRAV" DESCRIPTION="Travessas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="COZ_FIT_BOR_TES" DESCRIPTION="Frontais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="COZ_FIT_BOR_TES_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\testeiras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="COZ_FIT_BOR_TES_CAN_OBL" DESCRIPTION="Canto Obliquo Inferior" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas cto obli inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="COZ_FIT_BOR_TES_CAN_OBL_SUP" DESCRIPTION="Canto Obliquo Superior" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas cto obli sup.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="COZ_FIT_BOR_TRA_LAT_VER" DESCRIPTION="Laterais Verticais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="COZ_FIT_BOR_TRA_LAT_VER_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas lateral vertical.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="COZ_FIT_BOR_TRA_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="COZ_FIT_BOR_TRA_SUP_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas superiores.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="COZ_FIT_BOR_TRA_SUP_INT" DESCRIPTION="Intermediárias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas intermediarias.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="COZ_FIT_BOR_TRA" DESCRIPTION="Traseiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="COZ_FIT_BOR_TRA_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas traseiras horizontal.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="COZ_FIT_BOR_TRA_L_INF" DESCRIPTION="Canto L" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessa_canto_l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="COZ_FIT_BOR_ELE" DESCRIPTION="Painel Eletro" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\painel inteiro eletros.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_FIT_BOR_POR_CEG" DESCRIPTION="Portas Cega" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\porta cega.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_FIT_BOR_ROD" DESCRIPTION="Rodapés" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodape.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="COZ_FIT_BOR_TRA_GAV" DESCRIPTION="Traseiras Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda traseiro.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="BAN" DESCRIPTION="Banheiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="BAN_EST" DESCRIPTION="Montagem" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="BAN_EST" DESCRIPTION="Estrutura" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_EST_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_EST_CAI_GER_GAV" DESCRIPTION="Gaveteiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\ban_gav_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_EST_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\ban_sup_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_EST_INC" DESCRIPTION="Incrementos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_EST_INC_MOD_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_coz_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_EST_INC_MOD_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_coz_sup.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_EST_FOL" DESCRIPTION="Folgas entre Portas Módulos Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas banheiros inferiores.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="BAN_EST_FOL_SUP" DESCRIPTION="Folga entre Portas Módulos Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas banheiros superiores.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="BAN_EST_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gavetas_estrutura_nova.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="BAN_ESP" DESCRIPTION="Espessuras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="BAN_ESP_INF_CAIXAS" DESCRIPTION="Caixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_ESP_INF_CPOR" DESCRIPTION="Com Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\ban_esp_cai_cporta.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_ESP_INF_SPOR" DESCRIPTION="Sem Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\ban_esp_cai_sporta.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_ESP_CAI_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\coz - caixas gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_ESP_VIS" DESCRIPTION="Vistas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista de fechamento sup banheiros.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="BAN_FIT_BOR" DESCRIPTION="Fitas de Borda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="BAN_FIT_BOR_BAS" DESCRIPTION="Bases" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_FIT_BOR_BAS_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base superior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_DIA_ESQ" DESCRIPTION="Diagonal Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base diagonal esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_DIA_DIR" DESCRIPTION="Diagonal Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base diagonal direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_CHA_ESQ" DESCRIPTION="Chanfrada Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base chanfrada esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_CHA_DIR" DESCRIPTION="Chanfrada Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base chanfrada direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_CUR_ESQ" DESCRIPTION="Curva Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base curva esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_BAS_CUR_DIR" DESCRIPTION="Curva Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base curva direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_FIT_BOR_FRE_FAL" DESCRIPTION="Frentes Falsas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda frente falsa.jpg" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_FIT_BOR_FRE_FAL_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda frente falsa.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_FIT_BOR_FUN" DESCRIPTION="Fundos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_FIT_BOR_FUN_MOD_CPOR" DESCRIPTION="Módulos c/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos 6mm.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_FUN_NIC" DESCRIPTION="Nichos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos nichos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_FUN_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda fundos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_FUN_CANT_ESQ" DESCRIPTION="Cantoneira Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo cantoneira esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_FUN_CANT_DIR" DESCRIPTION="Cantoneira Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo cantoneira direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_FIT_BOR_LAT" DESCRIPTION="Laterais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_FIT_BOR_LAT_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral superior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_LAT_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral inferior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_LAT_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_LAT_CANT" DESCRIPTION="Cantoneira" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral cantoneira.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_FIT_BOR_PRA" DESCRIPTION="Prateleiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_FIT_BOR_PRA_FIX" DESCRIPTION="Fixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira fixa.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_MOV" DESCRIPTION="Móveis" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira movel.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_DIA_ESQ" DESCRIPTION="Diagonal Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira diagonal esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_DIA_DIR" DESCRIPTION="Diagonal Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira diagonal direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_CHA_ESQ" DESCRIPTION="Chanfrada Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira chanfrada esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_CHA_DIR" DESCRIPTION="Chanfrada Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira chanfrada direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_CUR_ESQ" DESCRIPTION="Curva Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira curva esquerda.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="BAN_FIT_BOR_PRA_CUR_DIR" DESCRIPTION="Curva Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira curva direita.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_FIT_BOR_TRAV" DESCRIPTION="Travessas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="BAN_FIT_BOR_TES" DESCRIPTION="Frontais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="BAN_FIT_BOR_TES_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\testeiras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="BAN_FIT_BOR_LAT_VER" DESCRIPTION="Laterais Verticais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="BAN_FIT_BOR_LAT_VER_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas lateral vertical.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="BAN_FIT_BOR_TRA" DESCRIPTION="Traseiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="BAN_FIT_BOR_TRA_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas traseiras horizontal.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="BAN_FIT_BOR_TRA_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas superiores.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="BAN_FIT_BOR_TRA_GAV" DESCRIPTION="Traseiras Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda traseiro.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="BAN_FIT_BOR_VIS" DESCRIPTION="Vistas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="DOR" DESCRIPTION="Dormitórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="DOR_EST" DESCRIPTION="Montagem" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="DOR_EST" DESCRIPTION="Estrutura" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_EST_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_arm_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_BAN" DESCRIPTION="Bancadas - Cantos / Balcões" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gav_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_BAN_GAV" DESCRIPTION="Bancadas - Gaveteiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\ban_gav_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_CRI" DESCRIPTION="Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_criados_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_EST_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_gavetas_estrutura_nova.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ROD_CAM_DIM" DESCRIPTION="Rodizios Camas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodizios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_EST_SAP" DESCRIPTION="Sapateiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sapateira.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_MON_CAN" DESCRIPTION="Cantos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_EST_CL" DESCRIPTION="Cantos L / Oblíquo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_CR" DESCRIPTION="Cantos Retos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\mont_cr_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_EST_CAM" DESCRIPTION="Camas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_EST_CAM_EST" DESCRIPTION="Estrado" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\camas - estrados.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_CAM_CAM" DESCRIPTION="Geral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\camas - tipo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_CAM_COL" DESCRIPTION="Colchões" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\colchoes.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_EST_FOL" DESCRIPTION="Folgas entre Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_EST_FOL_POR" DESCRIPTION="Portas Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas armarios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_FOL_POR_BAN" DESCRIPTION="Portas Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas bancadas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_FOL_POR_CRI" DESCRIPTION="Portas Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_est_fol_por_cri.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_FOL_POR_CRI_EMB" DESCRIPTION="Portas Criados Embutir" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_est_fol_por_cri_emb.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_POR_DES" DESCRIPTION="Portas Deslizantes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folgas portas desli.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_EST_INC" DESCRIPTION="Incrementos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_EST_INC_MOD_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_dor_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_EST_INC_MOD_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\inc_dor_inf.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="DOR_ESP" DESCRIPTION="Espessuras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="DOR_ESP_ROD" DESCRIPTION="Rodapés" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodape esp.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_ESP_VIS_FEC" DESCRIPTION="Vistas de Fechamento" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista fechamento armarios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="DOR_ESP_CAI_DOR" DESCRIPTION="Caixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_ESP_CAI_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="DOR_ESP_CAI_ARM_GIR" DESCRIPTION="Portas de Giro" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_cai_por_gir.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_ESP_CAI_ARM_DES_SPOR" DESCRIPTION="Portas Deslizantes Internas s/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_cai_por_des_int.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_ESP_CAI_ARM_DES_EXT_SPOR" DESCRIPTION="Portas Deslizantes Externas s/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_cai_por_des_ext.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_ESP_CAI_ARM_DES_CPOR" DESCRIPTION="Portas Deslizantes c/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_cai_por_des_int.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="DOR_ESP_CAI_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="DOR_ESP_CAI_BAN_CPOR" DESCRIPTION="Com Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_ban_cporta.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_ESP_CAI_BAN_SPOR" DESCRIPTION="Sem Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_ban_sporta.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="DOR_ESP_CAI_CRI" DESCRIPTION="Caixas Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="DOR_ESP_CAI_CRI_NOR" DESCRIPTION="Normal" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_cri_nor.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_ESP_CAI_CRI_EMB" DESCRIPTION="Embutir" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_esp_cri_emb.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="DOR_ESP_CAI_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="DOR_ESP_CAI_GAV_EXT" DESCRIPTION="Externas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\coz - caixas gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_ESP_CAI_GAV_INT" DESCRIPTION="Internas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta interna.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="DOR_ESP_CAI_CAM" DESCRIPTION="Camas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\camas - espessuras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_ESP_CAI_SAP" DESCRIPTION="Caixas Sapateiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sapateira espessuras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY DESCRIPTION="Yellow" ID="Categoria15641123" IMAGE="" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="DOR_FIT_BOR" DESCRIPTION="Fitas de Borda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="DOR_FIT_BOR_AFA" DESCRIPTION="Afastadores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_BAN_FIT_BOR_AFA_CR_EXT" DESCRIPTION="CR Bancadas Externos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor - afastador externo canto reto bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_BAN_FIT_BOR_AFA_CR_INT" DESCRIPTION="CR Bancadas Internos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor - afastador interno canto reto bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_ARM_FIT_BOR_AFA_CR_EXT" DESCRIPTION="CR Armários Externos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor - afastador externo canto reto armario.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_ARM_FIT_BOR_AFA_CR_INT" DESCRIPTION="CR Armários Internos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor - afastador interno canto reto armario .jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_ARM_FIT_BOR_AFA_GAV_INT" DESCRIPTION="Gavetas / Sapateiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dor_afastadores_gav_sap.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_BAS" DESCRIPTION="Bases" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_BAS_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CRI" DESCRIPTION="Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base armario.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CANTO_L" DESCRIPTION="Cantos L Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CANTO_OBL" DESCRIPTION="Cantos Obl Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior canto obliquo dormitorio.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_BAN_CANTO_L" DESCRIPTION="Cantos L Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior canto l armario.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_BAN_CANTO_OBL" DESCRIPTION="Cantos Obl Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior canto obliquo bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_DIA_ESQ" DESCRIPTION="Diagonal Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base diagonal esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_DIA_DIR" DESCRIPTION="Diagonal Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base diagonal direita dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CHA_ESQ" DESCRIPTION="Chanfrada Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base chanfrada esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CHA_DIR" DESCRIPTION="Chanfrada Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base chanfrada direita dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CUR_ESQ" DESCRIPTION="Curva Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base curva esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_BAS_CUR_DIR" DESCRIPTION="Curva Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base curva direita dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_CAM" DESCRIPTION="Camas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_CAM_LAT" DESCRIPTION="Laterais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\camas - lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_CAM_PES" DESCRIPTION="Peseiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\camas - peseiras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_CAM_AFA" DESCRIPTION="Afastadores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\camas - lateral afastador.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_DIV" DESCRIPTION="Divisórias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_DIV_ARM_DES_SPOR" DESCRIPTION="Armários Deslizantes s/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias s_rasgo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_DIV_ARM_POR_GIR" DESCRIPTION="Armários Portas de Giro" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias s_rasgo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_DIV_ARM_POR_GIR_DIV_INT" DESCRIPTION="Armários Portas de Giro c/ Divisórias Internas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias s_rasgo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_DIV_ARM_DES_CPOR" DESCRIPTION="Armários Deslizantes c/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias s_rasgo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_FRE_FAL" DESCRIPTION="Frentes Falsas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_FRE_FAL_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda frente falsa.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_FUN" DESCRIPTION="Fundos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_FUN_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo bancada inferior dor.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_CRI" DESCRIPTION="Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda fundos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos armarios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_CAN_L" DESCRIPTION="Fundo Armário Canto c/ Espessura da Lateral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo lateral canto l inferior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_BAN_CAN_L" DESCRIPTION="Fundo Bancada Canto c/ Espessura da Lateral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo lateral canto l inferior.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_CANT_ESQ" DESCRIPTION="Cantoneira Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo cantoneira esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_FUN_CANT_DIR" DESCRIPTION="Cantoneira Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundo cantoneira direita dormitorio.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_LAT" DESCRIPTION="Laterais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_LAT_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral bancada inferior dor.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_LAT_CRI" DESCRIPTION="Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_LAT_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_LAT_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral armario.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_LAT_CANT" DESCRIPTION="Cantoneiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral cantoneira dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_PRA" DESCRIPTION="Prateleiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_PRA_FIX_SRAS" DESCRIPTION="Fixas s/ Rasgo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_MOV" DESCRIPTION="Móveis" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_FIX_CRAS" DESCRIPTION="Fixas c/ Rasgo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_L" DESCRIPTION="Prateleiras L" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira canto l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_OBL" DESCRIPTION="Prateleiras Obliquo" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira canto obliquo dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_DIA_ESQ" DESCRIPTION="Diagonal Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira diagonal esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_DIA_DIR" DESCRIPTION="Diagonal Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira diagonal direita dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_CHA_ESQ" DESCRIPTION="Chanfrada Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira chanfrada esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_CHA_DIR" DESCRIPTION="Chanfrada Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira chanfrada direita dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_CUR_ESQ" DESCRIPTION="Curva Esquerda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira curva esquerda dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_PRA_CUR_DIR" DESCRIPTION="Curva Direita" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira curva direita dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_SAP" DESCRIPTION="Sapateiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_SAP_BAS" DESCRIPTION="Bases" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sapateira fita borda base.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_SAP_FRE" DESCRIPTION="Frentes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sapateira fita borda frente.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_TAM" DESCRIPTION="Tampos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_TAM_CRI" DESCRIPTION="Criados" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tampo criado.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_TRAS" DESCRIPTION="Traseiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_TRAS_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda traseiro.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_TRA_L_INF" DESCRIPTION="Canto L" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_VIS" DESCRIPTION="Vistas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_VIS_ARM_DES_CPOR" DESCRIPTION="Armários Deslizantes c/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista dormitorio porta correr.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_VIS_ARM_DES_SPOR" DESCRIPTION="Armários Deslizantes s/ Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista dormitorio porta correr.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_FIT_BOR_VIS_FEC" DESCRIPTION="Vistas de Fechamento" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_POR_CEG" DESCRIPTION="Portas Cegas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_ARM_FIT_BOR_POR_CEG" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\porta cega.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="DOR_BAN_FIT_BOR_POR_CEG" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\porta cega.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_TRA" DESCRIPTION="Traseiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_TRA_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas traseiras horizontal.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_TRAV" DESCRIPTION="Travessas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="DOR_FIT_BOR_TES" DESCRIPTION="Frontais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="DOR_FIT_BOR_TES_OBL_ARM" DESCRIPTION="Canto Obliquo Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas cto obli dormitorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_FIT_BOR_TES_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\testeiras.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                  <CATEGORY ID="DOR_FIT_BOR_TES_OBL_BAN" DESCRIPTION="Canto Obliquo Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas cto obli bancadas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+              <CATEGORY ID="DOR_FIT_BOR_TRA_LAT" DESCRIPTION="Laterais Verticais" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+                <CATEGORYCOLLECTION>
+                  <CATEGORY ID="DOR_FIT_BOR_TRA_LAT_BAN" DESCRIPTION="Bancadas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\travessas lateral vertical bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+                </CATEGORYCOLLECTION>
+              </CATEGORY>
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="DOR_FIT_BOR_ROD" DESCRIPTION="Rodapés" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodape bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="ESC" DESCRIPTION="Escritórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="ESC_EST" DESCRIPTION="Montagem" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="ESC_EST" DESCRIPTION="Estruturas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_EST_INF" DESCRIPTION="Inferiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_inf_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_EST_SUP" DESCRIPTION="Superiores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_sup_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_EST_ARM" DESCRIPTION="Armarios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_sup_estruturas_novas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_EST_MES_GER" DESCRIPTION="Mesas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_EST_CAI_TOM_DIM" DESCRIPTION="Caixas de Tomadas - Dimensões" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\caixas de tomada - tamanho.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_EST_RAG_PES_RED" DESCRIPTION="Mesas Redondas Recorte" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\mesas redondas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_MES_REU_AFA_PES" DESCRIPTION="Afastamento Pés Painel - Mesas de Reunião" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\mesas de reunioes - afastamentos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_EST_MET_MES" DESCRIPTION="Profundidades Pés Metálicos Mesas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\profundidades_pes_metalicos_mesas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_EST_DIV" DESCRIPTION="Divisórias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_EST_FER_GAV" DESCRIPTION="Ferragens Escritórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\ferragens escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_EST_FOL" DESCRIPTION="Folgas entre Portas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\folga entre portas banheiros.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_EST_FOL_TAM" DESCRIPTION="Folgas Tampo - Mesas Lineares" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tampos mesas folgas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_EST_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gavetas_estrutura_nova.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_LAT_FEC" DESCRIPTION="Laterais c/ Fechaduras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fechadura gavetas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="ESC_ESP" DESCRIPTION="Espessuras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="ESC_ESP_CAIXAS" DESCRIPTION="Caixas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_ESP_CPOR" DESCRIPTION="Com Porta" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_esp_cporta.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_ESP_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\caixa gaveta esc.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_ESP_APA" DESCRIPTION="Aparadores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_esp_aparador.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_ESP_BAS_CPU" DESCRIPTION="Base CPU" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\espessura base cpu.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_ESP_DIV" DESCRIPTION="Divisórias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_esp_divisoria.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_ESP_MES" DESCRIPTION="Mesas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\mesas espessura.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_ESP_ROD" DESCRIPTION="Rodapés" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodape esp.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_ESP_VIS_FEC" DESCRIPTION="Vistas de Fechamento" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vista de fechamento escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="ESC_FIT_BOR" DESCRIPTION="Fitas de Bordas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="ESC_FIT_BOR_BAS" DESCRIPTION="Bases" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_FIT_BOR_BAS_CPU" DESCRIPTION="CPU" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tampo cpu.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_BAS_INF" DESCRIPTION="Inferior" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base inferior escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_BAS_SUP" DESCRIPTION="Superior" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\base superior escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_FIT_BOR_FRE_FAL" DESCRIPTION="Frentes Falsas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_FIT_BOR_FRE_FAL_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda frente falsa.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_FIT_BOR_FUN" DESCRIPTION="Fundos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_FIT_BOR_FUN_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos armarios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_FUN_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda fundos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_FIT_BOR_LAT" DESCRIPTION="Lateral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_FIT_BOR_LAT_ARM" DESCRIPTION="Armários" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral armarios escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_LAT_CUR" DESCRIPTION="CPU Curva" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral cpu curvo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_LAT_CPU_RET" DESCRIPTION="CPU Reta" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\lateral cpu reta.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_LAT_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda lateral.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_FIT_BOR_PRA" DESCRIPTION="Prateleira" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_FIT_BOR_PRA_FIX" DESCRIPTION="Fixa" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+              <CATEGORY ID="ESC_FIT_BOR_PRA_MOV" DESCRIPTION="Movel" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\prateleira escritorios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_FIT_BOR_TRAS" DESCRIPTION="Traseiras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+            <CATEGORYCOLLECTION>
+              <CATEGORY ID="ESC_FIT_BOR_TRAS_GAV" DESCRIPTION="Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda traseiro.jpg" PROTECTED="Y" CATALOGONLY="N" />
+            </CATEGORYCOLLECTION>
+          </CATEGORY>
+          <CATEGORY ID="ESC_FIT_AFA_GAV_INT" DESCRIPTION="Lateral e Afastador - Gavetas Internas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\esc_afastadores_gav.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_FIT_BOR_PES_MES_ESC" DESCRIPTION="Pés Mesas Escritórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\pe mesa - escritorio.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_FIT_BOR_ROD" DESCRIPTION="Rodapés" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodape bancada.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_FIT_BOR_SAI_MES_ESC" DESCRIPTION="Saias Mesas Escritórios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\saia mesa - escritorio.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_FIT_BOR_DIV" DESCRIPTION="Divisorias" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias s_rasgo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="ESC_FIT_BOR_MON" DESCRIPTION="Montantes" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\divisorias s_rasgo.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="COM" DESCRIPTION="Composições" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="COM_ESP" DESCRIPTION="Espessuras" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="SOBRE_CORTE_COMP" DESCRIPTION="Sobre Corte" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sb_cor_tam_comp.jpg" PROTECTED="Y" CATALOGONLY="N" />
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="Painéis/Tampos" DESCRIPTION="Dimensões Painéis/Tampos/Tamburatos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="EST_SOB_COR_TAM_COM" DESCRIPTION="Sobre Corte Tampo Composto" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\sb_cor_tam_comp.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="TPO_COM" DESCRIPTION="Alturas Tampos Compostos / Engrossurado" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tampo composto.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="DIM_ESP_TAMB" DESCRIPTION="Tamburato - Altura" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\altura tamburato.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="TAM_MED" DESCRIPTION="Tamponamentos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tamponamento.png" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="DIM_TAMB" DESCRIPTION="Tamburatos - Estrutura" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tamburato.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="TAM_ENG_ROS" DESCRIPTION="Tampo Engrossurado - Estrutura" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\tampo_esgro.jpg" PROTECTED="Y" CATALOGONLY="N" />
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="BLUM" DESCRIPTION="Blum" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\Atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="BLU_EST" DESCRIPTION="Montagem" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="BLU_EST_ALT_FUR_TRI" DESCRIPTION="Alturas Furos Trilhos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\blum_furos_trilhos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="EST_GAV_BLUM" DESCRIPTION="Estruturas Gavetas Blum Tandem / Movento" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\estrutura gavetas tandem.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="BLU_EST_CUB" DESCRIPTION="Vão Cuba" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\blum_vao_cuba.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="DOB_BLUM" DESCRIPTION="Dobradiças" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\blum - dobradicas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+      <CATEGORY ID="BLU_FIT_BOR" DESCRIPTION="Fitas de Borda" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N">
+        <CATEGORYCOLLECTION>
+          <CATEGORY ID="BLU_FIT_BOR_TRA" DESCRIPTION="Fita Borda Traseira Metabox / Tandembox" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda traseiro blum.jpg" PROTECTED="Y" CATALOGONLY="N" />
+          <CATEGORY ID="BLU_FIT_BOR_FUN" DESCRIPTION="Fita Borda Fundo Metabox / Tandembox" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\gaveta - borda fundo blum.jpg" PROTECTED="Y" CATALOGONLY="N" />
+        </CATEGORYCOLLECTION>
+      </CATEGORY>
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="FER_DES" DESCRIPTION="Ferragens" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="MON_AVE" DESCRIPTION="Aventos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\hk_hks.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FER_DES_DOB" DESCRIPTION="Dobradiças" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\dobradicas.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FER_CAN_L" DESCRIPTION="Cantoneira L" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\cantoneira_l.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FER_DES_PIN_PRA" DESCRIPTION="Pino Prateleira" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\pino_prateleira.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FER_DES_CAV" DESCRIPTION="Cavilhas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\cavilhas_dim.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="MINIFIX" DESCRIPTION="Minifix" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\minifix.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FER_DES_PAR" DESCRIPTION="Parafuso" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\parafuso.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="VB" DESCRIPTION="VB" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\vb.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FUR_MAR" DESCRIPTION="Furos de Marcação" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\furo de marcacao.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="ROD" DESCRIPTION="Rodízios Criados / CPU" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\rodizios.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FRE_FAL_FUR_DIA" DESCRIPTION="Frente Falsa" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\frente falsa furos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+  <CATEGORY ID="FIXACOES" DESCRIPTION="Fixadores" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\atributos" PROTECTED="Y" CATALOGONLY="N">
+    <CATEGORYCOLLECTION>
+      <CATEGORY ID="FIX_COZ" DESCRIPTION="Cozinhas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_BAN" DESCRIPTION="Banheiros" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_DOR" DESCRIPTION="Dormitorios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_ESC" DESCRIPTION="Escritorios" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_GER" DESCRIPTION="Geral" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="EST_FUN" DESCRIPTION="Fixação Pregos/Grampos" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fundos.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_TRA_FRO" DESCRIPTION="Travessa Frontal" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fixacao_travessa_frontal.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_GAV" DESCRIPTION="Fixação Gavetas" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos\imagens\fixacao_frente_falsa_traseira.jpg" PROTECTED="Y" CATALOGONLY="N" />
+      <CATEGORY ID="FIX_COMPO" DESCRIPTION="Composições" IMAGE="C:\Users\User\Desktop\Promob Leo Madeiras Decore\System\Atributos" PROTECTED="Y" CATALOGONLY="N" />
+    </CATEGORYCOLLECTION>
+  </CATEGORY>
+</CATEGORYCOLLECTION>

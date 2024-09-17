@@ -1,0 +1,58 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.ContourParametricMachining, Procad.Builder.Core",
+      "Primitives": [
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-#COZ_EST_ELE_FOG_INI#+#COZ_EST_ELE_FOG_INI#+30",
+            "Y": "($D$/2)-(#COZ_EST_ELE_FOG_LAR#/2)+#COZ_EST_ELE_FOG_LAR#"
+          },
+          "End": {
+            "X": "$W$-#COZ_EST_ELE_FOG_INI#",
+            "Y": "($D$/2)-(#COZ_EST_ELE_FOG_LAR#/2)+#COZ_EST_ELE_FOG_LAR#"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-#COZ_EST_ELE_FOG_INI#",
+            "Y": "($D$/2)-(#COZ_EST_ELE_FOG_LAR#/2)+#COZ_EST_ELE_FOG_LAR#"
+          },
+          "End": {
+            "X": "$W$-#COZ_EST_ELE_FOG_INI#",
+            "Y": "($D$/2)-(#COZ_EST_ELE_FOG_LAR#/2)"
+          }
+        },
+        {
+          "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.PPrimitives2D.PLine3D, Procad.Builder.Core",
+          "Start": {
+            "X": "$W$-#COZ_EST_ELE_FOG_INI#",
+            "Y": "($D$/2)-(#COZ_EST_ELE_FOG_LAR#/2)"
+          },
+          "End": {
+            "X": "$W$-#COZ_EST_ELE_FOG_INI#+#COZ_EST_ELE_FOG_INI#+30",
+            "Y": "200"
+          }
+        }
+      ],
+      "Name": "UsinagemParametrica02",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "MachiningProcessIDText": "a1c24ab3-aeaf-47ac-bb8a-e65366ecc005",
+      "UseMachiningProcessRule": true,
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "$W$-#COZ_EST_ELE_FOG_INI#+#COZ_EST_ELE_FOG_INI#+30",
+        "Y": "($D$/2)-(#COZ_EST_ELE_FOG_LAR#/2)+#COZ_EST_ELE_FOG_LAR#"
+      },
+      "ElementId": "com_coz_ele_fog_emb"
+    }
+  ],
+  "ElementId": "com_coz_ele_fog_emb"
+}

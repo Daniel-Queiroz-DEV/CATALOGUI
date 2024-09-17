@@ -1,0 +1,281 @@
+{
+  "ElementId": "com_esc_tam_ret_pa",
+  "Edges": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 0,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "600"
+      },
+      "RightPoint": {},
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 3,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_esc_tam_ret_pa",
+      "ProfileIndexes": [
+        0
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.0,
+          "Y": 599.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.0001,
+          "Y": 599.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.0001,
+          "Y": 599.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.0001,
+          "Y": 1.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.0001,
+          "Y": 1.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 1,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "900"
+      },
+      "RightPoint": {
+        "X": "900",
+        "Y": "600"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 2,
+      "Reference": "",
+      "OperationPrice": null,
+      "ElementId": "com_esc_tam_ret_pa",
+      "ProfileIndexes": [
+        2
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 899.0,
+          "Y": 1.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 899.9999,
+          "Y": 1.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 899.9999,
+          "Y": 1.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 899.0,
+          "Y": 599.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 899.9999,
+          "Y": 599.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 899.9999,
+          "Y": 599.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 2,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "900",
+        "Y": "600"
+      },
+      "RightPoint": {
+        "Y": "600"
+      },
+      "Angle": {},
+      "LeftNeighbour": 1,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_esc_tam_ret_pa",
+      "ProfileIndexes": [
+        3
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 900.0,
+          "Y": 599.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 900.0,
+          "Y": 599.9999
+        },
+        "ParentPointWithOffset3": {
+          "X": 900.0,
+          "Y": 599.9999
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "Y": 599.0
+        },
+        "ParentPointWithOffset2": {
+          "Y": 599.9999
+        },
+        "ParentPointWithOffset3": {
+          "Y": 599.9999
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.Borders.TotalBorder, Procad.Builder.Core",
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 3,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {},
+      "RightPoint": {
+        "X": "900"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 1,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "com_esc_tam_ret_pa",
+      "ProfileIndexes": [
+        1
+      ],
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "Y": 1.0
+        },
+        "ParentPointWithOffset2": {
+          "Y": 0.0001
+        },
+        "ParentPointWithOffset3": {
+          "Y": 0.0001
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 900.0,
+          "Y": 1.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 900.0,
+          "Y": 0.0001
+        },
+        "ParentPointWithOffset3": {
+          "X": 900.0,
+          "Y": 0.0001
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

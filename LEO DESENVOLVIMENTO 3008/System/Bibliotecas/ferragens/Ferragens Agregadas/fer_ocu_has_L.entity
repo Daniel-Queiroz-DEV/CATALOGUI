@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Haste L" ICON="Haste.jpg" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="hastel" />
+    <LIMITS>
+      <MIN X="0" Y="-350" Z="-330" />
+      <MAX X="5" Y="5" Z="5" />
+    </LIMITS>
+    <DIMENSION WIDTH="5" HEIGHT="320" DEPTH="355" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION NAME="ACESSORIO" ID="ACESSORIO" IDMATERIAL="inox_01" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <BUDGET>
+    <INFORMATION RULE="M2" CATEGORY="$ROOTGROUP$" />
+  </BUDGET>
+  <INSERTDIMENSION WIDTH="5" HEIGHT="320" DEPTH="355" TEXT="">
+    <MIN WIDTH="1" HEIGHT="1" DEPTH="1" />
+    <MAX WIDTH="2000" HEIGHT="2000" DEPTH="2000" />
+  </INSERTDIMENSION>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Haste L" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="BudgetAggregate" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="Component" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

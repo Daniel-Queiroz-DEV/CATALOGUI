@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityPropertiesData
+  Offset="{assembly:Null}"
+  AlignmentFace="{assembly:Null}"
+  GroupHoles="False"
+  AluminumComponentData="{assembly:Null}"
+  SteelComponentData="{assembly:Null}"
+  PlateCuttingOffset="{assembly:Null}"
+  MachinedContour="False"
+  OperationPrice="{assembly:Null}"
+  PurchasedItem="{assembly:Null}"
+  DisregardWoodGrain="False"
+  ElementId="ESC_MES_ATE_LIN" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.EntityProperties;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EntityPropertiesData.CNCPluginDataCollection>
+    <CNCPluginDataCollection />
+  </EntityPropertiesData.CNCPluginDataCollection>
+  <EntityPropertiesData.FrontalFace>
+    <FrontalFace
+      PlaneType="Superior"
+      PlaneIndex="0" />
+  </EntityPropertiesData.FrontalFace>
+  <EntityPropertiesData.FurnitureAssemblyPreviewData>
+    <FurnitureAssemblyPreviewData
+      ExplodeX="0"
+      ExplodeY="0"
+      ExplodeZ="0"
+      Target="594,7485;-94,18398;466,3693"
+      Eye="-603,2658;1676,324;1684,88"
+      HideDoorsLayer="False"
+      HideAccessoriesLayer="False" />
+  </EntityPropertiesData.FurnitureAssemblyPreviewData>
+</EntityPropertiesData>

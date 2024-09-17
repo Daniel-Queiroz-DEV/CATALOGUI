@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Corpo Gaveta Oculta Slow" ICON="montagem_2.jpg" INVISIBLE="N">
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ISDRAWABLE="Y" ID="com_coz_gav_lat_esq">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="Y" ID="lat_esq" ALWAYSVISIBLE="N" DESCRIPTION="Esq" CONCURRENT="N" KEEPCHANGEDDIMENSION="N" REPOSITION="N" REPLACEFUNCTION="N" CANCHANGESELECTIONMODEL="Y" DEFAULT="N" GROUP="Laterais">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION WIDTH="$Pd$" DEPTH="$PH$" HEIGHT="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="MOVIVEL" VALUE="False" VISIBLE="N" />
+            <ATTRIBUTE ID="REMOVIVEL" VALUE="False" VISIBLE="N" />
+            <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_LAT_FT_FRONTAL#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_LAT_FT_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_LAT_FT_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_LAT_FT_DIR#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" Y="0" Z="$PH$" ROTATION="90" />
+          <NORMAL A="-1" B="0" C="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ISDRAWABLE="Y" ID="com_coz_gav_lat_dir">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="Y" ID="lat_dir" CANCHANGESELECTIONMODEL="Y" ALWAYSVISIBLE="N" DESCRIPTION="Dir" KEEPCHANGEDDIMENSION="N" REPOSITION="N" DEFAULT="N" CONCURRENT="N" REPLACEFUNCTION="N" GROUP="Laterais">
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <DIMENSION DEPTH="$PH$" WIDTH="$PD$" HEIGHT="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="Inverted" VALUE="True" VISIBLE="N" />
+            <ATTRIBUTE ID="movivel" VALUE="False" DYNAMIC="Y" VISIBLE="N" />
+            <ATTRIBUTE ID="removivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+            <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_LAT_FT_FRONTAL#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_LAT_FT_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_LAT_FT_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_LAT_FT_DIR#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="$PW$" Y="-$w$" Z="$PH$" ROTATION="90" />
+          <NORMAL A="-1" B="0" C="0" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ISDRAWABLE="Y" ID="com_coz_gav_tra">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="'#COZ_TRA_TIPO#' == 'Rasgo'">
+          <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CANCHANGESELECTIONMODEL="Y" ID="fundo_inteiro" ALWAYSVISIBLE="N" DESCRIPTION="Traseira" KEEPCHANGEDDIMENSION="N" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="N" REPLACEFUNCTION="N">
+            <DIMENSION DEPTH="$PH$-5-11" WIDTH="$PW$-2*(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" HEIGHT="(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" />
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <ATTRIBUTES>
+              <ATTRIBUTE ID="movivel" VALUE="False" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="removivel" VALUE="False" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_TRA_FT_FRONTAL#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_TRA_FT_TRASEIRA#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_TRA_FT_ESQ#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_TRA_FT_DIR#" VISIBLE="N" />
+              <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#COZ_TRA_TIPO#" VISIBLE="N" />
+              <ATTRIBUTE ID="FIX_GEN_1" VALUE="#COZ_FIX_GAV_1#" VISIBLE="N" />
+              <ATTRIBUTE ID="FIX_GEN_2" VALUE="#COZ_FIX_GAV_2#" VISIBLE="N" />
+            </ATTRIBUTES>
+            <POSITION X="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)+$W$" Y="-(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" Z="$PH$-5" ROTATION="90" />
+            <NORMAL A="0" B="1" C="0" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+        <VISIBLE CONDITION="'#COZ_TRA_TIPO#' == 'Nenhum'">
+          <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Ag6349687164199270261" ALWAYSVISIBLE="N" DESCRIPTION="Traseira s/ Rasgo" CONCURRENT="N" KEEPCHANGEDDIMENSION="N" REPOSITION="N" REPLACEFUNCTION="N" CANCHANGESELECTIONMODEL="Y" DEFAULT="Y">
+            <DIMENSION WIDTH="$PW$-2*(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" DEPTH="$PH$-(#COZ_ESP_GAV_FUN#+#FOL_PAI#)-#FUN_GAV_AFA#-11" HEIGHT="(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" />
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <ATTRIBUTES>
+              <ATTRIBUTE ID="movivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="removivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_TRA_FT_FRONTAL#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_TRA_FT_TRASEIRA#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_TRA_FT_ESQ#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_TRA_FT_DIR#" VISIBLE="N" />
+              <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#COZ_TRA_TIPO#" VISIBLE="N" />
+            </ATTRIBUTES>
+            <POSITION X="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" Y="0" Z="$PH$+11" ROTATION="90" />
+            <NORMAL A="0" B="-1" C="0" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ISDRAWABLE="Y" ID="com_coz_gav_fre_fal">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="'#COZ_FRE_FAL#' == 'SIM' &amp;&amp; '#COZ_FRE_FAL_TIPO#' == 'Rasgo'">
+          <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Ag6345202431062101224" CANCHANGESELECTIONMODEL="Y" ALWAYSVISIBLE="N" DESCRIPTION="Frente Falsa" KEEPCHANGEDDIMENSION="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="N" REPLACEFUNCTION="N">
+            <DIMENSION WIDTH="$PW$-2*(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" HEIGHT="(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" DEPTH="$ph$-5-11" />
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <ATTRIBUTES>
+              <ATTRIBUTE ID="movivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="removivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_FRE_FT_FRONTAL#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_FRE_FT_TRASEIRA#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_FRE_FT_ESQ#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_FRE_FT_DIR#" VISIBLE="N" />
+              <ATTRIBUTE ID="ESP_FUN_GEN" VALUE="#COZ_ESP_GAV_FUN#" VISIBLE="N" />
+              <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#COZ_FRE_FAL_TIPO#" VISIBLE="N" />
+            </ATTRIBUTES>
+            <POSITION X="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" Y="-$PD$+(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" Z="$D$+11" ROTATION="90" />
+            <NORMAL A="0" B="-1" C="0" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+        <VISIBLE CONDITION="'#COZ_FRE_FAL#' == 'SIM' &amp;&amp; '#COZ_FRE_FAL_TIPO#' == 'Nenhum'">
+          <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CONSTANT="N" ID="Ag6349688370795802691" ALWAYSVISIBLE="N" DESCRIPTION="Frente Falsa s/ Rasgo" CONCURRENT="N" KEEPCHANGEDDIMENSION="N" REPOSITION="N" REPLACEFUNCTION="N" CANCHANGESELECTIONMODEL="Y" DEFAULT="Y">
+            <DIMENSION DEPTH="$ph$-#P.FRE_FAL_DES#-(#COZ_ESP_GAV_FUN#+#FOL_PAI#)-#FUN_GAV_AFA#" HEIGHT="(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" WIDTH="$PW$-2*(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" />
+            <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+            <ATTRIBUTES>
+              <ATTRIBUTE ID="movivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="removivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+              <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_FRE_FT_FRONTAL#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_FRE_FT_TRASEIRA#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_FRE_FT_ESQ#" VISIBLE="N" />
+              <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_FRE_FT_DIR#" VISIBLE="N" />
+              <ATTRIBUTE ID="ESP_FUN_GEN" VALUE="#COZ_ESP_GAV_FUN#" VISIBLE="N" />
+              <ATTRIBUTE ID="FRE_FAL_TIPO" VALUE="#COZ_FRE_FAL_TIPO#" VISIBLE="N" />
+            </ATTRIBUTES>
+            <POSITION X="(#COZ_ESP_GAV_LAT#+#FOL_PAI#)+$W$" Y="-$PD$" Z="#FUN_GAV_AFA#+(#COZ_ESP_GAV_FUN#+#FOL_PAI#)+$D$" ROTATION="90" />
+            <NORMAL A="0" B="1" C="0" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="com_coz_gav_fun_oculta" ISDRAWABLE="Y">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <AGGREGATEINFORMATION KEEPCHANGEDPOSITION="N" CANCHANGESELECTIONMODEL="Y" ID="base" ALWAYSVISIBLE="N" DESCRIPTION="Fundo" KEEPCHANGEDDIMENSION="N" CONSTANT="N" REPOSITION="N" DEFAULT="Y" CONCURRENT="N" REPLACEFUNCTION="N">
+          <DIMENSION DEPTH="@(#COZ_FRE_FAL# == 'NAO'?$PD$-(#COZ_ESP_GAV_TRA#+#FOL_PAI#):$PD$-2*(#COZ_ESP_GAV_TRA#+#FOL_PAI#))" HEIGHT="(#COZ_ESP_GAV_FUN_OCULTA#+#FOL_PAI#)" WIDTH="$PW$-2*(#COZ_ESP_GAV_LAT#+#FOL_PAI#)" />
+          <REPETITIONS RECALCULATEONCHANGEFORM="N" />
+          <ATTRIBUTES>
+            <ATTRIBUTE ID="movivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+            <ATTRIBUTE ID="removivel" VALUE="false" DYNAMIC="Y" VISIBLE="N" />
+            <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_FRONTAL" VALUE="#COZ_GAV_FUN_FT_FRONTAL#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_TRASEIRA" VALUE="#COZ_GAV_FUN_FT_TRASEIRA#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_ESQ" VALUE="#COZ_GAV_FUN_FT_ESQ#" VISIBLE="N" />
+            <ATTRIBUTE ID="FT_BORDA_DIR" VALUE="#COZ_GAV_FUN_FT_DIR#" VISIBLE="N" />
+          </ATTRIBUTES>
+          <POSITION X="#COZ_ESP_GAV_LAT#+#FOL_PAI#" Y="-(#COZ_ESP_GAV_TRA#+#FOL_PAI#)" Z="#FUN_GAV_AFA_OCULTA#-1" ROTATION="0" />
+          <NORMAL A="0" B="0" C="1" />
+        </AGGREGATEINFORMATION>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION WIDTH="400" HEIGHT="204" DEPTH="400" MODE="OnlyProposedD" ITEM_BASE="COGAV01" TEXT="2710">
+    <MIN WIDTH="50" HEIGHT="86" DEPTH="50" />
+    <MAX WIDTH="3000" HEIGHT="650" DEPTH="3000" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE DEPTH="300" />
+      <PROPOSEDVALUE DEPTH="350" />
+      <PROPOSEDVALUE DEPTH="400" />
+      <PROPOSEDVALUE DEPTH="450" />
+      <PROPOSEDVALUE DEPTH="500" />
+      <PROPOSEDVALUE DEPTH="550" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CANMIRRORONLYPOSITION" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="description" VALUE="Gaveta" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_1" VALUE="#COZ_FIX_GAV_1#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="FIX_GEN_2" VALUE="#COZ_FIX_GAV_2#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="CANEDITDIMENSION" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="CANCHANGEPARENT" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REFERENCE IDREFERENCE="GERAL" />
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_078" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_050" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_632" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="start_mad_663_1" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_052" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_059" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_082" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_083" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_085" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_086" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_672" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_061" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_05" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_714" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_715" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_064" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_065" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_01" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_067" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_665" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_669" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_671" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_670" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_076" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_021" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_664" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_092" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_070" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_036" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_702" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_707" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_703" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_706" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_679" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_701" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_678" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_014" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_677" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_676" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_656" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_656" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_656" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_656" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_656" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_675" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_675" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_675" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_675" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_675" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_016" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_07" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_658" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_658" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_658" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_658" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_658" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_015" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_674" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_674" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_674" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_674" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_674" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_019" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_017" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_657" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_657" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_657" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_657" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_657" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_018" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_643" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_643" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_643" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_643" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_643" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_027_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_675_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_016_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_07_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_015_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_017_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_018_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_032_2" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_659" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_659" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_659" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_659" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_659" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_032" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_tra" MODEL="com_caixas" MODELTYPE="acabamento_644" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fun_oculta" MODEL="com_caixas" MODELTYPE="acabamento_644" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_dir" MODEL="com_caixas" MODELTYPE="acabamento_644" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_fre_fal" MODEL="com_caixas" MODELTYPE="acabamento_644" SAMEID="N" />
+    <REMOVEMODELOPTION PARENTID="com_coz_gav_lat_esq" MODEL="com_caixas" MODELTYPE="acabamento_644" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Refrigeradores e Freezers" DIRECTORY="Refrigeradores_Freezers" INVISIBLE="N">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="bos_refr_ref" DEF="Refrigeradores_Bosch.group" />
+    <EXPLORERITEM TYPE="group" ID="bos_refr_fre" DEF="Freezers_Bosch.group" />
+    <EXPLORERITEM TYPE="group" ID="bos_refr_ffr" DEF="Frost_Free.group" />
+    <EXPLORERITEM TYPE="group" ID="bos_refr_gli" DEF="Glass_Line.group" />
+    <EXPLORERITEM TYPE="group" ID="bos_refr_sbs" DEF="SIDe_By_SIDe.group" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

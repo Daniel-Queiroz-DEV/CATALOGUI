@@ -1,0 +1,479 @@
+{
+  "ElementId": "ESC_CAI_TAM_TRA_02",
+  "Edges": [
+    {
+      "ProfileIndex": 1,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 0,
+      "LeftVertexIndex": 1,
+      "RightVertexIndex": 2,
+      "LeftPoint": {
+        "Y": "650"
+      },
+      "RightPoint": {
+        "X": "271,5787",
+        "Y": "700"
+      },
+      "Angle": {
+        "Value": "33,04254"
+      },
+      "LeftNeighbour": 1,
+      "RightNeighbour": 4,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.0,
+          "Y": 650.6889
+        },
+        "ParentPointWithOffset2": {
+          "Y": 649.7899
+        },
+        "ParentPointWithOffset3": {
+          "Y": 649.7899
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 272.1107,
+          "Y": 700.8238
+        },
+        "ParentPointWithOffset2": {
+          "X": 272.168579,
+          "Y": 699.731262
+        },
+        "ParentPointWithOffset3": {
+          "X": 272.168579,
+          "Y": 699.731262
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 0,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 1,
+      "LeftVertexIndex": 0,
+      "RightVertexIndex": 1,
+      "LeftPoint": {
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "Y": "650"
+      },
+      "Angle": {},
+      "LeftNeighbour": 2,
+      "RightNeighbour": 0,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.0,
+          "Y": 999.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 0.0001,
+          "Y": 999.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 0.0001,
+          "Y": 999.0
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 1.0,
+          "Y": 650.6889
+        },
+        "ParentPointWithOffset2": {
+          "Y": 649.7899
+        },
+        "ParentPointWithOffset3": {
+          "Y": 649.7899
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 6,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 2,
+      "LeftVertexIndex": 6,
+      "RightVertexIndex": 0,
+      "LeftPoint": {
+        "X": "600",
+        "Y": "1000"
+      },
+      "RightPoint": {
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 3,
+      "RightNeighbour": 1,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 599.3865,
+          "Y": 999.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 598.8783,
+          "Y": 999.9999
+        },
+        "ParentPointWithOffset3": {
+          "X": 598.8783,
+          "Y": 999.9999
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "Y": 999.0
+        },
+        "ParentPointWithOffset2": {
+          "Y": 999.9999
+        },
+        "ParentPointWithOffset3": {
+          "Y": 999.9999
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 5,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 3,
+      "LeftVertexIndex": 5,
+      "RightVertexIndex": 6,
+      "LeftPoint": {
+        "X": "1000",
+        "Y": "213,0536"
+      },
+      "RightPoint": {
+        "X": "600",
+        "Y": "1000"
+      },
+      "Angle": {},
+      "LeftNeighbour": 6,
+      "RightNeighbour": 2,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 998.6238,
+          "Y": 213.5541
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.5458,
+          "Y": 213.9471
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.5458,
+          "Y": 213.9471
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 598.878235,
+          "Y": 1000.0
+        },
+        "ParentPointWithOffset2": {
+          "X": 599.9999,
+          "Y": 1000.0
+        },
+        "ParentPointWithOffset3": {
+          "X": 599.9999,
+          "Y": 1000.0
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 2,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 4,
+      "LeftVertexIndex": 2,
+      "RightVertexIndex": 3,
+      "LeftPoint": {
+        "X": "271,5787",
+        "Y": "700"
+      },
+      "RightPoint": {
+        "X": "521,4269",
+        "Y": "303,522"
+      },
+      "Angle": {},
+      "LeftNeighbour": 0,
+      "RightNeighbour": 5,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 272.3919,
+          "Y": 700.9671
+        },
+        "ParentPointWithOffset2": {
+          "X": 272.168579,
+          "Y": 699.731262
+        },
+        "ParentPointWithOffset3": {
+          "X": 272.168579,
+          "Y": 699.731262
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 522.3744,
+          "Y": 303.404541
+        },
+        "ParentPointWithOffset2": {
+          "X": 521.2638,
+          "Y": 302.5794
+        },
+        "ParentPointWithOffset3": {
+          "X": 521.2638,
+          "Y": 302.5794
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 3,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 5,
+      "LeftVertexIndex": 3,
+      "RightVertexIndex": 4,
+      "LeftPoint": {
+        "X": "521,4269",
+        "Y": "303,522"
+      },
+      "RightPoint": {
+        "X": "500"
+      },
+      "Angle": {
+        "Value": "30,36133"
+      },
+      "LeftNeighbour": 4,
+      "RightNeighbour": 6,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 522.450439,
+          "Y": 303.2837
+        },
+        "ParentPointWithOffset2": {
+          "X": 521.1881,
+          "Y": 302.700073
+        },
+        "ParentPointWithOffset3": {
+          "X": 521.1881,
+          "Y": 302.700073
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 500.742126,
+          "Y": 0.889915466
+        },
+        "ParentPointWithOffset2": {
+          "X": 499.905334,
+          "Y": -0.04033661
+        },
+        "ParentPointWithOffset3": {
+          "X": 499.905334,
+          "Y": -0.04033661
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    },
+    {
+      "ProfileIndex": 4,
+      "Text": "Borda01",
+      "Thickness": {
+        "Value": "#ESP_BORDA_2#"
+      },
+      "CutOffset": {},
+      "SideCutOffset": {},
+      "Index": 6,
+      "LeftVertexIndex": 4,
+      "RightVertexIndex": 5,
+      "LeftPoint": {
+        "X": "500"
+      },
+      "RightPoint": {
+        "X": "1000",
+        "Y": "213,0536"
+      },
+      "Angle": {},
+      "LeftNeighbour": 5,
+      "RightNeighbour": 3,
+      "Reference": "",
+      "OperationPrice": "BORDA",
+      "ElementId": "ESC_CAI_TAM_TRA_02",
+      "BorderOffsetLeftFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 500.6654,
+          "Y": 1.28347015
+        },
+        "ParentPointWithOffset2": {
+          "X": 499.905334,
+          "Y": -0.04033661
+        },
+        "ParentPointWithOffset3": {
+          "X": 499.905334,
+          "Y": -0.04033661
+        }
+      },
+      "BorderOffsetRightFinishing": {
+        "Radius": {
+          "Value": "#ESP_BORDA_2#"
+        },
+        "ParentPointWithOffset1": {
+          "X": 999.545837,
+          "Y": 213.947067
+        },
+        "ParentPointWithOffset2": {
+          "X": 999.999939,
+          "Y": 213.0537
+        },
+        "ParentPointWithOffset3": {
+          "X": 999.999939,
+          "Y": 213.0537
+        }
+      },
+      "CuttingFinishing": {
+        "Radius": {
+          "Value": "50"
+        },
+        "ParentPointWithOffset1": {},
+        "ParentPointWithOffset2": {},
+        "ParentPointWithOffset3": {}
+      },
+      "BorderStructureID": ""
+    }
+  ]
+}

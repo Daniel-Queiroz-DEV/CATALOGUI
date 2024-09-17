@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Gás Ceramic" ICON="P00147.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Gás Ceramic Cooktop - P00147" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P00147" />
+    <DIMENSION WIDTH="580" HEIGHT="12" DEPTH="510" />
+  </DRAWING>
+  <REFERENCE COMPLETE="7891646002847" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_inox" NAME="bosch_inox" IDMATERIAL="bosch_inox1" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

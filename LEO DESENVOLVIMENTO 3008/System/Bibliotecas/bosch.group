@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Bosch" DIRECTORY="Bosch" INVISIBLE="Y" DESCRIPTION="Bosch" MODELINVISIBLE="Y">
+  <SUPPLIERINFORMATION DESCRIPTION="Bosch" LOGO="%systemfolder%\identity\LogoBosch.jpg" />
+  <BUDGET>
+    <INFORMATION RULE="UN" CATEGORY="$ROOTGROUP$" />
+    <MARGIN IDCATEGORY="bosch" />
+    <PRICE PROVIDER="Bosch" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="bos_ocul" DEF="Ocultos.group" GUID="086ea31e-b32a-4c71-9c02-0c652d780a10" />
+    <EXPLORERITEM TYPE="group" ID="bos_fog" DEF="Fogoes.group" GUID="fef3d7a2-34f6-4923-bd6c-8b8e7d491cae" />
+    <EXPLORERITEM TYPE="group" ID="bos_for" DEF="Fornos_Cooktops.group" GUID="d4b058a1-0a73-417a-bce1-8437ecf39cb8" />
+    <EXPLORERITEM TYPE="group" ID="bos_dep" DEF="dep_coi.group" GUID="6688850f-102f-4fc7-ab38-bb18f4df02cc" />
+    <EXPLORERITEM TYPE="group" ID="bos_ref" DEF="ref_fre.group" GUID="3c7c9294-896c-4188-8384-b35530bb555d" />
+    <EXPLORERITEM TYPE="group" ID="bos_lav" DEF="Lavadoras.group" GUID="0c96d336-f710-4875-ae7d-2b2fd8be2a23" />
+  </EXPLORERITEMCOLLECTION>
+  <VERSION>NS4zNS4x</VERSION>
+  <LAYER DESCRIPTION="Bosch" SHADEMODE="Default" DEFAULT="N" LOCK="N" ON="Y" LINETYPE="Solid" THICKNESS="1" />
+</GROUP>

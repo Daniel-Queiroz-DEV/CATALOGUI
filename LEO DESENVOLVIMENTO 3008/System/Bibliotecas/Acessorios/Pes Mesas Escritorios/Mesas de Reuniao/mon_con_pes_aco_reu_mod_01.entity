@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Pe de Aço Reuniao ($TEXT$)" INVISIBLE="N" ICON="metal.jpg">
+  <DRAWING>
+    <FILE3D NAME="pe_aco_reuniao" />
+    <DIMENSION WIDTH="720" HEIGHT="80" DEPTH="600" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTINGPARAMETERS ORIENTATION="VERTICAL" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé de Aço Mesa Reunião $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="700" HEIGHT="80" DEPTH="700" TEXT="PERACO">
+    <MIN WIDTH="500" />
+    <MAX WIDTH="1500" />
+  </INSERTDIMENSION>
+</ENTITY>

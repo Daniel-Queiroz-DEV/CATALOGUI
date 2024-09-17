@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Esc c/ Verniz ($TEXT$.$D.ACAB$)" ICON="Versalhes.jpg" INVISIBLE="N" MODELINVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Versalhes 448mm Niquel Escovado c/ Verniz" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="460" HEIGHT="7.5" DEPTH="30" TEXT="ZP5707" ACAB="916" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_esc_bri_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="GRANADO" NAME="GRANADO" IDMATERIAL="zen_niquel_esc_ver_rec_" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

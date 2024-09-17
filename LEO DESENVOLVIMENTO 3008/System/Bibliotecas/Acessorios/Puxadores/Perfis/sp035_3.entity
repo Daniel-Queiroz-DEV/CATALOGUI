@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prolongador de sensor" ICON="sp035_3.JPG" INVISIBLE="Y">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="20">
+      <PONTO2DA X="-50" Y="-1.45" />
+      <PONTO2DA X="-50" Y="-1.55" />
+      <PONTO2DA X="50" Y="-1.55" />
+      <PONTO2DA X="50" Y="-1.45" />
+    </BOUNDINGBOX>
+    <FILE3D NAME="sp_neo2_2" />
+    <LIMITS>
+      <MIN X="-50" Y="-41.993" Z="-11.5" />
+      <MAX X="50" Y="0" Z="8.5" />
+    </LIMITS>
+    <DIMENSION WIDTH="100" HEIGHT="20" DEPTH="42" />
+  </DRAWING>
+  <BUDGET>
+    <INFORMATION CATEGORY="Acessórios Fabricados" />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+    <MARGIN APPLYPARENTINSERTMARGIN="N" IDCATEGORY="movie" />
+  </BUDGET>
+  <POSITIONSERVICE DEFINITIONID="PUX_PER" />
+  <REFERENCE ITEM_BASE="$TEXT$" />
+  <INSERTDIMENSION WIDTH="10" HEIGHT="10" DEPTH="10" TEXT="PROLONG" DESC="" ITEM_BASE="PROLONG" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Prolongador de sensor" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPRIMENTO" VALUE="$W$" VISIBLE="N" />
+    <ATTRIBUTE ID="NOPRICEALERT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="F" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

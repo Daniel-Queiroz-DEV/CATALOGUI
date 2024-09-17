@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Elev Lat Branca em Vidro Opaco 500mm H180" ICON="2.jpg">
+  <DRAWING>
+    <FILE3D NAME="lateral vidro" />
+    <LIMITS>
+      <MIN X="-7.5" Y="0" Z="0" />
+      <MAX X="7.5" Y="500" Z="76.33" />
+    </LIMITS>
+    <DIMENSION WIDTH="15" HEIGHT="76.3" DEPTH="500" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Elevação Lateral Branca em Vidro Opaco 500mm H180" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="VIDRO" NAME="VIDRO" IDMATERIAL="fgv_acri" EDIT="N" />
+    <COMPONENTDEFINITION ID="METALICA" NAME="METALICA" IDMATERIAL="fgv_bra" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="15" HEIGHT="96" DEPTH="497" TEXT="58SXVMF15000000" DESC="" ITEM_BASE="58SXVMF15000000" />
+</ENTITY>

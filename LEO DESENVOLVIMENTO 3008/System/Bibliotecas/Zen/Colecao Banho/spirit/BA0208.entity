@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Prat Inox ($TEXT$)" ICON="BA0036_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="ba0140_prat_acrilico" />
+    <DIMENSION WIDTH="420" HEIGHT="41.5" DEPTH="120" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="420" HEIGHT="41" DEPTH="120" TEXT="BA0208" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Spirit Prateleira em @zen_spirit(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_banho_spi_BA0208" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_spi_BA0208" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro_pre" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_banho_spi_BA0208" MODEL="Zen_spirit" MODELTYPE="Zen_spi_cro_bra" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

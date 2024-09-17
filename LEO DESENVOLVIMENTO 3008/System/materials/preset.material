@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FOLDER NAME="PreSet">
+  <MATERIALCOLLECTION>
+    <MATERIAL NAME_EN="Acrylic" ID="preset_acrilico" NAME="Acrílico">
+      <BORDERCOLOR R="0" G="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <ROTATION>0</ROTATION>
+      <ESCALETEXTUREX />
+      <ESCALETEXTUREY />
+      <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+      <MIRROR>N</MIRROR>
+      <AMBIENT>0</AMBIENT>
+      <DIFFUSE>0</DIFFUSE>
+      <REFLECTIONMIN>0.01</REFLECTIONMIN>
+      <REFLECTIONMAX>0.01</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0.2</SPECULAR>
+      <ROUGHNESS>0.7</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <TRANSPARENCY>0.2</TRANSPARENCY>
+      <DIRECTION>Nenhum</DIRECTION>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <TEXTUREFILES />
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <MAPPING>Cubo</MAPPING>
+      <COLORBASE R="0" G="0" B="0" />
+    </MATERIAL>
+    <MATERIAL NAME_EN="Mirror" ID="preset_espelho" NAME="Espelho">
+      <AMBIENT>0.1</AMBIENT>
+      <DIFFUSE>0.1</DIFFUSE>
+      <REFLECTION>1</REFLECTION>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0</ROUGHNESS>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <MAPPING>Cubo</MAPPING>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <COLORBASE R="0" G="0" B="0" />
+    </MATERIAL>
+    <MATERIAL NAME_EN="Glass" ID="preset_vidro" NAME="Vidro">
+      <AMBIENT>0.3</AMBIENT>
+      <DIFFUSE>0.6</DIFFUSE>
+      <REFLECTIONMIN>0.1</REFLECTIONMIN>
+      <REFLECTIONMAX>1</REFLECTIONMAX>
+      <SPECULAR>0.3</SPECULAR>
+      <ROUGHNESS>0.005</ROUGHNESS>
+      <TRANSPARENCY>0.9</TRANSPARENCY>
+      <CONSERVEENERGY>Y</CONSERVEENERGY>
+      <COLORBASE R="0" G="0" B="0" />
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+    </MATERIAL>
+    <MATERIAL NAME_EN="Wood" ID="preset_madeiras" NAME="Madeiras">
+      <REFLECTION>0</REFLECTION>
+      <TEXTUREFILES />
+      <BORDERCOLOR G="0" R="0" B="0" />
+      <BORDERWIDTH>0</BORDERWIDTH>
+      <MAPPING>Cubo</MAPPING>
+      <ROTATION>0</ROTATION>
+      <NUMBERTEXTUREX>0</NUMBERTEXTUREX>
+      <NUMBERTEXTUREY>0</NUMBERTEXTUREY>
+      <ESCALETEXTUREX />
+      <ESCALETEXTUREY />
+      <MIRROR>N</MIRROR>
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.6</DIFFUSE>
+      <REFLECTIONMIN>0</REFLECTIONMIN>
+      <REFLECTIONMAX>0</REFLECTIONMAX>
+      <CRAND>0</CRAND>
+      <SPECULAR>0.5</SPECULAR>
+      <ROUGHNESS>0.1</ROUGHNESS>
+      <METALLIC>0</METALLIC>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <CONSERVEENERGY>N</CONSERVEENERGY>
+      <COLORBASE R="0" G="0" B="0" />
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+    </MATERIAL>
+    <MATERIAL NAME_EN="Marbles/Granites" ID="preset_marmores" NAME="Mármores/Granitos">
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.5</DIFFUSE>
+      <REFLECTION>0</REFLECTION>
+      <SPECULAR>0.02</SPECULAR>
+      <ROUGHNESS>0.05</ROUGHNESS>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <COLORBASE R="0" G="0" B="0" />
+    </MATERIAL>
+    <MATERIAL NAME_EN="Metal" ID="preset_metal" NAME="Metal">
+      <REFLECTION>0.05</REFLECTION>
+      <SPECULAR>0.1</SPECULAR>
+      <ROUGHNESS>0.05</ROUGHNESS>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <COLORBASE R="0" G="0" B="0" />
+      <MAPPING>Planar</MAPPING>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+    </MATERIAL>
+    <MATERIAL NAME_EN="Straws/Wickers" ID="preset_palhas_vimes" NAME="Palhas/Vimes">
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.5</DIFFUSE>
+      <REFLECTION>0</REFLECTION>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0.4</ROUGHNESS>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <COLORBASE R="0" G="0" B="0" />
+      <MAPPING>Cubo</MAPPING>
+    </MATERIAL>
+    <MATERIAL NAME_EN="Textiles" ID="preset_tecidos" NAME="Tecidos">
+      <REFLECTION>0</REFLECTION>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0.05</ROUGHNESS>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <MAPPING>Cubo</MAPPING>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <COLORBASE R="0" G="0" B="0" />
+    </MATERIAL>
+    <MATERIAL NAME_EN="Tapestry" ID="preset_tapetes" NAME="Tapetes">
+      <AMBIENT>0.4</AMBIENT>
+      <DIFFUSE>0.5</DIFFUSE>
+      <REFLECTION>0</REFLECTION>
+      <SPECULAR>0</SPECULAR>
+      <ROUGHNESS>0.4</ROUGHNESS>
+      <TRANSPARENCY>0</TRANSPARENCY>
+      <METADATAS>
+        <METADATA ID="MoobleMaterialData">
+          <METADATA.VALUE>
+            <MOOBLEMATERIALDATA />
+          </METADATA.VALUE>
+        </METADATA>
+      </METADATAS>
+      <MAPPING>Planar</MAPPING>
+      <COLORBASE R="0" G="0" B="0" />
+    </MATERIAL>
+  </MATERIALCOLLECTION>
+</FOLDER>

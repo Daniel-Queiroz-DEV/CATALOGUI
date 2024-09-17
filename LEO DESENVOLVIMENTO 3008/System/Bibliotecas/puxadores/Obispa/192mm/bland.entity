@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Bland ($TEXT$)" ICON="bland.jpg">
+  <DRAWING>
+    <FILE3D NAME="bland_100536" FORMAT=".dxf" />
+    <DIMENSION WIDTH="205" HEIGHT="10" DEPTH="32" />
+    <LIMITS>
+      <MIN X="-102.5" Y="-32.211" Z="-5" />
+      <MAX X="103.222" Y="0" Z="4.639" />
+    </LIMITS>
+  </DRAWING>
+  <INSERTDIMENSION TEXT="100.536" />
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_192_bla" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_192_bla" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_192_bla" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_192_bla" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Bland 192mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

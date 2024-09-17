@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Slim" DIRECTORY="slim">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_slim_pon_2" DEF="Ponto.group" GUID="3efee6dd-6b7b-4c83-a74e-dac958cb6481" />
+    <EXPLORERITEM TYPE="group" ID="zen_slim_128_2" DEF="128mm.group" GUID="f939dc52-27b5-4df7-b09c-9abd6759abab" />
+    <EXPLORERITEM TYPE="group" ID="zen_slim_224_2" DEF="224mm.group" GUID="ee709d2f-7177-4822-9887-29685b38c45d" />
+    <EXPLORERITEM TYPE="group" ID="zen_slim_352_2" DEF="352mm.group" GUID="bc5ae13f-1a44-431a-a05e-a2f6bac8db49" />
+    <EXPLORERITEM TYPE="group" ID="zen_slim_448_2" DEF="448mm.group" GUID="1caef129-ef02-48b3-9704-d6b145d386eb" />
+    <EXPLORERITEM TYPE="group" ID="zen_slim_544_2" DEF="544mm.group" GUID="def85a8c-ed82-4b45-a9af-b7254d175977" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="SLIM_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\slim_ponto" />
+      <DIMENSION WIDTH="17" HEIGHT="32" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-8.5" Y="-30" Z="-27.972" />
+        <MAX X="8.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SLIM_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\slim_128mm" />
+      <DIMENSION WIDTH="136" HEIGHT="17" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-68" Y="-30" Z="-8.5" />
+        <MAX X="68" Y="0" Z="8.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SLIM_224MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\slim_224mm" />
+      <DIMENSION WIDTH="232" HEIGHT="17" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-116" Y="-30" Z="-8.5" />
+        <MAX X="116" Y="0" Z="8.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SLIM_352MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\slim_352mm" />
+      <DIMENSION WIDTH="360" HEIGHT="17" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-180" Y="-30" Z="-8.5" />
+        <MAX X="180" Y="0" Z="8.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SLIM_448MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\slim_448mm" />
+      <DIMENSION WIDTH="456" HEIGHT="17" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-228" Y="-30" Z="-8.5" />
+        <MAX X="228" Y="0" Z="8.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="SLIM_544MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\slim_544mm" />
+      <DIMENSION WIDTH="553" HEIGHT="17" DEPTH="30" />
+      <LIMITS>
+        <MIN X="-276.5" Y="-30" Z="-8.5" />
+        <MAX X="276.5" Y="0" Z="8.5" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

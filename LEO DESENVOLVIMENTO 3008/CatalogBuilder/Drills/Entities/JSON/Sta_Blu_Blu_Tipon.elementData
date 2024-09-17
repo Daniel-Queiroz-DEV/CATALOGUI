@@ -1,0 +1,42 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "$W$/2-16",
+          "Y": "$D$/2-9.25"
+        },
+        "ElementId": "Sta_Blu_Blu_Tipon"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "$W$/2+16",
+          "Y": "$D$/2-9.25"
+        },
+        "ElementId": "Sta_Blu_Blu_Tipon"
+      }
+    ]
+  },
+  "ElementId": "Sta_Blu_Blu_Tipon"
+}

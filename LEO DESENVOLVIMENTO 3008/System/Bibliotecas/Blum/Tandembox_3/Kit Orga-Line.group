@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Orga-Line" NAME="Kit Ambia-Line Divisores" PREFIXID="Sta_Blu_Tand_kit_" INVISIBLE="N" MODELINVISIBLE="N">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="CALCULATED" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <INFORMATION CATEGORY="Ferragens Compradas" />
+    <PRICE FONT="BancoDados" PROVIDER="principal" />
+  </BUDGET>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Legra_300" DEF="Sta_Blu_Tand_400.entity" GUID="082c21b3-b253-463d-89a0-428ac07c8b02" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_300_3" DEF="Sta_Blu_Tand_300.entity" GUID="9802e459-591d-462a-887e-2855d361460c" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_500_2" DEF="Sta_Blu_Tand_500.entity" GUID="6d8bc85f-fc84-48be-840b-3933863c5fed" />
+    <EXPLORERITEM TYPE="entity" ID="Sta_Blu_Tand_600_2" DEF="Sta_Blu_Tand_600.entity" GUID="3c4d5ea9-9c60-4025-8f22-07dc874699a1" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

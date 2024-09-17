@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Vecchio Metallo ($TEXT$.$D.ACAB$)" ICON="Senna.jpg">
+  <DRAWING ID="SENNA_PONTO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Senna Ponto Vecchio Metallo" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUX" NAME="PUX" IDMATERIAL="zen_met_vec" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION WIDTH="16" HEIGHT="38" DEPTH="21" TEXT="ZP0488" ACAB="599" />
+</ENTITY>

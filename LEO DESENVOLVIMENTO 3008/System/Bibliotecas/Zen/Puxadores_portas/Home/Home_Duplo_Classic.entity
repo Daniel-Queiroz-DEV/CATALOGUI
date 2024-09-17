@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="@($H$-100) Duplo Classic ($TEXT$)" ICON="Home_Duplo_Classic.jpg" CHECKED="N">
+  <AGGREGATECOLLECTION>
+    <AGGREGATE ID="zen_ocl_man_hom_cla_400">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="$PH$==400">
+          <AGGREGATEINFORMATION ID="pux_400" CONCURRENT="Y" DESCRIPTION="400mm" GROUP="Puxadores" CONSTANT="Y">
+            <DIMENSION DEPTH="$PD$" />
+            <POSITION X="0" Y="0" Z="0" ROTATION="0" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="zen_ocl_man_hom_cla_700">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="$PH$==700">
+          <AGGREGATEINFORMATION ID="pux_700" CONCURRENT="Y" DESCRIPTION="700mm" GROUP="Puxadores" CONSTANT="Y">
+            <POSITION X="0" Y="0" Z="0" ROTATION="0" />
+            <DIMENSION DEPTH="$PD$" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="zen_ocl_man_hom_cla_1100">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="$PH$==1100">
+          <AGGREGATEINFORMATION ID="pux_1100" CONCURRENT="Y" DESCRIPTION="1100mm" GROUP="Puxadores" CONSTANT="Y">
+            <POSITION X="0" Y="0" Z="0" ROTATION="0" />
+            <DIMENSION DEPTH="$PD$" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+    <AGGREGATE ID="zen_ocl_man_hom_cla_1600">
+      <AGGREGATEINFORMATIONCOLLECTION>
+        <VISIBLE CONDITION="$PH$==1600">
+          <AGGREGATEINFORMATION ID="pux_1600" CONCURRENT="Y" DESCRIPTION="1600mm" GROUP="Puxadores" CONSTANT="Y">
+            <POSITION X="0" Y="0" Z="0" ROTATION="0" />
+            <DIMENSION DEPTH="$PD$" />
+          </AGGREGATEINFORMATION>
+        </VISIBLE>
+      </AGGREGATEINFORMATIONCOLLECTION>
+    </AGGREGATE>
+  </AGGREGATECOLLECTION>
+  <INSERTDIMENSION HEIGHT="400" MODE="OnlyProposedH" TEXT="" ACAB="803" WIDTH="44" DEPTH="128">
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE HEIGHT="400" TEXT="ZP2025" />
+      <PROPOSEDVALUE HEIGHT="700" TEXT="ZP2026" />
+      <PROPOSEDVALUE HEIGHT="1100" TEXT="ZP2027" />
+      <PROPOSEDVALUE HEIGHT="1600" TEXT="ZP2028" />
+    </PROPOSEDVALUES>
+    <MIN DEPTH="50" />
+    <MAX DEPTH="1000" />
+  </INSERTDIMENSION>
+  <DRAWING ID="Home_Sem_Desenho" />
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Home @($H$-100)mm Alça para porta Duplo @zen*(NAME)@" VISIBLE="N" />
+    
+    
+  </ATTRIBUTES>
+  <REDIMSERVICE>
+    <PBLOCK>
+      <XYPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="84" FORMULA="$D$-44">
+            <VECTOR U="0" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-76.87543" V="19.55122" />
+              <CORNER2 U="75.06522" V="-60.29105" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XYPLAN>
+      <XZPLAN>
+        <REGIONS>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="368" FORMULA="$H$/2">
+            <VECTOR U="3.341766E-08" V="1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-171.0693" V="446.8958" />
+              <CORNER2 U="158.8703" V="98.7402" />
+            </SHAPE>
+          </REGION>
+          <REGION TYPE="OFFSET" ORIGINALVALUE="368" FORMULA="$H$/2">
+            <VECTOR U="2.479944E-07" V="-1" />
+            <SHAPE TYPE="RECTANGLE">
+              <CORNER1 U="-185.8427" V="-80.02266" />
+              <CORNER2 U="177.3371" V="-445.6647" />
+            </SHAPE>
+          </REGION>
+        </REGIONS>
+      </XZPLAN>
+    </PBLOCK>
+  </REDIMSERVICE>
+</ENTITY>

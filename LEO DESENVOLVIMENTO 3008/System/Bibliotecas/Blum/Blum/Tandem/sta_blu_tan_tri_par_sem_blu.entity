@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="$D$mm Trilho Tandem Parcial" INVISIBLE="N">
+  <DRAWING>
+    <FILE3D NAME="tri_tandem_parcial_550" />
+    <DIMENSION WIDTH="226.9" HEIGHT="44.3" DEPTH="386" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="240" HEIGHT="44.3" DEPTH="253" MODE="OnlyProposed" TEXT="">
+    <MIN WIDTH="100" HEIGHT="10" DEPTH="100" />
+    <MAX WIDTH="1300" HEIGHT="500" DEPTH="1300" />
+    <PROPOSEDVALUES>
+      <PROPOSEDVALUE DEPTH="209" />
+      <PROPOSEDVALUE DEPTH="237" />
+      <PROPOSEDVALUE DEPTH="253" />
+      <PROPOSEDVALUE DEPTH="278" />
+      <PROPOSEDVALUE DEPTH="314" />
+      <PROPOSEDVALUE DEPTH="339" />
+    </PROPOSEDVALUES>
+  </INSERTDIMENSION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Trilho Tandem Parcial" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

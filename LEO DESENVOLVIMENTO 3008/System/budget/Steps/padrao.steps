@@ -1,0 +1,68 @@
+﻿<STEPSDEFINITION>
+
+	<STEPDEFINITION ID="motor"
+					DESCRIPTION="Motor"
+					STEPCLASS="ProMOB.Listagem.Base.BackEnd.Motor"
+					STEPDLL="ProMOB.Listagem.Base.dll"
+					CONTROLCLASS="ProMOB.Listagem.Base.FrontEnd.EtapaMotorCtrl"
+					CONTROLDLL="ProMOB.Listagem.Base.dll"
+					/>
+	
+	<STEPDEFINITION ID="aplicarXsl"
+					DESCRIPTION="Aplicar XSL"
+					STEPCLASS="ProMOB.Listagem.Base.BackEnd.Etapas.EtapaAplicarXSL"
+					STEPDLL="ProMOB.Listagem.Base.dll"
+					CONTROLCLASS="ProMOB.Listagem.Base.FrontEnd.EtapaAplicarXSLCtrl"
+					CONTROLDLL="ProMOB.Listagem.Base.dll"
+					/>
+	
+	<STEPDEFINITION ID="calcularPrecoMargens"
+					DESCRIPTION="Calcular Preço Margens"
+					STEPCLASS="ProMOB.Listagem.Base.BackEnd.Etapas.EtapaCalcularPrecoMargens"
+					STEPDLL="ProMOB.Listagem.Base.dll"
+					CONTROLCLASS="ProMOB.Listagem.Base.FrontEnd.EtapaCalcularPrecoMargensCtrl"
+					CONTROLDLL="ProMOB.Listagem.Base.dll"
+					/>
+					
+	<STEPDEFINITION ID="condicoesPagamento"
+					DESCRIPTION="Condições de Pagamento"
+					STEPCLASS="ProMOB.Listagem.Base.BackEnd.Etapas.EtapaCondicoesDePagamento"
+					STEPDLL="ProMOB.Listagem.Base.dll"
+					CONTROLCLASS=""
+					CONTROLDLL="ProMOB.Listagem.Base.dll"					
+					/>
+					
+	<STEPDEFINITION ID="enviarURL"
+					DESCRIPTION="Enviar URL"
+					STEPCLASS="ProMOB.Listagem.Base.BackEnd.Etapas.EtapaEnviarArquivoParaURL"
+					STEPDLL="ProMOB.Listagem.Base.dll"
+					CONTROLCLASS="ProMOB.Listagem.Base.FrontEnd.EtapaEnviarArquivoParaURLCtrl"
+					CONTROLDLL="ProMOB.Listagem.Base.dll"
+					/>
+					
+	<STEPDEFINITION ID="executarAplicacao"
+					DESCRIPTION="Executar Aplicação"
+					STEPCLASS="ProMOB.Listagem.Base.BackEnd.Etapas.EtapaExecutarAplicacao"
+					STEPDLL="ProMOB.Listagem.Base.dll"
+					CONTROLCLASS="ProMOB.Listagem.Base.FrontEnd.EtapaExecutarAplicacaoCtrl"
+					CONTROLDLL="ProMOB.Listagem.Base.dll"
+					/>
+	
+	<STEPDEFINITION ID="gerarDocumento"
+					DESCRIPTION="Gerar Documento"
+					STEPCLASS="ProMOB.Listagem.Interface.BackEnd.EtapaGerarDocumentoListagem"
+					STEPDLL="ProMOB.Listagem.Interface.dll"
+					CONTROLCLASS="ProMOB.Listagem.Interface.FrontEnd.EtapaGerarDocumentoListagemCtrl"
+					CONTROLDLL="ProMOB.Listagem.Interface.dll"
+					/>
+	
+	<STEPDEFINITION ID="telaApresentacao"
+					DESCRIPTION="Tela Apresentação"
+					STEPCLASS="ProMOB.Listagem.Interface.BackEnd.EtapaMostrarFormApresentacaoListagem"
+					STEPDLL="ProMOB.Listagem.Interface.dll"
+					CONTROLCLASS="ProMOB.Listagem.Interface.FrontEnd.EtapaMostrarFormApresentacaoListagemCtrl"																	  
+					CONTROLDLL="ProMOB.Listagem.Interface.dll"
+					/>
+	
+
+</STEPSDEFINITION>

@@ -1,0 +1,368 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 1,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+64",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação03",
+        "Condition": {
+          "Expression": "$D$>=300"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 2,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+224",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação04",
+        "Condition": {
+          "Expression": "$D$==250"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 3,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+148",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação05",
+        "Condition": {
+          "Expression": "$D$>=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 4,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+352",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação06",
+        "Condition": {
+          "Expression": "$D$==500 || $D$==550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 5,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+416",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação08",
+        "Condition": {
+          "Expression": "$D$==400"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 7,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+288",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação11",
+        "Condition": {
+          "Expression": "$D$==600"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 10,
+        "PlaneIndex": 3,
+        "OperationPrice": null,
+        "Position": {
+          "X": "37+480",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação12",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 11,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação13",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 12,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-64",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação15",
+        "Condition": {
+          "Expression": "$D$==600"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 14,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-480",
+          "Y": "18,5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação14",
+        "Condition": {
+          "Expression": "$D$>=300"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 15,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-224",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação16",
+        "Condition": {
+          "Expression": "$D$==250"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 16,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-148",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação17",
+        "Condition": {
+          "Expression": "$D$>=450"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 17,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-352",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação18",
+        "Condition": {
+          "Expression": "$D$==500 || $D$==550"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 18,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-416",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação19",
+        "Condition": {
+          "Expression": "$D$==400"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "#PRO_MAR#"
+        },
+        "UniqueID": 19,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-288",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      },
+      {
+        "Name": "Furação20",
+        "Condition": {
+          "Expression": "$D$==600"
+        },
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo18",
+        "ReceiverDepth": {
+          "Value": "1"
+        },
+        "UniqueID": 20,
+        "PlaneIndex": 1,
+        "OperationPrice": null,
+        "Position": {
+          "X": "$D$-37-128-96-128-96-32",
+          "Y": "18.5"
+        },
+        "ElementId": "ace_cor_simples"
+      }
+    ]
+  },
+  "ElementId": "ace_cor_simples"
+}

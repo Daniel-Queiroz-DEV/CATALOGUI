@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Reta Onix" ICON="Reta_2.jpg">
+  <DRAWING>
+    <FILE3D NAME="comple_2" />
+    <BOUNDINGBOX HEIGHT="3.2">
+      <PONTO2DA X="-10" Y="24.5" />
+      <PONTO2DA X="-10" Y="-24.5" />
+      <PONTO2DA X="-9.86" Y="-25.54" />
+      <PONTO2DA X="-9.46" Y="-26.5" />
+      <PONTO2DA X="-8.83" Y="-27.33" />
+      <PONTO2DA X="-8" Y="-27.96" />
+      <PONTO2DA X="-7.04" Y="-28.36" />
+      <PONTO2DA X="-6" Y="-28.5" />
+      <PONTO2DA X="6" Y="-28.5" />
+      <PONTO2DA X="7.04" Y="-28.36" />
+      <PONTO2DA X="8" Y="-27.96" />
+      <PONTO2DA X="8.83" Y="-27.33" />
+      <PONTO2DA X="9.46" Y="-26.5" />
+      <PONTO2DA X="9.86" Y="-25.54" />
+      <PONTO2DA X="10" Y="-24.5" />
+      <PONTO2DA X="10" Y="24.5" />
+      <PONTO2DA X="9.86" Y="25.54" />
+      <PONTO2DA X="9.46" Y="26.5" />
+      <PONTO2DA X="8.83" Y="27.33" />
+      <PONTO2DA X="8" Y="27.96" />
+      <PONTO2DA X="7.04" Y="28.36" />
+      <PONTO2DA X="6" Y="28.5" />
+      <PONTO2DA X="-6" Y="28.5" />
+      <PONTO2DA X="-7.04" Y="28.36" />
+      <PONTO2DA X="-8" Y="27.96" />
+      <PONTO2DA X="-8.83" Y="27.33" />
+      <PONTO2DA X="-9.46" Y="26.5" />
+      <PONTO2DA X="-9.86" Y="25.54" />
+    </BOUNDINGBOX>
+    <LIMITS>
+      <MIN X="-10" Y="-28.5" Z="-3.2" />
+      <MAX X="28" Y="28.5" Z="12.5" />
+    </LIMITS>
+    <DIMENSION WIDTH="38" HEIGHT="15.7" DEPTH="57" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="38" HEIGHT="15.7" DEPTH="57" TEXT="CALCOBLUM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Dobradiça Reta Onix" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="Metal_preto_01" EDIT="N" />
+    <COMPONENTDEFINITION ID="AUX" NAME="AUX" IDMATERIAL="Metal_preto_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

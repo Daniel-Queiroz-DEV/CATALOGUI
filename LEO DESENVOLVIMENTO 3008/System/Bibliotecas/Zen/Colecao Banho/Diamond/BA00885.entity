@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Sab Líq ($TEXT$)" ICON="BA0885.jpg">
+  <DRAWING>
+    <FILE3D NAME="diam_sabonet_liquida" />
+    <DIMENSION WIDTH="109" HEIGHT="101" DEPTH="130" />
+  </DRAWING>
+  <INSERTDIMENSION WIDTH="109" HEIGHT="101" DEPTH="130" MODE="Nothing" TEXT="BA0085" />
+  <MODELS>
+    <MODEL IDMODEL="zen_diamond" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Saboneteira Líquida Fixa Diamond @zen_diamond(DESCRICAO)@" />
+  </ATTRIBUTES>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB_MODELO" />
+</ENTITY>

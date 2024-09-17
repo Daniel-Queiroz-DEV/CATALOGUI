@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Kit Montagem" NAME="Kit Montagem" PREFIXID="ace_fer_" DESCRIPTION="Ferragem" INVISIBLE="N">
+  <BUDGET>
+    <INFORMATION RULE="UN_FERRAGENS" />
+    <STEPS />
+    <PRICE PROVIDER="principal" FONT="BancoDados" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <REFERENCE IDREFERENCE="FERRAGEM" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="TIPO_PRODUTO" VALUE="C" VISIBLE="N" />
+    <ATTRIBUTE ID="ESP_MON" VALUE="#P.ESP_MON#" DYNAMIC="Y" VISIBLE="N" />
+    <ATTRIBUTE ID="BUDGETAGGREGATE" VALUE="TRUE" DYNAMIC="Y" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_tekbond 100" DEF="Tekbond.entity" GUID="a901ac32-3b9e-4ec6-ad69-2cff8e20e510" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_aguarras" DEF="roldanas_ext_5_2_2_2_2_2_5_2_2_3.entity" GUID="c1390cce-ffb1-4816-a71b-11e2a603764e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cant_mon_cava" DEF="ace_fer_cant_L_gav_2.entity" GUID="523ca978-e76a-498c-b0d9-5f93e6c28573" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cavilha" DEF="Cavilha.entity" GUID="cfdd73ba-2e46-48f4-bac8-129e9b59be84" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_col_cont" DEF="Cala contato.entity" GUID="367c76ca-ca90-441e-a8f9-906e129aeb57" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cola_branco" DEF="Cola tudo.entity" GUID="6a6d1cbd-526c-44e5-9b0b-beea5c4b9f27" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2" DEF="kit_parafuso.entity" GUID="0f95959e-f43a-4481-b984-b5a04afc88ca" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2" DEF="kit_parafuso_2.entity" GUID="a5881a63-1330-4da4-a0ac-3c64cce05f52" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2_2" DEF="kit_parafuso_3.entity" GUID="40f1787d-5bd0-453d-aa06-7f027a7ad681" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2_2_3" DEF="kit_parafuso_3_3.entity" GUID="9f75adbe-e3b5-474f-88c6-6df0513e05c7" />
+    <EXPLORERITEM TYPE="entity" ID="ACE_DESEMP_AVU" DEF="roldanas_ext_5_2_2_2_2_2_5.entity" GUID="a177e486-d361-473c-9554-5242e84043b2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_esp_expan" DEF="Espuma expansiva.entity" GUID="faff3f6f-c70a-461b-ac48-2305db766323" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_estopa" DEF="Estopa.entity" GUID="325fb5f3-2a29-4a09-a2f5-65cec28b6d8a" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_mont_minifix" DEF="coz_ocu_nao_orc_fer_3087.entity" GUID="566ff534-d273-4807-87d7-82c0adbd0f46" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_18_par_mont" DEF="ace_fer_18_par_mont.entity" GUID="e562fc19-0e03-4cc1-9bd5-9474b9c15008" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2_2_2_3_2" DEF="Bucha Para Drywall.entity" GUID="3370ccdc-e871-4c50-ad10-3b301f771ade" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2_2_2_3" DEF="Bucha MU SFORPLAST.entity" GUID="26e02933-c4af-4f2d-93c4-5b2f0254ca66" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2_2_2" DEF="kit_parafuso_3_2.entity" GUID="c3576fe1-a8c3-45ea-ba8f-cb76c38ced05" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_kit_correcao" DEF="Kit correcao.entity" GUID="1690a342-8c63-4b43-968c-66c13cc2f5fd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_avulso" DEF="ace_fer_par_avulso.entity" GUID="39534780-037f-45b7-8032-1595f06bf229" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_silicone" DEF="Silicone.entity" GUID="3b83dd83-a802-4a00-9a7b-5b125e177e8d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_mfx_avulso_15" DEF="ace_fer_mfx_avulso_15.entity" GUID="f6ef52ad-9f8d-47a8-b260-4d9438fdadca" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_thinner" DEF="Thinner para limpeza.entity" GUID="75bb37a7-a249-4dfc-945f-2716b6d3bdba" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_18_par_mont_yellow" DEF="ace_fer_18_par_mont_2.entity" GUID="03e60b1b-8f8b-49bc-8b73-66f97031d38d" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cavilha_2" DEF="Cavilha_2.entity" GUID="308c7ae2-939b-4208-ae5f-a087865719ca" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_vb35" DEF="35m_19.entity" GUID="357cffe0-05d2-4293-b0c7-169f60841568" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_VB36" DEF="ace_fer_VB36.entity" GUID="7d932f06-6508-4bbf-a28e-d945017b827e" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_mfx_avulso_18" DEF="ace_fer_mfx_avulso_18.entity" GUID="6200c1e2-6d9d-4fff-a06a-0a47a3c3b06f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_vb135" DEF="vb135.entity" GUID="1a060a88-0f37-4f43-abb9-5452d34ee7c4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_vb" DEF="par_vb.entity" GUID="859f3df1-8865-4d12-9c84-dd32db92b108" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_vb_montante" DEF="coz_ocu_nao_orc_fer_1126.entity" GUID="54c7bf46-0b9e-44ce-a82f-4ac748f2f8b4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_cai" DEF="coz_ocu_nao_orc_fer_1283.entity" GUID="87115b90-1661-494e-b987-06c2659d3dbd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_4_16" DEF="coz_ocu_nao_orc_fer_1283_2.entity" GUID="89563bce-e392-4294-95f3-3d305efd56e4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_4_16_2" DEF="coz_ocu_nao_orc_fer_1283_2_2.entity" GUID="8105feeb-f8b6-4eb2-9d17-e87709fa0f77" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_4_16_3" DEF="coz_ocu_nao_orc_fer_1283_2_3.entity" GUID="9dfa7883-bde9-41a3-98da-86668fc81434" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_menor" DEF="coz_ocu_nao_orc_fer_1288.entity" GUID="78c305ae-b85e-4e50-b13d-9cd2fd37d7fa" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_sup_L" DEF="coz_ocu_nao_orc_fer_1290.entity" GUID="6b6b3c30-464c-453b-8e7b-968cb36bcc41" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_sup_L_2" DEF="coz_ocu_nao_orc_fer_1290_2.entity" GUID="ddb678ef-7345-422a-87eb-bba771d557e4" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cav_pass" DEF="ace_fer_1475.entity" GUID="b5cca047-8d66-463e-8383-0e9a7a821299" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cav_pass_yellow" DEF="ace_fer_1475_2.entity" GUID="9a371139-888f-4c7e-894d-7daa702134d6" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cant_L_gav" DEF="ace_fer_cant_L_gav.entity" GUID="0644226a-93d2-46ca-a941-a4367616e99f" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cant_mon_cava_2" DEF="ace_fer_cant_L_gav_2_2.entity" GUID="2756c8f8-a79c-463c-bce1-5b81c23b4467" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cant_mon_cava_3" DEF="ace_fer_cant_L_gav_3.entity" GUID="9736dddd-5f39-4ec3-8e1d-3c695e2c21a2" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_cant_mon_cava_3_2" DEF="ace_fer_cant_L_gav_3_2.entity" GUID="a8036d8b-a276-427c-b5a4-67885b2d6781" />
+    <EXPLORERITEM TYPE="entity" ID="ace_ocu_esc_buc_ame" DEF="ace_ocu_esc_buc_ame.entity" GUID="3a1831b9-36e3-4648-ab2f-a6da3b40d7c1" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_fre_fal" DEF="ace_fer_fre_fal.entity" GUID="2e9326af-1ac3-4ea4-86b4-e1fb99d51649" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_min_mon" DEF="ace_fer_min_mon.entity" GUID="333aba59-70a6-42b7-a3e1-405a389e3558" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_has_min_mon" DEF="ace_fer_has_min_mon.entity" GUID="9362e8cb-3def-4004-ac08-5fc27215be29" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_989" DEF="ace_fer_989.entity" GUID="fa69dbda-e4bb-4d55-b3be-b7a3374aaa37" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_vb54" DEF="vb54.entity" GUID="40c158cd-351b-4dfa-ad0d-1b3287a4b3d8" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_vb54_2" DEF="vb54_2.entity" GUID="ce2ad22a-16dd-4c04-9a91-cb2892c1fbbd" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_vb54" DEF="par_vb54.entity" GUID="24bca2f5-23fb-4c4b-86f7-6d3670cf6f60" />
+    <EXPLORERITEM TYPE="entity" ID="ace_fer_par_kit_2_2_2_2_2" DEF="kit_parafuso_3_2_2.entity" GUID="8393aadf-a3dc-467f-a6df-12294edef887" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

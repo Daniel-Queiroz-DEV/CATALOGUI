@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="CassaGranado" NAME="Cassa Granado" PREFIXID="zen_cas_gra_">
+  <DRAWINGS>
+    <DRAWING ID="ZP5452">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\Puxadores_Integrados\CassaGranado\3D\ZP5452" />
+      <LIMITS>
+        <MIN X="-79.998" Y="-1.85" Z="-26" />
+        <MAX X="79.998" Y="15" Z="26" />
+      </LIMITS>
+      <DIMENSION WIDTH="160" HEIGHT="52" DEPTH="16.9" />
+    </DRAWING>
+  </DRAWINGS>
+  <REFERENCE IDREFERENCE="CODIGO_ACAB" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_cas_gra_160mm" DEF="160mm.group" GUID="ffa9b8a1-36e7-450c-8b0d-0826e6806f38" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

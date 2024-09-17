@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP NAME="Tecno" DIRECTORY="tecno">
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_tecno_pon_2" DEF="Ponto.group" GUID="cb8709ed-8537-4aad-a9da-3401de5c3250" />
+    <EXPLORERITEM TYPE="group" ID="zen_tecno_128_2" DEF="128mm.group" GUID="06443935-dbd3-42e8-a005-b70f1df49066" />
+    <EXPLORERITEM TYPE="group" ID="zen_tecno_224_2" DEF="224mm.group" GUID="6071e955-2ef6-45ae-9f08-7dfb610c6d09" />
+    <EXPLORERITEM TYPE="group" ID="zen_tecno_352_2" DEF="352mm.group" GUID="cb906c0b-7bea-412b-b96c-e312e4be357a" />
+    <EXPLORERITEM TYPE="group" ID="zen_tecno_488_2" DEF="488mm.group" GUID="301fcf8b-b814-4db3-beba-7baa84c017ff" />
+    <EXPLORERITEM TYPE="group" ID="zen_tecno_544_2" DEF="544mm.group" GUID="2a559dbc-2576-4b34-921c-982c17a6070a" />
+  </EXPLORERITEMCOLLECTION>
+  <DRAWINGS>
+    <DRAWING ID="TECNO_PONTO">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\tecno_ponto" />
+      <DIMENSION WIDTH="8" HEIGHT="38" DEPTH="29" />
+      <LIMITS>
+        <MIN X="-4" Y="-29" Z="-28.5" />
+        <MAX X="4" Y="0" Z="9.5" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TECNO_128MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\tecno_128mm" />
+      <DIMENSION WIDTH="139" HEIGHT="8" DEPTH="29" />
+      <LIMITS>
+        <MIN X="-69.5" Y="-29" Z="-4" />
+        <MAX X="69.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TECNO_224MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\tecno_224mm" />
+      <DIMENSION WIDTH="235" HEIGHT="8" DEPTH="29" />
+      <LIMITS>
+        <MIN X="-117.5" Y="-29" Z="-4" />
+        <MAX X="117.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TECNO_352MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\tecno_352mm" />
+      <DIMENSION WIDTH="363" HEIGHT="8" DEPTH="29" />
+      <LIMITS>
+        <MIN X="-181.5" Y="-29" Z="-4" />
+        <MAX X="181.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TECNO_488MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\tecno_488mm" />
+      <DIMENSION WIDTH="459" HEIGHT="8" DEPTH="29" />
+      <LIMITS>
+        <MIN X="-229.5" Y="-29" Z="-4" />
+        <MAX X="229.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="TECNO_544MM">
+      <FILE3D NAME="%PastaSistema%\Bibliotecas\Zen\3D\tecno_544mm" />
+      <DIMENSION WIDTH="565" HEIGHT="8" DEPTH="29" />
+      <LIMITS>
+        <MIN X="-282.5" Y="-29" Z="-4" />
+        <MAX X="282.5" Y="0" Z="4" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+</GROUP>

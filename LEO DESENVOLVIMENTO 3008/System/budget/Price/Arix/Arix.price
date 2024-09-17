@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PRICEPROVIDER DESCRIPTION="Arix" ID="Arix">
+  <SOURCES>
+    <SOURCE CLASS="ProCAD.Precos.Fontes.FontePrecoBancoDados" DATABASE="%PastaPrice%\Arix\Arix.mdb" ID="BancoDados" COLUMNPRICE="Price" SEARCHFIRSTPERSONALBASE="N" CANMODIFY="Y" COLUMNCODE="Code" TABLE="Prices" DLL="ProCAD.Precos.dll" SEARCHONLYPERSONALBASE="N" />
+  </SOURCES>
+</PRICEPROVIDER>

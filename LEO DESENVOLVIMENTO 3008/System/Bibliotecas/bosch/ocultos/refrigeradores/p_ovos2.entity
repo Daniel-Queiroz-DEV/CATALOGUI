@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Ovos 2" ICON="P_OVOS2.jpg">
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Porta Ovos 2" />
+  </ATTRIBUTES>
+  <DRAWING>
+    <FILE3D NAME="P_OVOS2" />
+    <DIMENSION WIDTH="512" HEIGHT="70" DEPTH="81" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_acril" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

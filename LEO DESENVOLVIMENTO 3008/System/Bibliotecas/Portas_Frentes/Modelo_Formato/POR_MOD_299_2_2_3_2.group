@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="POR_MOD_299_2_2_3_2" NAME="Dormitório Dir Premium Movie" PREFIXID="POR_ALU_" MODELNAME="Portas" INVISIBLE="N" ORDERSTRING="001">
+  <REFERENCE COMPLETE="$TEXT$.$D$.$MODEL$" ITEM_BASE="$TEXT$" MODEL="@COM_*@" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_1466_4_2_3_2" DEF="gola.entity" GUID="3e86bc17-8ad9-46c2-bc44-b8910ce4b155" />
+    <EXPLORERITEM TYPE="entity" ID="POR_MOD_DOR_gola_4_2_2_2_2_3_2_2" DEF="gola_4.entity" GUID="efa44b16-6ddf-4b06-841f-f9e925fe9777" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

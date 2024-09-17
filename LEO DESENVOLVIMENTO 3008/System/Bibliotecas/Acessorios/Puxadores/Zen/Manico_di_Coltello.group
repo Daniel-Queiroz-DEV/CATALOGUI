@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="Manico_di_Coltello" NAME="Manico di Coltello" PREFIXID="zen_man_col_" INVISIBLE="N" MODELINVISIBLE="N">
+  <DRAWINGS>
+    <DRAWING ID="MANICO_WOOD_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MANICO_WOOD_160MM" />
+      <DIMENSION WIDTH="215" HEIGHT="32" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-107.5" Y="-36" Z="-16" />
+        <MAX X="107.5" Y="0" Z="16" />
+      </LIMITS>
+    </DRAWING>
+    <DRAWING ID="MANICO_METAL_160MM">
+      <FILE3D NAME="%PastaSistema%\bibliotecas\Zen\3D\MANICO_METAL_160MM" />
+      <DIMENSION WIDTH="215" HEIGHT="32" DEPTH="36" />
+      <LIMITS>
+        <MIN X="-107.5" Y="-36" Z="-16" />
+        <MAX X="107.5" Y="0" Z="16" />
+      </LIMITS>
+    </DRAWING>
+  </DRAWINGS>
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="zen_man_col_160_met" DEF="160mm_Metal.group" GUID="9e5022d9-3f2c-47d3-8336-4d259c2c64dc" />
+    <EXPLORERITEM TYPE="group" ID="zen_man_col_160_woo" DEF="160mm_Wood.group" GUID="c85d77d0-2b91-497c-ba9a-584e96d1aa64" />
+  </EXPLORERITEMCOLLECTION>
+</GROUP>

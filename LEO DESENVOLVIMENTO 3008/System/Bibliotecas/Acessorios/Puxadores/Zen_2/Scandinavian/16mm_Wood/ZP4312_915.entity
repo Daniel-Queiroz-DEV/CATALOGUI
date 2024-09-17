@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Níquel Velho ($TEXT$.$D.ACAB$)" ICON="Scandinavian.jpg">
+  <DRAWING ID="Scandinavian_16mm_WS" />
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="PUXADOR" NAME="PUXADOR" IDMATERIAL="zen_niquel_vec_hor" EDIT="N" />
+    <COMPONENTDEFINITION ID="DETALHE" NAME="DETALHE" IDMATERIAL="zen_woo_2017" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <INSERTDIMENSION TEXT="ZP4312" ACAB="915" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Scandinavian 16mm Wood/ Níquel Velho" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

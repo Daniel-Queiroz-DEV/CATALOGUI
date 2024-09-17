@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Fixador Frontal" ICON="fix.jpg">
+  <DRAWING>
+    <BOUNDINGBOX HEIGHT="98">
+      <PONTO2DA X="19.52" />
+      <PONTO2DA />
+      <PONTO2DA Y="-22.3" />
+      <PONTO2DA X="19.5" Y="-22.3" />
+    </BOUNDINGBOX>
+    <FILE3D NAME="fixador2" />
+    <LIMITS>
+      <MIN X="0" Y="-22.312" Z="0" />
+      <MAX X="19.515" Y="0" Z="98" />
+    </LIMITS>
+    <DIMENSION WIDTH="19.5" HEIGHT="101.1" DEPTH="22.3" />
+  </DRAWING>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="ACESSORIOS" NAME="ACESSORIOS" IDMATERIAL="aluminio_01" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+  <BUDGET>
+    <PRICE PROVIDER="Blum" FONT="Blum" REFERENCE="COMPLETE" />
+  </BUDGET>
+  <REFERENCE COMPLETE="$TEXT$" ITEM_BASE="$TEXT$" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Kit Fixação Frontal HS" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="False" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="19.5" HEIGHT="98" DEPTH="22" TEXT="20S4200" DESC="" />
+</ENTITY>

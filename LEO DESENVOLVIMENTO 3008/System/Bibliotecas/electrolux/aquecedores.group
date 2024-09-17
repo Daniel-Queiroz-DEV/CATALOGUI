@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GROUP DIRECTORY="aquecedores" NAME="Aquecedores" PREFIXID="ele_aque_" INVISIBLE="N">
+  <MODELS DEF="aquecedores\aquecedores.model" />
+  <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="ele_aque_dig" DEF="digital.group" GUID="2ee866e9-9256-4a81-bc10-2bc6af0a6732" />
+    <EXPLORERITEM TYPE="group" ID="ele_aque_mec" DEF="mecanico.group" GUID="d61d65d9-f289-48e5-9957-55a00e60ce24" />
+  </EXPLORERITEMCOLLECTION>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="PEDIDOFABRICA" VALUE="False" DYNAMIC="Y" VISIBLE="Y" />
+  </ATTRIBUTES>
+</GROUP>

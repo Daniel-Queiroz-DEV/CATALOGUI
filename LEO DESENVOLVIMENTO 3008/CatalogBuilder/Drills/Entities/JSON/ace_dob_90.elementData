@@ -1,0 +1,42 @@
+{
+  "MakerData": {
+    "Drillings": [
+      {
+        "Name": "Furação01",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "11"
+        },
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "56/2+16",
+          "Y": "12"
+        },
+        "ElementId": "ace_dob_90"
+      },
+      {
+        "Name": "Furação02",
+        "MakerDrillName": "Nenhum",
+        "MakerDepth": {
+          "Value": "0"
+        },
+        "ReceiverDrillName": "Furo06",
+        "ReceiverDepth": {
+          "Value": "11"
+        },
+        "UniqueID": 1,
+        "PlaneType": "Superior",
+        "Position": {
+          "X": "56/2-16",
+          "Y": "12"
+        },
+        "ElementId": "ace_dob_90"
+      }
+    ]
+  },
+  "ElementId": "ace_dob_90"
+}

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ReceiverData="{assembly:Null}"
+  DefaultPlane="{assembly:Null}"
+  ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          Name="Furação01"
+          InsertDowel="False"
+          Condition="'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo38"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="0"
+          PlaneIndex="2"
+          Position="38;$H$-10"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+        <Drilling
+          Name="Furação02"
+          InsertDowel="False"
+          Condition="'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo38"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="1"
+          PlaneIndex="2"
+          Position="110;$H$-10"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+        <Drilling
+          Name="Furação04"
+          InsertDowel="False"
+          Condition="'#BLU_AVE_FUR_EXT_HKS#' == 'SIM'"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo38"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_EXT_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="3"
+          PlaneIndex="2"
+          Position="20.5;$H$-79"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+        <Drilling
+          Name="Furação03"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo37"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_GUIA_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="4"
+          PlaneIndex="2"
+          Position="22;$H$-47"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+        <Drilling
+          Name="Furação05"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo37"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_GUIA_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="5"
+          PlaneIndex="2"
+          Position="86;$H$-47"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+        <Drilling
+          Name="Furação09"
+          InsertDowel="False"
+          Condition="{assembly:Null}"
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo37"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_GUIA_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="9"
+          PlaneIndex="0"
+          Position="$D$/2;$H$-$H$+18,3"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+        <Drilling
+          Name="Furação10"
+          InsertDowel="False"
+          Condition=""
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          ReceiverDrillName="Furo37"
+          ReceiverDepth="#BLU_AVE_PROF_FUR_GUIA_HKS#"
+          CurrentEntityDynamicHole="{assembly:Null}"
+          UniqueID="10"
+          PlaneIndex="0"
+          Position="$D$/2;$H$-18,3"
+          ElementId="Sta_Blu_Hkxs_Acu_Esq_2_2" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Saboneteira Liquida de Balcão ($TEXT$)" CHECKED="N" ICON="BA0613.jpg">
+  <DRAWING>
+    <FILE3D NAME="saboneteira liquida de balcao" />
+    <DIMENSION WIDTH="120.9" HEIGHT="133" DEPTH="139.5" />
+  </DRAWING>
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Meio" />
+  <INSERTDIMENSION WIDTH="120" HEIGHT="133" DEPTH="140" TEXT="BA0613" ACAB="" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Elemento Zen Saboneteira Liquida De Balcao @Zen_Elemento_Zen(DESCRICAO)@" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cro" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_cro_ino" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ino_pol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ino_esc" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_red_gol" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_ros" SAMEID="N" />
+    <REMOVEMODELOPTION ID="zen_ban_ele_zen_BA0613" MODEL="Zen_Elemento_Zen" MODELTYPE="Zen_ele_zen_vec_cob" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

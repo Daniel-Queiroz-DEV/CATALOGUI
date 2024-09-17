@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="600 Bosch" ICON="DHS64K41AD.jpg">
+  <DRAWING>
+    <FILE3D NAME="DHS64K41AD" />
+    <DIMENSION WIDTH="600" HEIGHT="130" DEPTH="520" />
+  </DRAWING>
+  <REFERENCE COMPLETE="7891646007729" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="Description" VALUE="Depurador Bosch 60 cm - DHS64K41AD" VISIBLE="N" />
+  </ATTRIBUTES>
+  <COMPONENTDEFINITIONCOLLECTION>
+    <COMPONENTDEFINITION ID="bosch_branco" NAME="bosch_branco" IDMATERIAL="bosch_branco1" EDIT="N" />
+    <COMPONENTDEFINITION ID="bosch_trans" NAME="bosch_trans" IDMATERIAL="bosch_vidro_inc" EDIT="N" />
+  </COMPONENTDEFINITIONCOLLECTION>
+</ENTITY>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="kit_suspenso" EntityId="ace_ocu_kit_sus" Name="Kit Suspenso" GroupName="Kit Suspenso" Description="Acessórios" CanMirror="N">
+		<Dimension Width="$PW$" />
+		<Position X="$P.W$/2-$W$/2" Y="-#COZ_CON_AFA_FUN_MOV#" Rotation="0">
+			<Min Z="0" />
+			<Max Z="$P.H$-$H$" />
+			<Increment Z="1" />
+		</Position>		
+	</Item>

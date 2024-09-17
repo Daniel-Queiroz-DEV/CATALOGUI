@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_ocu_esc_fur" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo27"
+          ReceiverDepth="35"
+          UniqueID="0"
+          PlaneType="Superior"
+          OperationPrice="{assembly:Null}"
+          Position="500;500"
+          ElementId="ace_ocu_esc_fur" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo27"
+          ReceiverDepth="(#ESP_TAM#+#FOL_PAI#)"
+          UniqueID="1"
+          PlaneType="Inferior"
+          OperationPrice="{assembly:Null}"
+          Position="0,5;0,5"
+          ElementId="ace_ocu_esc_fur" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+</DrillingData>

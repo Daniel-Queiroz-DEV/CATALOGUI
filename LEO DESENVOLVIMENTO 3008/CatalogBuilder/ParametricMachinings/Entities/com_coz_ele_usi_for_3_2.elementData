@@ -1,0 +1,29 @@
+{
+  "ParametricMachinings": [
+    {
+      "$type": "Procad.Builder.Core.FactoryOperations.ParametricMachinings.RectangularParametricMachining, Procad.Builder.Core",
+      "Width": {
+        "Value": "#COZ_EST_ELE_ALT_FOR# "
+      },
+      "Height": {
+        "Value": "#COZ_EST_ELE_LAR_FOR#"
+      },
+      "CornerRadius": {},
+      "Angle": {},
+      "Name": "Usinagem Vao Inferior",
+      "Depth": {
+        "Value": "$H$"
+      },
+      "OperationType": "Static",
+      "UniqueID": 1,
+      "PlaneType": "Superior",
+      "OperationPrice": "USINAGEM",
+      "Position": {
+        "X": "#COZ_EST_ELE_FOR_BAS#",
+        "Y": "($D$/2)-(#COZ_EST_ELE_LAR_FOR#/2)"
+      },
+      "ElementId": "com_coz_ele_usi_for_3_2"
+    }
+  ],
+  "ElementId": "com_coz_ele_usi_for_3_2"
+}

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Item Id="gav_tanbox_alt_cub" Name="Gaveta Tandembox Alta Cuba" GroupName="Gavetas" Type="Drawer" Description="Gaveta Tandembox Alta Cub" CanMirror="N">
+		<Dimension Width="$pw$" Height="$P.H$" Depth="Floor(($P.D$-(#COZ_ESP_FUN#+#FOL_PAI#)-#COZ_CON_AFA_FUN_MOV#-#VAO_GAV#)/50)*50" />
+		<Position X="0" Y="-$P.D$" />
+			<Alternatives> 
+		<Alternative Id="gav_tanbox_alt" EntityId="COZ_CAI_GAV_BLUM_TAN_BOX_ALT_CUB">
+				<Conditions>
+					<TestExpression Expression="'#BLU_TAM_ALT#' == 'SIM' &amp;&amp; $PW$ &gt;= 900 &amp;&amp; $PD$ &gt;= 480" />
+				</Conditions>
+
+			</Alternative>
+		</Alternatives> 	
+		<Variables>
+			<Variable Id="DrawingType" Value="DrawerFront" />
+			<Variable Id="DefaultDrawersQuantity" Value="4" />
+			<Variable Id="SpaceBetweenDrawers" Value="@('#COZ_CON_SENTIDO_TRAVESSA#'=='Horizontal' ? #FOL_ENT_GAV# : #FOL_ENT_GAV#+#COZ_CON_DIM_TRA_FRO_VER_HOR#-(#COZ_ESP_TES#+#FOL_PAI#))" />
+			<Variable Id="UpperDrawersOffset" Value="@('#COZ_CON_SENTIDO_TRAVESSA#'=='Horizontal' ? #FOL_SUP_POR#-(#COZ_ESP_TES#+#FOL_PAI#) : #FOL_SUP_POR#+#COZ_CON_DIM_TRA_FRO_VER_HOR#-(#COZ_ESP_TES#+#FOL_PAI#)-(#COZ_ESP_BAS#+#FOL_PAI#)-1)" />
+			<Variable Id="LowerDrawersOffset" Value="#FOL_INF_POR#+1" />	
+		</Variables>
+		<Front Id="gav_frente" EntityId="POR_FRE_FRE" Tag="Frente" ModelName="Const Arm - Frentes" Type="Front" FollowsOpening="Y">
+			<Dimension Width="$P.W$+2*(#COZ_ESP_LAT#+#FOL_PAI#)-2*#FOL_ENT_PT_LAR#" Height="@('#COZ_CON_SENTIDO_TRAVESSA#'=='Horizontal' ? $PH$ : $PH$+#COZ_CON_DIM_TRA_FRO_VER_HOR#-(#COZ_ESP_TES#+#FOL_PAI#)-#FOL_AJU#)" />
+			<Position X="-(#COZ_ESP_LAT#+#FOL_PAI#)+#FOL_ENT_PT_LAR#" Y="0" Z="-(#COZ_ESP_BAS#+#FOL_PAI#)-1" />
+      <Sets>
+        <SetAttribute ID="TIPO_TRILHO" VALUE="'BLUM'" />
+      </Sets>
+		      <Actions>
+				<ResizeItem Side="Left" Value="-(#COZ_ESP_LAT#+#FOL_PAI#)/2">
+					<Conditions>
+						<Or>
+							  <HasNeighbourItem ItemType="Front" Side="Left" />
+							  <HasNeighbourItem ItemType="Drawer" Side="Left" />
+						</Or>
+					</Conditions>
+				</ResizeItem>
+				
+				<ResizeItem Side="Right" Value="-(#COZ_ESP_LAT#+#FOL_PAI#)/2">
+					<Conditions>
+						<Or>
+							  <HasNeighbourItem ItemType="Front" Side="Right" />
+							  <HasNeighbourItem ItemType="Drawer" Side="Right" />
+						</Or>
+					</Conditions>
+				</ResizeItem>
+			</Actions>
+ 		</Front>            
+        <Actions>
+                
+				<ResizeItem Side="Bottom" Value="-(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_INF_POR#+(#COZ_ESP_PRAT_FIX#+#FOL_PAI#)/2-#FOL_ENT_GAV#/2">
+					<Conditions>
+						<or>
+							  <HasNeighbourItem ItemType="Front" Side="Bottom" />
+							  <HasNeighbourItem ItemType="Drawer" Side="Bottom" />
+						</or>
+					</Conditions>
+				</ResizeItem>
+				
+				
+				<ResizeItem Side="Top" Value="(#COZ_ESP_BAS#+#FOL_PAI#)/2+#FOL_SUP_POR#-#FOL_ENT_GAV#/2">
+					<Conditions>
+						<or>
+							  <HasNeighbourItem ItemType="Front" Side="Top" />
+							  <HasNeighbourItem ItemType="Drawer" Side="Top" />
+						</or>
+					</Conditions>
+				</ResizeItem>
+							
+
+
+
+				
+				<ResizeItem Side="Top" Value="(#COZ_ESP_BAS#+#FOL_PAI#)+#FOL_SUP_POR#-#FOL_ENT_GAV#">
+					<Conditions>
+					
+						<IsUpperGap not="y" />
+						<or not="y">
+							<HasNeighbourItem ItemType="Front" Side="Top" />
+							<HasNeighbourItem ItemType="Drawer" Side="Top" />
+						</or>
+					</Conditions>
+				</ResizeItem> 
+
+				
+        </Actions>
+	</Item>

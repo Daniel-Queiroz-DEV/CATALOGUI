@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DrillingData
+  ElementId="ace_fer_cav_formar" xmlns="clr-namespace:Procad.Builder.Core.FactoryOperations.Drills;assembly=Procad.Builder.Core" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrillingData.MakerData>
+    <DrillingMakerData>
+      <DrillingMakerData.Drillings>
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação02"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="11"
+          UniqueID="1"
+          PlaneIndex="3"
+          OperationPrice="{assembly:Null}"
+          Position="5;5"
+          ElementId="ace_fer_cav_formar" />
+        <Drilling
+          DrillingType="Dynamic"
+          MakerDrillName="Nenhum"
+          MakerDepth="0"
+          Name="Furação01"
+          ReceiverDrillName="Furo01"
+          ReceiverDepth="30"
+          UniqueID="2"
+          PlaneIndex="1"
+          OperationPrice="{assembly:Null}"
+          Position="5;5"
+          ElementId="ace_fer_cav_formar" />
+      </DrillingMakerData.Drillings>
+    </DrillingMakerData>
+  </DrillingData.MakerData>
+  <DrillingData.ReceiverData>
+    <DrillingReceiverData
+      AllowedDrillsNames="" />
+  </DrillingData.ReceiverData>
+</DrillingData>

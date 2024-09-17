@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Quadro ($TEXT$)" ICON="mini_quadro.jpg">
+  <INSERTDIMENSION TEXT="100.237" />
+  <DRAWING>
+    <FILE3D NAME="mini_quadro_100237" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="43" HEIGHT="37" DEPTH="30" />
+    <LIMITS>
+      <MIN X="-21.5" Y="-29.56" Z="-31.5" />
+      <MAX X="21.854" Y="0" Z="5.252" />
+    </LIMITS>
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="Par_obi_met" ENTRYID="puxadorea" />
+  </MODELS>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="obi_32_min_qua" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_bla_sil" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_min_qua" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_niq_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_min_qua" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_lat_vel" SAMEID="N" />
+    <REMOVEMODELOPTION ID="obi_32_min_qua" MODEL="Par_obi_met" MODELTYPE="Par_obi_met_our" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Mini Quadro 32mm" VISIBLE="N" />
+  </ATTRIBUTES>
+</ENTITY>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Lixeira 1,5 litros ($TEXT$)" ICON="BA0285.jpg">
+  <DRAWING>
+    <FILE3D NAME="BA0285" />
+    <LIMITS>
+      <MIN X="0" Y="-133" Z="0" />
+      <MAX X="131" Y="0" Z="135" />
+    </LIMITS>
+    <DIMENSION WIDTH="131" HEIGHT="135" DEPTH="133" />
+  </DRAWING>
+  <MODELS>
+    <MODEL IDMODEL="zen_vintage" ENTRYID="pux_zen" />
+  </MODELS>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Vintage Lixeira 1,5 litros" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="131" HEIGHT="136" DEPTH="131" TEXT="BA0285" />
+  <BUDGET>
+    <MARGIN IPI="IPI_0" />
+  </BUDGET>
+</ENTITY>

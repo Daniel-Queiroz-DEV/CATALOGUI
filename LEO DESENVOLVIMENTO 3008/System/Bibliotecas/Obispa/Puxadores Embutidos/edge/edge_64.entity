@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="64mm ($TEXT$)" ICON="edge.jpg">
+  <INSERTDIMENSION TEXT="100.647" />
+  <DRAWING>
+    <FILE3D NAME="edge_100647" FORMAT=".PMOB" />
+    <DIMENSION WIDTH="100" HEIGHT="31" DEPTH="46" />
+  </DRAWING>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Puxador Embutido Edge 64mm" VISIBLE="N" />
+  </ATTRIBUTES>
+  <REMOVEMODELOPTIONS>
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_edg_64" MODEL="Obi_emb" MODELTYPE="Obi_emb_pux_col" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_edg_64" MODEL="Obi_emb_met" MODELTYPE="obi_met_met_niq" SAMEID="N" />
+    <REMOVEMODELOPTION ID="pux_obi_pux_emb_edg_64" MODEL="Obi_emb_met" MODELTYPE="obi_met_cro" SAMEID="N" />
+  </REMOVEMODELOPTIONS>
+</ENTITY>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Metal Simples ($TEXT$)" ICON="metal_simples.jpg">
+  <DRAWING>
+    <FILE3D NAME="PE02R" />
+    <LIMITS>
+      <MIN X="-400" Y="-400" Z="0" />
+      <MAX X="400" Y="400" Z="720" />
+    </LIMITS>
+    <DIMENSION WIDTH="800" HEIGHT="720" DEPTH="800" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_MeioAltura" />
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Pé Metal Simples p/ Mesa Redonda $REFERENCE(COR)$" VISIBLE="N" />
+    <ATTRIBUTE ID="COMPONENT" VALUE="False" VISIBLE="N" />
+    <ATTRIBUTE ID="VOLUME" VALUE="VOLFER" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION HEIGHT="700" WIDTH="#ESC_PRO_PES_REU_RED_MET#" DEPTH="#ESC_PRO_PES_REU_RED_MET#" TEXT="PERMS">
+    <MIN HEIGHT="50" />
+    <MAX HEIGHT="1500" />
+  </INSERTDIMENSION>
+</ENTITY>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ENTITY NAME="Furo Quadrado 18mm" TYPE="GEOMETRY" ICON="Furo Quadrado.jpg" INVISIBLE="Y" MODELINVISIBLE="Y">
+  <DRAWING>
+    <FILE3D NAME="com_coz_bas_dia_2_3" FORMAT=".DXF" />
+    <LIMITS>
+      <MIN X="0" Y="-500" Z="0" />
+      <MAX X="500" Y="0" Z="150" />
+    </LIMITS>
+    <BOUNDINGBOX HEIGHT="150">
+      <PONTO2DA />
+      <PONTO2DA Y="-500" />
+      <PONTO2DA X="500" Y="-500" />
+      <PONTO2DA X="500" />
+    </BOUNDINGBOX>
+    <DIMENSION WIDTH="500" HEIGHT="150" DEPTH="500" />
+  </DRAWING>
+  <REDIMSERVICE CODON="/documentos/sugestao/redimServices/RedimParametrico_Geral" />
+  <REFERENCE COMPLETE="$P.REFERENCE(COMPLETE)$" ITEM_BASE="$ITEM_BASE$" />
+  <BUDGET>
+    <INFORMATION RULE="M2_LxP" />
+  </BUDGET>
+  <ATTRIBUTES>
+    <ATTRIBUTE ID="description" VALUE="Furo Quadrado 18mm" VISIBLE="N" />
+    <ATTRIBUTE ID="Calculated" VALUE="True" VISIBLE="N" />
+  </ATTRIBUTES>
+  <INSERTDIMENSION WIDTH="500" HEIGHT="@(18+#FOL_PAI#)" DEPTH="500" TEXT="PAI" DESC="" ITEM_BASE="FUSI01">
+    <MIN WIDTH="50" DEPTH="50" />
+    <MAX WIDTH="2600" DEPTH="1000" />
+    <INCREMENT WIDTH="1" DEPTH="1" />
+  </INSERTDIMENSION>
+</ENTITY>

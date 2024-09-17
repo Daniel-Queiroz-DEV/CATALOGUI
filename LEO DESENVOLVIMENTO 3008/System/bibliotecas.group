@@ -40,6 +40,43 @@
   </BUDGET>
   <DRAWINGS />
   <EXPLORERITEMCOLLECTION>
+    <EXPLORERITEM TYPE="group" ID="COZ" DEF="Cozinha.group" GUID="991923e2-07b5-4f4a-b32f-6d6b749cacfe" />
+    <EXPLORERITEM TYPE="group" ID="COZ_3" DEF="Cozinha_3.group" GUID="3a461167-e6e2-4304-9050-25cb29161b2a" />
+    <EXPLORERITEM TYPE="group" ID="COZ_YELLOW" DEF="Cozinha_4.group" GUID="6dfb2bca-495c-41c2-a7a6-320770b96271" />
+    <EXPLORERITEM TYPE="group" ID="BAN" DEF="Banheiro.group" GUID="a897f339-19ca-4c25-a697-84ca3d23f9e1" />
+    <EXPLORERITEM TYPE="group" ID="DOR" DEF="Dormitorio.group" GUID="152a8aeb-7555-4443-bfb5-3b010b9bd382" />
+    <EXPLORERITEM TYPE="group" ID="PaiLEO Ripado" DEF="PaiLEO Ripado.group" GUID="a90ab9a3-4afb-4b89-b626-e394412629b0" />
+    <EXPLORERITEM TYPE="group" ID="PAI_FREGGIO" DEF="Paineis_2.group" GUID="de6d6c5a-c0c3-40ff-9830-eff23ebae628" />
+    <EXPLORERITEM TYPE="group" ID="NICHO" DEF="Nichos.group" GUID="341641e3-13a0-43af-8214-8bd855f88815" />
+    <EXPLORERITEM TYPE="group" ID="PAI" DEF="Paineis.group" GUID="ccdf61ca-becd-40d6-9ae9-e7f2df12c273" />
+    <EXPLORERITEM TYPE="group" ID="REG" DEF="Reguas.group" GUID="5f55e982-d10c-48fd-a1f6-de96773e79e7" />
+    <EXPLORERITEM TYPE="group" ID="REG_3" DEF="Reguas_3.group" GUID="2d483591-f5db-494c-856d-7bf04420a424" />
+    <EXPLORERITEM TYPE="group" ID="REG_MAO_AMIGA" DEF="Reguas_3_3.group" GUID="4b59ef37-d13d-4b19-92b2-e6e2a02fad0e" />
+    <EXPLORERITEM TYPE="group" ID="REG_3_2" DEF="Reguas_3_2.group" GUID="0195e085-5596-4729-a4b9-f411777c82e0" />
+    <EXPLORERITEM TYPE="group" ID="REG_2" DEF="Reguas_2.group" GUID="6b89353e-a654-40bf-a48f-ad58af5dfbf9" />
+    <EXPLORERITEM TYPE="group" ID="PAI_PRA" DEF="Prateleiras.group" GUID="871f06ab-0905-42f8-9c7f-8b5a650293fb" />
+    <EXPLORERITEM TYPE="group" ID="raiz_tam_tamp" DEF="Tampos.group" GUID="90be746d-be3b-4d97-a610-e90818041ee8" />
+    <EXPLORERITEM TYPE="group" ID="raiz_tamb" DEF="Tamburatos.group" GUID="58a51e91-7c20-45df-9a41-5f90fb188812" />
+    <EXPLORERITEM TYPE="group" ID="POR" DEF="Portas_Frentes.group" GUID="a392a085-bab7-4742-94cc-991d1283672b" />
+    <EXPLORERITEM TYPE="group" ID="ACE" DEF="Acessorios.group" GUID="28d2a65e-ee1a-4552-9fd4-3bf326e1c71f" />
+    <EXPLORERITEM TYPE="group" ID="Sta_fer" DEF="ferragens.group" GUID="7dc21892-a8d5-4cb3-93f3-f2f08d156934" />
+    <EXPLORERITEM TYPE="group" ID="fgv" DEF="FgvTn.group" GUID="54f93e7b-f2dd-4cd2-a7a5-0eabd4755905" />
+    <EXPLORERITEM TYPE="group" ID="decore" DEF="Decore.group" GUID="ca1bb1cc-1d9f-40f9-9de9-1cd6519b1d79" />
+    <EXPLORERITEM TYPE="group" ID="Sta_Blu" DEF="Blum.group" GUID="7935dc49-9ec4-48b9-8ba6-bf8e40484bdc" />
+    <EXPLORERITEM TYPE="group" ID="COM" DEF="Montagem.group" GUID="4d01f38a-783b-4213-bead-708e43b6427d" />
+    <EXPLORERITEM TYPE="group" ID="Com_Gerais" DEF="Composicao.group" GUID="a0e78f3f-f803-4d6a-9902-3fc3e25dabe1" />
+    <EXPLORERITEM TYPE="group" ID="raiz_seq" DEF="Tamburatos_2.group" GUID="e70f2ddc-ec26-4175-92fa-06873161a559" />
+    <EXPLORERITEM TYPE="group" ID="REG_3_2_2" DEF="Reguas_3_2_2.group" GUID="362cc4a4-30df-466e-9bde-f45b693defe7" />
+    <EXPLORERITEM TYPE="group" ID="DOR_2" DEF="Dormitorio_3.group" GUID="7638f92c-de82-445a-85c8-9ddc30fff436" />
+    <EXPLORERITEM TYPE="group" ID="ESC" DEF="Escritorios.group" GUID="96343610-b888-4f44-8e7b-9220641c4bbf" />
+    <EXPLORERITEM TYPE="group" ID="Eletrolux" DEF="Electrolux.group" GUID="ee00c6c8-db63-4624-b3be-59b5d120af42" />
+    <EXPLORERITEM TYPE="group" ID="bosch" DEF="Bosch.group" GUID="912e1640-6e1b-4b83-877e-aad5c05971a5" />
+    <EXPLORERITEM TYPE="group" ID="pux_obi" DEF="Obispa.group" GUID="ff550a95-796a-458a-aa49-d18e97c8ccba" />
+    <EXPLORERITEM TYPE="group" ID="puxadores" DEF="Puxadores.group" GUID="f3e9a36e-a485-4463-b8a7-9899767c7927" />
+    <EXPLORERITEM TYPE="group" ID="pux_zen" DEF="Zen.group" GUID="0ada3ea9-7b18-4b9a-bdec-2c971889eb01" />
+    <EXPLORERITEM TYPE="group" ID="Der" DEF="Decoracao.group" GUID="fd69db21-b0c7-4fd9-bf0f-11262d06059a" />
+    <EXPLORERITEM TYPE="group" ID="Dorm_ye" DEF="Dorm Yellow.group" GUID="59f78685-17ef-49b4-9ccf-66f9e70d49ce" />
+    <EXPLORERITEM TYPE="group" ID="COZ_2" DEF="Cozinha_2.group" GUID="f2618493-2ee6-4947-b442-dc55b27c3019" />
     <EXPLORERITEM TYPE="group" ID="COZ" DEF="Cozinha.group" GUID="2b9e9a1b-48f0-49ec-8970-03777e3e5e1f" />
     <EXPLORERITEM TYPE="group" ID="COZ_3" DEF="Cozinha_3.group" GUID="74369d3a-a5b1-4b6f-8220-1e029b328f86" />
     <EXPLORERITEM TYPE="group" ID="COZ_YELLOW" DEF="Cozinha_4.group" GUID="ade6e5e0-6815-457d-ba05-9efdb6e245c9" />
